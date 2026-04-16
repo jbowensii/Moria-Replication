@@ -1,2 +1,5 @@
 # Third-party tools (large binaries, installed locally)
 tools/
+
+# VS Code workspace (user-specific)
+*.code-workspace

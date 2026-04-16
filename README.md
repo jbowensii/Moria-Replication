@@ -51,6 +51,37 @@ The `tools/` directory is gitignored and contains third-party tools needed for t
 | **JsonAsAsset** | UE4.27.2 | Download from [JsonAsAsset releases](https://github.com/JsonAsAsset/JsonAsAsset/releases) → extract to `tools/JsonAsAsset/` | Import FModel JSON exports into UE4 editor |
 | **JsonAsAsset Cloud Server** | Latest | Download from [Tectors/Core releases](https://github.com/Tectors/Core/releases) → extract to `tools/JsonAsAssetServer/` | Auto-resolve asset dependencies during import (requires ASP.NET 8.0+) |
 
+## Scripts
+
+Automation scripts for the modding pipeline. Located in `scripts/`.
+
+### extract_game_assets.py
+
+Automates full extraction of game assets from the Return to Moria IoStore pak using retoc, then validates that all critical assets are present and cross-references against FModel JSON exports.
+
+**When to use:** Run once during initial setup (Phase 1) to extract all game assets. Re-run with `--validate` after FModel exports to verify coverage.
+
+```bash
+# Full extraction — unpacks entire game pak (~29 GB output) + validates
+python scripts/extract_game_assets.py
+
+# Validate only — check existing extraction without re-extracting
+python scripts/extract_game_assets.py --validate
+
+# Dry run — index pak and show asset stats without extracting
+python scripts/extract_game_assets.py --dry-run
+
+# Show asset type breakdown
+python scripts/extract_game_assets.py --stats
+
+# Analyze existing mod pak structure
+python scripts/extract_game_assets.py --study-mods
+```
+
+**Output locations:**
+- Raw assets (.uasset/.umap): `tools/extracted-assets/`
+- FModel JSON exports: `tools/fmodel-export/` (created manually via FModel GUI)
+
 ### Prerequisites
 
 - **Rust/Cargo** (for retoc): [rustup.rs](https://rustup.rs)
