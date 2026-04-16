@@ -23,9 +23,7 @@ AMorCharacter::AMorCharacter(const FObjectInitializer& ObjectInitializer) : Supe
     this->EquipComp = CreateDefaultSubobject<UMorEquipComponent>(TEXT("EquipComp"));
     this->TargetingComponent = CreateDefaultSubobject<UFGKTargetingComponent>(TEXT("TargetingComp"));
     this->DefaultTargetableComponent = CreateDefaultSubobject<UFGKTargetableComponent>(TEXT("DefaultTargetableComp"));
-    const FProperty* p_Mesh_Parent = GetClass()->FindPropertyByName("Mesh");
-    FProperty* p_CharacterMovement_Prior = GetClass()->FindPropertyByName("CharacterMovement");
-    this->MoveComp = (UFGKCharacterMovementComponent*)*p_CharacterMovement_Prior->ContainerPtrToValuePtr<UMorCharacterMovementComponent*>(this);
+    this->MoveComp = Cast<UFGKCharacterMovementComponent>(GetCharacterMovement());
     this->ParkourComponent = CreateDefaultSubobject<UFGKParkourComponent>(TEXT("ParkourComp"));
     this->FixFrameCounter = 0;
     this->CurrentCallout = NULL;
@@ -127,9 +125,8 @@ AMorCharacter::AMorCharacter(const FObjectInitializer& ObjectInitializer) : Supe
     this->SkeletonTypeSwitch = NULL;
     this->StoredBuildCamMode = EBuildCameraMode::Build;
     this->ComponentReplicator = CreateDefaultSubobject<UMorCharacterComponentReplicator>(TEXT("ComponentReplicator"));
-    this->DefaultTargetableComponent->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->SoundComp->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
-    this->VoiceAk->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
+    // SetupAttachment to Mesh removed — causes GC crash during CDO construction
+    // (attachment hierarchy is not needed for this stub project)
 }
 
 void AMorCharacter::TeleportToSafeGroundTransform() {

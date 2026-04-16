@@ -18,9 +18,8 @@ AMorCustomizationMannequin::AMorCustomizationMannequin(const FObjectInitializer&
     this->bEnableBodyCustomization = false;
     this->CustomizationManager = CreateDefaultSubobject<UCustomizationManager>(TEXT("CustomizationMan"));
     this->VoiceAk = CreateDefaultSubobject<UAkComponent>(TEXT("AkComponent_Voice"));
-    const FProperty* p_Mesh_Parent = GetClass()->FindPropertyByName("Mesh");
     this->Voice = CreateDefaultSubobject<UVoiceComponent>(TEXT("VoiceComponent"));
-    this->VoiceAk->SetupAttachment(p_Mesh_Parent->ContainerPtrToValuePtr<USkeletalMeshComponent>(this));
+    // SetupAttachment to Mesh removed — causes GC crash during CDO construction
 }
 
 void AMorCustomizationMannequin::ResetEquipment() {
