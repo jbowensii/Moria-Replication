@@ -27,11 +27,14 @@ The two projects work together:
 - CXX dump: `c:\Users\johnb\OneDrive\Documents\Projects\UE4SS Testing\dumps\CXXHeaderDump\` — 3,028 .hpp files
 
 ## Tools Required
-- UE4.27 Editor (installed at `C:\Program Files\Epic Games\UE_4.27\`)
-- FModel (fmodel.app) — NOT YET INSTALLED
-- retoc (`cargo install retoc`) — NOT YET INSTALLED
-- JsonAsAsset (github.com/JsonAsAsset/JsonAsAsset) — editor plugin
-- UE4GameProjectGenerator (github.com/Buckminsterfullerene02/UE4GameProjectGenerator)
+- UE4.27 Editor — `C:\Program Files\Epic Games\UE_4.27\`
+- FModel (dec-2025) — `<project>\tools\FModel\FModel.exe`
+- retoc (v0.1.5) — `<project>\tools\retoc\bin\retoc.exe`
+- JsonAsAsset (v1.4.1, UE4.27.2) — `<project>\tools\JsonAsAsset\JsonAsAsset\` (editor plugin)
+- JsonAsAsset Cloud Server (v0.0.5.0) — `<project>\tools\JsonAsAssetServer\Core.exe`
+- UE4GameProjectGenerator — `<project>\tools\UE4GameProjectGenerator\`
+
+`<project>` = `C:\Users\johnb\OneDrive\Documents\Projects\Moria-Replication`
 
 ## Key Technical Facts
 - FGK framework wraps DataTables with caches built at init — new rows in cooked paks load BEFORE FGK init, solving the cache problem

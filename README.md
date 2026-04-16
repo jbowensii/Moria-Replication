@@ -39,6 +39,25 @@ The two projects work together:
 - **Closest reference**: [DRG FSD-Template](https://github.com/DRG-Modding/FSD-Template) (same UE4.27 engine)
 - **Key tools**: [FModel](https://fmodel.app), [retoc](https://github.com/trumank/retoc), [JsonAsAsset](https://github.com/JsonAsAsset/JsonAsAsset), [UE4GameProjectGenerator](https://github.com/Buckminsterfullerene02/UE4GameProjectGenerator)
 
+## Tools Directory (Not Tracked)
+
+The `tools/` directory is gitignored and contains third-party tools needed for the modding pipeline. To replicate this setup, install the following:
+
+| Tool | Version | Install Method | Purpose |
+|------|---------|---------------|---------|
+| **FModel** | Latest | Download from [fmodel.app](https://fmodel.app) → extract to `tools/FModel/` | Extract game assets from IoStore paks |
+| **retoc** | Latest | `cargo install retoc --root tools/retoc` | Convert between legacy .pak and IoStore (.pak/.ucas/.utoc) |
+| **UE4GameProjectGenerator** | Latest | `git clone https://github.com/Buckminsterfullerene02/UE4GameProjectGenerator tools/UE4GameProjectGenerator` | Generate UE4 template project from UHT header dumps |
+| **JsonAsAsset** | UE4.27.2 | Download from [JsonAsAsset releases](https://github.com/JsonAsAsset/JsonAsAsset/releases) → extract to `tools/JsonAsAsset/` | Import FModel JSON exports into UE4 editor |
+| **JsonAsAsset Cloud Server** | Latest | Download from [Tectors/Core releases](https://github.com/Tectors/Core/releases) → extract to `tools/JsonAsAssetServer/` | Auto-resolve asset dependencies during import (requires ASP.NET 8.0+) |
+
+### Prerequisites
+
+- **Rust/Cargo** (for retoc): [rustup.rs](https://rustup.rs)
+- **UE4.27 Editor**: Required for UE4GameProjectGenerator and JsonAsAsset
+- **ASP.NET Runtime 8.0+**: Required for JsonAsAsset Cloud Server
+- **Git**: Required for cloning UE4GameProjectGenerator
+
 ## License
 
 MIT

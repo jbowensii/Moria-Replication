@@ -36,14 +36,16 @@
 | Proof it works | `Content/Paks/Secrets of Khazad-dum/` | TobiModsAddons already uses cooked paks |
 
 ### What We Need to Install
-| Tool | Purpose | Install Method |
+| Tool | Purpose | Installed Path |
 |------|---------|----------------|
-| FModel | Extract game assets from paks | Download from fmodel.app |
-| retoc | Convert between legacy and IoStore | `cargo install retoc` |
-| UE4GameProjectGenerator | Generate template project from UHT dumps | Clone github.com/Buckminsterfullerene02/UE4GameProjectGenerator, compile as UE4 commandlet |
-| JsonAsAsset | Import FModel JSON into editor | Clone github.com/JsonAsAsset/JsonAsAsset, install as editor plugin |
-| JsonAsAsset Cloud Server | Auto-resolve dependencies during import | Download from JsonAsAsset releases (requires ASP.NET 8.0) |
-| Blender (optional) | Convert PSK meshes to FBX | Download from blender.org |
+| FModel (dec-2025) | Extract game assets from paks | `<project>\tools\FModel\FModel.exe` |
+| retoc (v0.1.5) | Convert between legacy and IoStore | `<project>\tools\retoc\bin\retoc.exe` |
+| UE4GameProjectGenerator | Generate template project from UHT dumps | `<project>\tools\UE4GameProjectGenerator\` |
+| JsonAsAsset (v1.4.1) | Import FModel JSON into editor | `<project>\tools\JsonAsAsset\JsonAsAsset\` |
+| JsonAsAsset Cloud Server (v0.0.5.0) | Auto-resolve dependencies during import | `<project>\tools\JsonAsAssetServer\Core.exe` |
+| Blender (optional) | Convert PSK meshes to FBX | Not yet installed |
+
+`<project>` = `C:\Users\johnb\OneDrive\Documents\Projects\Moria-Replication`
 
 ---
 
