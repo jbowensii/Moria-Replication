@@ -1,0 +1,299 @@
+
+[Import("/Script/Moria")]
+public class MorPostActivateActorInitializer {}
+
+[Import("/Script/Moria")]
+public class TimeManager {
+    [UnknownSignature, FinalFunction] public sealed void GetGameTime();
+}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetActorOfClass();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_IntToFloat();
+    [UnknownSignature, MathFunction] public static sealed void InRange_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MapRangeUnclamped();
+}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : MeshComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetNewTime();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Engine/BasicShapes/Plane")]
+public StaticMesh Plane;
+
+
+[Import("/Game/Environments/Models/HollinGate/MI_Durins_Door_Runes_Emissive")]
+public MaterialInstanceConstant MI_Durins_Door_Runes_Emissive;
+
+
+[Import("/Game/Tech/Managers/BP_TimeManager")]
+public class BP_TimeManager_C : TimeManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_TimeManager")]
+public BP_TimeManager_C Default__BP_TimeManager_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Durins_Door_Runes_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Plane;
+    float Timeline_1_AlphaReverse_14A5D6C64998894B70DEAEBBB67CA3C5;
+    byte Timeline_1__Direction_14A5D6C64998894B70DEAEBBB67CA3C5;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_1;
+    float Timeline_0_Alpha_90D53FD94CA39A296CB268A3D6ED8389;
+    byte Timeline_0__Direction_90D53FD94CA39A296CB268A3D6ED8389;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Durins_Door_Runes([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+        Object<BP_TimeManager_C> CallFunc_GetActorOfClass_ReturnValue;
+        int CallFunc_GetGameTime_Day;
+        int CallFunc_GetGameTime_Hour;
+        int CallFunc_GetGameTime_Minute;
+        bool CallFunc_GetGameTime_bPM;
+        float CallFunc_Conv_IntToFloat_ReturnValue;
+        bool CallFunc_InRange_IntInt_ReturnValue;
+        float CallFunc_MapRangeUnclamped_ReturnValue;
+        bool CallFunc_InRange_IntInt_ReturnValue_1;
+        bool CallFunc_InRange_IntInt_ReturnValue_2;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Durins_Door_Runes_10_Timeline_0__FinishedFunc: return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Durins_Door_Runes_15_Timeline_0__UpdateFunc: this.Plane.SetScalarParameterValueOnMaterials(EX_NameConst("Alpha"), this.Timeline_0_Alpha_90D53FD94CA39A296CB268A3D6ED8389);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_BP_Durins_Door_Runes_74_Timeline_1__FinishedFunc: return;
+
+        // Block 5
+        ExecuteUbergraph_BP_Durins_Door_Runes_79_Timeline_1__UpdateFunc: this.Plane.SetScalarParameterValueOnMaterials(EX_NameConst("Alpha"), this.Timeline_1_AlphaReverse_14A5D6C64998894B70DEAEBBB67CA3C5);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_Durins_Door_Runes_138_PostActivateInitialize: return;
+
+        // Block 7
+        ExecuteUbergraph_BP_Durins_Door_Runes_143_ReceiveBeginPlay: return;
+
+        // Block 8
+        ExecuteUbergraph_BP_Durins_Door_Runes_148_ReceiveTick: EX_LetObj(CallFunc_GetActorOfClass_ReturnValue,GameplayStatics.GetActorOfClass(this, BP_TimeManager_C));
+        CallFunc_GetActorOfClass_ReturnValue.GetGameTime(true, CallFunc_GetGameTime_Day, CallFunc_GetGameTime_Hour, CallFunc_GetGameTime_Minute, CallFunc_GetGameTime_bPM);
+        CallFunc_InRange_IntInt_ReturnValue_2 = (bool)(KismetMathLibrary.InRange_IntInt(CallFunc_GetGameTime_Hour, 20, 21, true, false));
+
+        if (CallFunc_InRange_IntInt_ReturnValue_2) {
+            // Block 9
+            CallFunc_GetActorOfClass_ReturnValue.GetGameTime(true, CallFunc_GetGameTime_Day, CallFunc_GetGameTime_Hour, CallFunc_GetGameTime_Minute, CallFunc_GetGameTime_bPM);
+            CallFunc_Conv_IntToFloat_ReturnValue = KismetMathLibrary.Conv_IntToFloat(CallFunc_GetGameTime_Minute);
+            CallFunc_MapRangeUnclamped_ReturnValue = KismetMathLibrary.MapRangeUnclamped(CallFunc_Conv_IntToFloat_ReturnValue, 0f, 60f, 0f, 1f);
+            this.Timeline_0.SetNewTime(CallFunc_MapRangeUnclamped_ReturnValue);
+            return;
+
+        }
+
+
+        // Block 10
+        ExecuteUbergraph_BP_Durins_Door_Runes_511: CallFunc_GetActorOfClass_ReturnValue.GetGameTime(true, CallFunc_GetGameTime_Day, CallFunc_GetGameTime_Hour, CallFunc_GetGameTime_Minute, CallFunc_GetGameTime_bPM);
+        CallFunc_InRange_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.InRange_IntInt(CallFunc_GetGameTime_Hour, 5, 6, true, false));
+
+        if (CallFunc_InRange_IntInt_ReturnValue_1) {
+            // Block 11
+            CallFunc_GetActorOfClass_ReturnValue.GetGameTime(true, CallFunc_GetGameTime_Day, CallFunc_GetGameTime_Hour, CallFunc_GetGameTime_Minute, CallFunc_GetGameTime_bPM);
+            CallFunc_Conv_IntToFloat_ReturnValue = KismetMathLibrary.Conv_IntToFloat(CallFunc_GetGameTime_Minute);
+            CallFunc_MapRangeUnclamped_ReturnValue = KismetMathLibrary.MapRangeUnclamped(CallFunc_Conv_IntToFloat_ReturnValue, 0f, 60f, 0f, 1f);
+            this.Timeline_1.SetNewTime(CallFunc_MapRangeUnclamped_ReturnValue);
+            return;
+
+        }
+
+
+        // Block 12
+        ExecuteUbergraph_BP_Durins_Door_Runes_844: CallFunc_GetActorOfClass_ReturnValue.GetGameTime(true, CallFunc_GetGameTime_Day, CallFunc_GetGameTime_Hour, CallFunc_GetGameTime_Minute, CallFunc_GetGameTime_bPM);
+        CallFunc_InRange_IntInt_ReturnValue = (bool)(KismetMathLibrary.InRange_IntInt(CallFunc_GetGameTime_Hour, 6, 21, true, false));
+
+        if (CallFunc_InRange_IntInt_ReturnValue) {
+            // Block 13
+            this.Plane.SetScalarParameterValueOnMaterials(EX_NameConst("Alpha"), 0f);
+            return;
+
+        }
+
+
+        // Block 14
+        ExecuteUbergraph_BP_Durins_Door_Runes_1023: this.Plane.SetScalarParameterValueOnMaterials(EX_NameConst("Alpha"), 1f);
+        return;
+
+        // Block 15
+        ExecuteUbergraph_BP_Durins_Door_Runes_1078:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_148_ReceiveTick);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_143_ReceiveBeginPlay);
+
+    }
+
+    [Event, BlueprintEvent]
+    public void PostActivateInitialize() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_138_PostActivateInitialize);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_79_Timeline_1__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_74_Timeline_1__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_15_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Durins_Door_Runes(ExecuteUbergraph_BP_Durins_Door_Runes_10_Timeline_0__FinishedFunc);
+
+    }
+
+}

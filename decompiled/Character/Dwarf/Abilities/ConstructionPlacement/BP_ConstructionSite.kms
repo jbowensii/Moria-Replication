@@ -1,0 +1,603 @@
+
+[Import("/Script/Moria")]
+public class MorConstructionSite : MorInteractable {
+    public Object GetBuildState;
+    public Object GetBuildText;
+    public Object GetDepositDisabledText;
+    public Object GetDepositEnabledText;
+    public Object GetDepositState;
+    [UnknownSignature, FinalFunction] public sealed void HasAllMaterials();
+    public Object OnSetConstruction;
+    public ObjectProperty RemainingRequiredMaterials;
+}
+
+[Import("/Script/Moria")]
+public class MorInteractable {
+    public ObjectProperty DisplayName;
+}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetConstructionDefinition();
+}
+
+[Import("/Script/Moria")]
+public Object EInteractState;
+
+[Import("/Script/Moria")]
+public class Default__MorConstructionSite {
+    public Object InteractCollider;
+    public Object TriggerArea;
+    public Object AttachGroup;
+    public Object ComponentGroup;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class MorConstructionDefinition {
+    public ObjectProperty DisplayName;
+}
+
+[Import("/Script/Moria")]
+public Object MorConstructionRowHandle;
+
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public class InventoryComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetItemCount();
+}
+
+[Import("/Script/FGK")]
+public class InventoryItem {
+    [UnknownSignature, VirtualFunction] public virtual void GetDisplayName();
+}
+
+[Import("/Script/FGK")]
+public class InventoryQueryInterface {
+    [UnknownSignature, VirtualFunction] public virtual void GetInventory();
+}
+
+[Import("/Script/FGK")]
+public static class ItemHandleFunctions {
+    [UnknownSignature, MathFunction] public static sealed void GetItemDefaultObject();
+}
+
+[Import("/Script/FGK")]
+public class ItemCount {
+    public ObjectProperty Item;
+    public ObjectProperty Count;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class Character {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Min();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void SelectString();
+}
+
+[Import("/Script/Engine")]
+public static class KismetStringLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Concat_StrStr();
+    [UnknownSignature, MathFunction] public static sealed void Conv_IntToString();
+    [UnknownSignature, MathFunction] public static sealed void Len();
+}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_StringToText();
+    [UnknownSignature, MathFunction] public static sealed void Conv_TextToString();
+    [UnknownSignature, MathFunction] public static sealed void Format();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public class FormatArgumentData {
+    public ObjectProperty ArgumentName;
+    public ObjectProperty ArgumentValueType;
+    public ObjectProperty ArgumentValue;
+    public ObjectProperty ArgumentValueInt;
+    public ObjectProperty ArgumentValueFloat;
+    public ObjectProperty ArgumentValueGender;
+}
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class InterfaceProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Engine/BasicShapes/Cube")]
+public StaticMesh Cube;
+
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/MI_ConstructionSite_Progress")]
+public MaterialInstanceConstant MI_ConstructionSite_Progress;
+
+
+[Import("/Engine/BasicShapes/BasicShapeMaterial")]
+public Material BasicShapeMaterial;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ConstructionSite_C : MorConstructionSite {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Construction1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> ConstructionText2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> ConstructionText;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Construction2;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_ConstructionSite([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<MorConstructionRowHandle> K2Node_Event_ConstructionHandle;
+        Enum CallFunc_GetConstructionDefinition_OutResult;
+        Struct<MorConstructionDefinition> CallFunc_GetConstructionDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        Struct<FormatArgumentData> K2Node_MakeStruct_FormatArgumentData;
+        ref Array<Struct<FormatArgumentData>> K2Node_MakeArray_Array;
+        Text CallFunc_Format_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_ConstructionSite_10_OnSetConstruction: CallFunc_GetConstructionDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetConstructionDefinition(K2Node_Event_ConstructionHandle, CallFunc_GetConstructionDefinition_OutResult);
+        K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetConstructionDefinition_OutResult, (byte)(0)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 3
+            return;
+
+        }
+
+
+        // Block 4
+        ExecuteUbergraph_BP_ConstructionSite_106: K2Node_MakeStruct_FormatArgumentData.ArgumentName = "0";
+        K2Node_MakeStruct_FormatArgumentData.ArgumentValueType = (byte)(4);
+        K2Node_MakeStruct_FormatArgumentData.ArgumentValue = CallFunc_GetConstructionDefinition_ReturnValue.DisplayName;
+        K2Node_MakeStruct_FormatArgumentData.ArgumentValueInt = 0;
+        K2Node_MakeStruct_FormatArgumentData.ArgumentValueFloat = 0f;
+        K2Node_MakeStruct_FormatArgumentData.ArgumentValueGender = (byte)(0);
+        K2Node_MakeArray_Array = new[] {K2Node_MakeStruct_FormatArgumentData};
+        CallFunc_Format_ReturnValue = KismetTextLibrary.Format(EX_TextConst("StringTableEntry", Interactables, "/Game/Tech/Data/StringTables/Interactables.Interactables", "ConstructionSite.NameFormat"), K2Node_MakeArray_Array);
+        this.DisplayName = CallFunc_Format_ReturnValue;
+
+        // Block 5
+        ExecuteUbergraph_BP_ConstructionSite_484:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void OnSetConstruction([BlueprintVisible, BlueprintReadOnly] Struct<MorConstructionRowHandle> ConstructionHandle) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_ConstructionHandle", ConstructionHandle);
+        this.ExecuteUbergraph_BP_ConstructionSite(ExecuteUbergraph_BP_ConstructionSite_10_OnSetConstruction);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    protected override void GetBuildState([BlueprintVisible, BlueprintReadOnly] const Object<Character> Interactor, [Return] out Enum ReturnValue) {
+        // Locals
+        bool Temp_bool_Variable;
+        Enum Temp_byte_Variable;
+        Enum Temp_byte_Variable_1;
+        bool CallFunc_HasAllMaterials_ReturnValue;
+        Enum K2Node_Select_Default;
+
+        // Block 1
+        Temp_byte_Variable = (byte)(0);
+        Temp_byte_Variable_1 = (byte)(2);
+        CallFunc_HasAllMaterials_ReturnValue = (bool)(this.HasAllMaterials());
+        Temp_bool_Variable = (bool)(CallFunc_HasAllMaterials_ReturnValue);
+        ReturnValue = EX_SwitchValue(150, Temp_bool_Variable, K2Node_Select_Default, false, 127, Temp_byte_Variable_1, true, 141, Temp_byte_Variable);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    protected override void GetBuildText([BlueprintVisible, BlueprintReadOnly] const out ref Text TextFormat, [BlueprintVisible, BlueprintReadOnly] const Object<Character> Interactor, [Return] out Text ReturnValue) {
+        // Block 1
+        ReturnValue = TextFormat;
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, Const]
+    protected override void GetDepositState([BlueprintVisible, BlueprintReadOnly] const Object<Character> Interactor, [Return] out Enum ReturnValue) {
+        // Locals
+        [InstancedReference] Object<InventoryComponent> Temp_object_Variable;
+        Interface<InventoryQueryInterface> K2Node_DynamicCast_AsInventory_Query_Interface;
+        bool K2Node_DynamicCast_bSuccess;
+        [InstancedReference] Object<InventoryComponent> CallFunc_GetInventory_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_HasAllMaterials_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<ItemCount> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_GetItemCount_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_HasAllMaterials_ReturnValue = (bool)(this.HasAllMaterials());
+
+            if (CallFunc_HasAllMaterials_ReturnValue) {
+                // Block 2
+                ReturnValue = (byte)(2);
+                goto GetDepositState_711;
+
+            }
+
+
+            // Block 3
+            GetDepositState_64: K2Node_DynamicCast_AsInventory_Query_Interface = EX_ObjToInterfaceCast("InventoryQueryInterface", Interactor);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("InterfaceToBool", K2Node_DynamicCast_AsInventory_Query_Interface);
+
+            if (K2Node_DynamicCast_bSuccess) {
+                // Block 4
+                EX_LetObj(CallFunc_GetInventory_ReturnValue,K2Node_DynamicCast_AsInventory_Query_Interface.GetInventory());
+                EX_LetObj(Temp_object_Variable,CallFunc_GetInventory_ReturnValue);
+
+                // Block 5
+                GetDepositState_209: Temp_int_Loop_Counter_Variable = 0;
+                Temp_int_Array_Index_Variable = 0;
+
+                // Block 6
+                GetDepositState_255: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.RemainingRequiredMaterials);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!(CallFunc_Less_IntInt_ReturnValue)) goto GetDepositState_612;
+
+                // Block 7
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(GetDepositState_637);
+
+                // Block 8
+                Default__KismetArrayLibrary.Array_Get(this.RemainingRequiredMaterials, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetItemCount_ReturnValue = Temp_object_Variable.GetItemCount(CallFunc_Array_Get_Item.Item, (byte)(3));
+                CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_GetItemCount_ReturnValue, 0));
+                EX_PopExecutionFlowIfNot(CallFunc_Greater_IntInt_ReturnValue);
+
+                // Block 9
+                ReturnValue = (byte)(0);
+                goto GetDepositState_711;
+
+            }
+
+
+            // Block 10
+            GetDepositState_596: EX_LetObj(Temp_object_Variable,EX_NoObject());
+            goto GetDepositState_209;
+
+            // Block 11
+            GetDepositState_612: ReturnValue = (byte)(1);
+            goto GetDepositState_711;
+
+            // Block 12
+            GetDepositState_637: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto GetDepositState_255;
+
+        }
+
+
+        // Block 13
+        GetDepositState_711: return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, Const]
+    protected override void GetDepositEnabledText([BlueprintVisible, BlueprintReadOnly] const out ref Text EnabledTextFormat, [BlueprintVisible, BlueprintReadOnly] const Object<Character> Interactor, [Return] out Text ReturnValue) {
+        // Locals
+        [Edit, BlueprintVisible] string ItemsStr;
+        [InstancedReference] Object<InventoryComponent> Temp_object_Variable;
+        Interface<InventoryQueryInterface> K2Node_DynamicCast_AsInventory_Query_Interface;
+        bool K2Node_DynamicCast_bSuccess;
+        [InstancedReference] Object<InventoryComponent> CallFunc_GetInventory_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        int CallFunc_Len_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        string CallFunc_SelectString_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        string CallFunc_Concat_StrStr_ReturnValue;
+        Text CallFunc_Conv_StringToText_ReturnValue;
+        Struct<FormatArgumentData> K2Node_MakeStruct_FormatArgumentData;
+        ref Array<Struct<FormatArgumentData>> K2Node_MakeArray_Array;
+        Struct<ItemCount> CallFunc_Array_Get_Item;
+        Text CallFunc_Format_ReturnValue;
+        Object<InventoryItem> CallFunc_GetItemDefaultObject_ReturnValue;
+        int CallFunc_GetItemCount_ReturnValue;
+        Text CallFunc_GetDisplayName_ReturnValue;
+        int CallFunc_Min_ReturnValue;
+        string CallFunc_Conv_TextToString_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue_1;
+        string CallFunc_Concat_StrStr_ReturnValue_1;
+        string CallFunc_Concat_StrStr_ReturnValue_2;
+        string CallFunc_Conv_IntToString_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        string CallFunc_Concat_StrStr_ReturnValue_3;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            K2Node_DynamicCast_AsInventory_Query_Interface = EX_ObjToInterfaceCast("InventoryQueryInterface", Interactor);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("InterfaceToBool", K2Node_DynamicCast_AsInventory_Query_Interface);
+
+            if (K2Node_DynamicCast_bSuccess) {
+                // Block 2
+                EX_LetObj(CallFunc_GetInventory_ReturnValue,K2Node_DynamicCast_AsInventory_Query_Interface.GetInventory());
+                EX_LetObj(Temp_object_Variable,CallFunc_GetInventory_ReturnValue);
+
+                // Block 3
+                GetDepositEnabledText_150: Temp_int_Loop_Counter_Variable = 0;
+                Temp_int_Array_Index_Variable = 0;
+
+                // Block 4
+                GetDepositEnabledText_196: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.RemainingRequiredMaterials);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!(CallFunc_Less_IntInt_ReturnValue)) goto GetDepositEnabledText_1254;
+
+                // Block 5
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(GetDepositEnabledText_1577);
+
+                // Block 6
+                Default__KismetArrayLibrary.Array_Get(this.RemainingRequiredMaterials, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetItemCount_ReturnValue = Temp_object_Variable.GetItemCount(CallFunc_Array_Get_Item.Item, (byte)(3));
+                CallFunc_Min_ReturnValue = KismetMathLibrary.Min(CallFunc_GetItemCount_ReturnValue, CallFunc_Array_Get_Item.Count);
+                CallFunc_Greater_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Min_ReturnValue, 0));
+                EX_PopExecutionFlowIfNot(CallFunc_Greater_IntInt_ReturnValue_1);
+
+                // Block 7
+                CallFunc_Len_ReturnValue = KismetStringLibrary.Len(ItemsStr);
+                CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Len_ReturnValue, 0));
+                CallFunc_SelectString_ReturnValue = KismetMathLibrary.SelectString(", ", "", CallFunc_Greater_IntInt_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue = KismetStringLibrary.Concat_StrStr(ItemsStr, CallFunc_SelectString_ReturnValue);
+                Default__KismetArrayLibrary.Array_Get(this.RemainingRequiredMaterials, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                EX_LetObj(CallFunc_GetItemDefaultObject_ReturnValue,ItemHandleFunctions.GetItemDefaultObject(CallFunc_Array_Get_Item.Item));
+                CallFunc_GetItemCount_ReturnValue = Temp_object_Variable.GetItemCount(CallFunc_Array_Get_Item.Item, (byte)(3));
+                CallFunc_GetDisplayName_ReturnValue = CallFunc_GetItemDefaultObject_ReturnValue.GetDisplayName();
+                CallFunc_Min_ReturnValue = KismetMathLibrary.Min(CallFunc_GetItemCount_ReturnValue, CallFunc_Array_Get_Item.Count);
+                CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(CallFunc_GetDisplayName_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue_1 = KismetStringLibrary.Concat_StrStr(CallFunc_Concat_StrStr_ReturnValue, CallFunc_Conv_TextToString_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue_2 = KismetStringLibrary.Concat_StrStr(CallFunc_Concat_StrStr_ReturnValue_1, " x");
+                CallFunc_Conv_IntToString_ReturnValue = KismetStringLibrary.Conv_IntToString(CallFunc_Min_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue_3 = KismetStringLibrary.Concat_StrStr(CallFunc_Concat_StrStr_ReturnValue_2, CallFunc_Conv_IntToString_ReturnValue);
+                ItemsStr = CallFunc_Concat_StrStr_ReturnValue_3;
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 8
+            GetDepositEnabledText_1238: EX_LetObj(Temp_object_Variable,EX_NoObject());
+            goto GetDepositEnabledText_150;
+
+            // Block 9
+            GetDepositEnabledText_1254: CallFunc_Conv_StringToText_ReturnValue = KismetTextLibrary.Conv_StringToText(ItemsStr);
+            K2Node_MakeStruct_FormatArgumentData.ArgumentName = "0";
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueType = (byte)(4);
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValue = CallFunc_Conv_StringToText_ReturnValue;
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueInt = 0;
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueFloat = 0f;
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueGender = (byte)(0);
+            K2Node_MakeArray_Array = new[] {K2Node_MakeStruct_FormatArgumentData};
+            CallFunc_Format_ReturnValue = KismetTextLibrary.Format(EnabledTextFormat, K2Node_MakeArray_Array);
+            ReturnValue = CallFunc_Format_ReturnValue;
+            goto GetDepositEnabledText_1651;
+
+            // Block 10
+            GetDepositEnabledText_1577: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto GetDepositEnabledText_196;
+
+        }
+
+
+        // Block 11
+        GetDepositEnabledText_1651: return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, Const]
+    protected override void GetDepositDisabledText([BlueprintVisible, BlueprintReadOnly] const out ref Text DisabledTextFormat, [BlueprintVisible, BlueprintReadOnly] const Object<Character> Interactor, [Return] out Text ReturnValue) {
+        // Locals
+        [Edit, BlueprintVisible] string ItemsStr;
+        int Temp_int_Array_Index_Variable;
+        Text CallFunc_Conv_StringToText_ReturnValue;
+        Struct<FormatArgumentData> K2Node_MakeStruct_FormatArgumentData;
+        ref Array<Struct<FormatArgumentData>> K2Node_MakeArray_Array;
+        int CallFunc_Len_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        Text CallFunc_Format_ReturnValue;
+        string CallFunc_SelectString_ReturnValue;
+        string CallFunc_Concat_StrStr_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        Struct<ItemCount> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        string CallFunc_Conv_IntToString_ReturnValue;
+        Object<InventoryItem> CallFunc_GetItemDefaultObject_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Text CallFunc_GetDisplayName_ReturnValue;
+        string CallFunc_Conv_TextToString_ReturnValue;
+        string CallFunc_Concat_StrStr_ReturnValue_1;
+        string CallFunc_Concat_StrStr_ReturnValue_2;
+        string CallFunc_Concat_StrStr_ReturnValue_3;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            GetDepositDisabledText_51: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.RemainingRequiredMaterials);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(GetDepositDisabledText_1072);
+
+                // Block 4
+                CallFunc_Len_ReturnValue = KismetStringLibrary.Len(ItemsStr);
+                CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Len_ReturnValue, 0));
+                CallFunc_SelectString_ReturnValue = KismetMathLibrary.SelectString(", ", "", CallFunc_Greater_IntInt_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue = KismetStringLibrary.Concat_StrStr(ItemsStr, CallFunc_SelectString_ReturnValue);
+                Default__KismetArrayLibrary.Array_Get(this.RemainingRequiredMaterials, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_Conv_IntToString_ReturnValue = KismetStringLibrary.Conv_IntToString(CallFunc_Array_Get_Item.Count);
+                EX_LetObj(CallFunc_GetItemDefaultObject_ReturnValue,ItemHandleFunctions.GetItemDefaultObject(CallFunc_Array_Get_Item.Item));
+                CallFunc_GetDisplayName_ReturnValue = CallFunc_GetItemDefaultObject_ReturnValue.GetDisplayName();
+                CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(CallFunc_GetDisplayName_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue_1 = KismetStringLibrary.Concat_StrStr(CallFunc_Concat_StrStr_ReturnValue, CallFunc_Conv_TextToString_ReturnValue);
+                CallFunc_Concat_StrStr_ReturnValue_2 = KismetStringLibrary.Concat_StrStr(CallFunc_Concat_StrStr_ReturnValue_1, " x");
+                CallFunc_Concat_StrStr_ReturnValue_3 = KismetStringLibrary.Concat_StrStr(CallFunc_Concat_StrStr_ReturnValue_2, CallFunc_Conv_IntToString_ReturnValue);
+                ItemsStr = CallFunc_Concat_StrStr_ReturnValue_3;
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 5
+            GetDepositDisabledText_749: CallFunc_Conv_StringToText_ReturnValue = KismetTextLibrary.Conv_StringToText(ItemsStr);
+            K2Node_MakeStruct_FormatArgumentData.ArgumentName = "0";
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueType = (byte)(4);
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValue = CallFunc_Conv_StringToText_ReturnValue;
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueInt = 0;
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueFloat = 0f;
+            K2Node_MakeStruct_FormatArgumentData.ArgumentValueGender = (byte)(0);
+            K2Node_MakeArray_Array = new[] {K2Node_MakeStruct_FormatArgumentData};
+            CallFunc_Format_ReturnValue = KismetTextLibrary.Format(DisabledTextFormat, K2Node_MakeArray_Array);
+            ReturnValue = CallFunc_Format_ReturnValue;
+            goto GetDepositDisabledText_1146;
+
+            // Block 6
+            GetDepositDisabledText_1072: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto GetDepositDisabledText_51;
+
+        }
+
+
+        // Block 7
+        GetDepositDisabledText_1146: return ReturnValue;
+
+    }
+
+}

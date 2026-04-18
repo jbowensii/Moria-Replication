@@ -1,0 +1,223 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+
+[Import("/Game/DLC/OrcHunterPack/Constructions/Meshes/SM_OrcHunter_DrakeSkull")]
+public StaticMesh SM_OrcHunter_DrakeSkull;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Dwarf_Hall_Column_Mural")]
+public StaticMesh Dwarf_Hall_Column_Mural;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Non_D/NonDest_Pillar_1_5M_A")]
+public StaticMesh NonDest_Pillar_1_5M_A;
+
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable")]
+public class BP_DM_Scrap_Medium_Parent_Breakable_C : Actor {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Basic Mesh_GEN_VARIABLE`;
+    public MorBreakableComponent Breakable;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Basic Mesh`;
+}
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable")]
+public class Default__BP_DM_Scrap_Medium_Parent_Breakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_OrcHunter_DrakeSkull_C : BP_DM_Scrap_Medium_Parent_Breakable_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece;
+    [Edit, BlueprintVisible] bool CentralFlames;
+    [Edit, BlueprintVisible] float Temperature;
+    [Edit, BlueprintVisible] Struct<Vector> NonUniformArea_All;
+    [Edit, BlueprintVisible] float InnerCircleSize;
+    [Edit, BlueprintVisible] float FlameCenterlineAttraction;
+    [Edit, BlueprintVisible] float OuterTorusHandleRadius;
+    [Edit, BlueprintVisible] float OuterTorusLargeRadius;
+    [Edit, BlueprintVisible] float OuterTorusOffset;
+    [Edit, BlueprintVisible] float FlameSpriteSize;
+    [Edit, BlueprintVisible] float FlameSpawnRate;
+    [Edit, BlueprintVisible] float FlameDepthFade;
+    [Edit, BlueprintVisible] float FlameVelocity;
+    [Edit, BlueprintVisible] float OuterSpawnRate;
+    [Edit, BlueprintVisible] bool Smoke;
+    [Edit, BlueprintVisible] float SmokeCircleSize;
+    [Edit, BlueprintVisible] float SmokeSpawnRate;
+    [Edit, BlueprintVisible] float SmokeVerticalOffset;
+    [Edit, BlueprintVisible] float SmokeVelocity;
+    [Edit, BlueprintVisible] float SmokeLifetime;
+    [Edit, BlueprintVisible] float SmokeColorChangeDistance;
+    [Edit, BlueprintVisible] float SmokeSize;
+    [Edit, BlueprintVisible] float SmokeWindSpeed;
+    [Edit, BlueprintVisible] float SparkConeAngle;
+    [Edit, BlueprintVisible] float SparkLocationSize;
+    [Edit, BlueprintVisible] float SparkVortex;
+    [Edit, BlueprintVisible] float SpawnCountFountain;
+    [Edit, BlueprintVisible] float SparkVelocity;
+    [Edit, BlueprintVisible] float SparkSize;
+    [Edit, BlueprintVisible] float SparkCurlNoiseStrength;
+    [Edit, BlueprintVisible] float SparkCurlNoiseFrequency;
+    [Edit, BlueprintVisible] float RefractionIntensity;
+    [Edit, BlueprintVisible] float SparkLifetime;
+    [Edit, BlueprintVisible] float SparkVerticalOffset;
+    [Edit, BlueprintVisible] Struct<Vector> SparkConeAxis;
+    [Edit, BlueprintVisible] float WindSpeed;
+    [Edit, BlueprintVisible] Struct<Vector> WindDirection;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_OrcHunter_DrakeSkull([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_OrcHunter_DrakeSkull_10_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_OrcHunter_DrakeSkull_25_BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_OrcHunter_DrakeSkull(ExecuteUbergraph_BP_OrcHunter_DrakeSkull_25_BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OrcHunter_DrakeSkull(ExecuteUbergraph_BP_OrcHunter_DrakeSkull_10_ReceiveBeginPlay);
+
+    }
+
+}

@@ -1,0 +1,230 @@
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFluidComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFogEmitterComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowNiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorDirectHazardController {}
+
+[Import("/Script/Moria")]
+public class MorSetupChallengeComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowProximityFXComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public DecalComponent Default__DecalComponent;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/FX/ShadowCurse/Materials/M_Decal_ShadowRunes_BalrogsNest_Special_Inst")]
+public MaterialInstanceConstant M_Decal_ShadowRunes_BalrogsNest_Special_Inst;
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent LootLocator;
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Animations/Dwarf/Dwa_RHam_Repair_Misc_Montage")]
+public class Dwa_RHam_Repair_Misc_Montage {
+    public AnimNotify_AkEvent_C AnimNotify_AkEvent_C_3;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/Hazards/Shadow/Hazard_ShadowVent_Single")]
+public class Hazard_ShadowVent_Single_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public MorAIBehaviorPointComponent HazardBehaviorPoint_GEN_VARIABLE;
+    public MorDirectHazardController ApplyShadowPoisonGraduallyInFog_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public MorShadowFluidComponent MorShadowFluid_GEN_VARIABLE;
+    public MorShadowFogEmitterComponent MorShadowFogEmitter_GEN_VARIABLE;
+    public MorShadowNiagaraComponent MorShadowNiagara_GEN_VARIABLE;
+    public MorShadowProximityFXComponent MorShadowProximityFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Scene_GEN_VARIABLE;
+    public SceneComponent Seal_GEN_VARIABLE;
+    public SphereComponent ShadowFogPoisonRadius_GEN_VARIABLE;
+    public StaticMeshComponent GPI_ShadowVent_All_A_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_Pile_I_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorAIBehaviorPointComponent HazardBehaviorPoint;
+    public MorDirectHazardController ApplyShadowPoisonGraduallyInFog;
+    public MorPointLightComponent MorPointLight;
+    public MorShadowFluidComponent MorShadowFluid;
+    public MorShadowFogEmitterComponent MorShadowFogEmitter;
+    public MorShadowNiagaraComponent MorShadowNiagara;
+    public MorShadowProximityFXComponent MorShadowProximityFX;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Scene;
+    public SceneComponent Seal;
+    public SphereComponent ShadowFogPoisonRadius;
+    public StaticMeshComponent GPI_ShadowVent_All_A;
+    public StaticMeshComponent Rubble_Masonry_Pile_I;
+}
+
+[Import("/Game/LevelDesign/Challenges/Hazards/Shadow/Hazard_ShadowVent_Single")]
+public class Default__Hazard_ShadowVent_Single_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShadowDragon_BalrogsNest_ShadowVent_C : Hazard_ShadowVent_Single_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecalComponent> Decal;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent_10: base.ReceiveBeginPlay();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent_25_ReceiveBeginPlay: goto ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent_30:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent(ExecuteUbergraph_BP_ShadowDragon_BalrogsNest_ShadowVent_25_ReceiveBeginPlay);
+
+    }
+
+}

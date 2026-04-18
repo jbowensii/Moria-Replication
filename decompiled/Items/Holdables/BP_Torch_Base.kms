@@ -1,0 +1,173 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFXAdapterComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+[Import("/Script/Moria")]
+public MorBehaviorState_Interact Default__MorBehaviorState_Interact;
+
+[Import("/Script/Moria")]
+public MorGameplayLightProducerComponent Default__MorGameplayLightProducerComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+[Import("/Script/Moria")]
+public MorShadowFXAdapterComponent Default__MorShadowFXAdapterComponent;
+
+[Import("/Script/Moria")]
+public TransformLocatorComponent Default__TransformLocatorComponent;
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Equip_Torch")]
+public Texture2D T_UI_Icon_Equip_Torch;
+
+
+[Import("/Game/Unshippable/ThirdParty/Lordenfel/Environment/Props/SM_Torch_Handheld_01")]
+public StaticMesh SM_Torch_Handheld_01;
+
+
+[Import("/Game/Items/Holdables/GE_Torch")]
+public class GE_Torch_C {}
+
+[Import("/Game/Items/Holdables/GE_Torch")]
+public GE_Torch_C Default__GE_Torch_C;
+
+
+[Import("/Game/Items/BP_Category_Tool")]
+public class BP_Category_Tool_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Tool")]
+public class Default__BP_Category_Tool_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Animations/Moth/Mth_Hover_Attack_Dive_F_Montage")]
+public class Mth_Hover_Attack_Dive_F_Montage {
+    public AnimNotifyState_HitWindow_C AnimNotifyState_HitWindow_C_1;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Equipment/Torch/fx_plr_eqp_torch_extinguish_play")]
+public AkAudioEvent fx_plr_eqp_torch_extinguish_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Torch_Base_C : BP_Category_Tool_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> AkTorchAudio;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> BehaviorPoint_Moth;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorShadowFXAdapterComponent> MorShadowFXAdapter;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TransformLocatorComponent> TransformLocator;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Mesh;
+}

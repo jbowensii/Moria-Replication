@@ -1,0 +1,237 @@
+
+[Import("/Script/Moria")]
+public class MorWorldLighting {}
+
+[Import("/Script/Moria")]
+public class Default__MorWorldLighting {
+    public Object `World Directional Light`;
+    public Object `World Fog`;
+    public Object Cold;
+    public Object Despair;
+    public Object Hunger;
+    public Object LowHP;
+    public Object OrcHunter;
+    public Object Poison;
+    public Object ShadowDebuff;
+    public Object Singing;
+    public Object `Root Component`;
+    public Object `World Skylight`;
+}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DirectionalLightComponent {}
+
+[Import("/Script/Engine")]
+public class ExponentialHeightFogComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkyLightComponent {}
+
+[Import("/Script/Engine")]
+public PostProcessComponent Default__PostProcessComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+[Import("/Script/Engine")]
+public class TextureCube {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Engine/EngineResources/GrayTextureCube")]
+public TextureCube GrayTextureCube;
+
+
+[Import("/Game/Unshippable/Chameleon/LUTs/LUT_Movie4")]
+public Texture2D LUT_Movie4;
+
+
+[Import("/Game/FX/PostProcess/luts/LUT_shadow_postFX_PH")]
+public Texture2D LUT_shadow_postFX_PH;
+
+
+[Import("/Game/FX/PostProcess/luts/LUT_poison_postFX_PH")]
+public Texture2D LUT_poison_postFX_PH;
+
+
+[Import("/Game/FX/PostProcess/luts/LUT_lowHP_postFX_PH")]
+public Texture2D LUT_lowHP_postFX_PH;
+
+
+[Import("/Game/FX/PostProcess/luts/LUT_hunger_postFX_PH")]
+public Texture2D LUT_hunger_postFX_PH;
+
+
+[Import("/Game/FX/PostProcess/luts/LUT_cold_postFX_PH")]
+public Texture2D LUT_cold_postFX_PH;
+
+
+[Import("/Game/FX/PostProcess/MI_PP_Overlay")]
+public MaterialInstanceConstant MI_PP_Overlay;
+
+
+[Import("/Game/FX/PostProcess/MI_PP_Outlines")]
+public MaterialInstanceConstant MI_PP_Outlines;
+
+
+[Import("/Game/FX/Materials/PPM_SingingBuffMat")]
+public Material PPM_SingingBuffMat;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_ShadowFXWeight")]
+public CurveFloat C_ShadowFXWeight;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_PoisonFXCurve")]
+public CurveFloat C_PoisonFXCurve;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_LowHPWeight")]
+public CurveFloat C_LowHPWeight;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_HungerFXWeight")]
+public CurveFloat C_HungerFXWeight;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_ExposureComp_DarkEye")]
+public CurveFloat C_ExposureComp_DarkEye;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_ColdFXWeight")]
+public CurveFloat C_ColdFXWeight;
+
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_NativeOrcTown")]
+public class BP_LightingInfo_NativeOrcTown_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_NativeOrcTown")]
+public class Default__BP_LightingInfo_NativeOrcTown_C {
+    public BoxComponent PostProcessBox;
+    public PostProcessComponent `Bubble PostProcess`;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Small")]
+public class BP_LightingInfo_Hearth_Small_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Small")]
+public class Default__BP_LightingInfo_Hearth_Small_C {
+    public BoxComponent PostProcessBox;
+    public PostProcessComponent `Bubble PostProcess`;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Medium")]
+public class BP_LightingInfo_Hearth_Medium_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Medium")]
+public class Default__BP_LightingInfo_Hearth_Medium_C {
+    public BoxComponent PostProcessBox;
+    public PostProcessComponent `Bubble PostProcess`;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Large")]
+public class BP_LightingInfo_Hearth_Large_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Large")]
+public class Default__BP_LightingInfo_Hearth_Large_C {
+    public BoxComponent PostProcessBox;
+    public PostProcessComponent `Bubble PostProcess`;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Campfire")]
+public class BP_LightingInfo_Hearth_Campfire_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Environments/Lighting/LightingInfo_Zones/BP_LightingInfo_Hearth_Campfire")]
+public class Default__BP_LightingInfo_Hearth_Campfire_C {
+    public BoxComponent PostProcessBox;
+    public PostProcessComponent `Bubble PostProcess`;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_WorldLightingMaster_C : MorWorldLighting {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PostProcessComponent> PostProcessMaterial_PPV;
+}

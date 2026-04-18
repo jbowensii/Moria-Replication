@@ -1,0 +1,495 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Actor {
+    public ObjectProperty OnDeath;
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTableAndConversationTrack();
+}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void GetMoriaGameState();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorTutorialManager {
+    [UnknownSignature, FinalFunction] public sealed void TriggerTutorial();
+}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public Object OnDeathSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object EMorDialogueEventPriority;
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorTutorialRowHandle;
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveBeginPlay;
+    [UnknownSignature, VirtualFunction] public virtual void IsPlayerControlled();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetAllActorsOfClass();
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/CharacterArt/Goblins/Feral/SK_Goblin_Feral")]
+public SkeletalMesh SK_Goblin_Feral;
+
+
+[Import("/Game/CharacterArt/Goblins/Native/MI_GoblinNative")]
+public MaterialInstanceConstant MI_GoblinNative;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Tutorial_Goblin")]
+public class GE_Starting_Tutorial_Goblin_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Tutorial_Goblin")]
+public GE_Starting_Tutorial_Goblin_C Default__GE_Starting_Tutorial_Goblin_C;
+
+
+[Import("/Game/Character/Shared/BP_CharacterFallComponent_Enemy")]
+public class BP_CharacterFallComponent_Enemy_C {}
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public class BP_DialogueManager_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public BP_DialogueManager_C Default__BP_DialogueManager_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/BP_Goblin_Base")]
+public class BP_Goblin_Base_C : MorCharacter {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public BP_CharacterFallComponent_Enemy_C BP_CharacterFallComponent_Enemy_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent `Slot::Chest_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Feet_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Hands_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Head_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Legs_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Shoulder_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Shoulder_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent GoblinDebug_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public BP_CharacterFallComponent_Enemy_C BP_CharacterFallComponent_Enemy;
+    public CustomizationManager CustomizationManager;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent Shoulder_L_Capsule;
+    public StaticMeshComponent Shoulder_R_Capsule;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public TextRenderComponent GoblinDebug;
+}
+
+[Import("/Game/Character/Orcs/Goblins/BP_Goblin_Base")]
+public class Default__BP_Goblin_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Tutorial_Goblin_C : BP_Goblin_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorTutorialRowHandle> Tutorial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<DataTable> `Conversation Table`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Enum `VO Priority`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> AxeTutorialProgress;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Tutorial_Goblin([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MoriaGameState> CallFunc_GetMoriaGameState_ReturnValue;
+        Object<MorTutorialManager> CallFunc_GetManager_ReturnValue;
+        Object<Actor> K2Node_CustomEvent_DeadActor;
+        ref Array<Object<MorCharacter>> CallFunc_GetAllActorsOfClass_OutActors;
+        int Temp_int_Loop_Counter_Variable;
+        Object<MorCharacter> CallFunc_Array_Get_Item;
+        bool CallFunc_IsPlayerControlled_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue_1;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID;
+        bool CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            ExecuteUbergraph_BP_Tutorial_Goblin_15:
+            while (true) {
+                // Block 2
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllActorsOfClass_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_IsPlayerControlled_ReturnValue = (bool)(CallFunc_Array_Get_Item.IsPlayerControlled());
+                if (!CallFunc_IsPlayerControlled_ReturnValue) break;
+
+                // Block 3
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllActorsOfClass_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.TriggerTutorial(CallFunc_Array_Get_Item, this.Tutorial);
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+                if (!K2Node_DynamicCast_bSuccess) break;
+
+                // Block 4
+                EX_LetObj(CallFunc_GetManager_ReturnValue_1,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_DialogueManager_C));
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllActorsOfClass_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTableAndConversationTrack(this.`Conversation Table`, CallFunc_Array_Get_Item, this.`VO Priority`, K2Node_MakeStruct_DialogueRateLimit, CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+                break;
+
+            }
+
+
+            // Block 5
+            ExecuteUbergraph_BP_Tutorial_Goblin_532: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 6
+            ExecuteUbergraph_BP_Tutorial_Goblin_601: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllActorsOfClass_OutActors);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            if (!CallFunc_Less_IntInt_ReturnValue) break;
+
+            // Block 7
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_Tutorial_Goblin_15;
+
+            // Block 8
+            ExecuteUbergraph_BP_Tutorial_Goblin_740: Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_Tutorial_Goblin_601;
+
+            // Block 9
+            ExecuteUbergraph_BP_Tutorial_Goblin_768: EX_BindDelegate("OnDeath_Event_0", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(this.OnDeath, K2Node_CreateDelegate_OutputDelegate);
+            break;
+
+            // Block 10
+            ExecuteUbergraph_BP_Tutorial_Goblin_811: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 11
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(this.AxeTutorialProgress);
+            CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_GetProgressValue_ReturnValue, 0));
+            if (!CallFunc_Greater_IntInt_ReturnValue) break;
+
+            // Block 12
+            EX_LetObj(CallFunc_GetMoriaGameState_ReturnValue,MoriaUtils.GetMoriaGameState(this));
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(CallFunc_GetMoriaGameState_ReturnValue, MorTutorialManager));
+            CallFunc_GetAllActorsOfClass_OutActors = new[] {};
+            GameplayStatics.GetAllActorsOfClass(this, MorCharacter, CallFunc_GetAllActorsOfClass_OutActors);
+            Temp_int_Loop_Counter_Variable = 0;
+            goto ExecuteUbergraph_BP_Tutorial_Goblin_740;
+
+            // Block 13
+            ExecuteUbergraph_BP_Tutorial_Goblin_1092_ReceiveBeginPlay: goto ExecuteUbergraph_BP_Tutorial_Goblin_768;
+
+            // Block 14
+            ExecuteUbergraph_BP_Tutorial_Goblin_1097_OnDeath_Event_0: goto ExecuteUbergraph_BP_Tutorial_Goblin_811;
+
+        }
+
+
+        // Block 15
+        ExecuteUbergraph_BP_Tutorial_Goblin_1102:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnDeath_Event_0([BlueprintVisible, BlueprintReadOnly] Object<Actor> DeadActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_DeadActor", DeadActor);
+        this.ExecuteUbergraph_BP_Tutorial_Goblin(ExecuteUbergraph_BP_Tutorial_Goblin_1097_OnDeath_Event_0);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Tutorial_Goblin(ExecuteUbergraph_BP_Tutorial_Goblin_1092_ReceiveBeginPlay);
+
+    }
+
+}

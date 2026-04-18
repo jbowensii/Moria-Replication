@@ -1,0 +1,116 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionStabilityComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Crude_wall/MI_Crude_Wall_Stones_RedRock")]
+public MaterialInstanceConstant MI_Crude_Wall_Stones_RedRock;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Crude_wall/MI_Crude_Wall_3x3_RedRock")]
+public MaterialInstanceConstant MI_Crude_Wall_3x3_RedRock;
+
+
+[Import("/Game/LevelDesign/Architecture/Suburbs/BP_Crude_Wall_1x4_A")]
+public class BP_Crude_Wall_1x4_A_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece Crude_Wall_1x2_GEN_VARIABLE;
+    public MorBreakableMeshPiece Crude_Wall_1x3_A1_GEN_VARIABLE;
+    public MorConstructionSnapComponent MorConstructionSnap_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece Crude_Wall_1x2;
+    public MorBreakableMeshPiece Crude_Wall_1x3_A1;
+    public MorConstructionSnapComponent MorConstructionSnap;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Architecture/Suburbs/BP_Crude_Wall_1x4_A")]
+public class Default__BP_Crude_Wall_1x4_A_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public MorBreakableFXComponent `Breakable Effects`;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class BP_BaseArchitectureBreakable_C {
+    public MorConstructionStabilityComponent MorConstructionStability_GEN_VARIABLE;
+    public MorConstructionStabilityComponent MorConstructionStability;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class Default__BP_BaseArchitectureBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Crude_Wall_1x4_A_Player_RedRock_C : BP_Crude_Wall_1x4_A_C {
+}

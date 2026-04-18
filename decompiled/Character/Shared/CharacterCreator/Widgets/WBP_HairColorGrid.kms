@@ -1,0 +1,166 @@
+
+[Import("/Script/UMG")]
+public class UserWidget {
+    public Object Construct;
+}
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass : MorColorSelectionWidget {}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+[Import("/Script/UMG")]
+public WidgetBlueprintGeneratedClass Default__WidgetBlueprintGeneratedClass;
+
+[Import("/Script/UMG")]
+public WidgetTree Default__WidgetTree;
+
+
+[Import("/Script/Moria")]
+public class MorColorSelectionWidget {
+    public Object OnColorSelectedBlueprint__DelegateSignature;
+    public Object GetColorFromRowHandle;
+    public object OnColorSelectedBlueprint;
+}
+
+[Import("/Script/Moria")]
+public class CustomizationHairColorData {
+    public object UI_Icon_Color;
+}
+
+
+[Import("/Script/Engine")]
+public class DataTableFunctionLibrary {
+    [UnknownSignature, FinalFunction] public sealed void GetDataTableRowFromName();
+}
+
+[Import("/Script/Engine")]
+public DataTableFunctionLibrary Default__DataTableFunctionLibrary;
+
+[Import("/Script/Engine")]
+public class DataTableRowHandle {
+    public object DataTable;
+    public object RowName;
+}
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MulticastInlineDelegateProperty {}
+
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_ColorSelectionBase")]
+public WBP_ColorSelectionBase_C Default__WBP_ColorSelectionBase_C;
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_ColorSelectionBase")]
+public class WBP_ColorSelectionBase_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class WBP_HairColorGrid_C : WBP_ColorSelectionBase_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable] MulticastInlineDelegate ColorSelected;
+    [Delegate, BlueprintCallable, BlueprintEvent]
+    public void ColorSelected__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Struct<DataTableRowHandle> Color) {
+        // Block 1
+
+    }
+
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_WBP_HairColorGrid([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const Struct<DataTableRowHandle> K2Node_CustomEvent_ColorRowHandle;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        `ExecuteUbergraph_WBP_HairColorGrid_10_On Color Selected`: EX_CallMulticastDelegate(this.ColorSelected__DelegateSignature, K2Node_CustomEvent_ColorRowHandle, this.ColorSelected);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_WBP_HairColorGrid_43: EX_BindDelegate("On Color Selected", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(this.OnColorSelectedBlueprint, K2Node_CreateDelegate_OutputDelegate);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_WBP_HairColorGrid_90_Construct: goto ExecuteUbergraph_WBP_HairColorGrid_43;
+
+        // Block 5
+        ExecuteUbergraph_WBP_HairColorGrid_95:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void `On Color Selected`([BlueprintVisible, BlueprintReadOnly] const out ref Struct<DataTableRowHandle> ColorRowHandle) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_ColorRowHandle", ColorRowHandle);
+        this.ExecuteUbergraph_WBP_HairColorGrid(`ExecuteUbergraph_WBP_HairColorGrid_10_On Color Selected`);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void Construct() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_HairColorGrid(ExecuteUbergraph_WBP_HairColorGrid_90_Construct);
+
+    }
+
+    [Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    protected override void GetColorFromRowHandle([BlueprintVisible, BlueprintReadOnly] const out ref Struct<DataTableRowHandle> ColorRowHandle, [Return] out Struct<LinearColor> ReturnValue) {
+        // Locals
+        Struct<CustomizationHairColorData> CallFunc_GetDataTableRowFromName_OutRow;
+        bool CallFunc_GetDataTableRowFromName_ReturnValue;
+
+        // Block 1
+        CallFunc_GetDataTableRowFromName_ReturnValue = (bool)(Default__DataTableFunctionLibrary.GetDataTableRowFromName(ColorRowHandle.DataTable, ColorRowHandle.RowName, CallFunc_GetDataTableRowFromName_OutRow));
+
+        if (CallFunc_GetDataTableRowFromName_ReturnValue) {
+            // Block 2
+            ReturnValue = CallFunc_GetDataTableRowFromName_OutRow.UI_Icon_Color;
+
+        }
+
+
+        // Block 3
+        GetColorFromRowHandle_137: return ReturnValue;
+
+    }
+
+}

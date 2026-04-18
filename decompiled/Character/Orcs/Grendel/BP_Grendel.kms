@@ -1,0 +1,926 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public static class ExpeditionManager {
+    [UnknownSignature, FinalFunction] public sealed void GetCurrentExpeditionZoneType();
+    [UnknownSignature, MathFunction] public static sealed void IsInExpedition();
+}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBossComponent {
+    [UnknownSignature, FinalFunction] public sealed void ShowHealthBar();
+}
+
+[Import("/Script/Moria")]
+public static class MorAttributesFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetHealth();
+}
+
+[Import("/Script/Moria")]
+public class MorBossBattleMusicActor {
+    [UnknownSignature, FinalFunction] public sealed void StopMusic();
+}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Actor {
+    [UnknownSignature, FinalFunction] public sealed void SetIsUnkillable();
+    public ObjectProperty OnDeath;
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTable();
+}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void GetNpcManager();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorNPCManager {
+    [UnknownSignature, FinalFunction] public sealed void MarkAllNpcAsRescued();
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void CompleteGoalEntry();
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public Object OnDeathSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object EZoneSet;
+
+[Import("/Script/Moria")]
+public MorAIBossComponent Default__MorAIBossComponent;
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class MorAISenseConfig_Torch {}
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/GameplayAbilities")]
+public class GameplayAbility {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+    [UnknownSignature, MathFunction] public static sealed void IsAServerPlayer();
+}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetActorOfClass();
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void Greater_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/CharacterArt/Creatures/Grandel/FBX/SK_Grandel")]
+public SkeletalMesh SK_Grandel;
+
+
+[Import("/Game/Character/Orcs/Grendel/DA_Grendel_AISettings")]
+public MorAISettings DA_Grendel_AISettings;
+
+
+[Import("/Game/CharacterArt/Creatures/Grandel/Materials/MI_Grandel_Fur")]
+public MaterialInstanceConstant MI_Grandel_Fur;
+
+
+[Import("/Game/Character/Orcs/Grendel/DA_Grendel_CharacterData")]
+public FGKCharacterData DA_Grendel_CharacterData;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/GoblinDeep/DT_CC_SkinColors_GoblinDeep")]
+public DataTable DT_CC_SkinColors_GoblinDeep;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/GoblinDeep/DT_CC_Presets_GoblinDeep")]
+public DataTable DT_CC_Presets_GoblinDeep;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/GoblinDeep/DT_CC_Heads_GoblinDeep")]
+public DataTable DT_CC_Heads_GoblinDeep;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/GoblinDeep/DT_CC_Crafts_GoblinDeep")]
+public DataTable DT_CC_Crafts_GoblinDeep;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/GoblinDeep/DT_CC_Bodies_GoblinDeep")]
+public DataTable DT_CC_Bodies_GoblinDeep;
+
+
+[Import("/Game/Character/Dialogue/TU6/Narrative/DT_Dialog_c10033")]
+public DataTable DT_Dialog_c10033;
+
+
+[Import("/Game/Character/Dialogue/TU6/Narrative/DT_Dialog_c10032")]
+public DataTable DT_Dialog_c10032;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_ExpeditionManager")]
+public class BP_ExpeditionManager_C : ExpeditionManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_ExpeditionManager")]
+public BP_ExpeditionManager_C Default__BP_ExpeditionManager_C;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetStoryManager();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Grendel")]
+public class GE_Starting_Grendel_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Grendel")]
+public GE_Starting_Grendel_C Default__GE_Starting_Grendel_C;
+
+
+[Import("/Game/Character/Shared/BP_CharacterFallComponent_Enemy")]
+public class BP_CharacterFallComponent_Enemy_C {}
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_R")]
+public class GA_Reaction_Grendel_Light_R_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_R")]
+public GA_Reaction_Grendel_Light_R_C Default__GA_Reaction_Grendel_Light_R_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_L")]
+public class GA_Reaction_Grendel_Light_L_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_L")]
+public GA_Reaction_Grendel_Light_L_C Default__GA_Reaction_Grendel_Light_L_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_F")]
+public class GA_Reaction_Grendel_Light_F_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_F")]
+public GA_Reaction_Grendel_Light_F_C Default__GA_Reaction_Grendel_Light_F_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_B")]
+public class GA_Reaction_Grendel_Light_B_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Light_B")]
+public GA_Reaction_Grendel_Light_B_C Default__GA_Reaction_Grendel_Light_B_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_R")]
+public class GA_Reaction_Grendel_Heavy_R_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_R")]
+public GA_Reaction_Grendel_Heavy_R_C Default__GA_Reaction_Grendel_Heavy_R_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_L")]
+public class GA_Reaction_Grendel_Heavy_L_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_L")]
+public GA_Reaction_Grendel_Heavy_L_C Default__GA_Reaction_Grendel_Heavy_L_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_F")]
+public class GA_Reaction_Grendel_Heavy_F_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_F")]
+public GA_Reaction_Grendel_Heavy_F_C Default__GA_Reaction_Grendel_Heavy_F_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_B")]
+public class GA_Reaction_Grendel_Heavy_B_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Heavy_B")]
+public GA_Reaction_Grendel_Heavy_B_C Default__GA_Reaction_Grendel_Heavy_B_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_R")]
+public class GA_Reaction_Grendel_Death_R_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_R")]
+public GA_Reaction_Grendel_Death_R_C Default__GA_Reaction_Grendel_Death_R_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_L")]
+public class GA_Reaction_Grendel_Death_L_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_L")]
+public GA_Reaction_Grendel_Death_L_C Default__GA_Reaction_Grendel_Death_L_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_F")]
+public class GA_Reaction_Grendel_Death_F_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_F")]
+public GA_Reaction_Grendel_Death_F_C Default__GA_Reaction_Grendel_Death_F_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_B")]
+public class GA_Reaction_Grendel_Death_B_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Reactions/GA_Reaction_Grendel_Death_B")]
+public GA_Reaction_Grendel_Death_B_C Default__GA_Reaction_Grendel_Death_B_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_GreatLeap_Land")]
+public class GA_Grendel_GreatLeap_Land_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_GreatLeap_Land")]
+public GA_Grendel_GreatLeap_Land_C Default__GA_Grendel_GreatLeap_Land_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_GreatLeap")]
+public class GA_Grendel_GreatLeap_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_GreatLeap")]
+public GA_Grendel_GreatLeap_C Default__GA_Grendel_GreatLeap_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_DeathlyHowl")]
+public class GA_Grendel_Attack_UA_DeathlyHowl_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_DeathlyHowl")]
+public GA_Grendel_Attack_UA_DeathlyHowl_C Default__GA_Grendel_Attack_UA_DeathlyHowl_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_Claw_R")]
+public class GA_Grendel_Attack_UA_Claw_R_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_Claw_R")]
+public GA_Grendel_Attack_UA_Claw_R_C Default__GA_Grendel_Attack_UA_Claw_R_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_Claw_L")]
+public class GA_Grendel_Attack_UA_Claw_L_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_Claw_L")]
+public GA_Grendel_Attack_UA_Claw_L_C Default__GA_Grendel_Attack_UA_Claw_L_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_Claw_Frenzy")]
+public class GA_Grendel_Attack_UA_Claw_Frenzy_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_Claw_Frenzy")]
+public GA_Grendel_Attack_UA_Claw_Frenzy_C Default__GA_Grendel_Attack_UA_Claw_Frenzy_C;
+
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_ChargeLeap")]
+public class GA_Grendel_Attack_UA_ChargeLeap_C {}
+
+[Import("/Game/Character/Orcs/Grendel/Abilities/GA_Grendel_Attack_UA_ChargeLeap")]
+public GA_Grendel_Attack_UA_ChargeLeap_C Default__GA_Grendel_Attack_UA_ChargeLeap_C;
+
+
+[Import("/Game/Animations/Grendel/Gdl_UA_N_TurnIP_R90_Montage")]
+public class Gdl_UA_N_TurnIP_R90_Montage {
+    public AnimNotify_AkEvent_C AnimNotify_AkEvent_C_5;
+}
+
+
+[Import("/Game/Animations/Grendel/Gdl_UA_N_TurnIP_L90_Montage")]
+public class Gdl_UA_N_TurnIP_L90_Montage {
+    public AnimNotify_AkEvent_C AnimNotify_AkEvent_C_3;
+}
+
+
+[Import("/Game/Audio/BossBattle/BP_BossMusic_Bolgakh")]
+public class BP_BossMusic_Bolgakh_C : MorBossBattleMusicActor {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Audio/BossBattle/BP_BossMusic_Bolgakh")]
+public class Default__BP_BossMusic_Bolgakh_C {
+    public AkComponent MusicAkComponent;
+}
+
+
+[Import("/Game/Character/Orcs/Grendel/BP_AIController_Grendel")]
+public class BP_AIController_Grendel_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Orcs/Grendel/BP_AIController_Grendel")]
+public class Default__BP_AIController_Grendel_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Orcs/Goblins/BP_Goblin_Base")]
+public class BP_Goblin_Base_C : MorCharacter {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public BP_CharacterFallComponent_Enemy_C BP_CharacterFallComponent_Enemy_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent `Slot::Chest_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Feet_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Hands_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Head_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Legs_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Shoulder_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Shoulder_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent GoblinDebug_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public BP_CharacterFallComponent_Enemy_C BP_CharacterFallComponent_Enemy;
+    public CustomizationManager CustomizationManager;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent Shoulder_L_Capsule;
+    public StaticMeshComponent Shoulder_R_Capsule;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public TextRenderComponent GoblinDebug;
+}
+
+[Import("/Game/Character/Orcs/Goblins/BP_Goblin_Base")]
+public class Default__BP_Goblin_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/Orcs/Grendel/ABP_Grendel_NoLink")]
+public ABP_Grendel_NoLink_C Default__ABP_Grendel_NoLink_C;
+
+[Import("/Game/Character/Orcs/Grendel/ABP_Grendel_NoLink")]
+public AnimBlueprintGeneratedClass ABP_Grendel_NoLink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Grendel_C : BP_Goblin_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBossComponent> MorAIBoss;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> Tribe;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Lore Row Complete Kill`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Disable Kidnap Events`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Lore Row for Triggering Wanderer Asking About Ring`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Progress Row For Grendel Dead`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Lore Row Appendics About Grendel`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Class Grendel_GreatLeap;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Class Grendel_GreatLeap_Land;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Progress Row for Meat Hat`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Convo Trigger: Aric Congratulations`;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Grendel([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MorCharacter> K2Node_ComponentBoundEvent_Character;
+        bool CallFunc_IsAServerPlayer_ReturnValue;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue;
+        Object<Actor> K2Node_CustomEvent_DeadActor;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit_1;
+        float CallFunc_GetHealth_ReturnValue;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue_1;
+        bool CallFunc_Greater_FloatFloat_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_IsInExpedition_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue_1;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Enum CallFunc_GetCurrentExpeditionZoneType_ReturnValue;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue;
+        Object<MorNPCManager> CallFunc_GetNpcManager_ReturnValue;
+        Object<BP_StoryManager_C> CallFunc_GetStoryManager_StoryManager;
+        bool CallFunc_IsValid_ReturnValue_1;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue_1;
+        Object<BP_BossMusic_Bolgakh_C> CallFunc_GetActorOfClass_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_2;
+        bool Temp_bool_Has_Been_Initd_Variable;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_2;
+        bool CallFunc_IsValid_ReturnValue_3;
+        Enum CallFunc_GetCurrentExpeditionZoneType_ReturnValue_1;
+        bool CallFunc_NotEqual_ByteByte_ReturnValue;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue_1;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_3;
+        bool CallFunc_IsValid_ReturnValue_4;
+        Enum CallFunc_GetCurrentExpeditionZoneType_ReturnValue_2;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue_2;
+        Object<BP_StoryManager_C> CallFunc_GetStoryManager_StoryManager_1;
+        bool Temp_bool_IsClosed_Variable;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_Grendel_15: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 3
+            EX_LetObj(CallFunc_GetNpcManager_ReturnValue,MoriaUtils.GetNpcManager(this));
+            CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetNpcManager_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_1);
+
+            // Block 4
+            CallFunc_GetNpcManager_ReturnValue.MarkAllNpcAsRescued(false);
+            EX_PopExecutionFlow();
+
+            // Block 5
+            ExecuteUbergraph_BP_Grendel_139_ReceiveBeginPlay: EX_BindDelegate("HandleOnDeath", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(this.OnDeath, K2Node_CreateDelegate_OutputDelegate);
+            EX_LetObj(CallFunc_GetManager_ReturnValue_2,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+            CallFunc_IsValid_ReturnValue_3 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue_2));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_3);
+
+            // Block 6
+            CallFunc_GetCurrentExpeditionZoneType_ReturnValue_1 = CallFunc_GetManager_ReturnValue_2.GetCurrentExpeditionZoneType();
+            CallFunc_NotEqual_ByteByte_ReturnValue = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetCurrentExpeditionZoneType_ReturnValue_1, (byte)(6)));
+            this.SetIsUnkillable(CallFunc_NotEqual_ByteByte_ReturnValue);
+            CallFunc_GetCurrentExpeditionZoneType_ReturnValue_1 = CallFunc_GetManager_ReturnValue_2.GetCurrentExpeditionZoneType();
+            CallFunc_EqualEqual_ByteByte_ReturnValue_1 = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetCurrentExpeditionZoneType_ReturnValue_1, (byte)(6)));
+            this.MorAIBoss.ShowHealthBar(CallFunc_EqualEqual_ByteByte_ReturnValue_1);
+            EX_PopExecutionFlow();
+
+            // Block 7
+            ExecuteUbergraph_BP_Grendel_473_BndEvt__BP_Grendel_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature: EX_PushExecutionFlow(ExecuteUbergraph_BP_Grendel_537);
+
+            // Block 8
+            CallFunc_IsAServerPlayer_ReturnValue = (bool)(FGKUtils.IsAServerPlayer(K2Node_ComponentBoundEvent_Character));
+            EX_PopExecutionFlowIfNot(CallFunc_IsAServerPlayer_ReturnValue);
+
+            // Block 9
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_Grendel_754);
+
+            // Block 10
+
+            if (Temp_bool_Has_Been_Initd_Variable) {
+                // Block 11
+                break;
+
+                // Block 12
+                ExecuteUbergraph_BP_Grendel_537: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+                if (!CallFunc_HasAuthority_ReturnValue_1) break;
+
+                // Block 13
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+                if (!K2Node_DynamicCast_bSuccess) break;
+
+                // Block 14
+                EX_LetObj(CallFunc_GetManager_ReturnValue_1,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+                CallFunc_GetManager_ReturnValue_1.DiscoverStoryFragment(this.`Lore Row Appendics About Grendel`, (byte)(0), K2Node_ComponentBoundEvent_Character);
+                break;
+
+                // Block 15
+
+                ExecuteUbergraph_BP_Grendel_754:
+                if (Temp_bool_IsClosed_Variable) {
+                    // Block 16
+                    break;
+
+                }
+
+
+                // Block 17
+                ExecuteUbergraph_BP_Grendel_769: Temp_bool_IsClosed_Variable = (bool)(true);
+                EX_LetObj(CallFunc_GetManager_ReturnValue_3,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+                CallFunc_IsValid_ReturnValue_4 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue_3));
+                if (!CallFunc_IsValid_ReturnValue_4) break;
+
+                // Block 18
+                CallFunc_GetCurrentExpeditionZoneType_ReturnValue_2 = CallFunc_GetManager_ReturnValue_3.GetCurrentExpeditionZoneType();
+                CallFunc_EqualEqual_ByteByte_ReturnValue_2 = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetCurrentExpeditionZoneType_ReturnValue_2, (byte)(6)));
+                if (!CallFunc_EqualEqual_ByteByte_ReturnValue_2) break;
+
+                // Block 19
+                CallFunc_RequestDialogueEventFromTable_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTable(DT_Dialog_c10032, K2Node_ComponentBoundEvent_Character, (byte)(4), K2Node_MakeStruct_DialogueRateLimit, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+                break;
+
+            }
+
+
+            // Block 20
+            ExecuteUbergraph_BP_Grendel_1019: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            EX_PopExecutionFlowIfNot(false);
+
+            // Block 21
+            Temp_bool_IsClosed_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 22
+            ExecuteUbergraph_BP_Grendel_1044_HandleOnDeath: CallFunc_GetHealth_ReturnValue = MorAttributesFunctionLibrary.GetHealth(K2Node_CustomEvent_DeadActor);
+            CallFunc_Greater_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_GetHealth_ReturnValue, 0f));
+            CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_Greater_FloatFloat_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Not_PreBool_ReturnValue);
+
+            // Block 23
+            CallFunc_IsInExpedition_ReturnValue = (bool)(ExpeditionManager.IsInExpedition(this));
+            EX_PopExecutionFlowIfNot(CallFunc_IsInExpedition_ReturnValue);
+
+            // Block 24
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 25
+            CallFunc_GetCurrentExpeditionZoneType_ReturnValue = CallFunc_GetManager_ReturnValue.GetCurrentExpeditionZoneType();
+            CallFunc_EqualEqual_ByteByte_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetCurrentExpeditionZoneType_ReturnValue, (byte)(6)));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ByteByte_ReturnValue);
+
+            // Block 26
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_Grendel_15);
+
+            // Block 27
+            Default__BPFL_LevelDesign_C.GetStoryManager(this, this, CallFunc_GetStoryManager_StoryManager);
+            CallFunc_GetStoryManager_StoryManager.CompleteGoalEntry(EX_NoObject(), this.`Lore Row Complete Kill`);
+            CallFunc_RequestDialogueEventFromTable_ReturnValue_1 = (bool)(MorDialogueManager.RequestDialogueEventFromTable(DT_Dialog_c10033, EX_NoObject(), (byte)(4), K2Node_MakeStruct_DialogueRateLimit_1, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags, EX_StructConst(GameplayTag, 12, EX_NameConst("DialogueSpeaker.Dwarf")))), false));
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue_1,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_GetDiscoveryManager_ReturnValue_1.SetProgressValue(this.`Disable Kidnap Events`, 0);
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(this.`Progress Row For Grendel Dead`, 1);
+            Default__BPFL_LevelDesign_C.GetStoryManager(this, this, CallFunc_GetStoryManager_StoryManager_1);
+            CallFunc_GetStoryManager_StoryManager_1.DiscoverStoryFragment(this.`Convo Trigger: Aric Congratulations`, (byte)(0), EX_NoObject());
+            EX_LetObj(CallFunc_GetActorOfClass_ReturnValue,GameplayStatics.GetActorOfClass(this, BP_BossMusic_Bolgakh_C));
+            CallFunc_IsValid_ReturnValue_2 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetActorOfClass_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_2);
+
+            // Block 28
+            CallFunc_GetActorOfClass_ReturnValue.StopMusic();
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 29
+        ExecuteUbergraph_BP_Grendel_1863:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void HandleOnDeath([BlueprintVisible, BlueprintReadOnly] Object<Actor> DeadActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_DeadActor", DeadActor);
+        this.ExecuteUbergraph_BP_Grendel(ExecuteUbergraph_BP_Grendel_1044_HandleOnDeath);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Grendel_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Character", Character);
+        this.ExecuteUbergraph_BP_Grendel(ExecuteUbergraph_BP_Grendel_473_BndEvt__BP_Grendel_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Grendel(ExecuteUbergraph_BP_Grendel_139_ReceiveBeginPlay);
+
+    }
+
+}

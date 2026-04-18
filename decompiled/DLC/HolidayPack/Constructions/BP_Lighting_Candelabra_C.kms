@@ -1,0 +1,281 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent : ActorComponent {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public ApplyEffectRadiusComponent Default__ApplyEffectRadiusComponent;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MorInteractable {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {
+    public ActorComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public MorBreakableComponent Default__MorBreakableComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public MorGameplayLightProducerComponent Default__MorGameplayLightProducerComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorInteractable {
+    public Object InteractCollider;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_DestroyComponent();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/Architecture")]
+public StringTable Architecture;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Lighting/Dwarvern/Lighting_Candelabra_C")]
+public StaticMesh Lighting_Candelabra_C;
+
+
+[Import("/Game/FX/CandleFlameFX/NS_CandleFlame")]
+public NiagaraSystem NS_CandleFlame;
+
+
+[Import("/Game/FX/HonorRemains/Materials/MI_PointLightNoiseFunction_Fire")]
+public MaterialInstanceConstant MI_PointLightNoiseFunction_Fire;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/Curve_GameplayLight_Producer_MostlyLinear")]
+public CurveFloat Curve_GameplayLight_Producer_MostlyLinear;
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/GE_Warm")]
+public class GE_Warm_C {}
+
+[Import("/Game/Character/Shared/Effects/Survival/GE_Warm")]
+public GE_Warm_C Default__GE_Warm_C;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/fx_env_obj_torch_play")]
+public AkAudioEvent fx_env_obj_torch_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Lighting_Candelabra_C_C : MorInteractable {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> NavArea_InteractableArchitecture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> FX_Candleflame4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> FX_Candleflame3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> FX_Candleflame2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> FX_Candleflame1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> FX_Candleflame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ApplyEffectRadiusComponent> ApplyEffectRadius;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableComponent> MorBreakable;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> AkAudio;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Lighting_Candelabra_C([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+        int CallFunc_PostAkEvent_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Lighting_Candelabra_C_10_ReceiveBeginPlay: CallFunc_PostAkEvent_ReturnValue = this.AkAudio.PostAkEvent(fx_env_obj_torch_play, 0, Temp_delegate_Variable, Temp_struct_Variable, "");
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Lighting_Candelabra_C_103_BndEvt__BP_PlacedTorch_MorBreakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature: this.MorPointLight.PointLight.K2_DestroyComponent(this);
+        this.FX_Candleflame4.K2_DestroyComponent(this);
+        this.FX_Candleflame3.K2_DestroyComponent(this);
+        this.FX_Candleflame2.K2_DestroyComponent(this);
+        this.FX_Candleflame1.K2_DestroyComponent(this);
+        this.FX_Candleflame.K2_DestroyComponent(this);
+
+        // Block 4
+        ExecuteUbergraph_BP_Lighting_Candelabra_C_323:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_PlacedTorch_MorBreakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_Lighting_Candelabra_C(ExecuteUbergraph_BP_Lighting_Candelabra_C_103_BndEvt__BP_PlacedTorch_MorBreakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Lighting_Candelabra_C(ExecuteUbergraph_BP_Lighting_Candelabra_C_10_ReceiveBeginPlay);
+
+    }
+
+}

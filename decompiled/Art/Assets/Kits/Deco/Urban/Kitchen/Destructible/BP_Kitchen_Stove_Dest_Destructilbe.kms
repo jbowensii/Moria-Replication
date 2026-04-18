@@ -1,0 +1,16 @@
+
+[Import("/Script/ApexDestruction")]
+public class DestructibleMesh {}
+
+[Import("/Script/ApexDestruction")]
+public DestructibleMesh Default__DestructibleMesh;
+
+
+[Import("/Game/Art/Assets/GPI/Crafter/Materials/GPI_Kitchen_Advanced/MI_GPI_Kitchen_Advanced")]
+public MaterialInstanceConstant MI_GPI_Kitchen_Advanced;
+
+
+[Import("/Engine/EngineMaterials/WorldGridMaterial")]
+public Material WorldGridMaterial;
+
+

@@ -1,0 +1,1324 @@
+
+[Import("/Script/UMG")]
+public BackgroundBlur Default__BackgroundBlur;
+
+[Import("/Script/UMG")]
+public BackgroundBlurSlot Default__BackgroundBlurSlot;
+
+[Import("/Script/UMG")]
+public CanvasPanel Default__CanvasPanel;
+
+[Import("/Script/UMG")]
+public CanvasPanelSlot Default__CanvasPanelSlot;
+
+[Import("/Script/UMG")]
+public class BackgroundBlur {}
+
+[Import("/Script/UMG")]
+public class BackgroundBlurSlot {}
+
+[Import("/Script/UMG")]
+public class Button {}
+
+[Import("/Script/UMG")]
+public class CanvasPanel {}
+
+[Import("/Script/UMG")]
+public class CanvasPanelSlot {}
+
+[Import("/Script/UMG")]
+public class EditableTextBox {
+    [UnknownSignature, FinalFunction] public sealed void GetText();
+    [UnknownSignature, FinalFunction] public sealed void SetText();
+}
+
+[Import("/Script/UMG")]
+public class GridPanel {}
+
+[Import("/Script/UMG")]
+public class GridSlot {}
+
+[Import("/Script/UMG")]
+public class HorizontalBox {}
+
+[Import("/Script/UMG")]
+public class HorizontalBoxSlot {}
+
+[Import("/Script/UMG")]
+public class Image {}
+
+[Import("/Script/UMG")]
+public class MovieScene2DTransformSection {}
+
+[Import("/Script/UMG")]
+public class MovieScene2DTransformTrack {}
+
+[Import("/Script/UMG")]
+public class Overlay {}
+
+[Import("/Script/UMG")]
+public class OverlaySlot {}
+
+[Import("/Script/UMG")]
+public class ScaleBox {}
+
+[Import("/Script/UMG")]
+public class ScaleBoxSlot {}
+
+[Import("/Script/UMG")]
+public class SizeBox {
+    [UnknownSignature, VirtualFunction] public virtual void SetVisibility();
+}
+
+[Import("/Script/UMG")]
+public class SizeBoxSlot {}
+
+[Import("/Script/UMG")]
+public class Spacer {}
+
+[Import("/Script/UMG")]
+public class TextBlock {}
+
+[Import("/Script/UMG")]
+public class UMGSequencePlayer {}
+
+[Import("/Script/UMG")]
+public class UserWidget : Widget {
+    [UnknownSignature, FinalFunction] public sealed void ListenForInputAction();
+    [UnknownSignature, FinalFunction] public sealed void PlayAnimationForward();
+    public Object PreConstruct;
+    [UnknownSignature, FinalFunction] public sealed void StopAllAnimations();
+    [UnknownSignature, FinalFunction] public sealed void StopAnimation();
+    [UnknownSignature, FinalFunction] public sealed void StopListeningForInputAction();
+}
+
+[Import("/Script/UMG")]
+public class VerticalBox {}
+
+[Import("/Script/UMG")]
+public class VerticalBoxSlot {}
+
+[Import("/Script/UMG")]
+public class Widget : EditableTextBox {
+    [UnknownSignature, FinalFunction] public sealed void IsVisible();
+    [UnknownSignature, FinalFunction] public sealed void SetKeyboardFocus();
+    public ObjectProperty bIsEnabled;
+}
+
+[Import("/Script/UMG")]
+public class WidgetAnimation {}
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass : UserWidget {
+    [UnknownSignature, LocalVirtualFunction] public virtual void SetNewName();
+    [UnknownSignature, VirtualFunction] public virtual void SetVisibility();
+}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+[Import("/Script/UMG")]
+public Object OnInputAction__DelegateSignature;
+
+[Import("/Script/UMG")]
+public EditableTextBox Default__EditableTextBox;
+
+[Import("/Script/UMG")]
+public Object ESlateVisibility;
+
+[Import("/Script/UMG")]
+public GridPanel Default__GridPanel;
+
+[Import("/Script/UMG")]
+public GridSlot Default__GridSlot;
+
+[Import("/Script/UMG")]
+public HorizontalBox Default__HorizontalBox;
+
+[Import("/Script/UMG")]
+public HorizontalBoxSlot Default__HorizontalBoxSlot;
+
+[Import("/Script/UMG")]
+public Image Default__Image;
+
+[Import("/Script/UMG")]
+public class Default__MovieScene2DTransformSection {
+    public Object EaseInFunction;
+    public Object EaseOutFunction;
+}
+
+[Import("/Script/UMG")]
+public MovieScene2DTransformTrack Default__MovieScene2DTransformTrack;
+
+[Import("/Script/UMG")]
+public Overlay Default__Overlay;
+
+[Import("/Script/UMG")]
+public OverlaySlot Default__OverlaySlot;
+
+[Import("/Script/UMG")]
+public ScaleBox Default__ScaleBox;
+
+[Import("/Script/UMG")]
+public ScaleBoxSlot Default__ScaleBoxSlot;
+
+[Import("/Script/UMG")]
+public SizeBox Default__SizeBox;
+
+[Import("/Script/UMG")]
+public SizeBoxSlot Default__SizeBoxSlot;
+
+[Import("/Script/UMG")]
+public Spacer Default__Spacer;
+
+[Import("/Script/UMG")]
+public TextBlock Default__TextBlock;
+
+[Import("/Script/UMG")]
+public VerticalBox Default__VerticalBox;
+
+[Import("/Script/UMG")]
+public VerticalBoxSlot Default__VerticalBoxSlot;
+
+[Import("/Script/UMG")]
+public WidgetAnimation Default__WidgetAnimation;
+
+[Import("/Script/UMG")]
+public WidgetBlueprintGeneratedClass Default__WidgetBlueprintGeneratedClass;
+
+[Import("/Script/UMG")]
+public WidgetTree Default__WidgetTree;
+
+[Import("/Script/UMG")]
+public class WidgetComponent {
+    [UnknownSignature, VirtualFunction] public virtual void GetWidget();
+}
+
+
+[Import("/Script/SlateCore")]
+public Object ETextCommit;
+
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneFloatSection {}
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneFloatTrack {}
+
+[Import("/Script/MovieSceneTracks")]
+public class Default__MovieSceneFloatSection {
+    public Object EaseInFunction;
+    public Object EaseOutFunction;
+}
+
+[Import("/Script/MovieSceneTracks")]
+public MovieSceneFloatTrack Default__MovieSceneFloatTrack;
+
+
+[Import("/Script/MovieScene")]
+public class MovieScene {}
+
+[Import("/Script/MovieScene")]
+public class MovieSceneBuiltInEasingFunction {}
+
+[Import("/Script/MovieScene")]
+public class MovieSceneCompiledData {}
+
+[Import("/Script/MovieScene")]
+public MovieScene Default__MovieScene;
+
+[Import("/Script/MovieScene")]
+public MovieSceneCompiledData Default__MovieSceneCompiledData;
+
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class MorCharacterCreatorRenameDialog {
+    [UnknownSignature, FinalFunction] public sealed void CheckNewCharacterName();
+    public Widget RenameBox;
+    public ObjectProperty MaxNameLength;
+    [UnknownSignature, VirtualFunction] public virtual void GetOwningPlayer();
+}
+
+[Import("/Script/Moria")]
+public static class MorCharSelectionManager {
+    [UnknownSignature, FinalFunction] public sealed void ConfirmedSelectedCustomization();
+    [UnknownSignature, MathFunction] public static sealed void GetInstance();
+    [UnknownSignature, FinalFunction] public sealed void GetSelectedCustomizationMannequin();
+    [UnknownSignature, FinalFunction] public sealed void GetSelectedCustomizationSaveSlot();
+}
+
+[Import("/Script/Moria")]
+public class MorCustomizationMannequin {
+    public AnonymousClass_b24dfad06379424782acc1089f233943 CustomizationManager;
+}
+
+[Import("/Script/Moria")]
+public static class MorMenuManager {
+    [UnknownSignature, MathFunction] public static sealed void Get();
+}
+
+[Import("/Script/Moria")]
+public static class MorUIFocusFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SetCustomFocus();
+}
+
+[Import("/Script/Moria")]
+public class MorUIFocusWidgetInterface {}
+
+[Import("/Script/Moria")]
+public static class MorUIManager : FGKUIManager {
+    [UnknownSignature, MathFunction] public static sealed void BPGetManager();
+}
+
+[Import("/Script/Moria")]
+public MorCharacterCreatorRenameDialog Default__MorCharacterCreatorRenameDialog;
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorMannequinInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class AnonymousClass_b24dfad06379424782acc1089f233943 {
+    [UnknownSignature, FinalFunction] public sealed void SetCharacterName();
+    [UnknownSignature, FinalFunction] public sealed void GetCharacterName();
+}
+
+
+[Import("/Script/InputCore")]
+public Object Key;
+
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIManager {
+    [UnknownSignature, FinalFunction] public sealed void ShowOneButtonPopup();
+    [UnknownSignature, FinalFunction] public sealed void ShowScreen();
+}
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIScreen {
+    public Object OnBeforeHide;
+    public Object OnBeforeShow;
+}
+
+[Import("/Script/FGKUIToolkit")]
+public Object FGKPopupButtonUsed__DelegateSignature;
+
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_AddUnique();
+    [UnknownSignature, FinalFunction] public sealed void Array_Clear();
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+    [UnknownSignature, FinalFunction] public sealed void Array_Random();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanOR();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_NameName();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetStringLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Len();
+}
+
+[Import("/Script/Engine")]
+public static class KismetStringTableLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetKeysFromStringTable();
+    [UnknownSignature, MathFunction] public static sealed void GetTableEntrySourceString();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_StringToText();
+    [UnknownSignature, MathFunction] public static sealed void Conv_TextToString();
+    [UnknownSignature, MathFunction] public static sealed void StringTableIdAndKeyFromText();
+    [UnknownSignature, MathFunction] public static sealed void TextIsEmpty();
+    [UnknownSignature, MathFunction] public static sealed void TextTrimPrecedingAndTrailing();
+}
+
+[Import("/Script/Engine")]
+public class PlayerController {}
+
+[Import("/Script/Engine")]
+public static class SubsystemBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLocalPlayerSubsystem();
+}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Font {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+[Import("/Script/Engine")]
+public class UserDefinedStruct {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/CommonInput")]
+public class CommonInputSubsystem {
+    [UnknownSignature, FinalFunction] public sealed void GetCurrentInputType();
+    public ObjectProperty OnInputMethodChanged;
+}
+
+[Import("/Script/CommonInput")]
+public Object InputMethodChangedDelegate__DelegateSignature;
+
+[Import("/Script/CommonInput")]
+public Object ECommonInputType;
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/UI/PopUp/WBP_UI_GenericPopup")]
+public WBP_UI_GenericPopup_C Default__WBP_UI_GenericPopup_C;
+
+[Import("/Game/UI/PopUp/WBP_UI_GenericPopup")]
+public class WBP_UI_GenericPopup_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Frontend/WBP_MenuCharName")]
+public WBP_MenuCharName_C Default__WBP_MenuCharName_C;
+
+[Import("/Game/UI/Frontend/WBP_MenuCharName")]
+public class WBP_MenuCharName_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Frontend/WBP_LaunchScreenButton")]
+public WBP_LaunchScreenButton_C Default__WBP_LaunchScreenButton_C;
+
+[Import("/Game/UI/Frontend/WBP_LaunchScreenButton")]
+public class WBP_LaunchScreenButton_C : Widget {
+    public WidgetTree WidgetTree;
+    public ObjectProperty MenuButton;
+    [UnknownSignature, VirtualFunction] public virtual void SetIsEnabled();
+    [UnknownSignature, VirtualFunction] public virtual void SetVisibility();
+}
+
+
+[Import("/Game/UI/Frontend/WBP_FrontEndButton")]
+public WBP_FrontEndButton_C Default__WBP_FrontEndButton_C;
+
+[Import("/Game/UI/Frontend/WBP_FrontEndButton")]
+public class WBP_FrontEndButton_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_CharacterCreatorMain")]
+public WBP_CharacterCreatorMain_C Default__WBP_CharacterCreatorMain_C;
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_CharacterCreatorMain")]
+public class WBP_CharacterCreatorMain_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/UI_MenuActionStruct")]
+public class UI_MenuActionStruct {
+    public ObjectProperty inputAction_7_802C857246A45EFAA252B3B3A0A5CCDF;
+    public ObjectProperty labelText_5_09B33A8B40E348B89ABDA8976963AA18;
+    public ObjectProperty key_9_AEC6A0FF48D8AEC999E4DE9DE6D01CC4;
+    public ObjectProperty keyGamepad_12_D6C4D3684C06B11420446B830C2BC197;
+    public ObjectProperty gamepadKeysetKey_15_1FFF0E7B480DA25F44150F8AF43CA5B1;
+}
+
+
+[Import("/Game/UI/Shared/UI_WBP_HUD_ControlPrompt")]
+public UI_WBP_HUD_ControlPrompt_C Default__UI_WBP_HUD_ControlPrompt_C;
+
+[Import("/Game/UI/Shared/UI_WBP_HUD_ControlPrompt")]
+public class UI_WBP_HUD_ControlPrompt_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Textures/_Shared/Icons/T_UI_Refresh")]
+public Texture2D T_UI_Refresh;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Tech/Data/StringTables/ST_DwarfNames")]
+public StringTable ST_DwarfNames;
+
+
+[Import("/Game/UI/Materials/M_GradientMask")]
+public Material M_GradientMask;
+
+
+[Import("/Game/UI/Stations/Shared/UI_WBP_LowerThird")]
+public UI_WBP_LowerThird_C Default__UI_WBP_LowerThird_C;
+
+[Import("/Game/UI/Stations/Shared/UI_WBP_LowerThird")]
+public class UI_WBP_LowerThird_C {
+    [UnknownSignature] public  void actionCalled__DelegateSignature();
+    public WidgetTree WidgetTree;
+    public ObjectProperty actionCalled;
+    [UnknownSignature, LocalVirtualFunction] public virtual void ClearAllTooltips();
+    [UnknownSignature, LocalVirtualFunction] public virtual void AddMenuTooltip();
+}
+
+
+[Import("/Game/UI/Font/Tisa_Sans")]
+public Font Tisa_Sans;
+
+
+[Import("/Game/UI/Font/Leksa")]
+public Font Leksa;
+
+
+[Import("/Game/Tech/Managers/BP_MenuManager")]
+public class BP_MenuManager_C {
+    [UnknownSignature] public  void GetNotSignedInText();
+    [UnknownSignature, LocalVirtualFunction] public virtual void GoToWorldSelection();
+}
+
+[Import("/Game/Tech/Managers/BP_MenuManager")]
+public BP_MenuManager_C Default__BP_MenuManager_C;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/BP_DwarfCustomizationCharacterMannequin")]
+public class BP_DwarfCustomizationCharacterMannequin_C {
+    public PersonalityComponent Personality_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public WidgetComponent NamePlateWidget_GEN_VARIABLE;
+    public PersonalityComponent Personality;
+    public SceneComponent DefaultSceneRoot;
+    public WidgetComponent NamePlateWidget;
+}
+
+[Import("/Game/Character/Shared/CharacterCreator/BP_DwarfCustomizationCharacterMannequin")]
+public class Default__BP_DwarfCustomizationCharacterMannequin_C {
+    public AkComponent AkComponent_Voice;
+    public CapsuleComponent CollisionCylinder;
+    public CustomizationManager CustomizationMan;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKCharacterMovementComponent CharMoveComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorEquipComponent EquipComp;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorMannequinInventoryComponent InventoryComp;
+    public SkeletalMeshComponent CharacterMesh0;
+    public SkeletalMeshComponent `Slot::Back`;
+    public SkeletalMeshComponent `Slot::Backpack`;
+    public SkeletalMeshComponent `Slot::Beard`;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Extras`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Gloves`;
+    public SkeletalMeshComponent `Slot::Hair`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Hat`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/UI/General/fx_ui_gen_confirm_play")]
+public AkAudioEvent fx_ui_gen_confirm_play;
+
+
+[Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class WBP_CharacterCreatorRenameDialog_C : MorCharacterCreatorRenameDialog {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> Hide;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> Show;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_LaunchScreenButton_C> ConfirmButton;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<UI_WBP_HUD_ControlPrompt_C> Controller_RandomizePrompt;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<Image> PanelBG;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<SizeBox> RandomButtonSizer;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_FrontEndButton_C> RandomNameButton;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<UI_WBP_HUD_ControlPrompt_C> UI_WBP_HUD_ControlPrompt;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<UI_WBP_LowerThird_C> UI_WBP_LowerThird;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text CharacterNameText;
+    [Edit, BlueprintVisible] Array<Text> RandomNames;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool SaveJustPressed;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_WBP_CharacterCreatorRenameDialog([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const Delegate Temp_delegate_Variable;
+        Name CallFunc_StringTableIdAndKeyFromText_OutTableId;
+        string CallFunc_StringTableIdAndKeyFromText_OutKey;
+        bool CallFunc_StringTableIdAndKeyFromText_ReturnValue;
+        Text CallFunc_Array_Random_OutItem;
+        int CallFunc_Array_Random_OutIndex;
+        ref Array<string> CallFunc_GetKeysFromStringTable_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Text CallFunc_TextTrimPrecedingAndTrailing_ReturnValue;
+        bool CallFunc_TextIsEmpty_ReturnValue;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Delegate K2Node_CreateDelegate_OutputDelegate_1;
+        Object<CommonInputSubsystem> CallFunc_GetLocalPlayerSubsystem_ReturnValue;
+        const Text K2Node_ComponentBoundEvent_Text;
+        byte K2Node_ComponentBoundEvent_CommitMethod;
+        bool CallFunc_IsValid_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        int Temp_int_Array_Index_Variable;
+        const Text K2Node_ComponentBoundEvent_Text_1;
+        string CallFunc_Array_Get_Item;
+        string CallFunc_GetTableEntrySourceString_ReturnValue;
+        string CallFunc_Conv_TextToString_ReturnValue;
+        Text CallFunc_Conv_StringToText_ReturnValue;
+        int CallFunc_Len_ReturnValue;
+        int CallFunc_Array_AddUnique_ReturnValue;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        bool CallFunc_NotEqual_IntInt_ReturnValue;
+        Name K2Node_CustomEvent_action;
+        bool CallFunc_EqualEqual_NameName_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        Delegate K2Node_CreateDelegate_OutputDelegate_2;
+        Delegate K2Node_CreateDelegate_OutputDelegate_3;
+        Enum K2Node_CustomEvent_bNewInputType;
+        bool K2Node_SwitchEnum_CmpSuccess_1;
+        bool K2Node_Event_IsDesignTime;
+        Delegate K2Node_CreateDelegate_OutputDelegate_4;
+        Object<PlayerController> CallFunc_GetOwningPlayer_ReturnValue;
+        int CallFunc_PostEvent_ReturnValue;
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue;
+        [InstancedReference] Object<WBP_CharacterCreatorMain_C> CallFunc_ShowScreen_ReturnValue;
+        bool CallFunc_isCharacterNameEmpty_Result;
+        Text CallFunc_GetCharacterName_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue_1;
+        Object<UMGSequencePlayer> CallFunc_PlayAnimationForward_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        const Delegate Temp_delegate_Variable_1;
+        [InstancedReference] Object<WBP_UI_GenericPopup_C> CallFunc_ShowOneButtonPopup_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_15_BndEvt__WBP_CharacterCreatorRenameDialog_RandomNameButton_K2Node_ComponentBoundEvent_4_OnMenuButtonClicked__DelegateSignature: Default__KismetArrayLibrary.Array_Random(this.RandomNames, CallFunc_Array_Random_OutItem, CallFunc_Array_Random_OutIndex);
+            this.RenameBox.SetText(CallFunc_Array_Random_OutItem);
+            EX_LetObj(CallFunc_GetOwningPlayer_ReturnValue,this.GetOwningPlayer());
+            CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_ui_gen_confirm_play, CallFunc_GetOwningPlayer_ReturnValue, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+            EX_PopExecutionFlow();
+
+            // Block 3
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_234: this.RenameBox.SetText(this.CharacterNameText);
+            EX_PopExecutionFlow();
+
+            // Block 4
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_276: Default__KismetArrayLibrary.Array_Clear(this.RandomNames);
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 5
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_363: CallFunc_StringTableIdAndKeyFromText_ReturnValue = (bool)(KismetTextLibrary.StringTableIdAndKeyFromText(EX_TextConst("StringTableEntry", ST_DwarfNames, "/Game/Tech/Data/StringTables/ST_DwarfNames.ST_DwarfNames", "RandomDwarf.Name.1"), CallFunc_StringTableIdAndKeyFromText_OutTableId, CallFunc_StringTableIdAndKeyFromText_OutKey));
+            CallFunc_GetKeysFromStringTable_ReturnValue = KismetStringTableLibrary.GetKeysFromStringTable(CallFunc_StringTableIdAndKeyFromText_OutTableId);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetKeysFromStringTable_ReturnValue);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 6
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1039);
+
+            // Block 7
+            CallFunc_StringTableIdAndKeyFromText_ReturnValue = (bool)(KismetTextLibrary.StringTableIdAndKeyFromText(EX_TextConst("StringTableEntry", ST_DwarfNames, "/Game/Tech/Data/StringTables/ST_DwarfNames.ST_DwarfNames", "RandomDwarf.Name.1"), CallFunc_StringTableIdAndKeyFromText_OutTableId, CallFunc_StringTableIdAndKeyFromText_OutKey));
+            CallFunc_GetKeysFromStringTable_ReturnValue = KismetStringTableLibrary.GetKeysFromStringTable(CallFunc_StringTableIdAndKeyFromText_OutTableId);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetKeysFromStringTable_ReturnValue, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_GetTableEntrySourceString_ReturnValue = KismetStringTableLibrary.GetTableEntrySourceString(CallFunc_StringTableIdAndKeyFromText_OutTableId, CallFunc_Array_Get_Item);
+            CallFunc_Conv_StringToText_ReturnValue = KismetTextLibrary.Conv_StringToText(CallFunc_GetTableEntrySourceString_ReturnValue);
+            CallFunc_Array_AddUnique_ReturnValue = Default__KismetArrayLibrary.Array_AddUnique(this.RandomNames, CallFunc_Conv_StringToText_ReturnValue);
+            EX_PopExecutionFlow();
+
+            // Block 8
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1039: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_363;
+
+            // Block 9
+            `ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1113_On Back Pressed`: this.OnActionCalled(EX_NameConst("ui.back"));
+            EX_PopExecutionFlow();
+
+            // Block 10
+            `ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1141_On Save Pressed`: EX_PopExecutionFlowIfNot(this.ConfirmButton.bIsEnabled);
+
+            // Block 11
+            this.SaveJustPressed = (bool)(true);
+            CallFunc_TextTrimPrecedingAndTrailing_ReturnValue = KismetTextLibrary.TextTrimPrecedingAndTrailing(this.CharacterNameText);
+            CallFunc_TextIsEmpty_ReturnValue = (bool)(KismetTextLibrary.TextIsEmpty(CallFunc_TextTrimPrecedingAndTrailing_ReturnValue));
+
+            if (CallFunc_TextIsEmpty_ReturnValue) {
+                // Block 12
+                EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+                EX_LetObj(CallFunc_ShowOneButtonPopup_ReturnValue,CallFunc_BPGetManager_ReturnValue_1.ShowOneButtonPopup(WBP_UI_GenericPopup_C, EX_TextConst("StringTableEntry", UI, "/Game/Tech/Data/StringTables/UI.UI", "PopUp.Heading.InvalidName"), EX_TextConst("Empty"), EX_TextConst("StringTableEntry", UI, "/Game/Tech/Data/StringTables/UI.UI", "Button.OK"), Temp_delegate_Variable_1));
+
+                // Block 13
+                ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1477: this.SaveJustPressed = (bool)(false);
+                break;
+
+            }
+
+
+            // Block 14
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1489: this.ConfirmName();
+            goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1477;
+
+            // Block 15
+            `ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1508_Bind Inputs`: EX_BindDelegate("On Save Pressed", K2Node_CreateDelegate_OutputDelegate, this);
+            this.ListenForInputAction(EX_NameConst("Shortcut_To_Finished"), (byte)(1), false, K2Node_CreateDelegate_OutputDelegate);
+            EX_BindDelegate("RandomizeNameButtonPressed", K2Node_CreateDelegate_OutputDelegate_3, this);
+            this.ListenForInputAction(EX_NameConst("RandomizeSeed"), (byte)(0), true, K2Node_CreateDelegate_OutputDelegate_3);
+            EX_BindDelegate("On Back Pressed", K2Node_CreateDelegate_OutputDelegate_1, this);
+            this.ListenForInputAction(EX_NameConst("CloseUIScreen"), (byte)(0), true, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_PopExecutionFlow();
+
+            // Block 16
+            `ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1683_Unbind Inputs`: this.StopListeningForInputAction(EX_NameConst("Shortcut_To_Finished"), (byte)(1));
+            this.StopListeningForInputAction(EX_NameConst("CloseUIScreen"), (byte)(0));
+            this.StopListeningForInputAction(EX_NameConst("RandomizeSeed"), (byte)(0));
+            EX_PopExecutionFlow();
+
+            // Block 17
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1759: this.`Unbind Inputs`();
+            CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(this.UI_WBP_LowerThird));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_1);
+
+            // Block 18
+            EX_BindDelegate("OnActionCalled", K2Node_CreateDelegate_OutputDelegate_2, this);
+            EX_RemoveMulticastDelegate(this.UI_WBP_LowerThird.actionCalled, K2Node_CreateDelegate_OutputDelegate_2);
+            EX_LetObj(CallFunc_GetLocalPlayerSubsystem_ReturnValue,SubsystemBlueprintLibrary.GetLocalPlayerSubsystem(this, CommonInputSubsystem));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetLocalPlayerSubsystem_ReturnValue));
+
+            if (CallFunc_IsValid_ReturnValue) {
+                // Block 19
+                EX_LetObj(CallFunc_GetLocalPlayerSubsystem_ReturnValue,SubsystemBlueprintLibrary.GetLocalPlayerSubsystem(this, CommonInputSubsystem));
+                EX_BindDelegate("OnInputDeviceChanged", K2Node_CreateDelegate_OutputDelegate_4, this);
+                EX_RemoveMulticastDelegate(CallFunc_GetLocalPlayerSubsystem_ReturnValue.OnInputMethodChanged, K2Node_CreateDelegate_OutputDelegate_4);
+
+            }
+
+
+            // Block 20
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2043: this.StopAllAnimations();
+            EX_PopExecutionFlow();
+
+            // Block 21
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2054_BndEvt__WBP_CharacterCreatorRenameDialog_CharacterNameTextBox_K2Node_ComponentBoundEvent_1_OnEditableTextBoxCommittedEvent__DelegateSignature: CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(this.SaveJustPressed));
+            EX_PopExecutionFlowIfNot(CallFunc_Not_PreBool_ReturnValue);
+
+            // Block 22
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_ComponentBoundEvent_CommitMethod, (byte)(1)));
+
+            if (K2Node_SwitchEnum_CmpSuccess) {
+                // Block 23
+                break;
+
+            }
+
+
+            // Block 24
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2139: this.`On Save Pressed`();
+            EX_PopExecutionFlow();
+
+            // Block 25
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2154_BndEvt__WBP_CharacterCreatorRenameDialog_CharacterNameTextBox_K2Node_ComponentBoundEvent_0_OnEditableTextBoxChangedEvent__DelegateSignature: CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(K2Node_ComponentBoundEvent_Text_1);
+            CallFunc_Len_ReturnValue = KismetStringLibrary.Len(CallFunc_Conv_TextToString_ReturnValue);
+            CallFunc_NotEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.NotEqual_IntInt(CallFunc_Len_ReturnValue, 0));
+            this.ConfirmButton.SetIsEnabled(CallFunc_NotEqual_IntInt_ReturnValue);
+            CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(K2Node_ComponentBoundEvent_Text_1);
+            CallFunc_Len_ReturnValue = KismetStringLibrary.Len(CallFunc_Conv_TextToString_ReturnValue);
+            CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(CallFunc_Len_ReturnValue, this.MaxNameLength));
+            if (!(CallFunc_LessEqual_IntInt_ReturnValue)) goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_234;
+
+            // Block 26
+            this.CharacterNameText = K2Node_ComponentBoundEvent_Text_1;
+            EX_PopExecutionFlow();
+
+            // Block 27
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2461_OnActionCalled: CallFunc_EqualEqual_NameName_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_NameName(K2Node_CustomEvent_action, EX_NameConst("ui.back")));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_NameName_ReturnValue);
+
+            // Block 28
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue,MorUIManager.BPGetManager(this));
+            EX_LetObj(CallFunc_ShowScreen_ReturnValue,CallFunc_BPGetManager_ReturnValue.ShowScreen(WBP_CharacterCreatorMain_C));
+            EX_PopExecutionFlow();
+
+            // Block 29
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2586_BndEvt__WBP_CharacterCreatorRenameDialog_ConfirmButton2_K2Node_ComponentBoundEvent_2_OnMenuButtonClicked__DelegateSignature: goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1141;
+
+            // Block 30
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2591_RandomizeNameButtonPressed: goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_15;
+
+            // Block 31
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2596_OnInputDeviceChanged: K2Node_SwitchEnum_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_CustomEvent_bNewInputType, (byte)(0)));
+
+            if (K2Node_SwitchEnum_CmpSuccess_1) {
+                // Block 32
+                K2Node_SwitchEnum_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_CustomEvent_bNewInputType, (byte)(1)));
+                if (!(K2Node_SwitchEnum_CmpSuccess_1)) goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2703;
+
+                // Block 33
+                break;
+
+            }
+
+
+            // Block 34
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2687: this.ToggleMKBButtons(true);
+            EX_PopExecutionFlow();
+
+            // Block 35
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2703: this.ToggleMKBButtons(false);
+            EX_PopExecutionFlow();
+
+            // Block 36
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2719_PreConstruct: goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_276;
+
+            // Block 37
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2724_OnBeforeHide: goto ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1759;
+
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2729_OnBeforeShow:
+            while (true) {
+                while (true) {
+                    // Block 38
+                    EX_PushExecutionFlow(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2814);
+
+                    // Block 39
+                    this.SetUpScreen();
+                    EX_PopExecutionFlow();
+
+                }
+
+
+                // Block 40
+                ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2759: this.StopAnimation(this.Show);
+                EX_LetObj(CallFunc_PlayAnimationForward_ReturnValue,this.PlayAnimationForward(this.Show, 1f, false));
+                break;
+
+                // Block 41
+                ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2814: this.isCharacterNameEmpty(CallFunc_isCharacterNameEmpty_Result);
+
+                if (CallFunc_isCharacterNameEmpty_Result) {
+                    // Block 42
+                    this.PickRandomName();
+                    break;
+
+                }
+
+
+                // Block 43
+                ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2866: CallFunc_GetCharacterName_ReturnValue = this.GetCharacterName();
+                this.RenameBox.SetText(CallFunc_GetCharacterName_ReturnValue);
+                break;
+
+            }
+
+
+            // Block 44
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2940: MorUIFocusFunctionLibrary.SetCustomFocus(this.RenameBox, this, false);
+            this.RenameBox.SetKeyboardFocus();
+            EX_PopExecutionFlow();
+
+            // Block 45
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2994_OnCustomFocusSet: EX_PopExecutionFlow();
+
+            // Block 46
+            ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2995_OnCustomFocusLost: EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 47
+        ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2996:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void OnBeforeShow() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2729_OnBeforeShow);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void OnBeforeHide() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2724_OnBeforeHide);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnInputDeviceChanged([BlueprintVisible, BlueprintReadOnly] Enum bNewInputType) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_bNewInputType", bNewInputType);
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2596_OnInputDeviceChanged);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void RandomizeNameButtonPressed() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2591_RandomizeNameButtonPressed);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__WBP_CharacterCreatorRenameDialog_ConfirmButton2_K2Node_ComponentBoundEvent_2_OnMenuButtonClicked__DelegateSignature() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2586_BndEvt__WBP_CharacterCreatorRenameDialog_ConfirmButton2_K2Node_ComponentBoundEvent_2_OnMenuButtonClicked__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnActionCalled([BlueprintVisible, BlueprintReadOnly] Name action) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_action", action);
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2461_OnActionCalled);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `Unbind Inputs`() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(`ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1683_Unbind Inputs`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `Bind Inputs`() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(`ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1508_Bind Inputs`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `On Save Pressed`() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(`ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1141_On Save Pressed`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `On Back Pressed`() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(`ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_1113_On Back Pressed`);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__WBP_CharacterCreatorRenameDialog_RandomNameButton_K2Node_ComponentBoundEvent_4_OnMenuButtonClicked__DelegateSignature() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_15_BndEvt__WBP_CharacterCreatorRenameDialog_RandomNameButton_K2Node_ComponentBoundEvent_4_OnMenuButtonClicked__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__WBP_CharacterCreatorRenameDialog_CharacterNameTextBox_K2Node_ComponentBoundEvent_1_OnEditableTextBoxCommittedEvent__DelegateSignature([BlueprintVisible, BlueprintReadOnly] const out ref Text Text, [BlueprintVisible, BlueprintReadOnly] byte CommitMethod) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Text", Text);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_CommitMethod", CommitMethod);
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2054_BndEvt__WBP_CharacterCreatorRenameDialog_CharacterNameTextBox_K2Node_ComponentBoundEvent_1_OnEditableTextBoxCommittedEvent__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__WBP_CharacterCreatorRenameDialog_CharacterNameTextBox_K2Node_ComponentBoundEvent_0_OnEditableTextBoxChangedEvent__DelegateSignature([BlueprintVisible, BlueprintReadOnly] const out ref Text Text) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Text_1", Text);
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2154_BndEvt__WBP_CharacterCreatorRenameDialog_CharacterNameTextBox_K2Node_ComponentBoundEvent_0_OnEditableTextBoxChangedEvent__DelegateSignature);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void PreConstruct([BlueprintVisible, BlueprintReadOnly] bool IsDesignTime) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_IsDesignTime", IsDesignTime);
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2719_PreConstruct);
+
+    }
+
+    [Event, BlueprintEvent]
+    public void OnCustomFocusSet() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2994_OnCustomFocusSet);
+
+    }
+
+    [Event, BlueprintEvent]
+    public void OnCustomFocusLost() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorRenameDialog(ExecuteUbergraph_WBP_CharacterCreatorRenameDialog_2995_OnCustomFocusLost);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    public override void CheckNewCharacterName([BlueprintVisible, BlueprintReadOnly] string NewName, [Return] out bool ReturnValue) {
+        // Locals
+        bool CallFunc_CheckNewCharacterName_ReturnValue;
+
+        // Block 1
+        CallFunc_CheckNewCharacterName_ReturnValue = (bool)(this.CheckNewCharacterName(NewName));
+        ReturnValue = (bool)(CallFunc_CheckNewCharacterName_ReturnValue);
+        return ReturnValue;
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void `Update Buttons`() {
+        // Locals
+        Text CallFunc_GetText_ReturnValue;
+        string CallFunc_Conv_TextToString_ReturnValue;
+        bool CallFunc_CheckNewCharacterName_ReturnValue;
+        int CallFunc_Len_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        bool CallFunc_BooleanOR_ReturnValue;
+
+        // Block 1
+        CallFunc_GetText_ReturnValue = this.RenameBox.GetText();
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(CallFunc_GetText_ReturnValue);
+        CallFunc_CheckNewCharacterName_ReturnValue = (bool)(this.CheckNewCharacterName(CallFunc_Conv_TextToString_ReturnValue));
+        CallFunc_GetText_ReturnValue = this.RenameBox.GetText();
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(CallFunc_GetText_ReturnValue);
+        CallFunc_Len_ReturnValue = KismetStringLibrary.Len(CallFunc_Conv_TextToString_ReturnValue);
+        CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Len_ReturnValue, 0));
+        CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_CheckNewCharacterName_ReturnValue, CallFunc_Greater_IntInt_ReturnValue));
+        this.ConfirmButton.SetIsEnabled(CallFunc_BooleanOR_ReturnValue);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void GetFocusButton([InstancedReference] out Object<Button> FocusButton) {
+        // Block 1
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void PickRandomName() {
+        // Locals
+        Text CallFunc_Array_Random_OutItem;
+        int CallFunc_Array_Random_OutIndex;
+
+        // Block 1
+        Default__KismetArrayLibrary.Array_Random(this.RandomNames, CallFunc_Array_Random_OutItem, CallFunc_Array_Random_OutIndex);
+        this.RenameBox.SetText(CallFunc_Array_Random_OutItem);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void ToggleMKBButtons([BlueprintVisible, BlueprintReadOnly] bool On) {
+        // Locals
+        bool Temp_bool_Variable;
+        Enum Temp_byte_Variable;
+        Enum Temp_byte_Variable_1;
+        Enum K2Node_Select_Default;
+
+        // Block 1
+        Temp_bool_Variable = (bool)(On);
+        Temp_byte_Variable = (byte)(4);
+        Temp_byte_Variable_1 = (byte)(1);
+        this.RandomButtonSizer.SetVisibility(EX_SwitchValue(147, Temp_bool_Variable, K2Node_Select_Default, false, 124, Temp_byte_Variable_1, true, 138, Temp_byte_Variable));
+        this.ConfirmButton.SetVisibility(EX_SwitchValue(236, Temp_bool_Variable, K2Node_Select_Default, false, 213, Temp_byte_Variable_1, true, 227, Temp_byte_Variable));
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void ConfirmName() {
+        // Locals
+        const Delegate Temp_delegate_Variable;
+        Object<MorMenuManager> CallFunc_Get_ReturnValue;
+        Object<BP_MenuManager_C> K2Node_DynamicCast_AsBP_Menu_Manager;
+        bool K2Node_DynamicCast_bSuccess;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        Object<MorCharSelectionManager> CallFunc_GetInstance_ReturnValue;
+        string CallFunc_Conv_TextToString_ReturnValue;
+        int CallFunc_GetSelectedCustomizationSaveSlot_ReturnValue;
+        Object<MorCustomizationMannequin> CallFunc_GetSelectedCustomizationMannequin_ReturnValue;
+        Object<PlayerController> CallFunc_GetOwningPlayer_ReturnValue;
+        int CallFunc_PostEvent_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetOwningPlayer_ReturnValue,this.GetOwningPlayer());
+        CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_ui_gen_confirm_play, CallFunc_GetOwningPlayer_ReturnValue, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(this.CharacterNameText);
+        EX_LetObj(CallFunc_GetSelectedCustomizationMannequin_ReturnValue,CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationMannequin());
+        CallFunc_GetSelectedCustomizationMannequin_ReturnValue.CustomizationManager.SetCharacterName(CallFunc_Conv_TextToString_ReturnValue);
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        CallFunc_GetSelectedCustomizationSaveSlot_ReturnValue = CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationSaveSlot();
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        CallFunc_GetInstance_ReturnValue.ConfirmedSelectedCustomization(CallFunc_GetSelectedCustomizationSaveSlot_ReturnValue);
+        this.SetCharacterNamePlateText();
+        EX_LetObj(CallFunc_Get_ReturnValue,MorMenuManager.Get(this));
+        K2Node_DynamicCast_AsBP_Menu_Manager = EX_DynamicCast("BP_MenuManager_C", CallFunc_Get_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Menu_Manager);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 2
+        K2Node_DynamicCast_AsBP_Menu_Manager.GoToWorldSelection();
+
+        // Block 3
+        ConfirmName_564:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void isCharacterNameEmpty(out bool Result) {
+        // Locals
+        Object<MorCharSelectionManager> CallFunc_GetInstance_ReturnValue;
+        Object<MorCustomizationMannequin> CallFunc_GetSelectedCustomizationMannequin_ReturnValue;
+        string CallFunc_GetCharacterName_ReturnValue;
+        int CallFunc_Len_ReturnValue;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        EX_LetObj(CallFunc_GetSelectedCustomizationMannequin_ReturnValue,CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationMannequin());
+        CallFunc_GetCharacterName_ReturnValue = CallFunc_GetSelectedCustomizationMannequin_ReturnValue.CustomizationManager.GetCharacterName();
+        CallFunc_Len_ReturnValue = KismetStringLibrary.Len(CallFunc_GetCharacterName_ReturnValue);
+        CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(CallFunc_Len_ReturnValue, 0));
+        Result = (bool)(CallFunc_LessEqual_IntInt_ReturnValue);
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void GetCharacterName([Return] out Text ReturnValue) {
+        // Locals
+        Object<MorCharSelectionManager> CallFunc_GetInstance_ReturnValue;
+        Object<MorCustomizationMannequin> CallFunc_GetSelectedCustomizationMannequin_ReturnValue;
+        string CallFunc_GetCharacterName_ReturnValue;
+        Text CallFunc_Conv_StringToText_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        EX_LetObj(CallFunc_GetSelectedCustomizationMannequin_ReturnValue,CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationMannequin());
+        CallFunc_GetCharacterName_ReturnValue = CallFunc_GetSelectedCustomizationMannequin_ReturnValue.CustomizationManager.GetCharacterName();
+        CallFunc_Conv_StringToText_ReturnValue = KismetTextLibrary.Conv_StringToText(CallFunc_GetCharacterName_ReturnValue);
+        ReturnValue = CallFunc_Conv_StringToText_ReturnValue;
+        return ReturnValue;
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void SetUpScreen() {
+        // Locals
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Delegate K2Node_CreateDelegate_OutputDelegate_1;
+        Object<CommonInputSubsystem> CallFunc_GetLocalPlayerSubsystem_ReturnValue;
+        Struct<UI_MenuActionStruct> K2Node_MakeStruct_UI_MenuActionStruct;
+        Enum CallFunc_GetCurrentInputType_ReturnValue;
+
+        // Block 1
+        this.`Bind Inputs`();
+        this.UI_WBP_LowerThird.ClearAllTooltips();
+        K2Node_MakeStruct_UI_MenuActionStruct.inputAction_7_802C857246A45EFAA252B3B3A0A5CCDF = EX_NameConst("ui.back");
+        K2Node_MakeStruct_UI_MenuActionStruct.labelText_5_09B33A8B40E348B89ABDA8976963AA18 = EX_TextConst("StringTableEntry", UI, "/Game/Tech/Data/StringTables/UI.UI", "Button.Back");
+        K2Node_MakeStruct_UI_MenuActionStruct.key_9_AEC6A0FF48D8AEC999E4DE9DE6D01CC4 = EX_StructConst(Key, 32, EX_NameConst("Escape"));
+        K2Node_MakeStruct_UI_MenuActionStruct.keyGamepad_12_D6C4D3684C06B11420446B830C2BC197 = EX_StructConst(Key, 32, EX_NameConst("Gamepad_FaceButton_Right"));
+        K2Node_MakeStruct_UI_MenuActionStruct.gamepadKeysetKey_15_1FFF0E7B480DA25F44150F8AF43CA5B1 = EX_StructConst(Key, 32, EX_NameConst("None"));
+        this.UI_WBP_LowerThird.AddMenuTooltip(K2Node_MakeStruct_UI_MenuActionStruct, 0, false);
+        EX_BindDelegate("OnActionCalled", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(this.UI_WBP_LowerThird.actionCalled, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnInputDeviceChanged", K2Node_CreateDelegate_OutputDelegate_1, this);
+        EX_LetObj(CallFunc_GetLocalPlayerSubsystem_ReturnValue,SubsystemBlueprintLibrary.GetLocalPlayerSubsystem(this, CommonInputSubsystem));
+        EX_AddMulticastDelegate(CallFunc_GetLocalPlayerSubsystem_ReturnValue.OnInputMethodChanged, K2Node_CreateDelegate_OutputDelegate_1);
+        EX_LetObj(CallFunc_GetLocalPlayerSubsystem_ReturnValue,SubsystemBlueprintLibrary.GetLocalPlayerSubsystem(this, CommonInputSubsystem));
+        CallFunc_GetCurrentInputType_ReturnValue = CallFunc_GetLocalPlayerSubsystem_ReturnValue.GetCurrentInputType();
+        this.OnInputDeviceChanged(CallFunc_GetCurrentInputType_ReturnValue);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void SetCharacterNamePlateText() {
+        // Locals
+        Object<MorCharSelectionManager> CallFunc_GetInstance_ReturnValue;
+        Object<MorCustomizationMannequin> CallFunc_GetSelectedCustomizationMannequin_ReturnValue;
+        Object<BP_DwarfCustomizationCharacterMannequin_C> K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin;
+        bool K2Node_DynamicCast_bSuccess;
+        string CallFunc_GetCharacterName_ReturnValue;
+        [InstancedReference] Object<UserWidget> CallFunc_GetWidget_ReturnValue;
+        Text CallFunc_Conv_StringToText_ReturnValue;
+        bool CallFunc_IsVisible_ReturnValue;
+        [InstancedReference] Object<WBP_MenuCharName_C> K2Node_DynamicCast_AsWBP_Menu_Char_Name;
+        bool K2Node_DynamicCast_bSuccess_1;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        EX_LetObj(CallFunc_GetSelectedCustomizationMannequin_ReturnValue,CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationMannequin());
+        K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin = EX_DynamicCast("BP_DwarfCustomizationCharacterMannequin_C", CallFunc_GetSelectedCustomizationMannequin_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 2
+        EX_LetObj(CallFunc_GetWidget_ReturnValue,K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin.NamePlateWidget.GetWidget());
+        K2Node_DynamicCast_AsWBP_Menu_Char_Name = EX_DynamicCast("WBP_MenuCharName_C", CallFunc_GetWidget_ReturnValue);
+        K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_Menu_Char_Name);
+        if (!K2Node_DynamicCast_bSuccess_1) return;
+
+        // Block 3
+        EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+        EX_LetObj(CallFunc_GetSelectedCustomizationMannequin_ReturnValue,CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationMannequin());
+        CallFunc_GetCharacterName_ReturnValue = CallFunc_GetSelectedCustomizationMannequin_ReturnValue.CustomizationManager.GetCharacterName();
+        CallFunc_Conv_StringToText_ReturnValue = KismetTextLibrary.Conv_StringToText(CallFunc_GetCharacterName_ReturnValue);
+        K2Node_DynamicCast_AsWBP_Menu_Char_Name.SetNewName(CallFunc_Conv_StringToText_ReturnValue);
+        EX_LetObj(CallFunc_GetWidget_ReturnValue,K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin.NamePlateWidget.GetWidget());
+        CallFunc_IsVisible_ReturnValue = (bool)(CallFunc_GetWidget_ReturnValue.IsVisible());
+
+        if (CallFunc_IsVisible_ReturnValue) {
+            // Block 4
+            return;
+
+        }
+
+
+        // Block 5
+        SetCharacterNamePlateText_635: K2Node_DynamicCast_AsWBP_Menu_Char_Name.SetVisibility((byte)(4));
+
+        // Block 6
+        SetCharacterNamePlateText_673:
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void GetFocusableWidget([Return, InstancedReference] out Object<Widget> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.ConfirmButton.MenuButton);
+        return ReturnValue;
+
+    }
+
+}

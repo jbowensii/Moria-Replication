@@ -1,0 +1,717 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, VirtualFunction] public virtual void Deactivate();
+}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public class MorBreakBreakablesComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {
+    public CharacterMovementComponent CharacterMovement;
+    public MeshComponent Mesh;
+}
+
+[Import("/Script/Engine")]
+public class CharacterMovementComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetCharacterOwner();
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class MaterialParameterCollection {}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : MeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+    [UnknownSignature, FinalFunction] public sealed void Reverse();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkSwitchValue {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/FX/EnemyFX/Meshes/SC_NamelessBeastShadows2")]
+public StaticMesh SC_NamelessBeastShadows2;
+
+
+[Import("/Game/FX/EnemyFX/Meshes/SC_NamelessBeastShadows")]
+public StaticMesh SC_NamelessBeastShadows;
+
+
+[Import("/Game/CharacterArt/Creatures/NamelessBeast/SK_NamelessBeast")]
+public SkeletalMesh SK_NamelessBeast;
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_orc")]
+public PhysicalMaterial PM_flesh_orc;
+
+
+[Import("/Game/FX/EnemyFX/Niagara/Nameless/NS_Nameless_Shadow_Prototype1")]
+public NiagaraSystem NS_Nameless_Shadow_Prototype1;
+
+
+[Import("/Game/FX/EnemyFX/Niagara/Nameless/NS_Nameless_Shadow_Prototype")]
+public NiagaraSystem NS_Nameless_Shadow_Prototype;
+
+
+[Import("/Game/FX/EnemyFX/Materials/MPC_NamelessBEast")]
+public MaterialParameterCollection MPC_NamelessBEast;
+
+
+[Import("/Game/FX/EnemyFX/Materials/M_ShadowScroller_Nameless2")]
+public MaterialInstanceConstant M_ShadowScroller_Nameless2;
+
+
+[Import("/Game/FX/EnemyFX/Materials/M_ShadowScroller_Nameless1")]
+public MaterialInstanceConstant M_ShadowScroller_Nameless1;
+
+
+[Import("/Game/FX/EnemyFX/Materials/M_NamelessBeast_Custom_Inst")]
+public MaterialInstanceConstant M_NamelessBeast_Custom_Inst;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Character/Creatures/Bear/GE_Starting_Nameless_Beast")]
+public class GE_Starting_Nameless_Beast_C {}
+
+[Import("/Game/Character/Creatures/Bear/GE_Starting_Nameless_Beast")]
+public GE_Starting_Nameless_Beast_C Default__GE_Starting_Nameless_Beast_C;
+
+
+[Import("/Game/WwiseAudio/Switches/Default_Work_Unit/Beasts/Beasts-Nameless_Beast")]
+public AkSwitchValue `Beasts-Nameless_Beast`;
+
+
+[Import("/Game/Character/Creatures/Bear/BP_Fauna_Bear")]
+public class BP_Fauna_Bear_C : Character {
+    [UnknownSignature] public  void BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature();
+    public MorBreakBreakablesComponent MorBreakBreakables_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Foot Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Leg_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Leg_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Foot Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Leg_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Leg_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Foot Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Leg_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Leg_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Foot Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Leg_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Leg_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Snout Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_03 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent DebugNameTag_GEN_VARIABLE;
+    public MorBreakBreakablesComponent MorBreakBreakables;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `L_Back_Foot Capsule`;
+    public StaticMeshComponent `L_Back_Leg_L Capsule`;
+    public StaticMeshComponent `L_Back_Leg_U Capsule`;
+    public StaticMeshComponent `L_Front_Foot Capsule`;
+    public StaticMeshComponent `L_Front_Leg_L Capsule`;
+    public StaticMeshComponent `L_Front_Leg_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent `R_Back_Foot Capsule`;
+    public StaticMeshComponent `R_Back_Leg_L Capsule`;
+    public StaticMeshComponent `R_Back_Leg_U Capsule`;
+    public StaticMeshComponent `R_Front_Foot Capsule`;
+    public StaticMeshComponent `R_Front_Leg_L Capsule`;
+    public StaticMeshComponent `R_Front_Leg_U Capsule`;
+    public StaticMeshComponent `Snout Capsule`;
+    public StaticMeshComponent `Spine_01 Capsule`;
+    public StaticMeshComponent `Spine_02 Capsule`;
+    public StaticMeshComponent `Spine_03 Capsule`;
+    public TextRenderComponent DebugNameTag;
+    public ObjectProperty `Lore Row`;
+}
+
+[Import("/Game/Character/Creatures/Bear/BP_Fauna_Bear")]
+public class Default__BP_Fauna_Bear_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Nameless_Beast/fx_npc_nameless_beast_body_lp_play")]
+public AkAudioEvent fx_npc_nameless_beast_body_lp_play;
+
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class BP_Fauna_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+}
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class Default__BP_Fauna_Base_C {
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Bear_Nameless_C : BP_Fauna_Bear_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Fog;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype7;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SC_NamelessBeastShadows2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SC_NamelessBeastShadows;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Nameless_Shadow_Prototype2;
+    float Timeline_1_NewTrack_0_A5DA1C80406D0081C88DDFB2867A03E5;
+    byte Timeline_1__Direction_A5DA1C80406D0081C88DDFB2867A03E5;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_1;
+    float Timeline_0_Specular_B9E9036041962901A53A07BA144256FB;
+    float Timeline_0_EmissiveIntensity_B9E9036041962901A53A07BA144256FB;
+    float Timeline_0_ShadowScalar_B9E9036041962901A53A07BA144256FB;
+    byte Timeline_0__Direction_B9E9036041962901A53A07BA144256FB;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialParameterCollection> ShadowMatParamCollection;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Bear_Nameless([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<Character> CallFunc_GetCharacterOwner_ReturnValue;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        int CallFunc_PostEvent_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        Object<MorCharacter> K2Node_ComponentBoundEvent_Character;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        [InstancedReference] Object<ActorComponent> K2Node_ComponentBoundEvent_Component;
+        bool K2Node_ComponentBoundEvent_bReset;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            this.NS_Nameless_Shadow_Prototype1.Deactivate();
+            this.NS_Nameless_Shadow_Prototype3.Deactivate();
+            this.NS_Nameless_Shadow_Prototype4.Deactivate();
+            this.NS_Nameless_Shadow_Prototype5.Deactivate();
+            this.NS_Nameless_Shadow_Prototype6.Deactivate();
+            this.NS_Nameless_Shadow_Prototype7.Deactivate();
+            this.NS_Nameless_Shadow_Fog.Deactivate();
+            this.NS_Nameless_Shadow_Prototype2.Deactivate();
+            EX_PopExecutionFlow();
+
+            ExecuteUbergraph_BP_Bear_Nameless_304:
+            while (true) {
+                // Block 3
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+                if (!K2Node_DynamicCast_bSuccess) break;
+
+                // Block 4
+                EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+                Default__KismetArrayLibrary.Array_Get(this.`Lore Row`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), K2Node_ComponentBoundEvent_Character);
+                break;
+
+            }
+
+
+            // Block 5
+            ExecuteUbergraph_BP_Bear_Nameless_555: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 6
+            ExecuteUbergraph_BP_Bear_Nameless_624: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Lore Row`);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 7
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_Bear_Nameless_304;
+
+            // Block 8
+            ExecuteUbergraph_BP_Bear_Nameless_763: EX_LetObj(CallFunc_GetCharacterOwner_ReturnValue,this.CharacterMovement.GetCharacterOwner());
+            CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_npc_nameless_beast_body_lp_play, CallFunc_GetCharacterOwner_ReturnValue, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+            EX_PopExecutionFlow();
+
+            // Block 9
+            ExecuteUbergraph_BP_Bear_Nameless_900: Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_Bear_Nameless_624;
+
+            // Block 10
+            ExecuteUbergraph_BP_Bear_Nameless_928_NamelessPhaseShift_Start: this.Timeline_0.Play();
+            EX_PopExecutionFlow();
+
+            // Block 11
+            ExecuteUbergraph_BP_Bear_Nameless_961_NamelessPhaseShift_End: this.Timeline_0.Reverse();
+            EX_PopExecutionFlow();
+
+            // Block 12
+            ExecuteUbergraph_BP_Bear_Nameless_994: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("Specular"), this.Timeline_0_Specular_B9E9036041962901A53A07BA144256FB);
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_Bear_Nameless_1108);
+
+            // Block 13
+            this.SC_NamelessBeastShadows.SetScalarParameterValueOnMaterials(EX_NameConst("BlackFlameIntensity"), this.Timeline_0_EmissiveIntensity_B9E9036041962901A53A07BA144256FB);
+            EX_PopExecutionFlow();
+
+            // Block 14
+            ExecuteUbergraph_BP_Bear_Nameless_1108: this.SC_NamelessBeastShadows2.SetScalarParameterValueOnMaterials(EX_NameConst("BlackFlameIntensity"), this.Timeline_0_EmissiveIntensity_B9E9036041962901A53A07BA144256FB);
+            EX_PopExecutionFlow();
+
+            // Block 15
+            ExecuteUbergraph_BP_Bear_Nameless_1163: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("Emissive Intensity"), this.Timeline_0_EmissiveIntensity_B9E9036041962901A53A07BA144256FB);
+            goto ExecuteUbergraph_BP_Bear_Nameless_994;
+
+            // Block 16
+            ExecuteUbergraph_BP_Bear_Nameless_1222: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("ShadowStateScalar"), this.Timeline_0_ShadowScalar_B9E9036041962901A53A07BA144256FB);
+            goto ExecuteUbergraph_BP_Bear_Nameless_1163;
+
+            // Block 17
+            ExecuteUbergraph_BP_Bear_Nameless_1281_Timeline_1__UpdateFunc: this.SC_NamelessBeastShadows2.SetScalarParameterValueOnMaterials(EX_NameConst("SimpleOpacityScalar"), this.Timeline_1_NewTrack_0_A5DA1C80406D0081C88DDFB2867A03E5);
+            this.SC_NamelessBeastShadows.SetScalarParameterValueOnMaterials(EX_NameConst("SimpleOpacityScalar"), this.Timeline_1_NewTrack_0_A5DA1C80406D0081C88DDFB2867A03E5);
+            EX_PopExecutionFlow();
+
+            // Block 18
+            ExecuteUbergraph_BP_Bear_Nameless_1390: this.Timeline_1.PlayFromStart();
+            EX_PopExecutionFlow();
+
+            // Block 19
+            ExecuteUbergraph_BP_Bear_Nameless_1423_Timeline_1__FinishedFunc: EX_PopExecutionFlow();
+
+            // Block 20
+            ExecuteUbergraph_BP_Bear_Nameless_1424_Timeline_0__UpdateFunc: goto ExecuteUbergraph_BP_Bear_Nameless_1222;
+
+            // Block 21
+            ExecuteUbergraph_BP_Bear_Nameless_1429: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 22
+            Temp_int_Loop_Counter_Variable = 0;
+            goto ExecuteUbergraph_BP_Bear_Nameless_900;
+
+            // Block 23
+            ExecuteUbergraph_BP_Bear_Nameless_1487_BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature: goto ExecuteUbergraph_BP_Bear_Nameless_1429;
+
+            // Block 24
+            ExecuteUbergraph_BP_Bear_Nameless_1492_Timeline_0__FinishedFunc: EX_PopExecutionFlow();
+
+            ExecuteUbergraph_BP_Bear_Nameless_1493_NamelessDeath:
+            while (true) {
+                // Block 25
+                goto ExecuteUbergraph_BP_Bear_Nameless_1390;
+
+            }
+
+
+            // Block 26
+            ExecuteUbergraph_BP_Bear_Nameless_1503: KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), 204664086, EX_NameConst("ExecuteUbergraph_BP_Bear_Nameless"), this));
+            EX_PopExecutionFlow();
+
+            // Block 27
+            ExecuteUbergraph_BP_Bear_Nameless_1558_BndEvt__BP_Bear_Nameless_Mesh_K2Node_ComponentBoundEvent_3_ActorComponentActivatedSignature__DelegateSignature: goto ExecuteUbergraph_BP_Bear_Nameless_763;
+
+        }
+
+
+        // Block 28
+        ExecuteUbergraph_BP_Bear_Nameless_1563:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Bear_Nameless_Mesh_K2Node_ComponentBoundEvent_3_ActorComponentActivatedSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<ActorComponent> Component, [BlueprintVisible, BlueprintReadOnly] bool bReset) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Component", Component);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bReset", bReset);
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1558_BndEvt__BP_Bear_Nameless_Mesh_K2Node_ComponentBoundEvent_3_ActorComponentActivatedSignature__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void NamelessDeath() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1493_NamelessDeath);
+
+    }
+
+    [BlueprintEvent]
+    override void BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Character", Character);
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1487_BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void NamelessPhaseShift_End() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_961_NamelessPhaseShift_End);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void NamelessPhaseShift_Start() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_928_NamelessPhaseShift_Start);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1281_Timeline_1__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1423_Timeline_1__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1424_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Bear_Nameless(ExecuteUbergraph_BP_Bear_Nameless_1492_Timeline_0__FinishedFunc);
+
+    }
+
+}

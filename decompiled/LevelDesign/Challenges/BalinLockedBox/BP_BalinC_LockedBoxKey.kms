@@ -1,0 +1,76 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/LevelDesign/Challenges/BP_BalinA_LockedBoxKey")]
+public class BP_BalinA_LockedBoxKey_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent SM_Key_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent SM_Key;
+}
+
+[Import("/Game/LevelDesign/Challenges/BP_BalinA_LockedBoxKey")]
+public class Default__BP_BalinA_LockedBoxKey_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BalinC_LockedBoxKey_C : BP_BalinA_LockedBoxKey_C {
+}

@@ -17,5 +17,5 @@ project/*.vcxproj*
 project/Plugins/*/Binaries/
 project/Plugins/*/Intermediate/
 
-# Content (imported separately via JsonAsAsset in Phase 3)
-project/Content/
+# Misc
+notify.log

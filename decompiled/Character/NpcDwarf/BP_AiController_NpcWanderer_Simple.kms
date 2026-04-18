@@ -1,0 +1,307 @@
+
+[Import("/Script/Moria")]
+public class MorAIController : AIController {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MorAIController {
+    public Object BehaviorFSMComp;
+    public Object PatrolComponent;
+    public Object PerceptionComponent;
+    public Object TargetingComponent;
+    public Object PathFollowingComponent;
+    public Object MorRecipeCostComponent;
+    public Object ActionsComp;
+    public Object TransformComponent0;
+}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_NpcActivity {}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_NpcFadeOut {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Dead {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_ExplicitAbility {}
+
+[Import("/Script/Moria")]
+public class MorCondition_IsCustomizationApplied {}
+
+[Import("/Script/Moria")]
+public class MorCondition_ProgressRow {}
+
+[Import("/Script/Moria")]
+public class MorEnvQueryTest_NotSelf {}
+
+[Import("/Script/Moria")]
+public class MorEnvQueryGenerator_PerceivedActors {}
+
+[Import("/Script/Moria")]
+public class MorEnvQueryTest_TeamHasAggro {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIBehaviorPointComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIAttackSettings {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_DistanceToKey {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardObjectValue {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardVectorValue {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_UseBehaviorPoint {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+[Import("/Script/FGK")]
+public class FGKBlackboardKeyType_GameplayAbilitySpecHandle {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Damage Default__AISenseConfig_Damage;
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Hearing Default__AISenseConfig_Hearing;
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Sight Default__AISenseConfig_Sight;
+
+[Import("/Script/AIModule")]
+public class AIController {
+    public BlackboardComponent Blackboard;
+}
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class BlackboardComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetValueAsObject();
+    [UnknownSignature, FinalFunction] public sealed void SetValueAsVector();
+}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+[Import("/Script/AIModule")]
+public class BlackboardData {}
+
+[Import("/Script/AIModule")]
+public class EnvQuery {}
+
+
+[Import("/Game/Character/Creatures/DA_AIAttack_MeleeOnly")]
+public FGKAIAttackSettings DA_AIAttack_MeleeOnly;
+
+
+[Import("/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_OtherNpc")]
+public class EQS_Npc_OtherNpc {
+    public MorEnvQueryTest_NotSelf MorEnvQueryTest_NotSelf_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_Hostiles")]
+public class EQS_Npc_Hostiles {
+    public MorEnvQueryTest_TeamHasAggro MorEnvQueryTest_TeamHasAggro_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_FriendlyPlayers")]
+public class EQS_Npc_FriendlyPlayers {
+    public MorEnvQueryGenerator_PerceivedActors MorEnvQueryGenerator_PerceivedActors_0;
+}
+
+
+[Import("/Game/Character/NpcDwarf/BSt_NpcDwarf_Wanderer_Simple_Root")]
+public class BSt_NpcDwarf_Wanderer_Simple_Root_C {}
+
+[Import("/Game/Character/NpcDwarf/BSt_NpcDwarf_Wanderer_Simple_Root")]
+public class Default__BSt_NpcDwarf_Wanderer_Simple_Root_C {
+    public Bst_MoveToDestination_C Bst_MoveToDestination_C_0;
+    public Bst_MoveToDestination_C Bst_MoveToDestination_C_3;
+    public FGKBehaviorState FGKBehaviorState_0;
+    public FGKBehaviorState FGKBehaviorState_3;
+    public FGKBehaviorState_UseBehaviorPoint FGKBehaviorState_UseBehaviorPoint_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_1;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public MorActionEffect_NpcActivity MorActionEffect_NpcActivity_0;
+    public MorBehaviorState_Dead MorBehaviorState_Dead_0;
+    public MorBehaviorState_ExplicitAbility MorBehaviorState_ExplicitAbility_0;
+    public MorCondition_IsCustomizationApplied MorCondition_IsCustomizationApplied_0;
+    public MorCondition_ProgressRow MorCondition_ProgressRow_1;
+}
+
+
+[Import("/Game/Character/NpcDwarf/Bst_MoveToDestination")]
+public class Bst_MoveToDestination_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BB_Base")]
+public class BB_Base {
+    public FGKBlackboardKeyType_GameplayAbilitySpecHandle FGKBlackboardKeyType_GameplayAbilitySpecHandle_0;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_AiController_NpcWanderer_Simple_C : MorAIController {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Name KeyMoveToDestination;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Name KeyMoveToBehaviorPoint;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_AiController_NpcWanderer_Simple([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_AiController_NpcWanderer_Simple_10_ReceiveTick:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_AiController_NpcWanderer_Simple(ExecuteUbergraph_BP_AiController_NpcWanderer_Simple_10_ReceiveTick);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetMoveToDestination([BlueprintVisible, BlueprintReadOnly] Struct<Vector> Destination) {
+        // Block 1
+        this.Blackboard.SetValueAsVector(this.KeyMoveToDestination, Destination);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetUseAndMoveToBehaviorPoint([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<FGKAIBehaviorPointComponent> Destination) {
+        // Block 1
+        this.Blackboard.SetValueAsObject(this.KeyMoveToBehaviorPoint, Destination);
+
+    }
+
+}

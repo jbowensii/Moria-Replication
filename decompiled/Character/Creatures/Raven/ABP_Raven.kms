@@ -1,0 +1,324 @@
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public AnimInstance Default__AnimInstance;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimInstance {
+    public Object BlueprintBeginPlay;
+    [UnknownSignature, FinalFunction] public sealed void Montage_Play();
+    public ObjectProperty OnMontageStarted;
+    public ObjectProperty OnAllMontageInstancesEnded;
+}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void PrintString();
+}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object OnAllMontageInstancesEndedMCDelegate__DelegateSignature;
+
+[Import("/Script/Engine")]
+public Object OnMontageStartedMCDelegate__DelegateSignature;
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_StateMachine;
+
+[Import("/Script/Engine")]
+public Object AnimNode_TransitionResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MulticastInlineDelegateProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_BlendListByBool;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_StateResult;
+
+
+[Import("/Game/CharacterArt/Creatures/Raven/Raven_Skeleton")]
+public Skeleton Raven_Skeleton;
+
+
+[Import("/Game/Animations/Raven/Rav_G_Takeoff")]
+public AnimSequence Rav_G_Takeoff;
+
+
+[Import("/Game/Animations/Raven/Rav_G_Idle_Loop_VarB")]
+public AnimSequence Rav_G_Idle_Loop_VarB;
+
+
+[Import("/Game/Animations/Raven/Rav_G_Idle_Look_VarB")]
+public AnimSequence Rav_G_Idle_Look_VarB;
+
+
+[Import("/Game/Animations/Raven/Rav_G_Idle_Graze_VarB")]
+public AnimSequence Rav_G_Idle_Graze_VarB;
+
+
+[Import("/Game/Animations/Raven/Rav_A_Land")]
+public AnimSequence Rav_A_Land;
+
+
+[Import("/Game/Animations/Raven/Rav_A_Fly_F_Loop")]
+public AnimSequence Rav_A_Fly_F_Loop;
+
+
+[Import("/Game/Animations/Raven/Rav_G_Idle_Flap_ACK_Montage")]
+public AnimMontage Rav_G_Idle_Flap_ACK_Montage;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Raven_C : AnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_5;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_4;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_3;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_2;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_1;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_4;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_6;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_3;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_5;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_2;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_4;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_3;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_2;
+    Struct<AnimNode_BlendListByBool> AnimGraphNode_BlendListByBool_2;
+    Struct<AnimNode_BlendListByBool> AnimGraphNode_BlendListByBool_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_1;
+    Struct<AnimNode_BlendListByBool> AnimGraphNode_BlendListByBool;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot_1;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool ShouldLand;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool ShouldTakeOff;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool GlideLand;
+    [Edit, BlueprintVisible, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable] MulticastInlineDelegate OnLanded;
+    [Edit, BlueprintVisible, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable] MulticastInlineDelegate OnTookOff;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIsTalking;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIsInterested;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bCanGraze;
+    [Delegate, BlueprintCallable, BlueprintEvent]
+    public void OnTookOff__DelegateSignature() {
+        // Block 1
+
+    }
+
+    [Delegate, BlueprintCallable, BlueprintEvent]
+    public void OnLanded__DelegateSignature() {
+        // Block 1
+
+    }
+
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_Raven([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool K2Node_CustomEvent_bCanGrazeNew;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Object<AnimMontage> K2Node_CustomEvent_Montage;
+        float CallFunc_Montage_Play_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate_1;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_ABP_Raven_10_SetCanGraze: this.bCanGraze = (bool)(K2Node_CustomEvent_bCanGrazeNew);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_ABP_Raven_34_AnimNotify_StartFlying: EX_CallMulticastDelegate(this.OnTookOff__DelegateSignature, this.OnTookOff);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_ABP_Raven_58: EX_BindDelegate("OnMontageStarted_Event_0", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(this.OnMontageStarted, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnAllMontageInstancesEnded_Event_0", K2Node_CreateDelegate_OutputDelegate_1, this);
+        EX_AddMulticastDelegate(this.OnAllMontageInstancesEnded, K2Node_CreateDelegate_OutputDelegate_1);
+        return;
+
+        // Block 5
+        ExecuteUbergraph_ABP_Raven_147_AnimNotify_EndGlideLand: this.GlideLand = (bool)(false);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_ABP_Raven_163_AnimNotify_OnLanded: this.ShouldLand = (bool)(false);
+        EX_CallMulticastDelegate(this.OnLanded__DelegateSignature, this.OnLanded);
+        return;
+
+        // Block 7
+        ExecuteUbergraph_ABP_Raven_198_AnimNotify_OnTookOff: this.ShouldTakeOff = (bool)(false);
+        return;
+
+        // Block 8
+        ExecuteUbergraph_ABP_Raven_214_OnMontageStarted_Event_0: this.bIsTalking = (bool)(true);
+        this.bIsInterested = (bool)(true);
+        return;
+
+        // Block 9
+        ExecuteUbergraph_ABP_Raven_241_OnAllMontageInstancesEnded_Event_0: this.bIsTalking = (bool)(false);
+        return;
+
+        // Block 10
+        ExecuteUbergraph_ABP_Raven_257_BlueprintBeginPlay: goto ExecuteUbergraph_ABP_Raven_58;
+
+        // Block 11
+        ExecuteUbergraph_ABP_Raven_262_AnimNotify_Ack: CallFunc_Montage_Play_ReturnValue = this.Montage_Play(Rav_G_Idle_Flap_ACK_Montage, 1f, (byte)(0), 0f, true);
+        KismetSystemLibrary.PrintString(this, "ACK", true, true, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 2f);
+
+        // Block 12
+        ExecuteUbergraph_ABP_Raven_369:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void SetCanGraze([BlueprintVisible, BlueprintReadOnly] bool bCanGrazeNew) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_bCanGrazeNew", bCanGrazeNew);
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_10_SetCanGraze);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_Ack() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_262_AnimNotify_Ack);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_257_BlueprintBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnAllMontageInstancesEnded_Event_0() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_241_OnAllMontageInstancesEnded_Event_0);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnMontageStarted_Event_0([BlueprintVisible, BlueprintReadOnly] Object<AnimMontage> Montage) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Montage", Montage);
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_214_OnMontageStarted_Event_0);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_OnTookOff() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_198_AnimNotify_OnTookOff);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_OnLanded() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_163_AnimNotify_OnLanded);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_EndGlideLand() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_147_AnimNotify_EndGlideLand);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_StartFlying() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Raven(ExecuteUbergraph_ABP_Raven_34_AnimNotify_StartFlying);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

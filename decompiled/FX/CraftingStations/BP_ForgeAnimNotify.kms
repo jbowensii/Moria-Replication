@@ -1,0 +1,135 @@
+
+[Import("/Script/Engine")]
+public AnimNotify Default__AnimNotify;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class AnimNotify {
+    public Object Received_Notify;
+}
+
+[Import("/Script/Engine")]
+public class AnimSequenceBase {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetAllActorsWithInterface();
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class InterfaceProperty {}
+
+
+[Import("/Game/FX/CraftingStations/BPI_CraftingStationInterface")]
+public class BPI_CraftingStationInterface_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void ForgeAttachEvent();
+}
+
+[Import("/Game/FX/CraftingStations/BPI_CraftingStationInterface")]
+public BPI_CraftingStationInterface_C Default__BPI_CraftingStationInterface_C;
+
+
+[Parsed, ReplicationDataIsSetUp, CollapseCategories, Const, CompiledFromBlueprint]
+class BP_ForgeAnimNotify_C : AnimNotify {
+    [Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, Const]
+    public override void Received_Notify([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<SkeletalMeshComponent> MeshComp, [BlueprintVisible, BlueprintReadOnly] Object<AnimSequenceBase> Animation, [Return] out bool ReturnValue) {
+        // Locals
+        int Temp_int_Variable;
+        ref Array<Object<Actor>> CallFunc_GetAllActorsWithInterface_OutActors;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<Actor> CallFunc_Array_Get_Item;
+        Interface<BPI_CraftingStationInterface_C> K2Node_DynamicCast_AsBPI_Crafting_Station_Interface;
+        bool K2Node_DynamicCast_bSuccess;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        // Block 1
+        CallFunc_GetAllActorsWithInterface_OutActors = new[] {};
+        GameplayStatics.GetAllActorsWithInterface(this, BPI_CraftingStationInterface_C, CallFunc_GetAllActorsWithInterface_OutActors);
+        Temp_int_Variable = 0;
+
+        // Block 2
+        Received_Notify_63: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllActorsWithInterface_OutActors);
+        CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable, CallFunc_Array_Length_ReturnValue));
+
+        if (CallFunc_Less_IntInt_ReturnValue) {
+            // Block 3
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllActorsWithInterface_OutActors, Temp_int_Variable, CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_AsBPI_Crafting_Station_Interface = EX_ObjToInterfaceCast("BPI_CraftingStationInterface_C", CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("InterfaceToBool", K2Node_DynamicCast_AsBPI_Crafting_Station_Interface);
+
+            if (K2Node_DynamicCast_bSuccess) {
+                // Block 4
+                K2Node_DynamicCast_AsBPI_Crafting_Station_Interface.ForgeAttachEvent();
+
+            }
+
+
+            // Block 5
+            Received_Notify_349: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto Received_Notify_63;
+
+        }
+
+
+        // Block 6
+        Received_Notify_423: return ReturnValue;
+
+    }
+
+}

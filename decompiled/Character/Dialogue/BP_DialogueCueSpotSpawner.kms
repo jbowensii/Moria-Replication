@@ -1,0 +1,703 @@
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorDialogueCueSpotSpawner : Actor {
+    public Object RequestDialogueEvent;
+    [UnknownSignature, FinalFunction] public sealed void SpawnCueSpot();
+    public AnonymousClass_c1dccee04b0b4c789ff8da2c188bb356 ViewTrigger;
+}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTableAndConversationTrack();
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventWithTagAndConversationTrack();
+    public ObjectProperty bFirstTimeVarPlayed;
+    public ObjectProperty bFirstTimeVar;
+    public ObjectProperty OnConversationComplete;
+}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetZoneForPlayer();
+    [UnknownSignature, MathFunction] public static sealed void IsSandbox();
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+    [UnknownSignature, FinalFunction] public sealed void VoiceOverBark();
+}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+[Import("/Script/Moria")]
+public class MorWaypointsManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverWaypointByRowHandle();
+}
+
+[Import("/Script/Moria")]
+public Object MorConversationSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object EMorDialogueEventPriority;
+
+[Import("/Script/Moria")]
+public Object EMorDialogueEventStatus;
+
+[Import("/Script/Moria")]
+public class Default__MorDialogueCueSpotSpawner {
+    public Object CollisionComp;
+    public Object ViewTrigger;
+    public Object CueTargetLocation;
+}
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorWaypointRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorZoneRowHandle;
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class AnonymousClass_c1dccee04b0b4c789ff8da2c188bb356 {
+    [UnknownSignature, VirtualFunction] public virtual void SetAutoActivate();
+}
+
+
+[Import("/Script/GameplayTags")]
+public static class BlueprintGameplayTagLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralGameplayTagContainer();
+}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+
+[Import("/Script/Engine")]
+public BillboardComponent Default__BillboardComponent;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorLocation();
+    public Object ReceiveBeginPlay;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void BooleanOR();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_NameName();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ParticleSystemComponent {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/Tech/Managers/BP_WaypointsManager")]
+public class BP_WaypointsManager_C : MorWaypointsManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_WaypointsManager")]
+public BP_WaypointsManager_C Default__BP_WaypointsManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Character/Dialogue/BP_SandboxRemoverComponent")]
+public class BP_SandboxRemoverComponent_C {}
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public class BP_DialogueManager_C : MorDialogueManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public BP_DialogueManager_C Default__BP_DialogueManager_C;
+
+
+[Import("/Game/Character/Dialogue/BP_CueSpot")]
+public class BP_CueSpot_C {
+    public BP_SandboxRemoverComponent_C BP_SandboxRemoverComponent_GEN_VARIABLE;
+    public CapsuleComponent Capsule_0_GEN_VARIABLE;
+    public ParticleSystemComponent ParticleSystem_0_GEN_VARIABLE;
+    public ParticleSystemComponent ParticleSystemLight_0_GEN_VARIABLE;
+    public PointLightComponent PointLight_0_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent FXLocator_0_GEN_VARIABLE;
+    public SceneComponent MeshRoot_0_GEN_VARIABLE;
+    public SceneComponent Scene_0_GEN_VARIABLE;
+    public SceneComponent SymbolRotation_0_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_0_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_0_GEN_VARIABLE;
+    public BP_SandboxRemoverComponent_C BP_SandboxRemoverComponent;
+    public CapsuleComponent Capsule_0;
+    public ParticleSystemComponent ParticleSystem_0;
+    public ParticleSystemComponent ParticleSystemLight_0;
+    public PointLightComponent PointLight_0;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent FXLocator_0;
+    public SceneComponent MeshRoot_0;
+    public SceneComponent Scene_0;
+    public SceneComponent SymbolRotation_0;
+    public StaticMeshComponent Sphere_0;
+    public StaticMeshComponent StaticMesh_0;
+}
+
+[Import("/Game/Character/Dialogue/BP_CueSpot")]
+public class Default__BP_CueSpot_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DialogueCueSpotSpawner_C : MorDialogueCueSpotSpawner {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BillboardComponent> CueSpotVisual;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> TextRender;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Rows`;
+    [Edit, BlueprintVisible] bool bUsesViewTrigger;
+    [Edit, BlueprintVisible] Struct<GameplayTag> `Dialogue Event Tag`;
+    [Edit, BlueprintVisible] bool bUsesExplicitConversation;
+    [Edit, BlueprintVisible] Object<DataTable> ExplicitConversation;
+    [Edit, BlueprintVisible] Enum ConversationPriority;
+    [Edit, BlueprintVisible] Struct<DialogueRateLimit> RateLimit;
+    [Edit, BlueprintVisible] bool bFirstTimeVariant;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bFirstTimeVariantPlayed;
+    [Edit, BlueprintVisible] Array<Struct<MorWaypointRowHandle>> `Waypoint Array Row`;
+    [Edit, BlueprintVisible] Map `Waypoint To Zone Map`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorWaypointRowHandle> `Waypoint Row Handle`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorZoneRowHandle> `Target Zone`;
+    [Edit, BlueprintVisible] bool BubbleWaypoint;
+    [Edit, BlueprintVisible] Name `Zone Name`;
+    [Edit, BlueprintVisible] bool CheckZone;
+    [Edit, BlueprintVisible] bool TriggerExternallyOnly;
+    [Edit, BlueprintVisible] bool CanSpawnCueSpot;
+    [Edit, BlueprintVisible] bool bPlayDialogueInSandbox;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_DialogueCueSpotSpawner([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_IsSandbox_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool Temp_bool_Has_Been_Initd_Variable;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        Enum K2Node_CustomEvent_DialogueEventStatus;
+        bool Temp_bool_IsClosed_Variable;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        int K2Node_CustomEvent_ConversationID;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Object<MorCharacter> K2Node_Event_Dwarf;
+        Object<MorCharacter> K2Node_CustomEvent_Dwarf;
+        bool CallFunc_IsSandbox_ReturnValue_1;
+        bool CallFunc_Not_PreBool_ReturnValue_1;
+        bool CallFunc_BooleanAND_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue_1;
+        bool CallFunc_BooleanOR_ReturnValue;
+        bool CallFunc_BooleanOR_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_15: EX_PopExecutionFlowIfNot(false);
+
+            // Block 3
+            Temp_bool_IsClosed_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 4
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_29: EX_PushExecutionFlow(ExecuteUbergraph_BP_DialogueCueSpotSpawner_49);
+
+            // Block 5
+
+            if (Temp_bool_Has_Been_Initd_Variable) {
+                // Block 6
+                break;
+
+                // Block 7
+
+                ExecuteUbergraph_BP_DialogueCueSpotSpawner_49:
+                if (Temp_bool_IsClosed_Variable) {
+                    // Block 8
+                    break;
+
+                }
+
+
+                // Block 9
+                ExecuteUbergraph_BP_DialogueCueSpotSpawner_64: Temp_bool_IsClosed_Variable = (bool)(true);
+                Default__KismetArrayLibrary.Array_Get(this.`Lore Rows`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.VoiceOverBark(CallFunc_Array_Get_Item, EX_NoObject());
+                break;
+
+            }
+
+
+            // Block 10
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_177: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_15;
+
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_193:
+            while (true) {
+                while (true) {
+                    // Block 11
+                    goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_29;
+
+                }
+
+
+                // Block 12
+                ExecuteUbergraph_BP_DialogueCueSpotSpawner_208: Default__KismetArrayLibrary.Array_Get(this.`Lore Rows`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), EX_NoObject());
+                break;
+
+            }
+
+
+            // Block 13
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_312: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 14
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_381: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Lore Rows`);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 15
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_193;
+
+            // Block 16
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_520: Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_381;
+
+            // Block 17
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_571_ReceiveBeginPlay: EX_PopExecutionFlow();
+
+            // Block 18
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_572: EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+            K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 19
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+            goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_520;
+
+            // Block 20
+            `ExecuteUbergraph_BP_DialogueCueSpotSpawner_711_Unlock Lore`: goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_572;
+
+            // Block 21
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_716_OnConversationComplete: this.`Unlock Lore`((byte)(0));
+            this.Waypoint();
+            EX_PopExecutionFlowIfNot(this.CanSpawnCueSpot);
+
+            // Block 22
+            this.SpawnCueSpot((byte)(0));
+            EX_PopExecutionFlow();
+
+            // Block 23
+
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_769_RequestDialogueEvent:
+            if (this.TriggerExternallyOnly) {
+                // Block 24
+                break;
+
+            }
+
+
+            // Block 25
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_784: CallFunc_IsSandbox_ReturnValue_1 = (bool)(MoriaUtils.IsSandbox(this));
+            CallFunc_Not_PreBool_ReturnValue_1 = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_IsSandbox_ReturnValue_1));
+            CallFunc_BooleanAND_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanAND(this.bPlayDialogueInSandbox, CallFunc_IsSandbox_ReturnValue_1));
+            CallFunc_BooleanOR_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanOR(CallFunc_BooleanAND_ReturnValue_1, CallFunc_Not_PreBool_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanOR_ReturnValue_1);
+
+            // Block 26
+            this.RequestDialogueEventBP(K2Node_Event_Dwarf);
+            EX_PopExecutionFlow();
+
+            // Block 27
+            ExecuteUbergraph_BP_DialogueCueSpotSpawner_944_ExternallyRequestDialogueEvent: CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+            CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_IsSandbox_ReturnValue));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(this.bPlayDialogueInSandbox, CallFunc_IsSandbox_ReturnValue));
+            CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_BooleanAND_ReturnValue, CallFunc_Not_PreBool_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanOR_ReturnValue);
+
+            // Block 28
+            this.RequestDialogueEventBP(K2Node_CustomEvent_Dwarf);
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 29
+        ExecuteUbergraph_BP_DialogueCueSpotSpawner_1104:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ExternallyRequestDialogueEvent([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Dwarf) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Dwarf", Dwarf);
+        this.ExecuteUbergraph_BP_DialogueCueSpotSpawner(ExecuteUbergraph_BP_DialogueCueSpotSpawner_944_ExternallyRequestDialogueEvent);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void RequestDialogueEvent([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Dwarf) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Dwarf", Dwarf);
+        this.ExecuteUbergraph_BP_DialogueCueSpotSpawner(ExecuteUbergraph_BP_DialogueCueSpotSpawner_769_RequestDialogueEvent);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnConversationComplete([BlueprintVisible, BlueprintReadOnly] int ConversationID) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_ConversationID", ConversationID);
+        this.ExecuteUbergraph_BP_DialogueCueSpotSpawner(ExecuteUbergraph_BP_DialogueCueSpotSpawner_716_OnConversationComplete);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `Unlock Lore`([BlueprintVisible, BlueprintReadOnly] Enum DialogueEventStatus) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_DialogueEventStatus", DialogueEventStatus);
+        this.ExecuteUbergraph_BP_DialogueCueSpotSpawner(`ExecuteUbergraph_BP_DialogueCueSpotSpawner_711_Unlock Lore`);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DialogueCueSpotSpawner(ExecuteUbergraph_BP_DialogueCueSpotSpawner_571_ReceiveBeginPlay);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Block 1
+        this.ViewTrigger.SetAutoActivate(this.bUsesViewTrigger);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void RequestDialogueEventBP([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Dwarf) {
+        // Locals
+        [Edit, BlueprintVisible] bool Succeeded;
+        Name CallFunc_GetZoneForPlayer_ReturnValue;
+        bool CallFunc_EqualEqual_NameName_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Struct<GameplayTagContainer> CallFunc_MakeLiteralGameplayTagContainer_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue;
+        int CallFunc_RequestDialogueEventWithTagAndConversationTrack_ConversationID;
+        bool CallFunc_RequestDialogueEventWithTagAndConversationTrack_ReturnValue;
+        int CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID;
+        bool CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue;
+
+        // Block 1
+
+        if (this.CheckZone) {
+            // Block 2
+            CallFunc_GetZoneForPlayer_ReturnValue = MoriaUtils.GetZoneForPlayer(this, Dwarf);
+            CallFunc_EqualEqual_NameName_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_NameName(CallFunc_GetZoneForPlayer_ReturnValue, this.`Zone Name`));
+            if (!CallFunc_EqualEqual_NameName_ReturnValue) return;
+
+        }
+
+
+        // Block 3
+        RequestDialogueEventBP_104: EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+        K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 4
+        EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_DialogueManager_C));
+        CallFunc_GetManager_ReturnValue.bFirstTimeVarPlayed = (bool)(this.bFirstTimeVariantPlayed);
+        CallFunc_GetManager_ReturnValue.bFirstTimeVar = (bool)(this.bFirstTimeVariant);
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.ExplicitConversation));
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(this.bUsesExplicitConversation, CallFunc_IsValid_ReturnValue));
+
+        if (CallFunc_BooleanAND_ReturnValue) {
+            // Block 5
+            CallFunc_MakeLiteralGameplayTagContainer_ReturnValue = BlueprintGameplayTagLibrary.MakeLiteralGameplayTagContainer(EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)));
+            CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTableAndConversationTrack(this.ExplicitConversation, Dwarf, this.ConversationPriority, this.RateLimit, CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID, CallFunc_MakeLiteralGameplayTagContainer_ReturnValue, false));
+            Succeeded = (bool)(CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue);
+            RequestDialogueEventBP_555: if (!(Succeeded)) goto RequestDialogueEventBP_785;
+
+            // Block 6
+            this.bFirstTimeVariantPlayed = (bool)(true);
+            EX_BindDelegate("OnConversationComplete", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(CallFunc_GetManager_ReturnValue.OnConversationComplete, K2Node_CreateDelegate_OutputDelegate);
+            return;
+
+        }
+
+
+        // Block 7
+        RequestDialogueEventBP_649: CallFunc_MakeLiteralGameplayTagContainer_ReturnValue = BlueprintGameplayTagLibrary.MakeLiteralGameplayTagContainer(EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)));
+        CallFunc_RequestDialogueEventWithTagAndConversationTrack_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventWithTagAndConversationTrack(this.`Dialogue Event Tag`, Dwarf, CallFunc_RequestDialogueEventWithTagAndConversationTrack_ConversationID, CallFunc_MakeLiteralGameplayTagContainer_ReturnValue));
+        Succeeded = (bool)(CallFunc_RequestDialogueEventWithTagAndConversationTrack_ReturnValue);
+        goto RequestDialogueEventBP_555;
+
+        // Block 8
+        RequestDialogueEventBP_785: this.`Unlock Lore`((byte)(2));
+        if (!this.CanSpawnCueSpot) return;
+
+        // Block 9
+        this.SpawnCueSpot((byte)(2));
+
+        // Block 10
+        RequestDialogueEventBP_827:
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void Waypoint() {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<MorZoneRowHandle> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        Struct<MorWaypointRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Object<BP_WaypointsManager_C> CallFunc_GetManager_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+
+        while (true) {
+            // Block 1
+            EX_PopExecutionFlowIfNot(this.BubbleWaypoint);
+
+            // Block 2
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 3
+            Waypoint_61: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Waypoint Array Row`);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 4
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(Waypoint_500);
+
+            // Block 5
+            Default__KismetArrayLibrary.Array_Get(this.`Waypoint Array Row`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            this.`Waypoint Row Handle` = CallFunc_Array_Get_Item;
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.`Waypoint To Zone Map`, this.`Waypoint Row Handle`, CallFunc_Map_Find_Value));
+            this.`Target Zone` = CallFunc_Map_Find_Value;
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_WaypointsManager_C));
+            CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+            CallFunc_GetManager_ReturnValue.DiscoverWaypointByRowHandle(this.`Waypoint Row Handle`, CallFunc_K2_GetActorLocation_ReturnValue, this.`Target Zone`);
+            EX_PopExecutionFlow();
+
+            // Block 6
+            Waypoint_500: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto Waypoint_61;
+
+        }
+
+
+        // Block 7
+        Waypoint_574:
+
+    }
+
+}

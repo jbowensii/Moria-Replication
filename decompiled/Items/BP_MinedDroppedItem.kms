@@ -1,0 +1,81 @@
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Items/BP_DropItem")]
+public class BP_DropItem_C {
+    public MorAIBehaviorPointComponent PickupBehavior_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public MorAIBehaviorPointComponent PickupBehavior;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_DropItem")]
+public class Default__BP_DropItem_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_MinedDroppedItem_C : BP_DropItem_C {
+}

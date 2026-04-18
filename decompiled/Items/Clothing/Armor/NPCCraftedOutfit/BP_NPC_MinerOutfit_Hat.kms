@@ -1,0 +1,312 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Character {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent : SceneComponent {}
+
+[Import("/Script/Moria")]
+public MorGameplayLightProducerComponent Default__MorGameplayLightProducerComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+
+[Import("/Script/FGK")]
+public class InventoryItem : Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetCurrentEquipMode();
+    [UnknownSignature, FinalFunction] public sealed void GetCurrentEquipVisibility();
+    [UnknownSignature, LocalFinalFunction] public sealed void OnVisibilityUpdated();
+    [UnknownSignature, FinalFunction] public sealed void SetDesiredActorVisibility();
+}
+
+[Import("/Script/FGK")]
+public Object EEquipMode;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_AttachToComponent();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Character {
+    public ObjectProperty Mesh;
+}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_AttachToComponent();
+    [UnknownSignature, FinalFunction] public sealed void SetHiddenInGame();
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Miner_Helmet")]
+public Texture2D T_UI_Icon_Armor_Miner_Helmet;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_NPCs/NPC_Hats/Skin/SK_NPC_Hat_Miner")]
+public SkeletalMesh SK_NPC_Hat_Miner;
+
+
+[Import("/Game/Art/PhysMats/PM_metal_light")]
+public PhysicalMaterial PM_metal_light;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/Curve_GameplayLight_Producer_MostlyLinear")]
+public CurveFloat Curve_GameplayLight_Producer_MostlyLinear;
+
+
+[Import("/Game/Items/Clothing/GE_Khazad_Set_HelmetArmor")]
+public class GE_Khazad_Set_HelmetArmor_C {}
+
+[Import("/Game/Items/Clothing/GE_Khazad_Set_HelmetArmor")]
+public GE_Khazad_Set_HelmetArmor_C Default__GE_Khazad_Set_HelmetArmor_C;
+
+
+[Import("/Game/Items/BP_Category_Outfit")]
+public class BP_Category_Outfit_C : InventoryItem {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Outfit")]
+public class Default__BP_Category_Outfit_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt_Helmet")]
+public class GA_Dwarf_HeadButt_Helmet_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt_Helmet")]
+public GA_Dwarf_HeadButt_Helmet_C Default__GA_Dwarf_HeadButt_Helmet_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_NPC_MinerOutfit_Hat_C : BP_Category_Outfit_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SkeletalMesh;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_NPC_MinerOutfit_Hat([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<Character> K2Node_Event_Character;
+        bool K2Node_Event_bChangedVisibility;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            this.UpdateVisibility(K2Node_Event_Character);
+            break;
+
+            // Block 3
+            ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_39: KismetSystemLibrary.Delay(this, 0.1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), -1036244223, EX_NameConst("ExecuteUbergraph_BP_NPC_MinerOutfit_Hat"), this));
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_94_OnVisibilityUpdated: base.OnVisibilityUpdated(K2Node_Event_Character, K2Node_Event_bChangedVisibility);
+            this.UpdateVisibility(K2Node_Event_Character);
+            goto ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_39;
+
+            // Block 5
+            ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_150: base.ReceiveBeginPlay();
+            break;
+
+            // Block 6
+            ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_161_ReceiveBeginPlay: goto ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_150;
+
+        }
+
+
+        // Block 7
+        ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_166:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnVisibilityUpdated([BlueprintVisible, BlueprintReadOnly] Object<Character> Character, [BlueprintVisible, BlueprintReadOnly] bool bChangedVisibility) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Character", Character);
+        EX_LetValueOnPersistentFrame("K2Node_Event_bChangedVisibility", bChangedVisibility);
+        this.ExecuteUbergraph_BP_NPC_MinerOutfit_Hat(ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_94_OnVisibilityUpdated);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NPC_MinerOutfit_Hat(ExecuteUbergraph_BP_NPC_MinerOutfit_Hat_161_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void UpdateVisibility([BlueprintVisible, BlueprintReadOnly] Object<Character> Character) {
+        // Locals
+        [Edit, BlueprintVisible] bool IsVisible;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess;
+        Enum CallFunc_GetCurrentEquipMode_ReturnValue;
+        bool CallFunc_K2_AttachToComponent_ReturnValue;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue;
+        bool CallFunc_GetCurrentEquipVisibility_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        // Block 1
+        CallFunc_GetCurrentEquipMode_ReturnValue = this.GetCurrentEquipMode();
+        CallFunc_EqualEqual_ByteByte_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetCurrentEquipMode_ReturnValue, (byte)(2)));
+        CallFunc_GetCurrentEquipVisibility_ReturnValue = (bool)(this.GetCurrentEquipVisibility());
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_GetCurrentEquipVisibility_ReturnValue, CallFunc_EqualEqual_ByteByte_ReturnValue));
+        IsVisible = (bool)(CallFunc_BooleanAND_ReturnValue);
+        K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", Character);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+
+        if (K2Node_DynamicCast_bSuccess) {
+            // Block 2
+            this.K2_AttachToComponent(K2Node_DynamicCast_AsMor_Character.Mesh, EX_NameConst("headSocket"), (byte)(2), (byte)(2), (byte)(0), true);
+            CallFunc_K2_AttachToComponent_ReturnValue = (bool)(this.MorPointLight.K2_AttachToComponent(K2Node_DynamicCast_AsMor_Character.Mesh, EX_NameConst("headSocket"), (byte)(0), (byte)(0), (byte)(0), true));
+            this.SetDesiredActorVisibility(IsVisible, true);
+            this.SkeletalMesh.SetHiddenInGame(true, false);
+            CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(IsVisible));
+            this.MorPointLight.SetHiddenInGame(CallFunc_Not_PreBool_ReturnValue, true);
+            this.MorPointLight.SetVisibility(IsVisible, false);
+            return;
+
+        }
+
+
+        // Block 3
+        UpdateVisibility_541: this.SetDesiredActorVisibility(false, true);
+
+        // Block 4
+        UpdateVisibility_553:
+
+    }
+
+}

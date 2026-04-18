@@ -1,0 +1,421 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {
+    public ObjectProperty LightAmount;
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+    [UnknownSignature, VirtualFunction] public virtual void Deactivate();
+}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent : SceneComponent {
+    public LightComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent : FGKAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorShadowFXAdapterComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKAIBehaviorPointComponent {
+    public ObjectProperty bEnabled;
+}
+
+[Import("/Script/FGK")]
+public class InventoryItem {
+    public Object OnEquip;
+    public Object OnHolster;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Character {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BooleanOR();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+    [UnknownSignature, MathFunction] public static sealed void SelectFloat();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_SetRelativeLocation();
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+    public ObjectProperty RelativeLocation;
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Tools/T_UI_Icon_Tools_CrystalTorch")]
+public Texture2D T_UI_Icon_Tools_CrystalTorch;
+
+
+[Import("/Game/Items/Weapons/Models/Dwarf_Weapons/CrystalTorch")]
+public StaticMesh CrystalTorch;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/Curve_GameplayLight_Producer_MostlyLinear")]
+public CurveFloat Curve_GameplayLight_Producer_MostlyLinear;
+
+
+[Import("/Game/Items/Holdables/BP_Torch_Base")]
+public class BP_Torch_Base_C : Actor {
+    public AkComponent AkTorchAudio_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Moth_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public MorShadowFXAdapterComponent MorShadowFXAdapter_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Mesh_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public AkComponent AkTorchAudio;
+    public MorAIBehaviorPointComponent BehaviorPoint_Moth;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public MorPointLightComponent MorPointLight;
+    public MorShadowFXAdapterComponent MorShadowFXAdapter;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Mesh;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Items/Holdables/BP_Torch_Base")]
+public class Default__BP_Torch_Base_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CrystalTorch_C : BP_Torch_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIsIgnited;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIgnitedHeld;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float LightIntencityHeld;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float LightProducerAmountHeld;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIgnitedDropped;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIgnitedHolstered;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float LightIntencityDropped;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float LightIntencityHolstered;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float LightProducerAmountDropped;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float LightProducerAmountHolstered;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIsInitialized;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> InitLightLocation;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_CrystalTorch([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_1;
+        const Delegate Temp_delegate_Variable_1;
+        int CallFunc_PostAkEvent_ReturnValue;
+        int CallFunc_PostAkEvent_ReturnValue_1;
+        bool K2Node_CustomEvent_bIgnited;
+        float K2Node_CustomEvent_LightIntensity;
+        float K2Node_CustomEvent_LightProducerAmount;
+        const Struct<Vector> K2Node_CustomEvent_InitLightLocation;
+        float CallFunc_SelectFloat_ReturnValue;
+        float CallFunc_SelectFloat_ReturnValue_1;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue_1;
+        bool CallFunc_BooleanOR_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue_2;
+        bool CallFunc_BooleanOR_ReturnValue_1;
+        Object<Character> K2Node_Event_Character;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_CrystalTorch_15: this.bIsIgnited = (bool)(true);
+            this.bIsInitialized = (bool)(true);
+            CallFunc_PostAkEvent_ReturnValue_1 = this.AkTorchAudio.PostAkEvent(EX_NoObject(), 0, Temp_delegate_Variable_1, Temp_struct_Variable_1, "");
+            this.MorPointLight.SetVisibility(true, false);
+            this.MorGameplayLightProducer.Activate(false);
+            this.BehaviorPoint_Moth.bEnabled = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 3
+            ExecuteUbergraph_BP_CrystalTorch_222: this.bIsIgnited = (bool)(false);
+            this.bIsInitialized = (bool)(true);
+            CallFunc_PostAkEvent_ReturnValue = this.AkTorchAudio.PostAkEvent(EX_NoObject(), 0, Temp_delegate_Variable, Temp_struct_Variable, "");
+            this.MorPointLight.SetVisibility(false, false);
+            this.MorGameplayLightProducer.Deactivate();
+            this.BehaviorPoint_Moth.bEnabled = (bool)(false);
+            EX_PopExecutionFlow();
+
+            // Block 4
+            ExecuteUbergraph_BP_CrystalTorch_428_SetSettings: EX_PushExecutionFlow(ExecuteUbergraph_BP_CrystalTorch_688);
+
+            // Block 5
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_CrystalTorch_587);
+
+            // Block 6
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_CrystalTorch_472);
+
+            // Block 7
+
+            if (K2Node_CustomEvent_bIgnited) {
+                // Block 8
+                this.Ignite();
+                break;
+
+                // Block 9
+                ExecuteUbergraph_BP_CrystalTorch_472: CallFunc_SelectFloat_ReturnValue_1 = KismetMathLibrary.SelectFloat(K2Node_CustomEvent_LightIntensity, 0f, K2Node_CustomEvent_bIgnited);
+                this.MorPointLight.PointLight.SetIntensity(CallFunc_SelectFloat_ReturnValue_1);
+                break;
+
+                // Block 10
+                ExecuteUbergraph_BP_CrystalTorch_587: CallFunc_SelectFloat_ReturnValue = KismetMathLibrary.SelectFloat(K2Node_CustomEvent_LightProducerAmount, 0f, K2Node_CustomEvent_bIgnited);
+                this.MorGameplayLightProducer.LightAmount = CallFunc_SelectFloat_ReturnValue;
+                break;
+
+                // Block 11
+                ExecuteUbergraph_BP_CrystalTorch_688: this.MorPointLight.K2_SetRelativeLocation(K2Node_CustomEvent_InitLightLocation, false, CallFunc_K2_SetRelativeLocation_SweepHitResult, true);
+                break;
+
+            }
+
+
+            // Block 12
+            ExecuteUbergraph_BP_CrystalTorch_741: this.Extinguish();
+            EX_PopExecutionFlow();
+
+            // Block 13
+
+            ExecuteUbergraph_BP_CrystalTorch_756:
+            if (this.bIsInitialized) {
+                // Block 14
+                break;
+
+            }
+
+
+            // Block 15
+            ExecuteUbergraph_BP_CrystalTorch_771: this.SetSettings(this.bIgnitedDropped, this.LightIntencityDropped, this.LightProducerAmountDropped, this.InitLightLocation);
+            EX_PopExecutionFlow();
+
+            // Block 16
+            ExecuteUbergraph_BP_CrystalTorch_822: CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(this.bIsIgnited));
+            CallFunc_Not_PreBool_ReturnValue_1 = (bool)(KismetMathLibrary.Not_PreBool(this.bIsInitialized));
+            CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_Not_PreBool_ReturnValue, CallFunc_Not_PreBool_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanOR_ReturnValue);
+
+            // Block 17
+            goto ExecuteUbergraph_BP_CrystalTorch_15;
+
+            // Block 18
+            ExecuteUbergraph_BP_CrystalTorch_933: CallFunc_Not_PreBool_ReturnValue_2 = (bool)(KismetMathLibrary.Not_PreBool(this.bIsInitialized));
+            CallFunc_BooleanOR_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanOR(this.bIsIgnited, CallFunc_Not_PreBool_ReturnValue_2));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanOR_ReturnValue_1);
+
+            // Block 19
+            goto ExecuteUbergraph_BP_CrystalTorch_222;
+
+            // Block 20
+            ExecuteUbergraph_BP_CrystalTorch_1015_OnEquip: this.SetSettings(this.bIgnitedHeld, this.LightIntencityHeld, this.LightProducerAmountHeld, this.InitLightLocation);
+            EX_PopExecutionFlow();
+
+            // Block 21
+            ExecuteUbergraph_BP_CrystalTorch_1066_OnHolster: this.SetSettings(this.bIgnitedHolstered, this.LightIntencityHolstered, this.LightProducerAmountHolstered, this.InitLightLocation);
+            this.MorPointLight.K2_SetRelativeLocation(EX_VectorConst(-40, 20, 100), false, CallFunc_K2_SetRelativeLocation_SweepHitResult_1, true);
+            EX_PopExecutionFlow();
+
+            // Block 22
+            ExecuteUbergraph_BP_CrystalTorch_1173_Extinguish: goto ExecuteUbergraph_BP_CrystalTorch_933;
+
+            // Block 23
+            ExecuteUbergraph_BP_CrystalTorch_1178_Ignite: goto ExecuteUbergraph_BP_CrystalTorch_822;
+
+            // Block 24
+            ExecuteUbergraph_BP_CrystalTorch_1183: base.ReceiveBeginPlay();
+            this.InitLightLocation = this.MorPointLight.RelativeLocation;
+            goto ExecuteUbergraph_BP_CrystalTorch_756;
+
+            // Block 25
+            ExecuteUbergraph_BP_CrystalTorch_1247_ReceiveBeginPlay: goto ExecuteUbergraph_BP_CrystalTorch_1183;
+
+        }
+
+
+        // Block 26
+        ExecuteUbergraph_BP_CrystalTorch_1252:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CrystalTorch(ExecuteUbergraph_BP_CrystalTorch_1247_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void Ignite() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CrystalTorch(ExecuteUbergraph_BP_CrystalTorch_1178_Ignite);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void Extinguish() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CrystalTorch(ExecuteUbergraph_BP_CrystalTorch_1173_Extinguish);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnHolster() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CrystalTorch(ExecuteUbergraph_BP_CrystalTorch_1066_OnHolster);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnEquip([BlueprintVisible, BlueprintReadOnly] Object<Character> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Character", Character);
+        this.ExecuteUbergraph_BP_CrystalTorch(ExecuteUbergraph_BP_CrystalTorch_1015_OnEquip);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void SetSettings([BlueprintVisible, BlueprintReadOnly] bool bIgnited, [BlueprintVisible, BlueprintReadOnly] float LightIntensity, [BlueprintVisible, BlueprintReadOnly] float LightProducerAmount, [BlueprintVisible, BlueprintReadOnly] const out ref Struct<Vector> InitLightLocation) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_bIgnited", bIgnited);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_LightIntensity", LightIntensity);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_LightProducerAmount", LightProducerAmount);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_InitLightLocation", InitLightLocation);
+        this.ExecuteUbergraph_BP_CrystalTorch(ExecuteUbergraph_BP_CrystalTorch_428_SetSettings);
+
+    }
+
+}

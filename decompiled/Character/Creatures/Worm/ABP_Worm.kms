@@ -1,0 +1,77 @@
+
+[Import("/Script/Moria")]
+public class WormAnimInstance {}
+
+[Import("/Script/Moria")]
+public WormAnimInstance Default__WormAnimInstance;
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/CharacterArt/Creatures/GreatWorm/GreatWorm_Skeleton")]
+public Skeleton GreatWorm_Skeleton;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Worm_C : WormAnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_Worm([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

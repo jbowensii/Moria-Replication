@@ -1,0 +1,140 @@
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class BlendSpace {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Game/Character/Orcs/Orc_Parent_Skeleton")]
+public Skeleton Orc_Parent_Skeleton;
+
+
+[Import("/Game/Animations/Uruk/Urk_N_WalkRun_FR")]
+public BlendSpace Urk_N_WalkRun_FR;
+
+
+[Import("/Game/Animations/Uruk/Urk_N_WalkRun_FL")]
+public BlendSpace Urk_N_WalkRun_FL;
+
+
+[Import("/Game/Animations/Uruk/Urk_N_WalkRun_F")]
+public BlendSpace Urk_N_WalkRun_F;
+
+
+[Import("/Game/Animations/Uruk/Urk_N_WalkRun_BR")]
+public BlendSpace Urk_N_WalkRun_BR;
+
+
+[Import("/Game/Animations/Uruk/Urk_N_WalkRun_BL")]
+public BlendSpace Urk_N_WalkRun_BL;
+
+
+[Import("/Game/Animations/Uruk/Urk_N_WalkRun_B")]
+public BlendSpace Urk_N_WalkRun_B;
+
+
+[Import("/Game/Unshippable/UrukPrepro/Urk_UA_N_Sprint_F")]
+public AnimSequence Urk_UA_N_Sprint_F;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Overlay/Urk_Sword_StanceVariation_Normal")]
+public AnimSequence Urk_Sword_StanceVariation_Normal;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Overlay/Urk_Spear_StanceVariation_Normal")]
+public AnimSequence Urk_Spear_StanceVariation_Normal;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Overlay/Bow/Urk_Props_Bow_Poses")]
+public AnimSequence Urk_Props_Bow_Poses;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Overlay/Bow/Urk_Props_Bow_Aim_Sweep")]
+public AnimSequence Urk_Props_Bow_Aim_Sweep;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Walk_RF")]
+public AnimSequence Urk_UA_N_Walk_RF;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Walk_RB")]
+public AnimSequence Urk_UA_N_Walk_RB;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Walk_LF")]
+public AnimSequence Urk_UA_N_Walk_LF;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Walk_LB")]
+public AnimSequence Urk_UA_N_Walk_LB;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Walk_F")]
+public AnimSequence Urk_UA_N_Walk_F;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Walk_B")]
+public AnimSequence Urk_UA_N_Walk_B;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_TurnIP_R90")]
+public AnimSequence Urk_UA_N_TurnIP_R90;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_TurnIP_R180")]
+public AnimSequence Urk_UA_N_TurnIP_R180;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_TurnIP_L90")]
+public AnimSequence Urk_UA_N_TurnIP_L90;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_TurnIP_L180")]
+public AnimSequence Urk_UA_N_TurnIP_L180;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/Locomotion/Urk_UA_N_Sprint_F")]
+public AnimSequence Urk_UA_N_Sprint_F;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/BasePoses/Urk_UA_StanceVariation_Normal")]
+public AnimSequence Urk_UA_StanceVariation_Normal;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/BasePoses/Urk_UA_N_SecondaryMotion")]
+public AnimSequence Urk_UA_N_SecondaryMotion;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/BasePoses/Urk_UA_N_Pose")]
+public AnimSequence Urk_UA_N_Pose;
+
+
+[Import("/Game/Animations/Uruk/FGK_Base/BasePoses/Urk_UA_Combat_Breathe_Loop")]
+public AnimSequence Urk_UA_Combat_Breathe_Loop;
+
+
+[Import("/Game/Character/Orcs/ABP_Orc_NoLink")]
+public ABP_Orc_NoLink_C Default__ABP_Orc_NoLink_C;
+
+[Import("/Game/Character/Orcs/ABP_Orc_NoLink")]
+public class ABP_Orc_NoLink_C {
+    [UnknownSignature] public  void `(CLF) CycleBlending`();
+}
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Orc_Uruk_NoLink_C : ABP_Orc_NoLink_C {
+}

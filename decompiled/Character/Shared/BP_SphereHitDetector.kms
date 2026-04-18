@@ -1,0 +1,67 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+[Import("/Script/Moria")]
+public TransformLocatorComponent Default__TransformLocatorComponent;
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SphereComponent Default__SphereComponent;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_SphereHitDetector_C : Actor {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TransformLocatorComponent> TransformLocator;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> Sphere;
+}

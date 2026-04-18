@@ -1,0 +1,205 @@
+
+[Import("/Script/UMG")]
+public class Image {
+    [UnknownSignature, VirtualFunction] public virtual void SetVisibility();
+}
+
+[Import("/Script/UMG")]
+public class Overlay {}
+
+[Import("/Script/UMG")]
+public class OverlaySlot {}
+
+[Import("/Script/UMG")]
+public class UserWidget {
+    public Object Construct;
+}
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass {}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+[Import("/Script/UMG")]
+public Image Default__Image;
+
+[Import("/Script/UMG")]
+public Overlay Default__Overlay;
+
+[Import("/Script/UMG")]
+public OverlaySlot Default__OverlaySlot;
+
+[Import("/Script/UMG")]
+public WidgetBlueprintGeneratedClass Default__WidgetBlueprintGeneratedClass;
+
+[Import("/Script/UMG")]
+public WidgetTree Default__WidgetTree;
+
+
+[Import("/Script/Moria")]
+public class MorCharacterCreatorSection {
+    [UnknownSignature, FinalFunction] public sealed void GetSectionState();
+    public ObjectProperty OnSectionStateChanged;
+}
+
+[Import("/Script/Moria")]
+public Object OnSectionStateChanged__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object EMorCharacterCreatorSectionState;
+
+[Import("/Script/Moria")]
+public MorCharacterCreatorSection Default__MorCharacterCreatorSection;
+
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+}
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/_Shared/T_UI_Btn_P2_Up")]
+public Texture2D T_UI_Btn_P2_Up;
+
+
+[Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class WBP_CharacterCreatorSection_C : MorCharacterCreatorSection {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<Image> ImageHovered;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<Image> ImageNormal;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<Image> ImageSelected;
+    [Edit, BlueprintVisible] bool isHoverable;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_WBP_CharacterCreatorSection([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        const Enum K2Node_CustomEvent_State;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_WBP_CharacterCreatorSection_10: this.ToggleImage();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_WBP_CharacterCreatorSection_29_Construct: this.ToggleImage();
+        EX_BindDelegate("SectionStateChanged", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(this.OnSectionStateChanged, K2Node_CreateDelegate_OutputDelegate);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_WBP_CharacterCreatorSection_90_SectionStateChanged: goto ExecuteUbergraph_WBP_CharacterCreatorSection_10;
+
+        // Block 5
+        ExecuteUbergraph_WBP_CharacterCreatorSection_95:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void SectionStateChanged([BlueprintVisible, BlueprintReadOnly] const out ref Enum State) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_State", State);
+        this.ExecuteUbergraph_WBP_CharacterCreatorSection(ExecuteUbergraph_WBP_CharacterCreatorSection_90_SectionStateChanged);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void Construct() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_CharacterCreatorSection(ExecuteUbergraph_WBP_CharacterCreatorSection_29_Construct);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void ToggleImage() {
+        // Locals
+        Enum CallFunc_GetSectionState_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+
+        // Block 1
+        CallFunc_GetSectionState_ReturnValue = this.GetSectionState();
+        K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSectionState_ReturnValue, (byte)(0)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 2
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSectionState_ReturnValue, (byte)(1)));
+            if (!(K2Node_SwitchEnum_CmpSuccess)) goto ToggleImage_287;
+
+            // Block 3
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSectionState_ReturnValue, (byte)(2)));
+            if (!(K2Node_SwitchEnum_CmpSuccess)) goto ToggleImage_420;
+
+            // Block 4
+            return;
+
+        }
+
+
+        // Block 5
+        ToggleImage_168: this.ImageNormal.SetVisibility((byte)(0));
+        this.ImageHovered.SetVisibility((byte)(2));
+        this.ImageSelected.SetVisibility((byte)(2));
+        return;
+
+        // Block 6
+        ToggleImage_287: if (!this.isHoverable) return;
+
+        // Block 7
+        this.ImageNormal.SetVisibility((byte)(2));
+        this.ImageHovered.SetVisibility((byte)(0));
+        this.ImageSelected.SetVisibility((byte)(2));
+        return;
+
+        // Block 8
+        ToggleImage_420: this.ImageNormal.SetVisibility((byte)(2));
+        this.ImageHovered.SetVisibility((byte)(2));
+        this.ImageSelected.SetVisibility((byte)(0));
+
+        // Block 9
+        ToggleImage_534:
+
+    }
+
+}

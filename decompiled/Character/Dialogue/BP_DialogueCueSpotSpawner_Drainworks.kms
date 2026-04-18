@@ -1,0 +1,180 @@
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueCueSpotSpawner")]
+public class BP_DialogueCueSpotSpawner_C {
+    public BillboardComponent CueSpotVisual_GEN_VARIABLE;
+    [UnknownSignature] public  void RequestDialogueEvent();
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TextRenderComponent TextRender_GEN_VARIABLE;
+    public BillboardComponent CueSpotVisual;
+    public SceneComponent DefaultSceneRoot;
+    public TextRenderComponent TextRender;
+    public ObjectProperty TriggerExternallyOnly;
+    [UnknownSignature, LocalVirtualFunction] public virtual void RequestDialogueEventBP();
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueCueSpotSpawner")]
+public class Default__BP_DialogueCueSpotSpawner_C {
+    public BoxComponent CollisionComp;
+    public MorViewTrigger ViewTrigger;
+    public SceneComponent CueTargetLocation;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DialogueCueSpotSpawner_Drainworks_C : BP_DialogueCueSpotSpawner_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible] bool `Check Drainworks Completed`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Drainworks Repaired`;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Object<MorCharacter> K2Node_Event_Dwarf;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_10: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(this.`Drainworks Repaired`);
+        CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_GetProgressValue_ReturnValue, 0));
+
+        if (CallFunc_Greater_IntInt_ReturnValue) {
+            // Block 3
+            return;
+
+        }
+
+
+        // Block 4
+        ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_143: this.RequestDialogueEventBP(K2Node_Event_Dwarf);
+        return;
+
+        // Block 5
+
+        ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_171_RequestDialogueEvent:
+        if (this.TriggerExternallyOnly) {
+            // Block 6
+            return;
+
+        }
+
+
+        // Block 7
+        ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_190: if (!(this.`Check Drainworks Completed`)) goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_143;
+
+        // Block 8
+        goto ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_10;
+
+        // Block 9
+        ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_209:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void RequestDialogueEvent([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Dwarf) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Dwarf", Dwarf);
+        this.ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks(ExecuteUbergraph_BP_DialogueCueSpotSpawner_Drainworks_171_RequestDialogueEvent);
+
+    }
+
+}

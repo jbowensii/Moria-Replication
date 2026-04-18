@@ -1,0 +1,239 @@
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+[Import("/Script/Moria")]
+public static class RopeInteractable {
+    [UnknownSignature, MathFunction] public static sealed void TrySpawn();
+}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveHit;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Greater_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void VSize();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_PlacedRope")]
+public class BP_PlacedRope_C {
+    public CalloutDataComponent CalloutData_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Platform_Support1_GEN_VARIABLE;
+    public StaticMeshComponent Platform_Support2_GEN_VARIABLE;
+    public StaticMeshComponent PlatformVisualsTop_GEN_VARIABLE;
+    public StaticMeshComponent PlatformVisualsTopTrim1_GEN_VARIABLE;
+    public StaticMeshComponent PlatformVisualsTopTrim2_GEN_VARIABLE;
+    public CalloutDataComponent CalloutData;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Platform_Support1;
+    public StaticMeshComponent Platform_Support2;
+    public StaticMeshComponent PlatformVisualsTop;
+    public StaticMeshComponent PlatformVisualsTopTrim1;
+    public StaticMeshComponent PlatformVisualsTopTrim2;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_PlacedRope")]
+public class Default__BP_PlacedRope_C {
+    public BoxComponent BoxComponent_Above;
+    public BoxComponent BoxComponent_Ladder;
+    public BoxComponent InteractCollider;
+    public MorInteractionPoint InteractionPoint;
+    public SceneComponent Junction;
+    public SceneComponent LadderBody;
+    public SceneComponent ROOT;
+    public StaticMeshComponent PlatformVisuals;
+}
+
+
+[Import("/Game/Items/BP_DropItem")]
+public class BP_DropItem_C : Actor {
+    public MorAIBehaviorPointComponent PickupBehavior_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public MorAIBehaviorPointComponent PickupBehavior;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Game/Items/BP_DropItem")]
+public class Default__BP_DropItem_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_RopeThrownItem_C : BP_DropItem_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Class CreatesClass;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_RopeThrownItem([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_Event_MyComp;
+        Object<Actor> K2Node_Event_Other;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_Event_OtherComp;
+        bool K2Node_Event_bSelfMoved;
+        Struct<Vector> K2Node_Event_HitLocation;
+        Struct<Vector> K2Node_Event_HitNormal;
+        Struct<Vector> K2Node_Event_NormalImpulse;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_Event_Hit;
+        float CallFunc_VSize_ReturnValue;
+        bool CallFunc_Greater_FloatFloat_ReturnValue;
+        Object<RopeInteractable> CallFunc_TrySpawn_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_RopeThrownItem_10_ReceiveHit: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 3
+        CallFunc_VSize_ReturnValue = KismetMathLibrary.VSize(K2Node_Event_NormalImpulse);
+        CallFunc_Greater_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_VSize_ReturnValue, 100f));
+        if (!CallFunc_Greater_FloatFloat_ReturnValue) return;
+
+        // Block 4
+        EX_LetObj(CallFunc_GetOwner_ReturnValue,this.GetOwner());
+        EX_LetObj(CallFunc_TrySpawn_ReturnValue,RopeInteractable.TrySpawn(this, K2Node_Event_Hit, this.CreatesClass, CallFunc_GetOwner_ReturnValue));
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_TrySpawn_ReturnValue));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 5
+        this.K2_DestroyActor();
+
+        // Block 6
+        ExecuteUbergraph_BP_RopeThrownItem_254:
+
+    }
+
+    [Event, HasOutParms, BlueprintEvent]
+    public override void ReceiveHit([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> MyComp, [BlueprintVisible, BlueprintReadOnly] Object<Actor> Other, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] bool bSelfMoved, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> HitLocation, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> HitNormal, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> NormalImpulse, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_MyComp", MyComp);
+        EX_LetValueOnPersistentFrame("K2Node_Event_Other", Other);
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherComp", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_Event_bSelfMoved", bSelfMoved);
+        EX_LetValueOnPersistentFrame("K2Node_Event_HitLocation", HitLocation);
+        EX_LetValueOnPersistentFrame("K2Node_Event_HitNormal", HitNormal);
+        EX_LetValueOnPersistentFrame("K2Node_Event_NormalImpulse", NormalImpulse);
+        EX_LetValueOnPersistentFrame("K2Node_Event_Hit", Hit);
+        this.ExecuteUbergraph_BP_RopeThrownItem(ExecuteUbergraph_BP_RopeThrownItem_10_ReceiveHit);
+
+    }
+
+}

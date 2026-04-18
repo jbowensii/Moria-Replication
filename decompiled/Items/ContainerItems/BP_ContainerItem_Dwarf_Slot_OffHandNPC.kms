@@ -1,0 +1,68 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Unshippable/UI/Textures/001-crystal")]
+public Texture2D `001-crystal`;
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem")]
+public class BP_ContainerItem_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem")]
+public class Default__BP_ContainerItem_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ContainerItem_Dwarf_Slot_OffHandNPC_C : BP_ContainerItem_C {
+}

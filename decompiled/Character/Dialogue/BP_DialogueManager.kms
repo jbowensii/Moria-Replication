@@ -1,0 +1,95 @@
+
+[Import("/Script/Moria")]
+public class MorDialogueManager {}
+
+[Import("/Script/Moria")]
+public MorDialogueManager Default__MorDialogueManager;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DialogueManager_C : MorDialogueManager {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_DialogueManager([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_DialogueManager_10_ReceiveTick:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_DialogueManager(ExecuteUbergraph_BP_DialogueManager_10_ReceiveTick);
+
+    }
+
+}

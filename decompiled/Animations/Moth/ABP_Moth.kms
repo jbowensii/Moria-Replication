@@ -1,0 +1,93 @@
+
+[Import("/Script/FGK")]
+public class FGKCharacterAnimInstance {}
+
+[Import("/Script/FGK")]
+public FGKCharacterAnimInstance Default__FGKCharacterAnimInstance;
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+
+[Import("/Game/CharacterArt/Creatures/GiantMoth/Moth_Skeleton")]
+public Skeleton Moth_Skeleton;
+
+
+[Import("/Game/Animations/Moth/Mth_Hover_Loop")]
+public AnimSequence Mth_Hover_Loop;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Moth_C : FGKCharacterAnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_Moth([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

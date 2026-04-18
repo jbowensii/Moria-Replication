@@ -1,0 +1,177 @@
+
+[Import("/Script/Engine")]
+public AnimNotify Default__AnimNotify;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+}
+
+[Import("/Script/Engine")]
+public class AnimNotify {
+    public Object Received_Notify;
+}
+
+[Import("/Script/Engine")]
+public class AnimSequenceBase {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : ActorComponent {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Game/Character/Orcs/Uruks/BP_Uruk_Base")]
+public class BP_Uruk_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent `Slot::Chest_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Feet_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Hands_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Head_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Legs_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Shoulder_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Shoulder_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent UrukDebug_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public CustomizationManager CustomizationManager;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent Shoulder_L_Capsule;
+    public StaticMeshComponent Shoulder_R_Capsule;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public TextRenderComponent UrukDebug;
+    [UnknownSignature, LocalVirtualFunction] public virtual void UrukWanderDespawn();
+}
+
+[Import("/Game/Character/Orcs/Uruks/BP_Uruk_Base")]
+public class Default__BP_Uruk_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, CollapseCategories, Const, CompiledFromBlueprint]
+class BP_Notify_UrukDespawn_C : AnimNotify {
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void Received_Notify([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<SkeletalMeshComponent> MeshComp, [BlueprintVisible, BlueprintReadOnly] Object<AnimSequenceBase> Animation, [Return] out bool ReturnValue) {
+        // Locals
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        Object<BP_Uruk_Base_C> K2Node_DynamicCast_AsBP_Uruk_Base;
+        bool K2Node_DynamicCast_bSuccess;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetOwner_ReturnValue,MeshComp.GetOwner());
+        K2Node_DynamicCast_AsBP_Uruk_Base = EX_DynamicCast("BP_Uruk_Base_C", CallFunc_GetOwner_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Uruk_Base);
+
+        if (K2Node_DynamicCast_bSuccess) {
+            // Block 2
+            K2Node_DynamicCast_AsBP_Uruk_Base.UrukWanderDespawn();
+            ReturnValue = (bool)(false);
+
+        }
+
+
+        // Block 3
+        Received_Notify_168: return ReturnValue;
+
+    }
+
+}

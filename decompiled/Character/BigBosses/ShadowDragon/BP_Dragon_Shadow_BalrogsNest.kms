@@ -1,0 +1,661 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBossComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIShadowDragonComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public static class WorldLayoutBubble {
+    [UnknownSignature, FinalFunction] public sealed void FindBubbleActorsByClass();
+    [UnknownSignature, MathFunction] public static sealed void FindStationaryBubbleParent();
+}
+
+[Import("/Script/Moria")]
+public MorAIBossComponent Default__MorAIBossComponent;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class MorBreakBreakablesComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {
+    public MeshComponent Mesh;
+    public PrimitiveComponent CapsuleComponent;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {
+    [UnknownSignature, FinalFunction] public sealed void IgnoreActorWhenMoving();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_Dead")]
+public class BP_ShadowDragon_Dead_C {
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public NiagaraComponent Niagara;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent StaticMesh;
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_Dead")]
+public BP_ShadowDragon_Dead_C Default__BP_ShadowDragon_Dead_C;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/Attacks/GA_ShadowDragon_Attack_UA_Breath_Tall")]
+public class GA_ShadowDragon_Attack_UA_Breath_Tall_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/Attacks/GA_ShadowDragon_Attack_UA_Breath_Tall")]
+public GA_ShadowDragon_Attack_UA_Breath_Tall_C Default__GA_ShadowDragon_Attack_UA_Breath_Tall_C;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_Dragon_Shadow_Base")]
+public class BP_Dragon_Shadow_Base_C : Character {
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public MorAIShadowDragonComponent MorAIShadowDragon_GEN_VARIABLE;
+    public MorBreakBreakablesComponent MorBreakBreakables_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX1_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX2_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX3_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Antlers Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_00 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_00 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Jaw Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Jaw2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Snout Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Snout2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_02 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_03 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_04 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTip_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTip_R Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_R_02 Capsule_GEN_VARIABLE`;
+    public MorAIShadowDragonComponent MorAIShadowDragon;
+    public MorBreakBreakablesComponent MorBreakBreakables;
+    public NiagaraComponent NS_DragonDamageFX1;
+    public NiagaraComponent NS_DragonDamageFX2;
+    public NiagaraComponent NS_DragonDamageFX3;
+    public NiagaraComponent NS_DragonDamageFX;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Antlers Capsule`;
+    public StaticMeshComponent `Arm_L_00 Capsule1`;
+    public StaticMeshComponent `Arm_L_00 Capsule`;
+    public StaticMeshComponent `Arm_L_04 Capsule`;
+    public StaticMeshComponent `Arm_L_End Capsule`;
+    public StaticMeshComponent `Arm_R_00 Capsule1`;
+    public StaticMeshComponent `Arm_R_00 Capsule`;
+    public StaticMeshComponent `Arm_R_04 Capsule`;
+    public StaticMeshComponent `Arm_R_End Capsule`;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Jaw Capsule`;
+    public StaticMeshComponent `Jaw2 Capsule`;
+    public StaticMeshComponent `LegBack_L_00 Capsule`;
+    public StaticMeshComponent `LegBack_L_02 Capsule`;
+    public StaticMeshComponent `LegBack_L_04 Capsule`;
+    public StaticMeshComponent `LegBack_L_End Capsule`;
+    public StaticMeshComponent `LegBack_R_00 Capsule`;
+    public StaticMeshComponent `LegBack_R_02 Capsule`;
+    public StaticMeshComponent `LegBack_R_04 Capsule`;
+    public StaticMeshComponent `LegBack_R_End Capsule`;
+    public StaticMeshComponent `Neck_00 Capsule`;
+    public StaticMeshComponent `Neck_01 Capsule`;
+    public StaticMeshComponent `Neck_02 Capsule`;
+    public StaticMeshComponent `Neck_03 Capsule`;
+    public StaticMeshComponent `Neck_04 Capsule`;
+    public StaticMeshComponent `Snout Capsule`;
+    public StaticMeshComponent `Snout2 Capsule`;
+    public StaticMeshComponent `Spine_00 Capsule`;
+    public StaticMeshComponent `Spine_01 Capsule`;
+    public StaticMeshComponent `Spine_02 Capsule`;
+    public StaticMeshComponent `Spine_03 Capsule`;
+    public StaticMeshComponent `Tail_00 Capsule`;
+    public StaticMeshComponent `Tail_01 Capsule`;
+    public StaticMeshComponent `Tail_02 Capsule1`;
+    public StaticMeshComponent `Tail_02 Capsule`;
+    public StaticMeshComponent `Tail_03 Capsule1`;
+    public StaticMeshComponent `Tail_03 Capsule`;
+    public StaticMeshComponent `Tail_04 Capsule1`;
+    public StaticMeshComponent `Tail_04 Capsule`;
+    public StaticMeshComponent `Tail_05 Capsule`;
+    public StaticMeshComponent `WingBottom_L_00 Capsule`;
+    public StaticMeshComponent `WingBottom_L_01 Capsule`;
+    public StaticMeshComponent `WingBottom_L_02 Capsule`;
+    public StaticMeshComponent `WingBottom_R_00 Capsule`;
+    public StaticMeshComponent `WingBottom_R_01 Capsule`;
+    public StaticMeshComponent `WingBottom_R_02 Capsule`;
+    public StaticMeshComponent `WingInner_L_00 Capsule`;
+    public StaticMeshComponent `WingInner_L_01 Capsule`;
+    public StaticMeshComponent `WingInner_R_00 Capsule`;
+    public StaticMeshComponent `WingInner_R_01 Capsule`;
+    public StaticMeshComponent `WingMiddle_L_00 Capsule`;
+    public StaticMeshComponent `WingMiddle_L_01 Capsule`;
+    public StaticMeshComponent `WingMiddle_L_02 Capsule`;
+    public StaticMeshComponent `WingMiddle_R_00 Capsule`;
+    public StaticMeshComponent `WingMiddle_R_01 Capsule`;
+    public StaticMeshComponent `WingMiddle_R_02 Capsule`;
+    public StaticMeshComponent `WingTip_L Capsule`;
+    public StaticMeshComponent `WingTip_R Capsule`;
+    public StaticMeshComponent `WingTop_L_00 Capsule`;
+    public StaticMeshComponent `WingTop_L_01 Capsule`;
+    public StaticMeshComponent `WingTop_L_02 Capsule`;
+    public StaticMeshComponent `WingTop_R_00 Capsule`;
+    public StaticMeshComponent `WingTop_R_01 Capsule`;
+    public StaticMeshComponent `WingTop_R_02 Capsule`;
+    [UnknownSignature, LocalVirtualFunction] public virtual void SetMaxDamagePhase();
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_Dragon_Shadow_Base")]
+public class Default__BP_Dragon_Shadow_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController_BalrogsNest")]
+public class BP_ShadowDragon_AIController_BalrogsNest_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController_BalrogsNest")]
+public class Default__BP_ShadowDragon_AIController_BalrogsNest_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Dragon_Shadow_BalrogsNest_C : BP_Dragon_Shadow_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBossComponent> MorAIBoss;
+    float Timeline_0_Desaturation_FAD2513D45E5A1A20DF82CBE6C0E5B83;
+    byte Timeline_0__Direction_FAD2513D45E5A1A20DF82CBE6C0E5B83;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    float Timeline_1_EyeLight_00D9DE114763DE2D655214B42319C4B0;
+    byte Timeline_1__Direction_00D9DE114763DE2D655214B42319C4B0;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_1;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> DragonDefeated;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> RavenSpawn;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Lore To Complete`;
+    [Edit, BlueprintVisible, Net, DisableEditOnInstance, RepNotify] bool DragonIsDead;
+    [Edit, BlueprintVisible, Net, DisableEditOnInstance, RepNotify] bool CeilingCollapsed;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        [InstancedReference] Object<MorAIShadowDragonComponent> K2Node_ComponentBoundEvent_ShadowDragonComponent;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        Object<WorldLayoutBubble> CallFunc_FindStationaryBubbleParent_ReturnValue;
+        ref Array<Object<BP_ShadowDragon_Dead_C>> CallFunc_FindBubbleActorsByClass_OutActors;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<BP_ShadowDragon_Dead_C> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_15_Timeline_0__FinishedFunc: break;
+
+            // Block 3
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_16_Timeline_1__UpdateFunc: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("Dragon Eye Light Amount"), this.Timeline_1_EyeLight_00D9DE114763DE2D655214B42319C4B0);
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_71: this.Timeline_1.PlayFromStart();
+            break;
+
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_104:
+            while (true) {
+                // Block 5
+                Default__KismetArrayLibrary.Array_Get(CallFunc_FindBubbleActorsByClass_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                this.CapsuleComponent.IgnoreActorWhenMoving(CallFunc_Array_Get_Item, true);
+                break;
+
+            }
+
+
+            // Block 6
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_211: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 7
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_280: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_FindBubbleActorsByClass_OutActors);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            if (!CallFunc_Less_IntInt_ReturnValue) break;
+
+            // Block 8
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_104;
+
+            // Block 9
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_419: Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_280;
+
+            // Block 10
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_470: this.Timeline_0.PlayFromStart();
+            break;
+
+            // Block 11
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_503_Timeline_1__FinishedFunc: break;
+
+            // Block 12
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_504_ReceiveBeginPlay: base.ReceiveBeginPlay();
+            EX_LetObj(CallFunc_FindStationaryBubbleParent_ReturnValue,WorldLayoutBubble.FindStationaryBubbleParent(this));
+            CallFunc_FindBubbleActorsByClass_OutActors = new[] {};
+            CallFunc_FindStationaryBubbleParent_ReturnValue.FindBubbleActorsByClass(BP_ShadowDragon_Dead_C, CallFunc_FindBubbleActorsByClass_OutActors);
+            goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_419;
+
+            // Block 13
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_601_BndEvt__BP_Dragon_Shadow_BalrogsNest_MorAIShadowDragon_K2Node_ComponentBoundEvent_0_MorAIShadowDragonHurt__DelegateSignature: break;
+
+            // Block 14
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_602_ChangeDragonMaterial_OnDeath: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_1) break;
+
+            // Block 15
+            this.SetMaxDamagePhase();
+            goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_470;
+
+            // Block 16
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_651: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 17
+            goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_71;
+
+            // Block 18
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_686_ChangeDragonMaterial_EyesToLight: goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_651;
+
+            // Block 19
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_691: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("CharredAmount"), this.Timeline_0_Desaturation_FAD2513D45E5A1A20DF82CBE6C0E5B83);
+            break;
+
+            // Block 20
+            ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_746_Timeline_0__UpdateFunc: goto ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_691;
+
+        }
+
+
+        // Block 21
+        ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_751:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ChangeDragonMaterial_EyesToLight() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_686_ChangeDragonMaterial_EyesToLight);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ChangeDragonMaterial_OnDeath() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_602_ChangeDragonMaterial_OnDeath);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Dragon_Shadow_BalrogsNest_MorAIShadowDragon_K2Node_ComponentBoundEvent_0_MorAIShadowDragonHurt__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<MorAIShadowDragonComponent> ShadowDragonComponent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_ShadowDragonComponent", ShadowDragonComponent);
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_601_BndEvt__BP_Dragon_Shadow_BalrogsNest_MorAIShadowDragon_K2Node_ComponentBoundEvent_0_MorAIShadowDragonHurt__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_504_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_16_Timeline_1__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_503_Timeline_1__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_746_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest(ExecuteUbergraph_BP_Dragon_Shadow_BalrogsNest_15_Timeline_0__FinishedFunc);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_DragonIsDead() {
+        // Block 1
+        this.ChangeDragonMaterial_OnDeath();
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_CeilingCollapsed() {
+        // Block 1
+        this.ChangeDragonMaterial_EyesToLight();
+
+    }
+
+}

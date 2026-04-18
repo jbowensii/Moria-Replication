@@ -1,0 +1,137 @@
+
+[Import("/Script/Moria")]
+public class MorProjectileMovementComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Unshippable/Whitebox/Rocks/Meshes/PWM_Quarry_1X1x1_C")]
+public StaticMesh PWM_Quarry_1X1x1_C;
+
+
+[Import("/Game/FX/dirt/particles/NS_FallingDirt_projectile")]
+public NiagaraSystem NS_FallingDirt_projectile;
+
+
+[Import("/Game/FX/dirt/particles/NS_FallingDirt")]
+public NiagaraSystem NS_FallingDirt;
+
+
+[Import("/Game/FX/dirt/particles/NS_dirt_lift_boulder")]
+public NiagaraSystem NS_dirt_lift_boulder;
+
+
+[Import("/Game/FX/CombatFX/Projectiles/Troll_Throwables/Niagara/NS_TrollBoulder_Burst1")]
+public NiagaraSystem NS_TrollBoulder_Burst1;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Generic_Stone_DMG_A_Dest")]
+public MaterialInstanceConstant MI_Suburbs_Generic_Stone_DMG_A_Dest;
+
+
+[Import("/Game/Items/Weapons/GE_BoulderDirectHit")]
+public class GE_BoulderDirectHit_C {}
+
+[Import("/Game/Items/Weapons/GE_BoulderDirectHit")]
+public GE_BoulderDirectHit_C Default__GE_BoulderDirectHit_C;
+
+
+[Import("/Game/Items/Weapons/GE_BoulderBurstHit")]
+public class GE_BoulderBurstHit_C {}
+
+[Import("/Game/Items/Weapons/GE_BoulderBurstHit")]
+public GE_BoulderBurstHit_C Default__GE_BoulderBurstHit_C;
+
+
+[Import("/Game/Items/Weapons/BP_Projectile_Base")]
+public class BP_Projectile_Base_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Weapons/BP_Projectile_Base")]
+public class Default__BP_Projectile_Base_C {
+    public AkComponent AkComponent;
+    public MorProjectileMovementComponent ProjectileMovement;
+    public SphereComponent RootComponent;
+    public StaticMeshComponent Mesh;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Troll_King/fx_npc_troll_king_attack_boulder_fly_stop_play")]
+public AkAudioEvent fx_npc_troll_king_attack_boulder_fly_stop_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Troll_King/fx_npc_troll_king_attack_boulder_fly_lp_play")]
+public AkAudioEvent fx_npc_troll_king_attack_boulder_fly_lp_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/Object_Destruction/Stone/Destruction/fx_env_obj_destruction_stone_natural_play")]
+public AkAudioEvent fx_env_obj_destruction_stone_natural_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Projectile_Boulder_C : BP_Projectile_Base_C {
+}

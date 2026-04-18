@@ -1,0 +1,200 @@
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_FloatToVector();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void RandomFloatInRange();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent : MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetWorldScale3D();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Engine/BasicShapes/Plane")]
+public StaticMesh Plane;
+
+
+[Import("/Game/Unshippable/Cinematics/Cine001/Environment/Materials/MI_EmissiveSimple")]
+public MaterialInstanceConstant MI_EmissiveSimple;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_OathCircle_Star_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Plane;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    float FadeIn_Float_81DDCDAC45F4B8C2581740839840DE7D;
+    byte FadeIn__Direction_81DDCDAC45F4B8C2581740839840DE7D;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> FadeIn;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_OathCircle_Star([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_RandomFloatInRange_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        Struct<Vector> CallFunc_Conv_FloatToVector_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            this.FadeIn.Play();
+            break;
+
+            // Block 3
+            ExecuteUbergraph_BP_OathCircle_Star_48: CallFunc_RandomFloatInRange_ReturnValue = KismetMathLibrary.RandomFloatInRange(0f, 1f);
+            KismetSystemLibrary.Delay(this, CallFunc_RandomFloatInRange_ReturnValue, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), 638486711, EX_NameConst("ExecuteUbergraph_BP_OathCircle_Star"), this));
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_OathCircle_Star_145_FadeIn__FinishedFunc: break;
+
+            // Block 5
+            ExecuteUbergraph_BP_OathCircle_Star_146_FadeIn__UpdateFunc: CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(this.FadeIn_Float_81DDCDAC45F4B8C2581740839840DE7D, 1000f);
+            this.Plane.SetScalarParameterValueOnMaterials(EX_NameConst("Intensity"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.FadeIn_Float_81DDCDAC45F4B8C2581740839840DE7D, 2f);
+            CallFunc_Conv_FloatToVector_ReturnValue = KismetMathLibrary.Conv_FloatToVector(CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.Plane.SetWorldScale3D(CallFunc_Conv_FloatToVector_ReturnValue);
+            break;
+
+            // Block 6
+            ExecuteUbergraph_BP_OathCircle_Star_363_ReceiveBeginPlay: goto ExecuteUbergraph_BP_OathCircle_Star_48;
+
+        }
+
+
+        // Block 7
+        ExecuteUbergraph_BP_OathCircle_Star_368:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OathCircle_Star(ExecuteUbergraph_BP_OathCircle_Star_363_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void FadeIn__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OathCircle_Star(ExecuteUbergraph_BP_OathCircle_Star_146_FadeIn__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void FadeIn__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OathCircle_Star(ExecuteUbergraph_BP_OathCircle_Star_145_FadeIn__FinishedFunc);
+
+    }
+
+}

@@ -1,0 +1,341 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationCharacter : Character {
+    public ObjectProperty ModularMeshes;
+}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class Default__CustomizationCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object CustomizationMan;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object `Slot::Back`;
+    public Object `Slot::Backpack`;
+    public Object `Slot::Beard`;
+    public Object `Slot::Chest`;
+    public Object `Slot::Extras`;
+    public Object `Slot::Feet`;
+    public Object `Slot::Gloves`;
+    public Object `Slot::Hair`;
+    public Object `Slot::Hands`;
+    public Object `Slot::Hat`;
+    public Object `Slot::Head`;
+    public Object `Slot::Legs`;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public Object EModularCharacterSlot;
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character {
+    public ObjectProperty Mesh;
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_AttachToComponent();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_BaseBody_WMorphsV3")]
+public SkeletalMesh Dwarf_BaseBody_WMorphsV3;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_08")]
+public PersonalityInfo PI_Dwarf_08;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_07")]
+public PersonalityInfo PI_Dwarf_07;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_06")]
+public PersonalityInfo PI_Dwarf_06;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_05")]
+public PersonalityInfo PI_Dwarf_05;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_04")]
+public PersonalityInfo PI_Dwarf_04;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_03")]
+public PersonalityInfo PI_Dwarf_03;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_02")]
+public PersonalityInfo PI_Dwarf_02;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_01")]
+public PersonalityInfo PI_Dwarf_01;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Backpacks/Materials/Mountaineer/MI_D_Backpack_Mountaineer")]
+public MaterialInstanceConstant MI_D_Backpack_Mountaineer;
+
+
+[Import("/Game/Character/Dwarf/DA_FGKDwarf_CharacterData")]
+public FGKCharacterData DA_FGKDwarf_CharacterData;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Voices")]
+public DataTable DT_CC_Voices;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooTextures")]
+public DataTable DT_CC_TattooTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooColors")]
+public DataTable DT_CC_TattooColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_SkinColors")]
+public DataTable DT_CC_SkinColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_ScarTextures")]
+public DataTable DT_CC_ScarTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_PresetCharacters")]
+public DataTable DT_CC_PresetCharacters;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Personalities")]
+public DataTable DT_CC_Personalities;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Origins")]
+public DataTable DT_CC_Origins;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Heads")]
+public DataTable DT_CC_Heads;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_HairColors")]
+public DataTable DT_CC_HairColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Hair")]
+public DataTable DT_CC_Hair;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_EyeColors")]
+public DataTable DT_CC_EyeColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Crafts")]
+public DataTable DT_CC_Crafts;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Bodies")]
+public DataTable DT_CC_Bodies;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Beards")]
+public DataTable DT_CC_Beards;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BeardDecorationColors")]
+public DataTable DT_CC_BeardDecorationColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Backpacks")]
+public DataTable DT_CC_Backpacks;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BackpackColors")]
+public DataTable DT_CC_BackpackColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/DT_CC_Characters")]
+public DataTable DT_CC_Characters;
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_Dwarf_NoLink")]
+public ABP_Dwarf_NoLink_C Default__ABP_Dwarf_NoLink_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_Dwarf_NoLink")]
+public AnimBlueprintGeneratedClass ABP_Dwarf_NoLink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DwarfCustomizationCharacter_C : CustomizationCharacter {
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        const Enum Temp_byte_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        bool CallFunc_K2_AttachToComponent_ReturnValue;
+
+        // Block 1
+        Temp_byte_Variable = (byte)(8);
+        CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, Temp_byte_Variable, CallFunc_Map_Find_Value));
+        CallFunc_K2_AttachToComponent_ReturnValue = (bool)(CallFunc_Map_Find_Value.K2_AttachToComponent(this.Mesh, EX_NameConst("Backpack_JNT"), (byte)(0), (byte)(0), (byte)(0), true));
+
+    }
+
+}

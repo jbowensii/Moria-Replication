@@ -1,0 +1,65 @@
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/LevelDesign/Challenges/AxeHunt/BP_ContainerProxy_DurinAxeFragment_BASE")]
+public class BP_ContainerProxy_DurinAxeFragment_BASE_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Scene_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Scene;
+}
+
+[Import("/Game/LevelDesign/Challenges/AxeHunt/BP_ContainerProxy_DurinAxeFragment_BASE")]
+public BP_ContainerProxy_DurinAxeFragment_BASE_C Default__BP_ContainerProxy_DurinAxeFragment_BASE_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ContainerProxy_DurinAxeFragment_A_C : BP_ContainerProxy_DurinAxeFragment_BASE_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> Scene_0;
+}

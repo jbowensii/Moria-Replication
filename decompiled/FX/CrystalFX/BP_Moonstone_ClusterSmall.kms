@@ -1,0 +1,141 @@
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Landmarks/CrystalDescent/Cavern_Crystal_ClusterSmall")]
+public StaticMesh Cavern_Crystal_ClusterSmall;
+
+
+[Import("/Game/FX/CrystalFX/MI_Moonstone_ClusterLarge")]
+public MaterialInstanceConstant MI_Moonstone_ClusterLarge;
+
+
+[Import("/Game/FX/CrystalFX/BP_Moonstone_Base")]
+public class BP_Moonstone_Base_C : Actor {
+    public MoonstoneBreakableComponent MoonstoneBreakable_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler_GEN_VARIABLE;
+    public PointLightComponent PointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public MoonstoneBreakableComponent MoonstoneBreakable;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler;
+    public PointLightComponent PointLight;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent StaticMesh;
+}
+
+[Import("/Game/FX/CrystalFX/BP_Moonstone_Base")]
+public BP_Moonstone_Base_C Default__BP_Moonstone_Base_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Moonstone_ClusterSmall_C : BP_Moonstone_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLightInterior5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLightInterior4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLightInterior3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLightInterior2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLightInterior1;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Moonstone_ClusterSmall([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Moonstone_ClusterSmall_10: base.ReceiveBeginPlay();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Moonstone_ClusterSmall_25_ReceiveBeginPlay: goto ExecuteUbergraph_BP_Moonstone_ClusterSmall_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_Moonstone_ClusterSmall_30:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Moonstone_ClusterSmall(ExecuteUbergraph_BP_Moonstone_ClusterSmall_25_ReceiveBeginPlay);
+
+    }
+
+}

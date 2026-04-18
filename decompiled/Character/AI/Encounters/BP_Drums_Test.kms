@@ -1,0 +1,90 @@
+
+[Import("/Script/Moria")]
+public class MorDrums {}
+
+[Import("/Script/Moria")]
+public class Default__MorDrums {
+    public Object DrumAkComponent;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkSwitchValue {}
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/horde_music_switch_group/horde_music_switch_group-sw_drums_start")]
+public AkSwitchValue `horde_music_switch_group-sw_drums_start`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/horde_music_switch_group/horde_music_switch_group-sw_drums_build")]
+public AkSwitchValue `horde_music_switch_group-sw_drums_build`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/horde_music_switch_group/horde_music_switch_group-sw_battle_victory")]
+public AkSwitchValue `horde_music_switch_group-sw_battle_victory`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/horde_music_switch_group/horde_music_switch_group-sw_battle_start")]
+public AkSwitchValue `horde_music_switch_group-sw_battle_start`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/horde_music_switch_group/horde_music_switch_group-sw_battle_losing")]
+public AkSwitchValue `horde_music_switch_group-sw_battle_losing`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/horde_music_switch_group/horde_music_switch_group-sw_battle_defeat")]
+public AkSwitchValue `horde_music_switch_group-sw_battle_defeat`;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/MX/Drums_From_The_Deep/Generic_Test/mx_repurposed_dftd_stop")]
+public AkAudioEvent mx_repurposed_dftd_stop;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/MX/Drums_From_The_Deep/Generic_Test/mx_repurposed_dftd_play")]
+public AkAudioEvent mx_repurposed_dftd_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Drums_Test_C : MorDrums {
+}

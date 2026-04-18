@@ -1,0 +1,98 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public class MorTrollHide {}
+
+[Import("/Script/Moria")]
+public class MorTrollHideBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorTrollHideTurnToStone {}
+
+[Import("/Script/Moria")]
+public MorBreakableFXComponent Default__MorBreakableFXComponent;
+
+[Import("/Script/Moria")]
+public MorGameplayLightSamplerComponent Default__MorGameplayLightSamplerComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorTrollHide {
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public MorTrollHideBreakableComponent Default__MorTrollHideBreakableComponent;
+
+[Import("/Script/Moria")]
+public MorTrollHideTurnToStone Default__MorTrollHideTurnToStone;
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/FX/TrollToStone/NS_Dust_Troll_Stone")]
+public NiagaraSystem NS_Dust_Troll_Stone;
+
+
+[Import("/Game/FX/ArchitectureBreakables/Niagara/NS_BreakableVolumeDust")]
+public NiagaraSystem NS_BreakableVolumeDust;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_TrollHide_Base_C : MorTrollHide {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorTrollHideBreakableComponent> MorTrollHideBreakable;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightSamplerComponent> MorGameplayLightSampler;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableFXComponent> MorBreakableFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorTrollHideTurnToStone> MorTrollHideTurnToStone;
+}

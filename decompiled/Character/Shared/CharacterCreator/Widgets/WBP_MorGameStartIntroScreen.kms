@@ -1,0 +1,296 @@
+
+[Import("/Script/UMG")]
+public CanvasPanel Default__CanvasPanel;
+
+[Import("/Script/UMG")]
+public CanvasPanelSlot Default__CanvasPanelSlot;
+
+[Import("/Script/UMG")]
+public class CanvasPanel {}
+
+[Import("/Script/UMG")]
+public class CanvasPanelSlot {}
+
+[Import("/Script/UMG")]
+public class GridPanel {}
+
+[Import("/Script/UMG")]
+public class GridSlot {}
+
+[Import("/Script/UMG")]
+public class Image {}
+
+[Import("/Script/UMG")]
+public class TextBlock {}
+
+[Import("/Script/UMG")]
+public class Throbber {}
+
+[Import("/Script/UMG")]
+public class Widget {}
+
+[Import("/Script/UMG")]
+public class WidgetAnimation {}
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass {
+    [UnknownSignature, LocalVirtualFunction] public virtual void UpdateProgressBar();
+}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+[Import("/Script/UMG")]
+public Object ESlateVisibility;
+
+[Import("/Script/UMG")]
+public GridPanel Default__GridPanel;
+
+[Import("/Script/UMG")]
+public GridSlot Default__GridSlot;
+
+[Import("/Script/UMG")]
+public Image Default__Image;
+
+[Import("/Script/UMG")]
+public TextBlock Default__TextBlock;
+
+[Import("/Script/UMG")]
+public WidgetAnimation Default__WidgetAnimation;
+
+[Import("/Script/UMG")]
+public WidgetBlueprintGeneratedClass Default__WidgetBlueprintGeneratedClass;
+
+[Import("/Script/UMG")]
+public WidgetTree Default__WidgetTree;
+
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneByteSection {}
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneByteTrack {}
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneFloatSection {}
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneFloatTrack {}
+
+[Import("/Script/MovieSceneTracks")]
+public class Default__MovieSceneByteSection {
+    public Object EaseInFunction;
+    public Object EaseOutFunction;
+}
+
+[Import("/Script/MovieSceneTracks")]
+public MovieSceneByteTrack Default__MovieSceneByteTrack;
+
+[Import("/Script/MovieSceneTracks")]
+public class Default__MovieSceneFloatSection {
+    public Object EaseInFunction;
+    public Object EaseOutFunction;
+}
+
+[Import("/Script/MovieSceneTracks")]
+public MovieSceneFloatTrack Default__MovieSceneFloatTrack;
+
+
+[Import("/Script/MovieScene")]
+public class MovieScene {}
+
+[Import("/Script/MovieScene")]
+public class MovieSceneBuiltInEasingFunction {}
+
+[Import("/Script/MovieScene")]
+public class MovieSceneCompiledData {}
+
+[Import("/Script/MovieScene")]
+public MovieScene Default__MovieScene;
+
+[Import("/Script/MovieScene")]
+public MovieSceneCompiledData Default__MovieSceneCompiledData;
+
+
+[Import("/Script/Moria")]
+public class MorGameStartIntroScreen {
+    public ObjectProperty LoadingBar;
+}
+
+[Import("/Script/Moria")]
+public class MorLoadingScreen {
+    public Object Blueprint_OnScreenStateChanged;
+}
+
+[Import("/Script/Moria")]
+public class MorUIFocusWidgetInterface {}
+
+[Import("/Script/Moria")]
+public Object ELoadingScreenState;
+
+[Import("/Script/Moria")]
+public MorGameStartIntroScreen Default__MorGameStartIntroScreen;
+
+[Import("/Script/Moria")]
+public Object MorLoadingScreenConfigData;
+
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public class Font {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/Tech/Movies/WBP_MediaPlayerWidget")]
+public WBP_MediaPlayerWidget_C Default__WBP_MediaPlayerWidget_C;
+
+[Import("/Game/Tech/Movies/WBP_MediaPlayerWidget")]
+public class WBP_MediaPlayerWidget_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/SaveLoad/WBP_LoadingBar")]
+public WBP_LoadingBar_C Default__WBP_LoadingBar_C;
+
+[Import("/Game/UI/SaveLoad/WBP_LoadingBar")]
+public class WBP_LoadingBar_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/SaveLoad/WBP_Earthquake")]
+public WBP_Earthquake_C Default__WBP_Earthquake_C;
+
+[Import("/Game/UI/SaveLoad/WBP_Earthquake")]
+public class WBP_Earthquake_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/UI/Materials/M_UI_LoadingIcon_AnvilA")]
+public MaterialInstanceConstant M_UI_LoadingIcon_AnvilA;
+
+
+[Import("/Game/UI/Font/Leksa")]
+public Font Leksa;
+
+
+[Import("/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/Settings/rt_master_volume")]
+public AkRtpc rt_master_volume;
+
+
+[Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class WBP_MorGameStartIntroScreen_C : MorGameStartIntroScreen {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> HideThrobber;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> OpenMainContent;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<Image> LoadingIcon;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_WBP_MorGameStartIntroScreen([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        [InstancedReference] Object<WBP_LoadingBar_C> K2Node_DynamicCast_AsWBP_Loading_Bar;
+        bool K2Node_DynamicCast_bSuccess;
+        Enum K2Node_Event_NewState;
+        const Struct<MorLoadingScreenConfigData> K2Node_Event_ScreenConfig;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_WBP_MorGameStartIntroScreen_10: K2Node_DynamicCast_AsWBP_Loading_Bar = EX_DynamicCast("WBP_LoadingBar_C", this.LoadingBar);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_Loading_Bar);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 3
+        K2Node_DynamicCast_AsWBP_Loading_Bar.UpdateProgressBar(K2Node_Event_NewState);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_WBP_MorGameStartIntroScreen_139_OnCustomFocusLost: return;
+
+        // Block 5
+        ExecuteUbergraph_WBP_MorGameStartIntroScreen_144_OnCustomFocusSet: return;
+
+        // Block 6
+        ExecuteUbergraph_WBP_MorGameStartIntroScreen_149_Blueprint_OnScreenStateChanged: goto ExecuteUbergraph_WBP_MorGameStartIntroScreen_10;
+
+        // Block 7
+        ExecuteUbergraph_WBP_MorGameStartIntroScreen_154:
+
+    }
+
+    [Event, HasOutParms, BlueprintEvent]
+    protected override void Blueprint_OnScreenStateChanged([BlueprintVisible, BlueprintReadOnly] Enum NewState, [BlueprintVisible, BlueprintReadOnly] const out ref Struct<MorLoadingScreenConfigData> ScreenConfig) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_NewState", NewState);
+        EX_LetValueOnPersistentFrame("K2Node_Event_ScreenConfig", ScreenConfig);
+        this.ExecuteUbergraph_WBP_MorGameStartIntroScreen(ExecuteUbergraph_WBP_MorGameStartIntroScreen_149_Blueprint_OnScreenStateChanged);
+
+    }
+
+    [Event, BlueprintEvent]
+    public void OnCustomFocusSet() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_MorGameStartIntroScreen(ExecuteUbergraph_WBP_MorGameStartIntroScreen_144_OnCustomFocusSet);
+
+    }
+
+    [Event, BlueprintEvent]
+    public void OnCustomFocusLost() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_MorGameStartIntroScreen(ExecuteUbergraph_WBP_MorGameStartIntroScreen_139_OnCustomFocusLost);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void GetFocusableWidget([Return, InstancedReference] out Object<Widget> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,EX_NoObject());
+        return ReturnValue;
+
+    }
+
+}

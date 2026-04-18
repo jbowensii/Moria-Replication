@@ -1,0 +1,110 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Khazad_Boots")]
+public Texture2D T_UI_Icon_Armor_Khazad_Boots;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_03/Dwarf_Armor03_Boots_WMorphs")]
+public SkeletalMesh Dwarf_Armor03_Boots_WMorphs;
+
+
+[Import("/Game/Art/PhysMats/PM_metal_heavy")]
+public PhysicalMaterial PM_metal_heavy;
+
+
+[Import("/Game/Items/Clothing/GE_Khazad_Set_LegsArmor")]
+public class GE_Khazad_Set_LegsArmor_C {}
+
+[Import("/Game/Items/Clothing/GE_Khazad_Set_LegsArmor")]
+public GE_Khazad_Set_LegsArmor_C Default__GE_Khazad_Set_LegsArmor_C;
+
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class BP_Category_Clothing_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class Default__BP_Category_Clothing_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/WwiseAudio/Switches/Foley/Player/swg_armor_lower/swg_armor_lower-sw_plate")]
+public AkSwitchValue `swg_armor_lower-sw_plate`;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Khazad_Set_BootsArmor_C : BP_Category_Clothing_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SkeletalMesh;
+}

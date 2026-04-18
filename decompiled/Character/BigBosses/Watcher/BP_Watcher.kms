@@ -1,0 +1,1349 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVariableFloat();
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Niagara")]
+public static class NiagaraFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SpawnSystemAtLocation();
+}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBossComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIEncounterManager {
+    [UnknownSignature, FinalFunction] public sealed void SpawnEncounter();
+}
+
+[Import("/Script/Moria")]
+public class MorAIWaveEncounter {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : FGKBaseCharacter {
+    [UnknownSignature, FinalFunction] public sealed void IsInvulnerable();
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTable();
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent : SceneComponent {}
+
+[Import("/Script/Moria")]
+public class MorWatcherFXComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public MorAIBossComponent Default__MorAIBossComponent;
+
+[Import("/Script/Moria")]
+public MorAIEncounterManager Default__MorAIEncounterManager;
+
+[Import("/Script/Moria")]
+public class Default__MorCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+[Import("/Script/Moria")]
+public MorWatcherFXComponent Default__MorWatcherFXComponent;
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorAIWatcherComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorProjectileMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/GameplayAbilities")]
+public class AbilitySystemComponent {
+    [UnknownSignature, FinalFunction] public sealed void BP_ApplyGameplayEffectToSelf();
+}
+
+[Import("/Script/GameplayAbilities")]
+public Object ActiveGameplayEffectHandle;
+
+[Import("/Script/GameplayAbilities")]
+public Object GameplayEffectContextHandle;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter : Character {
+    public AbilitySystemComponent AbilitySystem;
+}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_StateTimeElapsed {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor : Pawn {
+    [UnknownSignature, FinalFunction] public sealed void FlushNetDormancy();
+    [UnknownSignature, FinalFunction] public sealed void GetInstigator();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorLocation();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {
+    public AnonymousClass_ec35ebdbb1b648698fee26714332ecfd Mesh;
+    public AnonymousClass_c34dcb30fcf645ac9fafb47867e74667 CapsuleComponent;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class Controller {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+    [UnknownSignature, FinalFunction] public sealed void Array_Set();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMaterialLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Add_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void BreakVector();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralName();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {
+    [UnknownSignature, FinalFunction] public sealed void GetController();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetCollisionEnabled();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SphereComponent Default__SphereComponent;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialParameterCollection {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class AnonymousClass_ec35ebdbb1b648698fee26714332ecfd {
+    [UnknownSignature, VirtualFunction] public virtual void GetSocketLocation();
+}
+
+[Import("/Script/Engine")]
+public class AnonymousClass_c34dcb30fcf645ac9fafb47867e74667 {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAssociatedAkEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Script/AIModule")]
+public AIPerceptionStimuliSourceComponent Default__AIPerceptionStimuliSourceComponent;
+
+[Import("/Script/AIModule")]
+public static class AIBlueprintHelperLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetBlackboard();
+}
+
+[Import("/Script/AIModule")]
+public class AIPerceptionStimuliSourceComponent {}
+
+[Import("/Script/AIModule")]
+public class AISense_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISense_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+[Import("/Script/AIModule")]
+public class AISense_Team {}
+
+[Import("/Script/AIModule")]
+public class AISense_Touch {}
+
+[Import("/Script/AIModule")]
+public class BlackboardComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetValueAsObject();
+}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Engine/BasicShapes/Sphere")]
+public StaticMesh Sphere;
+
+
+[Import("/Game/CharacterArt/Creatures/TheWatcher/SM_TheWatcher")]
+public SkeletalMesh SM_TheWatcher;
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_beast")]
+public PhysicalMaterial PM_flesh_beast;
+
+
+[Import("/Game/FX/WatcherFX/Niagara/NS_WatcherEyeBurst")]
+public NiagaraSystem NS_WatcherEyeBurst;
+
+
+[Import("/Game/FX/WatcherFX/Niagara/NS_Watcher_FoamConstant2_Small")]
+public NiagaraSystem NS_Watcher_FoamConstant2_Small;
+
+
+[Import("/Game/FX/WatcherFX/Niagara/NS_Watcher_FoamConstant")]
+public NiagaraSystem NS_Watcher_FoamConstant;
+
+
+[Import("/Game/FX/WatcherFX/Niagara/NS_Watcher_DripSheets")]
+public NiagaraSystem NS_Watcher_DripSheets;
+
+
+[Import("/Game/FX/WatcherFX/Niagara/NS_CamsWatcher_Plunge2")]
+public NiagaraSystem NS_CamsWatcher_Plunge2;
+
+
+[Import("/Game/Character/Creatures/DA_FaunaBase_AI")]
+public MorAISettings DA_FaunaBase_AI;
+
+
+[Import("/Game/FX/WatcherFX/Materials/MPC_WatcherFightParams")]
+public MaterialParameterCollection MPC_WatcherFightParams;
+
+
+[Import("/Game/Unshippable/ThirdParty/FantasyDungeon/Materials/BaseMaterials/black")]
+public Material black;
+
+
+[Import("/Game/Character/Creatures/DA_FaunaBase_CharacterData")]
+public FGKCharacterData DA_FaunaBase_CharacterData;
+
+
+[Import("/Game/Character/Dialogue/EventBased/Watcher/DT_Dialog_Watcher_CombatBarks")]
+public DataTable DT_Dialog_Watcher_CombatBarks;
+
+
+[Import("/Game/Character/BigBosses/Watcher/DA_WatcherEncounter_3")]
+public BP_WaveEncounter_Watcher_Base_C DA_WatcherEncounter_3;
+
+
+[Import("/Game/Character/BigBosses/Watcher/DA_WatcherEncounter_2")]
+public BP_WaveEncounter_Watcher_Base_C DA_WatcherEncounter_2;
+
+
+[Import("/Game/Character/BigBosses/Watcher/DA_WatcherEncounter_1")]
+public BP_WaveEncounter_Watcher_Base_C DA_WatcherEncounter_1;
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/Creatures/Watcher/Effects/GE_Starting_Watcher")]
+public class GE_Starting_Watcher_C {}
+
+[Import("/Game/Character/Creatures/Watcher/Effects/GE_Starting_Watcher")]
+public GE_Starting_Watcher_C Default__GE_Starting_Watcher_C;
+
+
+[Import("/Game/Character/BigBosses/Watcher/GE_OnWatcherEyeKilled")]
+public class GE_OnWatcherEyeKilled_C {}
+
+[Import("/Game/Character/BigBosses/Watcher/GE_OnWatcherEyeKilled")]
+public GE_OnWatcherEyeKilled_C Default__GE_OnWatcherEyeKilled_C;
+
+
+[Import("/Game/Character/BigBosses/Watcher/CSt_Watcher")]
+public class CSt_Watcher_C {}
+
+[Import("/Game/Character/BigBosses/Watcher/CSt_Watcher")]
+public class Default__CSt_Watcher_C {
+    public FGKCondition_StateTimeElapsed FGKCondition_StateTimeElapsed_0;
+}
+
+
+[Import("/Game/Character/BigBosses/Watcher/BP_WaveEncounter_Watcher_Base")]
+public class BP_WaveEncounter_Watcher_Base_C {}
+
+[Import("/Game/Character/BigBosses/Watcher/BP_WaveEncounter_Watcher_Base")]
+public BP_WaveEncounter_Watcher_Base_C Default__BP_WaveEncounter_Watcher_Base_C;
+
+
+[Import("/Game/Character/BigBosses/Watcher/Abilities/GA_Reaction_Watcher_Kill")]
+public class GA_Reaction_Watcher_Kill_C {}
+
+[Import("/Game/Character/BigBosses/Watcher/Abilities/GA_Reaction_Watcher_Kill")]
+public GA_Reaction_Watcher_Kill_C Default__GA_Reaction_Watcher_Kill_C;
+
+
+[Import("/Game/Character/BigBosses/Watcher/Abilities/GA_Reaction_Watcher_F")]
+public class GA_Reaction_Watcher_F_C {}
+
+[Import("/Game/Character/BigBosses/Watcher/Abilities/GA_Reaction_Watcher_F")]
+public GA_Reaction_Watcher_F_C Default__GA_Reaction_Watcher_F_C;
+
+
+[Import("/Game/Items/Weapons/BP_Projectile_Bolt")]
+public class BP_Projectile_Bolt_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Weapons/BP_Projectile_Bolt")]
+public class Default__BP_Projectile_Bolt_C {
+    public AkComponent AkComponent;
+    public MorProjectileMovementComponent ProjectileMovement;
+    public SphereComponent RootComponent;
+    public StaticMeshComponent Mesh;
+}
+
+
+[Import("/Game/Items/Weapons/BP_Projectile_Arrow")]
+public class BP_Projectile_Arrow_C : Actor {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Weapons/BP_Projectile_Arrow")]
+public class Default__BP_Projectile_Arrow_C {
+    public AkComponent AkComponent;
+    public MorProjectileMovementComponent ProjectileMovement;
+    public SphereComponent RootComponent;
+    public StaticMeshComponent Mesh;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Watcher/fx_npc_watcher_idle_water_lp_play")]
+public AkAudioEvent fx_npc_watcher_idle_water_lp_play;
+
+
+[Import("/Game/Character/BigBosses/Watcher/BP_Watcher_Controller")]
+public class BP_Watcher_Controller_C {
+    public MorAIWatcherComponent MorAIWatcher_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorAIWatcherComponent MorAIWatcher;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/BigBosses/Watcher/BP_Watcher_Controller")]
+public class Default__BP_Watcher_Controller_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/BigBosses/Watcher/ABP_Watcher2")]
+public ABP_Watcher2_C Default__ABP_Watcher2_C;
+
+[Import("/Game/Character/BigBosses/Watcher/ABP_Watcher2")]
+public AnimBlueprintGeneratedClass ABP_Watcher2_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Watcher_C : MorCharacter {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_Watcher_DripSheets;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> `Watcher Idle SFX`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> Ak_Tentacle_02;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> Ak_Tentacle_01;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_WatcherEyeBurst3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_WatcherEyeBurst2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_WatcherEyeBurst1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_WatcherEyeBurst;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> Eye4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> Eye3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> Eye2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> Eye1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorWatcherFXComponent> MorWatcherFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBossComponent> MorAIBoss;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AIPerceptionStimuliSourceComponent> AIPerceptionStimuliSource;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int NumEyesKilled;
+    [Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference] Object<SceneComponent> NewVar_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<Vector>> FoamSpawnArray;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Name> FoamSpawnArray2;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<Vector>> FoamSpawnArray_0;
+    [Edit, BlueprintVisible, Net, DisableEditOnInstance, RepNotify] Array<bool> EyesHit;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Watcher([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const bool Temp_bool_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        bool CallFunc_HasAuthority_ReturnValue_2;
+        const bool Temp_bool_Variable_1;
+        bool CallFunc_HasAuthority_ReturnValue_3;
+        bool CallFunc_HasAuthority_ReturnValue_4;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_HitComponent_4;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_4;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_4;
+        Struct<Vector> K2Node_ComponentBoundEvent_NormalImpulse_4;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_Hit_4;
+        Object<BP_Projectile_Bolt_C> K2Node_DynamicCast_AsBP_Projectile_Bolt;
+        bool K2Node_DynamicCast_bSuccess;
+        Struct<ActiveGameplayEffectHandle> CallFunc_BP_ApplyGameplayEffectToSelf_ReturnValue;
+        [InstancedReference] Object<SphereComponent> K2Node_DynamicCast_AsSphere_Collision;
+        bool K2Node_DynamicCast_bSuccess_1;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_HitComponent_3;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_3;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_3;
+        Struct<Vector> K2Node_ComponentBoundEvent_NormalImpulse_3;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_Hit_3;
+        Object<BP_Projectile_Bolt_C> K2Node_DynamicCast_AsBP_Projectile_Bolt_1;
+        bool K2Node_DynamicCast_bSuccess_2;
+        [InstancedReference] Object<SphereComponent> K2Node_DynamicCast_AsSphere_Collision_1;
+        bool K2Node_DynamicCast_bSuccess_3;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_HitComponent_2;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_2;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_2;
+        Struct<Vector> K2Node_ComponentBoundEvent_NormalImpulse_2;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_Hit_2;
+        Object<BP_Projectile_Bolt_C> K2Node_DynamicCast_AsBP_Projectile_Bolt_2;
+        bool K2Node_DynamicCast_bSuccess_4;
+        [InstancedReference] Object<SphereComponent> K2Node_DynamicCast_AsSphere_Collision_2;
+        bool K2Node_DynamicCast_bSuccess_5;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_HitComponent_1;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_1;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_1;
+        Struct<Vector> K2Node_ComponentBoundEvent_NormalImpulse_1;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_Hit_1;
+        Object<BP_Projectile_Bolt_C> K2Node_DynamicCast_AsBP_Projectile_Bolt_3;
+        bool K2Node_DynamicCast_bSuccess_6;
+        [InstancedReference] Object<SphereComponent> K2Node_DynamicCast_AsSphere_Collision_3;
+        bool K2Node_DynamicCast_bSuccess_7;
+        int CallFunc_Add_IntInt_ReturnValue;
+        const Delegate Temp_delegate_Variable;
+        Object<Controller> CallFunc_GetController_ReturnValue;
+        bool K2Node_SwitchInteger_CmpSuccess;
+        [InstancedReference] Object<BlackboardComponent> CallFunc_GetBlackboard_ReturnValue;
+        Name CallFunc_MakeLiteralName_ReturnValue;
+        Object<Object> CallFunc_GetValueAsObject_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess_8;
+        int Temp_int_Variable;
+        Object<MorAIWaveEncounter> CallFunc_SpawnEncounter_ReturnValue;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        Object<MorAIWaveEncounter> CallFunc_SpawnEncounter_ReturnValue_1;
+        Object<MorAIWaveEncounter> CallFunc_SpawnEncounter_ReturnValue_2;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_HitComponent;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp;
+        Struct<Vector> K2Node_ComponentBoundEvent_NormalImpulse;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_Hit;
+        Object<BP_Projectile_Arrow_C> K2Node_DynamicCast_AsBP_Projectile_Arrow;
+        bool K2Node_DynamicCast_bSuccess_9;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        Object<Pawn> CallFunc_GetInstigator_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character_1;
+        bool K2Node_DynamicCast_bSuccess_10;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue;
+        const bool Temp_bool_Variable_2;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAtLocation_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAtLocation_ReturnValue_1;
+        const bool Temp_bool_Variable_3;
+        Struct<Vector> CallFunc_GetSocketLocation_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_1;
+        bool CallFunc_IsInvulnerable_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAtLocation_ReturnValue_2;
+        bool CallFunc_IsInvulnerable_ReturnValue_1;
+        bool CallFunc_IsInvulnerable_ReturnValue_2;
+        bool CallFunc_IsInvulnerable_ReturnValue_3;
+        int K2Node_CustomEvent_EyeHit;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        bool K2Node_SwitchInteger_CmpSuccess_1;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_2;
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        int Temp_int_Variable_1;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        int Temp_int_Variable_2;
+        int CallFunc_PostAssociatedAkEvent_ReturnValue;
+        Struct<Vector> CallFunc_GetSocketLocation_ReturnValue_1;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_1;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_3;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAtLocation_ReturnValue_3;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        int K2Node_CustomEvent_Eye_Hit;
+        bool K2Node_SwitchInteger_CmpSuccess_2;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_Watcher_15: this.PlayHitEyeVisuals(3);
+
+            // Block 3
+            ExecuteUbergraph_BP_Watcher_34: this.FlushNetDormancy();
+            CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(this.NumEyesKilled, 1);
+            Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue;
+            this.NumEyesKilled = Temp_int_Variable_1;
+            CallFunc_BP_ApplyGameplayEffectToSelf_ReturnValue = this.AbilitySystem.BP_ApplyGameplayEffectToSelf(GE_OnWatcherEyeKilled_C, 0f, EX_StructConst(GameplayEffectContextHandle, 24));
+            EX_LetObj(CallFunc_GetController_ReturnValue,this.GetController());
+            EX_LetObj(CallFunc_GetBlackboard_ReturnValue,AIBlueprintHelperLibrary.GetBlackboard(CallFunc_GetController_ReturnValue));
+            CallFunc_MakeLiteralName_ReturnValue = KismetSystemLibrary.MakeLiteralName(EX_NameConst("CurrentTargetActor"));
+            EX_LetObj(CallFunc_GetValueAsObject_ReturnValue,CallFunc_GetBlackboard_ReturnValue.GetValueAsObject(CallFunc_MakeLiteralName_ReturnValue));
+            K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", CallFunc_GetValueAsObject_ReturnValue);
+            K2Node_DynamicCast_bSuccess_8 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+            if (!K2Node_DynamicCast_bSuccess_8) break;
+
+            // Block 4
+            K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(this.NumEyesKilled, 1));
+
+            if (K2Node_SwitchInteger_CmpSuccess) {
+                // Block 5
+                K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(this.NumEyesKilled, 2));
+                if (!(K2Node_SwitchInteger_CmpSuccess)) goto ExecuteUbergraph_BP_Watcher_641;
+
+                // Block 6
+                K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(this.NumEyesKilled, 3));
+                if (!(K2Node_SwitchInteger_CmpSuccess)) goto ExecuteUbergraph_BP_Watcher_703;
+
+                // Block 7
+                break;
+
+            }
+
+
+            // Block 8
+            ExecuteUbergraph_BP_Watcher_579: EX_LetObj(CallFunc_SpawnEncounter_ReturnValue_2,Default__MorAIEncounterManager.SpawnEncounter(K2Node_DynamicCast_AsMor_Character, DA_WatcherEncounter_1, false));
+            break;
+
+            // Block 9
+            ExecuteUbergraph_BP_Watcher_641: EX_LetObj(CallFunc_SpawnEncounter_ReturnValue_1,Default__MorAIEncounterManager.SpawnEncounter(K2Node_DynamicCast_AsMor_Character, DA_WatcherEncounter_2, false));
+            break;
+
+            // Block 10
+            ExecuteUbergraph_BP_Watcher_703: EX_LetObj(CallFunc_SpawnEncounter_ReturnValue,Default__MorAIEncounterManager.SpawnEncounter(K2Node_DynamicCast_AsMor_Character, DA_WatcherEncounter_3, false));
+            break;
+
+            ExecuteUbergraph_BP_Watcher_765:
+            while (true) {
+                // Block 11
+                CallFunc_GetSocketLocation_ReturnValue = this.Mesh.GetSocketLocation(EX_ArrayGetByRef(this.FoamSpawnArray2, Temp_int_Variable));
+                CallFunc_Add_VectorVector_ReturnValue_1 = KismetMathLibrary.Add_VectorVector(CallFunc_GetSocketLocation_ReturnValue, EX_ArrayGetByRef(this.FoamSpawnArray_0, Temp_int_Variable));
+                EX_LetObj(CallFunc_SpawnSystemAtLocation_ReturnValue_2,NiagaraFunctionLibrary.SpawnSystemAtLocation(this, NS_Watcher_FoamConstant2_Small, CallFunc_Add_VectorVector_ReturnValue_1, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1), false, true, (byte)(1), true));
+                CallFunc_SpawnSystemAtLocation_ReturnValue_2.SetVariableFloat(EX_NameConst("LoopLife"), 1f);
+                break;
+
+            }
+
+
+            // Block 12
+            ExecuteUbergraph_BP_Watcher_1020: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue_1;
+
+            // Block 13
+            ExecuteUbergraph_BP_Watcher_1089: CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, 3));
+            if (!CallFunc_LessEqual_IntInt_ReturnValue) break;
+
+            // Block 14
+            goto ExecuteUbergraph_BP_Watcher_765;
+
+            // Block 15
+            ExecuteUbergraph_BP_Watcher_1138: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 16
+            K2Node_DynamicCast_AsBP_Projectile_Arrow = EX_DynamicCast("BP_Projectile_Arrow_C", K2Node_ComponentBoundEvent_OtherActor);
+            K2Node_DynamicCast_bSuccess_9 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Projectile_Arrow);
+            if (!K2Node_DynamicCast_bSuccess_9) break;
+
+            // Block 17
+            EX_LetObj(CallFunc_GetInstigator_ReturnValue,K2Node_DynamicCast_AsBP_Projectile_Arrow.GetInstigator());
+            K2Node_DynamicCast_AsMor_Character_1 = EX_DynamicCast("MorCharacter", CallFunc_GetInstigator_ReturnValue);
+            K2Node_DynamicCast_bSuccess_10 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character_1);
+            if (!K2Node_DynamicCast_bSuccess_10) break;
+
+            // Block 18
+            CallFunc_RequestDialogueEventFromTable_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTable(DT_Dialog_Watcher_CombatBarks, K2Node_DynamicCast_AsMor_Character_1, (byte)(4), K2Node_MakeStruct_DialogueRateLimit, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags, EX_StructConst(GameplayTag, 12, EX_NameConst("Watcher.HitWithArrow")))), false));
+            break;
+
+            // Block 19
+            ExecuteUbergraph_BP_Watcher_1466: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_1) break;
+
+            // Block 20
+            CallFunc_IsInvulnerable_ReturnValue = (bool)(this.IsInvulnerable());
+
+            if (CallFunc_IsInvulnerable_ReturnValue) {
+                // Block 21
+                break;
+
+            }
+
+
+            // Block 22
+            ExecuteUbergraph_BP_Watcher_1531: K2Node_DynamicCast_AsBP_Projectile_Bolt = EX_DynamicCast("BP_Projectile_Bolt_C", K2Node_ComponentBoundEvent_OtherActor_4);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Projectile_Bolt);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            // Block 23
+            K2Node_DynamicCast_AsSphere_Collision = EX_DynamicCast("SphereComponent", K2Node_ComponentBoundEvent_HitComponent_4);
+            K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsSphere_Collision);
+            if (!K2Node_DynamicCast_bSuccess_1) break;
+
+            // Block 24
+            K2Node_DynamicCast_AsSphere_Collision.SetCollisionEnabled((byte)(0));
+            Temp_bool_Variable_1 = (bool)(true);
+            Default__KismetArrayLibrary.Array_Set(this.EyesHit, 0, Temp_bool_Variable_1, false);
+            this.SetEyeHitVisuals(0);
+            this.PlayHitEyeVisuals(0);
+            goto ExecuteUbergraph_BP_Watcher_34;
+
+            // Block 25
+            ExecuteUbergraph_BP_Watcher_1829: CallFunc_HasAuthority_ReturnValue_2 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_2) break;
+
+            // Block 26
+            CallFunc_IsInvulnerable_ReturnValue_1 = (bool)(this.IsInvulnerable());
+
+            if (CallFunc_IsInvulnerable_ReturnValue_1) {
+                // Block 27
+                break;
+
+            }
+
+
+            // Block 28
+            ExecuteUbergraph_BP_Watcher_1894: K2Node_DynamicCast_AsBP_Projectile_Bolt_1 = EX_DynamicCast("BP_Projectile_Bolt_C", K2Node_ComponentBoundEvent_OtherActor_3);
+            K2Node_DynamicCast_bSuccess_2 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Projectile_Bolt_1);
+            if (!K2Node_DynamicCast_bSuccess_2) break;
+
+            // Block 29
+            K2Node_DynamicCast_AsSphere_Collision_1 = EX_DynamicCast("SphereComponent", K2Node_ComponentBoundEvent_HitComponent_3);
+            K2Node_DynamicCast_bSuccess_3 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsSphere_Collision_1);
+            if (!K2Node_DynamicCast_bSuccess_3) break;
+
+            // Block 30
+            K2Node_DynamicCast_AsSphere_Collision_1.SetCollisionEnabled((byte)(0));
+            Temp_bool_Variable = (bool)(true);
+            Default__KismetArrayLibrary.Array_Set(this.EyesHit, 1, Temp_bool_Variable, false);
+            this.SetEyeHitVisuals(1);
+            this.PlayHitEyeVisuals(1);
+            goto ExecuteUbergraph_BP_Watcher_34;
+
+            // Block 31
+            ExecuteUbergraph_BP_Watcher_2192: CallFunc_HasAuthority_ReturnValue_3 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_3) break;
+
+            // Block 32
+            CallFunc_IsInvulnerable_ReturnValue_2 = (bool)(this.IsInvulnerable());
+
+            if (CallFunc_IsInvulnerable_ReturnValue_2) {
+                // Block 33
+                break;
+
+            }
+
+
+            // Block 34
+            ExecuteUbergraph_BP_Watcher_2257: K2Node_DynamicCast_AsBP_Projectile_Bolt_2 = EX_DynamicCast("BP_Projectile_Bolt_C", K2Node_ComponentBoundEvent_OtherActor_2);
+            K2Node_DynamicCast_bSuccess_4 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Projectile_Bolt_2);
+            if (!K2Node_DynamicCast_bSuccess_4) break;
+
+            // Block 35
+            K2Node_DynamicCast_AsSphere_Collision_2 = EX_DynamicCast("SphereComponent", K2Node_ComponentBoundEvent_HitComponent_2);
+            K2Node_DynamicCast_bSuccess_5 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsSphere_Collision_2);
+            if (!K2Node_DynamicCast_bSuccess_5) break;
+
+            // Block 36
+            K2Node_DynamicCast_AsSphere_Collision_2.SetCollisionEnabled((byte)(0));
+            Temp_bool_Variable_2 = (bool)(true);
+            Default__KismetArrayLibrary.Array_Set(this.EyesHit, 2, Temp_bool_Variable_2, false);
+            this.SetEyeHitVisuals(2);
+            this.PlayHitEyeVisuals(2);
+            goto ExecuteUbergraph_BP_Watcher_34;
+
+            // Block 37
+            ExecuteUbergraph_BP_Watcher_2555: CallFunc_HasAuthority_ReturnValue_4 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_4) break;
+
+            // Block 38
+            CallFunc_IsInvulnerable_ReturnValue_3 = (bool)(this.IsInvulnerable());
+
+            if (CallFunc_IsInvulnerable_ReturnValue_3) {
+                // Block 39
+                break;
+
+            }
+
+
+            // Block 40
+            ExecuteUbergraph_BP_Watcher_2620: K2Node_DynamicCast_AsBP_Projectile_Bolt_3 = EX_DynamicCast("BP_Projectile_Bolt_C", K2Node_ComponentBoundEvent_OtherActor_1);
+            K2Node_DynamicCast_bSuccess_6 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Projectile_Bolt_3);
+            if (!K2Node_DynamicCast_bSuccess_6) break;
+
+            // Block 41
+            K2Node_DynamicCast_AsSphere_Collision_3 = EX_DynamicCast("SphereComponent", K2Node_ComponentBoundEvent_HitComponent_1);
+            K2Node_DynamicCast_bSuccess_7 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsSphere_Collision_3);
+            if (!K2Node_DynamicCast_bSuccess_7) break;
+
+            // Block 42
+            K2Node_DynamicCast_AsSphere_Collision_3.SetCollisionEnabled((byte)(0));
+            Temp_bool_Variable_3 = (bool)(true);
+            Default__KismetArrayLibrary.Array_Set(this.EyesHit, 3, Temp_bool_Variable_3, false);
+            this.SetEyeHitVisuals(3);
+            goto ExecuteUbergraph_BP_Watcher_15;
+
+            // Block 43
+            ExecuteUbergraph_BP_Watcher_2899_BndEvt__BP_Watcher_Eye1_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature: goto ExecuteUbergraph_BP_Watcher_1466;
+
+            // Block 44
+            ExecuteUbergraph_BP_Watcher_2904_BndEvt__BP_Watcher_Eye2_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature: goto ExecuteUbergraph_BP_Watcher_1829;
+
+            // Block 45
+            ExecuteUbergraph_BP_Watcher_2909_BndEvt__BP_Watcher_Eye3_K2Node_ComponentBoundEvent_2_ComponentHitSignature__DelegateSignature: goto ExecuteUbergraph_BP_Watcher_2192;
+
+            // Block 46
+            ExecuteUbergraph_BP_Watcher_2914_BndEvt__BP_Watcher_Eye4_K2Node_ComponentBoundEvent_3_ComponentHitSignature__DelegateSignature: goto ExecuteUbergraph_BP_Watcher_2555;
+
+            // Block 47
+            ExecuteUbergraph_BP_Watcher_2919_ReceiveBeginPlay: this.GetTransformForMaskHeight();
+            CallFunc_PostAssociatedAkEvent_ReturnValue = this.`Watcher Idle SFX`.PostAssociatedAkEvent(0, Temp_delegate_Variable, Temp_struct_Variable);
+            break;
+
+            // Block 48
+            ExecuteUbergraph_BP_Watcher_3011: Temp_int_Variable = 0;
+            goto ExecuteUbergraph_BP_Watcher_1089;
+
+            // Block 49
+            ExecuteUbergraph_BP_Watcher_3039_WatcherDrips: this.NS_Watcher_DripSheets.Activate(false);
+            break;
+
+            // Block 50
+            ExecuteUbergraph_BP_Watcher_3077_BndEvt__BP_Watcher_Mesh_K2Node_ComponentBoundEvent_4_ComponentHitSignature__DelegateSignature: goto ExecuteUbergraph_BP_Watcher_1138;
+
+            // Block 51
+            ExecuteUbergraph_BP_Watcher_3082_IdleFOam: CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+            CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_K2_GetActorLocation_ReturnValue, EX_VectorConst(0, 0, 15));
+            EX_LetObj(CallFunc_SpawnSystemAtLocation_ReturnValue_1,NiagaraFunctionLibrary.SpawnSystemAtLocation(this, NS_Watcher_FoamConstant, CallFunc_Add_VectorVector_ReturnValue, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1), false, true, (byte)(1), true));
+            CallFunc_SpawnSystemAtLocation_ReturnValue_1.SetVariableFloat(EX_NameConst("LoopLife"), 10f);
+            break;
+
+            // Block 52
+            ExecuteUbergraph_BP_Watcher_3295_IdleFoam2: Temp_int_Variable_2 = 0;
+
+            // Block 53
+            ExecuteUbergraph_BP_Watcher_3318: CallFunc_LessEqual_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_2, 3));
+            if (!CallFunc_LessEqual_IntInt_ReturnValue_1) break;
+
+            while (true) {
+                // Block 54
+                CallFunc_GetSocketLocation_ReturnValue_1 = this.Mesh.GetSocketLocation(EX_ArrayGetByRef(this.FoamSpawnArray2, Temp_int_Variable_2));
+                CallFunc_Add_VectorVector_ReturnValue_3 = KismetMathLibrary.Add_VectorVector(CallFunc_GetSocketLocation_ReturnValue_1, EX_ArrayGetByRef(this.FoamSpawnArray, Temp_int_Variable_2));
+                EX_LetObj(CallFunc_SpawnSystemAtLocation_ReturnValue_3,NiagaraFunctionLibrary.SpawnSystemAtLocation(this, NS_Watcher_FoamConstant2_Small, CallFunc_Add_VectorVector_ReturnValue_3, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1), false, true, (byte)(1), true));
+                CallFunc_SpawnSystemAtLocation_ReturnValue_3.SetVariableFloat(EX_NameConst("LoopLife"), 4.75f);
+                break;
+
+            }
+
+
+            // Block 55
+            ExecuteUbergraph_BP_Watcher_3617: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_2, 1);
+            Temp_int_Variable_2 = CallFunc_Add_IntInt_ReturnValue_2;
+            goto ExecuteUbergraph_BP_Watcher_3318;
+
+            // Block 56
+            ExecuteUbergraph_BP_Watcher_3691: CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+            CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_K2_GetActorLocation_ReturnValue, EX_VectorConst(0, 0, 15));
+            EX_LetObj(CallFunc_SpawnSystemAtLocation_ReturnValue,NiagaraFunctionLibrary.SpawnSystemAtLocation(this, NS_Watcher_FoamConstant, CallFunc_Add_VectorVector_ReturnValue, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1), false, true, (byte)(1), true));
+            CallFunc_SpawnSystemAtLocation_ReturnValue.SetVariableFloat(EX_NameConst("LoopLife"), 4f);
+            break;
+
+            // Block 57
+            ExecuteUbergraph_BP_Watcher_3904_IdleFoam3: goto ExecuteUbergraph_BP_Watcher_3011;
+
+            // Block 58
+            ExecuteUbergraph_BP_Watcher_3909_IdleFoam4: goto ExecuteUbergraph_BP_Watcher_3691;
+
+            // Block 59
+            ExecuteUbergraph_BP_Watcher_3914_GetTransformForMaskHeight: CallFunc_K2_GetComponentLocation_ReturnValue = this.CapsuleComponent.K2_GetComponentLocation();
+            CallFunc_Add_VectorVector_ReturnValue_2 = KismetMathLibrary.Add_VectorVector(CallFunc_K2_GetComponentLocation_ReturnValue, EX_VectorConst(0, 0, 1015));
+            KismetMathLibrary.BreakVector(CallFunc_Add_VectorVector_ReturnValue_2, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+            KismetMaterialLibrary.SetScalarParameterValue(this, MPC_WatcherFightParams, EX_NameConst("SplashMaskHeight"), CallFunc_BreakVector_Z);
+            break;
+
+            // Block 60
+            ExecuteUbergraph_BP_Watcher_4103_SetEyeHitVisuals: K2Node_SwitchInteger_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_EyeHit, 0));
+
+            if (K2Node_SwitchInteger_CmpSuccess_1) {
+                // Block 61
+                K2Node_SwitchInteger_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_EyeHit, 1));
+
+                if (K2Node_SwitchInteger_CmpSuccess_1) {
+                    // Block 62
+                    K2Node_SwitchInteger_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_EyeHit, 2));
+
+                    if (K2Node_SwitchInteger_CmpSuccess_1) {
+                        // Block 63
+                        K2Node_SwitchInteger_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_EyeHit, 3));
+                        if (!(K2Node_SwitchInteger_CmpSuccess_1)) goto ExecuteUbergraph_BP_Watcher_4503;
+
+                        // Block 64
+                        break;
+
+                    }
+
+
+                    // Block 65
+                    ExecuteUbergraph_BP_Watcher_4296: this.MorPointLight2.SetVisibility(false, false);
+                    this.Sphere2.SetVisibility(true, false);
+                    break;
+
+                }
+
+
+                // Block 66
+                ExecuteUbergraph_BP_Watcher_4365: this.MorPointLight1.SetVisibility(false, false);
+                this.Sphere1.SetVisibility(true, false);
+                break;
+
+            }
+
+
+            // Block 67
+            ExecuteUbergraph_BP_Watcher_4434: this.MorPointLight.SetVisibility(false, false);
+            this.Sphere.SetVisibility(true, false);
+            break;
+
+            // Block 68
+            ExecuteUbergraph_BP_Watcher_4503: this.MorPointLight3.SetVisibility(false, false);
+            this.Sphere3.SetVisibility(true, false);
+            break;
+
+            // Block 69
+            ExecuteUbergraph_BP_Watcher_4572: this.NS_WatcherEyeBurst.Activate(false);
+            break;
+
+            // Block 70
+            ExecuteUbergraph_BP_Watcher_4610: this.NS_WatcherEyeBurst1.Activate(false);
+            break;
+
+            // Block 71
+            ExecuteUbergraph_BP_Watcher_4648: this.NS_WatcherEyeBurst2.Activate(false);
+            break;
+
+            // Block 72
+            ExecuteUbergraph_BP_Watcher_4686: this.NS_WatcherEyeBurst3.Activate(false);
+            break;
+
+            // Block 73
+            ExecuteUbergraph_BP_Watcher_4724_PlayHitEyeVisuals: K2Node_SwitchInteger_CmpSuccess_2 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_Eye_Hit, 0));
+            if (!(K2Node_SwitchInteger_CmpSuccess_2)) goto ExecuteUbergraph_BP_Watcher_4572;
+
+            // Block 74
+            K2Node_SwitchInteger_CmpSuccess_2 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_Eye_Hit, 1));
+            if (!(K2Node_SwitchInteger_CmpSuccess_2)) goto ExecuteUbergraph_BP_Watcher_4610;
+
+            // Block 75
+            K2Node_SwitchInteger_CmpSuccess_2 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_Eye_Hit, 2));
+            if (!(K2Node_SwitchInteger_CmpSuccess_2)) goto ExecuteUbergraph_BP_Watcher_4648;
+
+            // Block 76
+            K2Node_SwitchInteger_CmpSuccess_2 = (bool)(KismetMathLibrary.NotEqual_IntInt(K2Node_CustomEvent_Eye_Hit, 3));
+            if (!(K2Node_SwitchInteger_CmpSuccess_2)) goto ExecuteUbergraph_BP_Watcher_4686;
+
+            // Block 77
+            break;
+
+        }
+
+
+        // Block 78
+        ExecuteUbergraph_BP_Watcher_4917:
+
+    }
+
+    [Net, NetMulticast, BlueprintCallable, BlueprintEvent]
+    void PlayHitEyeVisuals([BlueprintVisible, BlueprintReadOnly] int `Eye Hit`) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Eye_Hit", `Eye Hit`);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_4724_PlayHitEyeVisuals);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void SetEyeHitVisuals([BlueprintVisible, BlueprintReadOnly] int EyeHit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_EyeHit", EyeHit);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_4103_SetEyeHitVisuals);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void GetTransformForMaskHeight() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3914_GetTransformForMaskHeight);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void IdleFoam4() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3909_IdleFoam4);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void IdleFoam3() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3904_IdleFoam3);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void IdleFoam2() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3295_IdleFoam2);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void IdleFOam() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3082_IdleFOam);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_Watcher_Mesh_K2Node_ComponentBoundEvent_4_ComponentHitSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> HitComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> NormalImpulse, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_HitComponent", HitComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NormalImpulse", NormalImpulse);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Hit", Hit);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3077_BndEvt__BP_Watcher_Mesh_K2Node_ComponentBoundEvent_4_ComponentHitSignature__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void WatcherDrips() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_3039_WatcherDrips);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_2919_ReceiveBeginPlay);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_Watcher_Eye4_K2Node_ComponentBoundEvent_3_ComponentHitSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> HitComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> NormalImpulse, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_HitComponent_1", HitComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_1", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_1", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NormalImpulse_1", NormalImpulse);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Hit_1", Hit);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_2914_BndEvt__BP_Watcher_Eye4_K2Node_ComponentBoundEvent_3_ComponentHitSignature__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_Watcher_Eye3_K2Node_ComponentBoundEvent_2_ComponentHitSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> HitComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> NormalImpulse, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_HitComponent_2", HitComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_2", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_2", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NormalImpulse_2", NormalImpulse);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Hit_2", Hit);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_2909_BndEvt__BP_Watcher_Eye3_K2Node_ComponentBoundEvent_2_ComponentHitSignature__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_Watcher_Eye2_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> HitComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> NormalImpulse, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_HitComponent_3", HitComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_3", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_3", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NormalImpulse_3", NormalImpulse);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Hit_3", Hit);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_2904_BndEvt__BP_Watcher_Eye2_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_Watcher_Eye1_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> HitComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> NormalImpulse, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_HitComponent_4", HitComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_4", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_4", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NormalImpulse_4", NormalImpulse);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Hit_4", Hit);
+        this.ExecuteUbergraph_BP_Watcher(ExecuteUbergraph_BP_Watcher_2899_BndEvt__BP_Watcher_Eye1_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_EyesHit() {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            OnRep_EyesHit_51: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.EyesHit);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 3
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(OnRep_EyesHit_283);
+
+            // Block 4
+            Default__KismetArrayLibrary.Array_Get(this.EyesHit, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            EX_PopExecutionFlowIfNot(CallFunc_Array_Get_Item);
+
+            // Block 5
+            this.SetEyeHitVisuals(Temp_int_Array_Index_Variable);
+            EX_PopExecutionFlow();
+
+            // Block 6
+            OnRep_EyesHit_283: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto OnRep_EyesHit_51;
+
+        }
+
+
+        // Block 7
+        OnRep_EyesHit_357:
+
+    }
+
+}

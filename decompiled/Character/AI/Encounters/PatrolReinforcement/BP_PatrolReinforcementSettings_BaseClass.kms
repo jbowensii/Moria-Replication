@@ -1,0 +1,37 @@
+
+[Import("/Script/Moria")]
+public class MorAIWaveEncounterSettings {}
+
+[Import("/Script/Moria")]
+public MorAIWaveEncounterSettings Default__MorAIWaveEncounterSettings;
+
+[Import("/Script/Moria")]
+public class MorEnvQueryTest_IsOnCellFloorNav {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Character/AI/Encounters/EQS_EncounterSpawn_3")]
+public class EQS_EncounterSpawn_3 {
+    public MorEnvQueryTest_IsOnCellFloorNav MorEnvQueryTest_IsOnCellFloorNav_0;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint]
+class BP_PatrolReinforcementSettings_BaseClass_C : MorAIWaveEncounterSettings {
+}

@@ -1,0 +1,730 @@
+
+[Import("/Script/Moria")]
+public class MorCharacter : Pawn {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void GetWorldLayout();
+}
+
+[Import("/Script/Moria")]
+public class MorTipComponent {
+    [UnknownSignature, FinalFunction] public sealed void UnlockTip();
+}
+
+[Import("/Script/Moria")]
+public class WorldLayout {
+    public ObjectProperty OnBubbleStateChanged;
+}
+
+[Import("/Script/Moria")]
+public class WorldLayoutBubble {}
+
+[Import("/Script/Moria")]
+public Object OnWorldBubbleStateChanged__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object EBubbleState;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorTipRowHandle;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorAchievementComponent {}
+
+[Import("/Script/Moria")]
+public class MorBubbleActivationPlayerController {}
+
+[Import("/Script/Moria")]
+public class MorCheatsComponent {}
+
+[Import("/Script/Moria")]
+public class MorNetBigDataPlayerComponent {}
+
+[Import("/Script/Moria")]
+public class MorPlayerProfileDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorProcWorldRPCComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter {}
+
+[Import("/Script/FGK")]
+public static class FGKBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLocallyControlledPlayer();
+    [UnknownSignature, MathFunction] public static sealed void GetLocallyControlledPlayerCharacter();
+}
+
+[Import("/Script/FGK")]
+public class FGKPlayerController {}
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCheatsComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetComponentByClass();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveActorBeginOverlap();
+    public Object ReceiveActorEndOverlap;
+    public Object ReceiveEndPlay;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveTick();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent : PrimitiveComponent {}
+
+[Import("/Script/Engine")]
+public class Controller {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ObjectObject();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {
+    [UnknownSignature, FinalFunction] public sealed void GetController();
+    [UnknownSignature, VirtualFunction] public virtual void IsPlayerControlled();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetOverlappingActors();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public Object EEndPlayReason;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/UI/HUD/WBP_MoriaHUD")]
+public WBP_MoriaHUD_C Default__WBP_MoriaHUD_C;
+
+[Import("/Game/UI/HUD/WBP_MoriaHUD")]
+public class WBP_MoriaHUD_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Textures/_Icons/Waypoints/T_UI_Icon_Waypoint_Map_DurinAxe")]
+public Texture2D T_UI_Icon_Waypoint_Map_DurinAxe;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Player/BP_FGKMoriaPlayerController")]
+public class BP_FGKMoriaPlayerController_C : Actor {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public SceneComponent DefaultSceneRoot;
+    public ObjectProperty hudReference;
+}
+
+[Import("/Game/Player/BP_FGKMoriaPlayerController")]
+public class Default__BP_FGKMoriaPlayerController_C {
+    public FGKActorFSMComponent InputFSMComp;
+    public FGKCheatsComponent FGKCheatsComponent;
+    public MorAchievementComponent MorAchievementComponent;
+    public MorBubbleActivationPlayerController BubbleActivation;
+    public MorCheatsComponent MorCheatsComponent;
+    public MorNetBigDataPlayerComponent NetBigDataPlayerComponent;
+    public MorPlayerProfileDataComponent CharacterSaveDataComponent;
+    public MorProcWorldRPCComponent ProcWorldRPCComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public MorTipComponent MorTipComponent;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/LevelDesign/Proxies/BP_LandmarkWaypointMarker")]
+public class BP_LandmarkWaypointMarker_C : Actor {
+    public BoxComponent DiscoveryBox_GEN_VARIABLE;
+    public BoxComponent TriggerBox_GEN_VARIABLE;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public BoxComponent DiscoveryBox;
+    public BoxComponent TriggerBox;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Game/LevelDesign/Proxies/BP_LandmarkWaypointMarker")]
+public BP_LandmarkWaypointMarker_C Default__BP_LandmarkWaypointMarker_C;
+
+
+[Import("/Game/LevelDesign/Challenges/AxeHunt/CBP_DurinAxeFragment_BASE")]
+public class CBP_DurinAxeFragment_BASE_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    [UnknownSignature] public  void OnAxeFound__DelegateSignature();
+    public NiagaraComponent NS_Pickup_Quest_GEN_VARIABLE;
+    public PointLightComponent PointLight_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent SM_AxeFragment_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public NiagaraComponent NS_Pickup_Quest;
+    public PointLightComponent PointLight;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent SM_AxeFragment;
+    public ObjectProperty OnAxeFound;
+}
+
+[Import("/Game/LevelDesign/Challenges/AxeHunt/CBP_DurinAxeFragment_BASE")]
+public class Default__CBP_DurinAxeFragment_BASE_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_C : BP_LandmarkWaypointMarker_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> `Locked Box Unlocked Progress Check`;
+    [Edit, BlueprintVisible] Struct<MorTipRowHandle> Tip;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> DurinsAxeFoundProgressRow;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool FragmentSpawnChecked;
+    [Edit, BlueprintVisible, Transient, DisableEditOnInstance] bool IsDone;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<WorldLayoutBubble> MyBubble;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool SubscribedToBubbleStateChanged;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, Transient, DisableEditOnInstance] Object<CBP_DurinAxeFragment_BASE_C> DurinAxeFragmentRef;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<FGKBaseCharacter> CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue;
+        [InstancedReference] Object<WBP_MoriaHUD_C> CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<FGKBaseCharacter> CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1;
+        [InstancedReference] Object<WBP_MoriaHUD_C> CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD_1;
+        bool CallFunc_IsValid_ReturnValue_1;
+        bool CallFunc_ScanAndSetupFragmentEvent_FragmentFound;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        float K2Node_Event_DeltaSeconds;
+        bool CallFunc_Can_Search_for_Fragment_CanUnlock;
+        bool CallFunc_ScanAndSetupFragmentEvent_FragmentFound_1;
+        Object<Actor> K2Node_Event_OtherActor;
+        const Object<WorldLayoutBubble> K2Node_CustomEvent_Bubble;
+        Enum K2Node_CustomEvent_NewState;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<Controller> CallFunc_GetController_ReturnValue;
+        bool CallFunc_IsPlayerControlled_ReturnValue;
+        Object<BP_FGKMoriaPlayerController_C> K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller;
+        bool K2Node_DynamicCast_bSuccess_1;
+        [InstancedReference] Object<MorTipComponent> CallFunc_GetComponentByClass_ReturnValue;
+        bool CallFunc_IsPlayerControlled_ReturnValue_1;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue_1;
+        bool CallFunc_BooleanAND_ReturnValue;
+        Object<Actor> K2Node_Event_OtherActor_1;
+        Object<WorldLayout> CallFunc_GetWorldLayout_ReturnValue;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue_2;
+        bool CallFunc_IsValid_ReturnValue_2;
+        bool CallFunc_HasAuthority_ReturnValue;
+        byte K2Node_Event_EndPlayReason;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_15_RemoveHUDElements: this.GetMoriaHUDFromLocalPlayer(CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD);
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD));
+            if (!CallFunc_IsValid_ReturnValue) break;
+
+            // Block 3
+            CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD.ToggleSearchWidget(EX_TextConst("Empty"), EX_NoObject(), false);
+            break;
+
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_118:
+            while (true) {
+                while (true) {
+                    // Block 4
+                    CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+                    if (!CallFunc_HasAuthority_ReturnValue) break;
+
+                    // Block 5
+                    CallFunc_IsPlayerControlled_ReturnValue = (bool)(K2Node_DynamicCast_AsMor_Character.IsPlayerControlled());
+                    if (!CallFunc_IsPlayerControlled_ReturnValue) break;
+
+                    // Block 6
+                    EX_LetObj(CallFunc_GetController_ReturnValue,K2Node_DynamicCast_AsMor_Character.GetController());
+                    K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller = EX_DynamicCast("BP_FGKMoriaPlayerController_C", CallFunc_GetController_ReturnValue);
+                    K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller);
+                    if (!K2Node_DynamicCast_bSuccess_1) break;
+
+                    // Block 7
+                    EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller.GetComponentByClass(MorTipComponent));
+                    CallFunc_GetComponentByClass_ReturnValue.UnlockTip(this.Tip);
+                    break;
+
+                }
+
+
+                // Block 8
+                ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_424: EX_LetObj(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue,FGKBlueprintLibrary.GetLocallyControlledPlayerCharacter(this));
+                CallFunc_EqualEqual_ObjectObject_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(K2Node_Event_OtherActor, CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue));
+                if (!CallFunc_EqualEqual_ObjectObject_ReturnValue) break;
+
+                // Block 9
+                this.GetMoriaHUDFromLocalPlayer(CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD_1);
+                CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD_1));
+                if (!CallFunc_IsValid_ReturnValue_1) break;
+
+                // Block 10
+                CallFunc_GetMoriaHUDFromLocalPlayer_AsWBP_Moria_HUD_1.ToggleSearchWidget(EX_TextConst("StringTableEntry", UI, "/Game/Tech/Data/StringTables/UI.UI", "AxeHunt.SearchText"), T_UI_Icon_Waypoint_Map_DurinAxe, true);
+                break;
+
+            }
+
+
+            // Block 11
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_668: base.ReceiveActorBeginOverlap(K2Node_Event_OtherActor);
+            break;
+
+            // Block 12
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_688: this.RemoveHUDElements();
+            break;
+
+            // Block 13
+
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_703:
+            if (this.FragmentSpawnChecked) {
+                // Block 14
+                ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_717: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+                this.`Can Search for Fragment`(CallFunc_GetDiscoveryManager_ReturnValue, CallFunc_Can_Search_for_Fragment_CanUnlock);
+                if (!CallFunc_Can_Search_for_Fragment_CanUnlock) break;
+
+                // Block 15
+                goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_118;
+
+            }
+
+
+            // Block 16
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_785: this.ScanAndSetupFragmentEvent(CallFunc_ScanAndSetupFragmentEvent_FragmentFound);
+
+            if (CallFunc_ScanAndSetupFragmentEvent_FragmentFound) {
+                // Block 17
+                goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_717;
+
+            }
+
+
+            // Block 18
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_827: this.IsDone = (bool)(true);
+            break;
+
+            // Block 19
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_839: this.IsDone = (bool)(false);
+            break;
+
+            // Block 20
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_851_ReceiveTick: base.ReceiveTick(K2Node_Event_DeltaSeconds);
+            break;
+
+            // Block 21
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_871: this.ScanAndSetupFragmentEvent(CallFunc_ScanAndSetupFragmentEvent_FragmentFound_1);
+
+            if (CallFunc_ScanAndSetupFragmentEvent_FragmentFound_1) {
+                // Block 22
+                break;
+
+            }
+
+
+            // Block 23
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_909: this.K2_DestroyActor();
+            break;
+
+            // Block 24
+
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_924_ReceiveActorBeginOverlap:
+            if (this.IsDone) {
+                // Block 25
+                break;
+
+            }
+
+
+            // Block 26
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_939: K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", K2Node_Event_OtherActor);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            // Block 27
+            CallFunc_IsPlayerControlled_ReturnValue_1 = (bool)(K2Node_DynamicCast_AsMor_Character.IsPlayerControlled());
+            if (!CallFunc_IsPlayerControlled_ReturnValue_1) break;
+
+            // Block 28
+            goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_703;
+
+            // Block 29
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1075_OnBubbleReady: CallFunc_EqualEqual_ByteByte_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ByteByte(K2Node_CustomEvent_NewState, (byte)(13)));
+            CallFunc_EqualEqual_ObjectObject_ReturnValue_1 = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(K2Node_CustomEvent_Bubble, this.MyBubble));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_EqualEqual_ObjectObject_ReturnValue_1, CallFunc_EqualEqual_ByteByte_ReturnValue));
+            if (!CallFunc_BooleanAND_ReturnValue) break;
+
+            while (true) {
+                // Block 30
+                goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_871;
+
+            }
+
+
+            // Block 31
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1202: EX_LetObj(CallFunc_GetWorldLayout_ReturnValue,MoriaUtils.GetWorldLayout(this));
+            CallFunc_IsValid_ReturnValue_2 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetWorldLayout_ReturnValue));
+            if (!CallFunc_IsValid_ReturnValue_2) break;
+
+            // Block 32
+            EX_BindDelegate("OnBubbleReady", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_RemoveMulticastDelegate(CallFunc_GetWorldLayout_ReturnValue.OnBubbleStateChanged, K2Node_CreateDelegate_OutputDelegate);
+            this.SubscribedToBubbleStateChanged = (bool)(false);
+            break;
+
+            // Block 33
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1338: base.ReceiveBeginPlay();
+            goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_839;
+
+            // Block 34
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1353_ReceiveActorEndOverlap: EX_LetObj(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1,FGKBlueprintLibrary.GetLocallyControlledPlayerCharacter(this));
+            CallFunc_EqualEqual_ObjectObject_ReturnValue_2 = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(K2Node_Event_OtherActor_1, CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1));
+            if (!CallFunc_EqualEqual_ObjectObject_ReturnValue_2) break;
+
+            // Block 35
+            goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_688;
+
+            // Block 36
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1427_ReceiveEndPlay: break;
+
+            // Block 37
+            ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1428_ReceiveBeginPlay: goto ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1338;
+
+        }
+
+
+        // Block 38
+        ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1433:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1428_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnBubbleReady([BlueprintVisible, BlueprintReadOnly] const Object<WorldLayoutBubble> Bubble, [BlueprintVisible, BlueprintReadOnly] Enum NewState) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Bubble", Bubble);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_NewState", NewState);
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1075_OnBubbleReady);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveActorBeginOverlap([BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherActor", OtherActor);
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_924_ReceiveActorBeginOverlap);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_851_ReceiveTick);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void RemoveHUDElements() {
+        // Block 1
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_15_RemoveHUDElements);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveActorEndOverlap([BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherActor_1", OtherActor);
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1353_ReceiveActorEndOverlap);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveEndPlay([BlueprintVisible, BlueprintReadOnly] byte EndPlayReason) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_EndPlayReason", EndPlayReason);
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_1427_ReceiveEndPlay);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void `Can Search for Fragment`([BlueprintVisible, BlueprintReadOnly] Object<MorDiscoveryManager> MorDiscoveryManager, out bool CanUnlock) {
+        // Locals
+        bool CallFunc_IsValid_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+
+        // Block 1
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.DurinAxeFragmentRef));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 2
+        CallFunc_GetProgressValue_ReturnValue = MorDiscoveryManager.GetProgressValue(this.`Locked Box Unlocked Progress Check`);
+        CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_GetProgressValue_ReturnValue, 0));
+
+        if (CallFunc_Greater_IntInt_ReturnValue) {
+            // Block 3
+            CanUnlock = (bool)(true);
+            return;
+
+        }
+
+
+        // Block 4
+        `Can Search for Fragment_166`: CanUnlock = (bool)(false);
+
+        // Block 5
+        `Can Search for Fragment_177`:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void GetMoriaHUDFromLocalPlayer([InstancedReference] out Object<WBP_MoriaHUD_C> `AsWBP Moria HUD`) {
+        // Locals
+        Object<FGKPlayerController> CallFunc_GetLocallyControlledPlayer_ReturnValue;
+        Object<BP_FGKMoriaPlayerController_C> K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller;
+        bool K2Node_DynamicCast_bSuccess;
+        [InstancedReference] Object<WBP_MoriaHUD_C> K2Node_DynamicCast_AsWBP_Moria_HUD;
+        bool K2Node_DynamicCast_bSuccess_1;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetLocallyControlledPlayer_ReturnValue,FGKBlueprintLibrary.GetLocallyControlledPlayer(this));
+        K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller = EX_DynamicCast("BP_FGKMoriaPlayerController_C", CallFunc_GetLocallyControlledPlayer_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller);
+
+        if (K2Node_DynamicCast_bSuccess) {
+            // Block 2
+            K2Node_DynamicCast_AsWBP_Moria_HUD = EX_DynamicCast("WBP_MoriaHUD_C", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller.hudReference);
+            K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_Moria_HUD);
+            if (!K2Node_DynamicCast_bSuccess_1) return;
+
+        }
+
+
+        // Block 3
+        GetMoriaHUDFromLocalPlayer_201: EX_LetObj(`AsWBP Moria HUD`,K2Node_DynamicCast_AsWBP_Moria_HUD);
+
+        // Block 4
+        GetMoriaHUDFromLocalPlayer_220:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void ScanAndSetupFragmentEvent(out bool FragmentFound) {
+        // Locals
+        [Edit, BlueprintVisible, DisableEditOnTemplate] Array<Object<Actor>> DurinAxeFragment;
+        int CallFunc_Array_Length_ReturnValue;
+        ref Array<Object<Actor>> CallFunc_GetOverlappingActors_OverlappingActors;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Object<Actor> CallFunc_Array_Get_Item;
+        Object<CBP_DurinAxeFragment_BASE_C> K2Node_DynamicCast_AsCBP_Durin_Axe_Fragment_BASE;
+        bool K2Node_DynamicCast_bSuccess;
+
+        // Block 1
+
+        if (this.FragmentSpawnChecked) {
+            // Block 2
+            return;
+
+        }
+
+
+        // Block 3
+        ScanAndSetupFragmentEvent_19: CallFunc_GetOverlappingActors_OverlappingActors = new[] {};
+        this.TriggerBox.GetOverlappingActors(CallFunc_GetOverlappingActors_OverlappingActors, CBP_DurinAxeFragment_BASE_C);
+        DurinAxeFragment = CallFunc_GetOverlappingActors_OverlappingActors;
+        CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(DurinAxeFragment);
+        CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Array_Length_ReturnValue, 0));
+
+        if (CallFunc_Greater_IntInt_ReturnValue) {
+            // Block 4
+            Default__KismetArrayLibrary.Array_Get(DurinAxeFragment, 0, CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_AsCBP_Durin_Axe_Fragment_BASE = EX_DynamicCast("CBP_DurinAxeFragment_BASE_C", CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsCBP_Durin_Axe_Fragment_BASE);
+            if (!(K2Node_DynamicCast_bSuccess)) goto ScanAndSetupFragmentEvent_458;
+
+            // Block 5
+            EX_LetObj(this.DurinAxeFragmentRef,K2Node_DynamicCast_AsCBP_Durin_Axe_Fragment_BASE);
+            EX_BindDelegate("On Axe Found", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(this.DurinAxeFragmentRef.OnAxeFound, K2Node_CreateDelegate_OutputDelegate);
+            this.FragmentSpawnChecked = (bool)(true);
+            FragmentFound = (bool)(true);
+            return;
+
+        }
+
+
+        // Block 6
+        ScanAndSetupFragmentEvent_458: FragmentFound = (bool)(false);
+
+        // Block 7
+        ScanAndSetupFragmentEvent_469:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void `On Axe Found`() {
+        // Block 1
+        this.IsDone = (bool)(true);
+        this.RemoveHUDElements();
+
+    }
+
+}

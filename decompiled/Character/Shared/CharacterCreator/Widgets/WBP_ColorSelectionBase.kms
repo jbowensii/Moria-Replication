@@ -1,0 +1,149 @@
+
+[Import("/Script/UMG")]
+public class Button : Widget {}
+
+[Import("/Script/UMG")]
+public class UniformGridPanel {}
+
+[Import("/Script/UMG")]
+public class UniformGridSlot {}
+
+[Import("/Script/UMG")]
+public class UserWidget {
+    public Object OnFocusReceived;
+}
+
+[Import("/Script/UMG")]
+public class Widget {
+    [UnknownSignature, FinalFunction] public sealed void SetFocus();
+}
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass {}
+
+[Import("/Script/UMG")]
+public static class WidgetBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Handled();
+    [UnknownSignature, MathFunction] public static sealed void Unhandled();
+}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+[Import("/Script/UMG")]
+public Object EventReply;
+
+[Import("/Script/UMG")]
+public UniformGridPanel Default__UniformGridPanel;
+
+[Import("/Script/UMG")]
+public UniformGridSlot Default__UniformGridSlot;
+
+[Import("/Script/UMG")]
+public WidgetBlueprintGeneratedClass Default__WidgetBlueprintGeneratedClass;
+
+[Import("/Script/UMG")]
+public WidgetTree Default__WidgetTree;
+
+
+[Import("/Script/SlateCore")]
+public Object FocusEvent;
+
+[Import("/Script/SlateCore")]
+public Object Geometry;
+
+
+[Import("/Script/Moria")]
+public class MorColorSelectionWidget {
+    [UnknownSignature, FinalFunction] public sealed void GetFirstColorSelectionButton();
+}
+
+[Import("/Script/Moria")]
+public MorColorSelectionWidget Default__MorColorSelectionWidget;
+
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_ColorSelectionRowButton")]
+public WBP_ColorSelectionRowButton_C Default__WBP_ColorSelectionRowButton_C;
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_ColorSelectionRowButton")]
+public class WBP_ColorSelectionRowButton_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class WBP_ColorSelectionBase_C : MorColorSelectionWidget {
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_1;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_2;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_3;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_4;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_5;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_6;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_7;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_8;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<WBP_ColorSelectionRowButton_C> WBP_ColorSelectionRowButton_9;
+    [BlueprintCosmetic, Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void OnFocusReceived([BlueprintVisible, BlueprintReadOnly] Struct<Geometry> MyGeometry, [BlueprintVisible, BlueprintReadOnly] Struct<FocusEvent> InFocusEvent, [Return] out Struct<EventReply> ReturnValue) {
+        // Locals
+        [InstancedReference] Object<Button> CallFunc_GetFirstColorSelectionButton_ReturnValue;
+        Struct<EventReply> CallFunc_Unhandled_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Struct<EventReply> CallFunc_Handled_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetFirstColorSelectionButton_ReturnValue,this.GetFirstColorSelectionButton());
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetFirstColorSelectionButton_ReturnValue));
+
+        if (CallFunc_IsValid_ReturnValue) {
+            // Block 2
+            EX_LetObj(CallFunc_GetFirstColorSelectionButton_ReturnValue,this.GetFirstColorSelectionButton());
+            CallFunc_GetFirstColorSelectionButton_ReturnValue.SetFocus();
+            CallFunc_Handled_ReturnValue = WidgetBlueprintLibrary.Handled();
+            ReturnValue = CallFunc_Handled_ReturnValue;
+            goto OnFocusReceived_230;
+
+        }
+
+
+        // Block 3
+        OnFocusReceived_175: CallFunc_Unhandled_ReturnValue = WidgetBlueprintLibrary.Unhandled();
+        ReturnValue = CallFunc_Unhandled_ReturnValue;
+
+        // Block 4
+        OnFocusReceived_230: return ReturnValue;
+
+    }
+
+}

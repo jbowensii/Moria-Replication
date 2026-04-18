@@ -1,0 +1,127 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Armor/T_UI_Icon_Armor_Durin_Helmet_Black")]
+public Texture2D T_UI_Icon_Armor_Durin_Helmet_Black;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_Durin/Dwarf_Armor_Durin_Helmet")]
+public SkeletalMesh Dwarf_Armor_Durin_Helmet;
+
+
+[Import("/Game/Art/PhysMats/PM_metal_light")]
+public PhysicalMaterial PM_metal_light;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_Durin/MI_Dwarf_Armor_Durin_Helmet_Black")]
+public MaterialInstanceConstant MI_Dwarf_Armor_Durin_Helmet_Black;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Items/Clothing/GE_Khazad_Set_HelmetArmor")]
+public class GE_Khazad_Set_HelmetArmor_C {}
+
+[Import("/Game/Items/Clothing/GE_Khazad_Set_HelmetArmor")]
+public GE_Khazad_Set_HelmetArmor_C Default__GE_Khazad_Set_HelmetArmor_C;
+
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class BP_Category_Clothing_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class Default__BP_Category_Clothing_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt_Helmet")]
+public class GA_Dwarf_HeadButt_Helmet_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt_Helmet")]
+public GA_Dwarf_HeadButt_Helmet_C Default__GA_Dwarf_HeadButt_Helmet_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Durin_Set_HelmetArmor_Black_C : BP_Category_Clothing_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SkeletalMesh;
+}

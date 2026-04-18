@@ -1,0 +1,755 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBossComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Actor {
+    public ObjectProperty OnDeath;
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void IsSandbox();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorItemBase {}
+
+[Import("/Script/Moria")]
+public class MorLootUtils {
+    [UnknownSignature, FinalFunction] public sealed void BestowToHost();
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public Object OnDeathSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public MorAIBossComponent Default__MorAIBossComponent;
+
+[Import("/Script/Moria")]
+public MorLootUtils Default__MorLootUtils;
+
+[Import("/Script/Moria")]
+public MorViewTrigger Default__MorViewTrigger;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorAISenseConfig_Torch {}
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, FinalFunction] public sealed void IsActorBeingDestroyed();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_TextToString();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkSwitchValue {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/CharacterArt/Uruks/RedEye/Uruk_RedEye_Bolghak")]
+public SkeletalMesh Uruk_RedEye_Bolghak;
+
+
+[Import("/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX")]
+public NiagaraSystem NS_EnemyDespawnFX;
+
+
+[Import("/Game/Character/Orcs/Uruks/Bolgahk/DA_Bolgakh_AI")]
+public MorAISettings DA_Bolgakh_AI;
+
+
+[Import("/Game/FX/CharacterDespawn/LinearCurve")]
+public CurveFloat LinearCurve;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Items/BP_RecipeFragment_DurinsAxe")]
+public class BP_RecipeFragment_DurinsAxe_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_RecipeFragment_DurinsAxe")]
+public class Default__BP_RecipeFragment_DurinsAxe_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Bolgahk")]
+public class GE_Starting_Bolgahk_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Bolgahk")]
+public GE_Starting_Bolgahk_C Default__GE_Starting_Bolgahk_C;
+
+
+[Import("/Game/Character/Orcs/Uruks/Bolgahk/GA_Reaction_Bolgahk_Kill_F")]
+public class GA_Reaction_Bolgahk_Kill_F_C {}
+
+[Import("/Game/Character/Orcs/Uruks/Bolgahk/GA_Reaction_Bolgahk_Kill_F")]
+public GA_Reaction_Bolgahk_Kill_F_C Default__GA_Reaction_Bolgahk_Kill_F_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_R")]
+public class GA_Reaction_Orc_Stagger_R_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_R")]
+public GA_Reaction_Orc_Stagger_R_C Default__GA_Reaction_Orc_Stagger_R_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_L")]
+public class GA_Reaction_Orc_Stagger_L_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_L")]
+public GA_Reaction_Orc_Stagger_L_C Default__GA_Reaction_Orc_Stagger_L_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_F")]
+public class GA_Reaction_Orc_Stagger_F_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_F")]
+public GA_Reaction_Orc_Stagger_F_C Default__GA_Reaction_Orc_Stagger_F_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_B")]
+public class GA_Reaction_Orc_Stagger_B_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Stagger_B")]
+public GA_Reaction_Orc_Stagger_B_C Default__GA_Reaction_Orc_Stagger_B_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_R")]
+public class GA_Reaction_Orc_Light_R_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_R")]
+public GA_Reaction_Orc_Light_R_C Default__GA_Reaction_Orc_Light_R_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_L")]
+public class GA_Reaction_Orc_Light_L_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_L")]
+public GA_Reaction_Orc_Light_L_C Default__GA_Reaction_Orc_Light_L_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_F_VarB")]
+public class GA_Reaction_Orc_Light_F_VarB_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_F_VarB")]
+public GA_Reaction_Orc_Light_F_VarB_C Default__GA_Reaction_Orc_Light_F_VarB_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_F_VarA")]
+public class GA_Reaction_Orc_Light_F_VarA_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_F_VarA")]
+public GA_Reaction_Orc_Light_F_VarA_C Default__GA_Reaction_Orc_Light_F_VarA_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_B")]
+public class GA_Reaction_Orc_Light_B_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Light_B")]
+public GA_Reaction_Orc_Light_B_C Default__GA_Reaction_Orc_Light_B_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_R")]
+public class GA_Reaction_Orc_KO_R_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_R")]
+public GA_Reaction_Orc_KO_R_C Default__GA_Reaction_Orc_KO_R_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_L")]
+public class GA_Reaction_Orc_KO_L_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_L")]
+public GA_Reaction_Orc_KO_L_C Default__GA_Reaction_Orc_KO_L_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_F")]
+public class GA_Reaction_Orc_KO_F_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_F")]
+public GA_Reaction_Orc_KO_F_C Default__GA_Reaction_Orc_KO_F_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_B")]
+public class GA_Reaction_Orc_KO_B_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_KO_B")]
+public GA_Reaction_Orc_KO_B_C Default__GA_Reaction_Orc_KO_B_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_HeavyKnockback_F_VarB")]
+public class GA_Reaction_Orc_HeavyKnockback_F_VarB_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_HeavyKnockback_F_VarB")]
+public GA_Reaction_Orc_HeavyKnockback_F_VarB_C Default__GA_Reaction_Orc_HeavyKnockback_F_VarB_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_R")]
+public class GA_Reaction_Orc_Heavy_R_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_R")]
+public GA_Reaction_Orc_Heavy_R_C Default__GA_Reaction_Orc_Heavy_R_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_L")]
+public class GA_Reaction_Orc_Heavy_L_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_L")]
+public GA_Reaction_Orc_Heavy_L_C Default__GA_Reaction_Orc_Heavy_L_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_F_VarA")]
+public class GA_Reaction_Orc_Heavy_F_VarA_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_F_VarA")]
+public GA_Reaction_Orc_Heavy_F_VarA_C Default__GA_Reaction_Orc_Heavy_F_VarA_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_B")]
+public class GA_Reaction_Orc_Heavy_B_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/Reactions/GA_Reaction_Orc_Heavy_B")]
+public GA_Reaction_Orc_Heavy_B_C Default__GA_Reaction_Orc_Heavy_B_C;
+
+
+[Import("/Game/WwiseAudio/Switches/Default_Work_Unit/Beasts/Beasts-Uruk_Bolgakh")]
+public AkSwitchValue `Beasts-Uruk_Bolgakh`;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Universal/Body_Dissolve/fx_npc_uni_body_dissolve_os_play")]
+public AkAudioEvent fx_npc_uni_body_dissolve_os_play;
+
+
+[Import("/Game/Character/Orcs/Uruks/Bolgahk/BP_AIController_OrcLeader")]
+public class BP_AIController_OrcLeader_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Orcs/Uruks/Bolgahk/BP_AIController_OrcLeader")]
+public class Default__BP_AIController_OrcLeader_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Orcs/Uruks/BP_Uruk_Base")]
+public class BP_Uruk_Base_C : MorCharacter {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    [UnknownSignature] public  void GetCharacterName();
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent `Slot::Chest_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Feet_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Hands_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Head_GEN_VARIABLE`;
+    public SkeletalMeshComponent `Slot::Legs_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Shoulder_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Shoulder_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent UrukDebug_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public CustomizationManager CustomizationManager;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent Shoulder_L_Capsule;
+    public StaticMeshComponent Shoulder_R_Capsule;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public TextRenderComponent UrukDebug;
+}
+
+[Import("/Game/Character/Orcs/Uruks/BP_Uruk_Base")]
+public class Default__BP_Uruk_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Uruk_Bolgahk_C : BP_Uruk_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorViewTrigger> MorViewTrigger;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBossComponent> BossComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> Tribe;
+    [Edit, BlueprintVisible] Text Name_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> DefeatBolgakh;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> SeeBolgakh;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> LoreToGiveOnDefeat;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map SandboxItemsToGiveOnDefeat;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Uruk_Bolgahk([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MorCharacter> K2Node_ComponentBoundEvent_Character;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<Actor> K2Node_CustomEvent_DeadActor;
+        bool CallFunc_IsActorBeingDestroyed_ReturnValue;
+        Object<MorStoryManager> CallFunc_GetManager_ReturnValue_1;
+        bool CallFunc_IsSandbox_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            ExecuteUbergraph_BP_Uruk_Bolgahk_15:
+            while (true) {
+                // Block 2
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+                if (!K2Node_DynamicCast_bSuccess) break;
+
+                // Block 3
+                EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+                Default__KismetArrayLibrary.Array_Get(this.SeeBolgakh, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), K2Node_ComponentBoundEvent_Character);
+                break;
+
+            }
+
+
+            // Block 4
+            ExecuteUbergraph_BP_Uruk_Bolgahk_266: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 5
+            ExecuteUbergraph_BP_Uruk_Bolgahk_335: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.SeeBolgakh);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            if (!CallFunc_Less_IntInt_ReturnValue) break;
+
+            // Block 6
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_Uruk_Bolgahk_15;
+
+            // Block 7
+            ExecuteUbergraph_BP_Uruk_Bolgahk_474: Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_Uruk_Bolgahk_335;
+
+            // Block 8
+            ExecuteUbergraph_BP_Uruk_Bolgahk_502: EX_BindDelegate("OnDeath_Event_0", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(this.OnDeath, K2Node_CreateDelegate_OutputDelegate);
+            break;
+
+            // Block 9
+            ExecuteUbergraph_BP_Uruk_Bolgahk_545: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 10
+            Default__MorLootUtils.BestowToHost(this, this.SandboxItemsToGiveOnDefeat, EX_VectorConst(0, 0, 0));
+            break;
+
+            // Block 11
+            ExecuteUbergraph_BP_Uruk_Bolgahk_631_ReceiveBeginPlay: goto ExecuteUbergraph_BP_Uruk_Bolgahk_502;
+
+            // Block 12
+            ExecuteUbergraph_BP_Uruk_Bolgahk_636_BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_1) break;
+
+            // Block 13
+            Temp_int_Loop_Counter_Variable = 0;
+            goto ExecuteUbergraph_BP_Uruk_Bolgahk_474;
+
+            // Block 14
+            ExecuteUbergraph_BP_Uruk_Bolgahk_694_OnDeath_Event_0: CallFunc_IsActorBeingDestroyed_ReturnValue = (bool)(K2Node_CustomEvent_DeadActor.IsActorBeingDestroyed());
+
+            if (CallFunc_IsActorBeingDestroyed_ReturnValue) {
+                // Block 15
+                break;
+
+            }
+
+
+            // Block 16
+            ExecuteUbergraph_BP_Uruk_Bolgahk_751: EX_LetObj(CallFunc_GetManager_ReturnValue_1,FGKUtils.GetManager(this, MorStoryManager));
+            CallFunc_GetManager_ReturnValue_1.DiscoverStoryFragment(this.LoreToGiveOnDefeat, (byte)(0), EX_NoObject());
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+            if (!CallFunc_IsSandbox_ReturnValue) break;
+
+            // Block 17
+            goto ExecuteUbergraph_BP_Uruk_Bolgahk_545;
+
+        }
+
+
+        // Block 18
+        ExecuteUbergraph_BP_Uruk_Bolgahk_861:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnDeath_Event_0([BlueprintVisible, BlueprintReadOnly] Object<Actor> DeadActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_DeadActor", DeadActor);
+        this.ExecuteUbergraph_BP_Uruk_Bolgahk(ExecuteUbergraph_BP_Uruk_Bolgahk_694_OnDeath_Event_0);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Character", Character);
+        this.ExecuteUbergraph_BP_Uruk_Bolgahk(ExecuteUbergraph_BP_Uruk_Bolgahk_636_BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Uruk_Bolgahk(ExecuteUbergraph_BP_Uruk_Bolgahk_631_ReceiveBeginPlay);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetCharacterName([BlueprintVisible, BlueprintReadOnly] bool bUseUGC, [Return] out string ReturnValue) {
+        // Locals
+        string CallFunc_Conv_TextToString_ReturnValue;
+
+        // Block 1
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(this.Name_0);
+        ReturnValue = CallFunc_Conv_TextToString_ReturnValue;
+        return ReturnValue;
+
+    }
+
+}

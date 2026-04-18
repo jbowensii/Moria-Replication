@@ -1,0 +1,516 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBossComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorTrollTurnToStone {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public MorAIBossComponent Default__MorAIBossComponent;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorBreakBreakablesComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_TextToString();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SphereComponent Default__SphereComponent;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/CharacterArt/Creatures/Troll_King/SK_TrollKing")]
+public SkeletalMesh SK_TrollKing;
+
+
+[Import("/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX")]
+public NiagaraSystem NS_EnemyDespawnFX;
+
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/DA_TrollKing_AISettings")]
+public MorAISettings DA_TrollKing_AISettings;
+
+
+[Import("/Game/FX/CharacterDespawn/LinearCurve")]
+public CurveFloat LinearCurve;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_TrollKing")]
+public class GE_Starting_TrollKing_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_TrollKing")]
+public GE_Starting_TrollKing_C Default__GE_Starting_TrollKing_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/Abilities/GA_TrollKing_Attack_UA_Throw_Rock")]
+public class GA_TrollKing_Attack_UA_Throw_Rock_C {}
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/Abilities/GA_TrollKing_Attack_UA_Throw_Rock")]
+public GA_TrollKing_Attack_UA_Throw_Rock_C Default__GA_TrollKing_Attack_UA_Throw_Rock_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/Abilities/GA_Reaction_Troll_King_Kill")]
+public class GA_Reaction_Troll_King_Kill_C {}
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/Abilities/GA_Reaction_Troll_King_Kill")]
+public GA_Reaction_Troll_King_Kill_C Default__GA_Reaction_Troll_King_Kill_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_TrollKing_Attack_UA_Stomp")]
+public class GA_TrollKing_Attack_UA_Stomp_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_TrollKing_Attack_UA_Stomp")]
+public GA_TrollKing_Attack_UA_Stomp_C Default__GA_TrollKing_Attack_UA_Stomp_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_TrollKing_Attack_UA_Claw_R")]
+public class GA_TrollKing_Attack_UA_Claw_R_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_TrollKing_Attack_UA_Claw_R")]
+public GA_TrollKing_Attack_UA_Claw_R_C Default__GA_TrollKing_Attack_UA_Claw_R_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_TrollKing_Attack_UA_Claw_L")]
+public class GA_TrollKing_Attack_UA_Claw_L_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_TrollKing_Attack_UA_Claw_L")]
+public GA_TrollKing_Attack_UA_Claw_L_C Default__GA_TrollKing_Attack_UA_Claw_L_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_R")]
+public class GA_Reaction_Troll_Stagger_R_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_R")]
+public GA_Reaction_Troll_Stagger_R_C Default__GA_Reaction_Troll_Stagger_R_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_L")]
+public class GA_Reaction_Troll_Stagger_L_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_L")]
+public GA_Reaction_Troll_Stagger_L_C Default__GA_Reaction_Troll_Stagger_L_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_F")]
+public class GA_Reaction_Troll_Stagger_F_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_F")]
+public GA_Reaction_Troll_Stagger_F_C Default__GA_Reaction_Troll_Stagger_F_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_B")]
+public class GA_Reaction_Troll_Stagger_B_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Stagger_B")]
+public GA_Reaction_Troll_Stagger_B_C Default__GA_Reaction_Troll_Stagger_B_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_R")]
+public class GA_Reaction_Troll_Hit_Light_R_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_R")]
+public GA_Reaction_Troll_Hit_Light_R_C Default__GA_Reaction_Troll_Hit_Light_R_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_L")]
+public class GA_Reaction_Troll_Hit_Light_L_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_L")]
+public GA_Reaction_Troll_Hit_Light_L_C Default__GA_Reaction_Troll_Hit_Light_L_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_F_VarB")]
+public class GA_Reaction_Troll_Hit_Light_F_VarB_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_F_VarB")]
+public GA_Reaction_Troll_Hit_Light_F_VarB_C Default__GA_Reaction_Troll_Hit_Light_F_VarB_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_F_VarA")]
+public class GA_Reaction_Troll_Hit_Light_F_VarA_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_F_VarA")]
+public GA_Reaction_Troll_Hit_Light_F_VarA_C Default__GA_Reaction_Troll_Hit_Light_F_VarA_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_B")]
+public class GA_Reaction_Troll_Hit_Light_B_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Light_B")]
+public GA_Reaction_Troll_Hit_Light_B_C Default__GA_Reaction_Troll_Hit_Light_B_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_R")]
+public class GA_Reaction_Troll_Hit_Heavy_R_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_R")]
+public GA_Reaction_Troll_Hit_Heavy_R_C Default__GA_Reaction_Troll_Hit_Heavy_R_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_L")]
+public class GA_Reaction_Troll_Hit_Heavy_L_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_L")]
+public GA_Reaction_Troll_Hit_Heavy_L_C Default__GA_Reaction_Troll_Hit_Heavy_L_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_F_VarB")]
+public class GA_Reaction_Troll_Hit_Heavy_F_VarB_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_F_VarB")]
+public GA_Reaction_Troll_Hit_Heavy_F_VarB_C Default__GA_Reaction_Troll_Hit_Heavy_F_VarB_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_F")]
+public class GA_Reaction_Troll_Hit_Heavy_F_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_F")]
+public GA_Reaction_Troll_Hit_Heavy_F_C Default__GA_Reaction_Troll_Hit_Heavy_F_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_B")]
+public class GA_Reaction_Troll_Hit_Heavy_B_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_Reaction_Troll_Hit_Heavy_B")]
+public GA_Reaction_Troll_Hit_Heavy_B_C Default__GA_Reaction_Troll_Hit_Heavy_B_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/BP_TrollKing_AIController")]
+public class BP_TrollKing_AIController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/BP_TrollKing_AIController")]
+public class Default__BP_TrollKing_AIController_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Orcs/Trolls/BP_Troll_Base")]
+public class BP_Troll_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    [UnknownSignature] public  void GetCharacterName();
+    [UnknownSignature] public  void ReceiveBeginPlay();
+    public MorBreakBreakablesComponent MorBreakBreakables_GEN_VARIABLE;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler_GEN_VARIABLE;
+    public MorTrollTurnToStone MorTrollTurnToStone_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Hand_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Hand_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Shoulder_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Shoulder_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent DebugNameTag_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorBreakBreakablesComponent MorBreakBreakables;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler;
+    public MorTrollTurnToStone MorTrollTurnToStone;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent Hand_L_Capsule;
+    public StaticMeshComponent Hand_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent Shoulder_L_Capsule;
+    public StaticMeshComponent Shoulder_R_Capsule;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public TextRenderComponent DebugNameTag;
+}
+
+[Import("/Game/Character/Orcs/Trolls/BP_Troll_Base")]
+public class Default__BP_Troll_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Troll_TrollKing_C : BP_Troll_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> NoBuildingZone;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBossComponent> MorAIBoss;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> Tribe;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text Name_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> TrollKingisDead;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Lore to Complete`;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Troll_TrollKing([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Troll_TrollKing_10_ReceiveBeginPlay:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Troll_TrollKing(ExecuteUbergraph_BP_Troll_TrollKing_10_ReceiveBeginPlay);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetCharacterName([BlueprintVisible, BlueprintReadOnly] bool bUseUGC, [Return] out string ReturnValue) {
+        // Locals
+        string CallFunc_Conv_TextToString_ReturnValue;
+
+        // Block 1
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(this.Name_0);
+        ReturnValue = CallFunc_Conv_TextToString_ReturnValue;
+        return ReturnValue;
+
+    }
+
+}

@@ -1,0 +1,92 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_Items_LegForge_Part3")]
+public Texture2D T_UI_Icon_Items_LegForge_Part3;
+
+
+[Import("/Game/Environments/Models/ForgeComplex/Meshes/SM_Ram_Winch_Horn")]
+public StaticMesh SM_Ram_Winch_Horn;
+
+
+[Import("/Game/Items/BP_Category_UnstorableHeavy")]
+public class BP_Category_UnstorableHeavy_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_UnstorableHeavy")]
+public class Default__BP_Category_UnstorableHeavy_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Heavy_Forge3_Nogrod_C : BP_Category_UnstorableHeavy_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_Ram_Winch_Horn;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> GripPoint;
+}

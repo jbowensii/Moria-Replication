@@ -1,0 +1,261 @@
+
+[Import("/Script/Moria")]
+public class MoriaProjectileShadow {
+    [UnknownSignature, VirtualFunction] public virtual void GetActorEyesViewPoint();
+}
+
+[Import("/Script/Moria")]
+public class MorProjectileMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFogEmitterComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowNiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowProximityFXComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MoriaProjectileShadow {
+    public Object AkComponent;
+    public Object ProjectileMovement;
+    public Object EmitterComponent;
+    public Object ShadowNiagaraComponent;
+    public Object ProximityFXComponent;
+    public Object RootComponent;
+    public Object Mesh;
+}
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFluidComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ActorComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEventAtLocation();
+}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Unshippable/Whitebox/Rocks/Meshes/PWM_Quarry_1X1x1_C")]
+public StaticMesh PWM_Quarry_1X1x1_C;
+
+
+[Import("/Game/FX/dirt/particles/NS_dirt_lift_boulder")]
+public NiagaraSystem NS_dirt_lift_boulder;
+
+
+[Import("/Game/FX/CombatFX/Projectiles/Troll_Throwables/Niagara/NS_TrollKing_Burst")]
+public NiagaraSystem NS_TrollKing_Burst;
+
+
+[Import("/Game/FX/CombatFX/Projectiles/Troll_Throwables/Niagara/NS_TrollKing_BoulderThrowFX1_Trail")]
+public NiagaraSystem NS_TrollKing_BoulderThrowFX1_Trail;
+
+
+[Import("/Game/FX/CombatFX/Projectiles/Troll_Throwables/Materials/M_TrollKing_ShadowBoulder")]
+public Material M_TrollKing_ShadowBoulder;
+
+
+[Import("/Game/Items/Weapons/GE_TrollKing_BoulderDirectHit")]
+public class GE_TrollKing_BoulderDirectHit_C {}
+
+[Import("/Game/Items/Weapons/GE_TrollKing_BoulderDirectHit")]
+public GE_TrollKing_BoulderDirectHit_C Default__GE_TrollKing_BoulderDirectHit_C;
+
+
+[Import("/Game/Items/Weapons/GE_TrollKing_BoulderBurstHit")]
+public class GE_TrollKing_BoulderBurstHit_C {}
+
+[Import("/Game/Items/Weapons/GE_TrollKing_BoulderBurstHit")]
+public GE_TrollKing_BoulderBurstHit_C Default__GE_TrollKing_BoulderBurstHit_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/BP_TrollKing_ShadowVent")]
+public class BP_TrollKing_ShadowVent_C {
+    public AkComponent VentSound_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public DecalComponent Decal_0_GEN_VARIABLE;
+    public MorShadowFluidComponent MorShadowFluid_GEN_VARIABLE;
+    public MorShadowFogEmitterComponent MorShadowFogEmitter_GEN_VARIABLE;
+    public MorShadowNiagaraComponent MorShadowNiagara_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Scene_GEN_VARIABLE;
+    public SphereComponent ShadowFogPoisonRadius_GEN_VARIABLE;
+    public StaticMeshComponent GPI_ShadowVent_All_A_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_Pile_I_GEN_VARIABLE;
+    public TimelineTemplate Fissures_Template;
+    public AkComponent VentSound;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public DecalComponent Decal_0;
+    public MorShadowFluidComponent MorShadowFluid;
+    public MorShadowFogEmitterComponent MorShadowFogEmitter;
+    public MorShadowNiagaraComponent MorShadowNiagara;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Scene;
+    public SphereComponent ShadowFogPoisonRadius;
+    public StaticMeshComponent GPI_ShadowVent_All_A;
+    public StaticMeshComponent Rubble_Masonry_Pile_I;
+}
+
+[Import("/Game/Character/Orcs/Trolls/TrollKing/BP_TrollKing_ShadowVent")]
+public class Default__BP_TrollKing_ShadowVent_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Troll_King/fx_npc_troll_king_attack_boulder_impact_play")]
+public AkAudioEvent fx_npc_troll_king_attack_boulder_impact_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Troll_King/fx_npc_troll_king_attack_boulder_fly_stop_play")]
+public AkAudioEvent fx_npc_troll_king_attack_boulder_fly_stop_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Troll_King/fx_npc_troll_king_attack_boulder_fly_lp_play")]
+public AkAudioEvent fx_npc_troll_king_attack_boulder_fly_lp_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Projectile_TrollKing_Boulder_C : MoriaProjectileShadow {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Projectile_TrollKing_Boulder([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        [InstancedReference] Object<ActorComponent> K2Node_ComponentBoundEvent_Component;
+        Struct<Vector> CallFunc_GetActorEyesViewPoint_OutLocation;
+        Struct<Rotator> CallFunc_GetActorEyesViewPoint_OutRotation;
+        int CallFunc_PostEventAtLocation_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Projectile_TrollKing_Boulder_10_BndEvt__BP_Projectile_TrollKing_Boulder_ProjectileMovementComponent_K2Node_ComponentBoundEvent_3_ActorComponentDeactivateSignature__DelegateSignature: this.GetActorEyesViewPoint(CallFunc_GetActorEyesViewPoint_OutLocation, CallFunc_GetActorEyesViewPoint_OutRotation);
+        CallFunc_PostEventAtLocation_ReturnValue = Default__AkGameplayStatics.PostEventAtLocation(fx_npc_troll_king_attack_boulder_impact_play, CallFunc_GetActorEyesViewPoint_OutLocation, EX_RotationConst(0, 0, 0), "", this);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Projectile_TrollKing_Boulder_ProjectileMovementComponent_K2Node_ComponentBoundEvent_3_ActorComponentDeactivateSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<ActorComponent> Component) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Component", Component);
+        this.ExecuteUbergraph_BP_Projectile_TrollKing_Boulder(ExecuteUbergraph_BP_Projectile_TrollKing_Boulder_10_BndEvt__BP_Projectile_TrollKing_Boulder_ProjectileMovementComponent_K2Node_ComponentBoundEvent_3_ActorComponentDeactivateSignature__DelegateSignature);
+
+    }
+
+}

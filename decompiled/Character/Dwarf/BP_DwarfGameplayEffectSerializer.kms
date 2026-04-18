@@ -1,0 +1,28 @@
+
+[Import("/Script/Moria")]
+public class MorGameplayEffectSerializerComp {}
+
+[Import("/Script/Moria")]
+public MorGameplayEffectSerializerComp Default__MorGameplayEffectSerializerComp;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class BP_DwarfGameplayEffectSerializer_C : MorGameplayEffectSerializerComp {
+}

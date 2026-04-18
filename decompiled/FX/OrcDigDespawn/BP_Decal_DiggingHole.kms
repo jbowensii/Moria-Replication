@@ -1,0 +1,184 @@
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class DecalActor {
+    public AnonymousClass_825b588f25944a22aee0893fbf73c063 Decal;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public class Default__DecalActor {
+    public Object NewDecalComponent;
+}
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class AnonymousClass_825b588f25944a22aee0893fbf73c063 {
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Game/FX/OrcDigDespawn/M_Decal_DiggingHole")]
+public Material M_Decal_DiggingHole;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Decal_DiggingHole_C : DecalActor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    float Timeline_0_HoleDissolve_0D7F7CE344F2E1D1E070708F22557E01;
+    float Timeline_0_Despawn_0D7F7CE344F2E1D1E070708F22557E01;
+    byte Timeline_0__Direction_0D7F7CE344F2E1D1E070708F22557E01;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Decal_DiggingHole([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Decal_DiggingHole_10: this.K2_DestroyActor();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Decal_DiggingHole_29_Timeline_0__FinishedFunc: goto ExecuteUbergraph_BP_Decal_DiggingHole_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_Decal_DiggingHole_34_Timeline_0__UpdateFunc: CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Circle SmoothStep"), this.Timeline_0_HoleDissolve_0D7F7CE344F2E1D1E070708F22557E01);
+        return;
+
+        // Block 5
+        ExecuteUbergraph_BP_Decal_DiggingHole_93: this.Timeline_0.PlayFromStart();
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_Decal_DiggingHole_130_ReceiveBeginPlay: EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,this.Decal.CreateDynamicMaterialInstance());
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Circle SmoothStep"), 5f);
+        goto ExecuteUbergraph_BP_Decal_DiggingHole_93;
+
+        // Block 7
+        ExecuteUbergraph_BP_Decal_DiggingHole_231:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Decal_DiggingHole(ExecuteUbergraph_BP_Decal_DiggingHole_130_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Decal_DiggingHole(ExecuteUbergraph_BP_Decal_DiggingHole_34_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Decal_DiggingHole(ExecuteUbergraph_BP_Decal_DiggingHole_29_Timeline_0__FinishedFunc);
+
+    }
+
+}

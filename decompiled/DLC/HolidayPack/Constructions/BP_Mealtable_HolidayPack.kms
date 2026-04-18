@@ -1,0 +1,289 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent_Meal {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public ChildActorComponent Default__ChildActorComponent;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_NYP_Furniture_02_Candle_07")]
+public StaticMesh SM_NYP_Furniture_02_Candle_07;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_NYP_Christmastree_Wreath")]
+public StaticMesh SM_NYP_Christmastree_Wreath;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_HolidayPack_Table")]
+public StaticMesh SM_HolidayPack_Table;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Tavern/Tavern_Plate_A")]
+public StaticMesh Tavern_Plate_A;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Shop/Shop_Pottery_Small_D")]
+public StaticMesh Shop_Pottery_Small_D;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Shop/Shop_Pottery_Small_B_A")]
+public StaticMesh Shop_Pottery_Small_B_A;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Materials/MI_NYP_Furniture_02_Candles")]
+public MaterialInstanceConstant MI_NYP_Furniture_02_Candles;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Materials/MI_NYP_Christmastree")]
+public MaterialInstanceConstant MI_NYP_Christmastree;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Tavern/Materials/Tavern_Scatter_Plate/MI_Tavern_Scatter_Plate")]
+public MaterialInstanceConstant MI_Tavern_Scatter_Plate;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Shop/Materials/Shop_Pottery/MI_Shop_Pottery_B")]
+public MaterialInstanceConstant MI_Shop_Pottery_B;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Shop/Materials/Shop_Pottery/MI_Shop_Pottery")]
+public MaterialInstanceConstant MI_Shop_Pottery;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_Mealtable")]
+public class BP_MealTable_C {
+    public BoxComponent Box_GEN_VARIABLE;
+    public BoxComponent Box_NavAreaFurniture_GEN_VARIABLE;
+    public ChildActorComponent ChildActor1_GEN_VARIABLE;
+    public ChildActorComponent ChildActor2_GEN_VARIABLE;
+    public ChildActorComponent ChildActor_GEN_VARIABLE;
+    public FGKActorFSMComponent FGKActorFSM_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint1_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint2_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint3_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_01_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_02_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_03_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_04_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_05_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_06_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_07_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_08_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableFXComponent MorBreakableFX_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public MorConstructionSnapComponent MorConstructionSnap_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public NiagaraComponent NS_CandleFlame_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent MealSpawnPoints_GEN_VARIABLE;
+    public SceneComponent RSVP_Root_GEN_VARIABLE;
+    public SceneComponent TextRoot_GEN_VARIABLE;
+    public StaticMeshComponent CandleStand_GEN_VARIABLE;
+    public StaticMeshComponent RSVP_Card_Side1_GEN_VARIABLE;
+    public StaticMeshComponent RSVP_Card_Side_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_single_rock_05_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_single_rock_10_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_single_rock_11_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_single_rock_17_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_single_rock_21_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh1_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh2_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh3_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh4_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh5_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh6_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh7_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh8_GEN_VARIABLE;
+    public TextRenderComponent RSVP_Text1_GEN_VARIABLE;
+    public TextRenderComponent RSVP_Text2_GEN_VARIABLE;
+    public WidgetComponent Widget_MealReady_GEN_VARIABLE;
+    public BoxComponent Box;
+    public BoxComponent Box_NavAreaFurniture;
+    public ChildActorComponent ChildActor1;
+    public ChildActorComponent ChildActor2;
+    public ChildActorComponent ChildActor;
+    public FGKActorFSMComponent FGKActorFSM;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint1;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint2;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint3;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_01;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_02;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_03;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_04;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_05;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_06;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_07;
+    public MorAIBehaviorPointComponent_Meal BehaviorPoint_Meal_08;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableFXComponent MorBreakableFX;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public MorConstructionSnapComponent MorConstructionSnap;
+    public MorPointLightComponent MorPointLight;
+    public NiagaraComponent NS_CandleFlame;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent MealSpawnPoints;
+    public SceneComponent RSVP_Root;
+    public SceneComponent TextRoot;
+    public StaticMeshComponent CandleStand;
+    public StaticMeshComponent RSVP_Card_Side1;
+    public StaticMeshComponent RSVP_Card_Side;
+    public StaticMeshComponent Rubble_Masonry_single_rock_05;
+    public StaticMeshComponent Rubble_Masonry_single_rock_10;
+    public StaticMeshComponent Rubble_Masonry_single_rock_11;
+    public StaticMeshComponent Rubble_Masonry_single_rock_17;
+    public StaticMeshComponent Rubble_Masonry_single_rock_21;
+    public StaticMeshComponent StaticMesh1;
+    public StaticMeshComponent StaticMesh2;
+    public StaticMeshComponent StaticMesh3;
+    public StaticMeshComponent StaticMesh4;
+    public StaticMeshComponent StaticMesh5;
+    public StaticMeshComponent StaticMesh6;
+    public StaticMeshComponent StaticMesh7;
+    public StaticMeshComponent StaticMesh8;
+    public TextRenderComponent RSVP_Text1;
+    public TextRenderComponent RSVP_Text2;
+    public WidgetComponent Widget_MealReady;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_Mealtable")]
+public class Default__BP_MealTable_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComp;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Unshippable/ThirdParty/Lordenfel/Environment/Architecture/Decals/A_Leakes_05_Decal")]
+public class Default__A_Leakes_05_Decal_C {
+    public DecalComponent NewDecalComponent;
+}
+
+[Import("/Game/Unshippable/ThirdParty/Lordenfel/Environment/Architecture/Decals/A_Leakes_05_Decal")]
+public class A_Leakes_05_Decal_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Mealtable_HolidayPack_C : BP_MealTable_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece9;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece8;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece7;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> A_Leakes_05_Decal;
+}

@@ -1,0 +1,250 @@
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorAISense_Torch {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+[Import("/Script/Moria")]
+public class MorThrowLight : Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetDurationSeconds();
+    [UnknownSignature, FinalFunction] public sealed void SetState();
+}
+
+[Import("/Script/Moria")]
+public class MorTorchComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetAttachedActors();
+    [UnknownSignature, FinalFunction] public sealed void GetComponentByClass();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveTick();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AIModule")]
+public AIPerceptionStimuliSourceComponent Default__AIPerceptionStimuliSourceComponent;
+
+[Import("/Script/AIModule")]
+public class AIPerceptionStimuliSourceComponent {
+    [UnknownSignature, FinalFunction] public sealed void RegisterWithPerceptionSystem();
+}
+
+
+[Import("/Game/Items/BP_DropItem")]
+public class BP_DropItem_C : Actor {
+    public MorAIBehaviorPointComponent PickupBehavior_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public MorAIBehaviorPointComponent PickupBehavior;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, VirtualFunction] public virtual void SetLifeSpan();
+}
+
+[Import("/Game/Items/BP_DropItem")]
+public class Default__BP_DropItem_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DropItem_ThrowLight_C : BP_DropItem_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AIPerceptionStimuliSourceComponent> AIPerceptionStimuliSource;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool bIsInitialized;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_DropItem_ThrowLight([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        float K2Node_Event_DeltaSeconds;
+        ref Array<Object<Actor>> CallFunc_GetAttachedActors_OutActors;
+        Object<Actor> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<MorThrowLight> K2Node_DynamicCast_AsMor_Throw_Light;
+        bool K2Node_DynamicCast_bSuccess;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        [InstancedReference] Object<MorTorchComponent> CallFunc_GetComponentByClass_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        float CallFunc_GetDurationSeconds_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_DropItem_ThrowLight_15: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 3
+            CallFunc_GetDurationSeconds_ReturnValue = K2Node_DynamicCast_AsMor_Throw_Light.GetDurationSeconds();
+            this.SetLifeSpan(CallFunc_GetDurationSeconds_ReturnValue);
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_DropItem_ThrowLight_119_ReceiveTick: base.ReceiveTick(K2Node_Event_DeltaSeconds);
+
+            if (this.bIsInitialized) {
+                // Block 5
+                break;
+
+            }
+
+
+            // Block 6
+            ExecuteUbergraph_BP_DropItem_ThrowLight_153: CallFunc_GetAttachedActors_OutActors = new[] {};
+            this.GetAttachedActors(CallFunc_GetAttachedActors_OutActors, true);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAttachedActors_OutActors);
+            CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Array_Length_ReturnValue, 0));
+            if (!CallFunc_Greater_IntInt_ReturnValue) break;
+
+            // Block 7
+            CallFunc_GetAttachedActors_OutActors = new[] {};
+            this.GetAttachedActors(CallFunc_GetAttachedActors_OutActors, true);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAttachedActors_OutActors, 0, CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_AsMor_Throw_Light = EX_DynamicCast("MorThrowLight", CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Throw_Light);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            while (true) {
+                // Block 8
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_DropItem_ThrowLight_15);
+
+                // Block 9
+                this.bIsInitialized = (bool)(true);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 10
+            ExecuteUbergraph_BP_DropItem_ThrowLight_470: K2Node_DynamicCast_AsMor_Throw_Light.SetState((byte)(3));
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_DynamicCast_AsMor_Throw_Light.GetComponentByClass(MorTorchComponent));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetComponentByClass_ReturnValue));
+            if (!CallFunc_IsValid_ReturnValue) break;
+
+            // Block 11
+            this.AIPerceptionStimuliSource.RegisterWithPerceptionSystem();
+            break;
+
+        }
+
+
+        // Block 12
+        ExecuteUbergraph_BP_DropItem_ThrowLight_627:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_DropItem_ThrowLight(ExecuteUbergraph_BP_DropItem_ThrowLight_119_ReceiveTick);
+
+    }
+
+}

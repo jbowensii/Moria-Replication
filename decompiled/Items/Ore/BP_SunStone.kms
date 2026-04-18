@@ -1,0 +1,434 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_AddUnique();
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Lerp();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+}
+
+[Import("/Script/Engine")]
+public class LightComponentBase : LightComponent {
+    public ObjectProperty Intensity;
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstance {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent : LightComponentBase {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetChildrenComponents();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_Items_Ore_Sunstone")]
+public Texture2D T_UI_Icon_Items_Ore_Sunstone;
+
+
+[Import("/Game/Tech/Data/StringTables/Items")]
+public StringTable Items;
+
+
+[Import("/Game/Unshippable/ThirdParty/MineralsPack/Meshes/quartz_quartz_big")]
+public StaticMesh quartz_quartz_big;
+
+
+[Import("/Game/FX/CrystalFX/MI_SunstonePickup")]
+public MaterialInstanceConstant MI_SunstonePickup;
+
+
+[Import("/Game/Items/BP_Category_Ore")]
+public class BP_Category_Ore_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Ore")]
+public class Default__BP_Category_Ore_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/Ore/vx_temp_callout_sunstone_play")]
+public AkAudioEvent vx_temp_callout_sunstone_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Foley/fx_plr_gatherore_01_play")]
+public AkAudioEvent fx_plr_gatherore_01_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_SunStone_C : BP_Category_Ore_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Mesh;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> Light_Crystal2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> Light_Crystal3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> Light_Crystal1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> Light_Crystal6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> Light_Crystal5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> Light_Crystal4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLight_LightCasting;
+    float Timeline_0_Time_508AF3CB4BADF96C771B908E2CE6AB4D;
+    byte Timeline_0__Direction_508AF3CB4BADF96C771B908E2CE6AB4D;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstance> CrystalMaterial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> CrystalDynamicMaterial;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<PointLightComponent>> CrystalLights;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float `CrystalLight Brightness Final`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float `CastingLight Brightness Level Final`;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_SunStone([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_SunStone_15: KismetSystemLibrary.Delay(this, 0.5f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(70), 465311141, EX_NameConst("ExecuteUbergraph_BP_SunStone"), this));
+            break;
+
+            // Block 3
+            this.Timeline_0.PlayFromStart();
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_SunStone_103_Timeline_0__FinishedFunc: this.Mesh.SetMaterial(0, this.CrystalMaterial);
+            EX_LetObj(this.CrystalDynamicMaterial,EX_NoObject());
+            break;
+
+            // Block 5
+            ExecuteUbergraph_BP_SunStone_165_Timeline_0__UpdateFunc: this.SetLightingValues(this.Timeline_0_Time_508AF3CB4BADF96C771B908E2CE6AB4D, 0f, this.`CrystalLight Brightness Final`, 0f, 1f, 0f, this.`CastingLight Brightness Level Final`);
+            break;
+
+            // Block 6
+            ExecuteUbergraph_BP_SunStone_227: this.CrystalDynamicMaterial.SetScalarParameterValue(EX_NameConst("Overall Glow Amount"), 0f);
+            this.`CastingLight Brightness Level Final` = this.PointLight_LightCasting.Intensity;
+            this.PointLight_LightCasting.SetIntensity(0f);
+            goto ExecuteUbergraph_BP_SunStone_15;
+
+            // Block 7
+            ExecuteUbergraph_BP_SunStone_368: this.`Get Crystal Lights`();
+            this.SetCrystalLightsBrightness(0f);
+            EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,this.Mesh.CreateDynamicMaterialInstance(0, this.CrystalMaterial, EX_NameConst("None")));
+            EX_LetObj(this.CrystalDynamicMaterial,CallFunc_CreateDynamicMaterialInstance_ReturnValue);
+            goto ExecuteUbergraph_BP_SunStone_227;
+
+            // Block 8
+            ExecuteUbergraph_BP_SunStone_498_ReceiveBeginPlay: goto ExecuteUbergraph_BP_SunStone_368;
+
+        }
+
+
+        // Block 9
+        ExecuteUbergraph_BP_SunStone_503:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_SunStone(ExecuteUbergraph_BP_SunStone_498_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_SunStone(ExecuteUbergraph_BP_SunStone_165_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_SunStone(ExecuteUbergraph_BP_SunStone_103_Timeline_0__FinishedFunc);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void `Get Crystal Lights`() {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        [InstancedReference] Object<PointLightComponent> CallFunc_Array_Get_Item;
+        [ContainsInstancedReference] ref Array<Object<SceneComponent>> CallFunc_GetChildrenComponents_Children;
+        bool CallFunc_IsValid_ReturnValue;
+        [InstancedReference] Object<SceneComponent> CallFunc_Array_Get_Item_1;
+        [InstancedReference] Object<PointLightComponent> K2Node_DynamicCast_AsPoint_Light_Component;
+        bool K2Node_DynamicCast_bSuccess;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Array_AddUnique_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            `Get Crystal Lights_51`: CallFunc_GetChildrenComponents_Children = new[] {};
+            this.Mesh.GetChildrenComponents(false, CallFunc_GetChildrenComponents_Children);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetChildrenComponents_Children);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(`Get Crystal Lights_702`);
+
+                // Block 4
+                CallFunc_GetChildrenComponents_Children = new[] {};
+                this.Mesh.GetChildrenComponents(false, CallFunc_GetChildrenComponents_Children);
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetChildrenComponents_Children, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item_1);
+                K2Node_DynamicCast_AsPoint_Light_Component = EX_DynamicCast("PointLightComponent", CallFunc_Array_Get_Item_1);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsPoint_Light_Component);
+                EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+                // Block 5
+                CallFunc_Array_AddUnique_ReturnValue = Default__KismetArrayLibrary.Array_AddUnique(this.CrystalLights, K2Node_DynamicCast_AsPoint_Light_Component);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 6
+            `Get Crystal Lights_503`: Default__KismetArrayLibrary.Array_Get(this.CrystalLights, 0, CallFunc_Array_Get_Item);
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_Array_Get_Item));
+            if (!CallFunc_IsValid_ReturnValue) break;
+
+            // Block 7
+            Default__KismetArrayLibrary.Array_Get(this.CrystalLights, 0, CallFunc_Array_Get_Item);
+            this.`CrystalLight Brightness Final` = CallFunc_Array_Get_Item.Intensity;
+            break;
+
+            // Block 8
+            `Get Crystal Lights_702`: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto `Get Crystal Lights_51`;
+
+        }
+
+
+        // Block 9
+        `Get Crystal Lights_776`:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetCrystalLightsBrightness([BlueprintVisible, BlueprintReadOnly] float Brightness) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        [InstancedReference] Object<PointLightComponent> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            SetCrystalLightsBrightness_51: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.CrystalLights);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 3
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(SetCrystalLightsBrightness_291);
+
+            // Block 4
+            Default__KismetArrayLibrary.Array_Get(this.CrystalLights, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Array_Get_Item.SetIntensity(Brightness);
+            EX_PopExecutionFlow();
+
+            // Block 5
+            SetCrystalLightsBrightness_291: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto SetCrystalLightsBrightness_51;
+
+        }
+
+
+        // Block 6
+        SetCrystalLightsBrightness_365:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetLightingValues([BlueprintVisible, BlueprintReadOnly] float `Lerp Alpha`, [BlueprintVisible, BlueprintReadOnly] float `CrystalLight Brightness Start`, [BlueprintVisible, BlueprintReadOnly] float `CrystalLight Brightness End`, [BlueprintVisible, BlueprintReadOnly] float `Crystal Emission Start`, [BlueprintVisible, BlueprintReadOnly] float `Crystal Emission End`, [BlueprintVisible, BlueprintReadOnly] float `CastingLight Brightness Start`, [BlueprintVisible, BlueprintReadOnly] float `CastingLight Brightness End`) {
+        // Locals
+        float CallFunc_Lerp_ReturnValue;
+        float CallFunc_Lerp_ReturnValue_1;
+        float CallFunc_Lerp_ReturnValue_2;
+
+        // Block 1
+        CallFunc_Lerp_ReturnValue_2 = KismetMathLibrary.Lerp(`CrystalLight Brightness Start`, `CrystalLight Brightness End`, `Lerp Alpha`);
+        this.SetCrystalLightsBrightness(CallFunc_Lerp_ReturnValue_2);
+        CallFunc_Lerp_ReturnValue_1 = KismetMathLibrary.Lerp(`Crystal Emission Start`, `Crystal Emission End`, `Lerp Alpha`);
+        this.CrystalDynamicMaterial.SetScalarParameterValue(EX_NameConst("Overall Glow Amount"), CallFunc_Lerp_ReturnValue_1);
+        CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(`CastingLight Brightness Start`, `CastingLight Brightness End`, `Lerp Alpha`);
+        this.PointLight_LightCasting.SetIntensity(CallFunc_Lerp_ReturnValue);
+
+    }
+
+}

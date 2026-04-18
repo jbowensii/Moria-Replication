@@ -1,0 +1,220 @@
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {
+    public LightComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class CurveLinearColor {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Game/FX/CombatFX/Combat_HitFX/DamageTypes/BPs/ColorCurve_HitFire")]
+public CurveLinearColor ColorCurve_HitFire;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_HitLight_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    Struct<LinearColor> LightTime_ColorCurve_HitFire_95A9C8CD45E5492012C80BA2A2EF952C;
+    float LightTime_LightIntensity_95A9C8CD45E5492012C80BA2A2EF952C;
+    byte LightTime__Direction_95A9C8CD45E5492012C80BA2A2EF952C;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> LightTime;
+    [Edit, BlueprintVisible] float LightIntensity;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_HitLight([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_HitLight_15: KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(70), -458737330, EX_NameConst("ExecuteUbergraph_BP_HitLight"), this));
+            break;
+
+            // Block 3
+            this.LightTime.PlayFromStart();
+            break;
+
+            // Block 4
+            this.K2_DestroyActor();
+            break;
+
+            // Block 5
+            ExecuteUbergraph_BP_HitLight_118_LightTime__FinishedFunc: KismetSystemLibrary.Delay(this, 0.05f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(103), -2010972771, EX_NameConst("ExecuteUbergraph_BP_HitLight"), this));
+            break;
+
+            // Block 6
+            ExecuteUbergraph_BP_HitLight_173_LightTime__UpdateFunc: CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.LightTime_LightIntensity_95A9C8CD45E5492012C80BA2A2EF952C, this.LightIntensity);
+            this.MorPointLight.PointLight.SetIntensity(CallFunc_Multiply_FloatFloat_ReturnValue);
+            break;
+
+            // Block 7
+            ExecuteUbergraph_BP_HitLight_283_ReceiveBeginPlay: goto ExecuteUbergraph_BP_HitLight_15;
+
+        }
+
+
+        // Block 8
+        ExecuteUbergraph_BP_HitLight_288:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_HitLight(ExecuteUbergraph_BP_HitLight_283_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void LightTime__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_HitLight(ExecuteUbergraph_BP_HitLight_173_LightTime__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void LightTime__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_HitLight(ExecuteUbergraph_BP_HitLight_118_LightTime__FinishedFunc);
+
+    }
+
+}

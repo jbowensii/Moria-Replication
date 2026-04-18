@@ -1,0 +1,97 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class MorCamsWaterfallLightingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/FX/Waterfall/Materials/M_CamsWaterfall2_CityNexus_LargeCustom1")]
+public MaterialInstanceConstant M_CamsWaterfall2_CityNexus_LargeCustom1;
+
+
+[Import("/Game/FX/Waterfall/BP_CamsWaterfall_Large")]
+public class BP_CamsWaterfall_Large_C {
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent FN_WaterfallMesh1_GEN_VARIABLE;
+    public NiagaraComponent Niagara;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent FN_WaterfallMesh1;
+}
+
+[Import("/Game/FX/Waterfall/BP_CamsWaterfall_Large")]
+public class Default__BP_CamsWaterfall_Large_C {
+    public MorCamsWaterfallLightingComponent WaterfallLightingComponent;
+}
+
+
+[Import("/Game/FX/Waterfall/BP_CamsWaterfall")]
+public class BP_CamsWaterfall_C {
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Scene_GEN_VARIABLE;
+    public StaticMeshComponent FN_WaterfallMesh1_GEN_VARIABLE;
+    public NiagaraComponent Niagara;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Scene;
+    public StaticMeshComponent FN_WaterfallMesh1;
+}
+
+[Import("/Game/FX/Waterfall/BP_CamsWaterfall")]
+public class Default__BP_CamsWaterfall_C {
+    public MorCamsWaterfallLightingComponent WaterfallLightingComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CamsWaterfall_Large_CityNexusCustom_C : BP_CamsWaterfall_Large_C {
+}

@@ -1,0 +1,77 @@
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TargetPoint {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class Default__TargetPoint {
+    public Object SceneComp;
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/CavernShaft_FellBeast_BehaviorStates/BSt_CavernShaft_FellBeastPoint")]
+public class BSt_CavernShaft_FellBeastPoint_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/CavernShaft_FellBeast_BehaviorStates/BSt_CavernShaft_FellBeastPoint")]
+public class Default__BSt_CavernShaft_FellBeastPoint_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CavernShaft_BehaviorPoint_C : TargetPoint {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> FellBeast_MoveToPoint;
+}

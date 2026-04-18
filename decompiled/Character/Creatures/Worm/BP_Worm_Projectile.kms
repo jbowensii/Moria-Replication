@@ -1,0 +1,86 @@
+
+[Import("/Script/Moria")]
+public class MorProjectileMovementComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Items/Weapons/GE_UnarmedAttack100")]
+public class GE_UnarmedAttack100_C {}
+
+[Import("/Game/Items/Weapons/GE_UnarmedAttack100")]
+public GE_UnarmedAttack100_C Default__GE_UnarmedAttack100_C;
+
+
+[Import("/Game/Items/Weapons/BP_Projectile_Base")]
+public class BP_Projectile_Base_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Weapons/BP_Projectile_Base")]
+public class Default__BP_Projectile_Base_C {
+    public AkComponent AkComponent;
+    public MorProjectileMovementComponent ProjectileMovement;
+    public SphereComponent RootComponent;
+    public StaticMeshComponent Mesh;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Elementals/fx_plr_wpn_elemental_impact_corrosive_play")]
+public AkAudioEvent fx_plr_wpn_elemental_impact_corrosive_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Worm_Projectile_C : BP_Projectile_Base_C {
+}

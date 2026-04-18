@@ -1,0 +1,859 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/MovieScene")]
+public class MovieSceneSequencePlayer {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+}
+
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractable : Actor {
+    public Object OnLoadedFromSave;
+    [UnknownSignature, FinalFunction] public sealed void SetWasActivated();
+    [UnknownSignature, FinalFunction] public sealed void SetWasPaid();
+    [UnknownSignature, FinalFunction] public sealed void WasActivated();
+}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgress();
+    [UnknownSignature, FinalFunction] public sealed void SetProgress();
+}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public class MorInteractable : MorChallengeInteractable {
+    [UnknownSignature, FinalFunction] public sealed void SetIsInteractive();
+    public ObjectProperty LastInteractor;
+}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+[Import("/Script/Moria")]
+public class MorPostActivateActorInitializer {}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class MorWaypointsManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverWaypointByRowHandle();
+}
+
+[Import("/Script/Moria")]
+public MorInteractionPoint Default__MorInteractionPoint;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorWaypointRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorZoneRowHandle;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractableCondition_PartsCompleted {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractableCondition_WasActivated {}
+
+[Import("/Script/Moria")]
+public class MorSetupChallengeComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class UMorChallengeInteractableCondition_IsStateLoaded {}
+
+
+[Import("/Script/LevelSequence")]
+public class LevelSequenceActor {
+    [UnknownSignature, FinalFunction] public sealed void GetSequencePlayer();
+}
+
+[Import("/Script/LevelSequence")]
+public class LevelSequencePlayer : MovieSceneSequencePlayer {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorLocation();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void BreakRotator();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MakeRotator();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_SetRelativeRotation();
+    public ObjectProperty RelativeRotation;
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MulticastInlineDelegateProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/Challenges")]
+public StringTable Challenges;
+
+
+[Import("/Game/Environments/Models/ForgeComplex/Meshes/SM_Lever_B")]
+public StaticMesh SM_Lever_B;
+
+
+[Import("/Game/Environments/Models/ForgeComplex/Meshes/SM_Lever_A")]
+public StaticMesh SM_Lever_A;
+
+
+[Import("/Game/Environments/Models/ForgeComplex/Materials/MI_GearStation")]
+public MaterialInstanceConstant MI_GearStation;
+
+
+[Import("/Game/Tech/Managers/BP_WaypointsManager")]
+public class BP_WaypointsManager_C : MorWaypointsManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_WaypointsManager")]
+public BP_WaypointsManager_C Default__BP_WaypointsManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_WaitForSetup")]
+public class InSt_WaitForSetup_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_InteractChallenge_Activate")]
+public class InSt_InteractChallenge_Activate_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_ComplexInteractChallenge_Root")]
+public class InSt_ComplexInteractChallenge_Root_C {}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_ComplexInteractChallenge_Root")]
+public class Default__InSt_ComplexInteractChallenge_Root_C {
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public FGKConditionGroup FGKConditionGroup_5;
+    public FGKConditionGroup FGKConditionGroup_6;
+    public FGKConditionGroup FGKConditionGroup_7;
+    public FGKConditionGroup FGKConditionGroup_8;
+    public FGKConditionGroup FGKConditionGroup_9;
+    public InSt_InteractChallenge_Activate_C InSt_InteractChallenge_Activate_C_0;
+    public InSt_WaitForSetup_C InSt_WaitForSetup_C_0;
+    public MorChallengeInteractableCondition_PartsCompleted MorChallengeInteractableCondition_PartsCompleted_1;
+}
+
+
+[Import("/Game/Environments/Models/ForgeComplex/Blueprints/SM_GearStation_Blueprint")]
+public class SM_GearStation_Blueprint_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent SM_GearStation_Gear1_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent SM_GearStation_Gear1;
+    [UnknownSignature, LocalVirtualFunction] public virtual void DrainworksActivation();
+}
+
+[Import("/Game/Environments/Models/ForgeComplex/Blueprints/SM_GearStation_Blueprint")]
+public class Default__SM_GearStation_Blueprint_C {
+    public StaticMeshComponent StaticMeshComponent0;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C : MorInteractable {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    [UnknownSignature] public  void ActivationBegin();
+    [UnknownSignature] public  void GetInteractText();
+    [UnknownSignature] public  void OnInteractionStateBegin();
+    [UnknownSignature] public  void OutsideChallengeActivated();
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent LootLocator;
+    public ObjectProperty InteractionText;
+    [UnknownSignature, VirtualFunction] public virtual void AreAllPartsCompleted();
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Scripted_Events/fx_env_lever_os_play")]
+public AkAudioEvent fx_env_lever_os_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BrokenDrainworks_C : CBP_InteractChallenge_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorInteractionPoint> MorInteractionPoint;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Lever;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Cube;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> `Ak Audio`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> Box;
+    float LeverTimeline_Progress_F07391D34E7B55B9CD5AAF930C796722;
+    byte LeverTimeline__Direction_F07391D34E7B55B9CD5AAF930C796722;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> LeverTimeline;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<Actor> referencePOI;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text UnlitForgeMessage;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<MorCharacter> `Last Repair Interactor`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> WaypointProgressRow;
+    [Edit, BlueprintVisible] Struct<MorWaypointRowHandle> WaypointRowHandle;
+    [Edit, BlueprintVisible] Struct<MorZoneRowHandle> TargetZone;
+    [Edit, BlueprintVisible] bool AllowBubbleWaypoint;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row`;
+    [Edit, BlueprintVisible] Text RepairedText;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> `Parts Repaired Row`;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> `Lever Activated Row`;
+    [Edit, BlueprintVisible, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable] MulticastInlineDelegate LeverActivated;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<SM_GearStation_Blueprint_C> GearStation;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<LevelSequenceActor> VFX_SequenceActor;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Rotator> StartingRotation;
+    [Delegate, BlueprintCallable, BlueprintEvent]
+    public void LeverActivated__DelegateSignature() {
+        // Block 1
+
+    }
+
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_BrokenDrainworks([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        Object<CBP_InteractChallenge_C> K2Node_Event_OutsideChallenge;
+        int CallFunc_PostAkEvent_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_AreAllPartsCompleted_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        bool CallFunc_AreAllPartsCompleted_ReturnValue_1;
+        bool CallFunc_WasActivated_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        float CallFunc_BreakRotator_Roll;
+        float CallFunc_BreakRotator_Pitch;
+        float CallFunc_BreakRotator_Yaw;
+        float CallFunc_Add_FloatFloat_ReturnValue;
+        Struct<Rotator> CallFunc_MakeRotator_ReturnValue;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeRotation_SweepHitResult;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_BrokenDrainworks_10: this.LeverTimeline.Play();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_BrokenDrainworks_47_OutsideChallengeActivated: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue_1) return;
+
+        // Block 4
+        EX_LetObj(this.`Last Repair Interactor`,K2Node_Event_OutsideChallenge.LastInteractor);
+        CallFunc_AreAllPartsCompleted_ReturnValue = (bool)(this.AreAllPartsCompleted());
+        if (!CallFunc_AreAllPartsCompleted_ReturnValue) return;
+
+        // Block 5
+        this.`Set Repaired Interact Text`();
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgress(this.`Parts Repaired Row`);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_BrokenDrainworks_241: CallFunc_PostAkEvent_ReturnValue = this.`Ak Audio`.PostAkEvent(fx_env_lever_os_play, 0, Temp_delegate_Variable, Temp_struct_Variable, "");
+        goto ExecuteUbergraph_BP_BrokenDrainworks_10;
+
+        // Block 7
+        ExecuteUbergraph_BP_BrokenDrainworks_334_AnimateLever: this.StartingRotation = this.Lever.RelativeRotation;
+        goto ExecuteUbergraph_BP_BrokenDrainworks_241;
+
+        // Block 8
+        ExecuteUbergraph_BP_BrokenDrainworks_388: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 9
+        CallFunc_AreAllPartsCompleted_ReturnValue_1 = (bool)(this.AreAllPartsCompleted());
+        CallFunc_WasActivated_ReturnValue = (bool)(this.WasActivated());
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_AreAllPartsCompleted_ReturnValue_1, CallFunc_WasActivated_ReturnValue));
+        if (!CallFunc_BooleanAND_ReturnValue) return;
+
+        // Block 10
+        this.OnLeverActivated();
+        return;
+
+        // Block 11
+        ExecuteUbergraph_BP_BrokenDrainworks_537: this.OnLeverActivated();
+        return;
+
+        // Block 12
+        ExecuteUbergraph_BP_BrokenDrainworks_556_OnLoadedFromSave: this.CheckProgressAndInitialize();
+        return;
+
+        // Block 13
+        ExecuteUbergraph_BP_BrokenDrainworks_575_ActivationBegin: goto ExecuteUbergraph_BP_BrokenDrainworks_537;
+
+        // Block 14
+        ExecuteUbergraph_BP_BrokenDrainworks_580_OnInteractionStateBegin: this.SetWasActivated(false);
+        this.SetWasPaid(false);
+        return;
+
+        // Block 15
+        ExecuteUbergraph_BP_BrokenDrainworks_607_PostActivateInitialize: goto ExecuteUbergraph_BP_BrokenDrainworks_388;
+
+        // Block 16
+        ExecuteUbergraph_BP_BrokenDrainworks_612_LeverTimeline__UpdateFunc: KismetMathLibrary.BreakRotator(this.StartingRotation, CallFunc_BreakRotator_Roll, CallFunc_BreakRotator_Pitch, CallFunc_BreakRotator_Yaw);
+        CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(this.LeverTimeline_Progress_F07391D34E7B55B9CD5AAF930C796722, CallFunc_BreakRotator_Roll);
+        CallFunc_MakeRotator_ReturnValue = KismetMathLibrary.MakeRotator(CallFunc_Add_FloatFloat_ReturnValue, 0f, 0f);
+        this.Lever.K2_SetRelativeRotation(CallFunc_MakeRotator_ReturnValue, false, CallFunc_K2_SetRelativeRotation_SweepHitResult, false);
+        return;
+
+        // Block 17
+        ExecuteUbergraph_BP_BrokenDrainworks_808_LeverTimeline__FinishedFunc:
+
+    }
+
+    [Event, BlueprintEvent]
+    public void PostActivateInitialize() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_607_PostActivateInitialize);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void OnInteractionStateBegin() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_580_OnInteractionStateBegin);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void ActivationBegin() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_575_ActivationBegin);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnLoadedFromSave() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_556_OnLoadedFromSave);
+
+    }
+
+    [Net, NetMulticast, BlueprintCallable, BlueprintEvent]
+    void AnimateLever() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_334_AnimateLever);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void OutsideChallengeActivated([BlueprintVisible, BlueprintReadOnly] Object<CBP_InteractChallenge_C> OutsideChallenge) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OutsideChallenge", OutsideChallenge);
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_47_OutsideChallengeActivated);
+
+    }
+
+    [BlueprintEvent]
+    void LeverTimeline__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_612_LeverTimeline__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void LeverTimeline__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks(ExecuteUbergraph_BP_BrokenDrainworks_808_LeverTimeline__FinishedFunc);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void DiscoverWaypointUsingDataTable() {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+        Object<BP_WaypointsManager_C> CallFunc_GetManager_ReturnValue;
+
+        // Block 1
+        if (!this.AllowBubbleWaypoint) return;
+
+        // Block 2
+        EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_WaypointsManager_C));
+        CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+        CallFunc_GetManager_ReturnValue.DiscoverWaypointByRowHandle(this.WaypointRowHandle, CallFunc_K2_GetActorLocation_ReturnValue, this.TargetZone);
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgress(this.WaypointProgressRow);
+
+        // Block 3
+        DiscoverWaypointUsingDataTable_193:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void UnlockLore([BlueprintVisible, BlueprintReadOnly] out ref Object<MorCharacter> Discoverer) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 2
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 3
+            UnlockLore_81: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Lore Row`);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 4
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(UnlockLore_466);
+
+            // Block 5
+            EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+            K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 6
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+            Default__KismetArrayLibrary.Array_Get(this.`Lore Row`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), Discoverer);
+            EX_PopExecutionFlow();
+
+            // Block 7
+            UnlockLore_466: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto UnlockLore_81;
+
+        }
+
+
+        // Block 8
+        UnlockLore_540:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void TriggerUnlocks() {
+        // Locals
+        [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorCharacter> InteractingCharacter;
+
+        // Block 1
+        EX_LetObj(InteractingCharacter,this.LastInteractor);
+        this.UnlockLore(InteractingCharacter);
+        this.DiscoverWaypointUsingDataTable();
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void `Set Repaired Interact Text`() {
+        // Block 1
+        this.InteractionText = this.RepairedText;
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void CheckProgressAndInitialize() {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_GetProgress_ReturnValue;
+        bool CallFunc_GetProgress_ReturnValue_1;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgress_ReturnValue = (bool)(CallFunc_GetDiscoveryManager_ReturnValue.GetProgress(this.`Lever Activated Row`));
+
+        if (CallFunc_GetProgress_ReturnValue) {
+            // Block 2
+            this.AnimateLever();
+            this.SetIsInteractive(false);
+            return;
+
+        }
+
+
+        // Block 3
+        CheckProgressAndInitialize_116: CallFunc_GetProgress_ReturnValue_1 = (bool)(CallFunc_GetDiscoveryManager_ReturnValue.GetProgress(this.`Parts Repaired Row`));
+        if (!CallFunc_GetProgress_ReturnValue_1) return;
+
+        // Block 4
+        this.`Set Repaired Interact Text`();
+
+        // Block 5
+        CheckProgressAndInitialize_195:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void OnLeverActivated() {
+        // Locals
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_GetProgress_ReturnValue;
+        bool CallFunc_GetProgress_ReturnValue_1;
+
+        // Block 1
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 2
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgress_ReturnValue_1 = (bool)(CallFunc_GetDiscoveryManager_ReturnValue.GetProgress(this.`Parts Repaired Row`));
+        if (!CallFunc_GetProgress_ReturnValue_1) return;
+
+        // Block 3
+        CallFunc_GetProgress_ReturnValue = (bool)(CallFunc_GetDiscoveryManager_ReturnValue.GetProgress(this.`Lever Activated Row`));
+
+        if (CallFunc_GetProgress_ReturnValue) {
+            // Block 4
+            return;
+
+        }
+
+
+        // Block 5
+        OnLeverActivated_190: this.AnimateLever();
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgress(this.`Lever Activated Row`);
+        this.TriggerUnlocks();
+        CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(this.GearStation));
+
+        if (CallFunc_IsValid_ReturnValue_1) {
+            // Block 6
+            this.GearStation.DrainworksActivation();
+
+        }
+
+
+        // Block 7
+        OnLeverActivated_338: this.SetIsInteractive(false);
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.VFX_SequenceActor));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 8
+        EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue,this.VFX_SequenceActor.GetSequencePlayer());
+        CallFunc_GetSequencePlayer_ReturnValue.Play();
+
+        // Block 9
+        OnLeverActivated_466:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public override void GetInteractText([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Interactor, out Text InteractText) {
+        // Block 1
+        InteractText = this.RepairedText;
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void OnLeverActivatedRestored() {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeRotation_SweepHitResult;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_GetProgress_ReturnValue;
+        bool CallFunc_GetProgress_ReturnValue_1;
+
+        // Block 1
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 2
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgress_ReturnValue = (bool)(CallFunc_GetDiscoveryManager_ReturnValue.GetProgress(this.`Parts Repaired Row`));
+        if (!CallFunc_GetProgress_ReturnValue) return;
+
+        // Block 3
+        CallFunc_GetProgress_ReturnValue_1 = (bool)(CallFunc_GetDiscoveryManager_ReturnValue.GetProgress(this.`Lever Activated Row`));
+        if (!CallFunc_GetProgress_ReturnValue_1) return;
+
+        // Block 4
+        this.Lever.K2_SetRelativeRotation(EX_RotationConst(0, 0, 120), false, CallFunc_K2_SetRelativeRotation_SweepHitResult, false);
+        this.TriggerUnlocks();
+        CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(this.GearStation));
+
+        if (CallFunc_IsValid_ReturnValue_1) {
+            // Block 5
+            this.GearStation.DrainworksActivation();
+
+        }
+
+
+        // Block 6
+        OnLeverActivatedRestored_334_AnimateLever: this.SetIsInteractive(false);
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.VFX_SequenceActor));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 7
+        EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue,this.VFX_SequenceActor.GetSequencePlayer());
+        CallFunc_GetSequencePlayer_ReturnValue.Play();
+
+        // Block 8
+        OnLeverActivatedRestored_462:
+
+    }
+
+}

@@ -1,0 +1,175 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Architecture")]
+public StringTable Architecture;
+
+
+[Import("/Game/DLC/EntPack/Constructions/Meshes/EntPack_PlanterBase_A")]
+public StaticMesh EntPack_PlanterBase_A;
+
+
+[Import("/Game/DLC/EntPack/Constructions/Meshes/EntPack_Planter_Tree_C")]
+public StaticMesh EntPack_Planter_Tree_C;
+
+
+[Import("/Game/DLC/EntPack/Constructions/Meshes/Dirt_Mound_Circular_A")]
+public StaticMesh Dirt_Mound_Circular_A;
+
+
+[Import("/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Materials/MI_Farm_Dirt_Mound_LocalSpace")]
+public MaterialInstanceConstant MI_Farm_Dirt_Mound_LocalSpace;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Farming/BP_Tree_FarmingReceptacle_Small")]
+public class BP_Tree_FarmingReceptacle_Small_C {
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc1_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc2_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc3_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc_GEN_VARIABLE;
+    public NiagaraComponent `Harvest VFX_GEN_VARIABLE`;
+    public NiagaraComponent `Planted VFX_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc1;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc2;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc3;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Npc;
+    public NiagaraComponent `Harvest VFX`;
+    public NiagaraComponent `Planted VFX`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Farming/BP_Tree_FarmingReceptacle_Small")]
+public class Default__BP_Tree_FarmingReceptacle_Small_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Farming/BP_FarmingReceptacle_4Sides")]
+public class BP_FarmingReceptacle_4Sides_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Farming/BP_FarmingSlots_1x1_C")]
+public class BP_FarmingSlots_1x1_C_C {
+    public ArrowComponent Arrow_GEN_VARIABLE;
+    public BoxComponent Box_NavAreaFurniture_GEN_VARIABLE;
+    public ChildActorComponent BP_FarmingReceptacle_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent `MorAIBehaviorPoint_1-1_GEN_VARIABLE`;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableFXComponent MorBreakableFX_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public NiagaraComponent NS_PlaceableObjectPuff_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public ArrowComponent Arrow;
+    public BoxComponent Box_NavAreaFurniture;
+    public ChildActorComponent BP_FarmingReceptacle;
+    public MorAIBehaviorPointComponent `MorAIBehaviorPoint_1-1`;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableFXComponent MorBreakableFX;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public NiagaraComponent NS_PlaceableObjectPuff;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Farming/BP_FarmingSlots_1x1_C")]
+public class Default__BP_FarmingSlots_1x1_C_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_FarmingSlots_Tree_Small_B_C : BP_FarmingSlots_1x1_C_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece1_0;
+}

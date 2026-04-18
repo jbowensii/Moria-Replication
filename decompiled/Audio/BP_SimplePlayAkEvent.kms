@@ -1,0 +1,125 @@
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAssociatedAkEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/fx_env_main_menu_ambience_lp_play")]
+public AkAudioEvent fx_env_main_menu_ambience_lp_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_SimplePlayAkEvent_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> Ak;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_SimplePlayAkEvent([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        int CallFunc_PostAssociatedAkEvent_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_SimplePlayAkEvent_10: CallFunc_PostAssociatedAkEvent_ReturnValue = this.Ak.PostAssociatedAkEvent(0, Temp_delegate_Variable, Temp_struct_Variable);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_SimplePlayAkEvent_92_ReceiveBeginPlay: goto ExecuteUbergraph_BP_SimplePlayAkEvent_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_SimplePlayAkEvent_97:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_SimplePlayAkEvent(ExecuteUbergraph_BP_SimplePlayAkEvent_92_ReceiveBeginPlay);
+
+    }
+
+}

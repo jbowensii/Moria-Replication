@@ -1,0 +1,228 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+
+[Import("/Script/FGK")]
+public class InventoryItem {
+    [UnknownSignature, FinalFunction] public sealed void GetCurrentEquipVisibility();
+    public Object OnVisibilityUpdated;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetRootComponent();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Armor/T_UI_Icon_Armor_EregionElf_Torso")]
+public Texture2D T_UI_Icon_Armor_EregionElf_Torso;
+
+
+[Import("/Game/Tech/Data/StringTables/Items")]
+public StringTable Items;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_EregionLight/Dwarf_Armor_EregionLight_Torso_WMorphs")]
+public SkeletalMesh Dwarf_Armor_EregionLight_Torso_WMorphs;
+
+
+[Import("/Game/Art/PhysMats/PM_metal_heavy")]
+public PhysicalMaterial PM_metal_heavy;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftTorsos")]
+public DataTable DT_CC_CraftTorsos;
+
+
+[Import("/Game/Items/Effects/BP_ItemVisibilityEffectComponent")]
+public class BP_ItemVisibilityEffectComponent_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void SetVisibleEffect();
+}
+
+[Import("/Game/Items/Effects/BP_ItemVisibilityEffectComponent")]
+public BP_ItemVisibilityEffectComponent_C Default__BP_ItemVisibilityEffectComponent_C;
+
+
+[Import("/Game/Items/Clothing/GE_EreborSteel_TBDSet_ChestArmor")]
+public class GE_EreborSteel_TBDSet_ChestArmor_C {}
+
+[Import("/Game/Items/Clothing/GE_EreborSteel_TBDSet_ChestArmor")]
+public GE_EreborSteel_TBDSet_ChestArmor_C Default__GE_EreborSteel_TBDSet_ChestArmor_C;
+
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class BP_Category_Clothing_C : InventoryItem {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class Default__BP_Category_Clothing_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Shared/Cues/GC_Armor_IlluminatingLight")]
+public class GC_Armor_IlluminatingLight_C {
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public PointLightComponent Light_Near_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public PointLightComponent Light_Near;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Shared/Cues/GC_Armor_IlluminatingLight")]
+public GC_Armor_IlluminatingLight_C Default__GC_Armor_IlluminatingLight_C;
+
+
+[Import("/Game/WwiseAudio/Switches/Foley/Player/swg_armor_upper/swg_armor_upper-sw_leather")]
+public AkSwitchValue `swg_armor_upper-sw_leather`;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_EregionElf_Set_TorsoArmor_C : BP_Category_Clothing_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BP_ItemVisibilityEffectComponent_C> VisibilityEffect;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SkeletalMesh;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_EregionElf_Set_TorsoArmor([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_GetCurrentEquipVisibility_ReturnValue;
+        Object<Character> K2Node_Event_Character;
+        bool K2Node_Event_bChangedVisibility;
+        [InstancedReference] Object<SceneComponent> CallFunc_K2_GetRootComponent_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_EregionElf_Set_TorsoArmor_10_OnVisibilityUpdated: CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(K2Node_Event_Character));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 3
+        CallFunc_GetCurrentEquipVisibility_ReturnValue = (bool)(this.GetCurrentEquipVisibility());
+        EX_LetObj(CallFunc_K2_GetRootComponent_ReturnValue,K2Node_Event_Character.K2_GetRootComponent());
+        this.VisibilityEffect.SetVisibleEffect(CallFunc_GetCurrentEquipVisibility_ReturnValue, CallFunc_K2_GetRootComponent_ReturnValue);
+
+        // Block 4
+        ExecuteUbergraph_BP_EregionElf_Set_TorsoArmor_169:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnVisibilityUpdated([BlueprintVisible, BlueprintReadOnly] Object<Character> Character, [BlueprintVisible, BlueprintReadOnly] bool bChangedVisibility) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Character", Character);
+        EX_LetValueOnPersistentFrame("K2Node_Event_bChangedVisibility", bChangedVisibility);
+        this.ExecuteUbergraph_BP_EregionElf_Set_TorsoArmor(ExecuteUbergraph_BP_EregionElf_Set_TorsoArmor_10_OnVisibilityUpdated);
+
+    }
+
+}

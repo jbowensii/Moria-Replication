@@ -1,0 +1,146 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Tree_Mound_C")]
+public StaticMesh Tree_Mound_C;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Flora_Fungal_Tree_Large_Roots")]
+public StaticMesh Flora_Fungal_Tree_Large_Roots;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Materials/Fungal_Trees/MI_Fungal_Tree_Tileable")]
+public MaterialInstanceConstant MI_Fungal_Tree_Tileable;
+
+
+[Import("/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Materials/Suburbs_Dirt_Mount")]
+public Material Suburbs_Dirt_Mount;
+
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Flora_Fungal_Tree_Medium")]
+public class BP_Flora_Fungal_Tree_Medium_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece StaticMeshComponent1_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece StaticMeshComponent1;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Flora_Fungal_Tree_Medium")]
+public class Default__BP_Flora_Fungal_Tree_Medium_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Flora_Fungal_Tree_Large")]
+public class BP_Flora_Fungal_Tree_Large_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece StaticMeshComponent1_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece StaticMeshComponent1;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Flora_Fungal_Tree_Large")]
+public class Default__BP_Flora_Fungal_Tree_Large_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/Regrowers/BP_BaseBreakableRegrower")]
+public class BP_BaseBreakableRegrower_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/Regrowers/BP_BaseBreakableRegrower")]
+public class Default__BP_BaseBreakableRegrower_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_TreeRegrower_FungalTrees_Large_C : BP_BaseBreakableRegrower_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece;
+}

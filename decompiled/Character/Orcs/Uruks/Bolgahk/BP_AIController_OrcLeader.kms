@@ -1,0 +1,216 @@
+
+[Import("/Script/Moria")]
+public class MorAISenseConfig_Torch {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_RequestDialogue {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_AttackMelee {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Emote {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_DistanceToKey {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasAttackSlot {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardVectorValue {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_TargetWithinAngle {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_MoveToBlackboardKey {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_RunEQS {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle")]
+public class BSt_Idle_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle")]
+public BSt_Idle_C Default__BSt_Idle_C;
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_OrcLeader_Wander")]
+public class BSt_OrcLeader_Wander_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_OrcLeader_Wander")]
+public class Default__BSt_OrcLeader_Wander_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_4;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_UnableToReachTarget_OrcLeader")]
+public class BSt_UnableToReachTarget_OrcLeader_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_UnableToReachTarget_OrcLeader")]
+public class Default__BSt_UnableToReachTarget_OrcLeader_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public MorActionEffect_RequestDialogue MorActionEffect_RequestDialogue_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_UnableToApproachTarget_OrcLeader")]
+public class BSt_UnableToApproachTarget_OrcLeader_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_UnableToApproachTarget_OrcLeader")]
+public class Default__BSt_UnableToApproachTarget_OrcLeader_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_MeleeCombat_Orcleader_2")]
+public class BSt_MeleeCombat_Orcleader_2_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_MeleeCombat_Orcleader_2")]
+public class Default__BSt_MeleeCombat_Orcleader_2_C {
+    public FGKAICondition_HasAttackSlot FGKAICondition_HasAttackSlot_0;
+    public FGKAICondition_HasAttackSlot FGKAICondition_HasAttackSlot_1;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_4;
+    public MorActionEffect_RequestDialogue MorActionEffect_RequestDialogue_0;
+    public MorBehaviorState_AttackMelee MorBehaviorState_AttackMelee_0;
+}
+
+
+[Import("/Game/Character/Orcs/Orcs/BP_AIController_Orc")]
+public class BP_AIController_Orc_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Orcs/Orcs/BP_AIController_Orc")]
+public class Default__BP_AIController_Orc_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_AIController_OrcLeader_C : BP_AIController_Orc_C {
+}

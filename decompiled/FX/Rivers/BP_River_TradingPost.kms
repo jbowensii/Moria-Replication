@@ -1,0 +1,1075 @@
+
+[Import("/Script/PhysicsCore")]
+public class PhysicalMaterial {}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void AddComponent();
+    [UnknownSignature, FinalFunction] public sealed void GetComponentByClass();
+    public Object ReceiveActorBeginOverlap;
+    public Object ReceiveActorEndOverlap;
+    public Object ReceiveBeginPlay;
+    public Object ReceiveTick;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent : MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+    public ObjectProperty ComponentTags;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void BreakHitResult();
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_AddUnique();
+    [UnknownSignature, FinalFunction] public sealed void Array_Clear();
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+    [UnknownSignature, FinalFunction] public sealed void Array_RemoveItem();
+    [UnknownSignature, FinalFunction] public sealed void Array_Set();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Abs();
+    [UnknownSignature, MathFunction] public static sealed void Add_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Add_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void BreakRotator();
+    [UnknownSignature, MathFunction] public static sealed void BreakVector();
+    [UnknownSignature, MathFunction] public static sealed void Conv_BoolToFloat();
+    [UnknownSignature, MathFunction] public static sealed void Cross_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void Divide_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void FClamp();
+    [UnknownSignature, MathFunction] public static sealed void GetVectorArrayAverage();
+    [UnknownSignature, MathFunction] public static sealed void Less_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MakeTransform();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector2D();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_VectorFloat();
+    [UnknownSignature, MathFunction] public static sealed void NegateVector();
+    [UnknownSignature, MathFunction] public static sealed void Normal();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+    [UnknownSignature, MathFunction] public static sealed void RandomFloatInRange();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void VSize();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void DrawDebugArrow();
+    [UnknownSignature, MathFunction] public static sealed void GetActorListFromComponentList();
+    [UnknownSignature, MathFunction] public static sealed void GetComponentBounds();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void LineTraceSingle();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstance {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class ParticleSystemComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetVectorParameter();
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+    [UnknownSignature, VirtualFunction] public virtual void SetFloatParameter();
+    [UnknownSignature, VirtualFunction] public virtual void SetEmitterEnable();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent : ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void IsOverlappingActor();
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentRotation();
+    [UnknownSignature, FinalFunction] public sealed void K2_AttachToComponent();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent : ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+    [UnknownSignature, VirtualFunction] public virtual void IsAnySimulatingPhysics();
+    [UnknownSignature, VirtualFunction] public virtual void SetEnableGravity();
+    [UnknownSignature, VirtualFunction] public virtual void GetComponentVelocity();
+    [UnknownSignature, VirtualFunction] public virtual void GetMass();
+    [UnknownSignature, VirtualFunction] public virtual void AddForce();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SplineComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetDirectionAtSplinePoint();
+    [UnknownSignature, FinalFunction] public sealed void GetLocationAndTangentAtSplinePoint();
+    [UnknownSignature, FinalFunction] public sealed void GetLocationAtSplinePoint();
+    [UnknownSignature, FinalFunction] public sealed void GetNumberOfSplinePoints();
+    [UnknownSignature, FinalFunction] public sealed void GetRotationAtSplinePoint();
+    [UnknownSignature, FinalFunction] public sealed void GetScaleAtSplinePoint();
+    [UnknownSignature, FinalFunction] public sealed void GetTangentAtSplinePoint();
+}
+
+[Import("/Script/Engine")]
+public class SplineMeshComponent : PrimitiveComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetEndScale();
+    [UnknownSignature, FinalFunction] public sealed void SetStartAndEnd();
+    [UnknownSignature, FinalFunction] public sealed void SetStartScale();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public Object EDrawDebugTrace;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public ParticleSystemComponent Default__ParticleSystemComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SplineComponent Default__SplineComponent;
+
+[Import("/Script/Engine")]
+public SplineMeshComponent Default__SplineMeshComponent;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class ParticleSystem {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public Object Vector2D;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Engine/EditorMeshes/EditorCube")]
+public StaticMesh EditorCube;
+
+
+[Import("/Engine/EditorLandscapeResources/FlattenPlaneMesh")]
+public StaticMesh FlattenPlaneMesh;
+
+
+[Import("/Game/Unshippable/ThirdParty/RiverShader/Particles/WaterFall_Part")]
+public ParticleSystem WaterFall_Part;
+
+
+[Import("/Game/Unshippable/ThirdParty/RiverShader/Materials/MI_RiverWater")]
+public MaterialInstanceConstant MI_RiverWater;
+
+
+[Import("/Game/Unshippable/ThirdParty/RiverShader/Materials/Effects/Splash_Inst")]
+public MaterialInstanceConstant Splash_Inst;
+
+
+[Import("/Game/Unshippable/ThirdParty/RiverShader/Materials/Effects/Mist_Inst")]
+public MaterialInstanceConstant Mist_Inst;
+
+
+[Import("/Game/FX/Rivers/MI_RiverWater_Outdoors")]
+public MaterialInstanceConstant MI_RiverWater_Outdoors;
+
+
+[Import("/Engine/Engine_MI_Shaders/M_Shader_SimpleTranslucent")]
+public Material M_Shader_SimpleTranslucent;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_River_TradingPost_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SplineComponent> Spline;
+    [Edit, BlueprintVisible] Object<MaterialInstance> `River Material`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float EasyScale;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float WaterTriggerThickness;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<SplineMeshComponent>> TriggerList;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<StaticMeshComponent>> ActorInWaterList;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float WaterTriggerHeightOffset;
+    [Edit, BlueprintVisible, ExposeOnSpawn] bool EnableBuoyancy;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Physics Flow Speed`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Physics Flow Direction Width`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Physics Flow Direction Length`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] byte `Physics Flow Debug Type`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<Vector>> `Impact Normals`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Physics Flow Avoidance Strength`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] bool `Physics Flow Debug`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> RiverForce;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<ParticleSystemComponent>> ListOfWaterfallParticles;
+    [Edit, BlueprintVisible, ExposeOnSpawn] bool Waterfalls;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Waterfall Tangent Start`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Mist Density`;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float `Splash Density`;
+    [Edit, BlueprintVisible] Name `Fluid Interaction Tag`;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_River_TradingPost([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int CallFunc_Array_Length_ReturnValue;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        Object<Actor> K2Node_Event_OtherActor_1;
+        float K2Node_Event_DeltaSeconds;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_GetComponentByClass_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_IsValid_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        [InstancedReference] Object<SplineMeshComponent> CallFunc_Array_Get_Item;
+        Struct<Vector> CallFunc_GetVectorArrayAverage_ReturnValue;
+        Struct<Vector> CallFunc_GetLocationAtSplinePoint_ReturnValue;
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        float CallFunc_BreakVector_X_1;
+        float CallFunc_BreakVector_Y_1;
+        float CallFunc_BreakVector_Z_1;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        Struct<Vector> CallFunc_GetDirectionAtSplinePoint_ReturnValue;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue;
+        Struct<Vector> CallFunc_GetDirectionAtSplinePoint_ReturnValue_1;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_1;
+        int Temp_int_Loop_Counter_Variable_1;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        int Temp_int_Array_Index_Variable_1;
+        int Temp_int_Array_Index_Variable_2;
+        int Temp_int_Loop_Counter_Variable_2;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        [InstancedReference] Object<ParticleSystemComponent> CallFunc_Array_Get_Item_1;
+        float CallFunc_Divide_FloatFloat_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue_1;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        bool CallFunc_IsValid_ReturnValue_1;
+        float CallFunc_RandomFloatInRange_ReturnValue;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_2;
+        int CallFunc_Array_Length_ReturnValue_1;
+        bool CallFunc_Less_IntInt_ReturnValue_1;
+        Object<Actor> K2Node_Event_OtherActor;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_GetComponentByClass_ReturnValue_1;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item_2;
+        int CallFunc_Array_Length_ReturnValue_2;
+        float CallFunc_GetMass_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue_2;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_2;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_2;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_3;
+        float CallFunc_BreakVector_X_2;
+        float CallFunc_BreakVector_Y_2;
+        float CallFunc_BreakVector_Z_2;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        Struct<Vector> CallFunc_GetComponentVelocity_ReturnValue;
+        Struct<Vector> CallFunc_GetComponentVelocity_ReturnValue_1;
+        float CallFunc_BreakVector_X_3;
+        float CallFunc_BreakVector_Y_3;
+        float CallFunc_BreakVector_Z_3;
+        float CallFunc_BreakVector_X_4;
+        float CallFunc_BreakVector_Y_4;
+        float CallFunc_BreakVector_Z_4;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_3;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_4;
+        Struct<Vector> CallFunc_Normal_ReturnValue;
+        float CallFunc_VSize_ReturnValue;
+        Struct<Vector> CallFunc_Cross_VectorVector_ReturnValue;
+        float CallFunc_Divide_FloatFloat_ReturnValue_1;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_4;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_5;
+        Struct<Vector> CallFunc_NegateVector_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_1;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_6;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_7;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_2;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_8;
+        float CallFunc_BreakVector_X_5;
+        float CallFunc_BreakVector_Y_5;
+        float CallFunc_BreakVector_Z_5;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_9;
+        Struct<Vector> CallFunc_GetComponentVelocity_ReturnValue_2;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_3;
+        bool CallFunc_EqualEqual_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_10;
+        bool CallFunc_IsAnySimulatingPhysics_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue_1;
+        float CallFunc_BreakVector_X_6;
+        float CallFunc_BreakVector_Y_6;
+        float CallFunc_BreakVector_Z_6;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue_2;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_5;
+        float CallFunc_BreakVector_X_7;
+        float CallFunc_BreakVector_Y_7;
+        float CallFunc_BreakVector_Z_7;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_4;
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        Struct<Vector> CallFunc_TraceNormal_ImpactNormal;
+        float CallFunc_Divide_FloatFloat_ReturnValue_2;
+        float CallFunc_FClamp_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_5;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue_11;
+        Struct<Vector> CallFunc_TraceNormal_ImpactNormal_1;
+        float CallFunc_BreakVector_X_8;
+        float CallFunc_BreakVector_Y_8;
+        float CallFunc_BreakVector_Z_8;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_6;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_7;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_6;
+        bool CallFunc_IsValid_ReturnValue_2;
+        Struct<Vector> CallFunc_TraceNormal_ImpactNormal_2;
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        bool CallFunc_IsOverlappingActor_ReturnValue;
+        int CallFunc_Array_AddUnique_ReturnValue;
+        bool CallFunc_Array_RemoveItem_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            ExecuteUbergraph_BP_River_TradingPost_15:
+            while (true) {
+                // Block 2
+                Default__KismetArrayLibrary.Array_Get(this.ListOfWaterfallParticles, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+                CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_Array_Get_Item_1));
+                if (!CallFunc_IsValid_ReturnValue_1) break;
+
+                // Block 3
+                Default__KismetArrayLibrary.Array_Get(this.ListOfWaterfallParticles, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+                CallFunc_Divide_FloatFloat_ReturnValue = KismetMathLibrary.Divide_FloatFloat(this.EasyScale, 2f);
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(CallFunc_Divide_FloatFloat_ReturnValue, 100f);
+                CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_Multiply_FloatFloat_ReturnValue, -1f);
+                CallFunc_RandomFloatInRange_ReturnValue = KismetMathLibrary.RandomFloatInRange(CallFunc_Multiply_FloatFloat_ReturnValue_1, CallFunc_Multiply_FloatFloat_ReturnValue);
+                CallFunc_MakeVector_ReturnValue_2 = KismetMathLibrary.MakeVector(0f, CallFunc_RandomFloatInRange_ReturnValue, 0f);
+                CallFunc_Array_Get_Item_1.SetVectorParameter(EX_NameConst("Location"), CallFunc_MakeVector_ReturnValue_2);
+                Default__KismetArrayLibrary.Array_Get(this.ListOfWaterfallParticles, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+                EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue_1,CallFunc_Array_Get_Item_1.CreateDynamicMaterialInstance(0, Mist_Inst, EX_NameConst("None")));
+                Default__KismetArrayLibrary.Array_Get(this.ListOfWaterfallParticles, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+                EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,CallFunc_Array_Get_Item_1.CreateDynamicMaterialInstance(1, Splash_Inst, EX_NameConst("None")));
+                break;
+
+            }
+
+
+            // Block 4
+            ExecuteUbergraph_BP_River_TradingPost_719: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 5
+            ExecuteUbergraph_BP_River_TradingPost_788: CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(this.ListOfWaterfallParticles);
+            CallFunc_Less_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_1);
+
+            // Block 6
+            Temp_int_Array_Index_Variable_1 = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_River_TradingPost_15;
+
+            // Block 7
+            ExecuteUbergraph_BP_River_TradingPost_927: EX_PopExecutionFlowIfNot(this.EnableBuoyancy);
+
+            // Block 8
+            Temp_int_Loop_Counter_Variable_1 = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 9
+            ExecuteUbergraph_BP_River_TradingPost_983: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.TriggerList);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_1, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 10
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable_1;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_River_TradingPost_3047);
+
+            // Block 11
+            Temp_int_Loop_Counter_Variable_2 = 0;
+            Temp_int_Array_Index_Variable_2 = 0;
+
+            // Block 12
+            ExecuteUbergraph_BP_River_TradingPost_1168: CallFunc_Array_Length_ReturnValue_2 = Default__KismetArrayLibrary.Array_Length(this.ActorInWaterList);
+            CallFunc_Less_IntInt_ReturnValue_2 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_2, CallFunc_Array_Length_ReturnValue_2));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_2);
+
+            // Block 13
+            Temp_int_Array_Index_Variable_2 = Temp_int_Loop_Counter_Variable_2;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_River_TradingPost_3121);
+
+            // Block 14
+            Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            CallFunc_IsValid_ReturnValue_2 = (bool)(KismetSystemLibrary.IsValid(CallFunc_Array_Get_Item_2));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_2);
+
+            // Block 15
+            Default__KismetArrayLibrary.Array_Get(this.TriggerList, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            EX_LetObj(CallFunc_GetOwner_ReturnValue,CallFunc_Array_Get_Item_2.GetOwner());
+            CallFunc_IsOverlappingActor_ReturnValue = (bool)(CallFunc_Array_Get_Item.IsOverlappingActor(CallFunc_GetOwner_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsOverlappingActor_ReturnValue);
+
+            // Block 16
+            Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            CallFunc_IsAnySimulatingPhysics_ReturnValue = (bool)(CallFunc_Array_Get_Item_2.IsAnySimulatingPhysics());
+
+            if (CallFunc_IsAnySimulatingPhysics_ReturnValue) {
+                // Block 17
+                Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+                CallFunc_Array_Get_Item_2.SetEnableGravity(false);
+                Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+                CallFunc_GetComponentVelocity_ReturnValue_2 = CallFunc_Array_Get_Item_2.GetComponentVelocity();
+                CallFunc_EqualEqual_VectorVector_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_VectorVector(CallFunc_GetComponentVelocity_ReturnValue_2, EX_VectorConst(0, 0, 0), 7f));
+                if (!(CallFunc_EqualEqual_VectorVector_ReturnValue)) goto ExecuteUbergraph_BP_River_TradingPost_3292;
+
+                // Block 18
+                CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(0f, 0f, 600f);
+                CallFunc_GetLocationAtSplinePoint_ReturnValue = this.Spline.GetLocationAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+                KismetMathLibrary.BreakVector(CallFunc_GetLocationAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+                CallFunc_GetDirectionAtSplinePoint_ReturnValue = this.Spline.GetDirectionAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+                Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+                CallFunc_GetMass_ReturnValue = CallFunc_Array_Get_Item_2.GetMass();
+                CallFunc_Multiply_FloatFloat_ReturnValue_2 = KismetMathLibrary.Multiply_FloatFloat(this.`Physics Flow Speed`, CallFunc_GetMass_ReturnValue);
+                CallFunc_Multiply_VectorFloat_ReturnValue_2 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_GetDirectionAtSplinePoint_ReturnValue, CallFunc_Multiply_FloatFloat_ReturnValue_2);
+                CallFunc_Multiply_VectorFloat_ReturnValue_3 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_MakeVector_ReturnValue, CallFunc_GetMass_ReturnValue);
+                KismetMathLibrary.BreakVector(CallFunc_Multiply_VectorFloat_ReturnValue_2, CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, CallFunc_BreakVector_Z_2);
+                CallFunc_K2_GetComponentLocation_ReturnValue_2 = CallFunc_Array_Get_Item_2.K2_GetComponentLocation();
+                KismetMathLibrary.BreakVector(CallFunc_K2_GetComponentLocation_ReturnValue_2, CallFunc_BreakVector_X_7, CallFunc_BreakVector_Y_7, CallFunc_BreakVector_Z_7);
+                CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(CallFunc_BreakVector_Z_1, CallFunc_BreakVector_Z_7);
+                CallFunc_Divide_FloatFloat_ReturnValue_2 = KismetMathLibrary.Divide_FloatFloat(CallFunc_Subtract_FloatFloat_ReturnValue, 50f);
+                CallFunc_FClamp_ReturnValue = KismetMathLibrary.FClamp(CallFunc_Divide_FloatFloat_ReturnValue_2, -1f, 1f);
+                CallFunc_Multiply_VectorFloat_ReturnValue_11 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Multiply_VectorFloat_ReturnValue_3, CallFunc_FClamp_ReturnValue);
+                KismetMathLibrary.BreakVector(CallFunc_Multiply_VectorFloat_ReturnValue_11, CallFunc_BreakVector_X_8, CallFunc_BreakVector_Y_8, CallFunc_BreakVector_Z_8);
+                CallFunc_MakeVector_ReturnValue_6 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, CallFunc_BreakVector_Z_8);
+                this.RiverForce = CallFunc_MakeVector_ReturnValue_6;
+
+                // Block 19
+                ExecuteUbergraph_BP_River_TradingPost_2928: Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+                CallFunc_Array_Get_Item_2.AddForce(this.RiverForce, EX_NameConst("None"), false);
+                break;
+
+                // Block 20
+                ExecuteUbergraph_BP_River_TradingPost_3047: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_1, 1);
+                Temp_int_Loop_Counter_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+                goto ExecuteUbergraph_BP_River_TradingPost_983;
+
+                // Block 21
+                ExecuteUbergraph_BP_River_TradingPost_3121: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_2, 1);
+                Temp_int_Loop_Counter_Variable_2 = CallFunc_Add_IntInt_ReturnValue_2;
+                goto ExecuteUbergraph_BP_River_TradingPost_1168;
+
+            }
+
+
+            // Block 22
+            ExecuteUbergraph_BP_River_TradingPost_3195: Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            CallFunc_Array_Get_Item_2.SetEnableGravity(true);
+            EX_PopExecutionFlow();
+
+            ExecuteUbergraph_BP_River_TradingPost_3292:
+            while (true) {
+                // Block 23
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_River_TradingPost_6492);
+
+                // Block 24
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_River_TradingPost_7334);
+
+                // Block 25
+                CallFunc_GetLocationAtSplinePoint_ReturnValue = this.Spline.GetLocationAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+                KismetMathLibrary.BreakVector(CallFunc_GetLocationAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+                Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+                CallFunc_GetComponentVelocity_ReturnValue = CallFunc_Array_Get_Item_2.GetComponentVelocity();
+                KismetMathLibrary.BreakVector(CallFunc_GetComponentVelocity_ReturnValue, CallFunc_BreakVector_X_3, CallFunc_BreakVector_Y_3, CallFunc_BreakVector_Z_3);
+                CallFunc_MakeVector_ReturnValue_3 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_3, CallFunc_BreakVector_Y_3, 0f);
+                CallFunc_Normal_ReturnValue = KismetMathLibrary.Normal(CallFunc_MakeVector_ReturnValue_3, 0.0001f);
+                CallFunc_Cross_VectorVector_ReturnValue = KismetMathLibrary.Cross_VectorVector(CallFunc_Normal_ReturnValue, EX_VectorConst(0, 0, 1));
+                CallFunc_Multiply_VectorFloat_ReturnValue_4 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Cross_VectorVector_ReturnValue, this.`Physics Flow Direction Width`);
+                CallFunc_NegateVector_ReturnValue = KismetMathLibrary.NegateVector(CallFunc_Multiply_VectorFloat_ReturnValue_4);
+                CallFunc_Add_VectorVector_ReturnValue_1 = KismetMathLibrary.Add_VectorVector(CallFunc_Normal_ReturnValue, CallFunc_NegateVector_ReturnValue);
+                CallFunc_Multiply_VectorFloat_ReturnValue_7 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Add_VectorVector_ReturnValue_1, this.`Physics Flow Direction Length`);
+                CallFunc_K2_GetComponentLocation_ReturnValue_1 = CallFunc_Array_Get_Item_2.K2_GetComponentLocation();
+                KismetMathLibrary.BreakVector(CallFunc_K2_GetComponentLocation_ReturnValue_1, CallFunc_BreakVector_X_6, CallFunc_BreakVector_Y_6, CallFunc_BreakVector_Z_6);
+                CallFunc_MakeVector_ReturnValue_5 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_6, CallFunc_BreakVector_Y_6, CallFunc_BreakVector_Z_1);
+                CallFunc_Add_VectorVector_ReturnValue_6 = KismetMathLibrary.Add_VectorVector(CallFunc_MakeVector_ReturnValue_5, CallFunc_Multiply_VectorFloat_ReturnValue_7);
+                this.TraceNormal(CallFunc_MakeVector_ReturnValue_5, CallFunc_Add_VectorVector_ReturnValue_6, CallFunc_TraceNormal_ImpactNormal_2);
+                Default__KismetArrayLibrary.Array_Set(this.`Impact Normals`, 0, CallFunc_TraceNormal_ImpactNormal_2, true);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 26
+            ExecuteUbergraph_BP_River_TradingPost_4186: CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(this.`Physics Flow Debug`));
+
+            if (CallFunc_Not_PreBool_ReturnValue) {
+                // Block 27
+                ExecuteUbergraph_BP_River_TradingPost_4229: CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(0f, 0f, 600f);
+                CallFunc_GetVectorArrayAverage_ReturnValue = KismetMathLibrary.GetVectorArrayAverage(this.`Impact Normals`);
+                CallFunc_GetLocationAtSplinePoint_ReturnValue = this.Spline.GetLocationAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+                KismetMathLibrary.BreakVector(CallFunc_GetVectorArrayAverage_ReturnValue, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+                KismetMathLibrary.BreakVector(CallFunc_GetLocationAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+                CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X, CallFunc_BreakVector_Y, 0f);
+                CallFunc_GetDirectionAtSplinePoint_ReturnValue = this.Spline.GetDirectionAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+                CallFunc_Multiply_VectorFloat_ReturnValue = KismetMathLibrary.Multiply_VectorFloat(CallFunc_MakeVector_ReturnValue_1, this.`Physics Flow Avoidance Strength`);
+                Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+                CallFunc_GetMass_ReturnValue = CallFunc_Array_Get_Item_2.GetMass();
+                CallFunc_Multiply_FloatFloat_ReturnValue_2 = KismetMathLibrary.Multiply_FloatFloat(this.`Physics Flow Speed`, CallFunc_GetMass_ReturnValue);
+                CallFunc_Multiply_VectorFloat_ReturnValue_3 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_MakeVector_ReturnValue, CallFunc_GetMass_ReturnValue);
+                CallFunc_GetComponentVelocity_ReturnValue_1 = CallFunc_Array_Get_Item_2.GetComponentVelocity();
+                KismetMathLibrary.BreakVector(CallFunc_GetComponentVelocity_ReturnValue_1, CallFunc_BreakVector_X_4, CallFunc_BreakVector_Y_4, CallFunc_BreakVector_Z_4);
+                CallFunc_MakeVector_ReturnValue_4 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_4, CallFunc_BreakVector_Y_4, 0f);
+                CallFunc_VSize_ReturnValue = KismetMathLibrary.VSize(CallFunc_MakeVector_ReturnValue_4);
+                CallFunc_Divide_FloatFloat_ReturnValue_1 = KismetMathLibrary.Divide_FloatFloat(CallFunc_VSize_ReturnValue, 200f);
+                CallFunc_Multiply_VectorFloat_ReturnValue_5 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Multiply_VectorFloat_ReturnValue, CallFunc_Divide_FloatFloat_ReturnValue_1);
+                CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_Multiply_VectorFloat_ReturnValue_5, CallFunc_GetDirectionAtSplinePoint_ReturnValue);
+                CallFunc_Multiply_VectorFloat_ReturnValue_8 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Add_VectorVector_ReturnValue, CallFunc_Multiply_FloatFloat_ReturnValue_2);
+                KismetMathLibrary.BreakVector(CallFunc_Multiply_VectorFloat_ReturnValue_8, CallFunc_BreakVector_X_5, CallFunc_BreakVector_Y_5, CallFunc_BreakVector_Z_5);
+                CallFunc_K2_GetComponentLocation_ReturnValue_2 = CallFunc_Array_Get_Item_2.K2_GetComponentLocation();
+                KismetMathLibrary.BreakVector(CallFunc_K2_GetComponentLocation_ReturnValue_2, CallFunc_BreakVector_X_7, CallFunc_BreakVector_Y_7, CallFunc_BreakVector_Z_7);
+                CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(CallFunc_BreakVector_Z_1, CallFunc_BreakVector_Z_7);
+                CallFunc_Divide_FloatFloat_ReturnValue_2 = KismetMathLibrary.Divide_FloatFloat(CallFunc_Subtract_FloatFloat_ReturnValue, 50f);
+                CallFunc_FClamp_ReturnValue = KismetMathLibrary.FClamp(CallFunc_Divide_FloatFloat_ReturnValue_2, -1f, 1f);
+                CallFunc_Multiply_VectorFloat_ReturnValue_11 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Multiply_VectorFloat_ReturnValue_3, CallFunc_FClamp_ReturnValue);
+                KismetMathLibrary.BreakVector(CallFunc_Multiply_VectorFloat_ReturnValue_11, CallFunc_BreakVector_X_8, CallFunc_BreakVector_Y_8, CallFunc_BreakVector_Z_8);
+                CallFunc_MakeVector_ReturnValue_7 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_5, CallFunc_BreakVector_Y_5, CallFunc_BreakVector_Z_8);
+                this.RiverForce = CallFunc_MakeVector_ReturnValue_7;
+                goto ExecuteUbergraph_BP_River_TradingPost_2928;
+
+            }
+
+
+            // Block 28
+            ExecuteUbergraph_BP_River_TradingPost_5649: CallFunc_GetVectorArrayAverage_ReturnValue = KismetMathLibrary.GetVectorArrayAverage(this.`Impact Normals`);
+            KismetMathLibrary.BreakVector(CallFunc_GetVectorArrayAverage_ReturnValue, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+            CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X, CallFunc_BreakVector_Y, 0f);
+            CallFunc_GetDirectionAtSplinePoint_ReturnValue = this.Spline.GetDirectionAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+            CallFunc_Multiply_VectorFloat_ReturnValue = KismetMathLibrary.Multiply_VectorFloat(CallFunc_MakeVector_ReturnValue_1, this.`Physics Flow Avoidance Strength`);
+            Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            CallFunc_K2_GetComponentLocation_ReturnValue = CallFunc_Array_Get_Item_2.K2_GetComponentLocation();
+            CallFunc_GetComponentVelocity_ReturnValue_1 = CallFunc_Array_Get_Item_2.GetComponentVelocity();
+            KismetMathLibrary.BreakVector(CallFunc_GetComponentVelocity_ReturnValue_1, CallFunc_BreakVector_X_4, CallFunc_BreakVector_Y_4, CallFunc_BreakVector_Z_4);
+            CallFunc_MakeVector_ReturnValue_4 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_4, CallFunc_BreakVector_Y_4, 0f);
+            CallFunc_VSize_ReturnValue = KismetMathLibrary.VSize(CallFunc_MakeVector_ReturnValue_4);
+            CallFunc_Divide_FloatFloat_ReturnValue_1 = KismetMathLibrary.Divide_FloatFloat(CallFunc_VSize_ReturnValue, 200f);
+            CallFunc_Multiply_VectorFloat_ReturnValue_5 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Multiply_VectorFloat_ReturnValue, CallFunc_Divide_FloatFloat_ReturnValue_1);
+            CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_Multiply_VectorFloat_ReturnValue_5, CallFunc_GetDirectionAtSplinePoint_ReturnValue);
+            CallFunc_Multiply_VectorFloat_ReturnValue_6 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Add_VectorVector_ReturnValue, 500f);
+            CallFunc_Add_VectorVector_ReturnValue_2 = KismetMathLibrary.Add_VectorVector(CallFunc_K2_GetComponentLocation_ReturnValue, CallFunc_Multiply_VectorFloat_ReturnValue_6);
+            KismetSystemLibrary.DrawDebugArrow(this, CallFunc_K2_GetComponentLocation_ReturnValue, CallFunc_Add_VectorVector_ReturnValue_2, 1000f, EX_StructConst(LinearColor, 16, 0f, 0.665348f, 1f, 1f), 0.1f, 5f);
+            goto ExecuteUbergraph_BP_River_TradingPost_4229;
+
+            // Block 29
+            ExecuteUbergraph_BP_River_TradingPost_6492: CallFunc_GetLocationAtSplinePoint_ReturnValue = this.Spline.GetLocationAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+            KismetMathLibrary.BreakVector(CallFunc_GetLocationAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+            Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            CallFunc_GetComponentVelocity_ReturnValue = CallFunc_Array_Get_Item_2.GetComponentVelocity();
+            KismetMathLibrary.BreakVector(CallFunc_GetComponentVelocity_ReturnValue, CallFunc_BreakVector_X_3, CallFunc_BreakVector_Y_3, CallFunc_BreakVector_Z_3);
+            CallFunc_MakeVector_ReturnValue_3 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_3, CallFunc_BreakVector_Y_3, 0f);
+            CallFunc_Normal_ReturnValue = KismetMathLibrary.Normal(CallFunc_MakeVector_ReturnValue_3, 0.0001f);
+            CallFunc_Cross_VectorVector_ReturnValue = KismetMathLibrary.Cross_VectorVector(CallFunc_Normal_ReturnValue, EX_VectorConst(0, 0, 1));
+            CallFunc_Multiply_VectorFloat_ReturnValue_9 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Cross_VectorVector_ReturnValue, this.`Physics Flow Direction Width`);
+            CallFunc_Add_VectorVector_ReturnValue_3 = KismetMathLibrary.Add_VectorVector(CallFunc_Normal_ReturnValue, CallFunc_Multiply_VectorFloat_ReturnValue_9);
+            CallFunc_Multiply_VectorFloat_ReturnValue_10 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_Add_VectorVector_ReturnValue_3, this.`Physics Flow Direction Length`);
+            CallFunc_K2_GetComponentLocation_ReturnValue_1 = CallFunc_Array_Get_Item_2.K2_GetComponentLocation();
+            KismetMathLibrary.BreakVector(CallFunc_K2_GetComponentLocation_ReturnValue_1, CallFunc_BreakVector_X_6, CallFunc_BreakVector_Y_6, CallFunc_BreakVector_Z_6);
+            CallFunc_MakeVector_ReturnValue_5 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_6, CallFunc_BreakVector_Y_6, CallFunc_BreakVector_Z_1);
+            CallFunc_Add_VectorVector_ReturnValue_4 = KismetMathLibrary.Add_VectorVector(CallFunc_MakeVector_ReturnValue_5, CallFunc_Multiply_VectorFloat_ReturnValue_10);
+            this.TraceNormal(CallFunc_MakeVector_ReturnValue_5, CallFunc_Add_VectorVector_ReturnValue_4, CallFunc_TraceNormal_ImpactNormal);
+            Default__KismetArrayLibrary.Array_Set(this.`Impact Normals`, 2, CallFunc_TraceNormal_ImpactNormal, true);
+            EX_PopExecutionFlow();
+
+            // Block 30
+            ExecuteUbergraph_BP_River_TradingPost_7334: CallFunc_GetLocationAtSplinePoint_ReturnValue = this.Spline.GetLocationAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+            KismetMathLibrary.BreakVector(CallFunc_GetLocationAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+            CallFunc_GetDirectionAtSplinePoint_ReturnValue_1 = this.Spline.GetDirectionAtSplinePoint(Temp_int_Array_Index_Variable, (byte)(1));
+            CallFunc_Multiply_VectorFloat_ReturnValue_1 = KismetMathLibrary.Multiply_VectorFloat(CallFunc_GetDirectionAtSplinePoint_ReturnValue_1, this.`Physics Flow Direction Length`);
+            Default__KismetArrayLibrary.Array_Get(this.ActorInWaterList, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_2);
+            CallFunc_K2_GetComponentLocation_ReturnValue_1 = CallFunc_Array_Get_Item_2.K2_GetComponentLocation();
+            KismetMathLibrary.BreakVector(CallFunc_K2_GetComponentLocation_ReturnValue_1, CallFunc_BreakVector_X_6, CallFunc_BreakVector_Y_6, CallFunc_BreakVector_Z_6);
+            CallFunc_MakeVector_ReturnValue_5 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_6, CallFunc_BreakVector_Y_6, CallFunc_BreakVector_Z_1);
+            CallFunc_Add_VectorVector_ReturnValue_5 = KismetMathLibrary.Add_VectorVector(CallFunc_MakeVector_ReturnValue_5, CallFunc_Multiply_VectorFloat_ReturnValue_1);
+            this.TraceNormal(CallFunc_MakeVector_ReturnValue_5, CallFunc_Add_VectorVector_ReturnValue_5, CallFunc_TraceNormal_ImpactNormal_1);
+            Default__KismetArrayLibrary.Array_Set(this.`Impact Normals`, 1, CallFunc_TraceNormal_ImpactNormal_1, true);
+            EX_PopExecutionFlow();
+
+            // Block 31
+            ExecuteUbergraph_BP_River_TradingPost_7902: EX_PopExecutionFlowIfNot(this.EnableBuoyancy);
+
+            // Block 32
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_Event_OtherActor_1.GetComponentByClass(StaticMeshComponent));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetComponentByClass_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 33
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_Event_OtherActor_1.GetComponentByClass(StaticMeshComponent));
+            CallFunc_GetComponentByClass_ReturnValue.SetEnableGravity(true);
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_Event_OtherActor_1.GetComponentByClass(StaticMeshComponent));
+            CallFunc_Array_RemoveItem_ReturnValue = (bool)(Default__KismetArrayLibrary.Array_RemoveItem(this.ActorInWaterList, CallFunc_GetComponentByClass_ReturnValue));
+            EX_PopExecutionFlow();
+
+            // Block 34
+            ExecuteUbergraph_BP_River_TradingPost_8202_ReceiveActorEndOverlap: goto ExecuteUbergraph_BP_River_TradingPost_7902;
+
+            ExecuteUbergraph_BP_River_TradingPost_8207_ReceiveTick:
+            while (true) {
+                // Block 35
+
+                if (this.`Physics Flow Debug`) {
+                    // Block 36
+                    this.`Physics Flow Debug Type` = (byte)(2);
+                    goto ExecuteUbergraph_BP_River_TradingPost_927;
+
+                }
+
+
+                // Block 37
+                ExecuteUbergraph_BP_River_TradingPost_8251: this.`Physics Flow Debug Type` = (byte)(0);
+                goto ExecuteUbergraph_BP_River_TradingPost_927;
+
+            }
+
+
+            // Block 38
+            ExecuteUbergraph_BP_River_TradingPost_8276: Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable_1 = 0;
+            goto ExecuteUbergraph_BP_River_TradingPost_788;
+
+            // Block 39
+            ExecuteUbergraph_BP_River_TradingPost_8327_ReceiveActorBeginOverlap: EX_PopExecutionFlowIfNot(this.EnableBuoyancy);
+
+            // Block 40
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue_1,K2Node_Event_OtherActor.GetComponentByClass(StaticMeshComponent));
+            CallFunc_Array_AddUnique_ReturnValue = Default__KismetArrayLibrary.Array_AddUnique(this.ActorInWaterList, CallFunc_GetComponentByClass_ReturnValue_1);
+            EX_PopExecutionFlow();
+
+            // Block 41
+            ExecuteUbergraph_BP_River_TradingPost_8457_ReceiveBeginPlay: EX_PopExecutionFlowIfNot(this.EnableBuoyancy);
+
+            // Block 42
+            this.CreateTriggerMeshes();
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 43
+        ExecuteUbergraph_BP_River_TradingPost_8482:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_River_TradingPost(ExecuteUbergraph_BP_River_TradingPost_8457_ReceiveBeginPlay);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveActorBeginOverlap([BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherActor", OtherActor);
+        this.ExecuteUbergraph_BP_River_TradingPost(ExecuteUbergraph_BP_River_TradingPost_8327_ReceiveActorBeginOverlap);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveActorEndOverlap([BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherActor_1", OtherActor);
+        this.ExecuteUbergraph_BP_River_TradingPost(ExecuteUbergraph_BP_River_TradingPost_8202_ReceiveActorEndOverlap);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_River_TradingPost(ExecuteUbergraph_BP_River_TradingPost_8207_ReceiveTick);
+
+    }
+
+    [Event, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        float CallFunc_Conv_BoolToFloat_ReturnValue;
+        float CallFunc_Conv_BoolToFloat_ReturnValue_1;
+        ref Array<Name> K2Node_MakeArray_Array;
+        const Struct<Transform> Temp_struct_Variable;
+        int Temp_int_Variable;
+        Struct<Rotator> CallFunc_GetRotationAtSplinePoint_ReturnValue;
+        [InstancedReference] Object<SplineMeshComponent> CallFunc_AddComponent_ReturnValue;
+        Struct<Vector> CallFunc_GetTangentAtSplinePoint_ReturnValue;
+        bool CallFunc_K2_AttachToComponent_ReturnValue;
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        Struct<Rotator> CallFunc_K2_GetComponentRotation_ReturnValue;
+        bool CallFunc_Less_FloatFloat_ReturnValue;
+        float CallFunc_BreakRotator_Roll;
+        float CallFunc_BreakRotator_Pitch;
+        float CallFunc_BreakRotator_Yaw;
+        bool CallFunc_BooleanAND_ReturnValue;
+        float CallFunc_Abs_ReturnValue;
+        float CallFunc_Divide_FloatFloat_ReturnValue;
+        Struct<Vector> CallFunc_GetLocationAtSplinePoint_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<Transform> CallFunc_MakeTransform_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        [InstancedReference] Object<ParticleSystemComponent> CallFunc_AddComponent_ReturnValue_1;
+        Struct<Vector> CallFunc_GetScaleAtSplinePoint_ReturnValue;
+        int CallFunc_Array_AddUnique_ReturnValue;
+        float CallFunc_BreakVector_X_1;
+        float CallFunc_BreakVector_Y_1;
+        float CallFunc_BreakVector_Z_1;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue_1;
+        Struct<Vector2D> CallFunc_MakeVector2D_ReturnValue;
+        Struct<Vector> CallFunc_GetScaleAtSplinePoint_ReturnValue_1;
+        float CallFunc_BreakVector_X_2;
+        float CallFunc_BreakVector_Y_2;
+        float CallFunc_BreakVector_Z_2;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_2;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_3;
+        Struct<Vector2D> CallFunc_MakeVector2D_ReturnValue_1;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Location;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Tangent;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Location_1;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Tangent_1;
+        int CallFunc_GetNumberOfSplinePoints_ReturnValue;
+        int CallFunc_Subtract_IntInt_ReturnValue;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Variable = 0;
+
+            // Block 2
+            UserConstructionScript_28: CallFunc_GetNumberOfSplinePoints_ReturnValue = this.Spline.GetNumberOfSplinePoints();
+            CallFunc_Subtract_IntInt_ReturnValue = KismetMathLibrary.Subtract_IntInt(CallFunc_GetNumberOfSplinePoints_ReturnValue, 2);
+            CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, CallFunc_Subtract_IntInt_ReturnValue));
+            if (!CallFunc_LessEqual_IntInt_ReturnValue) break;
+
+            while (true) {
+                // Block 3
+                EX_PushExecutionFlow(UserConstructionScript_1613);
+
+                // Block 4
+                Temp_struct_Variable = EX_TransformConst(0, -0, 0, 1, 0, 0, 0, 1, 1, 1);
+                EX_LetObj(CallFunc_AddComponent_ReturnValue,this.AddComponent(EX_NameConst("NODE_AddSplineMeshComponent-0"), false, Temp_struct_Variable, this, false));
+                K2Node_MakeArray_Array = new[] {this.`Fluid Interaction Tag`};
+                CallFunc_AddComponent_ReturnValue.ComponentTags = K2Node_MakeArray_Array;
+                CallFunc_AddComponent_ReturnValue.SetMaterial(0, this.`River Material`);
+                CallFunc_K2_GetComponentRotation_ReturnValue = CallFunc_AddComponent_ReturnValue.K2_GetComponentRotation();
+                KismetMathLibrary.BreakRotator(CallFunc_K2_GetComponentRotation_ReturnValue, CallFunc_BreakRotator_Roll, CallFunc_BreakRotator_Pitch, CallFunc_BreakRotator_Yaw);
+                CallFunc_Abs_ReturnValue = KismetMathLibrary.Abs(CallFunc_BreakRotator_Yaw);
+                CallFunc_Divide_FloatFloat_ReturnValue = KismetMathLibrary.Divide_FloatFloat(CallFunc_Abs_ReturnValue, 360f);
+                CallFunc_AddComponent_ReturnValue.SetScalarParameterValueOnMaterials(EX_NameConst("ObjectZRotation"), CallFunc_Divide_FloatFloat_ReturnValue);
+                CallFunc_GetScaleAtSplinePoint_ReturnValue_1 = this.Spline.GetScaleAtSplinePoint(Temp_int_Variable);
+                KismetMathLibrary.BreakVector(CallFunc_GetScaleAtSplinePoint_ReturnValue_1, CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, CallFunc_BreakVector_Z_2);
+                CallFunc_Multiply_FloatFloat_ReturnValue_2 = KismetMathLibrary.Multiply_FloatFloat(this.EasyScale, CallFunc_BreakVector_Y_2);
+                CallFunc_Multiply_FloatFloat_ReturnValue_3 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_BreakVector_X_2, this.EasyScale);
+                CallFunc_MakeVector2D_ReturnValue_1 = KismetMathLibrary.MakeVector2D(CallFunc_Multiply_FloatFloat_ReturnValue_3, CallFunc_Multiply_FloatFloat_ReturnValue_2);
+                CallFunc_AddComponent_ReturnValue.SetStartScale(CallFunc_MakeVector2D_ReturnValue_1, true);
+                CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+                CallFunc_GetScaleAtSplinePoint_ReturnValue = this.Spline.GetScaleAtSplinePoint(CallFunc_Add_IntInt_ReturnValue_1);
+                KismetMathLibrary.BreakVector(CallFunc_GetScaleAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.EasyScale, CallFunc_BreakVector_Y_1);
+                CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_BreakVector_X_1, this.EasyScale);
+                CallFunc_MakeVector2D_ReturnValue = KismetMathLibrary.MakeVector2D(CallFunc_Multiply_FloatFloat_ReturnValue_1, CallFunc_Multiply_FloatFloat_ReturnValue);
+                CallFunc_AddComponent_ReturnValue.SetEndScale(CallFunc_MakeVector2D_ReturnValue, true);
+                CallFunc_K2_AttachToComponent_ReturnValue = (bool)(CallFunc_AddComponent_ReturnValue.K2_AttachToComponent(EX_NoObject(), EX_NameConst("None"), (byte)(0), (byte)(0), (byte)(0), true));
+                CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+                this.Spline.GetLocationAndTangentAtSplinePoint(CallFunc_Add_IntInt_ReturnValue, CallFunc_GetLocationAndTangentAtSplinePoint_Location, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent, (byte)(0));
+                this.Spline.GetLocationAndTangentAtSplinePoint(Temp_int_Variable, CallFunc_GetLocationAndTangentAtSplinePoint_Location_1, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent_1, (byte)(0));
+                CallFunc_AddComponent_ReturnValue.SetStartAndEnd(CallFunc_GetLocationAndTangentAtSplinePoint_Location_1, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent_1, CallFunc_GetLocationAndTangentAtSplinePoint_Location, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent, true);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 5
+            UserConstructionScript_1539: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue_2;
+            goto UserConstructionScript_28;
+
+            // Block 6
+            UserConstructionScript_1613: CallFunc_GetTangentAtSplinePoint_ReturnValue = this.Spline.GetTangentAtSplinePoint(Temp_int_Variable, (byte)(0));
+            KismetMathLibrary.BreakVector(CallFunc_GetTangentAtSplinePoint_ReturnValue, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+            CallFunc_Less_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_BreakVector_Z, this.`Waterfall Tangent Start`));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Less_FloatFloat_ReturnValue, this.Waterfalls));
+            if (!CallFunc_BooleanAND_ReturnValue) break;
+
+            // Block 7
+            CallFunc_GetRotationAtSplinePoint_ReturnValue = this.Spline.GetRotationAtSplinePoint(Temp_int_Variable, (byte)(0));
+            CallFunc_GetLocationAtSplinePoint_ReturnValue = this.Spline.GetLocationAtSplinePoint(Temp_int_Variable, (byte)(0));
+            CallFunc_MakeTransform_ReturnValue = KismetMathLibrary.MakeTransform(CallFunc_GetLocationAtSplinePoint_ReturnValue, CallFunc_GetRotationAtSplinePoint_ReturnValue, EX_VectorConst(1, 1, 1));
+            EX_LetObj(CallFunc_AddComponent_ReturnValue_1,this.AddComponent(EX_NameConst("NODE_AddParticleSystemComponent-0"), false, CallFunc_MakeTransform_ReturnValue, this, false));
+            CallFunc_AddComponent_ReturnValue_1.SetFloatParameter(EX_NameConst("SplashDensity"), this.`Splash Density`);
+            CallFunc_AddComponent_ReturnValue_1.SetFloatParameter(EX_NameConst("MistDensity"), this.`Mist Density`);
+            CallFunc_AddComponent_ReturnValue_1.SetEmitterEnable(EX_NameConst("Particle Emitter"), true);
+            EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue_1,CallFunc_AddComponent_ReturnValue_1.CreateDynamicMaterialInstance(0, Mist_Inst, EX_NameConst("None")));
+            CallFunc_Conv_BoolToFloat_ReturnValue_1 = KismetMathLibrary.Conv_BoolToFloat(false);
+            CallFunc_CreateDynamicMaterialInstance_ReturnValue_1.SetScalarParameterValue(EX_NameConst("Emissive Toggle"), CallFunc_Conv_BoolToFloat_ReturnValue_1);
+            EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,CallFunc_AddComponent_ReturnValue_1.CreateDynamicMaterialInstance(1, Splash_Inst, EX_NameConst("None")));
+            CallFunc_Conv_BoolToFloat_ReturnValue = KismetMathLibrary.Conv_BoolToFloat(false);
+            CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Emissive Toggle"), CallFunc_Conv_BoolToFloat_ReturnValue);
+            CallFunc_Array_AddUnique_ReturnValue = Default__KismetArrayLibrary.Array_AddUnique(this.ListOfWaterfallParticles, CallFunc_AddComponent_ReturnValue_1);
+            break;
+
+        }
+
+
+        // Block 8
+        UserConstructionScript_2579:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void TraceNormal([BlueprintVisible, BlueprintReadOnly] Struct<Vector> Start, [BlueprintVisible, BlueprintReadOnly] Struct<Vector> End, out Struct<Vector> ImpactNormal) {
+        // Locals
+        ref Array<Object<Actor>> CallFunc_GetActorListFromComponentList_OutActorList;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_LineTraceSingle_OutHit;
+        bool CallFunc_LineTraceSingle_ReturnValue;
+        bool CallFunc_BreakHitResult_bBlockingHit;
+        bool CallFunc_BreakHitResult_bInitialOverlap;
+        float CallFunc_BreakHitResult_Time;
+        float CallFunc_BreakHitResult_Distance;
+        Struct<Vector> CallFunc_BreakHitResult_Location;
+        Struct<Vector> CallFunc_BreakHitResult_ImpactPoint;
+        Struct<Vector> CallFunc_BreakHitResult_Normal;
+        Struct<Vector> CallFunc_BreakHitResult_ImpactNormal;
+        Object<PhysicalMaterial> CallFunc_BreakHitResult_PhysMat;
+        Object<Actor> CallFunc_BreakHitResult_HitActor;
+        [InstancedReference] Object<PrimitiveComponent> CallFunc_BreakHitResult_HitComponent;
+        Name CallFunc_BreakHitResult_HitBoneName;
+        int CallFunc_BreakHitResult_HitItem;
+        int CallFunc_BreakHitResult_ElementIndex;
+        int CallFunc_BreakHitResult_FaceIndex;
+        Struct<Vector> CallFunc_BreakHitResult_TraceStart;
+        Struct<Vector> CallFunc_BreakHitResult_TraceEnd;
+
+        // Block 1
+        CallFunc_GetActorListFromComponentList_OutActorList = new[] {};
+        KismetSystemLibrary.GetActorListFromComponentList(this.ActorInWaterList, Actor, CallFunc_GetActorListFromComponentList_OutActorList);
+        CallFunc_LineTraceSingle_ReturnValue = (bool)(KismetSystemLibrary.LineTraceSingle(this, Start, End, (byte)(0), false, CallFunc_GetActorListFromComponentList_OutActorList, this.`Physics Flow Debug Type`, CallFunc_LineTraceSingle_OutHit, true, EX_StructConst(LinearColor, 16, 1f, 0f, 0f, 1f), EX_StructConst(LinearColor, 16, 0f, 1f, 0f, 1f), 0.1f));
+        GameplayStatics.BreakHitResult(CallFunc_LineTraceSingle_OutHit, CallFunc_BreakHitResult_bBlockingHit, CallFunc_BreakHitResult_bInitialOverlap, CallFunc_BreakHitResult_Time, CallFunc_BreakHitResult_Distance, CallFunc_BreakHitResult_Location, CallFunc_BreakHitResult_ImpactPoint, CallFunc_BreakHitResult_Normal, CallFunc_BreakHitResult_ImpactNormal, CallFunc_BreakHitResult_PhysMat, CallFunc_BreakHitResult_HitActor, CallFunc_BreakHitResult_HitComponent, CallFunc_BreakHitResult_HitBoneName, CallFunc_BreakHitResult_HitItem, CallFunc_BreakHitResult_ElementIndex, CallFunc_BreakHitResult_FaceIndex, CallFunc_BreakHitResult_TraceStart, CallFunc_BreakHitResult_TraceEnd);
+        ImpactNormal = CallFunc_BreakHitResult_ImpactNormal;
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void CreateTriggerMeshes() {
+        // Locals
+        int CallFunc_GetNumberOfSplinePoints_ReturnValue;
+        int CallFunc_Subtract_IntInt_ReturnValue;
+        const Struct<Transform> Temp_struct_Variable;
+        [InstancedReference] Object<SplineMeshComponent> CallFunc_AddComponent_ReturnValue;
+        Struct<Vector> CallFunc_GetComponentBounds_Origin;
+        Struct<Vector> CallFunc_GetComponentBounds_BoxExtent;
+        float CallFunc_GetComponentBounds_SphereRadius;
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        int CallFunc_Array_AddUnique_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        float CallFunc_Add_FloatFloat_ReturnValue;
+        int Temp_int_Variable;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Location;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Tangent;
+        int CallFunc_Add_IntInt_ReturnValue;
+        float CallFunc_BreakVector_X_1;
+        float CallFunc_BreakVector_Y_1;
+        float CallFunc_BreakVector_Z_1;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Location_1;
+        Struct<Vector> CallFunc_GetLocationAndTangentAtSplinePoint_Tangent_1;
+        float CallFunc_Subtract_FloatFloat_ReturnValue_1;
+        float CallFunc_BreakVector_X_2;
+        float CallFunc_BreakVector_Y_2;
+        float CallFunc_BreakVector_Z_2;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        float CallFunc_Subtract_FloatFloat_ReturnValue_2;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        Struct<Vector> CallFunc_GetScaleAtSplinePoint_ReturnValue;
+        float CallFunc_BreakVector_X_3;
+        float CallFunc_BreakVector_Y_3;
+        float CallFunc_BreakVector_Z_3;
+        Struct<Vector> CallFunc_GetScaleAtSplinePoint_ReturnValue_1;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        float CallFunc_BreakVector_X_4;
+        float CallFunc_BreakVector_Y_4;
+        float CallFunc_BreakVector_Z_4;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_2;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_3;
+        Struct<Vector2D> CallFunc_MakeVector2D_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_4;
+        Struct<Vector2D> CallFunc_MakeVector2D_ReturnValue_1;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+
+        while (true) {
+            // Block 1
+            Default__KismetArrayLibrary.Array_Clear(this.TriggerList);
+            Temp_int_Variable = 0;
+
+            // Block 2
+            CreateTriggerMeshes_69: CallFunc_GetNumberOfSplinePoints_ReturnValue = this.Spline.GetNumberOfSplinePoints();
+            CallFunc_Subtract_IntInt_ReturnValue = KismetMathLibrary.Subtract_IntInt(CallFunc_GetNumberOfSplinePoints_ReturnValue, 2);
+            CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, CallFunc_Subtract_IntInt_ReturnValue));
+            if (!CallFunc_LessEqual_IntInt_ReturnValue) break;
+
+            while (true) {
+                // Block 3
+                Temp_struct_Variable = EX_TransformConst(0, -0, 0, 1, 0, 0, 0, 1, 1, 1);
+                EX_LetObj(CallFunc_AddComponent_ReturnValue,this.AddComponent(EX_NameConst("NODE_AddSplineMeshComponent-2"), false, Temp_struct_Variable, this, false));
+                CallFunc_GetScaleAtSplinePoint_ReturnValue_1 = this.Spline.GetScaleAtSplinePoint(Temp_int_Variable);
+                KismetMathLibrary.BreakVector(CallFunc_GetScaleAtSplinePoint_ReturnValue_1, CallFunc_BreakVector_X_4, CallFunc_BreakVector_Y_4, CallFunc_BreakVector_Z_4);
+                CallFunc_Multiply_FloatFloat_ReturnValue_3 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_BreakVector_X_4, 0.4f);
+                CallFunc_Multiply_FloatFloat_ReturnValue_4 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_Multiply_FloatFloat_ReturnValue_3, this.EasyScale);
+                CallFunc_MakeVector2D_ReturnValue_1 = KismetMathLibrary.MakeVector2D(CallFunc_Multiply_FloatFloat_ReturnValue_4, this.WaterTriggerThickness);
+                CallFunc_AddComponent_ReturnValue.SetStartScale(CallFunc_MakeVector2D_ReturnValue_1, true);
+                CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+                CallFunc_GetScaleAtSplinePoint_ReturnValue = this.Spline.GetScaleAtSplinePoint(CallFunc_Add_IntInt_ReturnValue_1);
+                KismetMathLibrary.BreakVector(CallFunc_GetScaleAtSplinePoint_ReturnValue, CallFunc_BreakVector_X_3, CallFunc_BreakVector_Y_3, CallFunc_BreakVector_Z_3);
+                CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_BreakVector_X_3, 0.4f);
+                CallFunc_Multiply_FloatFloat_ReturnValue_2 = KismetMathLibrary.Multiply_FloatFloat(CallFunc_Multiply_FloatFloat_ReturnValue_1, this.EasyScale);
+                CallFunc_MakeVector2D_ReturnValue = KismetMathLibrary.MakeVector2D(CallFunc_Multiply_FloatFloat_ReturnValue_2, this.WaterTriggerThickness);
+                CallFunc_AddComponent_ReturnValue.SetEndScale(CallFunc_MakeVector2D_ReturnValue, true);
+                KismetSystemLibrary.GetComponentBounds(CallFunc_AddComponent_ReturnValue, CallFunc_GetComponentBounds_Origin, CallFunc_GetComponentBounds_BoxExtent, CallFunc_GetComponentBounds_SphereRadius);
+                KismetMathLibrary.BreakVector(CallFunc_GetComponentBounds_BoxExtent, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(CallFunc_BreakVector_Z, this.WaterTriggerThickness);
+                CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(CallFunc_Multiply_FloatFloat_ReturnValue, 128f);
+                CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(CallFunc_Subtract_FloatFloat_ReturnValue, this.WaterTriggerHeightOffset);
+                this.Spline.GetLocationAndTangentAtSplinePoint(Temp_int_Variable, CallFunc_GetLocationAndTangentAtSplinePoint_Location, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent, (byte)(0));
+                CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+                KismetMathLibrary.BreakVector(CallFunc_GetLocationAndTangentAtSplinePoint_Location, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+                this.Spline.GetLocationAndTangentAtSplinePoint(CallFunc_Add_IntInt_ReturnValue, CallFunc_GetLocationAndTangentAtSplinePoint_Location_1, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent_1, (byte)(0));
+                CallFunc_Subtract_FloatFloat_ReturnValue_1 = KismetMathLibrary.Subtract_FloatFloat(CallFunc_BreakVector_Z_1, CallFunc_Add_FloatFloat_ReturnValue);
+                KismetMathLibrary.BreakVector(CallFunc_GetLocationAndTangentAtSplinePoint_Location_1, CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, CallFunc_BreakVector_Z_2);
+                CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_Subtract_FloatFloat_ReturnValue_1);
+                CallFunc_Subtract_FloatFloat_ReturnValue_2 = KismetMathLibrary.Subtract_FloatFloat(CallFunc_BreakVector_Z_2, CallFunc_Add_FloatFloat_ReturnValue);
+                CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, CallFunc_Subtract_FloatFloat_ReturnValue_2);
+                CallFunc_AddComponent_ReturnValue.SetStartAndEnd(CallFunc_MakeVector_ReturnValue, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent, CallFunc_MakeVector_ReturnValue_1, CallFunc_GetLocationAndTangentAtSplinePoint_Tangent_1, true);
+                CallFunc_Array_AddUnique_ReturnValue = Default__KismetArrayLibrary.Array_AddUnique(this.TriggerList, CallFunc_AddComponent_ReturnValue);
+                break;
+
+            }
+
+
+            // Block 4
+            CreateTriggerMeshes_1744: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue_2;
+            goto CreateTriggerMeshes_69;
+
+        }
+
+
+        // Block 5
+        CreateTriggerMeshes_1818:
+
+    }
+
+}

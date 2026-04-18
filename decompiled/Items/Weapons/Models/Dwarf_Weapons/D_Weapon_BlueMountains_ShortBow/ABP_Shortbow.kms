@@ -1,0 +1,254 @@
+
+[Import("/Script/Moria")]
+public class MorCharacter {
+    [UnknownSignature, VirtualFunction] public virtual void HasMatchingGameplayTag();
+}
+
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagAssetInterface {}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public AnimInstance Default__AnimInstance;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+}
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimInstance {
+    public Object BlueprintUpdateAnimation;
+    [UnknownSignature, FinalFunction] public sealed void GetOwningActor();
+    [UnknownSignature, FinalFunction] public sealed void GetRelevantAnimTime();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void BooleanOR();
+    [UnknownSignature, MathFunction] public static sealed void GreaterEqual_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_StateMachine;
+
+[Import("/Script/Engine")]
+public class AnimNode_TransitionResult {
+    public ObjectProperty bCanEnterTransition;
+}
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class InterfaceProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_SequenceEvaluator;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_StateResult;
+
+
+[Import("/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_BlueMountains_ShortBow/D_Weapon_BlueMountains_ShortBow_Skeleton")]
+public Skeleton D_Weapon_BlueMountains_ShortBow_Skeleton;
+
+
+[Import("/Game/Animations/Dwarf/Dwa_Bow_Combat_HipAim_Fire_Bow")]
+public AnimSequence Dwa_Bow_Combat_HipAim_Fire_Bow;
+
+
+[Import("/Game/Animations/Dwarf/Dwa_Bow_Combat_Aim_Fire_Bow")]
+public AnimSequence Dwa_Bow_Combat_Aim_Fire_Bow;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Shortbow_C : AnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_4;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_3;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_2;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_1;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_1;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_3;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_1;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_2;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_1;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool Reload;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool Fire;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_Shortbow([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<Actor> CallFunc_GetOwningActor_ReturnValue;
+        float CallFunc_GetRelevantAnimTime_ReturnValue;
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        bool CallFunc_GreaterEqual_FloatFloat_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess;
+        Interface<GameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput;
+        bool CallFunc_HasMatchingGameplayTag_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        Interface<GameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput_1;
+        bool CallFunc_HasMatchingGameplayTag_ReturnValue_1;
+        bool CallFunc_BooleanAND_ReturnValue;
+        Interface<GameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput_2;
+        bool CallFunc_HasMatchingGameplayTag_ReturnValue_2;
+        bool CallFunc_BooleanOR_ReturnValue;
+        Interface<GameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput_3;
+        bool CallFunc_HasMatchingGameplayTag_ReturnValue_3;
+        bool CallFunc_BooleanOR_ReturnValue_1;
+        float CallFunc_GetRelevantAnimTime_ReturnValue_1;
+        bool CallFunc_GreaterEqual_FloatFloat_ReturnValue_1;
+        float K2Node_Event_DeltaTimeX;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_ABP_Shortbow_10: EX_LetObj(CallFunc_GetOwningActor_ReturnValue,this.GetOwningActor());
+        EX_LetObj(CallFunc_GetOwner_ReturnValue,CallFunc_GetOwningActor_ReturnValue.GetOwner());
+        K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", CallFunc_GetOwner_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 3
+        CallFunc_HasMatchingGameplayTag_ReturnValue_1 = (bool)(K2Node_DynamicCast_AsMor_Character.HasMatchingGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Condition.AimedDraw"))));
+        CallFunc_HasMatchingGameplayTag_ReturnValue_3 = (bool)(K2Node_DynamicCast_AsMor_Character.HasMatchingGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Condition.QuickDraw"))));
+        CallFunc_BooleanOR_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanOR(CallFunc_HasMatchingGameplayTag_ReturnValue_1, CallFunc_HasMatchingGameplayTag_ReturnValue_3));
+        this.Reload = (bool)(CallFunc_BooleanOR_ReturnValue_1);
+        CallFunc_HasMatchingGameplayTag_ReturnValue = (bool)(K2Node_DynamicCast_AsMor_Character.HasMatchingGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Condition.AimedShoot"))));
+        CallFunc_HasMatchingGameplayTag_ReturnValue_2 = (bool)(K2Node_DynamicCast_AsMor_Character.HasMatchingGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Condition.QuickShoot"))));
+        CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_HasMatchingGameplayTag_ReturnValue_2, CallFunc_HasMatchingGameplayTag_ReturnValue));
+        this.Fire = (bool)(CallFunc_BooleanOR_ReturnValue);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_ABP_Shortbow_566: CallFunc_GetRelevantAnimTime_ReturnValue = this.GetRelevantAnimTime(1, 1);
+        CallFunc_GreaterEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_FloatFloat(CallFunc_GetRelevantAnimTime_ReturnValue, 0.47f));
+        CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(this.Reload));
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_GreaterEqual_FloatFloat_ReturnValue, CallFunc_Not_PreBool_ReturnValue));
+        this.AnimGraphNode_TransitionResult_2.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue);
+        return;
+
+        // Block 5
+        ExecuteUbergraph_ABP_Shortbow_738: CallFunc_GetRelevantAnimTime_ReturnValue_1 = this.GetRelevantAnimTime(1, 1);
+        CallFunc_GreaterEqual_FloatFloat_ReturnValue_1 = (bool)(KismetMathLibrary.GreaterEqual_FloatFloat(CallFunc_GetRelevantAnimTime_ReturnValue_1, 0.5f));
+        this.AnimGraphNode_TransitionResult_4.bCanEnterTransition = (bool)(CallFunc_GreaterEqual_FloatFloat_ReturnValue_1);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_ABP_Shortbow_843_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Shortbow_AnimGraphNode_TransitionResult_AE05DB8A4FF1A2F8D7282FBF1D7B7BAD: goto ExecuteUbergraph_ABP_Shortbow_566;
+
+        // Block 7
+        ExecuteUbergraph_ABP_Shortbow_848_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Shortbow_AnimGraphNode_TransitionResult_ADD42F404CD2DD5944CBD38A97EDB7E4: goto ExecuteUbergraph_ABP_Shortbow_738;
+
+        // Block 8
+        ExecuteUbergraph_ABP_Shortbow_853_BlueprintUpdateAnimation: goto ExecuteUbergraph_ABP_Shortbow_10;
+
+        // Block 9
+        ExecuteUbergraph_ABP_Shortbow_858:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintUpdateAnimation([BlueprintVisible, BlueprintReadOnly] float DeltaTimeX) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaTimeX", DeltaTimeX);
+        this.ExecuteUbergraph_ABP_Shortbow(ExecuteUbergraph_ABP_Shortbow_853_BlueprintUpdateAnimation);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Shortbow_AnimGraphNode_TransitionResult_ADD42F404CD2DD5944CBD38A97EDB7E4() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Shortbow(ExecuteUbergraph_ABP_Shortbow_848_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Shortbow_AnimGraphNode_TransitionResult_ADD42F404CD2DD5944CBD38A97EDB7E4);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Shortbow_AnimGraphNode_TransitionResult_AE05DB8A4FF1A2F8D7282FBF1D7B7BAD() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Shortbow(ExecuteUbergraph_ABP_Shortbow_843_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Shortbow_AnimGraphNode_TransitionResult_AE05DB8A4FF1A2F8D7282FBF1D7B7BAD);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

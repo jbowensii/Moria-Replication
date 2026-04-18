@@ -1,0 +1,961 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public static class ExpeditionManager {
+    [UnknownSignature, MathFunction] public static sealed void IsInExpedition();
+}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTable();
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+    [UnknownSignature, MathFunction] public static sealed void IsSandbox();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorSettlementManager {
+    public ObjectProperty OnNpcRescued;
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void CompleteGoalEntry();
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public Object MorOnNpcRescuedDelegate__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class MorAchievementComponent {}
+
+[Import("/Script/Moria")]
+public class MorBubbleActivationPlayerController {}
+
+[Import("/Script/Moria")]
+public class MorCheatsComponent {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public class MorMiningSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorNetBigDataPlayerComponent {}
+
+[Import("/Script/Moria")]
+public class MorNPCComponent {}
+
+[Import("/Script/Moria")]
+public class MorNPCConversationComponent {}
+
+[Import("/Script/Moria")]
+public class MorOverheadIndicatorComponent {}
+
+[Import("/Script/Moria")]
+public class MorPlayerProfileDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorProcWorldRPCComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class MorTipComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/GameplayAbilities")]
+public class AbilitySystemComponent {
+    [UnknownSignature, FinalFunction] public sealed void TryActivateAbilityByClass();
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter : Actor {
+    public AbilitySystemComponent AbilitySystem;
+}
+
+[Import("/Script/FGK")]
+public static class FGKBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLocallyControlledPlayer();
+    [UnknownSignature, MathFunction] public static sealed void GetLocallyControlledPlayerCharacter();
+}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKPlayerController {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+    [UnknownSignature, MathFunction] public static sealed void IsAServerPlayer();
+}
+
+[Import("/Script/FGK")]
+public class FGKCheatsComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetInstigatorController();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class Controller {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Clear();
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ObjectObject();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsDedicatedServer();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SphereComponent Default__SphereComponent;
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Guid;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/UI/HUD/WBP_MoriaHUD")]
+public WBP_MoriaHUD_C Default__WBP_MoriaHUD_C;
+
+[Import("/Game/UI/HUD/WBP_MoriaHUD")]
+public class WBP_MoriaHUD_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Textures/_Icons/Waypoints/T_UI_Icon_Danger")]
+public Texture2D T_UI_Icon_Danger;
+
+
+[Import("/Game/UI/Textures/_Icons/Expeditions/T_UI_Icon_Expedition_Rescue")]
+public Texture2D T_UI_Icon_Expedition_Rescue;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_MorSettlementManager")]
+public class BP_MorSettlementManager_C : MorSettlementManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_MorSettlementManager")]
+public BP_MorSettlementManager_C Default__BP_MorSettlementManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_ExpeditionManager")]
+public class BP_ExpeditionManager_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_ExpeditionManager")]
+public BP_ExpeditionManager_C Default__BP_ExpeditionManager_C;
+
+
+[Import("/Game/Player/BP_FGKMoriaPlayerController")]
+public class BP_FGKMoriaPlayerController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public SceneComponent DefaultSceneRoot;
+    public ObjectProperty hudReference;
+}
+
+[Import("/Game/Player/BP_FGKMoriaPlayerController")]
+public class Default__BP_FGKMoriaPlayerController_C {
+    public FGKActorFSMComponent InputFSMComp;
+    public FGKCheatsComponent FGKCheatsComponent;
+    public MorAchievementComponent MorAchievementComponent;
+    public MorBubbleActivationPlayerController BubbleActivation;
+    public MorCheatsComponent MorCheatsComponent;
+    public MorNetBigDataPlayerComponent NetBigDataPlayerComponent;
+    public MorPlayerProfileDataComponent CharacterSaveDataComponent;
+    public MorProcWorldRPCComponent ProcWorldRPCComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public MorTipComponent MorTipComponent;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GA_FatalDamage")]
+public class GA_FatalDamage_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GA_FatalDamage")]
+public GA_FatalDamage_C Default__GA_FatalDamage_C;
+
+
+[Import("/Game/Character/NpcDwarf/BP_NpcDwarf")]
+public class BP_NpcDwarf_C : FGKBaseCharacter {
+    public AkComponent AkComponent_AmbientVoice_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public MorCraftingComponent MorCrafting_GEN_VARIABLE;
+    public MorMiningSongComponent MorMiningSong_GEN_VARIABLE;
+    public MorNPCComponent MorNPC_GEN_VARIABLE;
+    public MorNPCConversationComponent MorNPCConversation_GEN_VARIABLE;
+    public MorOverheadIndicatorComponent MorOverheadIndicator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Backpack_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_BaseBody_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Beard_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Chest_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Extras_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Gloves_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hair_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hands_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hat_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Head_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Legs_GEN_VARIABLE;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public AkComponent AkComponent_AmbientVoice;
+    public CustomizationManager CustomizationManager;
+    public MorCraftingComponent MorCrafting;
+    public MorMiningSongComponent MorMiningSong;
+    public MorNPCComponent MorNPC;
+    public MorNPCConversationComponent MorNPCConversation;
+    public MorOverheadIndicatorComponent MorOverheadIndicator;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent SK_Backpack;
+    public SkeletalMeshComponent SK_BaseBody;
+    public SkeletalMeshComponent SK_Beard;
+    public SkeletalMeshComponent SK_Chest;
+    public SkeletalMeshComponent SK_Extras;
+    public SkeletalMeshComponent SK_Gloves;
+    public SkeletalMeshComponent SK_Hair;
+    public SkeletalMeshComponent SK_Hands;
+    public SkeletalMeshComponent SK_Hat;
+    public SkeletalMeshComponent SK_Head;
+    public SkeletalMeshComponent SK_Legs;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+}
+
+[Import("/Game/Character/NpcDwarf/BP_NpcDwarf")]
+public class Default__BP_NpcDwarf_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_NpcDwarf_Survivor_C : BP_NpcDwarf_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> `Near VO Trigger Volume`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> `Far VO trigger Volume`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> `Search Trigger Volume`;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Overlap Lore Rows`;
+    [Edit, BlueprintVisible] Object<DataTable> `Near VO Table`;
+    [Edit, BlueprintVisible] Object<DataTable> `Far VO Table`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text `Text for Search Widget`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<Texture2D> `Icon for Search Widget`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text `Text for Search Widget In Expedition`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<Texture2D> `Icon for Search Widget In Expedititon`;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Sandbox Overlap Lore Rows`;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_NpcDwarf_Survivor([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        int Temp_int_Array_Index_Variable;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Array_Index_Variable_1;
+        bool CallFunc_HasAuthority_ReturnValue_2;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OverlappedComponent_3;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_3;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_3;
+        int K2Node_ComponentBoundEvent_OtherBodyIndex_3;
+        bool K2Node_ComponentBoundEvent_bFromSweep_2;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_SweepResult_2;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OverlappedComponent_2;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_2;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_2;
+        int K2Node_ComponentBoundEvent_OtherBodyIndex_2;
+        Object<Controller> CallFunc_GetInstigatorController_ReturnValue;
+        Object<Controller> CallFunc_GetInstigatorController_ReturnValue_1;
+        Object<BP_FGKMoriaPlayerController_C> K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_FGKMoriaPlayerController_C> K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller_1;
+        bool K2Node_DynamicCast_bSuccess_1;
+        [InstancedReference] Object<WBP_MoriaHUD_C> K2Node_DynamicCast_AsWBP_Moria_HUD;
+        bool K2Node_DynamicCast_bSuccess_2;
+        [InstancedReference] Object<WBP_MoriaHUD_C> K2Node_DynamicCast_AsWBP_Moria_HUD_1;
+        bool K2Node_DynamicCast_bSuccess_3;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<FGKBaseCharacter> CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue;
+        Struct<Guid> K2Node_CustomEvent_NpcId;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<BP_MorSettlementManager_C> CallFunc_GetManager_ReturnValue;
+        Object<Actor> CallFunc_GetManager_ReturnValue_1;
+        Object<BP_StoryManager_C> K2Node_DynamicCast_AsBP_Story_Manager;
+        bool K2Node_DynamicCast_bSuccess_4;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_2;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_3;
+        bool CallFunc_IsInExpedition_ReturnValue;
+        bool CallFunc_IsInExpedition_ReturnValue_1;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OverlappedComponent_1;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor_1;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp_1;
+        int K2Node_ComponentBoundEvent_OtherBodyIndex_1;
+        bool K2Node_ComponentBoundEvent_bFromSweep_1;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_SweepResult_1;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_4;
+        bool CallFunc_IsAServerPlayer_ReturnValue;
+        bool CallFunc_IsInExpedition_ReturnValue_2;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit_1;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue_5;
+        int Temp_int_Loop_Counter_Variable_1;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_6;
+        bool CallFunc_IsInExpedition_ReturnValue_3;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue_1;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OverlappedComponent;
+        Object<Actor> K2Node_ComponentBoundEvent_OtherActor;
+        [InstancedReference] Object<PrimitiveComponent> K2Node_ComponentBoundEvent_OtherComp;
+        int K2Node_ComponentBoundEvent_OtherBodyIndex;
+        bool K2Node_ComponentBoundEvent_bFromSweep;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_ComponentBoundEvent_SweepResult;
+        bool CallFunc_IsAServerPlayer_ReturnValue_1;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue_1;
+        bool CallFunc_IsDedicatedServer_ReturnValue;
+        Object<BP_ExpeditionManager_C> CallFunc_GetManager_ReturnValue_7;
+        bool CallFunc_IsDedicatedServer_ReturnValue_1;
+        bool CallFunc_IsInExpedition_ReturnValue_4;
+        Object<FGKPlayerController> CallFunc_GetLocallyControlledPlayer_ReturnValue;
+        Object<FGKPlayerController> CallFunc_GetLocallyControlledPlayer_ReturnValue_1;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue_1;
+        bool CallFunc_IsSandbox_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item_1;
+        int CallFunc_Array_Length_ReturnValue_1;
+        bool CallFunc_Less_IntInt_ReturnValue_1;
+        bool CallFunc_IsSandbox_ReturnValue_1;
+        Object<FGKBaseCharacter> CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_15: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 3
+            CallFunc_IsAServerPlayer_ReturnValue = (bool)(FGKUtils.IsAServerPlayer(K2Node_ComponentBoundEvent_OtherActor_1));
+            EX_PopExecutionFlowIfNot(CallFunc_IsAServerPlayer_ReturnValue);
+
+            // Block 4
+            EX_LetObj(CallFunc_GetManager_ReturnValue_2,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+            CallFunc_IsInExpedition_ReturnValue = (bool)(ExpeditionManager.IsInExpedition(CallFunc_GetManager_ReturnValue_2));
+            CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_IsInExpedition_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Not_PreBool_ReturnValue);
+
+            // Block 5
+            CallFunc_RequestDialogueEventFromTable_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTable(this.`Far VO Table`, this, (byte)(4), K2Node_MakeStruct_DialogueRateLimit, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags, EX_StructConst(GameplayTag, 12, EX_NameConst("DialogueSpeaker.Dwarf")))), false));
+            EX_PopExecutionFlow();
+
+            // Block 6
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_280: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+
+            if (CallFunc_HasAuthority_ReturnValue_1) {
+                // Block 7
+                CallFunc_IsDedicatedServer_ReturnValue = (bool)(KismetSystemLibrary.IsDedicatedServer(this));
+                if (!(CallFunc_IsDedicatedServer_ReturnValue)) goto ExecuteUbergraph_BP_NpcDwarf_Survivor_744;
+
+                // Block 8
+                ExecuteUbergraph_BP_NpcDwarf_Survivor_349: EX_LetObj(CallFunc_GetManager_ReturnValue_7,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+                CallFunc_IsInExpedition_ReturnValue_4 = (bool)(ExpeditionManager.IsInExpedition(CallFunc_GetManager_ReturnValue_7));
+                if (!(CallFunc_IsInExpedition_ReturnValue_4)) goto ExecuteUbergraph_BP_NpcDwarf_Survivor_836;
+
+                // Block 9
+                break;
+
+            }
+
+
+            // Block 10
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_423: K2Node_DynamicCast_AsWBP_Moria_HUD = EX_DynamicCast("WBP_MoriaHUD_C", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller.hudReference);
+            K2Node_DynamicCast_bSuccess_2 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_Moria_HUD);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_2);
+
+            // Block 11
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(K2Node_DynamicCast_AsWBP_Moria_HUD));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 12
+            EX_LetObj(CallFunc_GetManager_ReturnValue_4,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+            CallFunc_IsInExpedition_ReturnValue_2 = (bool)(ExpeditionManager.IsInExpedition(CallFunc_GetManager_ReturnValue_4));
+
+            if (CallFunc_IsInExpedition_ReturnValue_2) {
+                // Block 13
+                K2Node_DynamicCast_AsWBP_Moria_HUD.ToggleSearchWidget(this.`Text for Search Widget In Expedition`, this.`Icon for Search Widget In Expedititon`, true);
+                break;
+
+            }
+
+
+            // Block 14
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_688: K2Node_DynamicCast_AsWBP_Moria_HUD.ToggleSearchWidget(this.`Text for Search Widget`, this.`Icon for Search Widget`, true);
+            EX_PopExecutionFlow();
+
+            // Block 15
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_744: EX_LetObj(CallFunc_GetLocallyControlledPlayer_ReturnValue,FGKBlueprintLibrary.GetLocallyControlledPlayer(this));
+            CallFunc_EqualEqual_ObjectObject_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller, CallFunc_GetLocallyControlledPlayer_ReturnValue));
+            if (!(CallFunc_EqualEqual_ObjectObject_ReturnValue)) goto ExecuteUbergraph_BP_NpcDwarf_Survivor_349;
+
+            // Block 16
+            this.EventDiscoverOverlapLore();
+            goto ExecuteUbergraph_BP_NpcDwarf_Survivor_423;
+
+            // Block 17
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_836: this.EventDiscoverOverlapLore();
+            EX_PopExecutionFlow();
+
+            // Block 18
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_851: Temp_int_Array_Index_Variable = 0;
+
+            // Block 19
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_874: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Overlap Lore Rows`);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_1, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 20
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable_1;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_NpcDwarf_Survivor_1117);
+
+            // Block 21
+            Default__KismetArrayLibrary.Array_Get(this.`Overlap Lore Rows`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_GetManager_ReturnValue_5.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), EX_NoObject());
+            EX_PopExecutionFlow();
+
+            // Block 22
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1117: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_1, 1);
+            Temp_int_Loop_Counter_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+            goto ExecuteUbergraph_BP_NpcDwarf_Survivor_874;
+
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1191:
+            while (true) {
+                // Block 23
+                Default__KismetArrayLibrary.Array_Get(this.`Sandbox Overlap Lore Rows`, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+                CallFunc_GetManager_ReturnValue_5.DiscoverStoryFragment(CallFunc_Array_Get_Item_1, (byte)(0), EX_NoObject());
+                break;
+
+            }
+
+
+            // Block 24
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1300: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 25
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1369: CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(this.`Sandbox Overlap Lore Rows`);
+            CallFunc_Less_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_1);
+
+            // Block 26
+            Temp_int_Array_Index_Variable_1 = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_NpcDwarf_Survivor_1191;
+
+            // Block 27
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1508: Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable_1 = 0;
+            goto ExecuteUbergraph_BP_NpcDwarf_Survivor_1369;
+
+            // Block 28
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1559: CallFunc_HasAuthority_ReturnValue_2 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_2);
+
+            // Block 29
+            CallFunc_IsAServerPlayer_ReturnValue_1 = (bool)(FGKUtils.IsAServerPlayer(K2Node_ComponentBoundEvent_OtherActor));
+            EX_PopExecutionFlowIfNot(CallFunc_IsAServerPlayer_ReturnValue_1);
+
+            // Block 30
+            EX_LetObj(CallFunc_GetManager_ReturnValue_6,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+            CallFunc_IsInExpedition_ReturnValue_3 = (bool)(ExpeditionManager.IsInExpedition(CallFunc_GetManager_ReturnValue_6));
+            CallFunc_Not_PreBool_ReturnValue_1 = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_IsInExpedition_ReturnValue_3));
+            EX_PopExecutionFlowIfNot(CallFunc_Not_PreBool_ReturnValue_1);
+
+            // Block 31
+            CallFunc_RequestDialogueEventFromTable_ReturnValue_1 = (bool)(MorDialogueManager.RequestDialogueEventFromTable(this.`Near VO Table`, this, (byte)(4), K2Node_MakeStruct_DialogueRateLimit_1, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags, EX_StructConst(GameplayTag, 12, EX_NameConst("DialogueSpeaker.Dwarf")))), false));
+            EX_PopExecutionFlow();
+
+            // Block 32
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1824_BndEvt__BP_NpcDwarf_Survivor_Sphere_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature: EX_LetObj(CallFunc_GetInstigatorController_ReturnValue,K2Node_ComponentBoundEvent_OtherActor_3.GetInstigatorController());
+            K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller = EX_DynamicCast("BP_FGKMoriaPlayerController_C", CallFunc_GetInstigatorController_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 33
+            goto ExecuteUbergraph_BP_NpcDwarf_Survivor_280;
+
+            // Block 34
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1946_BndEvt__BP_NpcDwarf_Survivor_Sphere_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature: CallFunc_IsDedicatedServer_ReturnValue_1 = (bool)(KismetSystemLibrary.IsDedicatedServer(this));
+
+            if (CallFunc_IsDedicatedServer_ReturnValue_1) {
+                // Block 35
+                break;
+
+            }
+
+
+            // Block 36
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_1982: EX_LetObj(CallFunc_GetInstigatorController_ReturnValue_1,K2Node_ComponentBoundEvent_OtherActor_2.GetInstigatorController());
+            EX_LetObj(CallFunc_GetLocallyControlledPlayer_ReturnValue_1,FGKBlueprintLibrary.GetLocallyControlledPlayer(this));
+            CallFunc_EqualEqual_ObjectObject_ReturnValue_1 = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(CallFunc_GetLocallyControlledPlayer_ReturnValue_1, CallFunc_GetInstigatorController_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ObjectObject_ReturnValue_1);
+
+            // Block 37
+            EX_LetObj(CallFunc_GetInstigatorController_ReturnValue_1,K2Node_ComponentBoundEvent_OtherActor_2.GetInstigatorController());
+            K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller_1 = EX_DynamicCast("BP_FGKMoriaPlayerController_C", CallFunc_GetInstigatorController_ReturnValue_1);
+            K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller_1);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_1);
+
+            // Block 38
+            K2Node_DynamicCast_AsWBP_Moria_HUD_1 = EX_DynamicCast("WBP_MoriaHUD_C", K2Node_DynamicCast_AsBP_FGKMoria_Player_Controller_1.hudReference);
+            K2Node_DynamicCast_bSuccess_3 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_Moria_HUD_1);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_3);
+
+            // Block 39
+            CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(K2Node_DynamicCast_AsWBP_Moria_HUD_1));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_1);
+
+            // Block 40
+            K2Node_DynamicCast_AsWBP_Moria_HUD_1.ToggleSearchWidget(this.`Text for Search Widget`, this.`Icon for Search Widget`, false);
+            EX_PopExecutionFlow();
+
+            // Block 41
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_2402_ReceiveBeginPlay: base.ReceiveBeginPlay();
+            EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(CallFunc_GetGameState_ReturnValue, BP_MorSettlementManager_C));
+            EX_BindDelegate("OnNpcRescued_Event_2", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(CallFunc_GetManager_ReturnValue.OnNpcRescued, K2Node_CreateDelegate_OutputDelegate);
+            EX_LetObj(CallFunc_GetManager_ReturnValue_3,FGKUtils.GetManager(this, BP_ExpeditionManager_C));
+            CallFunc_IsInExpedition_ReturnValue_1 = (bool)(ExpeditionManager.IsInExpedition(CallFunc_GetManager_ReturnValue_3));
+            EX_PopExecutionFlowIfNot(CallFunc_IsInExpedition_ReturnValue_1);
+
+            // Block 42
+            Default__KismetArrayLibrary.Array_Clear(this.`Overlap Lore Rows`);
+            Default__KismetArrayLibrary.Array_Clear(this.`Sandbox Overlap Lore Rows`);
+            EX_PopExecutionFlow();
+
+            // Block 43
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_2687_OnNpcRescued_Event_2: EX_LetObj(CallFunc_GetManager_ReturnValue_1,MoriaUtils.GetManager(this, BP_StoryManager_C));
+            K2Node_DynamicCast_AsBP_Story_Manager = EX_DynamicCast("BP_StoryManager_C", CallFunc_GetManager_ReturnValue_1);
+            K2Node_DynamicCast_bSuccess_4 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Story_Manager);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_4);
+
+            // Block 44
+            CallFunc_IsSandbox_ReturnValue_1 = (bool)(MoriaUtils.IsSandbox(this));
+
+            if (CallFunc_IsSandbox_ReturnValue_1) {
+                // Block 45
+                EX_LetObj(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1,FGKBlueprintLibrary.GetLocallyControlledPlayerCharacter(this));
+                K2Node_DynamicCast_AsBP_Story_Manager.CompleteGoalEntry(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1, EX_ArrayGetByRef(this.`Sandbox Overlap Lore Rows`, 0));
+                break;
+
+            }
+
+
+            // Block 46
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_2905: EX_LetObj(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue,FGKBlueprintLibrary.GetLocallyControlledPlayerCharacter(this));
+            K2Node_DynamicCast_AsBP_Story_Manager.CompleteGoalEntry(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue, EX_ArrayGetByRef(this.`Overlap Lore Rows`, 0));
+            EX_PopExecutionFlow();
+
+            // Block 47
+            `ExecuteUbergraph_BP_NpcDwarf_Survivor_2983_BndEvt__BP_NpcDwarf_Survivor_Far VO trigger Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature`: goto ExecuteUbergraph_BP_NpcDwarf_Survivor_15;
+
+            // Block 48
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_2988: EX_LetObj(CallFunc_GetManager_ReturnValue_5,FGKUtils.GetManager(this, BP_StoryManager_C));
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+
+            if (CallFunc_IsSandbox_ReturnValue) {
+                // Block 49
+                goto ExecuteUbergraph_BP_NpcDwarf_Survivor_1508;
+
+            }
+
+
+            // Block 50
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_3058: Temp_int_Loop_Counter_Variable_1 = 0;
+            goto ExecuteUbergraph_BP_NpcDwarf_Survivor_851;
+
+            // Block 51
+            `ExecuteUbergraph_BP_NpcDwarf_Survivor_3086_BndEvt__BP_NpcDwarf_Survivor_Near VO Trigger Volume_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature`: goto ExecuteUbergraph_BP_NpcDwarf_Survivor_1559;
+
+            // Block 52
+            ExecuteUbergraph_BP_NpcDwarf_Survivor_3091_EventDiscoverOverlapLore: goto ExecuteUbergraph_BP_NpcDwarf_Survivor_2988;
+
+        }
+
+
+        // Block 53
+        ExecuteUbergraph_BP_NpcDwarf_Survivor_3096:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void EventDiscoverOverlapLore() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(ExecuteUbergraph_BP_NpcDwarf_Survivor_3091_EventDiscoverOverlapLore);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void `BndEvt__BP_NpcDwarf_Survivor_Near VO Trigger Volume_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature`([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OverlappedComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] int OtherBodyIndex, [BlueprintVisible, BlueprintReadOnly] bool bFromSweep, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> SweepResult) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OverlappedComponent", OverlappedComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherBodyIndex", OtherBodyIndex);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bFromSweep", bFromSweep);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SweepResult", SweepResult);
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(`ExecuteUbergraph_BP_NpcDwarf_Survivor_3086_BndEvt__BP_NpcDwarf_Survivor_Near VO Trigger Volume_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature`);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void `BndEvt__BP_NpcDwarf_Survivor_Far VO trigger Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature`([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OverlappedComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] int OtherBodyIndex, [BlueprintVisible, BlueprintReadOnly] bool bFromSweep, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> SweepResult) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OverlappedComponent_1", OverlappedComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_1", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_1", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherBodyIndex_1", OtherBodyIndex);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bFromSweep_1", bFromSweep);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SweepResult_1", SweepResult);
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(`ExecuteUbergraph_BP_NpcDwarf_Survivor_2983_BndEvt__BP_NpcDwarf_Survivor_Far VO trigger Volume_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnNpcRescued_Event_2([BlueprintVisible, BlueprintReadOnly] Struct<Guid> NpcId) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_NpcId", NpcId);
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(ExecuteUbergraph_BP_NpcDwarf_Survivor_2687_OnNpcRescued_Event_2);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(ExecuteUbergraph_BP_NpcDwarf_Survivor_2402_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_NpcDwarf_Survivor_Sphere_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OverlappedComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] int OtherBodyIndex) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OverlappedComponent_2", OverlappedComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_2", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_2", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherBodyIndex_2", OtherBodyIndex);
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(ExecuteUbergraph_BP_NpcDwarf_Survivor_1946_BndEvt__BP_NpcDwarf_Survivor_Sphere_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_NpcDwarf_Survivor_Sphere_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OverlappedComponent, [BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<PrimitiveComponent> OtherComp, [BlueprintVisible, BlueprintReadOnly] int OtherBodyIndex, [BlueprintVisible, BlueprintReadOnly] bool bFromSweep, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> SweepResult) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OverlappedComponent_3", OverlappedComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherActor_3", OtherActor);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherComp_3", OtherComp);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OtherBodyIndex_3", OtherBodyIndex);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bFromSweep_2", bFromSweep);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SweepResult_2", SweepResult);
+        this.ExecuteUbergraph_BP_NpcDwarf_Survivor(ExecuteUbergraph_BP_NpcDwarf_Survivor_1824_BndEvt__BP_NpcDwarf_Survivor_Sphere_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void CallInEditor_KillSelf() {
+        // Locals
+        bool CallFunc_TryActivateAbilityByClass_ReturnValue;
+
+        // Block 1
+        CallFunc_TryActivateAbilityByClass_ReturnValue = (bool)(this.AbilitySystem.TryActivateAbilityByClass(GA_FatalDamage_C, false));
+
+    }
+
+}

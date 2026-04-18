@@ -1,0 +1,127 @@
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Items")]
+public StringTable Items;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Workshop/Scatter/Workshop_Scatter_Rope_C")]
+public StaticMesh Workshop_Scatter_Rope_C;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Workshop/Materials/Workshop_Scatter_Sandbags/MI_Workshop_Scatter_Sandbags")]
+public MaterialInstanceConstant MI_Workshop_Scatter_Sandbags;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Pickups/BP_PickupBase")]
+public class BP_PickupBase_C {
+    public MorAIBehaviorPointComponent GatherBehaviorPoint_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Mesh_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent GatherBehaviorPoint;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Mesh;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Pickups/BP_PickupBase")]
+public class Default__BP_PickupBase_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_PickupNaturalFiber_Small_C : BP_PickupBase_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_PickupNaturalFiber_Small([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_PickupNaturalFiber_Small_10_ReceiveBeginPlay:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_PickupNaturalFiber_Small(ExecuteUbergraph_BP_PickupNaturalFiber_Small_10_ReceiveBeginPlay);
+
+    }
+
+}

@@ -1,0 +1,451 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Null {}
+
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece : SceneComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorAnimNotifyState_EquipOverride {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+
+[Import("/Script/Engine")]
+public ArrowComponent Default__ArrowComponent;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void BreakVector();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_SetRelativeLocation();
+    public ObjectProperty RelativeLocation;
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+    [UnknownSignature, FinalFunction] public sealed void Reverse();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Door_B")]
+public StaticMesh PuzzleBox_PuzzleBox_Door_B;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Door_A")]
+public StaticMesh PuzzleBox_PuzzleBox_Door_A;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_DB")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_DB;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_DA")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_DA;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_CB")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_CB;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_CA")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_CA;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_BB")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_BB;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_BA")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_BA;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_AB")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_AB;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_PuzzleBox_Cylinder_AA")]
+public StaticMesh PuzzleBox_PuzzleBox_Cylinder_AA;
+
+
+[Import("/Game/DLC/Holiday2025/GPI/PuzzleBox/PuzzleBox_GPI_PuzzleBox")]
+public StaticMesh PuzzleBox_GPI_PuzzleBox;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_OpenInventoryHud")]
+public class InSt_OpenInventoryHud_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_Interactable_OpenEditScreen")]
+public class InSt_Interactable_OpenEditScreen_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/States/InSt_RenamableReceptacle_Root")]
+public class InSt_RenamableReceptacle_Root_C {}
+
+[Import("/Game/LevelDesign/Placeables/Containers/States/InSt_RenamableReceptacle_Root")]
+public class Default__InSt_RenamableReceptacle_Root_C {
+    public InSt_Interactable_OpenEditScreen_C InSt_Interactable_OpenEditScreen_C_0;
+    public InSt_OpenInventoryHud_C InSt_OpenInventoryHud_C_1;
+}
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/BP_ProcReceptacle")]
+public class BP_ProcReceptacle_C {
+    public FGKActorFSMComponent FSM_GEN_VARIABLE;
+    [UnknownSignature] public  void CloseChest();
+    [UnknownSignature] public  void OpenChest();
+    public MorAIBehaviorPointComponent DepositBehaviorPoint_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableFXComponent BreakableFX_GEN_VARIABLE;
+    public MorBreakableMeshPiece BreakableMesh_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public FGKActorFSMComponent FSM;
+    public MorAIBehaviorPointComponent DepositBehaviorPoint;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableFXComponent BreakableFX;
+    public MorBreakableMeshPiece BreakableMesh;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Containers/BP_ProcReceptacle")]
+public class Default__BP_ProcReceptacle_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/Animations/Dwarf/NPC/Dwa_NPC_StorageChest_Ornate_Interact_PutAway_Montage")]
+public class Dwa_NPC_StorageChest_Ornate_Interact_PutAway_Montage {
+    public MorAnimNotifyState_EquipOverride MorAnimNotifyState_EquipOverride_0;
+}
+
+
+[Import("/Game/Animations/Dwarf/NPC/Dwa_NPC_StorageChest_Ornate_Interact_Pickup_Montage")]
+public class Dwa_NPC_StorageChest_Ornate_Interact_Pickup_Montage {
+    public MorAnimNotifyState_EquipOverride MorAnimNotifyState_EquipOverride_0;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/Orc_Chest/fx_env_orc_chest_open_play")]
+public AkAudioEvent fx_env_orc_chest_open_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/Orc_Chest/fx_env_orc_chest_close_play")]
+public AkAudioEvent fx_env_orc_chest_close_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DwarvenPuzzleChest_Construction_C : BP_ProcReceptacle_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Door_A1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Door_B1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ArrowComponent> Arrow3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ArrowComponent> Arrow2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint_PutAway1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint_Pickup1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_DA1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_DB1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_CB1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_BB1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_AB1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_CA1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_BA1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PuzzleBox_PuzzleBox_Cylinder_AA1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> `Basic Mesh1`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> Box_NavAreaFurniture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ArrowComponent> Arrow1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ArrowComponent> Arrow;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint_PutAway;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint_Pickup;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking;
+    float Timeline_0_ChestTopMove_F6D502DA4521D001F86C19BC958A1B15;
+    byte Timeline_0__Direction_F6D502DA4521D001F86C19BC958A1B15;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> InitDoorA1RelativePos;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> InitDoorB1RelativePos;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_1;
+        int CallFunc_PostEvent_ReturnValue;
+        const Delegate Temp_delegate_Variable_1;
+        int CallFunc_PostEvent_ReturnValue_1;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue;
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_2;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue_1;
+        float CallFunc_BreakVector_X_1;
+        float CallFunc_BreakVector_Y_1;
+        float CallFunc_BreakVector_Z_1;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_3;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult_1;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_10_Timeline_0__FinishedFunc: return;
+
+        // Block 3
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_15_Timeline_0__UpdateFunc: CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(this.Timeline_0_ChestTopMove_F6D502DA4521D001F86C19BC958A1B15, 0f, 0f);
+        CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_MakeVector_ReturnValue, this.InitDoorA1RelativePos);
+        KismetMathLibrary.BreakVector(CallFunc_Add_VectorVector_ReturnValue, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+        CallFunc_MakeVector_ReturnValue_2 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+        this.PuzzleBox_PuzzleBox_Door_A1.K2_SetRelativeLocation(CallFunc_MakeVector_ReturnValue_2, false, CallFunc_K2_SetRelativeLocation_SweepHitResult, false);
+        CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(0f, this.Timeline_0_ChestTopMove_F6D502DA4521D001F86C19BC958A1B15);
+        CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_Subtract_FloatFloat_ReturnValue, 0f, 0f);
+        CallFunc_Add_VectorVector_ReturnValue_1 = KismetMathLibrary.Add_VectorVector(CallFunc_MakeVector_ReturnValue_1, this.InitDoorB1RelativePos);
+        KismetMathLibrary.BreakVector(CallFunc_Add_VectorVector_ReturnValue_1, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+        CallFunc_MakeVector_ReturnValue_3 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+        this.PuzzleBox_PuzzleBox_Door_B1.K2_SetRelativeLocation(CallFunc_MakeVector_ReturnValue_3, false, CallFunc_K2_SetRelativeLocation_SweepHitResult_1, false);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_554: this.Timeline_0.Reverse();
+        return;
+
+        // Block 5
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_591: this.Timeline_0.Play();
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_628: CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_env_orc_chest_open_play, this, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+        goto ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_591;
+
+        // Block 7
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_719: CallFunc_PostEvent_ReturnValue_1 = Default__AkGameplayStatics.PostEvent(fx_env_orc_chest_close_play, this, 0, Temp_delegate_Variable_1, Temp_struct_Variable_1, false, "");
+        goto ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_554;
+
+        // Block 8
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_810_ReceiveBeginPlay: this.InitDoorA1RelativePos = this.PuzzleBox_PuzzleBox_Door_A1.RelativeLocation;
+        this.InitDoorB1RelativePos = this.PuzzleBox_PuzzleBox_Door_B1.RelativeLocation;
+        return;
+
+        // Block 9
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_913_OpenChest: goto ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_628;
+
+        // Block 10
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_918_CloseChest: goto ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_719;
+
+        // Block 11
+        ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_923:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public override void CloseChest() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction(ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_918_CloseChest);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public override void OpenChest() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction(ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_913_OpenChest);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction(ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_810_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction(ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_15_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction(ExecuteUbergraph_BP_DwarvenPuzzleChest_Construction_10_Timeline_0__FinishedFunc);
+
+    }
+
+}

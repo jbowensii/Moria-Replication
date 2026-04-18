@@ -1,0 +1,111 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayEffectUIData {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/Food/cramRation")]
+public Texture2D cramRation;
+
+
+[Import("/Game/Unshippable/ThirdParty/FantasyFoodPack/Meshes/Rations/SM_Cram_Ration")]
+public StaticMesh SM_Cram_Ration;
+
+
+[Import("/Game/Items/GE_Cram_Effect")]
+public class GE_Cram_Effect_C {}
+
+[Import("/Game/Items/GE_Cram_Effect")]
+public class Default__GE_Cram_Effect_C {
+    public MorGameplayEffectUIData MoriaGameplayEffectUIData_0;
+}
+
+
+[Import("/Game/Items/BP_Category_Food")]
+public class BP_Category_Food_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Food")]
+public class Default__BP_Category_Food_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem")]
+public class GA_UseFoodItem_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem")]
+public GA_UseFoodItem_C Default__GA_UseFoodItem_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Cram_Ration_C : BP_Category_Food_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_Cram_Ration;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> Name;
+}

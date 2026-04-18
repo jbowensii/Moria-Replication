@@ -1,0 +1,219 @@
+
+[Import("/Script/FGK")]
+public class FGKCharacterAnimInstance {
+    [UnknownSignature, VirtualFunction] public virtual void TryGetPawnOwner();
+}
+
+[Import("/Script/FGK")]
+public FGKCharacterAnimInstance Default__FGKCharacterAnimInstance;
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimInstance {
+    public Object BlueprintUpdateAnimation;
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Greater_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void VSize();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {
+    [UnknownSignature, VirtualFunction] public virtual void GetVelocity();
+}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_StateMachine;
+
+[Import("/Script/Engine")]
+public class AnimNode_TransitionResult {
+    public ObjectProperty bCanEnterTransition;
+}
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class BlendSpace1D {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_BlendSpacePlayer;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_StateResult;
+
+
+[Import("/Game/Unshippable/ThirdParty/Medhue_Bat/Mesh/Bat_Skeleton")]
+public Skeleton Bat_Skeleton;
+
+
+[Import("/Game/Unshippable/ThirdParty/Medhue_Bat/Animation/BS_Bat_Fly")]
+public BlendSpace1D BS_Bat_Fly;
+
+
+[Import("/Game/Unshippable/ThirdParty/Medhue_Bat/Animation/Bat_Hover")]
+public AnimSequence Bat_Hover;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Monster_Bat_C : FGKCharacterAnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_1;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<Pawn> Char;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float Speed;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_Monster_Bat([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<Vector> CallFunc_GetVelocity_ReturnValue;
+        bool CallFunc_Greater_FloatFloat_ReturnValue;
+        float CallFunc_VSize_ReturnValue;
+        bool CallFunc_LessEqual_FloatFloat_ReturnValue;
+        float K2Node_Event_DeltaTimeX;
+        Object<Pawn> CallFunc_TryGetPawnOwner_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_ABP_Monster_Bat_10: CallFunc_Greater_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Greater_FloatFloat(this.Speed, 0f));
+        this.AnimGraphNode_TransitionResult.bCanEnterTransition = (bool)(CallFunc_Greater_FloatFloat_ReturnValue);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_ABP_Monster_Bat_77: CallFunc_GetVelocity_ReturnValue = this.Char.GetVelocity();
+        CallFunc_VSize_ReturnValue = KismetMathLibrary.VSize(CallFunc_GetVelocity_ReturnValue);
+        this.Speed = CallFunc_VSize_ReturnValue;
+        return;
+
+        // Block 4
+        ExecuteUbergraph_ABP_Monster_Bat_200_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Monster_Bat_AnimGraphNode_TransitionResult_11E6DF41483D3BC37DF1B0BD379EB937: goto ExecuteUbergraph_ABP_Monster_Bat_10;
+
+        // Block 5
+        ExecuteUbergraph_ABP_Monster_Bat_205_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Monster_Bat_AnimGraphNode_TransitionResult_993794624D05C42428FD7D8380676E80: CallFunc_LessEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.LessEqual_FloatFloat(this.Speed, 0f));
+        this.AnimGraphNode_TransitionResult_1.bCanEnterTransition = (bool)(CallFunc_LessEqual_FloatFloat_ReturnValue);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_ABP_Monster_Bat_272_BlueprintUpdateAnimation: EX_LetObj(CallFunc_TryGetPawnOwner_ReturnValue,this.TryGetPawnOwner());
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_TryGetPawnOwner_ReturnValue));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 7
+        EX_LetObj(CallFunc_TryGetPawnOwner_ReturnValue,this.TryGetPawnOwner());
+        EX_LetObj(this.Char,CallFunc_TryGetPawnOwner_ReturnValue);
+        goto ExecuteUbergraph_ABP_Monster_Bat_77;
+
+        // Block 8
+        ExecuteUbergraph_ABP_Monster_Bat_387:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintUpdateAnimation([BlueprintVisible, BlueprintReadOnly] float DeltaTimeX) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaTimeX", DeltaTimeX);
+        this.ExecuteUbergraph_ABP_Monster_Bat(ExecuteUbergraph_ABP_Monster_Bat_272_BlueprintUpdateAnimation);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Monster_Bat_AnimGraphNode_TransitionResult_993794624D05C42428FD7D8380676E80() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Monster_Bat(ExecuteUbergraph_ABP_Monster_Bat_205_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Monster_Bat_AnimGraphNode_TransitionResult_993794624D05C42428FD7D8380676E80);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Monster_Bat_AnimGraphNode_TransitionResult_11E6DF41483D3BC37DF1B0BD379EB937() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_Monster_Bat(ExecuteUbergraph_ABP_Monster_Bat_200_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Monster_Bat_AnimGraphNode_TransitionResult_11E6DF41483D3BC37DF1B0BD379EB937);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

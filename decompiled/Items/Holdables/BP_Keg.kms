@@ -1,0 +1,211 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorKegBase {}
+
+[Import("/Script/Moria")]
+public class Default__MorKegBase {
+    public Object `Callout Data`;
+    public Object RibbonTrails;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorGameplayEffectUIData {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public ChildActorComponent Default__ChildActorComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/Food/Keg_Icon")]
+public Texture2D Keg_Icon;
+
+
+[Import("/Game/Unshippable/ThirdParty/MedievalVOL6/Meshes/SM_Double_Barrel_Stand_01d")]
+public StaticMesh SM_Double_Barrel_Stand_01d;
+
+
+[Import("/Game/Items/Holdables/Keg/Mesh_GunpowderKeg")]
+public StaticMesh Mesh_GunpowderKeg;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_BreweryTap_NoCollision")]
+public class BP_BreweryTap_NoCollision_C {
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Tap_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Tap;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent StaticMesh;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_BreweryTap_NoCollision")]
+public class Default__BP_BreweryTap_NoCollision_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/Character/Shared/Effects/GE_CarryingHeavy")]
+public class GE_CarryingHeavy_C {}
+
+[Import("/Game/Character/Shared/Effects/GE_CarryingHeavy")]
+public class Default__GE_CarryingHeavy_C {
+    public MorGameplayEffectUIData MoriaGameplayEffectUIData_0;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_DrinkKegSinging")]
+public class GA_DrinkKegSinging_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_DrinkKegSinging")]
+public GA_DrinkKegSinging_C Default__GA_DrinkKegSinging_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Keg_C : MorKegBase {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> NavArea_InteractableArchitecture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> Tap;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_Double_Barrel_Stand_01d;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Mesh_GunpowderKeg;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Keg([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Keg_10_ReceiveTick: return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Keg_15_ReceiveBeginPlay:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_Keg(ExecuteUbergraph_BP_Keg_10_ReceiveTick);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Keg(ExecuteUbergraph_BP_Keg_15_ReceiveBeginPlay);
+
+    }
+
+}

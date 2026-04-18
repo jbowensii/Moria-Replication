@@ -1,0 +1,200 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceColorCurve {}
+
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+[Import("/Script/Moria")]
+public class MorSetupChallengeComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Challenges")]
+public StringTable Challenges;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Stairs_Small_C_CornerExt_NonDest")]
+public StaticMesh Suburbs_Stairs_Small_C_CornerExt_NonDest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Stairs_Small_B_NonDest")]
+public StaticMesh Suburbs_Stairs_Small_B_NonDest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/City/City_Floor_Trim_A_90_Ext_A")]
+public StaticMesh City_Floor_Trim_A_90_Ext_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/City/City_Floor_Trim_A_05m")]
+public StaticMesh City_Floor_Trim_A_05m;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/City/City_Floor_1x1m_A")]
+public StaticMesh City_Floor_1x1m_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/City/Materials/City_Stairs/MI_City_Stairs_Small_D_NonDes")]
+public MaterialInstanceConstant MI_City_Stairs_Small_D_NonDes;
+
+
+[Import("/Game/LevelDesign/Challenges/Altars/BP_ChallengeAltar")]
+public class BP_ChallengeAltar_C {
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public MorInteractionPoint MorInteractionPoint_GEN_VARIABLE;
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public PointLightComponent PointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent FiguresPlacementBotRight_GEN_VARIABLE;
+    public SceneComponent FiguresPlacementTopLeft_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public TimelineTemplate Light_Template;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public MorInteractionPoint MorInteractionPoint;
+    public NiagaraComponent Niagara;
+    public PointLightComponent PointLight;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent FiguresPlacementBotRight;
+    public SceneComponent FiguresPlacementTopLeft;
+    public StaticMeshComponent StaticMesh;
+}
+
+[Import("/Game/LevelDesign/Challenges/Altars/BP_ChallengeAltar")]
+public class Default__BP_ChallengeAltar_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent LootLocator;
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ChallengeAltar_Narvi_C : BP_ChallengeAltar_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Floor_Trim_A_90_Int_A5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Floor_Trim_A_90_Int_A4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Floor_Trim_A_90_Int_A3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Floor_Trim_A_90_Int_A2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Floor_Trim_A_90_Int_A1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Floor_Trim_A_90_Int_A;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B10;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B9;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B8;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B7;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_CornerExt_02;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_CornerExt_03;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_CornerExt_04;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_CornerExt_01;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_B2;
+}

@@ -1,0 +1,83 @@
+
+[Import("/Script/Moria")]
+public class MorSongJoinInteractable {}
+
+[Import("/Script/Moria")]
+public class Default__MorSongJoinInteractable {
+    public Object InteractCollider;
+    public Object Root;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Engine/BasicShapes/Sphere")]
+public StaticMesh Sphere;
+
+
+[Import("/Engine/BasicShapes/BasicShapeMaterial")]
+public Material BasicShapeMaterial;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DoorLoreTod_SongJoinInteractable_C : MorSongJoinInteractable {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere;
+}

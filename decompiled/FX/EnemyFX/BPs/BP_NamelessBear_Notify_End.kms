@@ -1,0 +1,145 @@
+
+[Import("/Script/Engine")]
+public AnimNotify Default__AnimNotify;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+}
+
+[Import("/Script/Engine")]
+public class AnimNotify {
+    public Object Received_Notify;
+}
+
+[Import("/Script/Engine")]
+public class AnimSequenceBase {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : ActorComponent {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Game/Character/Creatures/Bear/Nameless/BP_Bear_Nameless")]
+public class BP_Bear_Nameless_C {
+    public NiagaraComponent NS_Nameless_Shadow_Fog_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype1_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype2_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype3_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype4_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype5_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype6_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype7_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent SC_NamelessBeastShadows2_GEN_VARIABLE;
+    public StaticMeshComponent SC_NamelessBeastShadows_GEN_VARIABLE;
+    public TextRenderComponent DebugNameTag_GEN_VARIABLE;
+    public NiagaraComponent NS_Nameless_Shadow_Fog;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype1;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype2;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype3;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype4;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype5;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype6;
+    public NiagaraComponent NS_Nameless_Shadow_Prototype7;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent SC_NamelessBeastShadows2;
+    public StaticMeshComponent SC_NamelessBeastShadows;
+    public TextRenderComponent DebugNameTag;
+    [UnknownSignature, LocalVirtualFunction] public virtual void NamelessPhaseShift_End();
+}
+
+[Import("/Game/Character/Creatures/Bear/Nameless/BP_Bear_Nameless")]
+public class Default__BP_Bear_Nameless_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, CollapseCategories, Const, CompiledFromBlueprint]
+class BP_NamelessBear_Notify_End_C : AnimNotify {
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void Received_Notify([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<SkeletalMeshComponent> MeshComp, [BlueprintVisible, BlueprintReadOnly] Object<AnimSequenceBase> Animation, [Return] out bool ReturnValue) {
+        // Locals
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        Object<BP_Bear_Nameless_C> K2Node_DynamicCast_AsBP_Bear_Nameless;
+        bool K2Node_DynamicCast_bSuccess;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetOwner_ReturnValue,MeshComp.GetOwner());
+        K2Node_DynamicCast_AsBP_Bear_Nameless = EX_DynamicCast("BP_Bear_Nameless_C", CallFunc_GetOwner_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Bear_Nameless);
+
+        if (K2Node_DynamicCast_bSuccess) {
+            // Block 2
+            K2Node_DynamicCast_AsBP_Bear_Nameless.NamelessPhaseShift_End();
+            ReturnValue = (bool)(false);
+
+        }
+
+
+        // Block 3
+        Received_Notify_168: return ReturnValue;
+
+    }
+
+}

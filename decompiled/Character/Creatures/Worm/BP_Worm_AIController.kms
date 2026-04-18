@@ -1,0 +1,167 @@
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class WormAIController {}
+
+[Import("/Script/Moria")]
+public class Default__WormAIController {
+    public Object BehaviorFSMComp;
+    public Object PatrolComponent;
+    public Object PerceptionComponent;
+    public Object TargetingComponent;
+    public Object PathFollowingComponent;
+    public Object MorRecipeCostComponent;
+    public Object ActionsComp;
+    public Object TransformComponent0;
+}
+
+[Import("/Script/Moria")]
+public class WormAICondition_ShouldBeOnGround {}
+
+[Import("/Script/Moria")]
+public class WormBehaviorApproachMeleeAttack {}
+
+[Import("/Script/Moria")]
+public class MorEnvQueryGenerator_PerceivedActors {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIAttackSettings {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardObjectValue {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_AIHasBlackboardBoolValue {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Sight Default__AISenseConfig_Sight;
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+[Import("/Script/AIModule")]
+public class BlackboardData {}
+
+[Import("/Script/AIModule")]
+public class EnvQuery {}
+
+[Import("/Script/AIModule")]
+public class BlackboardKeyType_Vector {}
+
+
+[Import("/Game/Character/Creatures/Worm/DA_AIAttack_Worm")]
+public FGKAIAttackSettings DA_AIAttack_Worm;
+
+
+[Import("/Game/Character/Creatures/Worm/EQS_Worm_HostileTargeting")]
+public class EQS_Worm_HostileTargeting {
+    public MorEnvQueryGenerator_PerceivedActors MorEnvQueryGenerator_PerceivedActors_0;
+}
+
+
+[Import("/Game/Character/Creatures/Worm/BSt_Worm")]
+public class BSt_Worm_C {}
+
+[Import("/Game/Character/Creatures/Worm/BSt_Worm")]
+public class Default__BSt_Worm_C {
+    public FGKAICondition_HasBlackboardObjectValue FGKAICondition_HasBlackboardObjectValue_0;
+    public FGKAICondition_HasBlackboardObjectValue FGKAICondition_HasBlackboardObjectValue_1;
+    public FGKCondition_AIHasBlackboardBoolValue FGKCondition_AIHasBlackboardBoolValue_0;
+    public FGKCondition_AIHasBlackboardBoolValue FGKCondition_AIHasBlackboardBoolValue_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_11;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_12;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_13;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_5;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_6;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_7;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_8;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_9;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public WormBehaviorApproachMeleeAttack WormBehaviorApproachMeleeAttack_0;
+}
+
+
+[Import("/Game/Character/Creatures/Worm/BB_Worm")]
+public class BB_Worm {
+    public BlackboardKeyType_Vector BlackboardKeyType_Vector_1;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Worm_AIController_C : WormAIController {
+}

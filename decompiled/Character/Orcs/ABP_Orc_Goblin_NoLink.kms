@@ -1,0 +1,135 @@
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class BlendSpace {}
+
+[Import("/Script/Engine")]
+public class BlendSpace1D {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Game/Character/Orcs/Orc_Parent_Skeleton")]
+public Skeleton Orc_Parent_Skeleton;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/BasePoses/Gob_N_Look")]
+public BlendSpace1D Gob_N_Look;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_N_WalkRun_RF")]
+public BlendSpace Gob_N_WalkRun_RF;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_N_WalkRun_RB")]
+public BlendSpace Gob_N_WalkRun_RB;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_N_WalkRun_LF")]
+public BlendSpace Gob_N_WalkRun_LF;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_N_WalkRun_LB")]
+public BlendSpace Gob_N_WalkRun_LB;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_N_WalkRun_F")]
+public BlendSpace Gob_N_WalkRun_F;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_N_WalkRun_B")]
+public BlendSpace Gob_N_WalkRun_B;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Overlay/Gob_UA_StanceVariation_Normal")]
+public AnimSequence Gob_UA_StanceVariation_Normal;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Overlay/Gob_Sword_StanceVariation_Normal")]
+public AnimSequence Gob_Sword_StanceVariation_Normal;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Overlay/Gob_Spr2H_StanceVariation_Normal")]
+public AnimSequence Gob_Spr2H_StanceVariation_Normal;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Overlay/Gob_Props_Torch_Poses")]
+public AnimSequence Gob_Props_Torch_Poses;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Walk_RF")]
+public AnimSequence Gob_UA_N_Walk_RF;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Walk_RB")]
+public AnimSequence Gob_UA_N_Walk_RB;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Walk_LF")]
+public AnimSequence Gob_UA_N_Walk_LF;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Walk_LB")]
+public AnimSequence Gob_UA_N_Walk_LB;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Walk_F")]
+public AnimSequence Gob_UA_N_Walk_F;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Walk_B")]
+public AnimSequence Gob_UA_N_Walk_B;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_Sprint_F")]
+public AnimSequence Gob_UA_N_Sprint_F;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Detail/Gob_UA_N_SecondaryMotion_Update")]
+public AnimSequence Gob_UA_N_SecondaryMotion_Update;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Detail/Gob_Spr2H_Run_F_Arms")]
+public AnimSequence Gob_Spr2H_Run_F_Arms;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/BasePoses/Gob_UA_N_SecondaryMotion")]
+public AnimSequence Gob_UA_N_SecondaryMotion;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/BasePoses/Gob_UA_N_Pose_Update")]
+public AnimSequence Gob_UA_N_Pose_Update;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/BasePoses/Gob_UA_N_Look_F_Sweep")]
+public AnimSequence Gob_UA_N_Look_F_Sweep;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/BasePoses/Gob_UA_Combat_Breathe_Loop")]
+public AnimSequence Gob_UA_Combat_Breathe_Loop;
+
+
+[Import("/Game/Character/Orcs/ABP_Orc_NoLink")]
+public ABP_Orc_NoLink_C Default__ABP_Orc_NoLink_C;
+
+[Import("/Game/Character/Orcs/ABP_Orc_NoLink")]
+public class ABP_Orc_NoLink_C {
+    [UnknownSignature] public  void `(CLF) CycleBlending`();
+}
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Orc_Goblin_NoLink_C : ABP_Orc_NoLink_C {
+}

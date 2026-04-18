@@ -1,0 +1,82 @@
+
+[Import("/Script/Moria")]
+public class MorBossBattleMusicActor {}
+
+[Import("/Script/Moria")]
+public class Default__MorBossBattleMusicActor {
+    public Object MusicAkComponent;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkSwitchValue {}
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/bossfight_music_switchgroup/bossfight_music_switchgroup-sw_intro")]
+public AkSwitchValue `bossfight_music_switchgroup-sw_intro`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/bossfight_music_switchgroup/bossfight_music_switchgroup-sw_fight")]
+public AkSwitchValue `bossfight_music_switchgroup-sw_fight`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/bossfight_music_switchgroup/bossfight_music_switchgroup-sw_end_win")]
+public AkSwitchValue `bossfight_music_switchgroup-sw_end_win`;
+
+
+[Import("/Game/WwiseAudio/Switches/Drums_From_The_Deep/bossfight_music_switchgroup/bossfight_music_switchgroup-sw_end_lose")]
+public AkSwitchValue `bossfight_music_switchgroup-sw_end_lose`;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/MX/Boss_Fights/mx_bossfight_bolgakh_stop")]
+public AkAudioEvent mx_bossfight_bolgakh_stop;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/MX/Boss_Fights/mx_bossfight_bolgakh_play")]
+public AkAudioEvent mx_bossfight_bolgakh_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BossMusic_Watcher_C : MorBossBattleMusicActor {
+}

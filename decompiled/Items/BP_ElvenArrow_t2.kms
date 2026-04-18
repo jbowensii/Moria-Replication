@@ -1,0 +1,97 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class InscribedRuneComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Elven_Arrow")]
+public Texture2D T_UI_Icon_Weapon_Elven_Arrow;
+
+
+[Import("/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Elven_Arrow")]
+public StaticMesh D_Weapon_Elven_Arrow;
+
+
+[Import("/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_BlueMountains_Arrow")]
+public StaticMesh D_Weapon_BlueMountains_Arrow;
+
+
+[Import("/Game/Items/BP_Category_Ammo")]
+public class BP_Category_Ammo_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Ammo")]
+public class Default__BP_Category_Ammo_C {
+    public CalloutDataComponent `Callout Data`;
+    public InscribedRuneComponent InscribedRune;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Arrow/fx_plr_wpn_arrow_fly_lp_stop")]
+public AkAudioEvent fx_plr_wpn_arrow_fly_lp_stop;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ElvenArrow_t2_C : BP_Category_Ammo_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+}

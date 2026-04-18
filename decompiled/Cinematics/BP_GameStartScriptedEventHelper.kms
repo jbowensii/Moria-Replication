@@ -1,0 +1,272 @@
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTableAndConversationTrack();
+}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public class MorTutorialManager {
+    [UnknownSignature, FinalFunction] public sealed void TriggerTutorial();
+}
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorTutorialRowHandle;
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveBeginPlay;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void GreaterEqual_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00002")]
+public DataTable DT_Dialog_c00002;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetProgressPure();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueCueSpotSpawner")]
+public class BP_DialogueCueSpotSpawner_C {
+    public BillboardComponent CueSpotVisual_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TextRenderComponent TextRender_GEN_VARIABLE;
+    public BillboardComponent CueSpotVisual;
+    public SceneComponent DefaultSceneRoot;
+    public TextRenderComponent TextRender;
+    [UnknownSignature, LocalVirtualFunction] public virtual void ExternallyRequestDialogueEvent();
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueCueSpotSpawner")]
+public class Default__BP_DialogueCueSpotSpawner_C {
+    public BoxComponent CollisionComp;
+    public MorViewTrigger ViewTrigger;
+    public SceneComponent CueTargetLocation;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_GameStartScriptedEventHelper_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, ExposeOnSpawn] Object<MorCharacter> Dwarf;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float DelayTillVO;
+    [Edit, BlueprintVisible, ExposeOnSpawn] float DelayTillTutorial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int EventsRun;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorTutorialRowHandle> `Torch Tutorial`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> HasPlayedVO;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, ExposeOnSpawn] Object<BP_DialogueCueSpotSpawner_C> VORef;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_GameStartScriptedEventHelper([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_GreaterEqual_IntInt_ReturnValue;
+        Object<MorTutorialManager> CallFunc_GetManager_ReturnValue;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        int CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID;
+        bool CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_GetProgressPure_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.HasPlayedVO, this));
+
+            if (CallFunc_GetProgressPure_ReturnValue) {
+                // Block 3
+                break;
+
+            }
+
+
+            // Block 4
+            ExecuteUbergraph_BP_GameStartScriptedEventHelper_87: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(this.HasPlayedVO, 1);
+            this.VORef.ExternallyRequestDialogueEvent(this.Dwarf);
+
+            // Block 5
+            ExecuteUbergraph_BP_GameStartScriptedEventHelper_199: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(this.EventsRun, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            this.EventsRun = Temp_int_Variable;
+            CallFunc_GreaterEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_IntInt(Temp_int_Variable, 2));
+            if (!CallFunc_GreaterEqual_IntInt_ReturnValue) break;
+
+            // Block 6
+            this.K2_DestroyActor();
+            break;
+
+            // Block 7
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, MorTutorialManager));
+            CallFunc_GetManager_ReturnValue.TriggerTutorial(this.Dwarf, this.`Torch Tutorial`);
+            CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTableAndConversationTrack(DT_Dialog_c00002, this.Dwarf, (byte)(0), K2Node_MakeStruct_DialogueRateLimit, CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            goto ExecuteUbergraph_BP_GameStartScriptedEventHelper_199;
+
+            // Block 8
+            ExecuteUbergraph_BP_GameStartScriptedEventHelper_526: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            while (true) {
+                // Block 9
+                KismetSystemLibrary.Delay(this, this.DelayTillVO, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), 270384441, EX_NameConst("ExecuteUbergraph_BP_GameStartScriptedEventHelper"), this));
+                break;
+
+            }
+
+
+            // Block 10
+            ExecuteUbergraph_BP_GameStartScriptedEventHelper_620: KismetSystemLibrary.Delay(this, this.DelayTillTutorial, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(354), 1734662578, EX_NameConst("ExecuteUbergraph_BP_GameStartScriptedEventHelper"), this));
+            break;
+
+            // Block 11
+            ExecuteUbergraph_BP_GameStartScriptedEventHelper_679_ReceiveBeginPlay: goto ExecuteUbergraph_BP_GameStartScriptedEventHelper_526;
+
+        }
+
+
+        // Block 12
+        ExecuteUbergraph_BP_GameStartScriptedEventHelper_684:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventHelper(ExecuteUbergraph_BP_GameStartScriptedEventHelper_679_ReceiveBeginPlay);
+
+    }
+
+}

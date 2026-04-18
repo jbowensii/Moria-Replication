@@ -1,0 +1,69 @@
+
+[Import("/Script/Moria")]
+public class MorMiningCrackDecalActor {}
+
+[Import("/Script/Moria")]
+public class Default__MorMiningCrackDecalActor {
+    public Object RootComponent;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/FX/miningFX/textures_materials_miningFX/MI_miningCrack_f2")]
+public MaterialInstanceConstant MI_miningCrack_f2;
+
+
+[Import("/Game/FX/miningFX/textures_materials_miningFX/MI_miningCrack_f1")]
+public MaterialInstanceConstant MI_miningCrack_f1;
+
+
+[Import("/Game/Items/Weapons/VFX/C_MiningDecal_Alpha")]
+public CurveFloat C_MiningDecal_Alpha;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Decal_MiningCrack_C : MorMiningCrackDecalActor {
+}

@@ -1,0 +1,63 @@
+
+[Import("/Script/Moria")]
+public class MorAIWaveEncounterSettings {}
+
+[Import("/Script/Moria")]
+public MorAIWaveEncounterSettings Default__MorAIWaveEncounterSettings;
+
+[Import("/Script/Moria")]
+public class MorEnvQueryTest_SameBubble {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Character/AI/Encounters/SiegeEncounterSettings/EQS_Siege_SpawnLocations")]
+public class EQS_Siege_SpawnLocations {
+    public MorEnvQueryTest_SameBubble MorEnvQueryTest_SameBubble_0;
+}
+
+
+[Import("/Game/Character/Dialogue/EventBased/Orc/Barks/dt_orc_siege")]
+public DataTable dt_orc_siege;
+
+
+[Import("/Game/Character/AI/Encounters/BP_Drums_Test")]
+public class BP_Drums_Test_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/AI/Encounters/BP_Drums_Test")]
+public class Default__BP_Drums_Test_C {
+    public AkComponent DrumAkComponent;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint]
+class BP_SiegeSettings_BaseClass_C : MorAIWaveEncounterSettings {
+}

@@ -1,0 +1,38 @@
+
+[Import("/Script/Moria")]
+public class MorAIWaveEncounterSettings {}
+
+[Import("/Script/Moria")]
+public MorAIWaveEncounterSettings Default__MorAIWaveEncounterSettings;
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Character/BigBosses/Watcher/EQS_Watcher_EncounterSpawn")]
+public class EQS_Watcher_EncounterSpawn {
+    public EnvQueryTest_Pathfinding EnvQueryTest_Pathfinding_0;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint]
+class BP_WaveEncounter_Watcher_Base_C : MorAIWaveEncounterSettings {
+}

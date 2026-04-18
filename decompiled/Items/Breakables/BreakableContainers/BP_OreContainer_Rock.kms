@@ -1,0 +1,175 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece : SceneComponent {
+    [UnknownSignature, VirtualFunction] public virtual void IsVisible();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableFXComponent Default__MorBreakableFXComponent;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveTick();
+    [UnknownSignature, FinalFunction] public sealed void SetActorTickEnabled();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Unshippable/Whitebox/Rocks/Meshes/PWM_Quarry_1X1x1_C")]
+public StaticMesh PWM_Quarry_1X1x1_C;
+
+
+[Import("/Game/Items/Breakables/BreakableContainers/BP_OreBreakableContainerBase")]
+public class BP_OreBreakableContainerBase_C : Actor {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BreakableContainers/BP_OreBreakableContainerBase")]
+public class Default__BP_OreBreakableContainerBase_C {
+    public DecalComponent OreDecalComponent;
+    public MorInventoryComponent Inventory;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_OreContainer_Rock_C : BP_OreBreakableContainerBase_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableFXComponent> MorBreakableFX;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_OreContainer_Rock([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+        bool CallFunc_IsVisible_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_OreContainer_Rock_10_ReceiveTick: base.ReceiveTick(K2Node_Event_DeltaSeconds);
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+
+        if (CallFunc_HasAuthority_ReturnValue) {
+            // Block 3
+            this.SetActorTickEnabled(false);
+            return;
+
+        }
+
+
+        // Block 4
+        ExecuteUbergraph_BP_OreContainer_Rock_79: CallFunc_IsVisible_ReturnValue = (bool)(this.MorBreakableMeshPiece.IsVisible());
+
+        if (CallFunc_IsVisible_ReturnValue) {
+            // Block 5
+            return;
+
+        }
+
+
+        // Block 6
+        ExecuteUbergraph_BP_OreContainer_Rock_144: this.MorBreakableMeshPiece.SetVisibility(true, false);
+        this.SetActorTickEnabled(true);
+
+        // Block 7
+        ExecuteUbergraph_BP_OreContainer_Rock_189:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_OreContainer_Rock(ExecuteUbergraph_BP_OreContainer_Rock_10_ReceiveTick);
+
+    }
+
+}

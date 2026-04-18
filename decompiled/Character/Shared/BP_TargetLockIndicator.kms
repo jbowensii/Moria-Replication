@@ -1,0 +1,109 @@
+
+[Import("/Script/Moria")]
+public class MoriaWidgetComponent {}
+
+[Import("/Script/Moria")]
+public MoriaWidgetComponent Default__MoriaWidgetComponent;
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+
+[Import("/Game/UI/HUD/WBP_TargetLockIndicator")]
+public WBP_TargetLockIndicator_C Default__WBP_TargetLockIndicator_C;
+
+[Import("/Game/UI/HUD/WBP_TargetLockIndicator")]
+public class WBP_TargetLockIndicator_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/HUD/Curve_UI_DistanceScale_Float")]
+public CurveFloat Curve_UI_DistanceScale_Float;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_TargetLockIndicator_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MoriaWidgetComponent> MoriaWidget;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float HighLight;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<SkeletalMeshComponent>> MeshComponentArray;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_TargetLockIndicator([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+
+    }
+
+}

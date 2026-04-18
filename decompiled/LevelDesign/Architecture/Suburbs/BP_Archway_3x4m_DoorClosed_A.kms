@@ -1,0 +1,298 @@
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakable : Actor {
+    public ObjectProperty bSaveDormancyAwakeOnPostStore;
+}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void KillOrDestroyActor();
+}
+
+[Import("/Script/Moria")]
+public class MorPrefabStabilityComponent {}
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public MorConstructionSnapComponent Default__MorConstructionSnapComponent;
+
+[Import("/Script/Moria")]
+public class MoriaDamageEvent {
+    public ObjectProperty Location;
+    public ObjectProperty Direction;
+    public ObjectProperty Force;
+    public ObjectProperty Damage;
+    public ObjectProperty DamageType;
+}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_NpcActivity {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionStabilityComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public ChildActorComponent Default__ChildActorComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {
+    public ObjectProperty ChildActor;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_1x3m_A")]
+public StaticMesh Suburbs_Wall_Thin_1x3m_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Archway_3m_A")]
+public StaticMesh Suburbs_Archway_3m_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_Sheet_A/MI_Suburbs_Trim_Sheet_A_Breakable")]
+public MaterialInstanceConstant MI_Suburbs_Trim_Sheet_A_Breakable;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Dest")]
+public MaterialInstanceConstant MI_Suburbs_Wall_Dest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest")]
+public MaterialInstanceConstant MI_Suburbs_Wall_Base_Dest;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door_Test")]
+public class BP_Door_Test_C {
+    public BoxComponent BlockCollision1_GEN_VARIABLE;
+    public BoxComponent BlockCollision_GEN_VARIABLE;
+    public BoxComponent DoorNavArea_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece SM_AR_Suburbs_Door_A_L1_GEN_VARIABLE;
+    public MorBreakableMeshPiece SM_AR_Suburbs_Door_A_R1_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public BoxComponent BlockCollision1;
+    public BoxComponent BlockCollision;
+    public BoxComponent DoorNavArea;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableMeshPiece SM_AR_Suburbs_Door_A_L1;
+    public MorBreakableMeshPiece SM_AR_Suburbs_Door_A_R1;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door_Test")]
+public class Default__BP_Door_Test_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class BP_BaseArchitectureBreakable_C : MorBreakable {
+    public MorConstructionStabilityComponent MorConstructionStability_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorConstructionStabilityComponent MorConstructionStability;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class Default__BP_BaseArchitectureBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/NpcDwarf/Bst_NPCGuardPoint")]
+public class Bst_NPCGuardPoint_C {}
+
+[Import("/Game/Character/NpcDwarf/Bst_NPCGuardPoint")]
+public class Default__Bst_NPCGuardPoint_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Archway_3x4m_DoorClosed_A_C : BP_BaseArchitectureBreakable_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> DoorChildActor;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Suburbs_Wall_Thin_1x3m_A1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorConstructionSnapComponent> MorConstructionSnap;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> `Basic Mesh1`;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+        Struct<MoriaDamageEvent> K2Node_MakeStruct_MoriaDamageEvent;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_10: this.bSaveDormancyAwakeOnPostStore = (bool)(true);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_26_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        goto ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_41_BndEvt__BP_Archway_3x4m_DoorClosed_A_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature: K2Node_MakeStruct_MoriaDamageEvent.Location = EX_VectorConst(0, 0, 0);
+        K2Node_MakeStruct_MoriaDamageEvent.Direction = EX_VectorConst(0, 0, 1);
+        K2Node_MakeStruct_MoriaDamageEvent.Force = 0f;
+        K2Node_MakeStruct_MoriaDamageEvent.Damage = 0f;
+        K2Node_MakeStruct_MoriaDamageEvent.DamageType = EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags));
+        MoriaUtils.KillOrDestroyActor(this.DoorChildActor.ChildActor, K2Node_MakeStruct_MoriaDamageEvent);
+
+        // Block 5
+        ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_290:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Archway_3x4m_DoorClosed_A_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A(ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_41_BndEvt__BP_Archway_3x4m_DoorClosed_A_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A(ExecuteUbergraph_BP_Archway_3x4m_DoorClosed_A_26_ReceiveBeginPlay);
+
+    }
+
+}

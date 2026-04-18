@@ -1,0 +1,163 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionStabilityComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Trim_A_3m")]
+public StaticMesh Trim_A_3m;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_1x3m_A")]
+public StaticMesh Suburbs_Wall_Thin_1x3m_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Column_Single_Half_Capitol_A")]
+public StaticMesh Suburbs_Column_Single_Half_Capitol_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Column_Single_Capitol_A")]
+public StaticMesh Suburbs_Column_Single_Capitol_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Trim_A/MI_Trim_A_3m_RedRock")]
+public MaterialInstanceConstant MI_Trim_A_3m_RedRock;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Column_Single/MI_Suburbs_Column_Single_Half_Shaft_A-Damaged-Capitol_RedRock")]
+public MaterialInstanceConstant `MI_Suburbs_Column_Single_Half_Shaft_A-Damaged-Capitol_RedRock`;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Column_Single/MI_Suburbs_Column_Single_Half_Base_A_RedRock")]
+public MaterialInstanceConstant MI_Suburbs_Column_Single_Half_Base_A_RedRock;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Suburbs_Column_Single/MI_Suburbs_Column_Single_Capitol_A_Dest_RedRock")]
+public MaterialInstanceConstant MI_Suburbs_Column_Single_Capitol_A_Dest_RedRock;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_RedRock")]
+public MaterialInstanceConstant MI_Suburbs_Wall_Base_Dest_RedRock;
+
+
+[Import("/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_C")]
+public class BP_Suburbs_Wall_Thin_3x3m_C_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece `Basic Mesh1_GEN_VARIABLE`;
+    public MorBreakableMeshPiece Pillar_Base_GEN_VARIABLE;
+    public MorBreakableMeshPiece Pillar_Shaft1_GEN_VARIABLE;
+    public MorBreakableMeshPiece Pillar_Shaft2_GEN_VARIABLE;
+    public MorBreakableMeshPiece Trim_GEN_VARIABLE;
+    public MorConstructionSnapComponent MorConstructionSnap_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece `Basic Mesh1`;
+    public MorBreakableMeshPiece Pillar_Base;
+    public MorBreakableMeshPiece Pillar_Shaft1;
+    public MorBreakableMeshPiece Pillar_Shaft2;
+    public MorBreakableMeshPiece Trim;
+    public MorConstructionSnapComponent MorConstructionSnap;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_C")]
+public class Default__BP_Suburbs_Wall_Thin_3x3m_C_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public MorBreakableFXComponent `Breakable Effects`;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class BP_BaseArchitectureBreakable_C {
+    public MorConstructionStabilityComponent MorConstructionStability_GEN_VARIABLE;
+    public MorConstructionStabilityComponent MorConstructionStability;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class Default__BP_BaseArchitectureBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Suburbs_Wall_Thin_3x4m_C_Player_RedRock_C : BP_Suburbs_Wall_Thin_3x3m_C_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Pillar_Capital;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Pillar_Shaft3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Trim1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> `Basic Mesh2`;
+}

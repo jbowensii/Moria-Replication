@@ -1,0 +1,130 @@
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_ExplicitAbility {}
+
+[Import("/Script/Moria")]
+public class MorCondition_HasIndexedTags {}
+
+[Import("/Script/Moria")]
+public class MorCondition_ProgressRow {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BSt_ShadowDragon_FinalFight_NotBlinded")]
+public class BSt_ShadowDragon_FinalFight_NotBlinded_C {}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BSt_ShadowDragon_FinalFight")]
+public class BSt_ShadowDragon_FinalFight_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BSt_ShadowDragon_FinalFight")]
+public class Default__BSt_ShadowDragon_FinalFight_C {
+    public BSt_ShadowDragon_FinalFight_NotBlinded_C BSt_ShadowDragon_FinalFight_NotBlinded_C_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public MorBehaviorState_ExplicitAbility MorBehaviorState_ExplicitAbility_0;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_1;
+}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController")]
+public class BP_ShadowDragon_AIController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController")]
+public class Default__BP_ShadowDragon_AIController_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShadowDragon_AIController_BalrogsNest_C : BP_ShadowDragon_AIController_C {
+}

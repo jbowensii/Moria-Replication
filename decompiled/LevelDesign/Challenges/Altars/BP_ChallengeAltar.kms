@@ -1,0 +1,1136 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceColorCurve {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public NiagaraDataInterfaceColorCurve Default__NiagaraDataInterfaceColorCurve;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractable : MorInteractable {
+    public Object AfterChallengeSetup;
+    [UnknownSignature, FinalFunction] public sealed void WasPaid();
+    public InventoryComponent Inventory;
+}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventWithTag();
+}
+
+[Import("/Script/Moria")]
+public class MorInteractable : Actor {
+    public ObjectProperty LastInteractor;
+}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLoreDefinition();
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void HasDiscoveredLore();
+}
+
+[Import("/Script/Moria")]
+public static class MorUIManager : FGKUIManager {
+    [UnknownSignature, MathFunction] public static sealed void BPGetManager();
+}
+
+[Import("/Script/Moria")]
+public Object EMorDialogueEventPriority;
+
+[Import("/Script/Moria")]
+public MorInteractionPoint Default__MorInteractionPoint;
+
+[Import("/Script/Moria")]
+public Object MorLoreDefinition;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorUIScreenConfigRowHandle;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorSetupChallengeComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public static class BlueprintGameplayTagLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsGameplayTagValid();
+}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIManager {
+    [UnknownSignature, FinalFunction] public sealed void ShowScreen();
+}
+
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {
+    public FGKInventoryFilter Filter;
+}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public class InventoryComponent : FGKFilteredInventoryComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetItemsCount();
+}
+
+[Import("/Script/FGK")]
+public class FGKInventoryFilter {
+    public ObjectProperty AllowedCounts;
+}
+
+[Import("/Script/FGK")]
+public class ItemCount {
+    public ObjectProperty Count;
+}
+
+[Import("/Script/FGK")]
+public class SoftItemCount {
+    public ObjectProperty Count;
+}
+
+[Import("/Script/FGK")]
+public class InventoryLimit {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void AddComponentByClass();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent : SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_DestroyComponent();
+    [UnknownSignature, FinalFunction] public sealed void SetIsReplicated();
+    [UnknownSignature, VirtualFunction] public virtual void SetStaticMesh();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Add();
+    [UnknownSignature, FinalFunction] public sealed void Array_Contains();
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+    [UnknownSignature, FinalFunction] public sealed void Array_Resize();
+    [UnknownSignature, FinalFunction] public sealed void Array_Shuffle();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Add_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void BreakTransform();
+    [UnknownSignature, MathFunction] public static sealed void Conv_IntToFloat();
+    [UnknownSignature, MathFunction] public static sealed void Divide_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Divide_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MakeTransform();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void Percent_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_VectorVector();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent : ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent : LightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetRelativeTransform();
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+    public ObjectProperty RelativeLocation;
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : ActorComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/UI/Lore/LoreScreen_v2/WBP_LoreScreen_v2")]
+public WBP_LoreScreen_v2_C Default__WBP_LoreScreen_v2_C;
+
+[Import("/Game/UI/Lore/LoreScreen_v2/WBP_LoreScreen_v2")]
+public class WBP_LoreScreen_v2_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Lore/LoreScreen_v2/WBP_GoalsScreen")]
+public WBP_GoalsScreen_C Default__WBP_GoalsScreen_C;
+
+[Import("/Game/UI/Lore/LoreScreen_v2/WBP_GoalsScreen")]
+public class WBP_GoalsScreen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Tech/Data/StringTables/Challenges")]
+public StringTable Challenges;
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_10")]
+public StaticMesh SM_celtic_idol_10;
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_06")]
+public StaticMesh SM_celtic_idol_06;
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_05")]
+public StaticMesh SM_celtic_idol_05;
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_04")]
+public StaticMesh SM_celtic_idol_04;
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_03")]
+public StaticMesh SM_celtic_idol_03;
+
+
+[Import("/Game/Environments/Models/Challenge_Models/Meshes/SM_altar_001")]
+public StaticMesh SM_altar_001;
+
+
+[Import("/Game/FX/challenge/AltarChallenge/NiagaraFX/NS_AltarAurora1")]
+public NiagaraSystem NS_AltarAurora1;
+
+
+[Import("/Game/FX/HonorRemains/Materials/M_PointLightNoiseFunction1_Inst")]
+public MaterialInstanceConstant M_PointLightNoiseFunction1_Inst;
+
+
+[Import("/Game/Items/Storage/ILimit_CBP_RewardInventory")]
+public InventoryLimit ILimit_CBP_RewardInventory;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00023")]
+public DataTable DT_Dialog_c00023;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_InteractChallenge_Inspectable__Root")]
+public class InSt_InteractChallenge_Inspectable__Root_C {}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_InteractChallenge_Inspectable__Root")]
+public InSt_InteractChallenge_Inspectable__Root_C Default__InSt_InteractChallenge_Inspectable__Root_C;
+
+
+[Import("/Game/LevelDesign/Challenges/BPI_Challenge_Inspectable")]
+public class BPI_Challenge_Inspectable_C {}
+
+[Import("/Game/LevelDesign/Challenges/BPI_Challenge_Inspectable")]
+public BPI_Challenge_Inspectable_C Default__BPI_Challenge_Inspectable_C;
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public class BP_DialogueManager_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public BP_DialogueManager_C Default__BP_DialogueManager_C;
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C : MorChallengeInteractable {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    [UnknownSignature] public  void ActivationEffect();
+    [UnknownSignature] public  void ActivationEffectLoad();
+    [UnknownSignature] public  void AttemptOpenLoreScreen();
+    [UnknownSignature] public  void CheckIfHasLore();
+    [UnknownSignature] public  void MulticastPartialCostPaid();
+    [UnknownSignature] public  void PaymentEffect();
+    [UnknownSignature] public  void PaymentEffectLoad();
+    [UnknownSignature] public  void ReceiveBeginPlay();
+    [UnknownSignature] public  void RewardsOpened();
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent LootLocator;
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Unshippable/DwarfPrepro/FGK_Animations/Dwa_FGK_UA_Object_Use_Interact_General_Montage")]
+public class Dwa_FGK_UA_Object_Use_Interact_General_Montage {
+    public AnimNotifyState_EquipOverride_C AnimNotifyState_EquipOverride_C_0;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Foley/fx_plr_item_stone_placement_play")]
+public AkAudioEvent fx_plr_item_stone_placement_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ChallengeAltar_C : CBP_InteractChallenge_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> NavArea_InteractableArchitecture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorInteractionPoint> MorInteractionPoint;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> FiguresPlacementTopLeft;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> FiguresPlacementBotRight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+    float Light_LightTrack_7DBFBAA142387566E05B0E8FA1577448;
+    byte Light__Direction_7DBFBAA142387566E05B0E8FA1577448;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Light;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Object<StaticMesh>> FigurineVariants;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<StaticMeshComponent>> FigureMeshComps;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int PrePlacedFigures;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int FigureRows;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool RewardsAvailable;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> `Lore Row`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int FirstInteract;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<MorCharacter> CurrentMorCharacter;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<DataTable> `Conversation Table`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Enum `VO Priority`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int `Convo ID`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> FirstTimeLoreRow;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> ProgressRow;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<GameplayTag> DialogueGameplayTag;
+    [Edit, BlueprintVisible] Struct<MorLoreRowHandle> `Lore To Open`;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_ChallengeAltar([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        bool CallFunc_EqualEqual_IntInt_ReturnValue;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_RequestDialogueEventWithTag_ReturnValue;
+        bool CallFunc_IsGameplayTagValid_ReturnValue;
+        int CallFunc_PostEvent_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_ChallengeAltar_15_MulticastPartialCostPaid: CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_plr_item_stone_placement_play, this, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+            this.SetFigureVisibility();
+            this.RewardsAvailable = (bool)(true);
+            this.Niagara.Activate(false);
+            this.Light.Play();
+            break;
+
+            // Block 3
+            this.PointLight.K2_DestroyComponent(this);
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_ChallengeAltar_230_Light__UpdateFunc: CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.Light_LightTrack_7DBFBAA142387566E05B0E8FA1577448, 1500f);
+            this.PointLight.SetIntensity(CallFunc_Multiply_FloatFloat_ReturnValue);
+            KismetSystemLibrary.Delay(this, 10f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(196), -779151238, EX_NameConst("ExecuteUbergraph_BP_ChallengeAltar"), this));
+            break;
+
+            // Block 5
+            ExecuteUbergraph_BP_ChallengeAltar_368_ReceiveBeginPlay: Default__KismetArrayLibrary.Array_Shuffle(this.FigurineVariants);
+            break;
+
+            // Block 6
+            ExecuteUbergraph_BP_ChallengeAltar_410: this.InitializeFigureMeshes();
+            break;
+
+            // Block 7
+            ExecuteUbergraph_BP_ChallengeAltar_425: this.InitializePrePlacedMeshes();
+            break;
+
+            // Block 8
+            ExecuteUbergraph_BP_ChallengeAltar_440_AfterChallengeSetup: CallFunc_EqualEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_IntInt(this.PrePlacedFigures, 0));
+            if (!(CallFunc_EqualEqual_IntInt_ReturnValue)) goto ExecuteUbergraph_BP_ChallengeAltar_425;
+
+            // Block 9
+            goto ExecuteUbergraph_BP_ChallengeAltar_410;
+
+            // Block 10
+            ExecuteUbergraph_BP_ChallengeAltar_493_ActivationEffect: this.SetFigureVisibility();
+            CallFunc_IsGameplayTagValid_ReturnValue = (bool)(BlueprintGameplayTagLibrary.IsGameplayTagValid(this.DialogueGameplayTag));
+            if (!CallFunc_IsGameplayTagValid_ReturnValue) break;
+
+            // Block 11
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_DialogueManager_C));
+            CallFunc_RequestDialogueEventWithTag_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventWithTag(this.DialogueGameplayTag, this.LastInteractor, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            break;
+
+            // Block 12
+            ExecuteUbergraph_BP_ChallengeAltar_644_PaymentEffect: goto ExecuteUbergraph_BP_ChallengeAltar_15;
+
+            // Block 13
+            ExecuteUbergraph_BP_ChallengeAltar_649_RewardsOpened: break;
+
+            // Block 14
+            ExecuteUbergraph_BP_ChallengeAltar_650_Light__FinishedFunc: break;
+
+            // Block 15
+            ExecuteUbergraph_BP_ChallengeAltar_651_PaymentEffectLoad: this.SetFigureVisibility();
+            break;
+
+            // Block 16
+            ExecuteUbergraph_BP_ChallengeAltar_666_ActivationEffectLoad: goto ExecuteUbergraph_BP_ChallengeAltar_651;
+
+        }
+
+
+        // Block 17
+        ExecuteUbergraph_BP_ChallengeAltar_671:
+
+    }
+
+    [Net, NetMulticast, BlueprintCallable, BlueprintEvent]
+    override void MulticastPartialCostPaid() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_15_MulticastPartialCostPaid);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void ActivationEffectLoad() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_666_ActivationEffectLoad);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void PaymentEffectLoad() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_651_PaymentEffectLoad);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void RewardsOpened() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_649_RewardsOpened);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void PaymentEffect() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_644_PaymentEffect);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void ActivationEffect() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_493_ActivationEffect);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void AfterChallengeSetup() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_440_AfterChallengeSetup);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_368_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Light__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_230_Light__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Light__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ChallengeAltar(ExecuteUbergraph_BP_ChallengeAltar_650_Light__FinishedFunc);
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void GetCostCount(out int Count) {
+        // Locals
+        [Edit, BlueprintVisible] int RetCount;
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Struct<SoftItemCount> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            RetCount = 0;
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            GetCostCount_74: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.Inventory.Filter.AllowedCounts);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(GetCostCount_453);
+
+                // Block 4
+                Default__KismetArrayLibrary.Array_Get(this.Inventory.Filter.AllowedCounts, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(CallFunc_Array_Get_Item.Count, RetCount);
+                RetCount = CallFunc_Add_IntInt_ReturnValue_1;
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 5
+            GetCostCount_421: Count = RetCount;
+            return;
+
+            // Block 6
+            GetCostCount_453: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto GetCostCount_74;
+
+        }
+
+
+        // Block 7
+        GetCostCount_527:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void GetInsertedCount(out int Count) {
+        // Locals
+        [Edit, BlueprintVisible] int RetCount;
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        ref Array<Struct<ItemCount>> CallFunc_GetItemsCount_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Struct<ItemCount> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            GetInsertedCount_51: CallFunc_GetItemsCount_ReturnValue = this.Inventory.GetItemsCount((byte)(0));
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetItemsCount_ReturnValue);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(GetInsertedCount_472);
+
+                // Block 4
+                CallFunc_GetItemsCount_ReturnValue = this.Inventory.GetItemsCount((byte)(0));
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetItemsCount_ReturnValue, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(CallFunc_Array_Get_Item.Count, RetCount);
+                RetCount = CallFunc_Add_IntInt_ReturnValue_1;
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 5
+            GetInsertedCount_440_AfterChallengeSetup: Count = RetCount;
+            return;
+
+            // Block 6
+            GetInsertedCount_472: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto GetInsertedCount_51;
+
+        }
+
+
+        // Block 7
+        GetInsertedCount_546:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetFigureVisibility() {
+        // Locals
+        bool Temp_bool_Variable;
+        bool Temp_bool_Variable_1;
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        bool CallFunc_WasPaid_ReturnValue;
+        int CallFunc_GetInsertedCount_Count;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool K2Node_Select_Default;
+        int CallFunc_Array_Length_ReturnValue;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 2
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 3
+            SetFigureVisibility_81: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.FigureMeshComps);
+            CallFunc_Less_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_1);
+
+            // Block 4
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(SetFigureVisibility_477);
+
+            // Block 5
+            Temp_bool_Variable_1 = (bool)(true);
+            CallFunc_WasPaid_ReturnValue = (bool)(this.WasPaid());
+            this.GetInsertedCount(CallFunc_GetInsertedCount_Count);
+            Temp_bool_Variable = (bool)(CallFunc_WasPaid_ReturnValue);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Array_Index_Variable, CallFunc_GetInsertedCount_Count));
+            Default__KismetArrayLibrary.Array_Get(this.FigureMeshComps, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Array_Get_Item.SetVisibility(EX_SwitchValue(474, Temp_bool_Variable, K2Node_Select_Default, false, 451, CallFunc_Less_IntInt_ReturnValue, true, 465, Temp_bool_Variable_1), false);
+            EX_PopExecutionFlow();
+
+            // Block 6
+            SetFigureVisibility_477: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto SetFigureVisibility_81;
+
+        }
+
+
+        // Block 7
+        SetFigureVisibility_551:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void InitializeFigureMeshes() {
+        // Block 1
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void InitializePrePlacedMeshes() {
+        // Locals
+        int Temp_int_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_GetCostCount_Count;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue_1;
+        int CallFunc_Percent_IntInt_ReturnValue;
+        int CallFunc_Subtract_IntInt_ReturnValue;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Subtract_IntInt_ReturnValue_1;
+        float CallFunc_Conv_IntToFloat_ReturnValue;
+        int CallFunc_Divide_IntInt_ReturnValue;
+        int CallFunc_Percent_IntInt_ReturnValue_1;
+        float CallFunc_Conv_IntToFloat_ReturnValue_1;
+        float CallFunc_Conv_IntToFloat_ReturnValue_2;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        int CallFunc_Divide_IntInt_ReturnValue_1;
+        int Temp_int_Array_Index_Variable;
+        int CallFunc_Subtract_IntInt_ReturnValue_2;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item;
+        float CallFunc_Conv_IntToFloat_ReturnValue_3;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        Object<StaticMesh> CallFunc_Array_Get_Item_1;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Struct<Transform> CallFunc_GetRelativeTransform_ReturnValue;
+        Struct<Vector> CallFunc_BreakTransform_Location;
+        Struct<Rotator> CallFunc_BreakTransform_Rotation;
+        Struct<Vector> CallFunc_BreakTransform_Scale;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_Divide_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_Multiply_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue;
+        Struct<Transform> CallFunc_MakeTransform_ReturnValue;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_AddComponentByClass_ReturnValue;
+        int CallFunc_Array_Add_ReturnValue;
+        bool CallFunc_SetStaticMesh_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 2
+            Temp_int_Variable = 0;
+
+            // Block 3
+            InitializePrePlacedMeshes_58: CallFunc_Subtract_IntInt_ReturnValue = KismetMathLibrary.Subtract_IntInt(this.PrePlacedFigures, 1);
+            CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, CallFunc_Subtract_IntInt_ReturnValue));
+
+            if (CallFunc_LessEqual_IntInt_ReturnValue) {
+                // Block 4
+                EX_PushExecutionFlow(InitializePrePlacedMeshes_1550);
+
+                // Block 5
+                CallFunc_Subtract_IntInt_ReturnValue_1 = KismetMathLibrary.Subtract_IntInt(this.FigureRows, 1);
+                CallFunc_Conv_IntToFloat_ReturnValue = KismetMathLibrary.Conv_IntToFloat(CallFunc_Subtract_IntInt_ReturnValue_1);
+                CallFunc_Divide_IntInt_ReturnValue = KismetMathLibrary.Divide_IntInt(Temp_int_Variable, this.FigureRows);
+                CallFunc_Percent_IntInt_ReturnValue_1 = KismetMathLibrary.Percent_IntInt(Temp_int_Variable, this.FigureRows);
+                CallFunc_Conv_IntToFloat_ReturnValue_1 = KismetMathLibrary.Conv_IntToFloat(CallFunc_Divide_IntInt_ReturnValue);
+                CallFunc_Conv_IntToFloat_ReturnValue_2 = KismetMathLibrary.Conv_IntToFloat(CallFunc_Percent_IntInt_ReturnValue_1);
+                CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(CallFunc_Conv_IntToFloat_ReturnValue_2, CallFunc_Conv_IntToFloat_ReturnValue_1, CallFunc_Conv_IntToFloat_ReturnValue_2);
+                CallFunc_Divide_IntInt_ReturnValue_1 = KismetMathLibrary.Divide_IntInt(this.PrePlacedFigures, this.FigureRows);
+                CallFunc_Subtract_IntInt_ReturnValue_2 = KismetMathLibrary.Subtract_IntInt(CallFunc_Divide_IntInt_ReturnValue_1, 1);
+                CallFunc_Conv_IntToFloat_ReturnValue_3 = KismetMathLibrary.Conv_IntToFloat(CallFunc_Subtract_IntInt_ReturnValue_2);
+                CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_Conv_IntToFloat_ReturnValue, CallFunc_Conv_IntToFloat_ReturnValue_3, CallFunc_Conv_IntToFloat_ReturnValue);
+                CallFunc_GetRelativeTransform_ReturnValue = this.FiguresPlacementTopLeft.GetRelativeTransform();
+                KismetMathLibrary.BreakTransform(CallFunc_GetRelativeTransform_ReturnValue, CallFunc_BreakTransform_Location, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+                CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(this.FiguresPlacementBotRight.RelativeLocation, CallFunc_BreakTransform_Location);
+                CallFunc_Divide_VectorVector_ReturnValue = KismetMathLibrary.Divide_VectorVector(CallFunc_Subtract_VectorVector_ReturnValue, CallFunc_MakeVector_ReturnValue_1);
+                CallFunc_Multiply_VectorVector_ReturnValue = KismetMathLibrary.Multiply_VectorVector(CallFunc_Divide_VectorVector_ReturnValue, CallFunc_MakeVector_ReturnValue);
+                CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_BreakTransform_Location, CallFunc_Multiply_VectorVector_ReturnValue);
+                CallFunc_MakeTransform_ReturnValue = KismetMathLibrary.MakeTransform(CallFunc_Add_VectorVector_ReturnValue, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+                EX_LetObj(CallFunc_AddComponentByClass_ReturnValue,this.AddComponentByClass(StaticMeshComponent, false, CallFunc_MakeTransform_ReturnValue, false));
+                EX_PushExecutionFlow(InitializePrePlacedMeshes_1879);
+
+                // Block 6
+                EX_PushExecutionFlow(InitializePrePlacedMeshes_1844);
+
+                // Block 7
+                EX_PushExecutionFlow(InitializePrePlacedMeshes_1624);
+
+                // Block 8
+                CallFunc_AddComponentByClass_ReturnValue.SetIsReplicated(true);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 9
+            InitializePrePlacedMeshes_1083: Default__KismetArrayLibrary.Array_Shuffle(this.FigureMeshComps);
+            this.GetCostCount(CallFunc_GetCostCount_Count);
+            Default__KismetArrayLibrary.Array_Resize(this.FigureMeshComps, CallFunc_GetCostCount_Count);
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 10
+            InitializePrePlacedMeshes_1243: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.FigureMeshComps);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 11
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(InitializePrePlacedMeshes_1476);
+
+            // Block 12
+            Default__KismetArrayLibrary.Array_Get(this.FigureMeshComps, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Array_Get_Item.SetVisibility(false, false);
+            EX_PopExecutionFlow();
+
+            // Block 13
+            InitializePrePlacedMeshes_1476: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue_1;
+            goto InitializePrePlacedMeshes_1243;
+
+            // Block 14
+            InitializePrePlacedMeshes_1550: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto InitializePrePlacedMeshes_58;
+
+            // Block 15
+            InitializePrePlacedMeshes_1624: CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(this.FigurineVariants);
+            CallFunc_Percent_IntInt_ReturnValue = KismetMathLibrary.Percent_IntInt(Temp_int_Variable, CallFunc_Array_Length_ReturnValue_1);
+            Default__KismetArrayLibrary.Array_Get(this.FigurineVariants, CallFunc_Percent_IntInt_ReturnValue, CallFunc_Array_Get_Item_1);
+            CallFunc_SetStaticMesh_ReturnValue = (bool)(CallFunc_AddComponentByClass_ReturnValue.SetStaticMesh(CallFunc_Array_Get_Item_1));
+            EX_PopExecutionFlow();
+
+            // Block 16
+            InitializePrePlacedMeshes_1844: CallFunc_AddComponentByClass_ReturnValue.SetVisibility(true, false);
+            EX_PopExecutionFlow();
+
+            // Block 17
+            InitializePrePlacedMeshes_1879: CallFunc_Array_Add_ReturnValue = Default__KismetArrayLibrary.Array_Add(this.FigureMeshComps, CallFunc_AddComponentByClass_ReturnValue);
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 18
+        InitializePrePlacedMeshes_1948:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public override void CheckIfHasLore(out bool HasLore) {
+        // Locals
+        Object<MorStoryManager> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_HasDiscoveredLore_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, MorStoryManager));
+        CallFunc_HasDiscoveredLore_ReturnValue = (bool)(CallFunc_GetManager_ReturnValue.HasDiscoveredLore(this.`Lore Row`));
+        HasLore = (bool)(CallFunc_HasDiscoveredLore_ReturnValue);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public override void AttemptOpenLoreScreen() {
+        // Block 1
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void `Open Lore Or Goals Screen`([BlueprintVisible, BlueprintReadOnly] Struct<MorLoreRowHandle> LoreRowHandle) {
+        // Locals
+        [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Goal Row Handles`;
+        [Edit, BlueprintVisible] bool `Skip Lore Notif`;
+        [Edit, BlueprintVisible] Struct<MorUIScreenConfigRowHandle> `Goal Tab Handle`;
+        [Edit, BlueprintVisible] Struct<MorUIScreenConfigRowHandle> LoreTabHandle;
+        Enum CallFunc_GetLoreDefinition_OutResult;
+        Struct<MorLoreDefinition> CallFunc_GetLoreDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        bool CallFunc_Array_Contains_ReturnValue;
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue;
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue_1;
+        [InstancedReference] Object<WBP_GoalsScreen_C> CallFunc_ShowScreen_ReturnValue;
+        [InstancedReference] Object<WBP_LoreScreen_v2_C> CallFunc_ShowScreen_ReturnValue_1;
+
+        // Block 1
+        LoreTabHandle = EX_StructConst(MorUIScreenConfigRowHandle, 24, EX_NameConst("PauseMenu_LoreTab"));
+        `Goal Tab Handle` = EX_StructConst(MorUIScreenConfigRowHandle, 24, EX_NameConst("PauseMenu_GoalsTab"));
+        `Skip Lore Notif` = (bool)(true);
+        if (!`Skip Lore Notif`) return;
+
+        // Block 2
+        CallFunc_GetLoreDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetLoreDefinition(LoreRowHandle, CallFunc_GetLoreDefinition_OutResult);
+        K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetLoreDefinition_OutResult, (byte)(0)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 3
+            return;
+
+        }
+
+
+        // Block 4
+        `Open Lore Or Goals Screen_211`: CallFunc_Array_Contains_ReturnValue = (bool)(Default__KismetArrayLibrary.Array_Contains(`Goal Row Handles`, LoreRowHandle));
+
+        if (CallFunc_Array_Contains_ReturnValue) {
+            // Block 5
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue,MorUIManager.BPGetManager(this));
+            EX_LetObj(CallFunc_ShowScreen_ReturnValue,CallFunc_BPGetManager_ReturnValue.ShowScreen(WBP_GoalsScreen_C));
+            CallFunc_ShowScreen_ReturnValue.EventViewLoreEntry(CallFunc_GetLoreDefinition_ReturnValue);
+            return;
+
+        }
+
+
+        // Block 6
+        `Open Lore Or Goals Screen_407`: EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        EX_LetObj(CallFunc_ShowScreen_ReturnValue_1,CallFunc_BPGetManager_ReturnValue_1.ShowScreen(WBP_LoreScreen_v2_C));
+        CallFunc_ShowScreen_ReturnValue_1.EventViewLoreEntry(CallFunc_GetLoreDefinition_ReturnValue);
+
+        // Block 7
+        `Open Lore Or Goals Screen_524`:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void GetUnlockedLore(out Array<Struct<MorLoreRowHandle>> `Lore Row`, out Struct<MorLoreRowHandle> FirstTimeLore, out Object<DataTable> ConversationTable, out Struct<MorLoreRowHandle> `Lore to Open`) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        ref Array<Struct<MorLoreRowHandle>> K2Node_MakeArray_Array;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            GetUnlockedLore_51: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.FirstTimeLoreRow);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 3
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(GetUnlockedLore_383);
+
+            // Block 4
+            Default__KismetArrayLibrary.Array_Get(this.FirstTimeLoreRow, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            K2Node_MakeArray_Array = new[] {this.`Lore Row`, CallFunc_Array_Get_Item};
+            `Lore Row` = K2Node_MakeArray_Array;
+            FirstTimeLore = this.`Lore To Open`;
+            EX_LetObj(ConversationTable,this.`Conversation Table`);
+            `Lore to Open` = this.`Lore To Open`;
+            return;
+
+            // Block 5
+            GetUnlockedLore_383: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto GetUnlockedLore_51;
+
+        }
+
+
+        // Block 6
+        GetUnlockedLore_457:
+
+    }
+
+}

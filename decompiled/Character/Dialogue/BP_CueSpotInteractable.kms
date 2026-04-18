@@ -1,0 +1,90 @@
+
+[Import("/Script/Moria")]
+public class MorCueSpotInteractable : Actor {
+    public object VisibleElements;
+}
+
+[Import("/Script/Moria")]
+public class Default__MorCueSpotInteractable {
+    public Object InteractCollider;
+    public Object Root;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentsByClass();
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CueSpotInteractable_C : MorCueSpotInteractable {
+    [Event, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        [ContainsInstancedReference] ref Array<Object<PrimitiveComponent>> CallFunc_K2_GetComponentsByClass_ReturnValue;
+
+        // Block 1
+        CallFunc_K2_GetComponentsByClass_ReturnValue = this.K2_GetComponentsByClass(PrimitiveComponent);
+        this.VisibleElements = CallFunc_K2_GetComponentsByClass_ReturnValue;
+
+    }
+
+}

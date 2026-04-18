@@ -1,0 +1,107 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceArrayFloat {}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceArrayFloat3 {}
+
+
+[Import("/Script/Moria")]
+public class MorShadowFogEmitterComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowNiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowProximityFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/FX/ShadowCurse/BP_ShadowFogEmitter_WithRune_Circular")]
+public class BP_ShadowFogEmitter_WithRune_Circular_C {
+    public AkComponent ShadowRuneSounds_GEN_VARIABLE;
+    public DecalComponent Decal_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public NiagaraComponent NS_ShadowCurse_BreakBurst_GEN_VARIABLE;
+    public NiagaraComponent NS_ShadowCurse_HitBurst_GEN_VARIABLE;
+    public PostProcessComponent PostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public AkComponent ShadowRuneSounds;
+    public DecalComponent Decal;
+    public MorPointLightComponent MorPointLight;
+    public NiagaraComponent NS_ShadowCurse_BreakBurst;
+    public NiagaraComponent NS_ShadowCurse_HitBurst;
+    public PostProcessComponent PostProcess;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/FX/ShadowCurse/BP_ShadowFogEmitter_WithRune_Circular")]
+public class Default__BP_ShadowFogEmitter_WithRune_Circular_C {
+    public MorShadowFogEmitterComponent EmitterComponent;
+    public MorShadowNiagaraComponent ShadowNiagaraComponent;
+    public MorShadowProximityFXComponent ProximityFXComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShadowFogEmitter_WithRune_Circular_Wide_C : BP_ShadowFogEmitter_WithRune_Circular_C {
+}

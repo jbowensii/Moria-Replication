@@ -1,0 +1,441 @@
+
+[Import("/Script/Moria")]
+public class MorAIController {}
+
+[Import("/Script/Moria")]
+public class MorAISense_Torch {}
+
+[Import("/Script/Moria")]
+public class MorAISenseConfig_Torch {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MorAIController {
+    public Object BehaviorFSMComp;
+    public Object PatrolComponent;
+    public Object PerceptionComponent;
+    public Object TargetingComponent;
+    public Object PathFollowingComponent;
+    public Object MorRecipeCostComponent;
+    public Object ActionsComp;
+    public Object TransformComponent0;
+}
+
+[Import("/Script/Moria")]
+public MorAISenseConfig_Torch Default__MorAISenseConfig_Torch;
+
+[Import("/Script/Moria")]
+public class MorActionEffect_ReportAwareness {}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_ReportToMusicManager {}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_RequestDialogue {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Despawn {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Emote {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_EquipItem {}
+
+[Import("/Script/Moria")]
+public class MorCondition_HasIndexedTags {}
+
+[Import("/Script/Moria")]
+public class MorEnvQueryTest_IsAllowedTarget {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISense_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISense_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public FGKAISenseConfig_Ping Default__FGKAISenseConfig_Ping;
+
+[Import("/Script/FGK")]
+public FGKAISenseConfig_Shout Default__FGKAISenseConfig_Shout;
+
+[Import("/Script/FGK")]
+public class FGKActionEffect_ForgetActor {}
+
+[Import("/Script/FGK")]
+public class FGKActionEffect_SetBlackboardKey {}
+
+[Import("/Script/FGK")]
+public class FGKAIAttackSettings {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_DistanceToKey {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasActiveStimulus {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardObjectValue {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardVectorValue {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasStimulus {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_IsActorPlayer {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_TargetAwarenessLevel {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_DynamicBehavior {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_MoveToBlackboardKey {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_RunEQS {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_SetSquadBlackboardValue {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_UseBehaviorPoint {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasLineOfSightToTarget {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_RandomTrue {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+[Import("/Script/FGK")]
+public class FGKBlackboardKeyType_GameplayAbilitySpecHandle {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Damage Default__AISenseConfig_Damage;
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Hearing Default__AISenseConfig_Hearing;
+
+[Import("/Script/AIModule")]
+public AISenseConfig_Sight Default__AISenseConfig_Sight;
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+[Import("/Script/AIModule")]
+public class BlackboardData {}
+
+[Import("/Script/AIModule")]
+public class EnvQuery {}
+
+
+[Import("/Game/Character/Orcs/Orcs/DA_Orc_AIAttack")]
+public FGKAIAttackSettings DA_Orc_AIAttack;
+
+
+[Import("/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Orc_Hostiles")]
+public class EQS_Orc_Hostiles {
+    public MorEnvQueryTest_IsAllowedTarget MorEnvQueryTest_IsAllowedTarget_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Passive_Patrol")]
+public class BSt_Patrol_Passive_Patrol_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Passive_Patrol")]
+public class Default__BSt_Patrol_Passive_Patrol_C {
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_0;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public MorActionEffect_RequestDialogue MorActionEffect_RequestDialogue_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_0;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Passive_Chill")]
+public class BSt_Patrol_Passive_Chill_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Passive_Chill")]
+public class Default__BSt_Patrol_Passive_Chill_C {
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_4;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_FleeAndSummonEncounter")]
+public class BSt_Patrol_Aware_FleeAndSummonEncounter_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_FleeAndSummonEncounter")]
+public class Default__BSt_Patrol_Aware_FleeAndSummonEncounter_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKBehaviorState_SetSquadBlackboardValue FGKBehaviorState_SetSquadBlackboardValue_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_5;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public MorBehaviorState_Despawn MorBehaviorState_Despawn_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_Flee_Orc")]
+public class BSt_Patrol_Aware_Flee_Orc_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_Flee_Orc")]
+public class Default__BSt_Patrol_Aware_Flee_Orc_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKBehaviorState_SetSquadBlackboardValue FGKBehaviorState_SetSquadBlackboardValue_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public MorBehaviorState_Despawn MorBehaviorState_Despawn_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_CallReinforcements_Orc")]
+public class BSt_Patrol_Aware_CallReinforcements_Orc_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_CallReinforcements_Orc")]
+public class Default__BSt_Patrol_Aware_CallReinforcements_Orc_C {
+    public FGKBehaviorState_SetSquadBlackboardValue FGKBehaviorState_SetSquadBlackboardValue_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle")]
+public class BSt_Idle_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_Wander_Orc")]
+public class BSt_Wander_Orc_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_Wander_Orc")]
+public class Default__BSt_Wander_Orc_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_4;
+    public FGKBehaviorState_UseBehaviorPoint MorBehaviorState_UseBehaviorPoint_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_5;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PartialAwarenessSubstates/BSt_Investigate")]
+public class BSt_Investigate_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PartialAwarenessSubstates/BSt_Investigate")]
+public class Default__BSt_Investigate_C {
+    public BSt_Idle_C BSt_Idle_C_0;
+    public BSt_Idle_C BSt_Idle_C_1;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/BSt_Root")]
+public class BSt_Root_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/BSt_Root")]
+public class Default__BSt_Root_C {
+    public FGKAICondition_HasBlackboardObjectValue FGKAICondition_HasBlackboardObjectValue_0;
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_1;
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_2;
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_20;
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_4;
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_7;
+    public FGKBehaviorState_UseBehaviorPoint FGKBehaviorState_UseBehaviorPoint_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_HasTags FGKCondition_HasTags_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_0;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_1;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_2;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/BSt_PassiveRoot")]
+public class BSt_PassiveRoot_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/BSt_PassiveRoot")]
+public class Default__BSt_PassiveRoot_C {
+    public FGKActionEffect_SetBlackboardKey FGKActionEffect_SetBlackboardKey_0;
+    public FGKAICondition_HasBlackboardObjectValue FGKAICondition_HasBlackboardObjectValue_0;
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_0;
+    public FGKBehaviorState_UseBehaviorPoint MorBehaviorState_UseBehaviorPoint_0;
+    public FGKBehaviorState_UseBehaviorPoint MorBehaviorState_UseBehaviorPoint_3;
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_HasTags FGKCondition_HasTags_2;
+    public FGKCondition_HasTags FGKCondition_HasTags_3;
+    public FGKCondition_HasTags FGKCondition_HasTags_4;
+    public FGKCondition_HasTags FGKCondition_HasTags_5;
+    public FGKCondition_HasTags FGKCondition_HasTags_6;
+    public FGKCondition_HasTags FGKCondition_HasTags_7;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_UnableToApproachTarget_Orc")]
+public class BSt_UnableToApproachTarget_Orc_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_UnableToApproachTarget_Orc")]
+public class Default__BSt_UnableToApproachTarget_Orc_C {
+    public BSt_TauntOnOutskirts_C BSt_TauntOnOutskirts_C_0;
+    public FGKCondition_RandomTrue FGKCondition_RandomTrue_1;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_TauntOnOutskirts")]
+public class BSt_TauntOnOutskirts_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_Aware_Enemy")]
+public class BSt_Aware_Enemy_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/AggroSubStates/BSt_Aware_Enemy")]
+public class Default__BSt_Aware_Enemy_C {
+    public FGKBehaviorState_DynamicBehavior FGKBehaviorState_DynamicBehavior_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BB_Base")]
+public class BB_Base {
+    public FGKBlackboardKeyType_GameplayAbilitySpecHandle FGKBlackboardKeyType_GameplayAbilitySpecHandle_0;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_AIController_Uruk_C : MorAIController {
+}

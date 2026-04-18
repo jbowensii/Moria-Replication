@@ -1,0 +1,1456 @@
+
+[Import("/Script/Moria")]
+public Object MorAnimNode_FitLimbs;
+
+[Import("/Script/Moria")]
+public class OldAnimNotifyFootstep {}
+
+
+[Import("/Script/FGK")]
+public class FGKCharacterAnimInstance {
+    [UnknownSignature, FinalFunction] public sealed void OnPivot();
+    [UnknownSignature, FinalFunction] public sealed void PlayTransition();
+    [UnknownSignature, FinalFunction] public sealed void PlayTransitionChecked();
+    [UnknownSignature, FinalFunction] public sealed void SetGroundedEntryState();
+    [UnknownSignature, FinalFunction] public sealed void SetTrackedHipsDirection();
+    public FGKCharacterAnimInstanceProxy Proxy;
+    [UnknownSignature, FinalFunction] public sealed void GetInstanceCurrentStateElapsedTime();
+    [UnknownSignature, FinalFunction] public sealed void GetInstanceStateWeight();
+    [UnknownSignature, FinalFunction] public sealed void GetCurveValue();
+    [UnknownSignature, FinalFunction] public sealed void GetInstanceMachineWeight();
+    [UnknownSignature, FinalFunction] public sealed void StopSlotAnimation();
+}
+
+[Import("/Script/FGK")]
+public FGKCharacterAnimInstance Default__FGKCharacterAnimInstance;
+
+[Import("/Script/FGK")]
+public Object FGKAnimCharacterInformation;
+
+[Import("/Script/FGK")]
+public Object FGKAnimGraphAimingValues;
+
+[Import("/Script/FGK")]
+public class FGKAnimGraphGrounded {
+    public object bShouldMove;
+}
+
+[Import("/Script/FGK")]
+public Object FGKAnimGraphLayerBlending;
+
+[Import("/Script/FGK")]
+public class FGKCharacterAnimInstanceProxy {
+    public object SmoothedAimingAngle;
+    public object Gait;
+    public object Grounded;
+}
+
+[Import("/Script/FGK")]
+public class FGKDynamicMontageParams {
+    public object Animation;
+    public object BlendInTime;
+    public object BlendOutTime;
+    public object PlayRate;
+    public object StartTime;
+}
+
+[Import("/Script/FGK")]
+public class FGKGait {
+    public object Walking_;
+}
+
+[Import("/Script/FGK")]
+public Object FGKLeanAmount;
+
+[Import("/Script/FGK")]
+public Object FGKMovementDirection;
+
+[Import("/Script/FGK")]
+public Object FGKMovementState;
+
+[Import("/Script/FGK")]
+public Object FGKRotationMode;
+
+[Import("/Script/FGK")]
+public Object FGKVelocityBlend;
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimInstance {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Abs();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void BreakVector2D();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Greater_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void GreaterEqual_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void InRange_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Less_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_ApplyMeshSpaceAdditive;
+
+[Import("/Script/Engine")]
+public Object AnimNode_ConvertComponentToLocalSpace;
+
+[Import("/Script/Engine")]
+public Object AnimNode_ConvertLocalToComponentSpace;
+
+[Import("/Script/Engine")]
+public Object AnimNode_Inertialization;
+
+[Import("/Script/Engine")]
+public Object AnimNode_LinkedAnimLayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_LinkedInputPose;
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SaveCachedPose;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_StateMachine;
+
+[Import("/Script/Engine")]
+public class AnimNode_TransitionResult {
+    public object bCanEnterTransition;
+}
+
+[Import("/Script/Engine")]
+public Object AnimNode_UseCachedPose;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class BlendSpace {}
+
+[Import("/Script/Engine")]
+public class BlendSpace1D {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class CurveVector {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public Object Vector2D;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_ApplyAdditive;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_BlendListByEnum;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_BlendSpaceEvaluator;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_BlendSpacePlayer;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_LayeredBoneBlend;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_LookAt;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_ModifyBone;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_ModifyCurve;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_MultiWayBlend;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_PoseSnapshot;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_SequenceEvaluator;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_StateResult;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_TwoWayBlend;
+
+
+[Import("/Game/CharacterArt/Creatures/WhiteDeer/SK_WhiteDeer_Skeleton")]
+public Skeleton SK_WhiteDeer_Skeleton;
+
+
+[Import("/Game/Animations/BlendCurves/YawOffset_LR")]
+public CurveVector YawOffset_LR;
+
+
+[Import("/Game/Animations/BlendCurves/YawOffset_FB")]
+public CurveVector YawOffset_FB;
+
+
+[Import("/Game/Animations/BlendCurves/StrideBlend_N_Walk")]
+public CurveFloat StrideBlend_N_Walk;
+
+
+[Import("/Game/Animations/BlendCurves/StrideBlend_N_Run")]
+public CurveFloat StrideBlend_N_Run;
+
+
+[Import("/Game/Animations/BlendCurves/LookOut")]
+public CurveFloat LookOut;
+
+
+[Import("/Game/Animations/BlendCurves/LookIn")]
+public CurveFloat LookIn;
+
+
+[Import("/Game/Animations/BlendCurves/LeanInAirAmount")]
+public CurveFloat LeanInAirAmount;
+
+
+[Import("/Game/Animations/BlendCurves/LandPredictionBlend")]
+public CurveFloat LandPredictionBlend;
+
+
+[Import("/Game/Animations/BlendCurves/DiagonalScaleAmount")]
+public CurveFloat DiagonalScaleAmount;
+
+
+[Import("/Game/Animations/BlendCurves/AO_SwitchSidesOut")]
+public CurveFloat AO_SwitchSidesOut;
+
+
+[Import("/Game/Animations/BlendCurves/AO_SwitchSidesIn")]
+public CurveFloat AO_SwitchSidesIn;
+
+
+[Import("/FGK/Examples/Data/Curves/AnimationBlendCurves/ChangeDirection")]
+public CurveFloat ChangeDirection;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Look")]
+public BlendSpace1D Der_G_Look;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_WalkRun_F")]
+public BlendSpace Der_G_WalkRun_F;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Lean")]
+public BlendSpace Der_G_Lean;
+
+
+[Import("/Game/Unshippable/OrcPrepro/OrcBlockout/Orc_N_Transition_R")]
+public class Orc_N_Transition_R {
+    public OldAnimNotifyFootstep BMAnimNotifyFootstep_1;
+}
+
+
+[Import("/Game/Unshippable/OrcPrepro/OrcBlockout/Orc_N_Transition_L")]
+public class Orc_N_Transition_L {
+    public OldAnimNotifyFootstep BMAnimNotifyFootstep_1;
+}
+
+
+[Import("/Game/Unshippable/OrcPrepro/OrcBlockout/Orc_N_Stop_R_Down")]
+public class Orc_N_Stop_R_Down {
+    public OldAnimNotifyFootstep BMAnimNotifyFootstep_1;
+}
+
+
+[Import("/Game/Unshippable/OrcPrepro/OrcBlockout/Orc_N_Stop_L_Down")]
+public class Orc_N_Stop_L_Down {
+    public OldAnimNotifyFootstep BMAnimNotifyFootstep_2;
+}
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Walk_F")]
+public AnimSequence Der_G_Walk_F;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_TurnIP_R90")]
+public AnimSequence Der_G_TurnIP_R90;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_TurnIP_L90")]
+public AnimSequence Der_G_TurnIP_L90;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Turn_IP_R180")]
+public AnimSequence Der_G_Turn_IP_R180;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Turn_IP_L180")]
+public AnimSequence Der_G_Turn_IP_L180;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Stand_Idle_Loop")]
+public AnimSequence Der_G_Stand_Idle_Loop;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Sprint_F")]
+public AnimSequence Der_G_Sprint_F;
+
+
+[Import("/Game/Animations/WhiteDeer/Der_G_Look_F_Sweep")]
+public AnimSequence Der_G_Look_F_Sweep;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_WhiteDeer_C : FGKCharacterAnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root_3;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_13;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_12;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_11;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_10;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_9;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_8;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_7;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_6;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_40;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_39;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_38;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_37;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_36;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_35;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_34;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_33;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_15;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_40;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_39;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_38;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_37;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_7;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_31;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_14;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_36;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_35;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_6;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_34;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_33;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_30;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_13;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_32;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_31;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_5;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_30;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_29;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_29;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_12;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_28;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_27;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_26;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_25;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_4;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_28;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_24;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_23;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_22;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_21;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_11;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_3;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_27;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_20;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_19;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_18;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_17;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_10;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_2;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_26;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_10;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_6;
+    Struct<AnimNode_TwoWayBlend> AnimGraphNode_TwoWayBlend_2;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_16;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_15;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_14;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_5;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_4;
+    Struct<AnimNode_BlendListByEnum> AnimGraphNode_BlendListByEnum_5;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_3;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_2;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_1;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose;
+    Struct<AnimNode_Root> AnimGraphNode_Root_2;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_32;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_31;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_30;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_13;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_9;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_25;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_9;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_12;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_8;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_24;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_8;
+    Struct<AnimNode_LinkedAnimLayer> AnimGraphNode_LinkedAnimLayer_2;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer_6;
+    Struct<AnimNode_TwoWayBlend> AnimGraphNode_TwoWayBlend_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_5;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_4;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer_5;
+    Struct<AnimNode_ApplyAdditive> AnimGraphNode_ApplyAdditive;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer_4;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer_3;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer_2;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer_1;
+    Struct<AnimNode_BlendSpacePlayer> AnimGraphNode_BlendSpacePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_23;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_7;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_29;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_28;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_11;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_22;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_10;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_21;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_6;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot_3;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot_2;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_5;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_4;
+    Struct<AnimNode_Inertialization> AnimGraphNode_Inertialization;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_27;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_26;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_25;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_24;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_23;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_22;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_21;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_20;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_3;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_7;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_20;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_2;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_6;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_19;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_19;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_18;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_17;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_16;
+    Struct<AnimNode_BlendListByEnum> AnimGraphNode_BlendListByEnum_4;
+    Struct<AnimNode_BlendListByEnum> AnimGraphNode_BlendListByEnum_3;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_9;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_13;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_12;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_11;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_10;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend_1;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_9;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_8;
+    Struct<AnimNode_LayeredBoneBlend> AnimGraphNode_LayeredBoneBlend_2;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_5;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_18;
+    Struct<AnimNode_BlendListByEnum> AnimGraphNode_BlendListByEnum_2;
+    Struct<AnimNode_BlendListByEnum> AnimGraphNode_BlendListByEnum_1;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_8;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_7;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_6;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_5;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_4;
+    Struct<AnimNode_MultiWayBlend> AnimGraphNode_MultiWayBlend;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_3;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_2;
+    Struct<AnimNode_LayeredBoneBlend> AnimGraphNode_LayeredBoneBlend_1;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_4;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_17;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_3;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_7;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_16;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_2;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_6;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_15;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_15;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_14;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_5;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_14;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_5;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_13;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_4;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_12;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_1;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve_1;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot_1;
+    Struct<AnimNode_ModifyCurve> AnimGraphNode_ModifyCurve;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_11;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_4;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_3;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_2;
+    Struct<AnimNode_Root> AnimGraphNode_Root_1;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_13;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_12;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_11;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_10;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_9;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_8;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_7;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_6;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_5;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_4;
+    Struct<AnimNode_BlendSpaceEvaluator> AnimGraphNode_BlendSpaceEvaluator_4;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_10;
+    Struct<AnimNode_BlendSpaceEvaluator> AnimGraphNode_BlendSpaceEvaluator_3;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_9;
+    Struct<AnimNode_BlendSpaceEvaluator> AnimGraphNode_BlendSpaceEvaluator_2;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_8;
+    Struct<AnimNode_BlendSpaceEvaluator> AnimGraphNode_BlendSpaceEvaluator_1;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_7;
+    Struct<AnimNode_BlendSpaceEvaluator> AnimGraphNode_BlendSpaceEvaluator;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_6;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_3;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_5;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_3;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_2;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator_1;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_4;
+    Struct<AnimNode_SequenceEvaluator> AnimGraphNode_SequenceEvaluator;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_3;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_2;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_2;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine_1;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult_1;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult;
+    Struct<AnimNode_PoseSnapshot> AnimGraphNode_PoseSnapshot;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine;
+    Struct<AnimNode_TwoWayBlend> AnimGraphNode_TwoWayBlend;
+    Struct<AnimNode_ModifyBone> AnimGraphNode_ModifyBone_2;
+    Struct<AnimNode_ModifyBone> AnimGraphNode_ModifyBone_1;
+    Struct<AnimNode_ModifyBone> AnimGraphNode_ModifyBone;
+    Struct<AnimNode_ConvertLocalToComponentSpace> AnimGraphNode_LocalToComponentSpace_1;
+    Struct<AnimNode_ConvertComponentToLocalSpace> AnimGraphNode_ComponentToLocalSpace_1;
+    Struct<AnimNode_ApplyMeshSpaceAdditive> AnimGraphNode_ApplyMeshSpaceAdditive;
+    Struct<AnimNode_LinkedAnimLayer> AnimGraphNode_LinkedAnimLayer_1;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_3;
+    Struct<AnimNode_LinkedAnimLayer> AnimGraphNode_LinkedAnimLayer;
+    Struct<AnimNode_BlendListByEnum> AnimGraphNode_BlendListByEnum;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose_1;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_2;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose_1;
+    Struct<AnimNode_UseCachedPose> AnimGraphNode_UseCachedPose;
+    Struct<MorAnimNode_FitLimbs> MorAnimGraphNode_FitLimbs;
+    Struct<AnimNode_LookAt> AnimGraphNode_LookAt;
+    Struct<AnimNode_ConvertLocalToComponentSpace> AnimGraphNode_LocalToComponentSpace;
+    Struct<AnimNode_ConvertComponentToLocalSpace> AnimGraphNode_ComponentToLocalSpace;
+    Struct<AnimNode_LayeredBoneBlend> AnimGraphNode_LayeredBoneBlend;
+    Struct<AnimNode_SaveCachedPose> AnimGraphNode_SaveCachedPose;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_ABP_WhiteDeer([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_BreakVector2D_X;
+        float CallFunc_BreakVector2D_Y;
+        float CallFunc_BreakVector2D_X_1;
+        float CallFunc_BreakVector2D_Y_1;
+        bool CallFunc_InRange_FloatFloat_ReturnValue;
+        bool CallFunc_InRange_FloatFloat_ReturnValue_1;
+        float CallFunc_GetInstanceStateWeight_ReturnValue;
+        float CallFunc_GetInstanceCurrentStateElapsedTime_ReturnValue;
+        bool CallFunc_NotEqual_FloatFloat_ReturnValue;
+        bool CallFunc_Greater_FloatFloat_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        float CallFunc_BreakVector2D_X_2;
+        float CallFunc_BreakVector2D_Y_2;
+        float CallFunc_BreakVector2D_X_3;
+        float CallFunc_BreakVector2D_Y_3;
+        bool CallFunc_InRange_FloatFloat_ReturnValue_2;
+        bool CallFunc_InRange_FloatFloat_ReturnValue_3;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_1;
+        bool CallFunc_NotEqual_FloatFloat_ReturnValue_1;
+        bool CallFunc_BooleanAND_ReturnValue_1;
+        float CallFunc_BreakVector2D_X_4;
+        float CallFunc_BreakVector2D_Y_4;
+        bool CallFunc_InRange_FloatFloat_ReturnValue_4;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_2;
+        float CallFunc_BreakVector2D_X_5;
+        float CallFunc_BreakVector2D_Y_5;
+        bool CallFunc_NotEqual_FloatFloat_ReturnValue_2;
+        bool CallFunc_InRange_FloatFloat_ReturnValue_5;
+        bool CallFunc_BooleanAND_ReturnValue_2;
+        float CallFunc_BreakVector2D_X_6;
+        float CallFunc_BreakVector2D_Y_6;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_3;
+        bool CallFunc_InRange_FloatFloat_ReturnValue_6;
+        bool CallFunc_NotEqual_FloatFloat_ReturnValue_3;
+        float CallFunc_GetCurveValue_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue_3;
+        bool CallFunc_Less_FloatFloat_ReturnValue;
+        float CallFunc_GetInstanceMachineWeight_ReturnValue;
+        bool CallFunc_NotEqual_FloatFloat_ReturnValue_4;
+        bool CallFunc_BooleanAND_ReturnValue_4;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_4;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue_5;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_1;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_2;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_3;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_4;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_5;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_6;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_7;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_8;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_9;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_10;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_11;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_12;
+        Struct<FGKDynamicMontageParams> K2Node_MakeStruct_FGKDynamicMontageParams_13;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_5;
+        float CallFunc_GetCurveValue_ReturnValue_1;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_1;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_2;
+        float CallFunc_GetCurveValue_ReturnValue_2;
+        float CallFunc_GetCurveValue_ReturnValue_3;
+        bool CallFunc_Less_FloatFloat_ReturnValue_1;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_3;
+        bool CallFunc_BooleanAND_ReturnValue_6;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_6;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_4;
+        float CallFunc_GetCurveValue_ReturnValue_4;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_5;
+        float CallFunc_GetCurveValue_ReturnValue_5;
+        float CallFunc_Abs_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue_1;
+        bool CallFunc_Less_FloatFloat_ReturnValue_2;
+        bool CallFunc_BooleanAND_ReturnValue_7;
+        bool CallFunc_BooleanAND_ReturnValue_8;
+        bool CallFunc_BooleanAND_ReturnValue_9;
+        float CallFunc_GetCurveValue_ReturnValue_6;
+        float CallFunc_Abs_ReturnValue_1;
+        bool CallFunc_Less_FloatFloat_ReturnValue_3;
+        float CallFunc_GetCurveValue_ReturnValue_7;
+        float CallFunc_GetCurveValue_ReturnValue_8;
+        float CallFunc_Abs_ReturnValue_2;
+        bool CallFunc_Less_FloatFloat_ReturnValue_4;
+        bool CallFunc_GreaterEqual_FloatFloat_ReturnValue;
+        float CallFunc_GetCurveValue_ReturnValue_9;
+        bool CallFunc_Greater_FloatFloat_ReturnValue_1;
+        float CallFunc_GetCurveValue_ReturnValue_10;
+        bool CallFunc_Greater_FloatFloat_ReturnValue_2;
+        bool CallFunc_BooleanAND_ReturnValue_10;
+        float CallFunc_GetCurveValue_ReturnValue_11;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_6;
+        float CallFunc_GetInstanceStateWeight_ReturnValue_7;
+        bool CallFunc_EqualEqual_FloatFloat_ReturnValue_7;
+        float CallFunc_GetCurveValue_ReturnValue_12;
+        float CallFunc_Abs_ReturnValue_3;
+        bool CallFunc_Less_FloatFloat_ReturnValue_5;
+        bool CallFunc_BooleanAND_ReturnValue_11;
+        bool CallFunc_BooleanAND_ReturnValue_12;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_ABP_WhiteDeer_10: this.SetTrackedHipsDirection((byte)(2));
+        return;
+
+        // Block 3
+        ExecuteUbergraph_ABP_WhiteDeer_27: KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X, CallFunc_BreakVector2D_Y);
+        CallFunc_InRange_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X, -125f, 125f, true, true));
+        this.AnimGraphNode_TransitionResult_4.bCanEnterTransition = (bool)(CallFunc_InRange_FloatFloat_ReturnValue);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_ABP_WhiteDeer_147: CallFunc_GetInstanceCurrentStateElapsedTime_ReturnValue = this.GetInstanceCurrentStateElapsedTime(-1);
+        CallFunc_Greater_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_GetInstanceCurrentStateElapsedTime_ReturnValue, 2f));
+        this.AnimGraphNode_TransitionResult_6.bCanEnterTransition = (bool)(CallFunc_Greater_FloatFloat_ReturnValue);
+        return;
+
+        // Block 5
+        ExecuteUbergraph_ABP_WhiteDeer_247: KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X_1, CallFunc_BreakVector2D_Y_1);
+        CallFunc_InRange_FloatFloat_ReturnValue_1 = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X_1, -125f, 125f, true, true));
+        CallFunc_GetInstanceStateWeight_ReturnValue = this.GetInstanceStateWeight(40, 1);
+        CallFunc_NotEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.NotEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue, 1f));
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_InRange_FloatFloat_ReturnValue_1, CallFunc_NotEqual_FloatFloat_ReturnValue));
+        this.AnimGraphNode_TransitionResult_5.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_ABP_WhiteDeer_477: KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X_2, CallFunc_BreakVector2D_Y_2);
+        CallFunc_InRange_FloatFloat_ReturnValue_2 = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X_2, 130f, 180f, true, true));
+        this.AnimGraphNode_TransitionResult_7.bCanEnterTransition = (bool)(CallFunc_InRange_FloatFloat_ReturnValue_2);
+        return;
+
+        // Block 7
+        ExecuteUbergraph_ABP_WhiteDeer_597: KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X_3, CallFunc_BreakVector2D_Y_3);
+        CallFunc_InRange_FloatFloat_ReturnValue_3 = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X_3, -125f, 125f, true, true));
+        CallFunc_GetInstanceStateWeight_ReturnValue_1 = this.GetInstanceStateWeight(40, 2);
+        CallFunc_NotEqual_FloatFloat_ReturnValue_1 = (bool)(KismetMathLibrary.NotEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_1, 1f));
+        CallFunc_BooleanAND_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_InRange_FloatFloat_ReturnValue_3, CallFunc_NotEqual_FloatFloat_ReturnValue_1));
+        this.AnimGraphNode_TransitionResult_8.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_1);
+        return;
+
+        // Block 8
+        ExecuteUbergraph_ABP_WhiteDeer_827: KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X_4, CallFunc_BreakVector2D_Y_4);
+        CallFunc_InRange_FloatFloat_ReturnValue_4 = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X_4, -180f, -130f, true, true));
+        this.AnimGraphNode_TransitionResult_9.bCanEnterTransition = (bool)(CallFunc_InRange_FloatFloat_ReturnValue_4);
+        return;
+
+        // Block 9
+        ExecuteUbergraph_ABP_WhiteDeer_947: CallFunc_GetInstanceStateWeight_ReturnValue_2 = this.GetInstanceStateWeight(40, 4);
+        KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X_5, CallFunc_BreakVector2D_Y_5);
+        CallFunc_NotEqual_FloatFloat_ReturnValue_2 = (bool)(KismetMathLibrary.NotEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_2, 1f));
+        CallFunc_InRange_FloatFloat_ReturnValue_5 = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X_5, 130f, 180f, true, true));
+        CallFunc_BooleanAND_ReturnValue_2 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_InRange_FloatFloat_ReturnValue_5, CallFunc_NotEqual_FloatFloat_ReturnValue_2));
+        this.AnimGraphNode_TransitionResult_10.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_2);
+        return;
+
+        // Block 10
+        ExecuteUbergraph_ABP_WhiteDeer_1177: KismetMathLibrary.BreakVector2D(this.Proxy.SmoothedAimingAngle, CallFunc_BreakVector2D_X_6, CallFunc_BreakVector2D_Y_6);
+        CallFunc_GetInstanceStateWeight_ReturnValue_3 = this.GetInstanceStateWeight(40, 4);
+        CallFunc_InRange_FloatFloat_ReturnValue_6 = (bool)(KismetMathLibrary.InRange_FloatFloat(CallFunc_BreakVector2D_X_6, -180f, -130f, true, true));
+        CallFunc_NotEqual_FloatFloat_ReturnValue_3 = (bool)(KismetMathLibrary.NotEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_3, 1f));
+        CallFunc_BooleanAND_ReturnValue_3 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_InRange_FloatFloat_ReturnValue_6, CallFunc_NotEqual_FloatFloat_ReturnValue_3));
+        this.AnimGraphNode_TransitionResult_11.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_3);
+        return;
+
+        // Block 11
+        ExecuteUbergraph_ABP_WhiteDeer_1407: CallFunc_GetCurveValue_ReturnValue = this.GetCurveValue(EX_NameConst("W_Gait"));
+        CallFunc_Less_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_GetCurveValue_ReturnValue, 1.2f));
+        CallFunc_BooleanAND_ReturnValue_4 = (bool)(KismetMathLibrary.BooleanAND(this.Proxy.Gait.Walking_, CallFunc_Less_FloatFloat_ReturnValue));
+        this.AnimGraphNode_TransitionResult_29.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_4);
+        return;
+
+        // Block 12
+        ExecuteUbergraph_ABP_WhiteDeer_1571: CallFunc_GetInstanceStateWeight_ReturnValue_4 = this.GetInstanceStateWeight(64, 2);
+        CallFunc_EqualEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_4, 1f));
+        this.AnimGraphNode_TransitionResult_25.bCanEnterTransition = (bool)(CallFunc_EqualEqual_FloatFloat_ReturnValue);
+        return;
+
+        // Block 13
+        ExecuteUbergraph_ABP_WhiteDeer_1676: CallFunc_GetInstanceMachineWeight_ReturnValue = this.GetInstanceMachineWeight(154);
+        CallFunc_NotEqual_FloatFloat_ReturnValue_4 = (bool)(KismetMathLibrary.NotEqual_FloatFloat(CallFunc_GetInstanceMachineWeight_ReturnValue, 1f));
+        CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(this.Proxy.Gait.Walking_));
+        CallFunc_BooleanAND_ReturnValue_5 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Not_PreBool_ReturnValue, CallFunc_NotEqual_FloatFloat_ReturnValue_4));
+        this.AnimGraphNode_TransitionResult_28.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_5);
+        return;
+
+        // Block 14
+        ExecuteUbergraph_ABP_WhiteDeer_1861: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams.Animation,Orc_N_Stop_R_Down);
+        K2Node_MakeStruct_FGKDynamicMontageParams.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams.StartTime = 0.4f;
+        this.PlayTransition(K2Node_MakeStruct_FGKDynamicMontageParams);
+        return;
+
+        // Block 15
+        ExecuteUbergraph_ABP_WhiteDeer_2041: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_1.Animation,Orc_N_Stop_L_Down);
+        K2Node_MakeStruct_FGKDynamicMontageParams_1.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_1.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_1.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_1.StartTime = 0.4f;
+        this.PlayTransition(K2Node_MakeStruct_FGKDynamicMontageParams_1);
+        return;
+
+        // Block 16
+        ExecuteUbergraph_ABP_WhiteDeer_2221: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_2.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_2.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_2.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_2.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_2.StartTime = 0.2f;
+        this.PlayTransition(K2Node_MakeStruct_FGKDynamicMontageParams_2);
+        return;
+
+        // Block 17
+        ExecuteUbergraph_ABP_WhiteDeer_2401: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_3.Animation,Orc_N_Transition_L);
+        K2Node_MakeStruct_FGKDynamicMontageParams_3.BlendInTime = 0.1f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_3.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_3.PlayRate = 1.75f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_3.StartTime = 0.3f;
+        this.PlayTransition(K2Node_MakeStruct_FGKDynamicMontageParams_3);
+        return;
+
+        // Block 18
+        ExecuteUbergraph_ABP_WhiteDeer_2581: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_4.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_4.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_4.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_4.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_4.StartTime = 0.2f;
+        this.PlayTransition(K2Node_MakeStruct_FGKDynamicMontageParams_4);
+        return;
+
+        // Block 19
+        ExecuteUbergraph_ABP_WhiteDeer_2761: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_5.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_5.BlendInTime = 0.1f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_5.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_5.PlayRate = 1.4f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_5.StartTime = 0f;
+        this.PlayTransition(K2Node_MakeStruct_FGKDynamicMontageParams_5);
+        return;
+
+        // Block 20
+        ExecuteUbergraph_ABP_WhiteDeer_2941: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_6.Animation,Orc_N_Transition_L);
+        K2Node_MakeStruct_FGKDynamicMontageParams_6.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_6.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_6.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_6.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_6);
+        return;
+
+        // Block 21
+        ExecuteUbergraph_ABP_WhiteDeer_3121: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_7.Animation,Orc_N_Transition_L);
+        K2Node_MakeStruct_FGKDynamicMontageParams_7.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_7.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_7.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_7.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_7);
+        return;
+
+        // Block 22
+        ExecuteUbergraph_ABP_WhiteDeer_3301: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_8.Animation,Orc_N_Transition_L);
+        K2Node_MakeStruct_FGKDynamicMontageParams_8.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_8.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_8.PlayRate = 1.75f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_8.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_8);
+        return;
+
+        // Block 23
+        ExecuteUbergraph_ABP_WhiteDeer_3481: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_9.Animation,Orc_N_Transition_L);
+        K2Node_MakeStruct_FGKDynamicMontageParams_9.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_9.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_9.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_9.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_9);
+        return;
+
+        // Block 24
+        ExecuteUbergraph_ABP_WhiteDeer_3661: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_10.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_10.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_10.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_10.PlayRate = 1.75f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_10.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_10);
+        return;
+
+        // Block 25
+        ExecuteUbergraph_ABP_WhiteDeer_3841: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_11.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_11.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_11.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_11.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_11.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_11);
+        return;
+
+        // Block 26
+        ExecuteUbergraph_ABP_WhiteDeer_4021: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_12.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_12.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_12.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_12.PlayRate = 1.75f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_12.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_12);
+        return;
+
+        // Block 27
+        ExecuteUbergraph_ABP_WhiteDeer_4201: EX_LetObj(K2Node_MakeStruct_FGKDynamicMontageParams_13.Animation,Orc_N_Transition_R);
+        K2Node_MakeStruct_FGKDynamicMontageParams_13.BlendInTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_13.BlendOutTime = 0.2f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_13.PlayRate = 1.5f;
+        K2Node_MakeStruct_FGKDynamicMontageParams_13.StartTime = 0.3f;
+        this.PlayTransitionChecked(K2Node_MakeStruct_FGKDynamicMontageParams_13);
+        return;
+
+        // Block 28
+        ExecuteUbergraph_ABP_WhiteDeer_4381: CallFunc_GetCurveValue_ReturnValue_1 = this.GetCurveValue(EX_NameConst("Feet_Crossing"));
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_2 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetCurveValue_ReturnValue_1, 0f));
+        CallFunc_GetCurveValue_ReturnValue_2 = this.GetCurveValue(EX_NameConst("HipOrientation_Bias"));
+        CallFunc_Less_FloatFloat_ReturnValue_1 = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_GetCurveValue_ReturnValue_2, -0.5f));
+        CallFunc_BooleanAND_ReturnValue_6 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Less_FloatFloat_ReturnValue_1, CallFunc_EqualEqual_FloatFloat_ReturnValue_2));
+        this.AnimGraphNode_TransitionResult_37.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_6);
+        return;
+
+        // Block 29
+        ExecuteUbergraph_ABP_WhiteDeer_4602: CallFunc_GetInstanceStateWeight_ReturnValue_5 = this.GetInstanceStateWeight(64, 1);
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_1 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_5, 1f));
+        CallFunc_Not_PreBool_ReturnValue_1 = (bool)(KismetMathLibrary.Not_PreBool(this.Proxy.Grounded.bShouldMove));
+        CallFunc_BooleanAND_ReturnValue_7 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_EqualEqual_FloatFloat_ReturnValue_1, CallFunc_Not_PreBool_ReturnValue_1));
+        this.AnimGraphNode_TransitionResult_23.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_7);
+        return;
+
+        // Block 30
+        ExecuteUbergraph_ABP_WhiteDeer_4792_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_152EE0974FFE472026F4FCB7C8E2E9C8: CallFunc_GetCurveValue_ReturnValue_11 = this.GetCurveValue(EX_NameConst("Feet_Crossing"));
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_6 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetCurveValue_ReturnValue_11, 0f));
+        CallFunc_GetInstanceStateWeight_ReturnValue_7 = this.GetInstanceStateWeight(178, 5);
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_7 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_7, 1f));
+        CallFunc_GetCurveValue_ReturnValue_12 = this.GetCurveValue(EX_NameConst("HipOrientation_Bias"));
+        CallFunc_Abs_ReturnValue_3 = KismetMathLibrary.Abs(CallFunc_GetCurveValue_ReturnValue_12);
+        CallFunc_Less_FloatFloat_ReturnValue_5 = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_Abs_ReturnValue_3, 0.5f));
+        CallFunc_BooleanAND_ReturnValue_11 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Less_FloatFloat_ReturnValue_5, CallFunc_EqualEqual_FloatFloat_ReturnValue_7));
+        CallFunc_BooleanAND_ReturnValue_12 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_BooleanAND_ReturnValue_11, CallFunc_EqualEqual_FloatFloat_ReturnValue_6));
+        this.AnimGraphNode_TransitionResult_40.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_12);
+        return;
+
+        // Block 31
+        ExecuteUbergraph_ABP_WhiteDeer_5160: CallFunc_GetCurveValue_ReturnValue_3 = this.GetCurveValue(EX_NameConst("Feet_Crossing"));
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_3 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetCurveValue_ReturnValue_3, 0f));
+        CallFunc_GetInstanceStateWeight_ReturnValue_6 = this.GetInstanceStateWeight(178, 3);
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_4 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetInstanceStateWeight_ReturnValue_6, 1f));
+        CallFunc_GetCurveValue_ReturnValue_5 = this.GetCurveValue(EX_NameConst("HipOrientation_Bias"));
+        CallFunc_Abs_ReturnValue = KismetMathLibrary.Abs(CallFunc_GetCurveValue_ReturnValue_5);
+        CallFunc_Less_FloatFloat_ReturnValue_2 = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_Abs_ReturnValue, 0.5f));
+        CallFunc_BooleanAND_ReturnValue_8 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Less_FloatFloat_ReturnValue_2, CallFunc_EqualEqual_FloatFloat_ReturnValue_4));
+        CallFunc_BooleanAND_ReturnValue_9 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_BooleanAND_ReturnValue_8, CallFunc_EqualEqual_FloatFloat_ReturnValue_3));
+        this.AnimGraphNode_TransitionResult_38.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_9);
+        return;
+
+        // Block 32
+        ExecuteUbergraph_ABP_WhiteDeer_5528_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_199295C24DA9821F5250BA9795237AC8: CallFunc_GetCurveValue_ReturnValue_4 = this.GetCurveValue(EX_NameConst("Feet_Crossing"));
+        CallFunc_EqualEqual_FloatFloat_ReturnValue_5 = (bool)(KismetMathLibrary.EqualEqual_FloatFloat(CallFunc_GetCurveValue_ReturnValue_4, 0f));
+        CallFunc_GetCurveValue_ReturnValue_10 = this.GetCurveValue(EX_NameConst("HipOrientation_Bias"));
+        CallFunc_Greater_FloatFloat_ReturnValue_2 = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_GetCurveValue_ReturnValue_10, 0.5f));
+        CallFunc_BooleanAND_ReturnValue_10 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Greater_FloatFloat_ReturnValue_2, CallFunc_EqualEqual_FloatFloat_ReturnValue_5));
+        this.AnimGraphNode_TransitionResult_39.bCanEnterTransition = (bool)(CallFunc_BooleanAND_ReturnValue_10);
+        return;
+
+        // Block 33
+        ExecuteUbergraph_ABP_WhiteDeer_5749_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_CF985C17485FB09686F8EF8E1E123D2B: goto ExecuteUbergraph_ABP_WhiteDeer_27;
+
+        // Block 34
+        ExecuteUbergraph_ABP_WhiteDeer_5754_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_63C31EF54B5ECD032CFFB18226F538C1: goto ExecuteUbergraph_ABP_WhiteDeer_247;
+
+        // Block 35
+        ExecuteUbergraph_ABP_WhiteDeer_5759_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_81A7053D49FE4C37FBDC77AAC0C3964C: goto ExecuteUbergraph_ABP_WhiteDeer_147;
+
+        // Block 36
+        ExecuteUbergraph_ABP_WhiteDeer_5764_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_D94986CB4C8F93C4EA637EAF516537ED: goto ExecuteUbergraph_ABP_WhiteDeer_477;
+
+        // Block 37
+        ExecuteUbergraph_ABP_WhiteDeer_5769_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_3189EFA94E0DBA115DEBA69809A19754: goto ExecuteUbergraph_ABP_WhiteDeer_597;
+
+        // Block 38
+        ExecuteUbergraph_ABP_WhiteDeer_5774_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_04632D7F46F98425E1882A83558F4DA5: goto ExecuteUbergraph_ABP_WhiteDeer_827;
+
+        // Block 39
+        ExecuteUbergraph_ABP_WhiteDeer_5779_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6B90AB104F3E58296A3BDFA86777CCE0: goto ExecuteUbergraph_ABP_WhiteDeer_947;
+
+        // Block 40
+        ExecuteUbergraph_ABP_WhiteDeer_5784_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_28554F644A275D143856BFA0C9E3A45E: goto ExecuteUbergraph_ABP_WhiteDeer_1177;
+
+        // Block 41
+        ExecuteUbergraph_ABP_WhiteDeer_5789_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_614FDCFB4C467CB601BAA7B9D688E580: CallFunc_GetCurveValue_ReturnValue_6 = this.GetCurveValue(EX_NameConst("Feet_Position"));
+        CallFunc_Abs_ReturnValue_1 = KismetMathLibrary.Abs(CallFunc_GetCurveValue_ReturnValue_6);
+        CallFunc_Less_FloatFloat_ReturnValue_3 = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_Abs_ReturnValue_1, 0.5f));
+        this.AnimGraphNode_TransitionResult_16.bCanEnterTransition = (bool)(CallFunc_Less_FloatFloat_ReturnValue_3);
+        return;
+
+        // Block 42
+        ExecuteUbergraph_ABP_WhiteDeer_5934_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_0DFAB5E240D38D6A4616AC982E641EB2: CallFunc_GetCurveValue_ReturnValue_7 = this.GetCurveValue(EX_NameConst("Feet_Position"));
+        CallFunc_Abs_ReturnValue_2 = KismetMathLibrary.Abs(CallFunc_GetCurveValue_ReturnValue_7);
+        CallFunc_GreaterEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_FloatFloat(CallFunc_Abs_ReturnValue_2, 0.5f));
+        this.AnimGraphNode_TransitionResult_17.bCanEnterTransition = (bool)(CallFunc_GreaterEqual_FloatFloat_ReturnValue);
+        return;
+
+        // Block 43
+        ExecuteUbergraph_ABP_WhiteDeer_6079_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_597261F542153B63879C1195D293D8BA: CallFunc_GetCurveValue_ReturnValue_9 = this.GetCurveValue(EX_NameConst("Feet_Position"));
+        CallFunc_Greater_FloatFloat_ReturnValue_1 = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_GetCurveValue_ReturnValue_9, 0f));
+        this.AnimGraphNode_TransitionResult_18.bCanEnterTransition = (bool)(CallFunc_Greater_FloatFloat_ReturnValue_1);
+        return;
+
+        // Block 44
+        ExecuteUbergraph_ABP_WhiteDeer_6187_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_441469C146423D961163FAB9A89B844D: CallFunc_GetCurveValue_ReturnValue_8 = this.GetCurveValue(EX_NameConst("Feet_Position"));
+        CallFunc_Less_FloatFloat_ReturnValue_4 = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_GetCurveValue_ReturnValue_8, 0f));
+        this.AnimGraphNode_TransitionResult_19.bCanEnterTransition = (bool)(CallFunc_Less_FloatFloat_ReturnValue_4);
+        return;
+
+        // Block 45
+        ExecuteUbergraph_ABP_WhiteDeer_6295_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_FD12D9F64B58C9240A101B99201ABBF4: goto ExecuteUbergraph_ABP_WhiteDeer_4602;
+
+        // Block 46
+        ExecuteUbergraph_ABP_WhiteDeer_6300_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6E13B842482BC032C01B7087BA4F5075: goto ExecuteUbergraph_ABP_WhiteDeer_1571;
+
+        // Block 47
+        ExecuteUbergraph_ABP_WhiteDeer_6305_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_8B55CA264717DA97A1F8CD90BAC4E133: goto ExecuteUbergraph_ABP_WhiteDeer_1676;
+
+        // Block 48
+        ExecuteUbergraph_ABP_WhiteDeer_6310_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_A9E18DF941BBA2B3C328DA8C6C958231: goto ExecuteUbergraph_ABP_WhiteDeer_1407;
+
+        // Block 49
+        ExecuteUbergraph_ABP_WhiteDeer_6315_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6B9A4FE54FFCAF8FEAD8ECA3D1DBD3D5: goto ExecuteUbergraph_ABP_WhiteDeer_4381;
+
+        // Block 50
+        `ExecuteUbergraph_ABP_WhiteDeer_6320_AnimNotify_->N Stop R`: goto ExecuteUbergraph_ABP_WhiteDeer_1861;
+
+        // Block 51
+        `ExecuteUbergraph_ABP_WhiteDeer_6325_AnimNotify_->N Stop L`: goto ExecuteUbergraph_ABP_WhiteDeer_2041;
+
+        // Block 52
+        `ExecuteUbergraph_ABP_WhiteDeer_6330_AnimNotify_->CLF Stop`: goto ExecuteUbergraph_ABP_WhiteDeer_2221;
+
+        // Block 53
+        `ExecuteUbergraph_ABP_WhiteDeer_6335_AnimNotify_->N QuickStop `: goto ExecuteUbergraph_ABP_WhiteDeer_2401;
+
+        // Block 54
+        `ExecuteUbergraph_ABP_WhiteDeer_6340_AnimNotify_Roll->Idle`: goto ExecuteUbergraph_ABP_WhiteDeer_2581;
+
+        // Block 55
+        ExecuteUbergraph_ABP_WhiteDeer_6345_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_0457552645E168B58443E5A053ADA507: goto ExecuteUbergraph_ABP_WhiteDeer_5160;
+
+        // Block 56
+        `ExecuteUbergraph_ABP_WhiteDeer_6350_AnimNotify_Land->Idle`: goto ExecuteUbergraph_ABP_WhiteDeer_2761;
+
+        // Block 57
+        ExecuteUbergraph_ABP_WhiteDeer_6355_AnimNotify_StopTransition: this.StopSlotAnimation(0.2f, EX_NameConst("Grounded Slot"));
+        this.StopSlotAnimation(0.2f, EX_NameConst("(N) Turn/Rotate"));
+        this.StopSlotAnimation(0.2f, EX_NameConst("(CLF) Turn/Rotate"));
+        return;
+
+        // Block 58
+        `ExecuteUbergraph_ABP_WhiteDeer_6444_AnimNotify_Reset-GroundedEntryState`: this.SetGroundedEntryState((byte)(0));
+        return;
+
+        // Block 59
+        ExecuteUbergraph_ABP_WhiteDeer_6461_AnimNotify_Pivot: this.OnPivot();
+        return;
+
+        // Block 60
+        `ExecuteUbergraph_ABP_WhiteDeer_6476_AnimNotify_Hips F`: this.SetTrackedHipsDirection((byte)(0));
+        return;
+
+        // Block 61
+        `ExecuteUbergraph_ABP_WhiteDeer_6493_AnimNotify_Hips B`: this.SetTrackedHipsDirection((byte)(1));
+        return;
+
+        // Block 62
+        `ExecuteUbergraph_ABP_WhiteDeer_6510_AnimNotify_Hips LB`: goto ExecuteUbergraph_ABP_WhiteDeer_10;
+
+        // Block 63
+        `ExecuteUbergraph_ABP_WhiteDeer_6515_AnimNotify_Hips LF`: this.SetTrackedHipsDirection((byte)(4));
+        return;
+
+        // Block 64
+        `ExecuteUbergraph_ABP_WhiteDeer_6532_AnimNotify_Hips RF`: this.SetTrackedHipsDirection((byte)(2));
+        return;
+
+        // Block 65
+        `ExecuteUbergraph_ABP_WhiteDeer_6549_AnimNotify_Hips RB`: this.SetTrackedHipsDirection((byte)(3));
+        return;
+
+        // Block 66
+        `ExecuteUbergraph_ABP_WhiteDeer_6566_AnimNotify_Bow Relaxed->Ready`: goto ExecuteUbergraph_ABP_WhiteDeer_2941;
+
+        // Block 67
+        `ExecuteUbergraph_ABP_WhiteDeer_6571_AnimNotify_Bow Ready->Relaxed`: goto ExecuteUbergraph_ABP_WhiteDeer_3121;
+
+        // Block 68
+        `ExecuteUbergraph_ABP_WhiteDeer_6576_AnimNotify_M4A1 Relaxed->Ready`: goto ExecuteUbergraph_ABP_WhiteDeer_3301;
+
+        // Block 69
+        `ExecuteUbergraph_ABP_WhiteDeer_6581_AnimNotify_M4A1 Ready->Relaxed`: goto ExecuteUbergraph_ABP_WhiteDeer_3481;
+
+        // Block 70
+        `ExecuteUbergraph_ABP_WhiteDeer_6586_AnimNotify_Pistol 1H Relaxed->Ready`: goto ExecuteUbergraph_ABP_WhiteDeer_3661;
+
+        // Block 71
+        `ExecuteUbergraph_ABP_WhiteDeer_6591_AnimNotify_Pistol 1H Ready->Relaxed`: goto ExecuteUbergraph_ABP_WhiteDeer_3841;
+
+        // Block 72
+        `ExecuteUbergraph_ABP_WhiteDeer_6596_AnimNotify_Pistol 2H Relaxed->Ready`: goto ExecuteUbergraph_ABP_WhiteDeer_4021;
+
+        // Block 73
+        `ExecuteUbergraph_ABP_WhiteDeer_6601_AnimNotify_Pistol 2H Ready->Relaxed`: goto ExecuteUbergraph_ABP_WhiteDeer_4201;
+
+        // Block 74
+        ExecuteUbergraph_ABP_WhiteDeer_6606:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Pistol 2H Ready->Relaxed`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6601_AnimNotify_Pistol 2H Ready->Relaxed`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Pistol 2H Relaxed->Ready`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6596_AnimNotify_Pistol 2H Relaxed->Ready`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Pistol 1H Ready->Relaxed`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6591_AnimNotify_Pistol 1H Ready->Relaxed`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Pistol 1H Relaxed->Ready`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6586_AnimNotify_Pistol 1H Relaxed->Ready`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_M4A1 Ready->Relaxed`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6581_AnimNotify_M4A1 Ready->Relaxed`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_M4A1 Relaxed->Ready`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6576_AnimNotify_M4A1 Relaxed->Ready`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Bow Ready->Relaxed`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6571_AnimNotify_Bow Ready->Relaxed`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Bow Relaxed->Ready`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6566_AnimNotify_Bow Relaxed->Ready`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Hips RB`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6549_AnimNotify_Hips RB`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Hips RF`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6532_AnimNotify_Hips RF`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Hips LF`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6515_AnimNotify_Hips LF`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Hips LB`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6510_AnimNotify_Hips LB`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Hips B`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6493_AnimNotify_Hips B`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Hips F`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6476_AnimNotify_Hips F`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_Pivot() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6461_AnimNotify_Pivot);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Reset-GroundedEntryState`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6444_AnimNotify_Reset-GroundedEntryState`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AnimNotify_StopTransition() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6355_AnimNotify_StopTransition);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Land->Idle`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6350_AnimNotify_Land->Idle`);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_0457552645E168B58443E5A053ADA507() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6345_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_0457552645E168B58443E5A053ADA507);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_Roll->Idle`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6340_AnimNotify_Roll->Idle`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_->N QuickStop `() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6335_AnimNotify_->N QuickStop `);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_->CLF Stop`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6330_AnimNotify_->CLF Stop`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_->N Stop L`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6325_AnimNotify_->N Stop L`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `AnimNotify_->N Stop R`() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(`ExecuteUbergraph_ABP_WhiteDeer_6320_AnimNotify_->N Stop R`);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6B9A4FE54FFCAF8FEAD8ECA3D1DBD3D5() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6315_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6B9A4FE54FFCAF8FEAD8ECA3D1DBD3D5);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_A9E18DF941BBA2B3C328DA8C6C958231() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6310_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_A9E18DF941BBA2B3C328DA8C6C958231);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_8B55CA264717DA97A1F8CD90BAC4E133() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6305_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_8B55CA264717DA97A1F8CD90BAC4E133);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6E13B842482BC032C01B7087BA4F5075() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6300_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6E13B842482BC032C01B7087BA4F5075);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_FD12D9F64B58C9240A101B99201ABBF4() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6295_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_FD12D9F64B58C9240A101B99201ABBF4);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_441469C146423D961163FAB9A89B844D() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6187_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_441469C146423D961163FAB9A89B844D);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_597261F542153B63879C1195D293D8BA() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_6079_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_597261F542153B63879C1195D293D8BA);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_0DFAB5E240D38D6A4616AC982E641EB2() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5934_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_0DFAB5E240D38D6A4616AC982E641EB2);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_614FDCFB4C467CB601BAA7B9D688E580() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5789_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_614FDCFB4C467CB601BAA7B9D688E580);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_28554F644A275D143856BFA0C9E3A45E() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5784_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_28554F644A275D143856BFA0C9E3A45E);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6B90AB104F3E58296A3BDFA86777CCE0() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5779_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_6B90AB104F3E58296A3BDFA86777CCE0);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_04632D7F46F98425E1882A83558F4DA5() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5774_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_04632D7F46F98425E1882A83558F4DA5);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_3189EFA94E0DBA115DEBA69809A19754() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5769_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_3189EFA94E0DBA115DEBA69809A19754);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_D94986CB4C8F93C4EA637EAF516537ED() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5764_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_D94986CB4C8F93C4EA637EAF516537ED);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_81A7053D49FE4C37FBDC77AAC0C3964C() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5759_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_81A7053D49FE4C37FBDC77AAC0C3964C);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_63C31EF54B5ECD032CFFB18226F538C1() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5754_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_63C31EF54B5ECD032CFFB18226F538C1);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_CF985C17485FB09686F8EF8E1E123D2B() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5749_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_CF985C17485FB09686F8EF8E1E123D2B);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_199295C24DA9821F5250BA9795237AC8() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_5528_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_199295C24DA9821F5250BA9795237AC8);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_152EE0974FFE472026F4FCB7C8E2E9C8() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_WhiteDeer(ExecuteUbergraph_ABP_WhiteDeer_4792_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_WhiteDeer_AnimGraphNode_TransitionResult_152EE0974FFE472026F4FCB7C8E2E9C8);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AimOffsetBehaviors(out Struct<PoseLink> AimOffsetBehaviors) {
+        // Block 1
+        AimOffsetBehaviors = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void BaseLayer(out Struct<PoseLink> BaseLayer) {
+        // Block 1
+        BaseLayer = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void `(N) CycleBlending`([BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> F, [BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> B, [BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> LF, [BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> LB, [BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> RF, [BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> RB, [BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> Sprint, out Struct<PoseLink> `(N) CycleBlending`) {
+        // Block 1
+        `(N) CycleBlending` = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

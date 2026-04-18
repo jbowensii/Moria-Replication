@@ -1,0 +1,325 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIShadowDragonComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakBreakablesComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_Dragon_Shadow_Base")]
+public class BP_Dragon_Shadow_Base_C {
+    public MorAIShadowDragonComponent MorAIShadowDragon_GEN_VARIABLE;
+    public MorBreakBreakablesComponent MorBreakBreakables_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX1_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX2_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX3_GEN_VARIABLE;
+    public NiagaraComponent NS_DragonDamageFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Antlers Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_00 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_00 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Jaw Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Jaw2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_L_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `LegBack_R_End Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Snout Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Snout2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_02 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_03 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_04 Capsule1_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingBottom_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingInner_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingMiddle_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTip_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTip_R Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_L_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_R_00 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `WingTop_R_02 Capsule_GEN_VARIABLE`;
+    public MorAIShadowDragonComponent MorAIShadowDragon;
+    public MorBreakBreakablesComponent MorBreakBreakables;
+    public NiagaraComponent NS_DragonDamageFX1;
+    public NiagaraComponent NS_DragonDamageFX2;
+    public NiagaraComponent NS_DragonDamageFX3;
+    public NiagaraComponent NS_DragonDamageFX;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Antlers Capsule`;
+    public StaticMeshComponent `Arm_L_00 Capsule1`;
+    public StaticMeshComponent `Arm_L_00 Capsule`;
+    public StaticMeshComponent `Arm_L_04 Capsule`;
+    public StaticMeshComponent `Arm_L_End Capsule`;
+    public StaticMeshComponent `Arm_R_00 Capsule1`;
+    public StaticMeshComponent `Arm_R_00 Capsule`;
+    public StaticMeshComponent `Arm_R_04 Capsule`;
+    public StaticMeshComponent `Arm_R_End Capsule`;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Jaw Capsule`;
+    public StaticMeshComponent `Jaw2 Capsule`;
+    public StaticMeshComponent `LegBack_L_00 Capsule`;
+    public StaticMeshComponent `LegBack_L_02 Capsule`;
+    public StaticMeshComponent `LegBack_L_04 Capsule`;
+    public StaticMeshComponent `LegBack_L_End Capsule`;
+    public StaticMeshComponent `LegBack_R_00 Capsule`;
+    public StaticMeshComponent `LegBack_R_02 Capsule`;
+    public StaticMeshComponent `LegBack_R_04 Capsule`;
+    public StaticMeshComponent `LegBack_R_End Capsule`;
+    public StaticMeshComponent `Neck_00 Capsule`;
+    public StaticMeshComponent `Neck_01 Capsule`;
+    public StaticMeshComponent `Neck_02 Capsule`;
+    public StaticMeshComponent `Neck_03 Capsule`;
+    public StaticMeshComponent `Neck_04 Capsule`;
+    public StaticMeshComponent `Snout Capsule`;
+    public StaticMeshComponent `Snout2 Capsule`;
+    public StaticMeshComponent `Spine_00 Capsule`;
+    public StaticMeshComponent `Spine_01 Capsule`;
+    public StaticMeshComponent `Spine_02 Capsule`;
+    public StaticMeshComponent `Spine_03 Capsule`;
+    public StaticMeshComponent `Tail_00 Capsule`;
+    public StaticMeshComponent `Tail_01 Capsule`;
+    public StaticMeshComponent `Tail_02 Capsule1`;
+    public StaticMeshComponent `Tail_02 Capsule`;
+    public StaticMeshComponent `Tail_03 Capsule1`;
+    public StaticMeshComponent `Tail_03 Capsule`;
+    public StaticMeshComponent `Tail_04 Capsule1`;
+    public StaticMeshComponent `Tail_04 Capsule`;
+    public StaticMeshComponent `Tail_05 Capsule`;
+    public StaticMeshComponent `WingBottom_L_00 Capsule`;
+    public StaticMeshComponent `WingBottom_L_01 Capsule`;
+    public StaticMeshComponent `WingBottom_L_02 Capsule`;
+    public StaticMeshComponent `WingBottom_R_00 Capsule`;
+    public StaticMeshComponent `WingBottom_R_01 Capsule`;
+    public StaticMeshComponent `WingBottom_R_02 Capsule`;
+    public StaticMeshComponent `WingInner_L_00 Capsule`;
+    public StaticMeshComponent `WingInner_L_01 Capsule`;
+    public StaticMeshComponent `WingInner_R_00 Capsule`;
+    public StaticMeshComponent `WingInner_R_01 Capsule`;
+    public StaticMeshComponent `WingMiddle_L_00 Capsule`;
+    public StaticMeshComponent `WingMiddle_L_01 Capsule`;
+    public StaticMeshComponent `WingMiddle_L_02 Capsule`;
+    public StaticMeshComponent `WingMiddle_R_00 Capsule`;
+    public StaticMeshComponent `WingMiddle_R_01 Capsule`;
+    public StaticMeshComponent `WingMiddle_R_02 Capsule`;
+    public StaticMeshComponent `WingTip_L Capsule`;
+    public StaticMeshComponent `WingTip_R Capsule`;
+    public StaticMeshComponent `WingTop_L_00 Capsule`;
+    public StaticMeshComponent `WingTop_L_01 Capsule`;
+    public StaticMeshComponent `WingTop_L_02 Capsule`;
+    public StaticMeshComponent `WingTop_R_00 Capsule`;
+    public StaticMeshComponent `WingTop_R_01 Capsule`;
+    public StaticMeshComponent `WingTop_R_02 Capsule`;
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_Dragon_Shadow_Base")]
+public class Default__BP_Dragon_Shadow_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController_CavernShaft")]
+public class BP_ShadowDragon_AIController_CavernShaft_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController_CavernShaft")]
+public class Default__BP_ShadowDragon_AIController_CavernShaft_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Dragon_Shadow_CavernShaft_C : BP_Dragon_Shadow_Base_C {
+}

@@ -1,0 +1,377 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MorCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public MorDwarfWaterFXComponent Default__MorDwarfWaterFXComponent;
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorCharacterState_Hide {}
+
+[Import("/Script/Moria")]
+public class MorCondition_IsAbilityActive {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Script/AIModule")]
+public AIPerceptionStimuliSourceComponent Default__AIPerceptionStimuliSourceComponent;
+
+[Import("/Script/AIModule")]
+public class AIPerceptionStimuliSourceComponent {}
+
+[Import("/Script/AIModule")]
+public class AISense_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISense_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+[Import("/Script/AIModule")]
+public class AISense_Team {}
+
+[Import("/Script/AIModule")]
+public class AISense_Touch {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_beast")]
+public PhysicalMaterial PM_flesh_beast;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Splash1")]
+public NiagaraSystem NS_CamsWater_Splash1;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_PuddleSplash")]
+public NiagaraSystem NS_CamsWater_PuddleSplash;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Plunge1")]
+public NiagaraSystem NS_CamsWater_Plunge1;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Breach1")]
+public NiagaraSystem NS_CamsWater_Breach1;
+
+
+[Import("/Game/FX/MasterMaterials/Enemies/P_SkeletalMesh_Dissolve")]
+public NiagaraSystem P_SkeletalMesh_Dissolve;
+
+
+[Import("/Game/Character/Creatures/DA_FaunaBase_AI")]
+public MorAISettings DA_FaunaBase_AI;
+
+
+[Import("/Game/Character/Creatures/DA_FaunaBase_CharacterData")]
+public FGKCharacterData DA_FaunaBase_CharacterData;
+
+
+[Import("/Game/FX/CharacterDespawn/LinearCurve")]
+public CurveFloat LinearCurve;
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body")]
+public class CSt_Body_C {}
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body")]
+public class Default__CSt_Body_C {
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_1;
+    public MorCharacterState_Hide MorCharacterState_Hide_0;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_0;
+}
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/Creatures/GE_Starting_FaunaBase")]
+public class GE_Starting_FaunaBase_C {}
+
+[Import("/Game/Character/Creatures/GE_Starting_FaunaBase")]
+public GE_Starting_FaunaBase_C Default__GE_Starting_FaunaBase_C;
+
+
+[Import("/Game/Character/Creatures/BP_AIController_FaunaBase")]
+public class BP_AIController_FaunaBase_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Creatures/BP_AIController_FaunaBase")]
+public class Default__BP_AIController_FaunaBase_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Fauna_Base_C : MorCharacter {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorDwarfWaterFXComponent> MorDwarfWaterFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AIPerceptionStimuliSourceComponent> AIPerceptionStimuliSource;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Fauna_Base([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Fauna_Base_10_ReceiveTick: return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Fauna_Base_15_ReceiveBeginPlay:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_Fauna_Base(ExecuteUbergraph_BP_Fauna_Base_10_ReceiveTick);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Fauna_Base(ExecuteUbergraph_BP_Fauna_Base_15_ReceiveBeginPlay);
+
+    }
+
+}

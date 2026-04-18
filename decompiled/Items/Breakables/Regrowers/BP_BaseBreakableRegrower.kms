@@ -1,0 +1,69 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableRegrower {}
+
+[Import("/Script/Moria")]
+public MorBreakableComponent Default__MorBreakableComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableFXComponent Default__MorBreakableFXComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorBreakableRegrower {
+    public Object Root;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/FX/ArchitectureBreakables/Niagara/NS_BreakableVolumeDust")]
+public NiagaraSystem NS_BreakableVolumeDust;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BaseBreakableRegrower_C : MorBreakableRegrower {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableFXComponent> `Breakable Effects`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableComponent> Breakable;
+}

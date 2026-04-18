@@ -1,0 +1,179 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    [UnknownSignature, FinalFunction] public sealed void SetActorEnableCollision();
+    [UnknownSignature, VirtualFunction] public virtual void SetActorHiddenInGame();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/SM_ShadowDragon_Dead")]
+public StaticMesh SM_ShadowDragon_Dead;
+
+
+[Import("/Game/FX/EnemyFX/Niagara/ShadowDragonDamage/Death/NS_DragonSmolderDeath_GreySmoke")]
+public NiagaraSystem NS_DragonSmolderDeath_GreySmoke;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Wings_Dead")]
+public MaterialInstanceConstant MI_ShadowDragon_Wings_Dead;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Torso_Dead")]
+public MaterialInstanceConstant MI_ShadowDragon_Torso_Dead;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Tail_Dead")]
+public MaterialInstanceConstant MI_ShadowDragon_Tail_Dead;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_NeckSpikes_Dead")]
+public MaterialInstanceConstant MI_ShadowDragon_NeckSpikes_Dead;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Head_Dead")]
+public MaterialInstanceConstant MI_ShadowDragon_Head_Dead;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_ArmsLegs_Dead")]
+public MaterialInstanceConstant MI_ShadowDragon_ArmsLegs_Dead;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShadowDragon_Dead_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible, Net, RepNotify] bool bVisible;
+    [Edit, BlueprintVisible, Net, RepNotify] bool bCollidable;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_ShadowDragon_Dead([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_ShadowDragon_Dead_10: this.Niagara.Activate(false);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_ShadowDragon_Dead_52_ReceiveBeginPlay: goto ExecuteUbergraph_BP_ShadowDragon_Dead_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_ShadowDragon_Dead_57:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowDragon_Dead(ExecuteUbergraph_BP_ShadowDragon_Dead_52_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_bCollidable() {
+        // Block 1
+        this.SetActorEnableCollision(this.bCollidable);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_bVisible() {
+        // Locals
+        bool CallFunc_Not_PreBool_ReturnValue;
+
+        // Block 1
+        CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(this.bVisible));
+        this.SetActorHiddenInGame(CallFunc_Not_PreBool_ReturnValue);
+
+    }
+
+}

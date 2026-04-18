@@ -1,0 +1,143 @@
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+[Import("/Script/Moria")]
+public MorConstructionSnapComponent Default__MorConstructionSnapComponent;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionStabilityComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Environments/Models/Architecture/Meshes/SM_AR_Suburbs_BaseTrim_050x300x030_A")]
+public StaticMesh SM_AR_Suburbs_BaseTrim_050x300x030_A;
+
+
+[Import("/Game/Environments/Models/Architecture/Meshes/SM_AR_Suburbs_BaseTrim_050x050x030_Corner_A")]
+public StaticMesh SM_AR_Suburbs_BaseTrim_050x050x030_Corner_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Floor_3x3m_A")]
+public StaticMesh Suburbs_Floor_3x3m_A;
+
+
+[Import("/Engine/BasicShapes/Cube")]
+public StaticMesh Cube;
+
+
+[Import("/Game/Environments/Models/Architecture/Materials/MI_ArchSimple_Stone_Trim_B_MAT_NonDest")]
+public MaterialInstanceConstant MI_ArchSimple_Stone_Trim_B_MAT_NonDest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Floor/Materials/Subrubs_Floor_Tileable_A/Suburbs_Floor_Solid_A_NonDest")]
+public MaterialInstanceConstant Suburbs_Floor_Solid_A_NonDest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Non_Dest")]
+public MaterialInstanceConstant MI_Suburbs_Wall_Non_Dest;
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class BP_BaseArchitectureBreakable_C {
+    public MorConstructionStabilityComponent MorConstructionStability_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorConstructionStabilityComponent MorConstructionStability;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class Default__BP_BaseArchitectureBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Suburbs_Platform_Small_3x3m_Corner_NonDest1_C : BP_BaseArchitectureBreakable_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorConstructionSnapComponent> MorConstructionSnap;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AR_Suburbs_BaseTrim_050x200x100_A4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AR_Suburbs_BaseTrim_050x200x100_A3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AR_Suburbs_BaseTrim_050x050x100_Corner_A1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AR_Suburbs_BaseTrim_050x200x100_A2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AR_Suburbs_BaseTrim_050x200x100_A1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AR_Suburbs_BaseTrim_050x050x100_Corner_A;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Cube1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Floor_3x3m_A;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Cube;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Floor_3x3m_A_StaticMeshComponent0;
+}

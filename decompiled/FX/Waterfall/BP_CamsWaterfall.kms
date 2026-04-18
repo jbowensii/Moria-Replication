@@ -1,0 +1,510 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVariableFloat();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableLinearColor();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableVec3();
+    [UnknownSignature, VirtualFunction] public virtual void SetFloatParameter();
+}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceArrayColor {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraBool;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class MorCamsWaterfall : Actor {}
+
+[Import("/Script/Moria")]
+public class MorCamsWaterfallLightingComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MorCamsWaterfall {
+    public Object WaterfallLightingComponent;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentsByClass();
+    public Object ReceiveBeginPlay;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMaterialLibrary {
+    [UnknownSignature, MathFunction] public static sealed void CreateDynamicMaterialInstance();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BreakColor();
+    [UnknownSignature, MathFunction] public static sealed void Conv_LinearColorToVector();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Percent_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstance {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVectorParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : MeshComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Game/FX/Waterfall/Meshes/FN_WaterfallMesh1")]
+public StaticMesh FN_WaterfallMesh1;
+
+
+[Import("/Game/FX/Waterfall/Niagara/NS_Waterfall1")]
+public NiagaraSystem NS_Waterfall1;
+
+
+[Import("/Game/FX/Waterfall/Materials/M_CamsWaterfall2_Inst")]
+public MaterialInstanceConstant M_CamsWaterfall2_Inst;
+
+
+[Import("/Game/FX/Waterfall/Materials/C_WaterfallTimeOfDayCurve")]
+public CurveFloat C_WaterfallTimeOfDayCurve;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CamsWaterfall_C : MorCamsWaterfall {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> FN_WaterfallMesh1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> Scene;
+    [Edit, BlueprintVisible] Struct<LinearColor> WaterMeshColorLinear;
+    [Edit, BlueprintVisible] Object<MaterialInstance> WaterMeshMaterial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Name> Parameters;
+    [Edit, BlueprintVisible] Map FloatValues;
+    [Edit, BlueprintVisible] Map VectorValues;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Object<NiagaraDataInterfaceArrayColor>> ColorValues;
+    [Edit, BlueprintVisible] Map ColorValues2;
+    [Edit, BlueprintVisible] Struct<LinearColor> WaterFoamColorLinear;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<NiagaraComponent>> NiagaraComponents;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_CamsWaterfall([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const Struct<LinearColor> K2Node_ComponentBoundEvent_EmissionMultiplier;
+        int Temp_int_Variable;
+        float CallFunc_BreakColor_R;
+        float CallFunc_BreakColor_G;
+        float CallFunc_BreakColor_B;
+        float CallFunc_BreakColor_A;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Variable_1;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        int Temp_int_Variable_2;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_1;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        int Temp_int_Variable_3;
+        int Temp_int_Variable_4;
+        int CallFunc_Percent_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_3;
+        float K2Node_Select_Default;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_2;
+        int CallFunc_Add_IntInt_ReturnValue_4;
+        Struct<Vector> CallFunc_Conv_LinearColorToVector_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+        int Temp_int_Variable_5;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_3;
+        int CallFunc_Add_IntInt_ReturnValue_5;
+        Struct<LinearColor> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        float CallFunc_Map_Find_Value_1;
+        bool CallFunc_Map_Find_ReturnValue_1;
+        Struct<Vector> CallFunc_Map_Find_Value_2;
+        bool CallFunc_Map_Find_ReturnValue_2;
+        Struct<Vector> CallFunc_Conv_LinearColorToVector_ReturnValue_1;
+        float CallFunc_Map_Find_Value_3;
+        bool CallFunc_Map_Find_ReturnValue_3;
+        [ContainsInstancedReference] ref Array<Object<NiagaraComponent>> CallFunc_K2_GetComponentsByClass_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_CamsWaterfall_15_BndEvt__BP_CamsWaterfall_WaterfallLightingComponent_K2Node_ComponentBoundEvent_0_MorUpdateNiagaraLightingDelegate__DelegateSignature: Temp_int_Variable_4 = 0;
+
+            // Block 3
+            ExecuteUbergraph_BP_CamsWaterfall_38: CallFunc_LessEqual_IntInt_ReturnValue_2 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_4, 5));
+            EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue_2);
+
+            while (true) {
+                // Block 4
+                Temp_int_Variable = 0;
+
+                // Block 5
+                ExecuteUbergraph_BP_CamsWaterfall_110: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.NiagaraComponents);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!CallFunc_Less_IntInt_ReturnValue) break;
+
+                // Block 6
+                KismetMathLibrary.BreakColor(K2Node_ComponentBoundEvent_EmissionMultiplier, CallFunc_BreakColor_R, CallFunc_BreakColor_G, CallFunc_BreakColor_B, CallFunc_BreakColor_A);
+                CallFunc_Percent_IntInt_ReturnValue = KismetMathLibrary.Percent_IntInt(Temp_int_Variable_4, 3);
+                CallFunc_Add_IntInt_ReturnValue_3 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_4, 15);
+                Temp_int_Variable_3 = CallFunc_Percent_IntInt_ReturnValue;
+                CallFunc_Map_Find_ReturnValue_3 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.FloatValues, EX_ArrayGetByRef(this.Parameters, CallFunc_Add_IntInt_ReturnValue_3), CallFunc_Map_Find_Value_3));
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(CallFunc_Map_Find_Value_3, EX_SwitchValue(577, Temp_int_Variable_3, K2Node_Select_Default, 0, 532, CallFunc_BreakColor_R, 1, 550, CallFunc_BreakColor_G, 2, 568, CallFunc_BreakColor_B));
+                Default__KismetArrayLibrary.Array_Get(this.NiagaraComponents, Temp_int_Variable, CallFunc_Array_Get_Item);
+                CallFunc_Array_Get_Item.SetFloatParameter(EX_ArrayGetByRef(this.Parameters, CallFunc_Add_IntInt_ReturnValue_3), CallFunc_Multiply_FloatFloat_ReturnValue);
+                CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+                Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+                goto ExecuteUbergraph_BP_CamsWaterfall_110;
+
+            }
+
+
+            // Block 7
+            ExecuteUbergraph_BP_CamsWaterfall_775: CallFunc_Add_IntInt_ReturnValue_4 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_4, 1);
+            Temp_int_Variable_4 = CallFunc_Add_IntInt_ReturnValue_4;
+            goto ExecuteUbergraph_BP_CamsWaterfall_38;
+
+            ExecuteUbergraph_BP_CamsWaterfall_849:
+            while (true) {
+                // Block 8
+                CallFunc_Map_Find_ReturnValue_2 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.VectorValues, EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_1), CallFunc_Map_Find_Value_2));
+                this.Niagara.SetVariableVec3(EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_1), CallFunc_Map_Find_Value_2);
+                break;
+
+            }
+
+
+            // Block 9
+            ExecuteUbergraph_BP_CamsWaterfall_994: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_1, 1);
+            Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+
+            // Block 10
+            ExecuteUbergraph_BP_CamsWaterfall_1063: CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_1, 28));
+            EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue);
+
+            // Block 11
+            goto ExecuteUbergraph_BP_CamsWaterfall_849;
+
+            // Block 12
+            ExecuteUbergraph_BP_CamsWaterfall_1112: Temp_int_Variable_1 = 23;
+            goto ExecuteUbergraph_BP_CamsWaterfall_1063;
+
+            ExecuteUbergraph_BP_CamsWaterfall_1140:
+            while (true) {
+                // Block 13
+                CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ColorValues2, EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_2), CallFunc_Map_Find_Value));
+                this.Niagara.SetVariableLinearColor(EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_2), CallFunc_Map_Find_Value);
+                break;
+
+            }
+
+
+            // Block 14
+            ExecuteUbergraph_BP_CamsWaterfall_1285: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_2, 1);
+            Temp_int_Variable_2 = CallFunc_Add_IntInt_ReturnValue_2;
+
+            // Block 15
+            ExecuteUbergraph_BP_CamsWaterfall_1354: CallFunc_LessEqual_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_2, 2));
+            EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue_1);
+
+            // Block 16
+            goto ExecuteUbergraph_BP_CamsWaterfall_1140;
+
+            // Block 17
+            ExecuteUbergraph_BP_CamsWaterfall_1403: Temp_int_Variable_2 = 1;
+            goto ExecuteUbergraph_BP_CamsWaterfall_1354;
+
+            // Block 18
+            ExecuteUbergraph_BP_CamsWaterfall_1431_ReceiveBeginPlay: CallFunc_K2_GetComponentsByClass_ReturnValue = this.K2_GetComponentsByClass(NiagaraComponent);
+            this.NiagaraComponents = CallFunc_K2_GetComponentsByClass_ReturnValue;
+            EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,KismetMaterialLibrary.CreateDynamicMaterialInstance(this, this.WaterMeshMaterial, EX_NameConst("None"), (byte)(0)));
+            this.FN_WaterfallMesh1.SetMaterial(0, CallFunc_CreateDynamicMaterialInstance_ReturnValue);
+            CallFunc_Conv_LinearColorToVector_ReturnValue_1 = KismetMathLibrary.Conv_LinearColorToVector(this.WaterFoamColorLinear);
+            this.FN_WaterfallMesh1.SetVectorParameterValueOnMaterials(EX_NameConst("FoamColor"), CallFunc_Conv_LinearColorToVector_ReturnValue_1);
+            CallFunc_Conv_LinearColorToVector_ReturnValue = KismetMathLibrary.Conv_LinearColorToVector(this.WaterMeshColorLinear);
+            this.FN_WaterfallMesh1.SetVectorParameterValueOnMaterials(EX_NameConst("Water Color"), CallFunc_Conv_LinearColorToVector_ReturnValue);
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_CamsWaterfall_1403);
+
+            // Block 19
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_CamsWaterfall_1112);
+
+            // Block 20
+            Temp_int_Variable_5 = 3;
+
+            // Block 21
+            ExecuteUbergraph_BP_CamsWaterfall_1805: CallFunc_LessEqual_IntInt_ReturnValue_3 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_5, 22));
+            EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue_3);
+
+            while (true) {
+                // Block 22
+                CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.FloatValues, EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_5), CallFunc_Map_Find_Value_1));
+                this.Niagara.SetVariableFloat(EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_5), CallFunc_Map_Find_Value_1);
+                break;
+
+            }
+
+
+            // Block 23
+            ExecuteUbergraph_BP_CamsWaterfall_1994: CallFunc_Add_IntInt_ReturnValue_5 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_5, 1);
+            Temp_int_Variable_5 = CallFunc_Add_IntInt_ReturnValue_5;
+            goto ExecuteUbergraph_BP_CamsWaterfall_1805;
+
+        }
+
+
+        // Block 24
+        ExecuteUbergraph_BP_CamsWaterfall_2068:
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_CamsWaterfall_WaterfallLightingComponent_K2Node_ComponentBoundEvent_0_MorUpdateNiagaraLightingDelegate__DelegateSignature([BlueprintVisible, BlueprintReadOnly] const out ref Struct<LinearColor> EmissionMultiplier) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_EmissionMultiplier", EmissionMultiplier);
+        this.ExecuteUbergraph_BP_CamsWaterfall(ExecuteUbergraph_BP_CamsWaterfall_15_BndEvt__BP_CamsWaterfall_WaterfallLightingComponent_K2Node_ComponentBoundEvent_0_MorUpdateNiagaraLightingDelegate__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CamsWaterfall(ExecuteUbergraph_BP_CamsWaterfall_1431_ReceiveBeginPlay);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        int Temp_int_Variable;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Variable_1;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_1;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        Struct<Vector> CallFunc_Conv_LinearColorToVector_ReturnValue;
+        Struct<Vector> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        float CallFunc_Map_Find_Value_1;
+        bool CallFunc_Map_Find_ReturnValue_1;
+        int Temp_int_Variable_2;
+        Struct<LinearColor> CallFunc_Map_Find_Value_2;
+        bool CallFunc_Map_Find_ReturnValue_2;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_2;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        Struct<Vector> CallFunc_Conv_LinearColorToVector_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            this.FN_WaterfallMesh1.SetMaterial(0, this.WaterMeshMaterial);
+            CallFunc_Conv_LinearColorToVector_ReturnValue = KismetMathLibrary.Conv_LinearColorToVector(this.WaterFoamColorLinear);
+            this.FN_WaterfallMesh1.SetVectorParameterValueOnMaterials(EX_NameConst("FoamColor"), CallFunc_Conv_LinearColorToVector_ReturnValue);
+            CallFunc_Conv_LinearColorToVector_ReturnValue_1 = KismetMathLibrary.Conv_LinearColorToVector(this.WaterMeshColorLinear);
+            this.FN_WaterfallMesh1.SetVectorParameterValueOnMaterials(EX_NameConst("Water Color"), CallFunc_Conv_LinearColorToVector_ReturnValue_1);
+            EX_PushExecutionFlow(UserConstructionScript_745);
+
+            while (true) {
+                // Block 2
+                Temp_int_Variable_1 = 3;
+
+                // Block 3
+                UserConstructionScript_270: CallFunc_LessEqual_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_1, 22));
+                EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue_1);
+
+                // Block 4
+                EX_PushExecutionFlow(UserConstructionScript_1031);
+
+                // Block 5
+                CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.FloatValues, EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_1), CallFunc_Map_Find_Value_1));
+                this.Niagara.SetVariableFloat(EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_1), CallFunc_Map_Find_Value_1);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 6
+            UserConstructionScript_459: Temp_int_Variable = 23;
+
+            // Block 7
+            UserConstructionScript_482: CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, 28));
+            EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue);
+
+            while (true) {
+                // Block 8
+                CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.VectorValues, EX_ArrayGetByRef(this.Parameters, Temp_int_Variable), CallFunc_Map_Find_Value));
+                this.Niagara.SetVariableVec3(EX_ArrayGetByRef(this.Parameters, Temp_int_Variable), CallFunc_Map_Find_Value);
+                break;
+
+            }
+
+
+            // Block 9
+            UserConstructionScript_671: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto UserConstructionScript_482;
+
+            // Block 10
+            UserConstructionScript_745: Temp_int_Variable_2 = 1;
+
+            // Block 11
+            UserConstructionScript_768: CallFunc_LessEqual_IntInt_ReturnValue_2 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_2, 2));
+            EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue_2);
+
+            while (true) {
+                // Block 12
+                CallFunc_Map_Find_ReturnValue_2 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ColorValues2, EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_2), CallFunc_Map_Find_Value_2));
+                this.Niagara.SetVariableLinearColor(EX_ArrayGetByRef(this.Parameters, Temp_int_Variable_2), CallFunc_Map_Find_Value_2);
+                break;
+
+            }
+
+
+            // Block 13
+            UserConstructionScript_957: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_2, 1);
+            Temp_int_Variable_2 = CallFunc_Add_IntInt_ReturnValue_2;
+            goto UserConstructionScript_768;
+
+            // Block 14
+            UserConstructionScript_1031: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_1, 1);
+            Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+            goto UserConstructionScript_270;
+
+        }
+
+
+        // Block 15
+        UserConstructionScript_1105:
+
+    }
+
+}

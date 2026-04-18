@@ -1,0 +1,523 @@
+
+[Import("/Script/UMG")]
+public class WidgetComponent {}
+
+[Import("/Script/UMG")]
+public WidgetComponent Default__WidgetComponent;
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass {}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCustomizationMannequin : Character {
+    public ObjectProperty ModularMeshes;
+    public AnonymousClass_5acef12cb7af4dc8a3453f293dfaacfb CustomizationManager;
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorMannequinInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MorCustomizationMannequin {
+    public Object AkComponent_Voice;
+    public Object CollisionCylinder;
+    public Object CustomizationMan;
+    public Object BodyFSMComp;
+    public Object CharMoveComp;
+    public Object ModularCharacterComponent;
+    public Object EquipComp;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object CharacterMesh0;
+    public Object `Slot::Back`;
+    public Object `Slot::Backpack`;
+    public Object `Slot::Beard`;
+    public Object `Slot::Chest`;
+    public Object `Slot::Extras`;
+    public Object `Slot::Feet`;
+    public Object `Slot::Gloves`;
+    public Object `Slot::Hair`;
+    public Object `Slot::Hands`;
+    public Object `Slot::Hat`;
+    public Object `Slot::Head`;
+    public Object `Slot::Legs`;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public PersonalityComponent Default__PersonalityComponent;
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+[Import("/Script/Moria")]
+public class AnonymousClass_5acef12cb7af4dc8a3453f293dfaacfb {
+    [UnknownSignature, FinalFunction] public sealed void IsLoadingFinished();
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterMovementComponent {}
+
+[Import("/Script/FGK")]
+public Object EModularCharacterSlot;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveTick;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+    [UnknownSignature, FinalFunction] public sealed void Map_Keys();
+}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character {
+    public ObjectProperty Mesh;
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMaterialLibrary {
+    [UnknownSignature, MathFunction] public static sealed void CreateDynamicMaterialInstance();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_AttachToComponent();
+    [UnknownSignature, VirtualFunction] public virtual void GetMaterials();
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/UI/Frontend/WBP_MenuCharName")]
+public WBP_MenuCharName_C Default__WBP_MenuCharName_C;
+
+[Import("/Game/UI/Frontend/WBP_MenuCharName")]
+public class WBP_MenuCharName_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Packs/Dwarf_Pack01")]
+public SkeletalMesh Dwarf_Pack01;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_BaseBody_WMorphsV3")]
+public SkeletalMesh Dwarf_BaseBody_WMorphsV3;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_01")]
+public PersonalityInfo PI_Dwarf_01;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Backpacks/Materials/Mountaineer/MI_D_Backpack_Mountaineer")]
+public MaterialInstanceConstant MI_D_Backpack_Mountaineer;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Voices")]
+public DataTable DT_CC_Voices;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooTextures")]
+public DataTable DT_CC_TattooTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooColors")]
+public DataTable DT_CC_TattooColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_SkinColors")]
+public DataTable DT_CC_SkinColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_ScarTextures")]
+public DataTable DT_CC_ScarTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_PresetCharacters")]
+public DataTable DT_CC_PresetCharacters;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Personalities")]
+public DataTable DT_CC_Personalities;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Origins")]
+public DataTable DT_CC_Origins;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Heads")]
+public DataTable DT_CC_Heads;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_HairColors")]
+public DataTable DT_CC_HairColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Hair")]
+public DataTable DT_CC_Hair;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_EyeColors")]
+public DataTable DT_CC_EyeColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftTorsos")]
+public DataTable DT_CC_CraftTorsos;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Crafts")]
+public DataTable DT_CC_Crafts;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftGloves")]
+public DataTable DT_CC_CraftGloves;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftBoots")]
+public DataTable DT_CC_CraftBoots;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Bodies")]
+public DataTable DT_CC_Bodies;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Beards")]
+public DataTable DT_CC_Beards;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BeardDecorationColors")]
+public DataTable DT_CC_BeardDecorationColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Backpacks")]
+public DataTable DT_CC_Backpacks;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BackpackColors")]
+public DataTable DT_CC_BackpackColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/DT_CC_Characters")]
+public DataTable DT_CC_Characters;
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_FGKDwarf_CustomizationCharacter")]
+public ABP_FGKDwarf_CustomizationCharacter_C Default__ABP_FGKDwarf_CustomizationCharacter_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_FGKDwarf_CustomizationCharacter")]
+public AnimBlueprintGeneratedClass ABP_FGKDwarf_CustomizationCharacter_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DwarfCustomizationCharacterMannequin_C : MorCustomizationMannequin {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<WidgetComponent> NamePlateWidget;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PersonalityComponent> Personality;
+    [Edit, BlueprintVisible] bool SelectedMannequin;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Loop_Counter_Variable;
+        int Temp_int_Array_Index_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Loop_Counter_Variable_1;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        int Temp_int_Array_Index_Variable_1;
+        float K2Node_Event_DeltaSeconds;
+        bool CallFunc_IsLoadingFinished_ReturnValue;
+        ref Array<Enum> CallFunc_Map_Keys_Keys;
+        Enum CallFunc_Array_Get_Item;
+        bool CallFunc_BooleanAND_ReturnValue;
+        [InstancedReference] Object<SkeletalMeshComponent> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        ref Array<Object<MaterialInterface>> CallFunc_GetMaterials_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<MaterialInterface> CallFunc_Array_Get_Item_1;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<MaterialInstanceDynamic> K2Node_DynamicCast_AsMaterial_Instance_Dynamic;
+        bool K2Node_DynamicCast_bSuccess;
+        int CallFunc_Array_Length_ReturnValue_1;
+        bool CallFunc_Less_IntInt_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_15: Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_923);
+
+            // Block 3
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            EX_PopExecutionFlowIfNot(CallFunc_Map_Find_ReturnValue);
+
+            // Block 4
+            Temp_int_Loop_Counter_Variable_1 = 0;
+            Temp_int_Array_Index_Variable_1 = 0;
+
+            // Block 5
+            ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_231: Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_GetMaterials_ReturnValue = CallFunc_Map_Find_Value.GetMaterials();
+            CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(CallFunc_GetMaterials_ReturnValue);
+            CallFunc_Less_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_1, CallFunc_Array_Length_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_1);
+
+            // Block 6
+            Temp_int_Array_Index_Variable_1 = Temp_int_Loop_Counter_Variable_1;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1104);
+
+            // Block 7
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_GetMaterials_ReturnValue = CallFunc_Map_Find_Value.GetMaterials();
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetMaterials_ReturnValue, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+            K2Node_DynamicCast_AsMaterial_Instance_Dynamic = EX_DynamicCast("MaterialInstanceDynamic", CallFunc_Array_Get_Item_1);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMaterial_Instance_Dynamic);
+
+            if (K2Node_DynamicCast_bSuccess) {
+                // Block 8
+                K2Node_DynamicCast_AsMaterial_Instance_Dynamic.SetScalarParameterValue(EX_NameConst("Depth Fade Radius Multiplier"), 0f);
+                break;
+
+                // Block 9
+                ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_923: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+                Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+                // Block 10
+                ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_992: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_Map_Keys_Keys);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!CallFunc_Less_IntInt_ReturnValue) break;
+
+                // Block 11
+                goto ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_15;
+
+                // Block 12
+                ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1104: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_1, 1);
+                Temp_int_Loop_Counter_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+                goto ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_231;
+
+            }
+
+
+            // Block 13
+            ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1178: Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_GetMaterials_ReturnValue = CallFunc_Map_Find_Value.GetMaterials();
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetMaterials_ReturnValue, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_1);
+            EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,KismetMaterialLibrary.CreateDynamicMaterialInstance(this, CallFunc_Array_Get_Item_1, EX_NameConst("None"), (byte)(0)));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_CreateDynamicMaterialInstance_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 14
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_Map_Find_Value.SetMaterial(Temp_int_Array_Index_Variable_1, CallFunc_CreateDynamicMaterialInstance_ReturnValue);
+            CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Depth Fade Radius Multiplier"), 0f);
+            EX_PopExecutionFlow();
+
+            // Block 15
+            ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1736: Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_992;
+
+            // Block 16
+            ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1764: Temp_int_Loop_Counter_Variable = 0;
+            goto ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1736;
+
+            // Block 17
+            ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1792_ReceiveTick: CallFunc_IsLoadingFinished_ReturnValue = (bool)(this.CustomizationManager.IsLoadingFinished());
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_IsLoadingFinished_ReturnValue, this.SelectedMannequin));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+            // Block 18
+            CallFunc_Map_Keys_Keys = new[] {};
+            Default__BlueprintMapLibrary.Map_Keys(this.ModularMeshes, CallFunc_Map_Keys_Keys);
+            goto ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1764;
+
+        }
+
+
+        // Block 19
+        ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1948:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin(ExecuteUbergraph_BP_DwarfCustomizationCharacterMannequin_1792_ReceiveTick);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        const Enum Temp_byte_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        bool CallFunc_K2_AttachToComponent_ReturnValue;
+
+        // Block 1
+        Temp_byte_Variable = (byte)(8);
+        CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ModularMeshes, Temp_byte_Variable, CallFunc_Map_Find_Value));
+        CallFunc_K2_AttachToComponent_ReturnValue = (bool)(CallFunc_Map_Find_Value.K2_AttachToComponent(this.Mesh, EX_NameConst("Backpack_JNT"), (byte)(0), (byte)(0), (byte)(0), true));
+
+    }
+
+}

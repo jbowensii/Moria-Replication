@@ -1,0 +1,106 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Item_Potion_Red")]
+public Texture2D T_UI_Icon_Item_Potion_Red;
+
+
+[Import("/Game/Art/Assets/GPI/Props/Meshes/Props/SM_LeatherBottle")]
+public StaticMesh SM_LeatherBottle;
+
+
+[Import("/Game/Art/Assets/GPI/Props/Materials/M_LeatherBottle")]
+public Material M_LeatherBottle;
+
+
+[Import("/Game/Items/GE_HealingPotion")]
+public class GE_HealingPotion_C {}
+
+[Import("/Game/Items/GE_HealingPotion")]
+public GE_HealingPotion_C Default__GE_HealingPotion_C;
+
+
+[Import("/Game/Items/BP_Category_Potion")]
+public class BP_Category_Potion_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Potion")]
+public class Default__BP_Category_Potion_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink")]
+public class GA_UseFoodItem_Drink_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink")]
+public GA_UseFoodItem_Drink_C Default__GA_UseFoodItem_Drink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_HealingPotion_C : BP_Category_Potion_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Potion;
+}

@@ -1,0 +1,320 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/CharacterArt/Creatures/CaveSpider/MI_SmallSpider")]
+public MaterialInstanceConstant MI_SmallSpider;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Little_Spider")]
+public class GE_Starting_Little_Spider_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Little_Spider")]
+public GE_Starting_Little_Spider_C Default__GE_Starting_Little_Spider_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Swipe_R")]
+public class GA_SpiderLittle_Attack_Swipe_R_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Swipe_R")]
+public GA_SpiderLittle_Attack_Swipe_R_C Default__GA_SpiderLittle_Attack_Swipe_R_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Swipe_L")]
+public class GA_SpiderLittle_Attack_Swipe_L_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Swipe_L")]
+public GA_SpiderLittle_Attack_Swipe_L_C Default__GA_SpiderLittle_Attack_Swipe_L_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Ranged")]
+public class GA_SpiderLittle_Attack_Ranged_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Ranged")]
+public GA_SpiderLittle_Attack_Ranged_C Default__GA_SpiderLittle_Attack_Ranged_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Lunge_F")]
+public class GA_SpiderLittle_Attack_Lunge_F_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Lunge_F")]
+public GA_SpiderLittle_Attack_Lunge_F_C Default__GA_SpiderLittle_Attack_Lunge_F_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Heavy_F")]
+public class GA_SpiderLittle_Attack_Heavy_F_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_SpiderLittle_Attack_Heavy_F")]
+public GA_SpiderLittle_Attack_Heavy_F_C Default__GA_SpiderLittle_Attack_Heavy_F_C;
+
+
+[Import("/Game/Character/Creatures/Spider/BP_Monster_Spider")]
+public class BP_Monster_Spider_C {
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Abdomen Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Cephalothorax Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Cephalothorax Top Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_L_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_L_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_R_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M1_R_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_L_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_L_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_L_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_R_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_R_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_M2_R_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Mouth_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Mouth_R Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Pedipalp_L_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Pedipalp_L_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Pedipalp_L_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Pedipalp_R_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Pedipalp_R_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Pedipalp_R_03 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent TextRender_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Abdomen Capsule`;
+    public StaticMeshComponent `Cephalothorax Capsule`;
+    public StaticMeshComponent `Cephalothorax Top Capsule`;
+    public StaticMeshComponent `Leg_Back_L_01 Capsule`;
+    public StaticMeshComponent `Leg_Back_L_02 Capsule`;
+    public StaticMeshComponent `Leg_Back_L_03 Capsule`;
+    public StaticMeshComponent `Leg_Back_L_04 Capsule`;
+    public StaticMeshComponent `Leg_Back_L_05 Capsule`;
+    public StaticMeshComponent `Leg_Back_R_01 Capsule`;
+    public StaticMeshComponent `Leg_Back_R_02 Capsule`;
+    public StaticMeshComponent `Leg_Back_R_03 Capsule`;
+    public StaticMeshComponent `Leg_Back_R_04 Capsule`;
+    public StaticMeshComponent `Leg_Back_R_05 Capsule`;
+    public StaticMeshComponent `Leg_Front_L_01 Capsule`;
+    public StaticMeshComponent `Leg_Front_L_02 Capsule`;
+    public StaticMeshComponent `Leg_Front_L_03 Capsule`;
+    public StaticMeshComponent `Leg_Front_L_04 Capsule`;
+    public StaticMeshComponent `Leg_Front_L_05 Capsule`;
+    public StaticMeshComponent `Leg_Front_R_01 Capsule`;
+    public StaticMeshComponent `Leg_Front_R_02 Capsule`;
+    public StaticMeshComponent `Leg_Front_R_03 Capsule`;
+    public StaticMeshComponent `Leg_Front_R_04 Capsule`;
+    public StaticMeshComponent `Leg_Front_R_05 Capsule`;
+    public StaticMeshComponent `Leg_M1_L_01 Capsule`;
+    public StaticMeshComponent `Leg_M1_L_02 Capsule`;
+    public StaticMeshComponent `Leg_M1_L_03 Capsule`;
+    public StaticMeshComponent `Leg_M1_L_04 Capsule`;
+    public StaticMeshComponent `Leg_M1_L_05 Capsule`;
+    public StaticMeshComponent `Leg_M1_R_01 Capsule`;
+    public StaticMeshComponent `Leg_M1_R_02 Capsule`;
+    public StaticMeshComponent `Leg_M1_R_03 Capsule`;
+    public StaticMeshComponent `Leg_M1_R_04 Capsule`;
+    public StaticMeshComponent `Leg_M1_R_05 Capsule`;
+    public StaticMeshComponent `Leg_M2_L_01 Capsule`;
+    public StaticMeshComponent `Leg_M2_L_02 Capsule`;
+    public StaticMeshComponent `Leg_M2_L_03 Capsule`;
+    public StaticMeshComponent `Leg_M2_L_04 Capsule`;
+    public StaticMeshComponent `Leg_M2_L_05 Capsule`;
+    public StaticMeshComponent `Leg_M2_R_01 Capsule`;
+    public StaticMeshComponent `Leg_M2_R_02 Capsule`;
+    public StaticMeshComponent `Leg_M2_R_03 Capsule`;
+    public StaticMeshComponent `Leg_M2_R_04 Capsule`;
+    public StaticMeshComponent `Leg_M2_R_05 Capsule`;
+    public StaticMeshComponent `Mouth_L Capsule`;
+    public StaticMeshComponent `Mouth_R Capsule`;
+    public StaticMeshComponent `Pedipalp_L_01 Capsule`;
+    public StaticMeshComponent `Pedipalp_L_02 Capsule`;
+    public StaticMeshComponent `Pedipalp_L_03 Capsule`;
+    public StaticMeshComponent `Pedipalp_R_01 Capsule`;
+    public StaticMeshComponent `Pedipalp_R_02 Capsule`;
+    public StaticMeshComponent `Pedipalp_R_03 Capsule`;
+    public TextRenderComponent TextRender;
+}
+
+[Import("/Game/Character/Creatures/Spider/BP_Monster_Spider")]
+public class Default__BP_Monster_Spider_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class BP_Fauna_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+}
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class Default__BP_Fauna_Base_C {
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Spider_Little_C : BP_Monster_Spider_C {
+}

@@ -1,0 +1,133 @@
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public MorConstructionSnapComponent Default__MorConstructionSnapComponent;
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionStabilityComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Crude_Wall_3x3")]
+public StaticMesh Crude_Wall_3x3;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Crude_Wall_3x1")]
+public StaticMesh Crude_Wall_3x1;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Crude_wall/MI_Crude_Wall_Stones_WhiteMarble")]
+public MaterialInstanceConstant MI_Crude_Wall_Stones_WhiteMarble;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/Crude_wall/MI_Crude_Wall_3x3_WhiteMarble")]
+public MaterialInstanceConstant MI_Crude_Wall_3x3_WhiteMarble;
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class BP_BaseArchitectureBreakable_C {
+    public MorConstructionStabilityComponent MorConstructionStability_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorConstructionStabilityComponent MorConstructionStability;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class Default__BP_BaseArchitectureBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Crude_Wall_3x4_A_WhiteMarble_C : BP_BaseArchitectureBreakable_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Crude_Wall_3x2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Crude_Wall_3x3_A;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorConstructionSnapComponent> MorConstructionSnap;
+}

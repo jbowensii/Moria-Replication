@@ -1,0 +1,2942 @@
+
+[Import("/Script/UMG")]
+public class WidgetComponent {}
+
+[Import("/Script/UMG")]
+public WidgetComponent Default__WidgetComponent;
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass {}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class LastingInteractComponent {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIController {}
+
+[Import("/Script/Moria")]
+public class MorAudioMeterComponent {}
+
+[Import("/Script/Moria")]
+public class MorBuildingComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : FGKBaseCharacter {
+    public Object GetModularMesh;
+    public Object OnConsumableConsumed;
+    public Object OnItemDecomposed;
+    public ObjectProperty OnRespawned;
+    public ObjectProperty CharacterWidgetComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterLightReflectorComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorChatComponent {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public class MorCursorSlotComponent {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTable();
+}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverRecipe();
+    [UnknownSignature, FinalFunction] public sealed void GetItemRecipeState();
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+    [UnknownSignature, LocalVirtualFunction] public virtual void TryDiscoverReforgeDurinsAxe();
+}
+
+[Import("/Script/Moria")]
+public class MorDoorLoreTODSongJoinComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfOnDeathScreenFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryHolderComponent {}
+
+[Import("/Script/Moria")]
+public class MorHooverComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void IsSandbox();
+}
+
+[Import("/Script/Moria")]
+public class MorInteractComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorKegSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorMiningSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorMonumentSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorNoEpicPackBuffComponent {}
+
+[Import("/Script/Moria")]
+public class MorOverheadIndicatorComponent {}
+
+[Import("/Script/Moria")]
+public class MorSettlementSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorSITAControllerComponent {}
+
+[Import("/Script/Moria")]
+public class MorSITANiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaminaComponent {}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetItemRecipeDefinition();
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void CompleteGoalEntry();
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+    public ObjectProperty OnStoryFragmentReceivedCallback;
+}
+
+[Import("/Script/Moria")]
+public class MorSurvivalEffectsComponent {}
+
+[Import("/Script/Moria")]
+public class MorSyncedEquipmentComponent {}
+
+[Import("/Script/Moria")]
+public class MorThresholdEffectComponent {}
+
+[Import("/Script/Moria")]
+public class MorTutorialComponent {}
+
+[Import("/Script/Moria")]
+public class MorVenerationSongComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class WaypointSpawnerComponent {}
+
+[Import("/Script/Moria")]
+public CustomizationManager Default__CustomizationManager;
+
+[Import("/Script/Moria")]
+public Object MorOnStoryFragmentReceived__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object MorRespawnedSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object EMorRecipeDiscoveryState;
+
+[Import("/Script/Moria")]
+public LastingInteractComponent Default__LastingInteractComponent;
+
+[Import("/Script/Moria")]
+public MorAudioMeterComponent Default__MorAudioMeterComponent;
+
+[Import("/Script/Moria")]
+public MorBuildingComponent Default__MorBuildingComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public MorCharacterLightReflectorComponent Default__MorCharacterLightReflectorComponent;
+
+[Import("/Script/Moria")]
+public MorChatComponent Default__MorChatComponent;
+
+[Import("/Script/Moria")]
+public MorCraftingComponent Default__MorCraftingComponent;
+
+[Import("/Script/Moria")]
+public MorCursorSlotComponent Default__MorCursorSlotComponent;
+
+[Import("/Script/Moria")]
+public MorDoorLoreTODSongJoinComponent Default__MorDoorLoreTODSongJoinComponent;
+
+[Import("/Script/Moria")]
+public MorDwarfOnDeathScreenFXComponent Default__MorDwarfOnDeathScreenFXComponent;
+
+[Import("/Script/Moria")]
+public MorDwarfWaterFXComponent Default__MorDwarfWaterFXComponent;
+
+[Import("/Script/Moria")]
+public MorGameplayLightSamplerComponent Default__MorGameplayLightSamplerComponent;
+
+[Import("/Script/Moria")]
+public MorHeavyCarryHolderComponent Default__MorHeavyCarryHolderComponent;
+
+[Import("/Script/Moria")]
+public MorHooverComponent Default__MorHooverComponent;
+
+[Import("/Script/Moria")]
+public MorInteractComponent Default__MorInteractComponent;
+
+[Import("/Script/Moria")]
+public MorKegSongComponent Default__MorKegSongComponent;
+
+[Import("/Script/Moria")]
+public MorMiningSongComponent Default__MorMiningSongComponent;
+
+[Import("/Script/Moria")]
+public MorMonumentSongComponent Default__MorMonumentSongComponent;
+
+[Import("/Script/Moria")]
+public MorNoEpicPackBuffComponent Default__MorNoEpicPackBuffComponent;
+
+[Import("/Script/Moria")]
+public MorOverheadIndicatorComponent Default__MorOverheadIndicatorComponent;
+
+[Import("/Script/Moria")]
+public MorSettlementSongComponent Default__MorSettlementSongComponent;
+
+[Import("/Script/Moria")]
+public MorSITAControllerComponent Default__MorSITAControllerComponent;
+
+[Import("/Script/Moria")]
+public MorSITANiagaraComponent Default__MorSITANiagaraComponent;
+
+[Import("/Script/Moria")]
+public MorStaminaComponent Default__MorStaminaComponent;
+
+[Import("/Script/Moria")]
+public MorSurvivalEffectsComponent Default__MorSurvivalEffectsComponent;
+
+[Import("/Script/Moria")]
+public MorSyncedEquipmentComponent Default__MorSyncedEquipmentComponent;
+
+[Import("/Script/Moria")]
+public MorThresholdEffectComponent Default__MorThresholdEffectComponent;
+
+[Import("/Script/Moria")]
+public MorTutorialComponent Default__MorTutorialComponent;
+
+[Import("/Script/Moria")]
+public MorVenerationSongComponent Default__MorVenerationSongComponent;
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public Object MorItemRecipeDefinition;
+
+[Import("/Script/Moria")]
+public Object MorItemRecipeRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorTutorialRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorWaypointRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorZoneRowHandle;
+
+[Import("/Script/Moria")]
+public WaypointSpawnerComponent Default__WaypointSpawnerComponent;
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class InscribedRuneComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorAttributeDisplaySettings {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorCharacterCondition_IsPrepared {}
+
+[Import("/Script/Moria")]
+public class MorCharacterState_Hide {}
+
+[Import("/Script/Moria")]
+public class MorCondition_HasIndexedTags {}
+
+[Import("/Script/Moria")]
+public class MorCondition_IsAbilityActive {}
+
+[Import("/Script/Moria")]
+public class MorDestroyOnEmptyInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayEffectUIData {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorPreciousssComponent {}
+
+[Import("/Script/Moria")]
+public class MorRemoveWaypointOnInteractComponent {}
+
+[Import("/Script/Moria")]
+public class MorRemoveWaypointOnInventoryChangeComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+[Import("/Script/Moria")]
+public class SurvivalSettings {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/GameplayAbilities")]
+public static class AbilitySystemBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetAbilitySystemComponent();
+}
+
+[Import("/Script/GameplayAbilities")]
+public class AbilitySystemComponent {
+    [UnknownSignature, FinalFunction] public sealed void BP_ApplyGameplayEffectToSelf();
+}
+
+[Import("/Script/GameplayAbilities")]
+public Object ActiveGameplayEffectHandle;
+
+[Import("/Script/GameplayAbilities")]
+public Object GameplayEffectContextHandle;
+
+
+[Import("/Script/FGKStaticData")]
+public static class FGKStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_RowHandleRowHandle();
+    [UnknownSignature, MathFunction] public static sealed void GetRowNameFromHandle();
+}
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter : Character {
+    public InventoryComponent InventoryComp;
+}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+    [UnknownSignature, MathFunction] public static sealed void IsLocallyControlledPlayer();
+}
+
+[Import("/Script/FGK")]
+public class InventoryComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetItemCount();
+    public ObjectProperty OnItemAdded;
+}
+
+[Import("/Script/FGK")]
+public class InventoryItem {
+    [UnknownSignature, VirtualFunction] public virtual void GetMaxDurability();
+}
+
+[Import("/Script/FGK")]
+public static class ItemHandleFunctions {
+    [UnknownSignature, MathFunction] public static sealed void GetClassDefault();
+}
+
+[Import("/Script/FGK")]
+public Object ItemAddedSignature__DelegateSignature;
+
+[Import("/Script/FGK")]
+public Object EModularCharacterSlot;
+
+[Import("/Script/FGK")]
+public Object ItemHandle;
+
+[Import("/Script/FGK")]
+public class FGKAkComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_OnGround {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_Request_Crouch {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveBeginPlay;
+    public Object ReceiveTick;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_DestroyComponent();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+    [UnknownSignature, FinalFunction] public sealed void Map_Keys();
+}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {
+    public AnonymousClass_bd450a2452c24e7989195ae3db1228b3 Mesh;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class Controller {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ClassClass();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ObjectObject();
+    [UnknownSignature, MathFunction] public static sealed void Greater_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void SafeDivide();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralName();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {}
+
+[Import("/Script/Engine")]
+public class Pawn {
+    public Object ReceivePossessed;
+    public Object ReceiveUnpossessed;
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent : ActorComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetCastShadow();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : SkinnedMeshComponent {}
+
+[Import("/Script/Engine")]
+public class SkinnedMeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetMasterPoseComponent();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : PrimitiveComponent {
+    public ObjectProperty StaticMesh;
+}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public PostProcessComponent Default__PostProcessComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class AnonymousClass_bd450a2452c24e7989195ae3db1228b3 {
+    [UnknownSignature, FinalFunction] public sealed void GetChildrenComponents();
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkRtpc {}
+
+
+[Import("/Script/AIModule")]
+public AIPerceptionStimuliSourceComponent Default__AIPerceptionStimuliSourceComponent;
+
+[Import("/Script/AIModule")]
+public class AIPerceptionStimuliSourceComponent {}
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+
+[Import("/Game/UI/HUD/FloatingWidgets/UI_WBP_OverheadIndicator")]
+public UI_WBP_OverheadIndicator_C Default__UI_WBP_OverheadIndicator_C;
+
+[Import("/Game/UI/HUD/FloatingWidgets/UI_WBP_OverheadIndicator")]
+public class UI_WBP_OverheadIndicator_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Survival/SurvivalSettings_Dwarf")]
+public SurvivalSettings SurvivalSettings_Dwarf;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Common/Global/ShadowCastMesh/Dwarf_ShadowCast_Spine3")]
+public StaticMesh Dwarf_ShadowCast_Spine3;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Common/Global/ShadowCastMesh/Dwarf_ShadowCast_Spine2")]
+public StaticMesh Dwarf_ShadowCast_Spine2;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Common/Global/ShadowCastMesh/Dwarf_ShadowCast_Spine1")]
+public StaticMesh Dwarf_ShadowCast_Spine1;
+
+
+[Import("/Engine/EditorMeshes/ArcadeEditorSphere")]
+public StaticMesh ArcadeEditorSphere;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Heads/Head01/Dwarf_Head01")]
+public SkeletalMesh Dwarf_Head01;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Heads/Beards/Beard02/Dwarf_Beard02_WMorphs")]
+public SkeletalMesh Dwarf_Beard02_WMorphs;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_Master_Skeleton")]
+public SkeletalMesh Dwarf_Master_Skeleton;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_BaseBody_WMorphsV3")]
+public SkeletalMesh Dwarf_BaseBody_WMorphsV3;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_BaseBody_Arms")]
+public SkeletalMesh Dwarf_BaseBody_Arms;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_04/Dwarf_Armor04_Pants_WMorphs")]
+public SkeletalMesh Dwarf_Armor04_Pants_WMorphs;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_02/Dwarf_Armor02_Torso_WMorphs")]
+public SkeletalMesh Dwarf_Armor02_Torso_WMorphs;
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_dwarf")]
+public PhysicalMaterial PM_flesh_dwarf;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_08")]
+public PersonalityInfo PI_Dwarf_08;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_07")]
+public PersonalityInfo PI_Dwarf_07;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_06")]
+public PersonalityInfo PI_Dwarf_06;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_05")]
+public PersonalityInfo PI_Dwarf_05;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_04")]
+public PersonalityInfo PI_Dwarf_04;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_03")]
+public PersonalityInfo PI_Dwarf_03;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_02")]
+public PersonalityInfo PI_Dwarf_02;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_01")]
+public PersonalityInfo PI_Dwarf_01;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Splash1")]
+public NiagaraSystem NS_CamsWater_Splash1;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_PuddleSplash")]
+public NiagaraSystem NS_CamsWater_PuddleSplash;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Plunge1")]
+public NiagaraSystem NS_CamsWater_Plunge1;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Breach1")]
+public NiagaraSystem NS_CamsWater_Breach1;
+
+
+[Import("/Game/FX/Atmospherics/AirborneStuff/Niagara/NS_AirborneStuff")]
+public NiagaraSystem NS_AirborneStuff;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/DA_AttributeDisplayDefinitions")]
+public MorAttributeDisplaySettings DA_AttributeDisplayDefinitions;
+
+
+[Import("/Game/Character/Dwarf/DA_FGKDwarf_CharacterData")]
+public FGKCharacterData DA_FGKDwarf_CharacterData;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Voices")]
+public DataTable DT_CC_Voices;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooTextures")]
+public DataTable DT_CC_TattooTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooColors")]
+public DataTable DT_CC_TattooColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_SkinColors")]
+public DataTable DT_CC_SkinColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_ScarTextures")]
+public DataTable DT_CC_ScarTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_PresetCharacters")]
+public DataTable DT_CC_PresetCharacters;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Personalities")]
+public DataTable DT_CC_Personalities;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Origins")]
+public DataTable DT_CC_Origins;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Heads")]
+public DataTable DT_CC_Heads;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_HairColors")]
+public DataTable DT_CC_HairColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Hair")]
+public DataTable DT_CC_Hair;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_EyeColors")]
+public DataTable DT_CC_EyeColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftTorsos")]
+public DataTable DT_CC_CraftTorsos;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Crafts")]
+public DataTable DT_CC_Crafts;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftGloves")]
+public DataTable DT_CC_CraftGloves;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftBoots")]
+public DataTable DT_CC_CraftBoots;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Bodies")]
+public DataTable DT_CC_Bodies;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Beards")]
+public DataTable DT_CC_Beards;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BeardDecorationColors")]
+public DataTable DT_CC_BeardDecorationColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Backpacks")]
+public DataTable DT_CC_Backpacks;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BackpackColors")]
+public DataTable DT_CC_BackpackColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/DT_CC_Characters")]
+public DataTable DT_CC_Characters;
+
+
+[Import("/Game/Environments/Lighting/Curves/C_OnDeathNORMALIZEDCurve")]
+public CurveFloat C_OnDeathNORMALIZEDCurve;
+
+
+[Import("/Game/Character/Shared/Curve_PhysicsHitReactWeightOverTime")]
+public CurveFloat Curve_PhysicsHitReactWeightOverTime;
+
+
+[Import("/Game/Tech/Managers/BP_TutorialManager")]
+public class BP_TutorialManager_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, LocalVirtualFunction] public virtual void OnPlayerJoined();
+    [UnknownSignature, LocalVirtualFunction] public virtual void OnPlayerLeave();
+}
+
+[Import("/Game/Tech/Managers/BP_TutorialManager")]
+public BP_TutorialManager_C Default__BP_TutorialManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Tech/Managers/BP_DiscoveryManager")]
+public class BP_DiscoveryManager_C : MorDiscoveryManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_DiscoveryManager")]
+public BP_DiscoveryManager_C Default__BP_DiscoveryManager_C;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetProgressPure();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_DwarfDeathContainer")]
+public class BP_DwarfDeathContainer_C {
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public FGKActorFSMComponent FGKActorFSM_GEN_VARIABLE;
+    public MorDestroyOnEmptyInventoryComponent MorDestroyOnEmptyInventory_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange_GEN_VARIABLE;
+    public NiagaraComponent DeathCOntainerVFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Mesh_GEN_VARIABLE;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public FGKActorFSMComponent FGKActorFSM;
+    public MorDestroyOnEmptyInventoryComponent MorDestroyOnEmptyInventory;
+    public MorPointLightComponent MorPointLight;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange;
+    public NiagaraComponent DeathCOntainerVFX;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Mesh;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_DwarfDeathContainer")]
+public class Default__BP_DwarfDeathContainer_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public MorPreciousssComponent Preciousss;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Holdables/Weapons/EQ_DurinsAxe")]
+public class EQ_DurinsAxe_C {
+    public NiagaraComponent bloodtrail_GEN_VARIABLE;
+    public NiagaraComponent NiagaraChargeGlint2_GEN_VARIABLE;
+    public NiagaraComponent NiagaraChargeGlint_GEN_VARIABLE;
+    public NiagaraComponent WeaponVFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Mesh_GEN_VARIABLE;
+    public TransformLocatorComponent HitTransformLocator_GEN_VARIABLE;
+    public NiagaraComponent bloodtrail;
+    public NiagaraComponent NiagaraChargeGlint2;
+    public NiagaraComponent NiagaraChargeGlint;
+    public NiagaraComponent WeaponVFX;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Mesh;
+    public TransformLocatorComponent HitTransformLocator;
+}
+
+[Import("/Game/Items/Holdables/Weapons/EQ_DurinsAxe")]
+public class Default__EQ_DurinsAxe_C {
+    public CalloutDataComponent `Callout Data`;
+    public InscribedRuneComponent InscribedRune;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/Holdables/GA_ShieldBlock")]
+public class GA_ShieldBlock_C {}
+
+[Import("/Game/Items/Holdables/GA_ShieldBlock")]
+public GA_ShieldBlock_C Default__GA_ShieldBlock_C;
+
+
+[Import("/Game/Items/Holdables/EQ_Pick_Steel")]
+public class EQ_Pick_Steel_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent IronPickAxe_Mesh_GEN_VARIABLE;
+    public TransformLocatorComponent HitTransformLocator_GEN_VARIABLE;
+    public InheritableComponentHandler InheritableComponentHandler;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent IronPickAxe_Mesh;
+    public TransformLocatorComponent HitTransformLocator;
+}
+
+[Import("/Game/Items/Holdables/EQ_Pick_Steel")]
+public class Default__EQ_Pick_Steel_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso")]
+public class BP_ContainerItem_Dwarf_Slot_Torso_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Torso_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHand")]
+public class BP_ContainerItem_Dwarf_Slot_OffHand_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHand")]
+public class Default__BP_ContainerItem_Dwarf_Slot_OffHand_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHand")]
+public class BP_ContainerItem_Dwarf_Slot_MainHand_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHand")]
+public class Default__BP_ContainerItem_Dwarf_Slot_MainHand_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet")]
+public class BP_ContainerItem_Dwarf_Slot_Helmet_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Helmet_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves")]
+public class BP_ContainerItem_Dwarf_Slot_Gloves_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Gloves_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_EpicPack")]
+public class BP_ContainerItem_Dwarf_Slot_EpicPack_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_EpicPack")]
+public class Default__BP_ContainerItem_Dwarf_Slot_EpicPack_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_EpicItem")]
+public class BP_ContainerItem_Dwarf_Slot_EpicItem_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_EpicItem")]
+public class Default__BP_ContainerItem_Dwarf_Slot_EpicItem_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots")]
+public class BP_ContainerItem_Dwarf_Slot_Boots_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Boots_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_CursorSlot")]
+public class BP_ContainerItem_Dwarf_CursorSlot_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_CursorSlot")]
+public class Default__BP_ContainerItem_Dwarf_CursorSlot_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventory")]
+public class BP_ContainerItem_Dwarf_BodyInventory_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventory")]
+public class Default__BP_ContainerItem_Dwarf_BodyInventory_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/BP_VenerationSongJoinInteractable")]
+public class BP_VenerationSongJoinInteractable_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_VenerationSongJoinInteractable")]
+public class Default__BP_VenerationSongJoinInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_SettlementSongJoinInteractable")]
+public class BP_SettlementSongJoinInteractable_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_SettlementSongJoinInteractable")]
+public class Default__BP_SettlementSongJoinInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_ReviveInteract")]
+public class BP_ReviveInteract_C {
+    public MorAIBehaviorPointComponent Orc_Taunt_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent Orc_Taunt;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_ReviveInteract")]
+public class Default__BP_ReviveInteract_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_MonumentSongJoinInteractable")]
+public class BP_MonumentSongJoinInteractable_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_MonumentSongJoinInteractable")]
+public class Default__BP_MonumentSongJoinInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_MiningSongInteractable")]
+public class BP_MiningSongInteractable_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_MiningSongInteractable")]
+public class Default__BP_MiningSongInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_KegSongJoinInteractable")]
+public class BP_KegSongJoinInteractable_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_KegSongJoinInteractable")]
+public class Default__BP_KegSongJoinInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_DropItem_PlayerDeathDrop")]
+public class BP_DropItem_PlayerDeathDrop_C {
+    public MorRemoveWaypointOnInteractComponent MorRemoveWaypointOnInteract_GEN_VARIABLE;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorRemoveWaypointOnInteractComponent MorRemoveWaypointOnInteract;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_DropItem_PlayerDeathDrop")]
+public class Default__BP_DropItem_PlayerDeathDrop_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_DropItem")]
+public class BP_DropItem_C {
+    public MorAIBehaviorPointComponent PickupBehavior_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public MorAIBehaviorPointComponent PickupBehavior;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_DropItem")]
+public class Default__BP_DropItem_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_DoorLoreTod_SongJoinInteractable")]
+public class BP_DoorLoreTod_SongJoinInteractable_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_DoorLoreTod_SongJoinInteractable")]
+public class Default__BP_DoorLoreTod_SongJoinInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_Category_Weapon")]
+public class BP_Category_Weapon_C {
+    public FGKAkComponent FGKAk_GEN_VARIABLE;
+    public MorPointLightComponent `NODE_AddMorPointLightComponent-0`;
+    public NiagaraComponent WeaponVFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate GlowFade_Template;
+    public FGKAkComponent FGKAk;
+    public NiagaraComponent WeaponVFX;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Weapon")]
+public class Default__BP_Category_Weapon_C {
+    public CalloutDataComponent `Callout Data`;
+    public InscribedRuneComponent InscribedRune;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Survival/GE_Spawn_Invulnerability")]
+public class GE_Spawn_Invulnerability_C {}
+
+[Import("/Game/Character/Shared/Effects/Survival/GE_Spawn_Invulnerability")]
+public GE_Spawn_Invulnerability_C Default__GE_Spawn_Invulnerability_C;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/GE_Revive_Invulnerability")]
+public class GE_Revive_Invulnerability_C {}
+
+[Import("/Game/Character/Shared/Effects/Survival/GE_Revive_Invulnerability")]
+public class Default__GE_Revive_Invulnerability_C {
+    public MorGameplayEffectUIData MoriaGameplayEffectUIData_0;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Dwarf")]
+public class GE_Starting_Dwarf_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Dwarf")]
+public GE_Starting_Dwarf_C Default__GE_Starting_Dwarf_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Revive")]
+public class GE_Revive_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Revive")]
+public GE_Revive_C Default__GE_Revive_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_NotPlaying_Dwarf")]
+public class GE_NotPlaying_Dwarf_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_NotPlaying_Dwarf")]
+public GE_NotPlaying_Dwarf_C Default__GE_NotPlaying_Dwarf_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GA_FatalDamage")]
+public class GA_FatalDamage_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GA_FatalDamage")]
+public GA_FatalDamage_C Default__GA_FatalDamage_C;
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body_Dwarf")]
+public class CSt_Body_Dwarf_C {}
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body_Dwarf")]
+public class Default__CSt_Body_Dwarf_C {
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_HasTags FGKCondition_HasTags_2;
+    public FGKCondition_HasTags FGKCondition_HasTags_3;
+    public FGKCondition_HasTags FGKCondition_HasTags_4;
+    public FGKCondition_HasTags FGKCondition_HasTags_5;
+    public FGKCondition_HasTags FGKCondition_HasTags_6;
+    public FGKCondition_HasTags FGKCondition_HasTags_7;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_1;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public MorCharacterCondition_IsPrepared MorCharacterCondition_IsPrepared_0;
+    public MorCharacterState_Hide MorCharacterState_Hide_0;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_0;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_0;
+}
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer")]
+public class BP_DwarfGameplayEffectSerializer_C {}
+
+[Import("/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer")]
+public BP_DwarfGameplayEffectSerializer_C Default__BP_DwarfGameplayEffectSerializer_C;
+
+
+[Import("/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf")]
+public class BP_CharacterFallComponent_Dwarf_C {}
+
+[Import("/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf")]
+public BP_CharacterFallComponent_Dwarf_C Default__BP_CharacterFallComponent_Dwarf_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_R_01")]
+public class GA_Dwa_React_Stagger_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_R_01")]
+public GA_Dwa_React_Stagger_R_01_C Default__GA_Dwa_React_Stagger_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_L_01")]
+public class GA_Dwa_React_Stagger_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_L_01")]
+public GA_Dwa_React_Stagger_L_01_C Default__GA_Dwa_React_Stagger_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_F_01")]
+public class GA_Dwa_React_Stagger_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_F_01")]
+public GA_Dwa_React_Stagger_F_01_C Default__GA_Dwa_React_Stagger_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_R_01")]
+public class GA_Dwa_React_Light_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_R_01")]
+public GA_Dwa_React_Light_R_01_C Default__GA_Dwa_React_Light_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_L_01")]
+public class GA_Dwa_React_Light_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_L_01")]
+public GA_Dwa_React_Light_L_01_C Default__GA_Dwa_React_Light_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_F_01")]
+public class GA_Dwa_React_Light_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_F_01")]
+public GA_Dwa_React_Light_F_01_C Default__GA_Dwa_React_Light_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_R_01")]
+public class GA_Dwa_React_Kill_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_R_01")]
+public GA_Dwa_React_Kill_R_01_C Default__GA_Dwa_React_Kill_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_L_01")]
+public class GA_Dwa_React_Kill_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_L_01")]
+public GA_Dwa_React_Kill_L_01_C Default__GA_Dwa_React_Kill_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_F_01")]
+public class GA_Dwa_React_Kill_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_F_01")]
+public GA_Dwa_React_Kill_F_01_C Default__GA_Dwa_React_Kill_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_B_01")]
+public class GA_Dwa_React_Kill_B_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_B_01")]
+public GA_Dwa_React_Kill_B_01_C Default__GA_Dwa_React_Kill_B_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_F_01")]
+public class GA_Dwa_React_HeavyKnockdown_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_F_01")]
+public GA_Dwa_React_HeavyKnockdown_F_01_C Default__GA_Dwa_React_HeavyKnockdown_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_B_01")]
+public class GA_Dwa_React_HeavyKnockdown_B_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_B_01")]
+public GA_Dwa_React_HeavyKnockdown_B_01_C Default__GA_Dwa_React_HeavyKnockdown_B_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_R_01")]
+public class GA_Dwa_React_Heavy_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_R_01")]
+public GA_Dwa_React_Heavy_R_01_C Default__GA_Dwa_React_Heavy_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_L_01")]
+public class GA_Dwa_React_Heavy_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_L_01")]
+public GA_Dwa_React_Heavy_L_01_C Default__GA_Dwa_React_Heavy_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_F_01")]
+public class GA_Dwa_React_Heavy_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_F_01")]
+public GA_Dwa_React_Heavy_F_01_C Default__GA_Dwa_React_Heavy_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink")]
+public class GA_UseFoodItem_Drink_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink")]
+public GA_UseFoodItem_Drink_C Default__GA_UseFoodItem_Drink_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem")]
+public class GA_UseFoodItem_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem")]
+public GA_UseFoodItem_C Default__GA_UseFoodItem_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Throw_Right")]
+public class GA_Throw_Right_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Throw_Right")]
+public GA_Throw_Right_C Default__GA_Throw_Right_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Throw")]
+public class GA_Throw_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Throw")]
+public GA_Throw_C Default__GA_Throw_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Teeter")]
+public class GA_Teeter_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Teeter")]
+public GA_Teeter_C Default__GA_Teeter_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Revived")]
+public class GA_Revived_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Revived")]
+public GA_Revived_C Default__GA_Revived_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Interact")]
+public class GA_Interact_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Interact")]
+public GA_Interact_C Default__GA_Interact_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Dodge")]
+public class GA_Dodge_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Dodge")]
+public GA_Dodge_C Default__GA_Dodge_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Craft")]
+public class GA_Craft_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Craft")]
+public GA_Craft_C Default__GA_Craft_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Aim_Look")]
+public class GA_Aim_Look_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Aim_Look")]
+public GA_Aim_Look_C Default__GA_Aim_Look_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_Deconstruct")]
+public class GA_Deconstruct_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_Deconstruct")]
+public GA_Deconstruct_C Default__GA_Deconstruct_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_ConstructionQuickRope")]
+public class GA_ConstructionQuickRope_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_ConstructionQuickRope")]
+public GA_ConstructionQuickRope_C Default__GA_ConstructionQuickRope_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_ConstructionQuickPlatform")]
+public class GA_ConstructionQuickPlatform_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_ConstructionQuickPlatform")]
+public GA_ConstructionQuickPlatform_C Default__GA_ConstructionQuickPlatform_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_ConstructionPlacement")]
+public class GA_ConstructionPlacement_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/GA_ConstructionPlacement")]
+public GA_ConstructionPlacement_C Default__GA_ConstructionPlacement_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/BP_ConstructionSite")]
+public class BP_ConstructionSite_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Construction1_GEN_VARIABLE;
+    public StaticMeshComponent Construction2_GEN_VARIABLE;
+    public TextRenderComponent ConstructionText2_GEN_VARIABLE;
+    public TextRenderComponent ConstructionText_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Construction1;
+    public StaticMeshComponent Construction2;
+    public TextRenderComponent ConstructionText2;
+    public TextRenderComponent ConstructionText;
+}
+
+[Import("/Game/Character/Dwarf/Abilities/ConstructionPlacement/BP_ConstructionSite")]
+public class Default__BP_ConstructionSite_C {
+    public BoxComponent InteractCollider;
+    public BoxComponent TriggerArea;
+    public SceneComponent AttachGroup;
+    public SceneComponent ComponentGroup;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/Callout/GA_Callout")]
+public class GA_Callout_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Callout/GA_Callout")]
+public GA_Callout_C Default__GA_Callout_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfKick")]
+public class GA_DwarfKick_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfKick")]
+public GA_DwarfKick_C Default__GA_DwarfKick_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfJab")]
+public class GA_DwarfJab_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfJab")]
+public GA_DwarfJab_C Default__GA_DwarfJab_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfHook")]
+public class GA_DwarfHook_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfHook")]
+public GA_DwarfHook_C Default__GA_DwarfHook_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt")]
+public class GA_Dwarf_HeadButt_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt")]
+public GA_Dwarf_HeadButt_C Default__GA_Dwarf_HeadButt_C;
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public class BP_DialogueManager_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public BP_DialogueManager_C Default__BP_DialogueManager_C;
+
+
+[Import("/Game/Unshippable/DwarfPrepro/FGK_Animations/Dwa_FGK_UA_Inv_Craft_Loop_Montage")]
+public AnimMontage Dwa_FGK_UA_Inv_Craft_Loop_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_R90_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_R180_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_L90_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_L180_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_L180_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_R90_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_R180_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_L90_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_L180_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_L180_Montage;
+
+
+[Import("/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/Env/rt_water_splash_intensity")]
+public AkRtpc rt_water_splash_intensity;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Foley/fx_plr_itempickup_01_play")]
+public AkAudioEvent fx_plr_itempickup_01_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Equipment/fx_plr_eqp_itembreak_01_play")]
+public AkAudioEvent fx_plr_eqp_itembreak_01_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Water/fx_env_water_splash_play")]
+public AkAudioEvent fx_env_water_splash_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Water/fx_env_water_breach_play_01")]
+public AkAudioEvent fx_env_water_breach_play_01;
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_Dwarf_NoLink")]
+public ABP_Dwarf_NoLink_C Default__ABP_Dwarf_NoLink_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_Dwarf_NoLink")]
+public AnimBlueprintGeneratedClass ABP_Dwarf_NoLink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_FGKDwarf_C : MorCharacter {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorMonumentSongComponent> MorMonumentSong;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorDoorLoreTODSongJoinComponent> MorDoorLoreTODSongJoin;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorCharacterLightReflectorComponent> MorCharacterLightReflector;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorSettlementSongComponent> MorSettlementSongComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorOverheadIndicatorComponent> MorOverheadIndicator;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<WidgetComponent> `Stamina Widget Component`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorHooverComponent> MorHoover;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAudioMeterComponent> MorAudioMeter;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorSyncedEquipmentComponent> MorSyncedEquipment;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BP_DwarfGameplayEffectSerializer_C> BP_DwarfGameplayEffectSerializer;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BP_CharacterFallComponent_Dwarf_C> BP_CharacterFallComponent_Dwarf;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorSITANiagaraComponent> MorSITANiagara;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorSITAControllerComponent> MorSITAController;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorKegSongComponent> MorKegSongComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorVenerationSongComponent> MorVenerationSongComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> LocalDwarfLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorCursorSlotComponent> MorCursorSlotComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<LastingInteractComponent> LastingInteractComp;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorInteractComponent> MorInteract;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorSurvivalEffectsComponent> MorSurvivalEffects;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBuildingComponent> MorBuilding;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorCraftingComponent> MorCrafting;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorDwarfOnDeathScreenFXComponent> MorDwarfOnDeathScreenFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Hands;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorHeavyCarryHolderComponent> MorHeavyCarryHolder;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorTutorialComponent> TutorialComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorChatComponent> ChatComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<WaypointSpawnerComponent> WaypointSpawner;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorMiningSongComponent> MiningSongComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorThresholdEffectComponent> MorThresholdEffectComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorDwarfWaterFXComponent> MorDwarfWaterFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine3 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine2 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine1 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightSamplerComponent> MorGameplayLightSampler;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorStaminaComponent> MorStaminaRegen;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorNoEpicPackBuffComponent> MorNoEpicPackBuff;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Backpack;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Foot_L_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Foot_R_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Head Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_R_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_L_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_L_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_R_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine0 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Beard;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_BaseBody;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Extras;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Legs;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Hat;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Chest;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Head;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Hair;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Gloves;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AIPerceptionStimuliSourceComponent> AIPerceptionStimuliSource;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> AkLeftFoot;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> AkRightHand;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<CustomizationManager> CustomizationManager;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Head;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> UpperLegs;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Shoulder_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Shoulder_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> UpperArm_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> LowerLegs;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Torso;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> UpperArm_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> LowerArm_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> LowerArm_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Feet;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Pelvis;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Hand_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Hand_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorTutorialRowHandle> MeatTutorial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> `Lore Row`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> `Lore Row Mithril Ore`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Progress Row For Eastern Stairs Repair`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Progress Row Orc Rune`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> `Lore Row Fight Bolgakh`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> HasSapphire;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> DurinsAxeComplete;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> LoreToComplete;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> LoreToComplete_Hammer;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> LoreToComplete_DurinsAxe;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> LoreToComplete_MithrilSpear;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorLoreRowHandle> LoreToComplete_IronSword;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorWaypointRowHandle> `Waypoint Row Handle`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorZoneRowHandle> `Target Zone`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<DataTable> EventTableForBreakingWeapon;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<DialogueRateLimit> `Rate Limit`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<DataTable> EventTableForPassingDurabilityThreshold;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Map ItemConsumptionVO;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Map ItemCollectedVO;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> ProgressKey_DurinsForgeRepaired;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> Sandbox_ArmorAwards_DurinsForgeRepaired;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> ProgressKey_MithrilForgeRepaired;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> Sandbox_ArmorAwards_MithrilForgeRepaired;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> ProgressKey_DimrillGateExited;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorItemRecipeRowHandle>> Campaign_ItemAwards_DimrillGateExited;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorItemRecipeRowHandle> BelegostShieldRecipeRowHandle;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map Campaign_ItemAwards_ShieldsFromSandbox;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Name> Sandbox_ItemAwards_DimrillGateExited;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_FGKDwarf([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<Controller> K2Node_Event_NewController;
+        Object<BP_TutorialManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<Controller> K2Node_Event_OldController;
+        Object<BP_TutorialManager_C> CallFunc_GetManager_ReturnValue_1;
+        bool CallFunc_IsValid_ReturnValue_1;
+        [UObjectWrapper] Class K2Node_ComponentBoundEvent_ItemClass;
+        bool CallFunc_EqualEqual_ClassClass_ReturnValue;
+        bool CallFunc_EqualEqual_ClassClass_ReturnValue_1;
+        bool CallFunc_HasAuthority_ReturnValue;
+        float K2Node_Event_DeltaSeconds;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        bool CallFunc_IsLocallyControlledPlayer_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_2;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Object<MorStoryManager> CallFunc_GetManager_ReturnValue_2;
+        bool Temp_bool_Has_Been_Initd_Variable;
+        Object<MorStoryManager> CallFunc_GetManager_ReturnValue_3;
+        Object<Actor> K2Node_CustomEvent_RespawnedActor;
+        [InstancedReference] Object<AbilitySystemComponent> CallFunc_GetAbilitySystemComponent_ReturnValue;
+        const Object<InventoryItem> K2Node_Event_Item;
+        Struct<ActiveGameplayEffectHandle> CallFunc_BP_ApplyGameplayEffectToSelf_ReturnValue;
+        Object<BP_Category_Weapon_C> K2Node_DynamicCast_AsBP_Category_Weapon;
+        bool K2Node_DynamicCast_bSuccess;
+        bool CallFunc_HasAuthority_ReturnValue_3;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue_4;
+        bool CallFunc_IsValid_ReturnValue_2;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue;
+        bool Temp_bool_IsClosed_Variable;
+        [ContainsInstancedReference] const Struct<ItemHandle> K2Node_ComponentBoundEvent_Item;
+        float K2Node_ComponentBoundEvent_OldDurability;
+        float K2Node_ComponentBoundEvent_NewDurability;
+        Object<InventoryItem> CallFunc_GetClassDefault_ReturnValue;
+        float CallFunc_GetMaxDurability_ReturnValue;
+        float CallFunc_SafeDivide_ReturnValue;
+        float CallFunc_SafeDivide_ReturnValue_1;
+        bool CallFunc_Greater_FloatFloat_ReturnValue;
+        bool CallFunc_LessEqual_FloatFloat_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue_5;
+        [ContainsInstancedReference] Struct<ItemHandle> K2Node_Event_ItemHandle;
+        bool CallFunc_IsValid_ReturnValue_3;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue_1;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue_6;
+        Object<DataTable> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        [ContainsInstancedReference] const Struct<ItemHandle> K2Node_CustomEvent_Item;
+        [UObjectWrapper] Class K2Node_CustomEvent_ItemClass;
+        int K2Node_CustomEvent_AmountAdded;
+        int K2Node_CustomEvent_TotalCount;
+        bool K2Node_CustomEvent_bParentContainerWasRecentlyAdded;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue_2;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Object<DataTable> CallFunc_Map_Find_Value_1;
+        bool CallFunc_Map_Find_ReturnValue_1;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue_7;
+        bool CallFunc_HasAuthority_ReturnValue_4;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue_3;
+        [InstancedReference] Object<AbilitySystemComponent> CallFunc_GetAbilitySystemComponent_ReturnValue_1;
+        Struct<ActiveGameplayEffectHandle> CallFunc_BP_ApplyGameplayEffectToSelf_ReturnValue_1;
+        Object<MorStoryManager> CallFunc_GetManager_ReturnValue_8;
+        Object<MorStoryManager> CallFunc_GetManager_ReturnValue_9;
+        bool CallFunc_IsValid_ReturnValue_4;
+        bool CallFunc_IsValid_ReturnValue_5;
+        int CallFunc_GetItemCount_ReturnValue;
+        const Struct<MorLoreRowHandle> K2Node_CustomEvent_LoreRowHandle;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        bool CallFunc_EqualEqual_RowHandleRowHandle_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate_1;
+        Delegate K2Node_CreateDelegate_OutputDelegate_2;
+        Name CallFunc_MakeLiteralName_ReturnValue;
+        Object<BP_DiscoveryManager_C> CallFunc_GetManager_ReturnValue_10;
+        bool CallFunc_DoesPlayerHaveRecipe_bHasRecipe;
+        bool CallFunc_IsSandbox_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue_1;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue_1;
+        Object<BP_DiscoveryManager_C> K2Node_DynamicCast_AsBP_Discovery_Manager;
+        bool K2Node_DynamicCast_bSuccess_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            this.ForceShadowPrimsOn();
+            EX_PopExecutionFlow();
+
+            // Block 3
+            this.ForceShadowPrimsOn();
+            KismetSystemLibrary.Delay(this, 2f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), -1863152585, EX_NameConst("ExecuteUbergraph_BP_FGKDwarf"), this));
+            EX_PopExecutionFlow();
+
+            // Block 4
+            this.ForceShadowPrimsOn();
+            KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(30), -866379238, EX_NameConst("ExecuteUbergraph_BP_FGKDwarf"), this));
+            EX_PopExecutionFlow();
+
+            // Block 5
+            ExecuteUbergraph_BP_FGKDwarf_168: EX_LetObj(CallFunc_GetManager_ReturnValue_2,FGKUtils.GetManager(this, MorStoryManager));
+            CallFunc_GetManager_ReturnValue_2.CompleteGoalEntry(EX_NoObject(), this.LoreToComplete);
+            EX_PopExecutionFlow();
+
+            // Block 6
+            ExecuteUbergraph_BP_FGKDwarf_241_ReceivePossessed: this.OnPlayerJoin();
+            EX_LetObj(CallFunc_GetAbilitySystemComponent_ReturnValue_1,AbilitySystemBlueprintLibrary.GetAbilitySystemComponent(this));
+            CallFunc_BP_ApplyGameplayEffectToSelf_ReturnValue_1 = CallFunc_GetAbilitySystemComponent_ReturnValue_1.BP_ApplyGameplayEffectToSelf(GE_Spawn_Invulnerability_C, 0f, EX_StructConst(GameplayEffectContextHandle, 24));
+            EX_PopExecutionFlow();
+
+            // Block 7
+            ExecuteUbergraph_BP_FGKDwarf_355_OnPlayerJoin: EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_TutorialManager_C));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 8
+            CallFunc_GetManager_ReturnValue.OnPlayerJoined(this);
+            EX_PopExecutionFlow();
+
+            // Block 9
+            ExecuteUbergraph_BP_FGKDwarf_462_ReceiveUnpossessed: this.OnPlayerUnJoin();
+            EX_PopExecutionFlow();
+
+            // Block 10
+            ExecuteUbergraph_BP_FGKDwarf_477_OnPlayerUnJoin: EX_LetObj(CallFunc_GetManager_ReturnValue_1,FGKUtils.GetManager(this, BP_TutorialManager_C));
+            CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_1);
+
+            // Block 11
+            CallFunc_GetManager_ReturnValue_1.OnPlayerLeave();
+            EX_PopExecutionFlow();
+
+            // Block 12
+            ExecuteUbergraph_BP_FGKDwarf_583: EX_PopExecutionFlowIfNot(false);
+
+            // Block 13
+            Temp_bool_IsClosed_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            ExecuteUbergraph_BP_FGKDwarf_597_BndEvt__BP_FGKDwarf_InventoryComp_K2Node_ComponentBoundEvent_0_ItemTypeAddedSignature__DelegateSignature:
+            while (true) {
+                // Block 14
+                CallFunc_EqualEqual_ClassClass_ReturnValue_1 = (bool)(KismetMathLibrary.EqualEqual_ClassClass(K2Node_ComponentBoundEvent_ItemClass, EQ_DurinsAxe_C));
+                if (!CallFunc_EqualEqual_ClassClass_ReturnValue_1) break;
+
+                // Block 15
+                EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+                CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(this.DurinsAxeComplete, 1);
+                EX_LetObj(CallFunc_GetManager_ReturnValue_3,FGKUtils.GetManager(this, MorStoryManager));
+                CallFunc_GetManager_ReturnValue_3.CompleteGoalEntry(EX_NoObject(), this.LoreToComplete_DurinsAxe);
+                break;
+
+            }
+
+
+            // Block 16
+            ExecuteUbergraph_BP_FGKDwarf_790: CallFunc_EqualEqual_ClassClass_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ClassClass(K2Node_ComponentBoundEvent_ItemClass, EQ_Pick_Steel_C));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ClassClass_ReturnValue);
+
+            // Block 17
+            goto ExecuteUbergraph_BP_FGKDwarf_168;
+
+            // Block 18
+            ExecuteUbergraph_BP_FGKDwarf_843_ReceiveTick: EX_PushExecutionFlow(ExecuteUbergraph_BP_FGKDwarf_863);
+
+            // Block 19
+
+            if (Temp_bool_Has_Been_Initd_Variable) {
+                // Block 20
+                EX_PopExecutionFlow();
+
+                // Block 21
+
+                ExecuteUbergraph_BP_FGKDwarf_863:
+                if (Temp_bool_IsClosed_Variable) {
+                    // Block 22
+                    break;
+
+                }
+
+
+                // Block 23
+                ExecuteUbergraph_BP_FGKDwarf_878: Temp_bool_IsClosed_Variable = (bool)(true);
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_FGKDwarf_930);
+
+                // Block 24
+                CallFunc_IsLocallyControlledPlayer_ReturnValue = (bool)(FGKUtils.IsLocallyControlledPlayer(this));
+                if (!(CallFunc_IsLocallyControlledPlayer_ReturnValue)) goto ExecuteUbergraph_BP_FGKDwarf_1080;
+
+                // Block 25
+                EX_PopExecutionFlow();
+
+                // Block 26
+                ExecuteUbergraph_BP_FGKDwarf_930: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue_1,MoriaUtils.GetDiscoveryManager(this));
+                K2Node_DynamicCast_AsBP_Discovery_Manager = EX_DynamicCast("BP_DiscoveryManager_C", CallFunc_GetDiscoveryManager_ReturnValue_1);
+                K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Discovery_Manager);
+                EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_1);
+
+                // Block 27
+                K2Node_DynamicCast_AsBP_Discovery_Manager.TryDiscoverReforgeDurinsAxe(this);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 28
+            ExecuteUbergraph_BP_FGKDwarf_1064: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            goto ExecuteUbergraph_BP_FGKDwarf_583;
+
+            // Block 29
+            ExecuteUbergraph_BP_FGKDwarf_1080: this.LocalDwarfLight.K2_DestroyComponent(this);
+            EX_PopExecutionFlow();
+
+            // Block 30
+            ExecuteUbergraph_BP_FGKDwarf_1114: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 31
+            EX_LetObj(CallFunc_GetManager_ReturnValue_7,FGKUtils.GetManager(this, BP_DialogueManager_C));
+            CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ItemCollectedVO, K2Node_CustomEvent_Item, CallFunc_Map_Find_Value_1));
+            EX_PopExecutionFlowIfNot(CallFunc_Map_Find_ReturnValue_1);
+
+            // Block 32
+            CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ItemCollectedVO, K2Node_CustomEvent_Item, CallFunc_Map_Find_Value_1));
+            CallFunc_RequestDialogueEventFromTable_ReturnValue_3 = (bool)(MorDialogueManager.RequestDialogueEventFromTable(CallFunc_Map_Find_Value_1, this, (byte)(2), this.`Rate Limit`, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            EX_PopExecutionFlow();
+
+            // Block 33
+            ExecuteUbergraph_BP_FGKDwarf_1393: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_1);
+
+            // Block 34
+            EX_LetObj(CallFunc_GetManager_ReturnValue_8,FGKUtils.GetManager(this, MorStoryManager));
+            CallFunc_IsValid_ReturnValue_4 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue_8));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_4);
+
+            // Block 35
+            EX_BindDelegate("OnLoreDiscovered", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_AddMulticastDelegate(CallFunc_GetManager_ReturnValue_8.OnStoryFragmentReceivedCallback, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_PopExecutionFlow();
+
+            // Block 36
+            ExecuteUbergraph_BP_FGKDwarf_1557: CallFunc_HasAuthority_ReturnValue_2 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_2);
+
+            // Block 37
+            EX_LetObj(CallFunc_GetManager_ReturnValue_6,FGKUtils.GetManager(this, BP_DialogueManager_C));
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ItemConsumptionVO, K2Node_Event_ItemHandle, CallFunc_Map_Find_Value));
+            EX_PopExecutionFlowIfNot(CallFunc_Map_Find_ReturnValue);
+
+            // Block 38
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ItemConsumptionVO, K2Node_Event_ItemHandle, CallFunc_Map_Find_Value));
+            CallFunc_RequestDialogueEventFromTable_ReturnValue_2 = (bool)(MorDialogueManager.RequestDialogueEventFromTable(CallFunc_Map_Find_Value, this, (byte)(2), this.`Rate Limit`, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            EX_PopExecutionFlow();
+
+            // Block 39
+            ExecuteUbergraph_BP_FGKDwarf_1836_OnRespawned_Event: EX_LetObj(CallFunc_GetAbilitySystemComponent_ReturnValue,AbilitySystemBlueprintLibrary.GetAbilitySystemComponent(K2Node_CustomEvent_RespawnedActor));
+            CallFunc_BP_ApplyGameplayEffectToSelf_ReturnValue = CallFunc_GetAbilitySystemComponent_ReturnValue.BP_ApplyGameplayEffectToSelf(GE_Revive_Invulnerability_C, 0f, EX_StructConst(GameplayEffectContextHandle, 24));
+            EX_PopExecutionFlow();
+
+            // Block 40
+            ExecuteUbergraph_BP_FGKDwarf_1944_OnItemDecomposed: CallFunc_HasAuthority_ReturnValue_4 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_4);
+
+            // Block 41
+            K2Node_DynamicCast_AsBP_Category_Weapon = EX_DynamicCast("BP_Category_Weapon_C", K2Node_Event_Item);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Category_Weapon);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 42
+            EX_LetObj(CallFunc_GetManager_ReturnValue_4,FGKUtils.GetManager(this, BP_DialogueManager_C));
+            CallFunc_IsValid_ReturnValue_2 = (bool)(KismetSystemLibrary.IsValid(this.EventTableForBreakingWeapon));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_2);
+
+            // Block 43
+            CallFunc_RequestDialogueEventFromTable_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTable(this.EventTableForBreakingWeapon, this, (byte)(2), this.`Rate Limit`, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            EX_PopExecutionFlow();
+
+            // Block 44
+            ExecuteUbergraph_BP_FGKDwarf_2189: CallFunc_HasAuthority_ReturnValue_3 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_3);
+
+            // Block 45
+            EX_LetObj(CallFunc_GetClassDefault_ReturnValue,ItemHandleFunctions.GetClassDefault(K2Node_ComponentBoundEvent_Item));
+            CallFunc_GetMaxDurability_ReturnValue = CallFunc_GetClassDefault_ReturnValue.GetMaxDurability();
+            CallFunc_SafeDivide_ReturnValue = KismetMathLibrary.SafeDivide(K2Node_ComponentBoundEvent_OldDurability, CallFunc_GetMaxDurability_ReturnValue);
+            CallFunc_SafeDivide_ReturnValue_1 = KismetMathLibrary.SafeDivide(K2Node_ComponentBoundEvent_NewDurability, CallFunc_GetMaxDurability_ReturnValue);
+            CallFunc_Greater_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_SafeDivide_ReturnValue, 0.5f));
+            CallFunc_LessEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.LessEqual_FloatFloat(CallFunc_SafeDivide_ReturnValue_1, 0f));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Greater_FloatFloat_ReturnValue, CallFunc_LessEqual_FloatFloat_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+            // Block 46
+            EX_LetObj(CallFunc_GetManager_ReturnValue_5,FGKUtils.GetManager(this, BP_DialogueManager_C));
+            CallFunc_IsValid_ReturnValue_3 = (bool)(KismetSystemLibrary.IsValid(this.EventTableForPassingDurabilityThreshold));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_3);
+
+            // Block 47
+            CallFunc_RequestDialogueEventFromTable_ReturnValue_1 = (bool)(MorDialogueManager.RequestDialogueEventFromTable(this.EventTableForPassingDurabilityThreshold, this, (byte)(2), this.`Rate Limit`, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            EX_PopExecutionFlow();
+
+            // Block 48
+            ExecuteUbergraph_BP_FGKDwarf_2650_BndEvt__BP_FGKDwarf_InventoryComp_K2Node_ComponentBoundEvent_0_InventoryDurabilityChangedSignature__DelegateSignature: goto ExecuteUbergraph_BP_FGKDwarf_2189;
+
+            // Block 49
+            ExecuteUbergraph_BP_FGKDwarf_2655_OnConsumableConsumed: goto ExecuteUbergraph_BP_FGKDwarf_1557;
+
+            // Block 50
+            ExecuteUbergraph_BP_FGKDwarf_2660_OnItemAdded: goto ExecuteUbergraph_BP_FGKDwarf_1114;
+
+            // Block 51
+            ExecuteUbergraph_BP_FGKDwarf_2665: EX_BindDelegate("OnItemAdded", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(this.InventoryComp.OnItemAdded, K2Node_CreateDelegate_OutputDelegate);
+            EX_PopExecutionFlow();
+
+            // Block 52
+            ExecuteUbergraph_BP_FGKDwarf_2730: KismetSystemLibrary.Delay(this, 0.5f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(99), -91203189, EX_NameConst("ExecuteUbergraph_BP_FGKDwarf"), this));
+            EX_PopExecutionFlow();
+
+            // Block 53
+            ExecuteUbergraph_BP_FGKDwarf_2785: EX_LetObj(CallFunc_GetManager_ReturnValue_9,FGKUtils.GetManager(this, MorStoryManager));
+            CallFunc_IsValid_ReturnValue_5 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetManager_ReturnValue_9));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_5);
+
+            // Block 54
+            CallFunc_EqualEqual_RowHandleRowHandle_ReturnValue = (bool)(FGKStaticDataFunctionLibrary.EqualEqual_RowHandleRowHandle(K2Node_CustomEvent_LoreRowHandle, this.LoreToComplete));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_RowHandleRowHandle_ReturnValue);
+
+            // Block 55
+            CallFunc_GetItemCount_ReturnValue = this.InventoryComp.GetItemCount(EQ_Pick_Steel_C, (byte)(0));
+            CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_GetItemCount_ReturnValue, 0));
+            EX_PopExecutionFlowIfNot(CallFunc_Greater_IntInt_ReturnValue);
+
+            // Block 56
+            KismetSystemLibrary.Delay(this, 0.008333f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(168), 1792730324, EX_NameConst("ExecuteUbergraph_BP_FGKDwarf"), this));
+            EX_PopExecutionFlow();
+
+            // Block 57
+            ExecuteUbergraph_BP_FGKDwarf_3062_OnLoreDiscovered: goto ExecuteUbergraph_BP_FGKDwarf_2785;
+
+            // Block 58
+            ExecuteUbergraph_BP_FGKDwarf_3067: EX_BindDelegate("OnRespawned_Event", K2Node_CreateDelegate_OutputDelegate_2, this);
+            EX_AddMulticastDelegate(this.OnRespawned, K2Node_CreateDelegate_OutputDelegate_2);
+            goto ExecuteUbergraph_BP_FGKDwarf_2665;
+
+            // Block 59
+            ExecuteUbergraph_BP_FGKDwarf_3114: this.AwardRecipeUnlocksInSandbox(this.ProgressKey_DurinsForgeRepaired, this.Sandbox_ArmorAwards_DurinsForgeRepaired);
+            this.AwardRecipeUnlocksInSandbox(this.ProgressKey_MithrilForgeRepaired, this.Sandbox_ArmorAwards_MithrilForgeRepaired);
+            this.AwardItemRecipeUnlocksInCampaign(this.ProgressKey_DimrillGateExited, this.Campaign_ItemAwards_DimrillGateExited);
+            this.AwardRecipeUnlocksInSandboxWithRecipeNames(this.ProgressKey_DimrillGateExited, this.Sandbox_ItemAwards_DimrillGateExited);
+            this.DoesPlayerHaveRecipe(this.BelegostShieldRecipeRowHandle, CallFunc_DoesPlayerHaveRecipe_bHasRecipe);
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+            CallFunc_BooleanAND_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_DoesPlayerHaveRecipe_bHasRecipe, CallFunc_IsSandbox_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue_1);
+
+            // Block 60
+            EX_LetObj(CallFunc_GetManager_ReturnValue_10,FGKUtils.GetManager(this, BP_DiscoveryManager_C));
+            CallFunc_MakeLiteralName_ReturnValue = KismetSystemLibrary.MakeLiteralName(EX_NameConst("Belegost_APSet_HelmetArmor"));
+            CallFunc_GetManager_ReturnValue_10.DiscoverRecipe(CallFunc_MakeLiteralName_ReturnValue);
+            EX_PopExecutionFlow();
+
+            ExecuteUbergraph_BP_FGKDwarf_3456:
+            while (true) {
+                // Block 61
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_FGKDwarf_3114);
+
+                // Block 62
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_FGKDwarf_1393);
+
+                // Block 63
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_FGKDwarf_2730);
+
+                // Block 64
+                goto ExecuteUbergraph_BP_FGKDwarf_3067;
+
+            }
+
+
+            // Block 65
+            ExecuteUbergraph_BP_FGKDwarf_3481: this.AwardShieldUnlocksInCampaign();
+            EX_PopExecutionFlow();
+
+            // Block 66
+            ExecuteUbergraph_BP_FGKDwarf_3496_ReceiveBeginPlay: goto ExecuteUbergraph_BP_FGKDwarf_3456;
+
+        }
+
+
+        // Block 67
+        ExecuteUbergraph_BP_FGKDwarf_3501:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void OnLoreDiscovered([BlueprintVisible, BlueprintReadOnly] const out ref Struct<MorLoreRowHandle> LoreRowHandle) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_LoreRowHandle", LoreRowHandle);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_3062_OnLoreDiscovered);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void OnItemAdded([BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<ItemHandle> Item, [BlueprintVisible, BlueprintReadOnly, UObjectWrapper] Class ItemClass, [BlueprintVisible, BlueprintReadOnly] int AmountAdded, [BlueprintVisible, BlueprintReadOnly] int TotalCount, [BlueprintVisible, BlueprintReadOnly] bool bParentContainerWasRecentlyAdded) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Item", Item);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_ItemClass", ItemClass);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_AmountAdded", AmountAdded);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_TotalCount", TotalCount);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_bParentContainerWasRecentlyAdded", bParentContainerWasRecentlyAdded);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_2660_OnItemAdded);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnConsumableConsumed([BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] Struct<ItemHandle> ItemHandle) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_ItemHandle", ItemHandle);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_2655_OnConsumableConsumed);
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void BndEvt__BP_FGKDwarf_InventoryComp_K2Node_ComponentBoundEvent_0_InventoryDurabilityChangedSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<ItemHandle> Item, [BlueprintVisible, BlueprintReadOnly] float OldDurability, [BlueprintVisible, BlueprintReadOnly] float NewDurability) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Item", Item);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_OldDurability", OldDurability);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NewDurability", NewDurability);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_2650_BndEvt__BP_FGKDwarf_InventoryComp_K2Node_ComponentBoundEvent_0_InventoryDurabilityChangedSignature__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void OnItemDecomposed([BlueprintVisible, BlueprintReadOnly] const Object<InventoryItem> Item) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Item", Item);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_1944_OnItemDecomposed);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRespawned_Event([BlueprintVisible, BlueprintReadOnly] Object<Actor> RespawnedActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_RespawnedActor", RespawnedActor);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_1836_OnRespawned_Event);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_843_ReceiveTick);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_FGKDwarf_InventoryComp_K2Node_ComponentBoundEvent_0_ItemTypeAddedSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, UObjectWrapper] Class ItemClass) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_ItemClass", ItemClass);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_597_BndEvt__BP_FGKDwarf_InventoryComp_K2Node_ComponentBoundEvent_0_ItemTypeAddedSignature__DelegateSignature);
+
+    }
+
+    [Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent]
+    void OnPlayerUnJoin() {
+        // Block 1
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_477_OnPlayerUnJoin);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveUnpossessed([BlueprintVisible, BlueprintReadOnly] Object<Controller> OldController) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OldController", OldController);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_462_ReceiveUnpossessed);
+
+    }
+
+    [Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent]
+    void OnPlayerJoin() {
+        // Block 1
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_355_OnPlayerJoin);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceivePossessed([BlueprintVisible, BlueprintReadOnly] Object<Controller> NewController) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_NewController", NewController);
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_241_ReceivePossessed);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_FGKDwarf(ExecuteUbergraph_BP_FGKDwarf_3496_ReceiveBeginPlay);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Block 1
+        this.SetMasterPoseComponentForParts();
+        EX_LetObj(this.CharacterWidgetComponent,this.MorOverheadIndicator);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetMasterPoseComponentForParts() {
+        // Block 1
+        this.SK_Legs.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Gloves.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Chest.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Head.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Hair.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Hat.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Extras.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_BaseBody.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Beard.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Backpack.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Hands.SetMasterPoseComponent(this.Mesh, false);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    protected override void GetModularMesh([BlueprintVisible, BlueprintReadOnly] Enum Slot, [Return, InstancedReference] out Object<SkeletalMeshComponent> ReturnValue) {
+        // Locals
+        Enum Temp_byte_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_1;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_2;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_3;
+        [InstancedReference] Object<SkeletalMeshComponent> K2Node_Select_Default;
+
+        // Block 1
+        Temp_byte_Variable = Slot;
+        EX_LetObj(Temp_object_Variable,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_1,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_2,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_3,EX_NoObject());
+        EX_LetObj(ReturnValue,EX_SwitchValue(331, Temp_byte_Variable, K2Node_Select_Default, (byte)(0), 112, this.SK_Hat, (byte)(1), 127, this.SK_Hair, (byte)(2), 142, this.SK_Head, (byte)(3), 157, this.SK_Chest, (byte)(4), 172, this.SK_Gloves, (byte)(5), 187, this.SK_Legs, (byte)(6), 202, this.SK_Extras, (byte)(7), 217, Temp_object_Variable_3, (byte)(8), 232, this.SK_Backpack, (byte)(9), 247, this.SK_Hands, (byte)(10), 262, Temp_object_Variable_2, (byte)(11), 277, Temp_object_Variable_1, (byte)(12), 292, Temp_object_Variable, (byte)(13), 307, this.SK_Beard, (byte)(14), 322, this.SK_BaseBody));
+        return ReturnValue;
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void ForceShadowPrimsOn() {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        [ContainsInstancedReference] ref Array<Object<SceneComponent>> CallFunc_GetChildrenComponents_Children;
+        int CallFunc_Array_Length_ReturnValue;
+        [InstancedReference] Object<SceneComponent> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        [InstancedReference] Object<StaticMeshComponent> K2Node_DynamicCast_AsStatic_Mesh_Component;
+        bool K2Node_DynamicCast_bSuccess;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            ForceShadowPrimsOn_51: CallFunc_GetChildrenComponents_Children = new[] {};
+            this.Mesh.GetChildrenComponents(true, CallFunc_GetChildrenComponents_Children);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetChildrenComponents_Children);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 3
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(ForceShadowPrimsOn_567);
+
+            // Block 4
+            CallFunc_GetChildrenComponents_Children = new[] {};
+            this.Mesh.GetChildrenComponents(true, CallFunc_GetChildrenComponents_Children);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetChildrenComponents_Children, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_AsStatic_Mesh_Component = EX_DynamicCast("StaticMeshComponent", CallFunc_Array_Get_Item);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsStatic_Mesh_Component);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 5
+            CallFunc_EqualEqual_ObjectObject_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(K2Node_DynamicCast_AsStatic_Mesh_Component.StaticMesh, ArcadeEditorSphere));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ObjectObject_ReturnValue);
+
+            // Block 6
+            K2Node_DynamicCast_AsStatic_Mesh_Component.SetCastShadow(false);
+            K2Node_DynamicCast_AsStatic_Mesh_Component.SetCastShadow(true);
+            EX_PopExecutionFlow();
+
+            // Block 7
+            ForceShadowPrimsOn_567: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto ForceShadowPrimsOn_51;
+
+        }
+
+
+        // Block 8
+        ForceShadowPrimsOn_641:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void AwardRecipeUnlocksInSandbox([BlueprintVisible, BlueprintReadOnly] const out ref Struct<MorProgressRowHandle> InProgressKey, [BlueprintVisible, BlueprintReadOnly] out ref Array<Struct<MorLoreRowHandle>> Array) {
+        // Locals
+        int CallFunc_Array_Length_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        bool CallFunc_IsSandbox_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, InProgressKey, this));
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_IsSandbox_ReturnValue, CallFunc_GetProgressPure_ReturnValue));
+
+            if (CallFunc_BooleanAND_ReturnValue) {
+                // Block 2
+                CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+                if (!(CallFunc_HasAuthority_ReturnValue)) goto AwardRecipeUnlocksInSandbox_497;
+
+                // Block 3
+                Temp_int_Loop_Counter_Variable = 0;
+                Temp_int_Array_Index_Variable = 0;
+
+                // Block 4
+                AwardRecipeUnlocksInSandbox_215: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(Array);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!(CallFunc_Less_IntInt_ReturnValue)) goto AwardRecipeUnlocksInSandbox_502;
+
+                // Block 5
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(AwardRecipeUnlocksInSandbox_507);
+
+                // Block 6
+                EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_StoryManager_C));
+                Default__KismetArrayLibrary.Array_Get(Array, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), this);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 7
+            AwardRecipeUnlocksInSandbox_492: return;
+
+            // Block 8
+            AwardRecipeUnlocksInSandbox_497: return;
+
+            // Block 9
+            AwardRecipeUnlocksInSandbox_502: return;
+
+            // Block 10
+            AwardRecipeUnlocksInSandbox_507: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto AwardRecipeUnlocksInSandbox_215;
+
+        }
+
+
+        // Block 11
+        AwardRecipeUnlocksInSandbox_581:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void AwardItemRecipeUnlocksInCampaign([BlueprintVisible, BlueprintReadOnly] Struct<MorProgressRowHandle> ProgressRow, [BlueprintVisible, BlueprintReadOnly] out ref Array<Struct<MorItemRecipeRowHandle>> ItemRecipes) {
+        // Locals
+        int CallFunc_Array_Length_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Struct<MorItemRecipeRowHandle> CallFunc_Array_Get_Item;
+        Name CallFunc_GetRowNameFromHandle_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        bool CallFunc_IsSandbox_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+            CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_IsSandbox_ReturnValue));
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, ProgressRow, this));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_GetProgressPure_ReturnValue, CallFunc_Not_PreBool_ReturnValue));
+
+            if (CallFunc_BooleanAND_ReturnValue) {
+                // Block 2
+                CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+                if (!(CallFunc_HasAuthority_ReturnValue)) goto AwardItemRecipeUnlocksInCampaign_546;
+
+                // Block 3
+                EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+                Temp_int_Loop_Counter_Variable = 0;
+                Temp_int_Array_Index_Variable = 0;
+
+                // Block 4
+                AwardItemRecipeUnlocksInCampaign_265: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(ItemRecipes);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!(CallFunc_Less_IntInt_ReturnValue)) goto AwardItemRecipeUnlocksInCampaign_551;
+
+                // Block 5
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(AwardItemRecipeUnlocksInCampaign_556);
+
+                // Block 6
+                Default__KismetArrayLibrary.Array_Get(ItemRecipes, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetRowNameFromHandle_ReturnValue = FGKStaticDataFunctionLibrary.GetRowNameFromHandle(CallFunc_Array_Get_Item);
+                CallFunc_GetDiscoveryManager_ReturnValue.DiscoverRecipe(CallFunc_GetRowNameFromHandle_ReturnValue);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 7
+            AwardItemRecipeUnlocksInCampaign_546: return;
+
+            // Block 8
+            AwardItemRecipeUnlocksInCampaign_551: return;
+
+            // Block 9
+            AwardItemRecipeUnlocksInCampaign_556: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto AwardItemRecipeUnlocksInCampaign_265;
+
+        }
+
+
+        // Block 10
+        AwardItemRecipeUnlocksInCampaign_630:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void DoesPlayerHaveRecipe([BlueprintVisible, BlueprintReadOnly] Struct<MorItemRecipeRowHandle> RowHandle, out bool bHasRecipe) {
+        // Locals
+        Enum CallFunc_GetItemRecipeDefinition_OutResult;
+        Struct<MorItemRecipeDefinition> CallFunc_GetItemRecipeDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Enum CallFunc_GetItemRecipeState_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess_1;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetItemRecipeDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetItemRecipeDefinition(RowHandle, CallFunc_GetItemRecipeDefinition_OutResult);
+        K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetItemRecipeDefinition_OutResult, (byte)(0)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 2
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetItemRecipeDefinition_OutResult, (byte)(1)));
+            if (!(K2Node_SwitchEnum_CmpSuccess)) goto DoesPlayerHaveRecipe_377;
+
+            // Block 3
+            return;
+
+        }
+
+
+        // Block 4
+        DoesPlayerHaveRecipe_162: CallFunc_GetItemRecipeState_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetItemRecipeState(CallFunc_GetItemRecipeDefinition_ReturnValue);
+        K2Node_SwitchEnum_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetItemRecipeState_ReturnValue, (byte)(1)));
+
+        if (K2Node_SwitchEnum_CmpSuccess_1) {
+            // Block 5
+            K2Node_SwitchEnum_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetItemRecipeState_ReturnValue, (byte)(2)));
+            if (!(K2Node_SwitchEnum_CmpSuccess_1)) goto DoesPlayerHaveRecipe_361;
+
+            // Block 6
+            K2Node_SwitchEnum_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetItemRecipeState_ReturnValue, (byte)(4)));
+            if (!(K2Node_SwitchEnum_CmpSuccess_1)) goto DoesPlayerHaveRecipe_393;
+
+            // Block 7
+            return;
+
+        }
+
+
+        // Block 8
+        DoesPlayerHaveRecipe_361: bHasRecipe = (bool)(false);
+        return;
+
+        // Block 9
+        DoesPlayerHaveRecipe_377: bHasRecipe = (bool)(false);
+        return;
+
+        // Block 10
+        DoesPlayerHaveRecipe_393: bHasRecipe = (bool)(true);
+
+        // Block 11
+        DoesPlayerHaveRecipe_404:
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void AwardShieldUnlocksInCampaign() {
+        // Locals
+        [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorDiscoveryManager> DiscoveryManager;
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_IsSandbox_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        ref Array<Struct<MorProgressRowHandle>> CallFunc_Map_Keys_Keys;
+        Struct<MorProgressRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        Struct<MorItemRecipeRowHandle> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Name CallFunc_GetRowNameFromHandle_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 2
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+
+            if (CallFunc_IsSandbox_ReturnValue) {
+                // Block 3
+                break;
+
+            }
+
+
+            // Block 4
+            AwardShieldUnlocksInCampaign_71: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            EX_LetObj(DiscoveryManager,CallFunc_GetDiscoveryManager_ReturnValue);
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(DiscoveryManager));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 5
+            CallFunc_Map_Keys_Keys = new[] {};
+            Default__BlueprintMapLibrary.Map_Keys(this.Campaign_ItemAwards_ShieldsFromSandbox, CallFunc_Map_Keys_Keys);
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 6
+            AwardShieldUnlocksInCampaign_257: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_Map_Keys_Keys);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 7
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(AwardShieldUnlocksInCampaign_931);
+
+            // Block 8
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_GetProgressValue_ReturnValue = DiscoveryManager.GetProgressValue(CallFunc_Array_Get_Item);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.Campaign_ItemAwards_ShieldsFromSandbox, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_GetProgressValue_ReturnValue, 0));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Greater_IntInt_ReturnValue, CallFunc_Map_Find_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+            // Block 9
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.Campaign_ItemAwards_ShieldsFromSandbox, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_GetRowNameFromHandle_ReturnValue = FGKStaticDataFunctionLibrary.GetRowNameFromHandle(CallFunc_Map_Find_Value);
+            DiscoveryManager.DiscoverRecipe(CallFunc_GetRowNameFromHandle_ReturnValue);
+            EX_PopExecutionFlow();
+
+            // Block 10
+            AwardShieldUnlocksInCampaign_931: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto AwardShieldUnlocksInCampaign_257;
+
+        }
+
+
+        // Block 11
+        AwardShieldUnlocksInCampaign_1005:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void AwardRecipeUnlocksInSandboxWithRecipeNames([BlueprintVisible, BlueprintReadOnly] const out ref Struct<MorProgressRowHandle> InProgressKey, [BlueprintVisible, BlueprintReadOnly] out ref Array<Name> Array) {
+        // Locals
+        int CallFunc_Array_Length_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Name CallFunc_Array_Get_Item;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<BP_DiscoveryManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        bool CallFunc_IsSandbox_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, InProgressKey, this));
+            CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_IsSandbox_ReturnValue, CallFunc_GetProgressPure_ReturnValue));
+
+            if (CallFunc_BooleanAND_ReturnValue) {
+                // Block 2
+                CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+                if (!(CallFunc_HasAuthority_ReturnValue)) goto AwardRecipeUnlocksInSandboxWithRecipeNames_494;
+
+                // Block 3
+                Temp_int_Loop_Counter_Variable = 0;
+                Temp_int_Array_Index_Variable = 0;
+
+                // Block 4
+                AwardRecipeUnlocksInSandboxWithRecipeNames_215: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(Array);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                if (!(CallFunc_Less_IntInt_ReturnValue)) goto AwardRecipeUnlocksInSandboxWithRecipeNames_499;
+
+                // Block 5
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(AwardRecipeUnlocksInSandboxWithRecipeNames_504);
+
+                // Block 6
+                EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_DiscoveryManager_C));
+                Default__KismetArrayLibrary.Array_Get(Array, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.DiscoverRecipe(CallFunc_Array_Get_Item);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 7
+            AwardRecipeUnlocksInSandboxWithRecipeNames_489: return;
+
+            // Block 8
+            AwardRecipeUnlocksInSandboxWithRecipeNames_494: return;
+
+            // Block 9
+            AwardRecipeUnlocksInSandboxWithRecipeNames_499: return;
+
+            // Block 10
+            AwardRecipeUnlocksInSandboxWithRecipeNames_504: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto AwardRecipeUnlocksInSandboxWithRecipeNames_215;
+
+        }
+
+
+        // Block 11
+        AwardRecipeUnlocksInSandboxWithRecipeNames_578:
+
+    }
+
+}

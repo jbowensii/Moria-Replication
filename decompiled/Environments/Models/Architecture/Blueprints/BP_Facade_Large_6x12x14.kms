@@ -1,0 +1,271 @@
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public ChildActorComponent Default__ChildActorComponent;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshActor {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class Default__StaticMeshActor {
+    public Object StaticMeshComponent0;
+}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Environments/Models/NaturalDeco/Meshes/SM_AR_Deco_E")]
+public StaticMesh SM_AR_Deco_E;
+
+
+[Import("/Game/Environments/Models/NaturalDeco/Meshes/SM_AR_Deco_D")]
+public StaticMesh SM_AR_Deco_D;
+
+
+[Import("/Game/Environments/Models/NaturalDeco/Meshes/SM_AR_Deco_B")]
+public StaticMesh SM_AR_Deco_B;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_WallThin_3x3_C")]
+public StaticMesh SM_AR_WallThin_3x3_C;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_WallThin_3x3_A")]
+public StaticMesh SM_AR_WallThin_3x3_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_Column_1x2_A")]
+public StaticMesh SM_AR_Wall_Column_1x2_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_Column_1x1_A")]
+public StaticMesh SM_AR_Wall_Column_1x1_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_3x3_Door_A")]
+public StaticMesh SM_AR_Wall_3x3_Door_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_3x3_A")]
+public StaticMesh SM_AR_Wall_3x3_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_3x2_A")]
+public StaticMesh SM_AR_Wall_3x2_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_2x2_Arch_A")]
+public StaticMesh SM_AR_Wall_2x2_Arch_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_2x2_A")]
+public StaticMesh SM_AR_Wall_2x2_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Wall_1x2_A")]
+public StaticMesh SM_AR_Wall_1x2_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Stairs_2x2x2-5_A")]
+public StaticMesh `SM_AR_Stairs_2x2x2-5_A`;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Stairs_1x2x1-5_A")]
+public StaticMesh `SM_AR_Stairs_1x2x1-5_A`;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Floor_2x2_A")]
+public StaticMesh SM_AR_Floor_2x2_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Column_2x2_Base_A")]
+public StaticMesh SM_AR_Column_2x2_Base_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Column_2x2_A")]
+public StaticMesh SM_AR_Column_2x2_A;
+
+
+[Import("/Game/Art/Assets/Blockout/SM_AR_Column_1x2_Base_A")]
+public StaticMesh SM_AR_Column_1x2_Base_A;
+
+
+[Import("/Game/Unshippable/Whitebox/Rocks/Materials/PWM_GenericMaterial_Normals_mat")]
+public Material PWM_GenericMaterial_Normals_mat;
+
+
+[Import("/Game/Unshippable/Whitebox/Rocks/Materials/PWM_GenericMaterial")]
+public Material PWM_GenericMaterial;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Facade_Large_6x12x14_C : StaticMeshActor {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A106;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A105;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A104;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A103;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A102;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A101;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A100;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A44;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_E8;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_E7;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_E6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B59;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B58;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B57;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B56;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B55;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B54;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B53;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B44;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B43;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_B42;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D62;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D61;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D60;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D59;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D58;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D57;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D56;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D55;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D54;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D53;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D52;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D51;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D50;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D49;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D48;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D47;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D46;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D45;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D44;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D43;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D42;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D15;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D14;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D13;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D12;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Deco_D9;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A82;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A81;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_1x2_Base_A12;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_1x2_Base_A11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> `SM_AR_Stairs_1x2x1-5_A62`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_A17;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_A16;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_A15;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_A14;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> `SM_AR_Stairs_1x2x1-5_A61`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x1_A25;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A70;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A69;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A68;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A67;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_1x2_A20;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_1x2_A19;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_1x2_A18;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_1x2_A17;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_1x2_A12;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_1x2_A11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_Arch_A11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_Arch_A10;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_2x2_Arch_A9;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Floor_2x2_A420;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Stairs_2x2x3_A12;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Stairs_2x2x3_A11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Floor_2x2_A419;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Floor_2x2_A418;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Floor_2x2_A417;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x1_A24;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A62;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A61;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A60;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A59;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x1_A23;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A58;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A57;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A53;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_Column_1x2_A52;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A80;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A79;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A78;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A77;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A76;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_Base_A19;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A75;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A74;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A73;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A72;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_A71;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Column_2x2_Base_A18;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A57;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A56;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A55;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A54;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A45;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A43;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A41;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x2_A39;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_WallThin_3x3_A60;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_WallThin_3x3_C54;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A227;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A226;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A225;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A224;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_Door_A35;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_WallThin_3x3_A59;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_WallThin_3x3_C53;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A223;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A222;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A221;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_A216;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> SM_AR_Wall_3x3_Door_A34;
+}

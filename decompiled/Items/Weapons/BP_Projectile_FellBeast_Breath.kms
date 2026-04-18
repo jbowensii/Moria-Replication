@@ -1,0 +1,189 @@
+
+[Import("/Script/Moria")]
+public class MoriaProjectileShadow {}
+
+[Import("/Script/Moria")]
+public class MorProjectileMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFogEmitterComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowNiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowProximityFXComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MoriaProjectileShadow {
+    public Object AkComponent;
+    public Object ProjectileMovement;
+    public Object EmitterComponent;
+    public Object ShadowNiagaraComponent;
+    public Object ProximityFXComponent;
+    public Object RootComponent;
+    public Object Mesh;
+}
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFluidComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/FX/PostProcess/luts/LUT_shadow_postFX_PH")]
+public Texture2D LUT_shadow_postFX_PH;
+
+
+[Import("/Game/FX/ShadowFog/Niagara/NS_ShadowFiend_Trail")]
+public NiagaraSystem NS_ShadowFiend_Trail;
+
+
+[Import("/Game/FX/CombatFX/Projectiles/Troll_Throwables/Niagara/NS_TrollKing_Burst")]
+public NiagaraSystem NS_TrollKing_Burst;
+
+
+[Import("/Game/Items/Weapons/GE_FellBeast_BreathDirectHit")]
+public class GE_FellBeast_BreathDirectHit_C {}
+
+[Import("/Game/Items/Weapons/GE_FellBeast_BreathDirectHit")]
+public GE_FellBeast_BreathDirectHit_C Default__GE_FellBeast_BreathDirectHit_C;
+
+
+[Import("/Game/Items/Weapons/GE_FellBeast_BreathBurstHit")]
+public class GE_FellBeast_BreathBurstHit_C {}
+
+[Import("/Game/Items/Weapons/GE_FellBeast_BreathBurstHit")]
+public GE_FellBeast_BreathBurstHit_C Default__GE_FellBeast_BreathBurstHit_C;
+
+
+[Import("/Game/Character/Creatures/Dragon/BP_FellBeast_Projectile_ShadowVent")]
+public class BP_FellBeast_Projectile_ShadowVent_C {
+    public AkComponent VentSound_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public DecalComponent Decal_0_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public MorShadowFluidComponent MorShadowFluid_GEN_VARIABLE;
+    public MorShadowFogEmitterComponent MorShadowFogEmitter_GEN_VARIABLE;
+    public MorShadowNiagaraComponent MorShadowNiagara_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Scene_GEN_VARIABLE;
+    public SphereComponent ShadowFogPoisonRadius_GEN_VARIABLE;
+    public StaticMeshComponent GPI_ShadowVent_All_A_GEN_VARIABLE;
+    public StaticMeshComponent Rubble_Masonry_Pile_I_GEN_VARIABLE;
+    public TimelineTemplate Fissures_Template;
+    public AkComponent VentSound;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public DecalComponent Decal_0;
+    public MorPointLightComponent MorPointLight;
+    public MorShadowFluidComponent MorShadowFluid;
+    public MorShadowFogEmitterComponent MorShadowFogEmitter;
+    public MorShadowNiagaraComponent MorShadowNiagara;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Scene;
+    public SphereComponent ShadowFogPoisonRadius;
+    public StaticMeshComponent GPI_ShadowVent_All_A;
+    public StaticMeshComponent Rubble_Masonry_Pile_I;
+}
+
+[Import("/Game/Character/Creatures/Dragon/BP_FellBeast_Projectile_ShadowVent")]
+public class Default__BP_FellBeast_Projectile_ShadowVent_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Elementals/fx_plr_wpn_elemental_impact_corrosive_play")]
+public AkAudioEvent fx_plr_wpn_elemental_impact_corrosive_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Fell_Beast/fx_npc_fell_beat_shadow_projectile_stop")]
+public AkAudioEvent fx_npc_fell_beat_shadow_projectile_stop;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Fell_Beast/fx_npc_fell_beat_shadow_projectile_play")]
+public AkAudioEvent fx_npc_fell_beat_shadow_projectile_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Projectile_FellBeast_Breath_C : MoriaProjectileShadow {
+}

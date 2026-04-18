@@ -1,0 +1,855 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVariableFloat();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableInt();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableVec3();
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceArrayFloat {}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceArrayFloat3 {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public NiagaraDataInterfaceArrayFloat Default__NiagaraDataInterfaceArrayFloat;
+
+[Import("/Script/Niagara")]
+public NiagaraDataInterfaceArrayFloat3 Default__NiagaraDataInterfaceArrayFloat3;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public Object NiagaraInt32;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/MovieScene")]
+public class MovieSceneSequencePlayer {
+    [UnknownSignature, FinalFunction] public sealed void GoToEndAndStop();
+    [UnknownSignature, FinalFunction] public sealed void Play();
+}
+
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void SetProgress();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public class MorLevelSequenceActor : LevelSequenceActor {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {
+    public LightComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public class MorPostActivateActorInitializer {}
+
+[Import("/Script/Moria")]
+public class MorShadowFogEmitterActor : Actor {
+    public AnonymousClass_09659bea70ae435ca08afc926031aa13 EmitterComponent;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Script/Moria")]
+public class MorShadowFogEmitterComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowNiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowProximityFXComponent {}
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+[Import("/Script/Moria")]
+public class Default__MorShadowFogEmitterActor {
+    public Object EmitterComponent;
+    public Object ShadowNiagaraComponent;
+    public Object ProximityFXComponent;
+}
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+[Import("/Script/Moria")]
+public class AnonymousClass_09659bea70ae435ca08afc926031aa13 {
+    [UnknownSignature, FinalFunction] public sealed void GetNiagaraComponent();
+}
+
+
+[Import("/Script/LevelSequence")]
+public class LevelSequenceActor {
+    [UnknownSignature, FinalFunction] public sealed void GetSequencePlayer();
+}
+
+[Import("/Script/LevelSequence")]
+public class LevelSequencePlayer : MovieSceneSequencePlayer {}
+
+
+[Import("/Script/FGKStaticData")]
+public static class FGKStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValidRowHandle();
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveBeginPlay;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class CurveLinearColor {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+    [UnknownSignature, FinalFunction] public sealed void SetLightColor();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public CurveLinearColor Default__CurveLinearColor;
+
+[Import("/Script/Engine")]
+public DecalComponent Default__DecalComponent;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public PostProcessComponent Default__PostProcessComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class UserDefinedEnum {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void Stop();
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/FX/ShadowCurse/Blueprints/DecalAlignmentType")]
+public UserDefinedEnum DecalAlignmentType;
+
+
+[Import("/Game/FX/ShadowCurse/Niagara/NS_ShadowCurse_v1")]
+public NiagaraSystem NS_ShadowCurse_v1;
+
+
+[Import("/Game/FX/ShadowCurse/Niagara/NS_ShadowCurse_HitBurst")]
+public NiagaraSystem NS_ShadowCurse_HitBurst;
+
+
+[Import("/Game/FX/ShadowCurse/Niagara/NS_ShadowCurse_BreakBurst")]
+public NiagaraSystem NS_ShadowCurse_BreakBurst;
+
+
+[Import("/Game/FX/ShadowCurse/Materials/M_Decal_ShadowRunes_Inst")]
+public MaterialInstanceConstant M_Decal_ShadowRunes_Inst;
+
+
+[Import("/Game/FX/ShadowCurse/Blueprints/Curve_ShadowShock")]
+public CurveFloat Curve_ShadowShock;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetProgressPure();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/Items/Holdables/EQ_Epic_DurinsAxe")]
+public class EQ_Epic_DurinsAxe_C {
+    public FGKAkComponent CraftCompleteAudioCompontent_GEN_VARIABLE;
+    public NiagaraComponent DurinsAxeForgeVFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent IronPickAxe_Mesh_GEN_VARIABLE;
+    public TransformLocatorComponent HitTransformLocator_GEN_VARIABLE;
+    public InheritableComponentHandler InheritableComponentHandler;
+    public FGKAkComponent CraftCompleteAudioCompontent;
+    public NiagaraComponent DurinsAxeForgeVFX;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent IronPickAxe_Mesh;
+    public TransformLocatorComponent HitTransformLocator;
+}
+
+[Import("/Game/Items/Holdables/EQ_Epic_DurinsAxe")]
+public class Default__EQ_Epic_DurinsAxe_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Scripted_Events/Curse_Destruction/fx_scr_curse_impact_play")]
+public AkAudioEvent fx_scr_curse_impact_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Scripted_Events/Curse_Destruction/fx_scr_curse_destruction_play")]
+public AkAudioEvent fx_scr_curse_destruction_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Amb/fx_amb_shadow_harmless_decoration")]
+public AkAudioEvent fx_amb_shadow_harmless_decoration;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShadowFogEmitter_WithRune_Circular_C : MorShadowFogEmitterActor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_ShadowCurse_BreakBurst;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_ShadowCurse_HitBurst;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PostProcessComponent> PostProcess;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> ShadowRuneSounds;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecalComponent> Decal;
+    float Timeline_0_Shadowburst_E259E05F41CF493270CCD591C34A18B9;
+    byte Timeline_0__Direction_E259E05F41CF493270CCD591C34A18B9;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    Struct<LinearColor> ShadowBreak_LightColorTrack_F60F258F43DCC8E99C503EBD3037B957;
+    float ShadowBreak_LightTrack1_F60F258F43DCC8E99C503EBD3037B957;
+    float ShadowBreak_ShadowSpawnRate_F60F258F43DCC8E99C503EBD3037B957;
+    float ShadowBreak_ShadowExpellForce_F60F258F43DCC8E99C503EBD3037B957;
+    float ShadowBreak_ShadowDissolve_F60F258F43DCC8E99C503EBD3037B957;
+    float ShadowBreak_ShadowBreak_F60F258F43DCC8E99C503EBD3037B957;
+    byte ShadowBreak__Direction_F60F258F43DCC8E99C503EBD3037B957;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> ShadowBreak;
+    float ShadowBurst1_Shadowburst_89356CB542157A1580B809BD25BCFAC2;
+    byte ShadowBurst1__Direction_89356CB542157A1580B809BD25BCFAC2;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> ShadowBurst1;
+    [Edit, BlueprintVisible] byte `Decal Alignment`;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<EQ_Epic_DurinsAxe_C> WeaponCheck;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<EQ_Epic_DurinsAxe_C> DurinsAxe;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> DynamicDecal;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Name> FloatNames;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Name> VectorNames;
+    [Edit, BlueprintVisible] Map FloatParameters;
+    [Edit, BlueprintVisible] Map VectorParameters;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<CurveFloat> Curve;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorLevelSequenceActor> MorLevelSequence;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<int> IntArray_Sparks;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> BlockageProgressRow;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_1;
+        const Delegate Temp_delegate_Variable_1;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_2;
+        const Delegate Temp_delegate_Variable_2;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        bool CallFunc_HasAuthority_ReturnValue_2;
+        int Temp_int_Variable;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_GetNiagaraComponent_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue;
+        int CallFunc_Array_Get_Item;
+        bool CallFunc_IsValidRowHandle_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_IsValidRowHandle_ReturnValue_1;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        int CallFunc_PostEvent_ReturnValue;
+        int CallFunc_PostEvent_ReturnValue_1;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue_1;
+        int CallFunc_PostAkEvent_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_15: this.ShadowRuneSounds.Stop();
+            this.K2_DestroyActor();
+            break;
+
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_66:
+            while (true) {
+                // Block 3
+                this.NS_ShadowCurse_HitBurst.Activate(true);
+                Default__KismetArrayLibrary.Array_Get(this.IntArray_Sparks, Temp_int_Variable, CallFunc_Array_Get_Item);
+                this.NS_ShadowCurse_HitBurst.SetVariableInt(EX_NameConst("SpawnCount"), CallFunc_Array_Get_Item);
+                this.ShadowBurst1.PlayFromStart();
+                break;
+
+            }
+
+
+            // Block 4
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_254: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 5
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_323: CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, 3));
+            if (!CallFunc_LessEqual_IntInt_ReturnValue) break;
+
+            // Block 6
+            goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_66;
+
+            // Block 7
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_372_ShadowBreak__FinishedFunc: CallFunc_HasAuthority_ReturnValue_2 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_2) break;
+
+            // Block 8
+            goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_15;
+
+            // Block 9
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_407: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 10
+            CallFunc_PostEvent_ReturnValue_1 = Default__AkGameplayStatics.PostEvent(fx_scr_curse_destruction_play, this, 0, Temp_delegate_Variable_1, Temp_struct_Variable_1, false, "");
+            EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue,this.MorLevelSequence.GetSequencePlayer());
+            CallFunc_GetSequencePlayer_ReturnValue.Play();
+            this.ShowBreakageToAll();
+            CallFunc_IsValidRowHandle_ReturnValue = (bool)(FGKStaticDataFunctionLibrary.IsValidRowHandle(this.BlockageProgressRow));
+            if (!CallFunc_IsValidRowHandle_ReturnValue) break;
+
+            // Block 11
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_GetDiscoveryManager_ReturnValue.SetProgress(this.BlockageProgressRow);
+            break;
+
+            // Block 12
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_713: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_1) break;
+
+            // Block 13
+            CallFunc_IsValidRowHandle_ReturnValue_1 = (bool)(FGKStaticDataFunctionLibrary.IsValidRowHandle(this.BlockageProgressRow));
+            if (!CallFunc_IsValidRowHandle_ReturnValue_1) break;
+
+            // Block 14
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.BlockageProgressRow, this));
+            if (!CallFunc_GetProgressPure_ReturnValue) break;
+
+            // Block 15
+            EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue_1,this.MorLevelSequence.GetSequencePlayer());
+            CallFunc_GetSequencePlayer_ReturnValue_1.GoToEndAndStop();
+            this.K2_DestroyActor();
+            break;
+
+            // Block 16
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_938_ReceiveBeginPlay: CallFunc_PostAkEvent_ReturnValue = this.ShadowRuneSounds.PostAkEvent(fx_amb_shadow_harmless_decoration, 0, Temp_delegate_Variable_2, Temp_struct_Variable_2, "");
+            break;
+
+            // Block 17
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1027: this.DynamicDecal.SetScalarParameterValue(EX_NameConst("ShockScalar"), this.ShadowBurst1_Shadowburst_89356CB542157A1580B809BD25BCFAC2);
+            break;
+
+            // Block 18
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1082_DurinsAxeHit: CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_scr_curse_impact_play, this, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+            Temp_int_Variable = 0;
+            goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_323;
+
+            // Block 19
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1196_BlockageBreak: goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_407;
+
+            // Block 20
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1201: this.NS_ShadowCurse_BreakBurst.Activate(true);
+            this.Timeline_0.PlayFromStart();
+            break;
+
+            // Block 21
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1271: EX_LetObj(CallFunc_GetNiagaraComponent_ReturnValue,this.EmitterComponent.GetNiagaraComponent());
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetNiagaraComponent_ReturnValue));
+            if (!CallFunc_IsValid_ReturnValue) break;
+
+            // Block 22
+            CallFunc_GetNiagaraComponent_ReturnValue.SetVariableFloat(EX_NameConst("BreakForce"), this.ShadowBreak_ShadowExpellForce_F60F258F43DCC8E99C503EBD3037B957);
+            CallFunc_GetNiagaraComponent_ReturnValue.SetVariableFloat(EX_NameConst("SpawnRate"), this.ShadowBreak_ShadowSpawnRate_F60F258F43DCC8E99C503EBD3037B957);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.ShadowBreak_LightTrack1_F60F258F43DCC8E99C503EBD3037B957, 5f);
+            this.MorPointLight.PointLight.SetIntensity(CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.MorPointLight.PointLight.SetLightColor(this.ShadowBreak_LightColorTrack_F60F258F43DCC8E99C503EBD3037B957, true);
+            break;
+
+            // Block 23
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1630: this.DynamicDecal.SetScalarParameterValue(EX_NameConst("DissolveValue"), this.ShadowBreak_ShadowDissolve_F60F258F43DCC8E99C503EBD3037B957);
+            goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1271;
+
+            // Block 24
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1689: this.DynamicDecal.SetScalarParameterValue(EX_NameConst("ShockScalar"), this.ShadowBreak_ShadowBreak_F60F258F43DCC8E99C503EBD3037B957);
+            goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1630;
+
+            // Block 25
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1748_Timeline_0__UpdateFunc: this.DynamicDecal.SetScalarParameterValue(EX_NameConst("ShockScalar"), this.Timeline_0_Shadowburst_E259E05F41CF493270CCD591C34A18B9);
+            break;
+
+            // Block 26
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1803_Timeline_0__FinishedFunc: this.ShadowBreak.PlayFromStart();
+            break;
+
+            // Block 27
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1836_ShadowBurst1__UpdateFunc: goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1027;
+
+            // Block 28
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1841_ShowBreakageToAll: goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1201;
+
+            // Block 29
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1846_PostActivateInitialize: this.Initialize();
+            break;
+
+            // Block 30
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1861_ShadowBurst1__FinishedFunc: break;
+
+            // Block 31
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1862_ShadowBreak__UpdateFunc: goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1689;
+
+            // Block 32
+            ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1867_Initialize: goto ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_713;
+
+        }
+
+
+        // Block 33
+        ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1872:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void Initialize() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1867_Initialize);
+
+    }
+
+    [Event, BlueprintEvent]
+    public void PostActivateInitialize() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1846_PostActivateInitialize);
+
+    }
+
+    [Net, NetMulticast, BlueprintCallable, BlueprintEvent]
+    void ShowBreakageToAll() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1841_ShowBreakageToAll);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void BlockageBreak() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1196_BlockageBreak);
+
+    }
+
+    [Net, NetMulticast, BlueprintCallable, BlueprintEvent]
+    void DurinsAxeHit() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1082_DurinsAxeHit);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_938_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1748_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1803_Timeline_0__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void ShadowBreak__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1862_ShadowBreak__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void ShadowBreak__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_372_ShadowBreak__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void ShadowBurst1__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1836_ShadowBurst1__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void ShadowBurst1__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular(ExecuteUbergraph_BP_ShadowFogEmitter_WithRune_Circular_1861_ShadowBurst1__FinishedFunc);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        int Temp_int_Variable;
+        bool CallFunc_LessEqual_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Variable_1;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_GetNiagaraComponent_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_GetNiagaraComponent_ReturnValue_1;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        bool CallFunc_LessEqual_IntInt_ReturnValue_1;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        Struct<Vector> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        float CallFunc_Map_Find_Value_1;
+        bool CallFunc_Map_Find_ReturnValue_1;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+
+        while (true) {
+            while (true) {
+                while (true) {
+                    // Block 1
+                    EX_LetObj(CallFunc_GetNiagaraComponent_ReturnValue_1,this.EmitterComponent.GetNiagaraComponent());
+                    CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetNiagaraComponent_ReturnValue_1));
+                    EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_1);
+
+                    // Block 2
+                    Temp_int_Variable = 0;
+
+                    // Block 3
+                    UserConstructionScript_119: CallFunc_LessEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable, 4));
+                    EX_PopExecutionFlowIfNot(CallFunc_LessEqual_IntInt_ReturnValue);
+
+                    // Block 4
+                    EX_PushExecutionFlow(UserConstructionScript_1078);
+
+                    // Block 5
+                    CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.FloatParameters, EX_ArrayGetByRef(this.FloatNames, Temp_int_Variable), CallFunc_Map_Find_Value_1));
+                    CallFunc_GetNiagaraComponent_ReturnValue_1.SetVariableFloat(EX_ArrayGetByRef(this.FloatNames, Temp_int_Variable), CallFunc_Map_Find_Value_1);
+                    EX_PopExecutionFlow();
+
+                }
+
+
+                // Block 6
+                UserConstructionScript_308: EX_LetObj(CallFunc_GetNiagaraComponent_ReturnValue,this.EmitterComponent.GetNiagaraComponent());
+                CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetNiagaraComponent_ReturnValue));
+                if (!CallFunc_IsValid_ReturnValue) break;
+
+                // Block 7
+                Temp_int_Variable_1 = 0;
+
+                // Block 8
+                UserConstructionScript_412: CallFunc_LessEqual_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.LessEqual_IntInt(Temp_int_Variable_1, 4));
+                if (!CallFunc_LessEqual_IntInt_ReturnValue_1) break;
+
+                while (true) {
+                    // Block 9
+                    CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.VectorParameters, EX_ArrayGetByRef(this.VectorNames, Temp_int_Variable_1), CallFunc_Map_Find_Value));
+                    CallFunc_GetNiagaraComponent_ReturnValue.SetVariableVec3(EX_ArrayGetByRef(this.VectorNames, Temp_int_Variable_1), CallFunc_Map_Find_Value);
+                    break;
+
+                }
+
+
+                // Block 10
+                UserConstructionScript_601: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_1, 1);
+                Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+                goto UserConstructionScript_412;
+
+            }
+
+
+            // Block 11
+            UserConstructionScript_675: EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,this.Decal.CreateDynamicMaterialInstance());
+            EX_LetObj(this.DynamicDecal,CallFunc_CreateDynamicMaterialInstance_ReturnValue);
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(this.`Decal Alignment`, (byte)(0)));
+
+            if (K2Node_SwitchEnum_CmpSuccess) {
+                // Block 12
+                K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(this.`Decal Alignment`, (byte)(1)));
+
+                if (K2Node_SwitchEnum_CmpSuccess) {
+                    // Block 13
+                    K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(this.`Decal Alignment`, (byte)(2)));
+                    if (!(K2Node_SwitchEnum_CmpSuccess)) goto UserConstructionScript_1152;
+
+                    // Block 14
+                    break;
+
+                }
+
+
+                // Block 15
+                UserConstructionScript_876: CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("XYorZ_Align"), 0f);
+                CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("X_or_Y_aligned"), 1f);
+                break;
+
+            }
+
+
+            // Block 16
+            UserConstructionScript_977: CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("XYorZ_Align"), 0f);
+            CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("X_or_Y_aligned"), 0f);
+            break;
+
+            // Block 17
+            UserConstructionScript_1078: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto UserConstructionScript_119;
+
+            // Block 18
+            UserConstructionScript_1152: CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("XYorZ_Align"), 1f);
+            break;
+
+        }
+
+
+        // Block 19
+        UserConstructionScript_1203:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void BlockageDestroyedInSaveFile() {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        bool CallFunc_IsValidRowHandle_ReturnValue;
+
+        // Block 1
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 2
+        CallFunc_IsValidRowHandle_ReturnValue = (bool)(FGKStaticDataFunctionLibrary.IsValidRowHandle(this.BlockageProgressRow));
+        if (!CallFunc_IsValidRowHandle_ReturnValue) return;
+
+        // Block 3
+        CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.BlockageProgressRow, this));
+
+        if (CallFunc_GetProgressPure_ReturnValue) {
+            // Block 4
+            return;
+
+        }
+
+
+        // Block 5
+        BlockageDestroyedInSaveFile_153: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgress(this.BlockageProgressRow);
+        this.Initialize();
+
+        // Block 6
+        BlockageDestroyedInSaveFile_229:
+
+    }
+
+}

@@ -1,0 +1,1330 @@
+
+[Import("/Script/UMG")]
+public class UserWidget {}
+
+[Import("/Script/UMG")]
+public class WidgetComponent {
+    [UnknownSignature, VirtualFunction] public virtual void GetWidget();
+}
+
+[Import("/Script/UMG")]
+public WidgetComponent Default__WidgetComponent;
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass : FGKUIScreen {
+    [UnknownSignature, LocalVirtualFunction] public virtual void Init();
+    [UnknownSignature, LocalVirtualFunction] public virtual void UpdateMerchantStatus();
+}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Character {
+    public Object GetModularMesh;
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEconomyManager {
+    public ObjectProperty OnUpdateTraders;
+}
+
+[Import("/Script/Moria")]
+public static class MorEconomyUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetEconomyManager();
+    [UnknownSignature, MathFunction] public static sealed void GetStallForMerchant();
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorMerchantComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetMerchantRowHandle();
+}
+
+[Import("/Script/Moria")]
+public class MorNPCConversationComponent {}
+
+[Import("/Script/Moria")]
+public static class MorUIManager : FGKUIManager {
+    [UnknownSignature, MathFunction] public static sealed void BPGetManager();
+}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public CustomizationManager Default__CustomizationManager;
+
+[Import("/Script/Moria")]
+public Object MorEconomyUpdateTraders__DelegateSignature;
+
+[Import("/Script/Moria")]
+public class Default__MorCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public MorMerchantComponent Default__MorMerchantComponent;
+
+[Import("/Script/Moria")]
+public MorNPCConversationComponent Default__MorNPCConversationComponent;
+
+[Import("/Script/Moria")]
+public Object MorMerchantRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorMerchantStall;
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_EquipOverride {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorAttributeDisplaySettings {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorCharacterState_Hide {}
+
+[Import("/Script/Moria")]
+public class MorCondition_IsAbilityActive {}
+
+[Import("/Script/Moria")]
+public class MorDestroyOnEmptyInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorNpcTuningData {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorPreciousssComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorRemoveWaypointOnInteractComponent {}
+
+[Import("/Script/Moria")]
+public class MorRemoveWaypointOnInventoryChangeComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+[Import("/Script/Moria")]
+public class SurvivalSettings {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIManager {
+    [UnknownSignature, FinalFunction] public sealed void GetScreen();
+}
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIScreen {
+    [UnknownSignature, FinalFunction] public sealed void Show();
+}
+
+
+[Import("/Script/FGKStaticData")]
+public static class FGKStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValidRowHandle();
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public Object EModularCharacterSlot;
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character {
+    public ObjectProperty Mesh;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void PrintString();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : SkinnedMeshComponent {}
+
+[Import("/Script/Engine")]
+public class SkinnedMeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetMasterPoseComponent();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class PhysicsAsset {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class SkeletalBodySetup {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/UI/NPC/Trading/WBP_UI_Trading_Screen")]
+public WBP_UI_Trading_Screen_C Default__WBP_UI_Trading_Screen_C;
+
+[Import("/Game/UI/NPC/Trading/WBP_UI_Trading_Screen")]
+public class WBP_UI_Trading_Screen_C {
+    public WidgetTree WidgetTree;
+    public ObjectProperty MerchantRowHandle;
+    public ObjectProperty CurrentMerchantCharacter;
+}
+
+
+[Import("/Game/UI/NPC/Prototype/WBP_UI_NPCMerchant_OverheadIndicator")]
+public WBP_UI_NPCMerchant_OverheadIndicator_C Default__WBP_UI_NPCMerchant_OverheadIndicator_C;
+
+[Import("/Game/UI/NPC/Prototype/WBP_UI_NPCMerchant_OverheadIndicator")]
+public class WBP_UI_NPCMerchant_OverheadIndicator_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/NPC/Conversations/WBP_UI_Conversation_Screen")]
+public WBP_UI_Conversation_Screen_C Default__WBP_UI_Conversation_Screen_C;
+
+[Import("/Game/UI/NPC/Conversations/WBP_UI_Conversation_Screen")]
+public class WBP_UI_Conversation_Screen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Survival/SurvivalSettings_Dwarf")]
+public SurvivalSettings SurvivalSettings_Dwarf;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Common/Global/ShadowCastMesh/Dwarf_ShadowCast_Spine3")]
+public StaticMesh Dwarf_ShadowCast_Spine3;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Common/Global/ShadowCastMesh/Dwarf_ShadowCast_Spine2")]
+public StaticMesh Dwarf_ShadowCast_Spine2;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Common/Global/ShadowCastMesh/Dwarf_ShadowCast_Spine1")]
+public StaticMesh Dwarf_ShadowCast_Spine1;
+
+
+[Import("/Engine/EditorMeshes/ArcadeEditorSphere")]
+public StaticMesh ArcadeEditorSphere;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Heads/Head01/Dwarf_Head01")]
+public SkeletalMesh Dwarf_Head01;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Heads/Beards/Beard02/Dwarf_Beard02_WMorphs")]
+public SkeletalMesh Dwarf_Beard02_WMorphs;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_Master_Skeleton")]
+public SkeletalMesh Dwarf_Master_Skeleton;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_BaseBody_WMorphsV3")]
+public SkeletalMesh Dwarf_BaseBody_WMorphsV3;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_Bodies/Dwarf_BaseBody_Arms")]
+public SkeletalMesh Dwarf_BaseBody_Arms;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_04/Dwarf_Armor04_Pants_WMorphs")]
+public SkeletalMesh Dwarf_Armor04_Pants_WMorphs;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_02/Dwarf_Armor02_Torso_WMorphs")]
+public SkeletalMesh Dwarf_Armor02_Torso_WMorphs;
+
+
+[Import("/Game/Character/Dwarf/Dwa_NpcDwarfSimplifiedPhysicsAsset")]
+public class Dwa_NpcDwarfSimplifiedPhysicsAsset {
+    public SkeletalBodySetup SkeletalBodySetup_8;
+}
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_dwarf")]
+public PhysicalMaterial PM_flesh_dwarf;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_08")]
+public PersonalityInfo PI_Dwarf_08;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_07")]
+public PersonalityInfo PI_Dwarf_07;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_06")]
+public PersonalityInfo PI_Dwarf_06;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_05")]
+public PersonalityInfo PI_Dwarf_05;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_04")]
+public PersonalityInfo PI_Dwarf_04;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_03")]
+public PersonalityInfo PI_Dwarf_03;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_02")]
+public PersonalityInfo PI_Dwarf_02;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Dwarf_01")]
+public PersonalityInfo PI_Dwarf_01;
+
+
+[Import("/Game/Character/NpcDwarf/DA_NpcTuning")]
+public MorNpcTuningData DA_NpcTuning;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/DA_AttributeDisplayDefinitions")]
+public MorAttributeDisplaySettings DA_AttributeDisplayDefinitions;
+
+
+[Import("/Game/Character/NpcDwarf/DA_NpcDwarf_AI")]
+public MorAISettings DA_NpcDwarf_AI;
+
+
+[Import("/Game/Character/NpcDwarf/DA_NpcMerchant_CharacterData")]
+public FGKCharacterData DA_NpcMerchant_CharacterData;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Voices")]
+public DataTable DT_CC_Voices;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooTextures")]
+public DataTable DT_CC_TattooTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooColors")]
+public DataTable DT_CC_TattooColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_SkinColors")]
+public DataTable DT_CC_SkinColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_ScarTextures")]
+public DataTable DT_CC_ScarTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_PresetCharacters")]
+public DataTable DT_CC_PresetCharacters;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Personalities")]
+public DataTable DT_CC_Personalities;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Origins")]
+public DataTable DT_CC_Origins;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Heads")]
+public DataTable DT_CC_Heads;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_HairColors")]
+public DataTable DT_CC_HairColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Hair")]
+public DataTable DT_CC_Hair;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_EyeColors")]
+public DataTable DT_CC_EyeColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftTorsos")]
+public DataTable DT_CC_CraftTorsos;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Crafts")]
+public DataTable DT_CC_Crafts;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftGloves")]
+public DataTable DT_CC_CraftGloves;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftBoots")]
+public DataTable DT_CC_CraftBoots;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Bodies")]
+public DataTable DT_CC_Bodies;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Beards")]
+public DataTable DT_CC_Beards;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BeardDecorationColors")]
+public DataTable DT_CC_BeardDecorationColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Backpacks")]
+public DataTable DT_CC_Backpacks;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BackpackColors")]
+public DataTable DT_CC_BackpackColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/DT_CC_Characters")]
+public DataTable DT_CC_Characters;
+
+
+[Import("/Game/Character/Shared/Curve_PhysicsHitReactWeightOverTime")]
+public CurveFloat Curve_PhysicsHitReactWeightOverTime;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_DwarfDeathContainer")]
+public class BP_DwarfDeathContainer_C {
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public FGKActorFSMComponent FGKActorFSM_GEN_VARIABLE;
+    public MorDestroyOnEmptyInventoryComponent MorDestroyOnEmptyInventory_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange_GEN_VARIABLE;
+    public NiagaraComponent DeathCOntainerVFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Mesh_GEN_VARIABLE;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public FGKActorFSMComponent FGKActorFSM;
+    public MorDestroyOnEmptyInventoryComponent MorDestroyOnEmptyInventory;
+    public MorPointLightComponent MorPointLight;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange;
+    public NiagaraComponent DeathCOntainerVFX;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Mesh;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/BP_DwarfDeathContainer")]
+public class Default__BP_DwarfDeathContainer_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public MorPreciousssComponent Preciousss;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Holdables/GA_ShieldBlock")]
+public class GA_ShieldBlock_C {}
+
+[Import("/Game/Items/Holdables/GA_ShieldBlock")]
+public GA_ShieldBlock_C Default__GA_ShieldBlock_C;
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso")]
+public class BP_ContainerItem_Dwarf_Slot_Torso_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Torso_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHandNPC")]
+public class BP_ContainerItem_Dwarf_Slot_OffHandNPC_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHandNPC")]
+public class Default__BP_ContainerItem_Dwarf_Slot_OffHandNPC_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHandNPC")]
+public class BP_ContainerItem_Dwarf_Slot_MainHandNPC_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHandNPC")]
+public class Default__BP_ContainerItem_Dwarf_Slot_MainHandNPC_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet")]
+public class BP_ContainerItem_Dwarf_Slot_Helmet_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Helmet_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves")]
+public class BP_ContainerItem_Dwarf_Slot_Gloves_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Gloves_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots")]
+public class BP_ContainerItem_Dwarf_Slot_Boots_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots")]
+public class Default__BP_ContainerItem_Dwarf_Slot_Boots_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventoryNPC")]
+public class BP_ContainerItem_Dwarf_BodyInventoryNPC_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventoryNPC")]
+public class Default__BP_ContainerItem_Dwarf_BodyInventoryNPC_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/BP_ReviveInteract")]
+public class BP_ReviveInteract_C {
+    public MorAIBehaviorPointComponent Orc_Taunt_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Sphere_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent Orc_Taunt;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Sphere;
+}
+
+[Import("/Game/Items/BP_ReviveInteract")]
+public class Default__BP_ReviveInteract_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_DropItem_PlayerDeathDrop")]
+public class BP_DropItem_PlayerDeathDrop_C {
+    public MorRemoveWaypointOnInteractComponent MorRemoveWaypointOnInteract_GEN_VARIABLE;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorRemoveWaypointOnInteractComponent MorRemoveWaypointOnInteract;
+    public MorRemoveWaypointOnInventoryChangeComponent MorRemoveWaypointOnInventoryChange;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_DropItem_PlayerDeathDrop")]
+public class Default__BP_DropItem_PlayerDeathDrop_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/BP_DropItem")]
+public class BP_DropItem_C {
+    public MorAIBehaviorPointComponent PickupBehavior_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public MorAIBehaviorPointComponent PickupBehavior;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_DropItem")]
+public class Default__BP_DropItem_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Npc_Dwarf")]
+public class GE_Starting_Npc_Dwarf_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Npc_Dwarf")]
+public GE_Starting_Npc_Dwarf_C Default__GE_Starting_Npc_Dwarf_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Revive")]
+public class GE_Revive_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Revive")]
+public GE_Revive_C Default__GE_Revive_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GA_FatalDamage")]
+public class GA_FatalDamage_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GA_FatalDamage")]
+public GA_FatalDamage_C Default__GA_FatalDamage_C;
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_SplitBody")]
+public class CSt_SplitBody_C {}
+
+
+[Import("/Game/Character/Shared/CharacterStates/Cst_NpcBed")]
+public class Cst_NpcBed_C {}
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_NpcAbilityMovement")]
+public class CSt_NpcAbilityMovement_C {}
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body_NpcDwarf")]
+public class CSt_Body_NpcDwarf_C {}
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body_NpcDwarf")]
+public class Default__CSt_Body_NpcDwarf_C {
+    public CSt_NpcAbilityMovement_C CSt_NpcAbilityMovement_C_0;
+    public Cst_NpcBed_C Cst_NpcBed_C_0;
+    public CSt_SplitBody_C CSt_SplitBody_C_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_HasTags FGKCondition_HasTags_2;
+    public FGKCondition_HasTags FGKCondition_HasTags_3;
+    public FGKCondition_HasTags FGKCondition_HasTags_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_1;
+    public MorCharacterState_Hide MorCharacterState_Hide_0;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_0;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_1;
+}
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_R_01")]
+public class GA_Dwa_React_Stagger_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_R_01")]
+public GA_Dwa_React_Stagger_R_01_C Default__GA_Dwa_React_Stagger_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_L_01")]
+public class GA_Dwa_React_Stagger_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_L_01")]
+public GA_Dwa_React_Stagger_L_01_C Default__GA_Dwa_React_Stagger_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_F_01")]
+public class GA_Dwa_React_Stagger_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Stagger_F_01")]
+public GA_Dwa_React_Stagger_F_01_C Default__GA_Dwa_React_Stagger_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_R_01")]
+public class GA_Dwa_React_Light_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_R_01")]
+public GA_Dwa_React_Light_R_01_C Default__GA_Dwa_React_Light_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_L_01")]
+public class GA_Dwa_React_Light_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_L_01")]
+public GA_Dwa_React_Light_L_01_C Default__GA_Dwa_React_Light_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_F_01")]
+public class GA_Dwa_React_Light_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Light_F_01")]
+public GA_Dwa_React_Light_F_01_C Default__GA_Dwa_React_Light_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_R_01")]
+public class GA_Dwa_React_Kill_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_R_01")]
+public GA_Dwa_React_Kill_R_01_C Default__GA_Dwa_React_Kill_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_L_01")]
+public class GA_Dwa_React_Kill_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_L_01")]
+public GA_Dwa_React_Kill_L_01_C Default__GA_Dwa_React_Kill_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_F_01")]
+public class GA_Dwa_React_Kill_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_F_01")]
+public GA_Dwa_React_Kill_F_01_C Default__GA_Dwa_React_Kill_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_B_01")]
+public class GA_Dwa_React_Kill_B_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Kill_B_01")]
+public GA_Dwa_React_Kill_B_01_C Default__GA_Dwa_React_Kill_B_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_F_01")]
+public class GA_Dwa_React_HeavyKnockdown_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_F_01")]
+public GA_Dwa_React_HeavyKnockdown_F_01_C Default__GA_Dwa_React_HeavyKnockdown_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_B_01")]
+public class GA_Dwa_React_HeavyKnockdown_B_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_HeavyKnockdown_B_01")]
+public GA_Dwa_React_HeavyKnockdown_B_01_C Default__GA_Dwa_React_HeavyKnockdown_B_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_R_01")]
+public class GA_Dwa_React_Heavy_R_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_R_01")]
+public GA_Dwa_React_Heavy_R_01_C Default__GA_Dwa_React_Heavy_R_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_L_01")]
+public class GA_Dwa_React_Heavy_L_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_L_01")]
+public GA_Dwa_React_Heavy_L_01_C Default__GA_Dwa_React_Heavy_L_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_F_01")]
+public class GA_Dwa_React_Heavy_F_01_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Reactions/GA_Dwa_React_Heavy_F_01")]
+public GA_Dwa_React_Heavy_F_01_C Default__GA_Dwa_React_Heavy_F_01_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Revived")]
+public class GA_Revived_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Revived")]
+public GA_Revived_C Default__GA_Revived_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Dodge")]
+public class GA_Dodge_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Dodge")]
+public GA_Dodge_C Default__GA_Dodge_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfJab")]
+public class GA_DwarfJab_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfJab")]
+public GA_DwarfJab_C Default__GA_DwarfJab_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfHook")]
+public class GA_DwarfHook_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_DwarfHook")]
+public GA_DwarfHook_C Default__GA_DwarfHook_C;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_R90_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_R180_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_L90_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_N_TurnIP_L180_Montage")]
+public AnimMontage Dwa_UA_N_TurnIP_L180_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_R90_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_R180_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_L90_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/TurnInPlace/Dwa_UA_CLF_TurnIP_L180_Montage")]
+public AnimMontage Dwa_UA_CLF_TurnIP_L180_Montage;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Foley/fx_plr_itempickup_01_play")]
+public AkAudioEvent fx_plr_itempickup_01_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Equipment/fx_plr_eqp_itembreak_01_play")]
+public AkAudioEvent fx_plr_eqp_itembreak_01_play;
+
+
+[Import("/Game/Character/NpcDwarf/BP_AiController_NpcMerchant")]
+public class BP_AiController_NpcMerchant_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/NpcDwarf/BP_AiController_NpcMerchant")]
+public class Default__BP_AiController_NpcMerchant_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_NpcDwarf_NoLink")]
+public ABP_NpcDwarf_NoLink_C Default__ABP_NpcDwarf_NoLink_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ABP_NpcDwarf_NoLink")]
+public AnimBlueprintGeneratedClass ABP_NpcDwarf_NoLink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_NpcMerchant_C : MorCharacter {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorNPCConversationComponent> MorNPCConversation;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorMerchantComponent> MorMerchant;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine3 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine2 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine1 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Foot_L_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Foot_R_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Head Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_R_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_L_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_L_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_R_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine0 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<WidgetComponent> OverheadWidget;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_BaseBody;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Beard;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Hands;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Backpack;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Extras;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Legs;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Gloves;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Chest;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Head;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Hair;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SK_Hat;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<CustomizationManager> CustomizationManager;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_NpcMerchant([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue;
+        [InstancedReference] Object<WBP_UI_Trading_Screen_C> CallFunc_GetScreen_ReturnValue;
+        [InstancedReference] Object<UserWidget> CallFunc_GetWidget_ReturnValue;
+        [InstancedReference] Object<WBP_UI_NPCMerchant_OverheadIndicator_C> K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator;
+        bool K2Node_DynamicCast_bSuccess;
+        [InstancedReference] Object<UserWidget> CallFunc_GetWidget_ReturnValue_1;
+        Struct<MorMerchantRowHandle> CallFunc_GetMerchantRowHandle_ReturnValue;
+        [InstancedReference] Object<WBP_UI_NPCMerchant_OverheadIndicator_C> K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_1;
+        bool K2Node_DynamicCast_bSuccess_1;
+        bool CallFunc_GetStallForMerchant_bOutIsValid;
+        Struct<MorMerchantStall> CallFunc_GetStallForMerchant_ReturnValue;
+        bool CallFunc_IsValidRowHandle_ReturnValue;
+        Object<MorEconomyManager> CallFunc_GetEconomyManager_ReturnValue;
+        Struct<MorMerchantRowHandle> CallFunc_GetMerchantRowHandle_ReturnValue_1;
+        [InstancedReference] Object<UserWidget> CallFunc_GetWidget_ReturnValue_2;
+        bool CallFunc_GetStallForMerchant_bOutIsValid_1;
+        Struct<MorMerchantStall> CallFunc_GetStallForMerchant_ReturnValue_1;
+        [InstancedReference] Object<WBP_UI_NPCMerchant_OverheadIndicator_C> K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_2;
+        bool K2Node_DynamicCast_bSuccess_2;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue_1;
+        [InstancedReference] Object<WBP_UI_Conversation_Screen_C> CallFunc_GetScreen_ReturnValue_1;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_NpcMerchant_10_BndEvt__BP_NpcMerchant_MorMerchant_K2Node_ComponentBoundEvent_1_MorMerchantTradeInteraction__DelegateSignature: EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        EX_LetObj(CallFunc_GetScreen_ReturnValue_1,CallFunc_BPGetManager_ReturnValue_1.GetScreen(WBP_UI_Conversation_Screen_C));
+        CallFunc_GetScreen_ReturnValue_1.Init(this.MorNPCConversation);
+        CallFunc_GetScreen_ReturnValue_1.Show();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_NpcMerchant_164_ReceiveBeginPlay: EX_LetObj(CallFunc_GetWidget_ReturnValue_2,this.OverheadWidget.GetWidget());
+        K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_2 = EX_DynamicCast("WBP_UI_NPCMerchant_OverheadIndicator_C", CallFunc_GetWidget_ReturnValue_2);
+        K2Node_DynamicCast_bSuccess_2 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_2);
+        if (!K2Node_DynamicCast_bSuccess_2) return;
+
+        // Block 4
+        EX_LetObj(CallFunc_GetEconomyManager_ReturnValue,MorEconomyUtils.GetEconomyManager(this));
+        EX_BindDelegate("OnUpdateTraders", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(CallFunc_GetEconomyManager_ReturnValue.OnUpdateTraders, K2Node_CreateDelegate_OutputDelegate);
+        EX_LetObj(CallFunc_GetWidget_ReturnValue,this.OverheadWidget.GetWidget());
+        K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator = EX_DynamicCast("WBP_UI_NPCMerchant_OverheadIndicator_C", CallFunc_GetWidget_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 5
+        K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator.UpdateMerchantStatus(true, this);
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_NpcMerchant_542_BndEvt__BP_NpcMerchant_MorMerchant_K2Node_ComponentBoundEvent_0_MorMerchantTradeLocalInteraction__DelegateSignature: KismetSystemLibrary.PrintString(this, "Local Manage Triggered", true, true, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 2f);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue,MorUIManager.BPGetManager(this));
+        EX_LetObj(CallFunc_GetScreen_ReturnValue,CallFunc_BPGetManager_ReturnValue.GetScreen(WBP_UI_Trading_Screen_C));
+        CallFunc_GetMerchantRowHandle_ReturnValue = this.MorMerchant.GetMerchantRowHandle();
+        CallFunc_IsValidRowHandle_ReturnValue = (bool)(FGKStaticDataFunctionLibrary.IsValidRowHandle(CallFunc_GetMerchantRowHandle_ReturnValue));
+
+        if (CallFunc_IsValidRowHandle_ReturnValue) {
+            // Block 7
+            CallFunc_GetMerchantRowHandle_ReturnValue = this.MorMerchant.GetMerchantRowHandle();
+            CallFunc_GetStallForMerchant_ReturnValue = MorEconomyUtils.GetStallForMerchant(CallFunc_GetMerchantRowHandle_ReturnValue, CallFunc_GetStallForMerchant_bOutIsValid, this.MorMerchant);
+            if (!(CallFunc_GetStallForMerchant_bOutIsValid)) goto ExecuteUbergraph_BP_NpcMerchant_1157;
+
+            // Block 8
+            CallFunc_GetMerchantRowHandle_ReturnValue = this.MorMerchant.GetMerchantRowHandle();
+            CallFunc_GetScreen_ReturnValue.MerchantRowHandle = CallFunc_GetMerchantRowHandle_ReturnValue;
+            EX_LetObj(CallFunc_GetScreen_ReturnValue.CurrentMerchantCharacter,this);
+            CallFunc_GetScreen_ReturnValue.Show();
+            return;
+
+        }
+
+
+        // Block 9
+        ExecuteUbergraph_BP_NpcMerchant_1071: KismetSystemLibrary.PrintString(this, "Invalid Merchant Row Handle", true, true, EX_StructConst(LinearColor, 16, 1f, 0.117946f, 0.709066f, 1f), 2f);
+        return;
+
+        // Block 10
+        ExecuteUbergraph_BP_NpcMerchant_1157: KismetSystemLibrary.PrintString(this, "No Stall For Merchant", true, true, EX_StructConst(LinearColor, 16, 1f, 0.122222f, 0.567249f, 1f), 2f);
+        return;
+
+        // Block 11
+        ExecuteUbergraph_BP_NpcMerchant_1237: EX_LetObj(CallFunc_GetWidget_ReturnValue_1,this.OverheadWidget.GetWidget());
+        K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_1 = EX_DynamicCast("WBP_UI_NPCMerchant_OverheadIndicator_C", CallFunc_GetWidget_ReturnValue_1);
+        K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_1);
+        if (!K2Node_DynamicCast_bSuccess_1) return;
+
+        // Block 12
+        K2Node_DynamicCast_AsWBP_UI_NPCMerchant_Overhead_Indicator_1.UpdateMerchantStatus(CallFunc_GetStallForMerchant_bOutIsValid_1, EX_NoObject());
+        return;
+
+        // Block 13
+        ExecuteUbergraph_BP_NpcMerchant_1413_OnUpdateTraders: CallFunc_GetMerchantRowHandle_ReturnValue_1 = this.MorMerchant.GetMerchantRowHandle();
+        CallFunc_GetStallForMerchant_ReturnValue_1 = MorEconomyUtils.GetStallForMerchant(CallFunc_GetMerchantRowHandle_ReturnValue_1, CallFunc_GetStallForMerchant_bOutIsValid_1, this);
+        goto ExecuteUbergraph_BP_NpcMerchant_1237;
+
+        // Block 14
+        ExecuteUbergraph_BP_NpcMerchant_1515:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_NpcMerchant_MorMerchant_K2Node_ComponentBoundEvent_1_MorMerchantTradeInteraction__DelegateSignature() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcMerchant(ExecuteUbergraph_BP_NpcMerchant_10_BndEvt__BP_NpcMerchant_MorMerchant_K2Node_ComponentBoundEvent_1_MorMerchantTradeInteraction__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnUpdateTraders() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcMerchant(ExecuteUbergraph_BP_NpcMerchant_1413_OnUpdateTraders);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_NpcMerchant_MorMerchant_K2Node_ComponentBoundEvent_0_MorMerchantTradeLocalInteraction__DelegateSignature() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcMerchant(ExecuteUbergraph_BP_NpcMerchant_542_BndEvt__BP_NpcMerchant_MorMerchant_K2Node_ComponentBoundEvent_0_MorMerchantTradeLocalInteraction__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcMerchant(ExecuteUbergraph_BP_NpcMerchant_164_ReceiveBeginPlay);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Block 1
+        this.SetMasterPoseComponentForParts();
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    protected override void GetModularMesh([BlueprintVisible, BlueprintReadOnly] Enum Slot, [Return, InstancedReference] out Object<SkeletalMeshComponent> ReturnValue) {
+        // Locals
+        Enum Temp_byte_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_1;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_2;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_3;
+        [InstancedReference] Object<SkeletalMeshComponent> K2Node_Select_Default;
+
+        // Block 1
+        Temp_byte_Variable = Slot;
+        EX_LetObj(Temp_object_Variable,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_1,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_2,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_3,EX_NoObject());
+        EX_LetObj(ReturnValue,EX_SwitchValue(331, Temp_byte_Variable, K2Node_Select_Default, (byte)(0), 112, this.SK_Hat, (byte)(1), 127, this.SK_Hair, (byte)(2), 142, this.SK_Head, (byte)(3), 157, this.SK_Chest, (byte)(4), 172, this.SK_Gloves, (byte)(5), 187, this.SK_Legs, (byte)(6), 202, this.SK_Extras, (byte)(7), 217, Temp_object_Variable_3, (byte)(8), 232, this.SK_Backpack, (byte)(9), 247, this.SK_Hands, (byte)(10), 262, Temp_object_Variable_2, (byte)(11), 277, Temp_object_Variable_1, (byte)(12), 292, Temp_object_Variable, (byte)(13), 307, this.SK_Beard, (byte)(14), 322, this.SK_BaseBody));
+        return ReturnValue;
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetMasterPoseComponentForParts() {
+        // Block 1
+        this.SK_Legs.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Gloves.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Chest.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Head.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Hair.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Hat.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Extras.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_BaseBody.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Beard.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Backpack.SetMasterPoseComponent(this.Mesh, false);
+        this.SK_Hands.SetMasterPoseComponent(this.Mesh, false);
+
+    }
+
+}

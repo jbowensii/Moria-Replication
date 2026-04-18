@@ -1,0 +1,973 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent : SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetAsset();
+}
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorBrew {
+    public ObjectProperty BrewRowHandle;
+}
+
+[Import("/Script/Moria")]
+public class MorContainerItem : Actor {
+    public ObjectProperty OnPreDestroyWhenEmpty;
+}
+
+[Import("/Script/Moria")]
+public class MorCraftReceiver {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetClassDefaultObject();
+}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetBrewDefinition();
+}
+
+[Import("/Script/Moria")]
+public Object PreDestroyWhenEmptySignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public class MorBrewDefinition {
+    public ObjectProperty BrewMaterialFoam;
+    public ObjectProperty BrewFizz;
+    public ObjectProperty BrewBuff;
+}
+
+[Import("/Script/Moria")]
+public Object MorItemRecipeDefinition;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public class InventoryComponent {}
+
+[Import("/Script/FGK")]
+public class InventoryItem {}
+
+[Import("/Script/FGK")]
+public class InventoryQueryInterface {
+    [UnknownSignature, VirtualFunction] public virtual void GetInventory();
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetAttachParentActor();
+    [UnknownSignature, FinalFunction] public sealed void GetTransform();
+    public Object ReceiveBeginPlay;
+    public Object ReceiveEndPlay;
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void BeginDeferredActorSpawnFromClass();
+    [UnknownSignature, MathFunction] public static sealed void FinishSpawningActor();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BreakVector();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_BoolBool();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+}
+
+[Import("/Script/Engine")]
+public static class KismetNodeHelperLibrary {
+    [UnknownSignature, MathFunction] public static sealed void ClearAllBits();
+    [UnknownSignature, MathFunction] public static sealed void GetUnmarkedBit();
+    [UnknownSignature, MathFunction] public static sealed void HasUnmarkedBit();
+    [UnknownSignature, MathFunction] public static sealed void MarkBit();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetClassDisplayName();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void IsValidClass();
+    [UnknownSignature, MathFunction] public static sealed void PrintWarning();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_SetRelativeLocation();
+    public ObjectProperty RelativeLocation;
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetMorphTarget();
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object EEndPlayReason;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class InterfaceProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/Food/Ale_Mug_Icon")]
+public Texture2D Ale_Mug_Icon;
+
+
+[Import("/Game/Unshippable/ThirdParty/MedievalVOL6/Meshes/SM_Tankard_01a")]
+public StaticMesh SM_Tankard_01a;
+
+
+[Import("/Game/FX/BrewFX/Niagara/BeerFoam_InGame")]
+public SkeletalMesh BeerFoam_InGame;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_Stamina")]
+public NiagaraSystem NS_BrewFizz_Stamina;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_PoisonAntidote")]
+public NiagaraSystem NS_BrewFizz_PoisonAntidote;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_OrcMed")]
+public NiagaraSystem NS_BrewFizz_OrcMed;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_NightBrew")]
+public NiagaraSystem NS_BrewFizz_NightBrew;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_Health")]
+public NiagaraSystem NS_BrewFizz_Health;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_Defense")]
+public NiagaraSystem NS_BrewFizz_Defense;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_Base")]
+public NiagaraSystem NS_BrewFizz_Base;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewFizz_AntiDark")]
+public NiagaraSystem NS_BrewFizz_AntiDark;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_StaminaBrew")]
+public NiagaraSystem NS_BrewBuff_StaminaBrew;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_OrcMedBrew")]
+public NiagaraSystem NS_BrewBuff_OrcMedBrew;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_NightBrew")]
+public NiagaraSystem NS_BrewBuff_NightBrew;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew")]
+public NiagaraSystem NS_BrewBuff_HealthBrew;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_DefensiveBrew")]
+public NiagaraSystem NS_BrewBuff_DefensiveBrew;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_Base")]
+public NiagaraSystem NS_BrewBuff_Base;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_AntiPoison")]
+public NiagaraSystem NS_BrewBuff_AntiPoison;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_BrewBuff_AntiDark")]
+public NiagaraSystem NS_BrewBuff_AntiDark;
+
+
+[Import("/Game/DLC/RohanPack/Brew/NS_BrewFizz_RohanPack_RohanBrew")]
+public NiagaraSystem NS_BrewFizz_RohanPack_RohanBrew;
+
+
+[Import("/Game/DLC/HolidayPack/Brew/NS_BrewFizz_HolidayPack_HolidayBrew")]
+public NiagaraSystem NS_BrewFizz_HolidayPack_HolidayBrew;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_Stamina")]
+public MaterialInstanceConstant M_BrewFoam_Stamina;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_PoisonAntidote")]
+public MaterialInstanceConstant M_BrewFoam_PoisonAntidote;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_OrcMed")]
+public MaterialInstanceConstant M_BrewFoam_OrcMed;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_NightBrew")]
+public MaterialInstanceConstant M_BrewFoam_NightBrew;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_HealthBrew")]
+public MaterialInstanceConstant M_BrewFoam_HealthBrew;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_Defensive")]
+public MaterialInstanceConstant M_BrewFoam_Defensive;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_Default")]
+public MaterialInstanceConstant M_BrewFoam_Default;
+
+
+[Import("/Game/FX/BrewFX/Materials/M_BrewFoam_AntiDark")]
+public MaterialInstanceConstant M_BrewFoam_AntiDark;
+
+
+[Import("/Game/DLC/RohanPack/Brew/M_BrewFoam_RohanPack_RohanBrew")]
+public MaterialInstanceConstant M_BrewFoam_RohanPack_RohanBrew;
+
+
+[Import("/Game/DLC/HolidayPack/Brew/M_BrewFoam_HolidayPack_HolidayBrew")]
+public MaterialInstanceConstant M_BrewFoam_HolidayPack_HolidayBrew;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_DiscardedBrewMug")]
+public class BP_DiscardedBrewMug_C {
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_DiscardedBrewMug")]
+public class Default__BP_DiscardedBrewMug_C {
+    public BoxComponent InteractCollider;
+    public CalloutDataComponent `Callout Data`;
+    public MorHeavyCarryTargetComponent `Heavy Carry`;
+    public MorInventoryComponent InventoryComponent;
+    public MorStaticMeshComponentWithOffset DroppedItemMesh;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem")]
+public class BP_ContainerItem_C : MorContainerItem {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/ContainerItems/BP_ContainerItem")]
+public class Default__BP_ContainerItem_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/FX/BrewFX/DrinkAleInterface")]
+public class DrinkAleInterface_C {}
+
+[Import("/Game/FX/BrewFX/DrinkAleInterface")]
+public DrinkAleInterface_C Default__DrinkAleInterface_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Throw_Mug")]
+public class GA_Throw_Mug_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_Throw_Mug")]
+public GA_Throw_Mug_C Default__GA_Throw_Mug_C;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_DrinkAleSinging")]
+public class GA_DrinkAleSinging_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_DrinkAleSinging")]
+public GA_DrinkAleSinging_C Default__GA_DrinkAleSinging_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_MorContainerItem_Mug_C : BP_ContainerItem_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> BrewFizz;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> BrewSpillage;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> BeerFoam_InGame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> MugMesh;
+    float DrinkBrewTimeline_DrinkBrewFizzMove3_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    float DrinkBrewTimeline_DrinkBrewFizzMove2_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    float DrinkBrewTimeline_DrinkBrewFizzMove1_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    float DrinkBrewTimeline_DrinkBrewSecondHalf_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    float DrinkBrewTimeline_DrinkBrewHalf_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    float DrinkBrewTimeline_DrinkBrew_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    byte DrinkBrewTimeline__Direction_FAA6C13946F7BC0E6F4871B2E8F18EBB;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> DrinkBrewTimeline;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> prevVel;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> prevPos;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> killFloorOffset;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool DestroyedFromEmptyContainer;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool FirstDrink;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool SecondDrink;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool ThirdDrink;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Class `Item Class`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool FourthDrink;
+    [Edit, BlueprintVisible, DisableEditOnInstance] string BrewType;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<NiagaraSystem> StatusVFX;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_MorContainerItem_Mug([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        const Struct<Transform> CallFunc_GetTransform_ReturnValue;
+        Object<Actor> CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue;
+        Object<BP_DiscardedBrewMug_C> CallFunc_FinishSpawningActor_ReturnValue;
+        byte K2Node_Event_EndPlayReason;
+        Class K2Node_Event_ItemClass;
+        Object<Object> CallFunc_GetClassDefaultObject_ReturnValue;
+        string CallFunc_GetClassDisplayName_ReturnValue;
+        Object<MorBrew> K2Node_DynamicCast_AsMor_Brew;
+        bool K2Node_DynamicCast_bSuccess;
+        bool CallFunc_IsValidClass_ReturnValue;
+        Enum CallFunc_GetBrewDefinition_OutResult;
+        Struct<MorBrewDefinition> CallFunc_GetBrewDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        bool K2Node_MultiGate_FirstRun;
+        int K2Node_MultiGate_Data;
+        bool K2Node_MultiGate_ScratchBool;
+        int K2Node_MultiGate_ScratchIndex;
+        Object<MorCraftReceiver> K2Node_Event_BreweryRef;
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        float K2Node_Event_DeltaSeconds;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult_1;
+        Struct<MorItemRecipeDefinition> K2Node_Event_CurrentRecipe;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_MorContainerItem_Mug_15_PourBrew: break;
+
+            // Block 3
+
+            ExecuteUbergraph_BP_MorContainerItem_Mug_16_DrinkBrewTimeline__UpdateFunc:
+            if (this.FirstDrink) {
+                // Block 4
+                if (!(this.SecondDrink)) goto ExecuteUbergraph_BP_MorContainerItem_Mug_129;
+
+                // Block 5
+                if (!(this.ThirdDrink)) goto ExecuteUbergraph_BP_MorContainerItem_Mug_360;
+
+                // Block 6
+                if (!(this.FourthDrink)) goto ExecuteUbergraph_BP_MorContainerItem_Mug_591;
+
+                // Block 7
+                break;
+
+            }
+
+
+            // Block 8
+            ExecuteUbergraph_BP_MorContainerItem_Mug_73: this.BeerFoam_InGame.SetMorphTarget(EX_NameConst("Key 1"), this.DrinkBrewTimeline_DrinkBrewHalf_FAA6C13946F7BC0E6F4871B2E8F18EBB, true);
+            break;
+
+            // Block 9
+            ExecuteUbergraph_BP_MorContainerItem_Mug_129: this.BeerFoam_InGame.SetMorphTarget(EX_NameConst("Key 1"), this.DrinkBrewTimeline_DrinkBrewSecondHalf_FAA6C13946F7BC0E6F4871B2E8F18EBB, true);
+            KismetMathLibrary.BreakVector(this.BrewFizz.RelativeLocation, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+            CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X, CallFunc_BreakVector_Y, this.DrinkBrewTimeline_DrinkBrewFizzMove1_FAA6C13946F7BC0E6F4871B2E8F18EBB);
+            this.BrewFizz.K2_SetRelativeLocation(CallFunc_MakeVector_ReturnValue, false, CallFunc_K2_SetRelativeLocation_SweepHitResult, false);
+            break;
+
+            // Block 10
+            ExecuteUbergraph_BP_MorContainerItem_Mug_360: this.BeerFoam_InGame.SetMorphTarget(EX_NameConst("Key 2"), this.DrinkBrewTimeline_DrinkBrew_FAA6C13946F7BC0E6F4871B2E8F18EBB, true);
+            KismetMathLibrary.BreakVector(this.BrewFizz.RelativeLocation, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+            CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X, CallFunc_BreakVector_Y, this.DrinkBrewTimeline_DrinkBrewFizzMove2_FAA6C13946F7BC0E6F4871B2E8F18EBB);
+            this.BrewFizz.K2_SetRelativeLocation(CallFunc_MakeVector_ReturnValue_1, false, CallFunc_K2_SetRelativeLocation_SweepHitResult_1, false);
+            break;
+
+            // Block 11
+            ExecuteUbergraph_BP_MorContainerItem_Mug_591: this.BeerFoam_InGame.SetMorphTarget(EX_NameConst("Key 3"), this.DrinkBrewTimeline_DrinkBrew_FAA6C13946F7BC0E6F4871B2E8F18EBB, true);
+            break;
+
+            // Block 12
+            ExecuteUbergraph_BP_MorContainerItem_Mug_647: this.DrinkBrewTimeline.PlayFromStart();
+            break;
+
+            // Block 13
+            ExecuteUbergraph_BP_MorContainerItem_Mug_680: EX_BindDelegate("PreDestroyWhenEmpty", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(this.OnPreDestroyWhenEmpty, K2Node_CreateDelegate_OutputDelegate);
+            break;
+
+            // Block 14
+            ExecuteUbergraph_BP_MorContainerItem_Mug_723_DrinkBrewTimeline__FinishedFunc: K2Node_MultiGate_ScratchBool = (bool)(KismetMathLibrary.NotEqual_BoolBool(K2Node_MultiGate_FirstRun, true));
+
+            if (K2Node_MultiGate_ScratchBool) {
+                // Block 15
+                K2Node_MultiGate_FirstRun = (bool)(true);
+                K2Node_MultiGate_ScratchBool = (bool)(KismetMathLibrary.Greater_IntInt(-1, -1));
+
+                if (K2Node_MultiGate_ScratchBool) {
+                    // Block 16
+                    K2Node_MultiGate_ScratchIndex = -1;
+                    goto ExecuteUbergraph_BP_MorContainerItem_Mug_1035;
+
+                }
+
+
+                // Block 17
+                ExecuteUbergraph_BP_MorContainerItem_Mug_850: K2Node_MultiGate_ScratchIndex = KismetNodeHelperLibrary.GetUnmarkedBit(K2Node_MultiGate_Data, -1, 4, false);
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_1035;
+
+            }
+
+
+            // Block 18
+            ExecuteUbergraph_BP_MorContainerItem_Mug_903: K2Node_MultiGate_ScratchBool = (bool)(KismetNodeHelperLibrary.HasUnmarkedBit(K2Node_MultiGate_Data, 4));
+
+            if (K2Node_MultiGate_ScratchBool) {
+                // Block 19
+                K2Node_MultiGate_ScratchIndex = KismetNodeHelperLibrary.GetUnmarkedBit(K2Node_MultiGate_Data, -1, 4, false);
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_1035;
+
+            }
+
+
+            // Block 20
+
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1004:
+            if (false) {
+                // Block 21
+                KismetNodeHelperLibrary.ClearAllBits(K2Node_MultiGate_Data);
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_903;
+
+            }
+
+
+            // Block 22
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1034: break;
+
+            // Block 23
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1035: KismetNodeHelperLibrary.MarkBit(K2Node_MultiGate_Data, K2Node_MultiGate_ScratchIndex);
+            K2Node_MultiGate_ScratchBool = (bool)(KismetMathLibrary.EqualEqual_IntInt(K2Node_MultiGate_ScratchIndex, 0));
+
+            if (K2Node_MultiGate_ScratchBool) {
+                // Block 24
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_1418;
+
+            }
+
+
+            // Block 25
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1116: K2Node_MultiGate_ScratchBool = (bool)(KismetMathLibrary.EqualEqual_IntInt(K2Node_MultiGate_ScratchIndex, 1));
+
+            if (K2Node_MultiGate_ScratchBool) {
+                // Block 26
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_1406;
+
+            }
+
+
+            // Block 27
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1169: K2Node_MultiGate_ScratchBool = (bool)(KismetMathLibrary.EqualEqual_IntInt(K2Node_MultiGate_ScratchIndex, 2));
+
+            if (K2Node_MultiGate_ScratchBool) {
+                // Block 28
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_1394;
+
+            }
+
+
+            // Block 29
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1222: K2Node_MultiGate_ScratchBool = (bool)(KismetMathLibrary.EqualEqual_IntInt(K2Node_MultiGate_ScratchIndex, 3));
+
+            if (K2Node_MultiGate_ScratchBool) {
+                // Block 30
+                goto ExecuteUbergraph_BP_MorContainerItem_Mug_1382;
+
+            }
+
+
+            // Block 31
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1275: KismetSystemLibrary.PrintWarning("MultiGate Node failed! Out of bounds indexing of the out pins. There are only 4 outs available.");
+
+            // Block 32
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1382: this.FourthDrink = (bool)(true);
+            break;
+
+            // Block 33
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1394: this.ThirdDrink = (bool)(true);
+            break;
+
+            // Block 34
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1406: this.SecondDrink = (bool)(true);
+            break;
+
+            // Block 35
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1418: this.FirstDrink = (bool)(true);
+            break;
+
+            // Block 36
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1430_PreDestroyWhenEmpty: this.DestroyedFromEmptyContainer = (bool)(true);
+            break;
+
+            // Block 37
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1442: CallFunc_GetTransform_ReturnValue = this.GetTransform();
+            EX_LetObj(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue,GameplayStatics.BeginDeferredActorSpawnFromClass(this, BP_DiscardedBrewMug_C, CallFunc_GetTransform_ReturnValue, (byte)(0), EX_NoObject()));
+            CallFunc_GetTransform_ReturnValue = this.GetTransform();
+            EX_LetObj(CallFunc_FinishSpawningActor_ReturnValue,GameplayStatics.FinishSpawningActor(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, CallFunc_GetTransform_ReturnValue));
+            break;
+
+            // Block 38
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1579_ReceiveBeginPlay: goto ExecuteUbergraph_BP_MorContainerItem_Mug_680;
+
+            // Block 39
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1584_ReceiveEndPlay: if (!this.DestroyedFromEmptyContainer) break;
+
+            // Block 40
+            goto ExecuteUbergraph_BP_MorContainerItem_Mug_1442;
+
+            // Block 41
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1599_DrinkAle: goto ExecuteUbergraph_BP_MorContainerItem_Mug_647;
+
+            // Block 42
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1604_GetBrewType: CallFunc_IsValidClass_ReturnValue = (bool)(KismetSystemLibrary.IsValidClass(K2Node_Event_ItemClass));
+            if (!CallFunc_IsValidClass_ReturnValue) break;
+
+            // Block 43
+            CallFunc_GetClassDisplayName_ReturnValue = KismetSystemLibrary.GetClassDisplayName(K2Node_Event_ItemClass);
+            this.BrewType = CallFunc_GetClassDisplayName_ReturnValue;
+            EX_LetObj(CallFunc_GetClassDefaultObject_ReturnValue,MoriaUtils.GetClassDefaultObject(K2Node_Event_ItemClass));
+            K2Node_DynamicCast_AsMor_Brew = EX_DynamicCast("MorBrew", CallFunc_GetClassDefaultObject_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Brew);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            // Block 44
+            CallFunc_GetBrewDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetBrewDefinition(K2Node_DynamicCast_AsMor_Brew.BrewRowHandle, CallFunc_GetBrewDefinition_OutResult);
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetBrewDefinition_OutResult, (byte)(0)));
+
+            if (K2Node_SwitchEnum_CmpSuccess) {
+                // Block 45
+                break;
+
+            }
+
+
+            // Block 46
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1925: this.SetBrewFx(CallFunc_GetBrewDefinition_ReturnValue.BrewMaterialFoam, CallFunc_GetBrewDefinition_ReturnValue.BrewFizz, CallFunc_GetBrewDefinition_ReturnValue.BrewBuff);
+            break;
+
+            // Block 47
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1994_PourBrewRef: break;
+
+            // Block 48
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1995_ReceiveTick: break;
+
+            // Block 49
+            ExecuteUbergraph_BP_MorContainerItem_Mug_1996_GetBrewType_UI: break;
+
+        }
+
+
+        // Block 50
+        ExecuteUbergraph_BP_MorContainerItem_Mug_1997:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void PourBrew() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_15_PourBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void GetBrewType_UI([BlueprintVisible, BlueprintReadOnly] Struct<MorItemRecipeDefinition> CurrentRecipe) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_CurrentRecipe", CurrentRecipe);
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1996_GetBrewType_UI);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1995_ReceiveTick);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void PourBrewRef([BlueprintVisible, BlueprintReadOnly] Object<MorCraftReceiver> BreweryRef) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_BreweryRef", BreweryRef);
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1994_PourBrewRef);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void GetBrewType([BlueprintVisible, BlueprintReadOnly] Class ItemClass) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_ItemClass", ItemClass);
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1604_GetBrewType);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void DrinkAle() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1599_DrinkAle);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveEndPlay([BlueprintVisible, BlueprintReadOnly] byte EndPlayReason) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_EndPlayReason", EndPlayReason);
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1584_ReceiveEndPlay);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1579_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void PreDestroyWhenEmpty() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_1430_PreDestroyWhenEmpty);
+
+    }
+
+    [BlueprintEvent]
+    void DrinkBrewTimeline__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_16_DrinkBrewTimeline__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void DrinkBrewTimeline__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MorContainerItem_Mug(ExecuteUbergraph_BP_MorContainerItem_Mug_723_DrinkBrewTimeline__FinishedFunc);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SubscribeToPreEject() {
+        // Locals
+        [Edit, BlueprintVisible] bool Subscribed;
+        [InstancedReference] Object<InventoryComponent> Temp_object_Variable;
+        Object<Actor> CallFunc_GetAttachParentActor_ReturnValue;
+        Interface<InventoryQueryInterface> K2Node_DynamicCast_AsInventory_Query_Interface;
+        bool K2Node_DynamicCast_bSuccess;
+        bool CallFunc_IsValid_ReturnValue;
+        [InstancedReference] Object<InventoryComponent> CallFunc_GetInventory_ReturnValue;
+
+        // Block 1
+
+        if (Subscribed) {
+            // Block 2
+            return;
+
+        }
+
+
+        // Block 3
+        SubscribeToPreEject_19: EX_LetObj(CallFunc_GetAttachParentActor_ReturnValue,this.GetAttachParentActor());
+        K2Node_DynamicCast_AsInventory_Query_Interface = EX_ObjToInterfaceCast("InventoryQueryInterface", CallFunc_GetAttachParentActor_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("InterfaceToBool", K2Node_DynamicCast_AsInventory_Query_Interface);
+
+        if (K2Node_DynamicCast_bSuccess) {
+            // Block 4
+            EX_LetObj(CallFunc_GetInventory_ReturnValue,K2Node_DynamicCast_AsInventory_Query_Interface.GetInventory());
+            EX_LetObj(Temp_object_Variable,CallFunc_GetInventory_ReturnValue);
+
+            // Block 5
+            SubscribeToPreEject_184: CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(Temp_object_Variable));
+            if (!CallFunc_IsValid_ReturnValue) return;
+
+            // Block 6
+            return;
+
+        }
+
+
+        // Block 7
+        SubscribeToPreEject_232: EX_LetObj(Temp_object_Variable,EX_NoObject());
+        goto SubscribeToPreEject_184;
+
+        // Block 8
+        SubscribeToPreEject_248:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetNightBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_NightBrew);
+        this.BrewFizz.SetAsset(NS_BrewFizz_NightBrew, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_NightBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetHealthBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_HealthBrew);
+        this.BrewFizz.SetAsset(NS_BrewFizz_Health, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_HealthBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetStaminaBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_Stamina);
+        this.BrewFizz.SetAsset(NS_BrewFizz_Stamina, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_StaminaBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetDefensiveBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_Defensive);
+        this.BrewFizz.SetAsset(NS_BrewFizz_Defense, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_DefensiveBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetOrcMedicineBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_OrcMed);
+        this.BrewFizz.SetAsset(NS_BrewFizz_OrcMed, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_OrcMedBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetAntiDarknessBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_AntiDark);
+        this.BrewFizz.SetAsset(NS_BrewFizz_AntiDark, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_AntiDark);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetPoisonAntidoteBrewFX() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_PoisonAntidote);
+        this.BrewFizz.SetAsset(NS_BrewFizz_PoisonAntidote, true);
+        EX_LetObj(this.StatusVFX,NS_BrewBuff_AntiPoison);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetRohanBrewFx() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_RohanPack_RohanBrew);
+        this.BrewFizz.SetAsset(NS_BrewFizz_RohanPack_RohanBrew, true);
+        EX_LetObj(this.StatusVFX,NS_BrewFizz_RohanPack_RohanBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetHolidayBrewFx() {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, M_BrewFoam_HolidayPack_HolidayBrew);
+        this.BrewFizz.SetAsset(NS_BrewFizz_HolidayPack_HolidayBrew, true);
+        EX_LetObj(this.StatusVFX,NS_BrewFizz_HolidayPack_HolidayBrew);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetBrewFx([BlueprintVisible, BlueprintReadOnly] Object<MaterialInterface> FoamMat, [BlueprintVisible, BlueprintReadOnly] Object<NiagaraSystem> FizzVfx, [BlueprintVisible, BlueprintReadOnly] Object<NiagaraSystem> StatusBuffVfx) {
+        // Block 1
+        this.BeerFoam_InGame.SetMaterial(0, FoamMat);
+        this.BrewFizz.SetAsset(FizzVfx, true);
+        EX_LetObj(this.StatusVFX,StatusBuffVfx);
+
+    }
+
+}

@@ -1,0 +1,279 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakBreakablesComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public class MorTrollTurnToStone {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/CharacterArt/Creatures/Troll_Tamed/SK_Troll_Tamed")]
+public SkeletalMesh SK_Troll_Tamed;
+
+
+[Import("/Game/Character/Orcs/Trolls/TEST_VFX_Troll/DA_TEST_VFX_Troll_CharacterData")]
+public FGKCharacterData DA_TEST_VFX_Troll_CharacterData;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Troll_Tamed")]
+public class GE_Starting_Troll_Tamed_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Troll_Tamed")]
+public GE_Starting_Troll_Tamed_C Default__GE_Starting_Troll_Tamed_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Stomp")]
+public class GA_CaveTroll_Attack_UA_Stomp_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Stomp")]
+public GA_CaveTroll_Attack_UA_Stomp_C Default__GA_CaveTroll_Attack_UA_Stomp_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Flail")]
+public class GA_CaveTroll_Attack_UA_Flail_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Flail")]
+public GA_CaveTroll_Attack_UA_Flail_C Default__GA_CaveTroll_Attack_UA_Flail_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Claw_R")]
+public class GA_CaveTroll_Attack_UA_Claw_R_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Claw_R")]
+public GA_CaveTroll_Attack_UA_Claw_R_C Default__GA_CaveTroll_Attack_UA_Claw_R_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Claw_L")]
+public class GA_CaveTroll_Attack_UA_Claw_L_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_UA_Claw_L")]
+public GA_CaveTroll_Attack_UA_Claw_L_C Default__GA_CaveTroll_Attack_UA_Claw_L_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_Club_Swing_L")]
+public class GA_CaveTroll_Attack_Club_Swing_L_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_Club_Swing_L")]
+public GA_CaveTroll_Attack_Club_Swing_L_C Default__GA_CaveTroll_Attack_Club_Swing_L_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_Club_Swing_D")]
+public class GA_CaveTroll_Attack_Club_Swing_D_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_Club_Swing_D")]
+public GA_CaveTroll_Attack_Club_Swing_D_C Default__GA_CaveTroll_Attack_Club_Swing_D_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_Club_Frenzy")]
+public class GA_CaveTroll_Attack_Club_Frenzy_C {}
+
+[Import("/Game/Character/Orcs/Trolls/Abilities/GA_CaveTroll_Attack_Club_Frenzy")]
+public GA_CaveTroll_Attack_Club_Frenzy_C Default__GA_CaveTroll_Attack_Club_Frenzy_C;
+
+
+[Import("/Game/Character/Orcs/Trolls/BP_Troll_Base")]
+public class BP_Troll_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public MorBreakBreakablesComponent MorBreakBreakables_GEN_VARIABLE;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler_GEN_VARIABLE;
+    public MorTrollTurnToStone MorTrollTurnToStone_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Hand_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Hand_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Shoulder_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Shoulder_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent DebugNameTag_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorBreakBreakablesComponent MorBreakBreakables;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler;
+    public MorTrollTurnToStone MorTrollTurnToStone;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent Hand_L_Capsule;
+    public StaticMeshComponent Hand_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent Shoulder_L_Capsule;
+    public StaticMeshComponent Shoulder_R_Capsule;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public TextRenderComponent DebugNameTag;
+}
+
+[Import("/Game/Character/Orcs/Trolls/BP_Troll_Base")]
+public class Default__BP_Troll_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_TEST_VFX_Troll_C : BP_Troll_Base_C {
+}

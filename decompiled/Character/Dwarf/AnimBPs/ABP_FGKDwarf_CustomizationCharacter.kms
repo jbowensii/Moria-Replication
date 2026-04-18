@@ -1,0 +1,434 @@
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class MorCustomizationMannequin {
+    public AnonymousClass_173d2b1addfe45eea3c61699a4b7128c CustomizationManager;
+}
+
+[Import("/Script/Moria")]
+public Object EMeshMorphs;
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorMannequinInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class AnonymousClass_173d2b1addfe45eea3c61699a4b7128c {
+    [UnknownSignature, FinalFunction] public sealed void GetMorph();
+}
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public AnimInstance Default__AnimInstance;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimInstance {
+    public Object BlueprintBeginPlay;
+    public Object BlueprintPostEvaluateAnimation;
+    public Object BlueprintUpdateAnimation;
+    [UnknownSignature, VirtualFunction] public virtual void TryGetPawnOwner();
+}
+
+[Import("/Script/Engine")]
+public class AnimSequence : AnimSequenceBase {}
+
+[Import("/Script/Engine")]
+public class AnimSequenceBase {
+    public ObjectProperty SequenceLength;
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void RandomFloatInRange();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_ConvertComponentToLocalSpace;
+
+[Import("/Script/Engine")]
+public Object AnimNode_ConvertLocalToComponentSpace;
+
+[Import("/Script/Engine")]
+public Object AnimNode_LinkedAnimLayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_LinkedInputPose;
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_ApplyAdditive;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_LayeredBoneBlend;
+
+[Import("/Script/AnimGraphRuntime")]
+public class AnimNode_ModifyBone {
+    public ObjectProperty Translation;
+}
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+
+[Import("/Game/Character/Dwarf/Dwa_FGK_Dwarf_Skeleton")]
+public Skeleton Dwa_FGK_Dwarf_Skeleton;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/BasePoses/Dwa_UA_Stand_CCMenu_Loop")]
+public AnimSequence Dwa_UA_Stand_CCMenu_Loop;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/BasePoses/Dwa_UA_Stand_CCMenu_Face_Loop")]
+public AnimSequence Dwa_UA_Stand_CCMenu_Face_Loop;
+
+
+[Import("/Game/Animations/Dwarf/FGKBase/BasePoses/Dwa_UA_N_Pose")]
+public AnimSequence Dwa_UA_N_Pose;
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ALI_Dwarf_Head")]
+public ALI_Dwarf_Head_C Default__ALI_Dwarf_Head_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ALI_Dwarf_Head")]
+public AnimBlueprintGeneratedClass ALI_Dwarf_Head_C;
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ALI_Dwarf_Hair")]
+public ALI_Dwarf_Hair_C Default__ALI_Dwarf_Hair_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ALI_Dwarf_Hair")]
+public AnimBlueprintGeneratedClass ALI_Dwarf_Hair_C;
+
+
+[Import("/Game/Character/Dwarf/AnimBPs/ALI_Dwarf_Beard")]
+public ALI_Dwarf_Beard_C Default__ALI_Dwarf_Beard_C;
+
+[Import("/Game/Character/Dwarf/AnimBPs/ALI_Dwarf_Beard")]
+public AnimBlueprintGeneratedClass ALI_Dwarf_Beard_C;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/BP_DwarfCustomizationCharacterMannequin")]
+public class BP_DwarfCustomizationCharacterMannequin_C : MorCustomizationMannequin {
+    public PersonalityComponent Personality_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public WidgetComponent NamePlateWidget_GEN_VARIABLE;
+    public PersonalityComponent Personality;
+    public SceneComponent DefaultSceneRoot;
+    public WidgetComponent NamePlateWidget;
+}
+
+[Import("/Game/Character/Shared/CharacterCreator/BP_DwarfCustomizationCharacterMannequin")]
+public class Default__BP_DwarfCustomizationCharacterMannequin_C {
+    public AkComponent AkComponent_Voice;
+    public CapsuleComponent CollisionCylinder;
+    public CustomizationManager CustomizationMan;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKCharacterMovementComponent CharMoveComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorEquipComponent EquipComp;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorMannequinInventoryComponent InventoryComp;
+    public SkeletalMeshComponent CharacterMesh0;
+    public SkeletalMeshComponent `Slot::Back`;
+    public SkeletalMeshComponent `Slot::Backpack`;
+    public SkeletalMeshComponent `Slot::Beard`;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Extras`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Gloves`;
+    public SkeletalMeshComponent `Slot::Hair`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Hat`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_FGKDwarf_CustomizationCharacter_C : AnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_2;
+    Struct<AnimNode_Root> AnimGraphNode_Root_3;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose_1;
+    Struct<AnimNode_Root> AnimGraphNode_Root_2;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_2;
+    Struct<AnimNode_ModifyBone> AnimGraphNode_ModifyBone_2;
+    Struct<AnimNode_ConvertLocalToComponentSpace> AnimGraphNode_LocalToComponentSpace;
+    Struct<AnimNode_ConvertComponentToLocalSpace> AnimGraphNode_ComponentToLocalSpace;
+    Struct<AnimNode_ModifyBone> AnimGraphNode_ModifyBone_1;
+    Struct<AnimNode_ModifyBone> AnimGraphNode_ModifyBone;
+    Struct<AnimNode_ApplyAdditive> AnimGraphNode_ApplyAdditive_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_1;
+    Struct<AnimNode_Root> AnimGraphNode_Root_1;
+    Struct<AnimNode_LinkedInputPose> AnimGraphNode_LinkedInputPose;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot_1;
+    Struct<AnimNode_LinkedAnimLayer> AnimGraphNode_LinkedAnimLayer_2;
+    Struct<AnimNode_LinkedAnimLayer> AnimGraphNode_LinkedAnimLayer_1;
+    Struct<AnimNode_LinkedAnimLayer> AnimGraphNode_LinkedAnimLayer;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_ApplyAdditive> AnimGraphNode_ApplyAdditive;
+    Struct<AnimNode_LayeredBoneBlend> AnimGraphNode_LayeredBoneBlend;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float `Chest Morph Value`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Enum `Morph In`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float Beard_Offset_Value;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float RandomIdleStartTime;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<AnimSequence> IdleLoop;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_RandomFloatInRange_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        Object<Pawn> CallFunc_TryGetPawnOwner_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_2;
+        Object<BP_DwarfCustomizationCharacterMannequin_C> K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin;
+        bool K2Node_DynamicCast_bSuccess;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_2;
+        bool CallFunc_IsValid_ReturnValue;
+        float K2Node_Event_DeltaTimeX;
+        const float CallFunc_GetMorph_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_3;
+        float CallFunc_RandomFloatInRange_ReturnValue_1;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_10: CallFunc_RandomFloatInRange_ReturnValue = KismetMathLibrary.RandomFloatInRange(0f, 20f);
+        this.RandomIdleStartTime = CallFunc_RandomFloatInRange_ReturnValue;
+        return;
+
+        // Block 3
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_80: CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.`Chest Morph Value`, this.Beard_Offset_Value);
+        CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(0f, CallFunc_Multiply_FloatFloat_ReturnValue, 0f);
+        this.AnimGraphNode_ModifyBone.Translation = CallFunc_MakeVector_ReturnValue;
+        return;
+
+        // Block 4
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_214: CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(this.`Chest Morph Value`, this.Beard_Offset_Value);
+        CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(0f, CallFunc_Multiply_FloatFloat_ReturnValue_1, 0f);
+        this.AnimGraphNode_ModifyBone_2.Translation = CallFunc_MakeVector_ReturnValue_1;
+        return;
+
+        // Block 5
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_348_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_2AA7EA16462442393F16158F99D00899: goto ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_80;
+
+        // Block 6
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_353_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_EF9495F548146F2B845498B6AEED8893: CallFunc_Multiply_FloatFloat_ReturnValue_2 = KismetMathLibrary.Multiply_FloatFloat(this.`Chest Morph Value`, this.Beard_Offset_Value);
+        CallFunc_MakeVector_ReturnValue_2 = KismetMathLibrary.MakeVector(0f, CallFunc_Multiply_FloatFloat_ReturnValue_2, 0f);
+        this.AnimGraphNode_ModifyBone_1.Translation = CallFunc_MakeVector_ReturnValue_2;
+        return;
+
+        // Block 7
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_487_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_22DB877B4F24C2E1AF539DA2B2D8013E: goto ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_214;
+
+        // Block 8
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_492: EX_LetObj(CallFunc_TryGetPawnOwner_ReturnValue,this.TryGetPawnOwner());
+        K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin = EX_DynamicCast("BP_DwarfCustomizationCharacterMannequin_C", CallFunc_TryGetPawnOwner_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 9
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 10
+        this.`Morph In` = (byte)(2);
+        CallFunc_GetMorph_ReturnValue = K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin.CustomizationManager.GetMorph(this.`Morph In`);
+        this.`Chest Morph Value` = CallFunc_GetMorph_ReturnValue;
+        return;
+
+        // Block 11
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_771_BlueprintUpdateAnimation: goto ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_492;
+
+        // Block 12
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_776_BlueprintPostEvaluateAnimation: return;
+
+        // Block 13
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_781_BlueprintBeginPlay: CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(this.IdleLoop));
+        if (!(CallFunc_IsValid_ReturnValue_1)) goto ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_10;
+
+        // Block 14
+        CallFunc_Multiply_FloatFloat_ReturnValue_3 = KismetMathLibrary.Multiply_FloatFloat(this.IdleLoop.SequenceLength, 0.9f);
+        CallFunc_RandomFloatInRange_ReturnValue_1 = KismetMathLibrary.RandomFloatInRange(0f, CallFunc_Multiply_FloatFloat_ReturnValue_3);
+        this.RandomIdleStartTime = CallFunc_RandomFloatInRange_ReturnValue_1;
+
+        // Block 15
+        ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_957:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter(ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_781_BlueprintBeginPlay);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintPostEvaluateAnimation() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter(ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_776_BlueprintPostEvaluateAnimation);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintUpdateAnimation([BlueprintVisible, BlueprintReadOnly] float DeltaTimeX) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaTimeX", DeltaTimeX);
+        this.ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter(ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_771_BlueprintUpdateAnimation);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_22DB877B4F24C2E1AF539DA2B2D8013E() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter(ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_487_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_22DB877B4F24C2E1AF539DA2B2D8013E);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_EF9495F548146F2B845498B6AEED8893() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter(ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_353_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_EF9495F548146F2B845498B6AEED8893);
+
+    }
+
+    [BlueprintEvent]
+    void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_2AA7EA16462442393F16158F99D00899() {
+        // Block 1
+        this.ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter(ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_348_EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_FGKDwarf_CustomizationCharacter_AnimGraphNode_ModifyBone_2AA7EA16462442393F16158F99D00899);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+    [HasOutParms, BlueprintCallable]
+    void Dwa_Beard([BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> BeardInPose, out Struct<PoseLink> Dwa_Beard) {
+        // Block 1
+        Dwa_Beard = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+    [HasOutParms, BlueprintCallable]
+    void Dwa_Hair([BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> HairInPose, out Struct<PoseLink> Dwa_Hair) {
+        // Block 1
+        Dwa_Hair = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+    [HasOutParms, BlueprintCallable]
+    void Dwa_Head([BlueprintVisible, BlueprintReadOnly] Struct<PoseLink> FaceInPose, out Struct<PoseLink> Dwa_Head) {
+        // Block 1
+        Dwa_Head = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

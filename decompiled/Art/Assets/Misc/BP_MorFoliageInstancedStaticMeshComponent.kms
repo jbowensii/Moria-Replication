@@ -1,0 +1,28 @@
+
+[Import("/Script/Moria")]
+public class MorFoliageInstancedStaticMeshComponent {}
+
+[Import("/Script/Moria")]
+public MorFoliageInstancedStaticMeshComponent Default__MorFoliageInstancedStaticMeshComponent;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class BP_MorFoliageInstancedStaticMeshComponent_C : MorFoliageInstancedStaticMeshComponent {
+}

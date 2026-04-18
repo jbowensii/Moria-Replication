@@ -1,0 +1,135 @@
+
+[Import("/Script/Engine")]
+public AnimNotify Default__AnimNotify;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+}
+
+[Import("/Script/Engine")]
+public class AnimNotify {
+    public Object Received_Notify;
+}
+
+[Import("/Script/Engine")]
+public class AnimSequenceBase {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : ActorComponent {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Game/Character/Orcs/Grendel/BP_Grendel")]
+public class BP_Grendel_C {
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public MorAIBossComponent MorAIBoss_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TextRenderComponent GoblinDebug_GEN_VARIABLE;
+    public TextRenderComponent Tribe_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public CustomizationManager CustomizationManager;
+    public MorAIBossComponent MorAIBoss;
+    public SceneComponent DefaultSceneRoot;
+    public TextRenderComponent GoblinDebug;
+    public TextRenderComponent Tribe;
+    [UnknownSignature, LocalVirtualFunction] public virtual void Grendel_GreatLeapDisappear();
+}
+
+[Import("/Game/Character/Orcs/Grendel/BP_Grendel")]
+public class Default__BP_Grendel_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Parsed, ReplicationDataIsSetUp, CollapseCategories, Const, CompiledFromBlueprint]
+class BP_Notify_GrendelDespawn_C : AnimNotify {
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void Received_Notify([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<SkeletalMeshComponent> MeshComp, [BlueprintVisible, BlueprintReadOnly] Object<AnimSequenceBase> Animation, [Return] out bool ReturnValue) {
+        // Locals
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        Object<BP_Grendel_C> K2Node_DynamicCast_AsBP_Grendel;
+        bool K2Node_DynamicCast_bSuccess;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetOwner_ReturnValue,MeshComp.GetOwner());
+        K2Node_DynamicCast_AsBP_Grendel = EX_DynamicCast("BP_Grendel_C", CallFunc_GetOwner_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Grendel);
+
+        if (K2Node_DynamicCast_bSuccess) {
+            // Block 2
+            K2Node_DynamicCast_AsBP_Grendel.Grendel_GreatLeapDisappear();
+            ReturnValue = (bool)(false);
+
+        }
+
+
+        // Block 3
+        Received_Notify_168: return ReturnValue;
+
+    }
+
+}

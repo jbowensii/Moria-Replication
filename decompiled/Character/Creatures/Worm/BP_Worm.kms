@@ -1,0 +1,291 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class Worm {}
+
+[Import("/Script/Moria")]
+public MorViewTrigger Default__MorViewTrigger;
+
+[Import("/Script/Moria")]
+public class Default__Worm {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+[Import("/Script/Moria")]
+public class WormDie {}
+
+[Import("/Script/Moria")]
+public class WormDigIn {}
+
+[Import("/Script/Moria")]
+public class WormDigOut {}
+
+[Import("/Script/Moria")]
+public class WormIdle {}
+
+[Import("/Script/Moria")]
+public class WormPlayAnimState {}
+
+[Import("/Script/Moria")]
+public class WormSpawn {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/CharacterArt/Creatures/GreatWorm/SK_GreatWorm")]
+public SkeletalMesh SK_GreatWorm;
+
+
+[Import("/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX")]
+public NiagaraSystem NS_EnemyDespawnFX;
+
+
+[Import("/Game/FX/CharacterDespawn/LinearCurve")]
+public CurveFloat LinearCurve;
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/Creatures/Worm/GE_Starting_Worm")]
+public class GE_Starting_Worm_C {}
+
+[Import("/Game/Character/Creatures/Worm/GE_Starting_Worm")]
+public GE_Starting_Worm_C Default__GE_Starting_Worm_C;
+
+
+[Import("/Game/Character/Creatures/Worm/GA_Worm_RangeAttack")]
+public class GA_Worm_RangeAttack_C {}
+
+[Import("/Game/Character/Creatures/Worm/GA_Worm_RangeAttack")]
+public GA_Worm_RangeAttack_C Default__GA_Worm_RangeAttack_C;
+
+
+[Import("/Game/Character/Creatures/Worm/GA_Worm_MeleeAttack")]
+public class GA_Worm_MeleeAttack_C {}
+
+[Import("/Game/Character/Creatures/Worm/GA_Worm_MeleeAttack")]
+public GA_Worm_MeleeAttack_C Default__GA_Worm_MeleeAttack_C;
+
+
+[Import("/Game/Character/Creatures/Worm/CSt_Worm")]
+public class CSt_Worm_C {}
+
+[Import("/Game/Character/Creatures/Worm/CSt_Worm")]
+public class Default__CSt_Worm_C {
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_HasTags FGKCondition_HasTags_2;
+    public FGKCondition_HasTags FGKCondition_HasTags_3;
+    public FGKCondition_HasTags FGKCondition_HasTags_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public WormDie WormDie_0;
+    public WormDigIn WormDigIn_0;
+    public WormDigOut WormDigOut_0;
+    public WormDigOut WormDigOut_1;
+    public WormIdle WormIdle_4;
+    public WormPlayAnimState WormPlayAnimState_0;
+    public WormSpawn WormSpawn_0;
+}
+
+
+[Import("/Game/Character/Creatures/Worm/BP_Worm_AIController")]
+public class BP_Worm_AIController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Creatures/Worm/BP_Worm_AIController")]
+public class Default__BP_Worm_AIController_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Creatures/Worm/ABP_Worm")]
+public ABP_Worm_C Default__ABP_Worm_C;
+
+[Import("/Game/Character/Creatures/Worm/ABP_Worm")]
+public AnimBlueprintGeneratedClass ABP_Worm_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Worm_C : Worm {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorViewTrigger> MorViewTrigger;
+}

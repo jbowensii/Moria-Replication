@@ -1,0 +1,28 @@
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Game/CharacterArt/Creatures/Warg/SK_Warg_Skeleton")]
+public Skeleton SK_Warg_Skeleton;
+
+
+[Import("/Game/Character/Creatures/Wolf/Warg/ABP_Warg")]
+public ABP_Warg_C Default__ABP_Warg_C;
+
+[Import("/Game/Character/Creatures/Wolf/Warg/ABP_Warg")]
+public AnimBlueprintGeneratedClass ABP_Warg_C;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Warg_Wolf_C : ABP_Warg_C {
+}

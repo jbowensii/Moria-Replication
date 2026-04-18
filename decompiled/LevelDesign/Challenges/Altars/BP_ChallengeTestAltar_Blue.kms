@@ -1,0 +1,170 @@
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_09")]
+public StaticMesh SM_celtic_idol_09;
+
+
+[Import("/Game/Unshippable/ThirdParty/celtic_pagan_idols/Geometry/SM_celtic_idol_04")]
+public StaticMesh SM_celtic_idol_04;
+
+
+[Import("/Game/Environments/Models/Challenge_Models/Meshes/SM_altar_002")]
+public StaticMesh SM_altar_002;
+
+
+[Import("/Game/LevelDesign/Challenges/Altars/BP_ChallengeTestAltar_Red")]
+public class BP_ChallengeTestAltar_Red_C {
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent FigurePositions_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh10_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh11_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh12_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh13_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh14_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh15_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh16_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh17_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh18_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh19_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh1_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh20_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh2_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh3_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh4_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh5_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh6_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh7_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh8_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh9_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent FigurePositions;
+    public StaticMeshComponent StaticMesh10;
+    public StaticMeshComponent StaticMesh11;
+    public StaticMeshComponent StaticMesh12;
+    public StaticMeshComponent StaticMesh13;
+    public StaticMeshComponent StaticMesh14;
+    public StaticMeshComponent StaticMesh15;
+    public StaticMeshComponent StaticMesh16;
+    public StaticMeshComponent StaticMesh17;
+    public StaticMeshComponent StaticMesh18;
+    public StaticMeshComponent StaticMesh19;
+    public StaticMeshComponent StaticMesh1;
+    public StaticMeshComponent StaticMesh20;
+    public StaticMeshComponent StaticMesh2;
+    public StaticMeshComponent StaticMesh3;
+    public StaticMeshComponent StaticMesh4;
+    public StaticMeshComponent StaticMesh5;
+    public StaticMeshComponent StaticMesh6;
+    public StaticMeshComponent StaticMesh7;
+    public StaticMeshComponent StaticMesh8;
+    public StaticMeshComponent StaticMesh9;
+    public StaticMeshComponent StaticMesh;
+}
+
+[Import("/Game/LevelDesign/Challenges/Altars/BP_ChallengeTestAltar_Red")]
+public class Default__BP_ChallengeTestAltar_Red_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent LootLocator;
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ChallengeTestAltar_Blue_C : BP_ChallengeTestAltar_Red_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> NavArea_InteractableArchitecture_0;
+}

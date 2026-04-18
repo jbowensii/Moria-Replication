@@ -1,0 +1,153 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Unshippable/Whitebox/Rocks/Meshes/PWM_Quarry_RockDebris_B")]
+public StaticMesh PWM_Quarry_RockDebris_B;
+
+
+[Import("/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Materials/MI_DirtMound_Suburbs_Dirt")]
+public MaterialInstanceConstant MI_DirtMound_Suburbs_Dirt;
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/Flora/BP_Flora_GrabappleReceptacle")]
+public class BP_Flora_GrabappleReceptacle_C {
+    public MorBreakableMeshPiece MorBreakableMeshPiece10_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece11_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece12_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece13_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece2_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece3_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece4_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece5_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece6_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece7_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece8_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece9_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent EmptyMesh_GEN_VARIABLE;
+    public StaticMeshComponent Mesh1_GEN_VARIABLE;
+    public StaticMeshComponent Mesh2_GEN_VARIABLE;
+    public StaticMeshComponent Mesh3_GEN_VARIABLE;
+    public StaticMeshComponent Mesh4_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece10;
+    public MorBreakableMeshPiece MorBreakableMeshPiece11;
+    public MorBreakableMeshPiece MorBreakableMeshPiece12;
+    public MorBreakableMeshPiece MorBreakableMeshPiece13;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1;
+    public MorBreakableMeshPiece MorBreakableMeshPiece2;
+    public MorBreakableMeshPiece MorBreakableMeshPiece3;
+    public MorBreakableMeshPiece MorBreakableMeshPiece4;
+    public MorBreakableMeshPiece MorBreakableMeshPiece5;
+    public MorBreakableMeshPiece MorBreakableMeshPiece6;
+    public MorBreakableMeshPiece MorBreakableMeshPiece7;
+    public MorBreakableMeshPiece MorBreakableMeshPiece8;
+    public MorBreakableMeshPiece MorBreakableMeshPiece9;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent EmptyMesh;
+    public StaticMeshComponent Mesh1;
+    public StaticMeshComponent Mesh2;
+    public StaticMeshComponent Mesh3;
+    public StaticMeshComponent Mesh4;
+}
+
+[Import("/Game/LevelDesign/Placeables/Containers/Flora/BP_Flora_GrabappleReceptacle")]
+public class Default__BP_Flora_GrabappleReceptacle_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/Regrowers/BP_BaseBreakableRegrower")]
+public class BP_BaseBreakableRegrower_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/Regrowers/BP_BaseBreakableRegrower")]
+public class Default__BP_BaseBreakableRegrower_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_TreeRegrower_Grabapples_C : BP_BaseBreakableRegrower_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece;
+}

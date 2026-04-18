@@ -1,0 +1,235 @@
+
+[Import("/Script/Moria")]
+public class MorAISense_Torch {}
+
+[Import("/Script/Moria")]
+public class MorAISenseConfig_Torch {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public MorAISenseConfig_Torch Default__MorAISenseConfig_Torch;
+
+[Import("/Script/Moria")]
+public class MorActionEffect_RequestDialogue {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Despawn {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Emote {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_EquipItem {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_DistanceToKey {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_TargetWithinRange {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_MoveToBlackboardKey {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_RunEQS {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_UseBehaviorPoint {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasLineOfSightToTarget {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Passive_Gather_Goblin")]
+public class BSt_Patrol_Passive_Gather_Goblin_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Passive_Gather_Goblin")]
+public class Default__BSt_Patrol_Passive_Gather_Goblin_C {
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKBehaviorState_UseBehaviorPoint FGKBehaviorState_UseBehaviorPoint_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public MorActionEffect_RequestDialogue MorActionEffect_RequestDialogue_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_StareIntoReinforce_Goblin")]
+public class BSt_Patrol_Aware_StareIntoReinforce_Goblin_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_StareIntoReinforce_Goblin")]
+public class Default__BSt_Patrol_Aware_StareIntoReinforce_Goblin_C {
+    public FGKAICondition_DistanceToKey FGKAICondition_DistanceToKey_0;
+    public FGKAICondition_TargetWithinRange FGKAICondition_TargetWithinRange_1;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_5;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public MorBehaviorState_Despawn MorBehaviorState_Despawn_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_5;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_Stare_Goblin")]
+public class BSt_Patrol_Aware_Stare_Goblin_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_Stare_Goblin")]
+public class Default__BSt_Patrol_Aware_Stare_Goblin_C {
+    public FGKAICondition_DistanceToKey FGKAICondition_DistanceToKey_0;
+    public FGKAICondition_TargetWithinRange FGKAICondition_TargetWithinRange_1;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_5;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public MorBehaviorState_Despawn MorBehaviorState_Despawn_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_5;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_Stalk_Goblin")]
+public class BSt_Patrol_Aware_Stalk_Goblin_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/SquadRoles/BSt_Patrol_Aware_Stalk_Goblin")]
+public class Default__BSt_Patrol_Aware_Stalk_Goblin_C {
+    public FGKAICondition_TargetWithinRange FGKAICondition_TargetWithinRange_0;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+    public MorBehaviorState_EquipItem MorBehaviorState_EquipItem_0;
+}
+
+
+[Import("/Game/Character/Orcs/Orcs/BP_AIController_Orc")]
+public class BP_AIController_Orc_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Orcs/Orcs/BP_AIController_Orc")]
+public class Default__BP_AIController_Orc_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_AIController_Goblin_C : BP_AIController_Orc_C {
+}

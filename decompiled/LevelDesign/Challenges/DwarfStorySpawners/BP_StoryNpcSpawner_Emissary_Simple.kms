@@ -1,0 +1,83 @@
+
+[Import("/Script/Moria")]
+public class MorNPCStorySpawnerComponent {}
+
+[Import("/Script/Moria")]
+public class MorAISpawnerComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Character/NpcDwarf/DT_NPCInventoryPresets")]
+public DataTable DT_NPCInventoryPresets;
+
+
+[Import("/Game/LevelDesign/Challenges/DwarfStorySpawners/BP_StoryNpcSpawner")]
+public class BP_StoryNpcSpawner_C {
+    public CapsuleComponent Capsule_GEN_VARIABLE;
+    public MorAISpawnerComponent MorAISpawner_GEN_VARIABLE;
+    public MorNPCStorySpawnerComponent MorNPCStorySpawner_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TextRenderComponent TextRender_GEN_VARIABLE;
+    public CapsuleComponent Capsule;
+    public MorAISpawnerComponent MorAISpawner;
+    public MorNPCStorySpawnerComponent MorNPCStorySpawner;
+    public SceneComponent DefaultSceneRoot;
+    public TextRenderComponent TextRender;
+}
+
+[Import("/Game/LevelDesign/Challenges/DwarfStorySpawners/BP_StoryNpcSpawner")]
+public BP_StoryNpcSpawner_C Default__BP_StoryNpcSpawner_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_StoryNpcSpawner_Emissary_Simple_C : BP_StoryNpcSpawner_C {
+}

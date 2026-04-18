@@ -1,0 +1,222 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Tree_Mound_C")]
+public StaticMesh Tree_Mound_C;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Flora_Enoki_Clump_C")]
+public StaticMesh Flora_Enoki_Clump_C;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Flora_Enoki_Clump_B")]
+public StaticMesh Flora_Enoki_Clump_B;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Flora_Enoki_Clump_A")]
+public StaticMesh Flora_Enoki_Clump_A;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Materials/Flora_Enoki_Clump")]
+public MaterialInstanceConstant Flora_Enoki_Clump;
+
+
+[Import("/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Materials/Suburbs_Dirt_Mount")]
+public Material Suburbs_Dirt_Mount;
+
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BE")]
+public class BP_Fungal_Foliage_BE_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece FantasyPlant6_6_GEN_VARIABLE;
+    public MorBreakableMeshPiece FantasyPlant6_7_GEN_VARIABLE;
+    public MorBreakableMeshPiece FantasyPlant6_8_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B1_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B2_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B3_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B4_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D1_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D4_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D5_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D6_GEN_VARIABLE;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D7_GEN_VARIABLE;
+    public MorBreakableMeshPiece Fungal_Foliage_BA1_GEN_VARIABLE;
+    public MorBreakableMeshPiece StaticMeshComponent1_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece FantasyPlant6_6;
+    public MorBreakableMeshPiece FantasyPlant6_7;
+    public MorBreakableMeshPiece FantasyPlant6_8;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B1;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B2;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B3;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_B4;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D1;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D4;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D5;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D6;
+    public MorBreakableMeshPiece Flora_Enoki_Clump_D7;
+    public MorBreakableMeshPiece Fungal_Foliage_BA1;
+    public MorBreakableMeshPiece StaticMeshComponent1;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BE")]
+public class Default__BP_Fungal_Foliage_BE_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BD")]
+public class BP_Fungal_Foliage_BD_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece Fungal_Foliage_BF1_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `NODE_AddStaticMeshComponent-0`;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece Fungal_Foliage_BF1;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BD")]
+public class Default__BP_Fungal_Foliage_BD_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BB")]
+public class BP_Fungal_Foliage_BB_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece StaticMeshComponent1_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece StaticMeshComponent1;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BB")]
+public class Default__BP_Fungal_Foliage_BB_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BA")]
+public class BP_Fungal_Foliage_BA_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece StaticMeshComponent1_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece StaticMeshComponent1;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/Foliage/BP_Fungal_Foliage_BA")]
+public class Default__BP_Fungal_Foliage_BA_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/Regrowers/BP_BaseBreakableRegrower")]
+public class BP_BaseBreakableRegrower_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/Regrowers/BP_BaseBreakableRegrower")]
+public class Default__BP_BaseBreakableRegrower_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_TreeRegrower_FungalClusters_Small_B_C : BP_BaseBreakableRegrower_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece;
+}

@@ -1,0 +1,126 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorConstructionSnapComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionStabilityComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Suburbs/Building_Trellis_1M_A")]
+public StaticMesh Building_Trellis_1M_A;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Suburbs/Materials/Building_Wood_Interior/MI_Building_Wood_Interior_C_Mat")]
+public MaterialInstanceConstant MI_Building_Wood_Interior_C_Mat;
+
+
+[Import("/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Balustrade_3m_A")]
+public class BP_Suburbs_Balustrade_3m_A_C {
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece Balustrade1_GEN_VARIABLE;
+    public MorBreakableMeshPiece Balustrade2_GEN_VARIABLE;
+    public MorBreakableMeshPiece Balustrade3_GEN_VARIABLE;
+    public MorConstructionSnapComponent MorConstructionSnap_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece Balustrade1;
+    public MorBreakableMeshPiece Balustrade2;
+    public MorBreakableMeshPiece Balustrade3;
+    public MorConstructionSnapComponent MorConstructionSnap;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Balustrade_3m_A")]
+public class Default__BP_Suburbs_Balustrade_3m_A_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public MorBreakableFXComponent `Breakable Effects`;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class BP_BaseArchitectureBreakable_C {
+    public MorConstructionStabilityComponent MorConstructionStability_GEN_VARIABLE;
+    public MorConstructionStabilityComponent MorConstructionStability;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseArchitectureBreakable")]
+public class Default__BP_BaseArchitectureBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Wooden_Balustrade_Trellis_3m_A_Player_C : BP_Suburbs_Balustrade_3m_A_C {
+}

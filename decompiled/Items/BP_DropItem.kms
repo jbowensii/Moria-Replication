@@ -1,0 +1,353 @@
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class InscribedRuneComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetGlowOnNearbyParam();
+}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorDroppedItem : Actor {
+    public Object UpdateGlowMat;
+    public InscribedRuneComponent InscribedRuneComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryTargetComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaticMeshComponentWithOffset {}
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorDroppedItem {
+    public Object InteractCollider;
+    public Object `Callout Data`;
+    public Object `Heavy Carry`;
+    public Object InventoryComponent;
+    public Object DroppedItemMesh;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_NpcActivity {}
+
+[Import("/Script/Moria")]
+public class MorActionEffect_NpcPickup {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Emote {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKAkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_MoveToBlackboardKey {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void AddComponentByClass();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void SetRTPCValue();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkRtpc {}
+
+
+[Import("/Game/Tech/Data/StringTables/Items")]
+public StringTable Items;
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/Unshippable/ThirdParty/MedievalPropsPack/Meshes/box2")]
+public StaticMesh box2;
+
+
+[Import("/Game/FX/Beacon/NS_PickupEpic")]
+public NiagaraSystem NS_PickupEpic;
+
+
+[Import("/Game/FX/Beacon/NS_Pickup")]
+public NiagaraSystem NS_Pickup;
+
+
+[Import("/Game/Character/NpcDwarf/Bst_NPCGatherPoint")]
+public class Bst_NPCGatherPoint_C {}
+
+[Import("/Game/Character/NpcDwarf/Bst_NPCGatherPoint")]
+public class Default__Bst_NPCGatherPoint_C {
+    public BSt_Idle_C BSt_Idle_C_0;
+    public BSt_Wander_C BSt_Wander_C_0;
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_2;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle")]
+public class BSt_Idle_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_Wander")]
+public class BSt_Wander_C {}
+
+
+[Import("/Game/Animations/Dwarf/Dwa_UA_Stand_Int_Generic_Pickup_Montage")]
+public AnimMontage Dwa_UA_Stand_Int_Generic_Pickup_Montage;
+
+
+[Import("/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/weapon_glow")]
+public AkRtpc weapon_glow;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/fx_wpn_magicresonance_lp_play")]
+public AkAudioEvent fx_wpn_magicresonance_lp_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DropItem_C : MorDroppedItem {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> PickupBehavior;
+    float Timeline_0_Growth_3A56C51C45F9E02C7FCB67B67AACD2D3;
+    byte Timeline_0__Direction_3A56C51C45F9E02C7FCB67B67AACD2D3;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool GlowMatSoundPlayed;
+    [Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference] Object<FGKAkComponent> AkComp;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_DropItem([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        [InstancedReference] Object<FGKAkComponent> CallFunc_AddComponentByClass_ReturnValue;
+        int CallFunc_PostAkEvent_ReturnValue;
+        float K2Node_Event_TargetGlow;
+        float K2Node_Event_CurrentGlow;
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        float CallFunc_Add_FloatFloat_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_DropItem_15_Timeline_0__FinishedFunc: EX_PopExecutionFlow();
+
+            // Block 3
+            ExecuteUbergraph_BP_DropItem_16_Timeline_0__UpdateFunc: CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.Timeline_0_Growth_3A56C51C45F9E02C7FCB67B67AACD2D3, CallFunc_Subtract_FloatFloat_ReturnValue);
+            CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.InscribedRuneComponent.SetGlowOnNearbyParam(CallFunc_Add_FloatFloat_ReturnValue);
+            CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.Timeline_0_Growth_3A56C51C45F9E02C7FCB67B67AACD2D3, CallFunc_Subtract_FloatFloat_ReturnValue);
+            CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+            Default__AkGameplayStatics.SetRTPCValue(weapon_glow, CallFunc_Add_FloatFloat_ReturnValue, 100, this, EX_NameConst("None"));
+            EX_PopExecutionFlow();
+
+            // Block 4
+            ExecuteUbergraph_BP_DropItem_403: this.Timeline_0.PlayFromStart();
+            EX_PopExecutionFlow();
+
+            // Block 5
+            ExecuteUbergraph_BP_DropItem_436: EX_LetObj(CallFunc_AddComponentByClass_ReturnValue,this.AddComponentByClass(FGKAkComponent, false, EX_TransformConst(0, 0, 0, 1, 0, 0, 0, 1, 1, 1), false));
+            EX_LetObj(this.AkComp,CallFunc_AddComponentByClass_ReturnValue);
+            CallFunc_PostAkEvent_ReturnValue = this.AkComp.PostAkEvent(fx_wpn_magicresonance_lp_play, 0, Temp_delegate_Variable, Temp_struct_Variable, "");
+            this.GlowMatSoundPlayed = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 6
+            ExecuteUbergraph_BP_DropItem_627_UpdateGlowMat: EX_PushExecutionFlow(ExecuteUbergraph_BP_DropItem_403);
+
+            // Block 7
+            if (!(this.GlowMatSoundPlayed)) goto ExecuteUbergraph_BP_DropItem_436;
+
+            // Block 8
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 9
+        ExecuteUbergraph_BP_DropItem_647:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void UpdateGlowMat([BlueprintVisible, BlueprintReadOnly] float TargetGlow, [BlueprintVisible, BlueprintReadOnly] float CurrentGlow) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_TargetGlow", TargetGlow);
+        EX_LetValueOnPersistentFrame("K2Node_Event_CurrentGlow", CurrentGlow);
+        this.ExecuteUbergraph_BP_DropItem(ExecuteUbergraph_BP_DropItem_627_UpdateGlowMat);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DropItem(ExecuteUbergraph_BP_DropItem_16_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DropItem(ExecuteUbergraph_BP_DropItem_15_Timeline_0__FinishedFunc);
+
+    }
+
+}

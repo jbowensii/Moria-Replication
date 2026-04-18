@@ -1,0 +1,424 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class MorAIChallengeActor {}
+
+[Import("/Script/Moria")]
+public class MorAIController {}
+
+[Import("/Script/Moria")]
+public class MorAISpawnerComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void IsSandbox();
+}
+
+[Import("/Script/Moria")]
+public class MorNPCStorySpawnerComponent {
+    [UnknownSignature, FinalFunction] public sealed void RequestSpawnCharacter();
+}
+
+[Import("/Script/Moria")]
+public MorAIChallengeActor Default__MorAIChallengeActor;
+
+[Import("/Script/Moria")]
+public MorAISpawnerComponent Default__MorAISpawnerComponent;
+
+[Import("/Script/Moria")]
+public MorNPCStorySpawnerComponent Default__MorNPCStorySpawnerComponent;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public CapsuleComponent Default__CapsuleComponent;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+    [UnknownSignature, FinalFunction] public sealed void Map_Keys();
+    [UnknownSignature, FinalFunction] public sealed void Map_Length();
+}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MulticastInlineDelegateProperty {}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_StoryNpcSpawner_C : MorAIChallengeActor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorNPCStorySpawnerComponent> MorNPCStorySpawner;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> TextRender;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<CapsuleComponent> Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAISpawnerComponent> MorAISpawner;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible] Map ProgressRowSpawnConditions;
+    [Edit, BlueprintVisible] Map NpcRescuedUpdateProgressRow;
+    [Edit, BlueprintVisible, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable] MulticastInlineDelegate OnStoryCharacterSpawned;
+    [Edit, BlueprintVisible] bool bEnableSpawnAtStart;
+    [Edit, BlueprintVisible] bool bSpawnInSandbox;
+    [Delegate, BlueprintCallable, BlueprintEvent]
+    public void OnStoryCharacterSpawned__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> `Spawned Character`) {
+        // Block 1
+
+    }
+
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_StoryNpcSpawner([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        [InstancedReference] Object<MorNPCStorySpawnerComponent> K2Node_ComponentBoundEvent_SpawnerComponent;
+        Object<MorCharacter> K2Node_ComponentBoundEvent_SpawnedCharacter;
+        Object<MorAIController> K2Node_ComponentBoundEvent_SpawnedController;
+        [InstancedReference] Object<MorNPCStorySpawnerComponent> K2Node_ComponentBoundEvent_SpawnerComponent_2;
+        bool CallFunc_CheckAISpawnConditions_Res;
+        [InstancedReference] Object<MorNPCStorySpawnerComponent> K2Node_ComponentBoundEvent_SpawnerComponent_1;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_StoryNpcSpawner_10_BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_0_MorAINpcSpawnerSpawnEvent__DelegateSignature: EX_CallMulticastDelegate(this.OnStoryCharacterSpawned__DelegateSignature, K2Node_ComponentBoundEvent_SpawnedCharacter, this.OnStoryCharacterSpawned);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_StoryNpcSpawner_43_BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_0_MorAINpcSpawnerSimpleEvent__DelegateSignature: this.CheckAISpawnConditions(CallFunc_CheckAISpawnConditions_Res);
+        if (!CallFunc_CheckAISpawnConditions_Res) return;
+
+        // Block 4
+        this.MorNPCStorySpawner.RequestSpawnCharacter();
+        return;
+
+        // Block 5
+        ExecuteUbergraph_BP_StoryNpcSpawner_117_BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_2_MorAINpcSpawnerSimpleEvent__DelegateSignature: this.UpdateRescuedProgressRows();
+
+        // Block 6
+        ExecuteUbergraph_BP_StoryNpcSpawner_131:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_0_MorAINpcSpawnerSpawnEvent__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<MorNPCStorySpawnerComponent> SpawnerComponent, [BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> SpawnedCharacter, [BlueprintVisible, BlueprintReadOnly] Object<MorAIController> SpawnedController) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SpawnerComponent", SpawnerComponent);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SpawnedCharacter", SpawnedCharacter);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SpawnedController", SpawnedController);
+        this.ExecuteUbergraph_BP_StoryNpcSpawner(ExecuteUbergraph_BP_StoryNpcSpawner_10_BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_0_MorAINpcSpawnerSpawnEvent__DelegateSignature);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_2_MorAINpcSpawnerSimpleEvent__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<MorNPCStorySpawnerComponent> SpawnerComponent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SpawnerComponent_1", SpawnerComponent);
+        this.ExecuteUbergraph_BP_StoryNpcSpawner(ExecuteUbergraph_BP_StoryNpcSpawner_117_BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_2_MorAINpcSpawnerSimpleEvent__DelegateSignature);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_0_MorAINpcSpawnerSimpleEvent__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<MorNPCStorySpawnerComponent> SpawnerComponent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_SpawnerComponent_2", SpawnerComponent);
+        this.ExecuteUbergraph_BP_StoryNpcSpawner(ExecuteUbergraph_BP_StoryNpcSpawner_43_BndEvt__BP_StoryNpcSpawner_MorNPCStorySpawner_K2Node_ComponentBoundEvent_0_MorAINpcSpawnerSimpleEvent__DelegateSignature);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void CheckAISpawnConditions(out bool Res) {
+        // Locals
+        [Edit, BlueprintVisible] bool TempRes;
+        bool CallFunc_IsSandbox_ReturnValue;
+        bool CallFunc_AreProgressRowsUnlocked_Result;
+        bool CallFunc_BooleanAND_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue_1;
+
+        // Block 1
+        CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+
+        if (CallFunc_IsSandbox_ReturnValue) {
+            // Block 2
+            this.AreProgressRowsUnlocked(CallFunc_AreProgressRowsUnlocked_Result);
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_AreProgressRowsUnlocked_Result, this.bEnableSpawnAtStart));
+            CallFunc_BooleanAND_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanAND(this.bSpawnInSandbox, CallFunc_BooleanAND_ReturnValue));
+            TempRes = (bool)(CallFunc_BooleanAND_ReturnValue_1);
+
+            // Block 3
+            CheckAISpawnConditions_153: Res = (bool)(TempRes);
+            return;
+
+        }
+
+
+        // Block 4
+        CheckAISpawnConditions_177: this.AreProgressRowsUnlocked(CallFunc_AreProgressRowsUnlocked_Result);
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_AreProgressRowsUnlocked_Result, this.bEnableSpawnAtStart));
+        TempRes = (bool)(CallFunc_BooleanAND_ReturnValue);
+        goto CheckAISpawnConditions_153;
+
+        // Block 5
+        CheckAISpawnConditions_262:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void AreProgressRowsUnlocked(out bool Result) {
+        // Locals
+        [Edit, BlueprintVisible] bool ProgressMismatch;
+        bool Temp_bool_True_if_break_was_hit_Variable;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        ref Array<Struct<MorProgressRowHandle>> CallFunc_Map_Keys_Keys;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<MorProgressRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue_1;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_EqualEqual_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            ProgressMismatch = (bool)(false);
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_Map_Keys_Keys = new[] {};
+            Default__BlueprintMapLibrary.Map_Keys(this.ProgressRowSpawnConditions, CallFunc_Map_Keys_Keys);
+            Temp_bool_True_if_break_was_hit_Variable = (bool)(false);
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            AreProgressRowsUnlocked_155: CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(Temp_bool_True_if_break_was_hit_Variable));
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_Map_Keys_Keys);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Not_PreBool_ReturnValue, CallFunc_Less_IntInt_ReturnValue));
+
+            if (CallFunc_BooleanAND_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(AreProgressRowsUnlocked_717);
+
+                // Block 4
+                Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(CallFunc_Array_Get_Item);
+                Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ProgressRowSpawnConditions, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+                CallFunc_EqualEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_IntInt(CallFunc_GetProgressValue_ReturnValue, CallFunc_Map_Find_Value));
+                if (!(CallFunc_EqualEqual_IntInt_ReturnValue)) goto AreProgressRowsUnlocked_791;
+
+                // Block 5
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 6
+            AreProgressRowsUnlocked_664: CallFunc_Not_PreBool_ReturnValue_1 = (bool)(KismetMathLibrary.Not_PreBool(ProgressMismatch));
+            Result = (bool)(CallFunc_Not_PreBool_ReturnValue_1);
+            return;
+
+            // Block 7
+            AreProgressRowsUnlocked_717: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto AreProgressRowsUnlocked_155;
+
+            // Block 8
+            AreProgressRowsUnlocked_791: ProgressMismatch = (bool)(true);
+            Temp_bool_True_if_break_was_hit_Variable = (bool)(true);
+            break;
+
+        }
+
+
+        // Block 9
+        AreProgressRowsUnlocked_814:
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void UpdateRescuedProgressRows() {
+        // Locals
+        bool Temp_bool_True_if_break_was_hit_Variable;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_Not_PreBool_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        ref Array<Struct<MorProgressRowHandle>> CallFunc_Map_Keys_Keys;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Struct<MorProgressRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        int CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        int CallFunc_Map_Length_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_Map_Length_ReturnValue = Default__BlueprintMapLibrary.Map_Length(this.NpcRescuedUpdateProgressRow);
+            CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(CallFunc_Map_Length_ReturnValue, 0));
+            EX_PopExecutionFlowIfNot(CallFunc_Greater_IntInt_ReturnValue);
+
+            // Block 2
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_Map_Keys_Keys = new[] {};
+            Default__BlueprintMapLibrary.Map_Keys(this.NpcRescuedUpdateProgressRow, CallFunc_Map_Keys_Keys);
+            Temp_bool_True_if_break_was_hit_Variable = (bool)(false);
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 3
+            UpdateRescuedProgressRows_247: CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(Temp_bool_True_if_break_was_hit_Variable));
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_Map_Keys_Keys);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_Not_PreBool_ReturnValue, CallFunc_Less_IntInt_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+            // Block 4
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(UpdateRescuedProgressRows_632);
+
+            // Block 5
+            Default__KismetArrayLibrary.Array_Get(CallFunc_Map_Keys_Keys, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.NpcRescuedUpdateProgressRow, CallFunc_Array_Get_Item, CallFunc_Map_Find_Value));
+            CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(CallFunc_Array_Get_Item, CallFunc_Map_Find_Value);
+            EX_PopExecutionFlow();
+
+            // Block 6
+            UpdateRescuedProgressRows_632: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto UpdateRescuedProgressRows_247;
+
+        }
+
+
+        // Block 7
+        UpdateRescuedProgressRows_706:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SpawnStoryNPC() {
+        // Block 1
+        this.MorNPCStorySpawner.RequestSpawnCharacter();
+
+    }
+
+}

@@ -1,0 +1,293 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public class MorNPCComponent {}
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class MorAnimNotifyState_EquipOverride {}
+
+
+[Import("/Script/FGK")]
+public class InventoryItem {
+    public Object OnEquip;
+    public Object OnUnequip;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetComponentByClass();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, VirtualFunction] public virtual void PlayAnimMontage();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Max();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Meat_Helmet")]
+public Texture2D T_UI_Icon_Armor_Meat_Helmet;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarfs_NPCs/NPC_Hats/Skin/SK_NPC_Hat_Meat")]
+public SkeletalMesh SK_NPC_Hat_Meat;
+
+
+[Import("/Game/Art/PhysMats/PM_metal_light")]
+public PhysicalMaterial PM_metal_light;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetProgressPure();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/Items/BP_Category_Outfit")]
+public class BP_Category_Outfit_C : Actor {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Outfit")]
+public class Default__BP_Category_Outfit_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt_Helmet")]
+public class GA_Dwarf_HeadButt_Helmet_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/Attacks/GA_Dwarf_HeadButt_Helmet")]
+public GA_Dwarf_HeadButt_Helmet_C Default__GA_Dwarf_HeadButt_Helmet_C;
+
+
+[Import("/Game/Animations/Dwarf/NPC/Dwa_NPC_MeatHat_Montage")]
+public class Dwa_NPC_MeatHat_Montage {
+    public MorAnimNotifyState_EquipOverride MorAnimNotifyState_EquipOverride_0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_NPC_MeatHat_C : BP_Category_Outfit_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SkeletalMesh;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Grendel Attack Progress Row`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> MeatHatWornByNPC;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> `Grendel Killed`;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_NPC_MeatHat([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Object<Character> K2Node_Event_Character;
+        [InstancedReference] Object<MorNPCComponent> CallFunc_GetComponentByClass_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        int CallFunc_Max_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        float CallFunc_PlayAnimMontage_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue_1;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_NPC_MeatHat_15: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            while (true) {
+                // Block 3
+                CallFunc_PlayAnimMontage_ReturnValue = K2Node_Event_Character.PlayAnimMontage(Dwa_NPC_MeatHat_Montage, 1f, EX_NameConst("None"));
+                EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_Event_Character.GetComponentByClass(MorNPCComponent));
+                CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetComponentByClass_ReturnValue));
+                if (!CallFunc_IsValid_ReturnValue_1) break;
+
+                // Block 4
+                CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.`Grendel Killed`, this));
+                CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_GetProgressPure_ReturnValue));
+                if (!CallFunc_Not_PreBool_ReturnValue) break;
+
+                // Block 5
+                EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+                CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(this.`Grendel Attack Progress Row`);
+                EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue_1,MoriaUtils.GetDiscoveryManager(this));
+                CallFunc_Max_ReturnValue = KismetMathLibrary.Max(CallFunc_GetProgressValue_ReturnValue, 1);
+                CallFunc_GetDiscoveryManager_ReturnValue_1.SetProgressValue(this.`Grendel Attack Progress Row`, CallFunc_Max_ReturnValue);
+                break;
+
+            }
+
+
+            // Block 6
+            ExecuteUbergraph_BP_NPC_MeatHat_511: EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,K2Node_Event_Character.GetComponentByClass(MorNPCComponent));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetComponentByClass_ReturnValue));
+            if (!CallFunc_IsValid_ReturnValue) break;
+
+            // Block 7
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.`Grendel Killed`, this));
+            CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_GetProgressPure_ReturnValue));
+            if (!CallFunc_Not_PreBool_ReturnValue) break;
+
+            // Block 8
+            break;
+
+            // Block 9
+            ExecuteUbergraph_BP_NPC_MeatHat_698_OnEquip: goto ExecuteUbergraph_BP_NPC_MeatHat_15;
+
+            // Block 10
+            ExecuteUbergraph_BP_NPC_MeatHat_703_OnUnequip: break;
+
+        }
+
+
+        // Block 11
+        ExecuteUbergraph_BP_NPC_MeatHat_704:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnUnequip() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NPC_MeatHat(ExecuteUbergraph_BP_NPC_MeatHat_703_OnUnequip);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnEquip([BlueprintVisible, BlueprintReadOnly] Object<Character> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Character", Character);
+        this.ExecuteUbergraph_BP_NPC_MeatHat(ExecuteUbergraph_BP_NPC_MeatHat_698_OnEquip);
+
+    }
+
+}

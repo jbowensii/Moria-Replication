@@ -1,0 +1,35 @@
+
+[Import("/Script/Moria")]
+public class MorCharacterFallComponent {}
+
+[Import("/Script/Moria")]
+public MorCharacterFallComponent Default__MorCharacterFallComponent;
+
+[Import("/Script/Moria")]
+public class MorCharacterFallSettings {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Character/Dwarf/DA_CharacterFallSettings_Dwarf")]
+public MorCharacterFallSettings DA_CharacterFallSettings_Dwarf;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class BP_CharacterFallComponent_Dwarf_C : MorCharacterFallComponent {
+}

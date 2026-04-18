@@ -1,0 +1,503 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorDeadNPCDetector {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void GetSettlementManager();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorNPCComponent {
+    [UnknownSignature, FinalFunction] public sealed void ClearLocationHistory();
+}
+
+[Import("/Script/Moria")]
+public class MorSettlementManager {
+    [UnknownSignature, FinalFunction] public sealed void DespawnRecruitedWanderer();
+}
+
+[Import("/Script/Moria")]
+public class MorWandererComponent {
+    [UnknownSignature, FinalFunction] public sealed void IsNpcRecruited();
+}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public MorDeadNPCDetector Default__MorDeadNPCDetector;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public class MorMiningSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorNPCConversationComponent {}
+
+[Import("/Script/Moria")]
+public class MorOverheadIndicatorComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public static class BlueprintGameplayTagLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralGameplayTag();
+}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object ReceiveEndPlay;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void PrintString();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public Object EEndPlayReason;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Character/NpcDwarf/BP_NpcDwarf_Wanderer")]
+public class BP_NpcDwarf_Wanderer_C : BP_NpcDwarf_C {
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public MorNPCComponent MorNPC_GEN_VARIABLE;
+    public MorWandererComponent MorWanderer_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public CustomizationManager CustomizationManager;
+    public MorNPCComponent MorNPC;
+    public MorWandererComponent MorWanderer;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, VirtualFunction] public virtual void HasMatchingGameplayTag();
+    [UnknownSignature, VirtualFunction] public virtual void AddGameplayTag();
+}
+
+[Import("/Game/Character/NpcDwarf/BP_NpcDwarf_Wanderer")]
+public class Default__BP_NpcDwarf_Wanderer_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/NpcDwarf/BP_NpcDwarf")]
+public class BP_NpcDwarf_C : Actor {
+    public AkComponent AkComponent_AmbientVoice_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public MorCraftingComponent MorCrafting_GEN_VARIABLE;
+    public MorMiningSongComponent MorMiningSong_GEN_VARIABLE;
+    public MorNPCComponent MorNPC_GEN_VARIABLE;
+    public MorNPCConversationComponent MorNPCConversation_GEN_VARIABLE;
+    public MorOverheadIndicatorComponent MorOverheadIndicator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Backpack_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_BaseBody_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Beard_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Chest_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Extras_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Gloves_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hair_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hands_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hat_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Head_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Legs_GEN_VARIABLE;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public AkComponent AkComponent_AmbientVoice;
+    public CustomizationManager CustomizationManager;
+    public MorCraftingComponent MorCrafting;
+    public MorMiningSongComponent MorMiningSong;
+    public MorNPCComponent MorNPC;
+    public MorNPCConversationComponent MorNPCConversation;
+    public MorOverheadIndicatorComponent MorOverheadIndicator;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent SK_Backpack;
+    public SkeletalMeshComponent SK_BaseBody;
+    public SkeletalMeshComponent SK_Beard;
+    public SkeletalMeshComponent SK_Chest;
+    public SkeletalMeshComponent SK_Extras;
+    public SkeletalMeshComponent SK_Gloves;
+    public SkeletalMeshComponent SK_Hair;
+    public SkeletalMeshComponent SK_Hands;
+    public SkeletalMeshComponent SK_Hat;
+    public SkeletalMeshComponent SK_Head;
+    public SkeletalMeshComponent SK_Legs;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+}
+
+[Import("/Game/Character/NpcDwarf/BP_NpcDwarf")]
+public class Default__BP_NpcDwarf_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/NpcDwarf/BP_AiController_NpcWanderer_RecruitAndSettlement")]
+public class BP_AiController_NpcWanderer_RecruitAndSettlement_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/NpcDwarf/BP_AiController_NpcWanderer_RecruitAndSettlement")]
+public class Default__BP_AiController_NpcWanderer_RecruitAndSettlement_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_NpcDwarf_Wanderer_RecruitAndSettlement_C : BP_NpcDwarf_Wanderer_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorDeadNPCDetector> MorDeadNPCDetector;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> LoreRecruitedWandererInMoria;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue;
+        byte K2Node_Event_EndPlayReason;
+        bool CallFunc_HasMatchingGameplayTag_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_10: this.MorNPC.ClearLocationHistory();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_47: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 4
+        CallFunc_HasMatchingGameplayTag_ReturnValue = (bool)(this.HasMatchingGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("AI.Behavior.WanderToDespawn"))));
+        if (!CallFunc_HasMatchingGameplayTag_ReturnValue) return;
+
+        // Block 5
+        goto ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_10;
+
+        // Block 6
+        ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_151_BndEvt__BP_NpcDwarf_Wanderer_RecruitAndSettlement_MorWanderer_K2Node_ComponentBoundEvent_1_MorWandererRecruited__DelegateSignature: CallFunc_MakeLiteralGameplayTag_ReturnValue = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("AI.Behavior.WanderToDespawn")));
+        this.AddGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue);
+        return;
+
+        // Block 7
+        ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_234_ReceiveEndPlay: goto ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_47;
+
+        // Block 8
+        ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_239:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveEndPlay([BlueprintVisible, BlueprintReadOnly] byte EndPlayReason) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_EndPlayReason", EndPlayReason);
+        this.ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement(ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_234_ReceiveEndPlay);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_NpcDwarf_Wanderer_RecruitAndSettlement_MorWanderer_K2Node_ComponentBoundEvent_1_MorWandererRecruited__DelegateSignature() {
+        // Block 1
+        this.ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement(ExecuteUbergraph_BP_NpcDwarf_Wanderer_RecruitAndSettlement_151_BndEvt__BP_NpcDwarf_Wanderer_RecruitAndSettlement_MorWanderer_K2Node_ComponentBoundEvent_1_MorWandererRecruited__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void TryDespawnLeftMoria() {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Object<MorSettlementManager> CallFunc_GetSettlementManager_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_IsNpcRecruited_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        bool CallFunc_EqualEqual_IntInt_ReturnValue;
+
+        // Block 1
+        CallFunc_IsNpcRecruited_ReturnValue = (bool)(this.MorWanderer.IsNpcRecruited());
+        if (!CallFunc_IsNpcRecruited_ReturnValue) return;
+
+        // Block 2
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(this.LoreRecruitedWandererInMoria);
+        CallFunc_EqualEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_IntInt(CallFunc_GetProgressValue_ReturnValue, 0));
+        if (!CallFunc_EqualEqual_IntInt_ReturnValue) return;
+
+        // Block 3
+        KismetSystemLibrary.PrintString(this, "Wanderer left moria and is despawning.", true, true, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 2f);
+        EX_LetObj(CallFunc_GetSettlementManager_ReturnValue,MoriaUtils.GetSettlementManager(this));
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetSettlementManager_ReturnValue));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 4
+        CallFunc_GetSettlementManager_ReturnValue.DespawnRecruitedWanderer();
+
+        // Block 5
+        TryDespawnLeftMoria_372:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void Editor_LeaveMoria() {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(this.LoreRecruitedWandererInMoria, 0);
+        this.TryDespawnLeftMoria();
+
+    }
+
+}

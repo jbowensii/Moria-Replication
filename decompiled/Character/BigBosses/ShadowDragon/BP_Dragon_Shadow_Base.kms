@@ -1,0 +1,772 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Niagara")]
+public static class NiagaraFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SpawnSystemAtLocation();
+}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIShadowDragonComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakBreakablesComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Character {
+    public Object GetCharacterName;
+    [UnknownSignature, FinalFunction] public sealed void HasCharacterBegunPlay();
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public MorAIShadowDragonComponent Default__MorAIShadowDragonComponent;
+
+[Import("/Script/Moria")]
+public MorBreakBreakablesComponent Default__MorBreakBreakablesComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorCharacterState_Hide {}
+
+[Import("/Script/Moria")]
+public class MorCondition_IsAbilityActive {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void FlushNetDormancy();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {
+    public AnonymousClass_1ab469fd3d9a48ddb68f0be4622a372d Mesh;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Add_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Min();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_TextToString();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstance {}
+
+[Import("/Script/Engine")]
+public static class NetPushModelHelpers {
+    [UnknownSignature, MathFunction] public static sealed void MarkPropertyDirtyFromRepIndex();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class AnonymousClass_1ab469fd3d9a48ddb68f0be4622a372d {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/ShadowCaster_ShadowDragonAntlers")]
+public StaticMesh ShadowCaster_ShadowDragonAntlers;
+
+
+[Import("/Engine/EditorMeshes/ArcadeEditorSphere")]
+public StaticMesh ArcadeEditorSphere;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/SK_ShadowDragon")]
+public SkeletalMesh SK_ShadowDragon;
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_shadowdragon")]
+public PhysicalMaterial PM_flesh_shadowdragon;
+
+
+[Import("/Game/Character/Creatures/Bats/PI_Monster_Bat")]
+public PersonalityInfo PI_Monster_Bat;
+
+
+[Import("/Game/FX/EnemyFX/Niagara/ShadowDragonDamage/NS_DragonDamageFX")]
+public NiagaraSystem NS_DragonDamageFX;
+
+
+[Import("/Game/FX/EnemyFX/Niagara/ShadowDragonDamage/NS_DragonDamageExplosionFX")]
+public NiagaraSystem NS_DragonDamageExplosionFX;
+
+
+[Import("/Game/Character/Creatures/Dragon/DA_Dragon_AISettings")]
+public MorAISettings DA_Dragon_AISettings;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Torso_Damaged")]
+public MaterialInstanceConstant MI_ShadowDragon_Torso_Damaged;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Torso")]
+public MaterialInstanceConstant MI_ShadowDragon_Torso;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Tail_Damaged")]
+public MaterialInstanceConstant MI_ShadowDragon_Tail_Damaged;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_NeckSpikes_Damaged")]
+public MaterialInstanceConstant MI_ShadowDragon_NeckSpikes_Damaged;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Head_Damaged")]
+public MaterialInstanceConstant MI_ShadowDragon_Head_Damaged;
+
+
+[Import("/Game/CharacterArt/Creatures/ShadowDragon/MI_ShadowDragon_Head")]
+public MaterialInstanceConstant MI_ShadowDragon_Head;
+
+
+[Import("/Game/Character/Creatures/Dragon/DA_Dragon_CharacterData")]
+public FGKCharacterData DA_Dragon_CharacterData;
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body")]
+public class CSt_Body_C {}
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body")]
+public class Default__CSt_Body_C {
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_1;
+    public MorCharacterState_Hide MorCharacterState_Hide_0;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_0;
+}
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/GE_Starting_ShadowDragon")]
+public class GE_Starting_ShadowDragon_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/GE_Starting_ShadowDragon")]
+public GE_Starting_ShadowDragon_C Default__GE_Starting_ShadowDragon_C;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/GA_Reaction_ShadowDragon_Kill")]
+public class GA_Reaction_ShadowDragon_Kill_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/GA_Reaction_ShadowDragon_Kill")]
+public GA_Reaction_ShadowDragon_Kill_C Default__GA_Reaction_ShadowDragon_Kill_C;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/Attacks/GA_ShadowDragon_Attack_UA_Breath")]
+public class GA_ShadowDragon_Attack_UA_Breath_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/Attacks/GA_ShadowDragon_Attack_UA_Breath")]
+public GA_ShadowDragon_Attack_UA_Breath_C Default__GA_ShadowDragon_Attack_UA_Breath_C;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/Attacks/GA_ShadowDragon_Atk_Bite")]
+public class GA_ShadowDragon_Atk_Bite_C {}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/Abilities/Attacks/GA_ShadowDragon_Atk_Bite")]
+public GA_ShadowDragon_Atk_Bite_C Default__GA_ShadowDragon_Atk_Bite_C;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_R90_Montage")]
+public AnimMontage Shd_G_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_R45_Montage")]
+public AnimMontage Shd_G_TurnIP_R45_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_R180_Montage")]
+public AnimMontage Shd_G_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_L90_Montage")]
+public AnimMontage Shd_G_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_L45_Montage")]
+public AnimMontage Shd_G_TurnIP_L45_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_L180_Montage")]
+public AnimMontage Shd_G_TurnIP_L180_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_Blind_R90_Montage")]
+public AnimMontage Shd_G_TurnIP_Blind_R90_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_Blind_R45_Montage")]
+public AnimMontage Shd_G_TurnIP_Blind_R45_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_Blind_R180_Montage")]
+public AnimMontage Shd_G_TurnIP_Blind_R180_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_Blind_L90_Montage")]
+public AnimMontage Shd_G_TurnIP_Blind_L90_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_Blind_L45_Montage")]
+public AnimMontage Shd_G_TurnIP_Blind_L45_Montage;
+
+
+[Import("/Game/Animations/ShadowDragon/Shd_G_TurnIP_Blind_L180_Montage")]
+public AnimMontage Shd_G_TurnIP_Blind_L180_Montage;
+
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController")]
+public class BP_ShadowDragon_AIController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/BigBosses/ShadowDragon/BP_ShadowDragon_AIController")]
+public class Default__BP_ShadowDragon_AIController_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Creatures/Dragon/ABP_ShadowDragon")]
+public ABP_ShadowDragon_C Default__ABP_ShadowDragon_C;
+
+[Import("/Game/Character/Creatures/Dragon/ABP_ShadowDragon")]
+public AnimBlueprintGeneratedClass ABP_ShadowDragon_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Dragon_Shadow_Base_C : MorCharacter {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_DragonDamageFX3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_DragonDamageFX2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_DragonDamageFX1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_DragonDamageFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIShadowDragonComponent> MorAIShadowDragon;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakBreakablesComponent> MorBreakBreakables;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Antlers Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingInner_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingInner_L_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingBottom_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingBottom_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingBottom_L_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingMiddle_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingMiddle_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingMiddle_L_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTip_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTop_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTop_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTop_L_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_End Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_00 Capsule1`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingInner_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingInner_R_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingBottom_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingBottom_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingBottom_R_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingMiddle_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingMiddle_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingMiddle_R_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTip_R Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTop_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTop_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `WingTop_R_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_End Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_00 Capsule1`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_L_End Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_L_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_L_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_R_End Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_R_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `LegBack_R_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_04 Capsule1`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_03 Capsule1`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_02 Capsule1`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Tail_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck_00 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Jaw2 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Jaw Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Snout2 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Snout Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Head Capsule`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text Name;
+    [Edit, BlueprintVisible, Net, Transient, DisableEditOnInstance, RepNotify] int DamagePhase;
+    [Edit, BlueprintVisible, Transient, DisableEditOnInstance] int AppliedDamagePhase;
+    [Edit, BlueprintVisible, BlueprintReadOnly, Transient, DisableEditOnInstance] int MaxDamagePhase;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Dragon_Shadow_Base([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+        int Temp_int_Variable;
+        [InstancedReference] Object<MorAIShadowDragonComponent> K2Node_ComponentBoundEvent_ShadowDragonComponent;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAtLocation_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Dragon_Shadow_Base_10: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 3
+        CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(this.DamagePhase, this.MaxDamagePhase));
+        if (!CallFunc_Less_IntInt_ReturnValue) return;
+
+        // Block 4
+        CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(this.DamagePhase, 1);
+        Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+        this.DamagePhase = Temp_int_Variable;
+        this.UpdateCurrentDamagePhase();
+        return;
+
+        // Block 5
+        ExecuteUbergraph_BP_Dragon_Shadow_Base_211_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        this.UpdateCurrentDamagePhase();
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_Dragon_Shadow_Base_240_BndEvt__BP_Dragon_Shadow_Base_MorAIShadowDragon_K2Node_ComponentBoundEvent_0_MorAIShadowDragonHurt__DelegateSignature: CallFunc_K2_GetComponentLocation_ReturnValue = this.Mesh.K2_GetComponentLocation();
+        CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_K2_GetComponentLocation_ReturnValue, EX_VectorConst(0, 0, 50));
+        EX_LetObj(CallFunc_SpawnSystemAtLocation_ReturnValue,NiagaraFunctionLibrary.SpawnSystemAtLocation(this, NS_DragonDamageExplosionFX, CallFunc_Add_VectorVector_ReturnValue, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1), true, true, (byte)(0), true));
+        goto ExecuteUbergraph_BP_Dragon_Shadow_Base_10;
+
+        // Block 7
+        ExecuteUbergraph_BP_Dragon_Shadow_Base_415:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Dragon_Shadow_Base_MorAIShadowDragon_K2Node_ComponentBoundEvent_0_MorAIShadowDragonHurt__DelegateSignature([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<MorAIShadowDragonComponent> ShadowDragonComponent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_ShadowDragonComponent", ShadowDragonComponent);
+        this.ExecuteUbergraph_BP_Dragon_Shadow_Base(ExecuteUbergraph_BP_Dragon_Shadow_Base_240_BndEvt__BP_Dragon_Shadow_Base_MorAIShadowDragon_K2Node_ComponentBoundEvent_0_MorAIShadowDragonHurt__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Dragon_Shadow_Base(ExecuteUbergraph_BP_Dragon_Shadow_Base_211_ReceiveBeginPlay);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetCharacterName([BlueprintVisible, BlueprintReadOnly] bool bUseUGC, [Return] out string ReturnValue) {
+        // Locals
+        string CallFunc_Conv_TextToString_ReturnValue;
+
+        // Block 1
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(this.Name);
+        ReturnValue = CallFunc_Conv_TextToString_ReturnValue;
+        return ReturnValue;
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    protected void SetMaxDamagePhase() {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+
+        // Block 1
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 2
+        this.FlushNetDormancy();
+        this.DamagePhase = this.MaxDamagePhase;
+        NetPushModelHelpers.MarkPropertyDirtyFromRepIndex(this, 53, EX_NameConst("DamagePhase"));
+        this.OnRep_DamagePhase();
+        this.UpdateCurrentDamagePhase();
+
+        // Block 3
+        SetMaxDamagePhase_128:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    private void UpdateCurrentDamagePhase() {
+        // Locals
+        int Temp_int_Variable;
+        bool K2Node_SwitchInteger_CmpSuccess;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Min_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            UpdateCurrentDamagePhase_5: CallFunc_Min_ReturnValue = KismetMathLibrary.Min(this.DamagePhase, this.MaxDamagePhase);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(this.AppliedDamagePhase, CallFunc_Min_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 2
+            EX_PushExecutionFlow(UpdateCurrentDamagePhase_5);
+
+            // Block 3
+            CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(this.AppliedDamagePhase, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            this.AppliedDamagePhase = Temp_int_Variable;
+            K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(Temp_int_Variable, 1));
+
+            if (K2Node_SwitchInteger_CmpSuccess) {
+                // Block 4
+                K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(Temp_int_Variable, 2));
+                if (!(K2Node_SwitchInteger_CmpSuccess)) goto UpdateCurrentDamagePhase_431;
+
+                // Block 5
+                K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(Temp_int_Variable, 3));
+                if (!(K2Node_SwitchInteger_CmpSuccess)) goto UpdateCurrentDamagePhase_469;
+
+                // Block 6
+                K2Node_SwitchInteger_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_IntInt(Temp_int_Variable, 4));
+                if (!(K2Node_SwitchInteger_CmpSuccess)) goto UpdateCurrentDamagePhase_507;
+
+                // Block 7
+                break;
+
+            }
+
+
+            // Block 8
+            UpdateCurrentDamagePhase_393: this.ApplyDamagePhase(6, MI_ShadowDragon_Head_Damaged, this.NS_DragonDamageFX);
+            EX_PopExecutionFlow();
+
+            // Block 9
+            UpdateCurrentDamagePhase_431: this.ApplyDamagePhase(8, MI_ShadowDragon_Torso_Damaged, this.NS_DragonDamageFX1);
+            EX_PopExecutionFlow();
+
+            // Block 10
+            UpdateCurrentDamagePhase_469: this.ApplyDamagePhase(0, MI_ShadowDragon_NeckSpikes_Damaged, this.NS_DragonDamageFX2);
+            EX_PopExecutionFlow();
+
+            // Block 11
+            UpdateCurrentDamagePhase_507: this.ApplyDamagePhase(5, MI_ShadowDragon_Tail_Damaged, this.NS_DragonDamageFX3);
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 12
+        UpdateCurrentDamagePhase_545:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    private void ApplyDamagePhase([BlueprintVisible, BlueprintReadOnly] int MaterialIndex, [BlueprintVisible, BlueprintReadOnly] Object<MaterialInstance> Material, [BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<NiagaraComponent> DragonDamageFX) {
+        // Locals
+        bool CallFunc_HasCharacterBegunPlay_ReturnValue;
+
+        // Block 1
+        this.Mesh.SetMaterial(MaterialIndex, Material);
+        CallFunc_HasCharacterBegunPlay_ReturnValue = (bool)(this.HasCharacterBegunPlay(false));
+        if (!CallFunc_HasCharacterBegunPlay_ReturnValue) return;
+
+        // Block 2
+        DragonDamageFX.Activate(true);
+
+        // Block 3
+        ApplyDamagePhase_126:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_DamagePhase() {
+        // Block 1
+        this.UpdateCurrentDamagePhase();
+
+    }
+
+}

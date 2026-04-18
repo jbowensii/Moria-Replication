@@ -1,0 +1,8 @@
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+[Import("/Script/Engine")]
+public Texture2D Default__Texture2D;
+
+

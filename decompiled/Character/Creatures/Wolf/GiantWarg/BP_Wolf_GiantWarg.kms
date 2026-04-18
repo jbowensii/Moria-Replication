@@ -1,0 +1,254 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/CharacterArt/Creatures/Warg/SK_Warg")]
+public SkeletalMesh SK_Warg;
+
+
+[Import("/Game/Character/Creatures/Wolf/GE_Starting_Demon_Warg")]
+public class GE_Starting_Demon_Warg_C {}
+
+[Import("/Game/Character/Creatures/Wolf/GE_Starting_Demon_Warg")]
+public GE_Starting_Demon_Warg_C Default__GE_Starting_Demon_Warg_C;
+
+
+[Import("/Game/Character/Creatures/Wolf/BP_Monster_Wolf")]
+public class BP_Monster_Wolf_C {
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Leg_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Leg_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Leg_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Back_Leg_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Leg_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Leg_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Leg_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `L_Front_Leg_06 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Leg_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Leg_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Leg_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Back_Leg_05 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Leg_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Leg_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Leg_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `R_Front_Leg_06 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Snout Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_03 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_04 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Tail_05 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent DebugNameTag_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `L_Back_Leg_01 Capsule`;
+    public StaticMeshComponent `L_Back_Leg_02 Capsule`;
+    public StaticMeshComponent `L_Back_Leg_03 Capsule`;
+    public StaticMeshComponent `L_Back_Leg_05 Capsule`;
+    public StaticMeshComponent `L_Front_Leg_02 Capsule`;
+    public StaticMeshComponent `L_Front_Leg_03 Capsule`;
+    public StaticMeshComponent `L_Front_Leg_04 Capsule`;
+    public StaticMeshComponent `L_Front_Leg_06 Capsule`;
+    public StaticMeshComponent `Neck_01 Capsule`;
+    public StaticMeshComponent `Neck_02 Capsule`;
+    public StaticMeshComponent `R_Back_Leg_01 Capsule`;
+    public StaticMeshComponent `R_Back_Leg_02 Capsule`;
+    public StaticMeshComponent `R_Back_Leg_03 Capsule`;
+    public StaticMeshComponent `R_Back_Leg_05 Capsule`;
+    public StaticMeshComponent `R_Front_Leg_02 Capsule`;
+    public StaticMeshComponent `R_Front_Leg_03 Capsule`;
+    public StaticMeshComponent `R_Front_Leg_04 Capsule`;
+    public StaticMeshComponent `R_Front_Leg_06 Capsule`;
+    public StaticMeshComponent `Snout Capsule`;
+    public StaticMeshComponent `Spine_01 Capsule`;
+    public StaticMeshComponent `Spine_02 Capsule`;
+    public StaticMeshComponent `Spine_03 Capsule`;
+    public StaticMeshComponent `Tail_01 Capsule`;
+    public StaticMeshComponent `Tail_03 Capsule`;
+    public StaticMeshComponent `Tail_04 Capsule`;
+    public StaticMeshComponent `Tail_05 Capsule`;
+    public TextRenderComponent DebugNameTag;
+}
+
+[Import("/Game/Character/Creatures/Wolf/BP_Monster_Wolf")]
+public class Default__BP_Monster_Wolf_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class BP_Fauna_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+}
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class Default__BP_Fauna_Base_C {
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/Creatures/Wolf/Warg/ABP_Warg")]
+public ABP_Warg_C Default__ABP_Warg_C;
+
+[Import("/Game/Character/Creatures/Wolf/Warg/ABP_Warg")]
+public AnimBlueprintGeneratedClass ABP_Warg_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Wolf_GiantWarg_C : BP_Monster_Wolf_C {
+}

@@ -1,0 +1,199 @@
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorAICondition_CanNavigateTo {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Emote {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_TriggerDialogue {}
+
+[Import("/Script/Moria")]
+public class MorCondition_HasIndexedTags {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKActionEffect_ForgetActor {}
+
+[Import("/Script/FGK")]
+public class FGKAIAttackSettings {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardObjectValue {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_HasBlackboardVectorValue {}
+
+[Import("/Script/FGK")]
+public class FGKAICondition_TargetWithinRange {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_MoveToBlackboardKey {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_RunEQS {}
+
+[Import("/Script/FGK")]
+public class FGKBehaviorState_UseBehaviorPoint {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_ChildTimeElapsed {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+
+[Import("/Game/Character/Creatures/Dragon/DA_Dragon_AIAttack")]
+public FGKAIAttackSettings DA_Dragon_AIAttack;
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/FellBeast/BSt_FellBeast_Reposition")]
+public class BSt_FellBeast_Reposition_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/FellBeast/BSt_FellBeast_RangedCombat")]
+public class BSt_FellBeast_RangedCombat_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/FellBeast/BSt_FellBeast_FlyAway")]
+public class BSt_FellBeast_FlyAway_C {}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/FellBeast/BSt_FellBeast_Aware")]
+public class BSt_FellBeast_Aware_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/FellBeast/BSt_FellBeast_Aware")]
+public class Default__BSt_FellBeast_Aware_C {
+    public BSt_FellBeast_FlyAway_C BSt_FellBeast_FlyAway_C_0;
+    public BSt_FellBeast_RangedCombat_C BSt_FellBeast_RangedCombat_C_0;
+    public BSt_FellBeast_Reposition_C BSt_FellBeast_Reposition_C_0;
+    public FGKAICondition_TargetWithinRange FGKAICondition_TargetWithinRange_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_3;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public MorBehaviorState_TriggerDialogue MorBehaviorState_TriggerDialogue_0;
+    public MorCondition_HasIndexedTags MorCondition_HasIndexedTags_0;
+}
+
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_Wander_LargeAnimal")]
+public class BSt_Wander_LargeAnimal_C {}
+
+[Import("/Game/Character/AI/Behaviors/BehaviorStates/AwarenessBasedBehavior/PassiveSubStates/BSt_Wander_LargeAnimal")]
+public class Default__BSt_Wander_LargeAnimal_C {
+    public FGKBehaviorState_MoveToBlackboardKey FGKBehaviorState_MoveToBlackboardKey_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_0;
+    public FGKBehaviorState_RunEQS FGKBehaviorState_RunEQS_4;
+    public FGKBehaviorState_UseBehaviorPoint MorBehaviorState_UseBehaviorPoint_0;
+    public FGKCondition_ChildTimeElapsed FGKCondition_ChildTimeElapsed_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_2;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_4;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_5;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public MorBehaviorState_Emote MorBehaviorState_Emote_0;
+}
+
+
+[Import("/Game/Character/Creatures/BP_AIController_FaunaBase")]
+public class BP_AIController_FaunaBase_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Creatures/BP_AIController_FaunaBase")]
+public class Default__BP_AIController_FaunaBase_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Config, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Dragon_AIController_C : BP_AIController_FaunaBase_C {
+}

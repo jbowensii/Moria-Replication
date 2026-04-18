@@ -1,0 +1,1835 @@
+
+[Import("/Script/PhysicsCore")]
+public class PhysicalMaterial {
+    public ObjectProperty SurfaceType;
+}
+
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetAsset();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableBool();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableFloat();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableLinearColor();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableMaterial();
+    [UnknownSignature, FinalFunction] public sealed void SetVariableVec3();
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+    [UnknownSignature, VirtualFunction] public virtual void Deactivate();
+    [UnknownSignature, VirtualFunction] public virtual void SetVectorParameter();
+    [UnknownSignature, VirtualFunction] public virtual void SetFloatParameter();
+}
+
+[Import("/Script/Niagara")]
+public static class NiagaraFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SpawnSystemAttached();
+}
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraBool;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class InscribedRuneComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : FGKBaseCharacter {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {
+    [UnknownSignature, FinalFunction] public sealed void AddShadowDispel();
+    [UnknownSignature, FinalFunction] public sealed void RemoveShadowDispel();
+}
+
+[Import("/Script/Moria")]
+public class MorInventoryItem : Actor {
+    public Object OnChargingFull;
+    public Object OnRuneVisualsApplied;
+    public Object OnTrailBegin;
+    public Object OnTrailEnd;
+    public ActorComponent RibbonTrails;
+    public AnonymousClass_fe7d6ba4fa4343179440a475cbe962b9 InscribedRuneComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent : SceneComponent {
+    public LightComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public class MorRuneEffect {
+    public ObjectProperty RowHandle;
+}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetRuneDefinition();
+}
+
+[Import("/Script/Moria")]
+public class MorWeapon : MorInventoryItem {
+    [UnknownSignature, FinalFunction] public sealed void GetSurfaceCategory();
+    [UnknownSignature, FinalFunction] public sealed void GetSurfaceType();
+    public Object OnHit;
+    public Object UpdateGlowMat;
+}
+
+[Import("/Script/Moria")]
+public Object EMoriaCharacterAction;
+
+[Import("/Script/Moria")]
+public Object EMorSurface;
+
+[Import("/Script/Moria")]
+public Object EMorSurfaceCategory;
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+[Import("/Script/Moria")]
+public class Default__MorWeapon {
+    public Object `Callout Data`;
+    public Object InscribedRune;
+    public Object RibbonTrails;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class MorRuneDefinition {
+    public ObjectProperty DamageType;
+}
+
+[Import("/Script/Moria")]
+public class MorWeaponTrailColors {
+    public ObjectProperty BaseColor;
+    public ObjectProperty ChargedColor;
+}
+
+[Import("/Script/Moria")]
+public class MorWeaponTrailData {
+    public ObjectProperty WeaponTrailColorConfig;
+}
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class LastingInteractComponent {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAudioMeterComponent {}
+
+[Import("/Script/Moria")]
+public class MorBuildingComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterLightReflectorComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorChatComponent {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public class MorCursorSlotComponent {}
+
+[Import("/Script/Moria")]
+public class MorDoorLoreTODSongJoinComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfOnDeathScreenFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryHolderComponent {}
+
+[Import("/Script/Moria")]
+public class MorHooverComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInteractComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorKegSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorMiningSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorMonumentSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorNoEpicPackBuffComponent {}
+
+[Import("/Script/Moria")]
+public class MorOverheadIndicatorComponent {}
+
+[Import("/Script/Moria")]
+public class MorSettlementSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorSITAControllerComponent {}
+
+[Import("/Script/Moria")]
+public class MorSITANiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaminaComponent {}
+
+[Import("/Script/Moria")]
+public class MorSurvivalEffectsComponent {}
+
+[Import("/Script/Moria")]
+public class MorSyncedEquipmentComponent {}
+
+[Import("/Script/Moria")]
+public class MorThresholdEffectComponent {}
+
+[Import("/Script/Moria")]
+public class MorTutorialComponent {}
+
+[Import("/Script/Moria")]
+public class MorVenerationSongComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class WaypointSpawnerComponent {}
+
+[Import("/Script/Moria")]
+public class AnonymousClass_fe7d6ba4fa4343179440a475cbe962b9 {
+    [UnknownSignature, FinalFunction] public sealed void SetGlowOnNearbyParam();
+    [UnknownSignature, FinalFunction] public sealed void GetTargetGlowOnNearby();
+    [UnknownSignature, FinalFunction] public sealed void IsGlowOnEnemyNearby();
+}
+
+
+[Import("/Script/GameplayTags")]
+public static class BlueprintGameplayTagLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralGameplayTag();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_TagTag();
+}
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagAssetInterface {}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTagContainer;
+
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public class FGKAkComponent : AkComponent {
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter {
+    public ObjectProperty EquipComp;
+    [UnknownSignature, VirtualFunction] public virtual void HasMatchingGameplayTag();
+    [UnknownSignature, VirtualFunction] public virtual void AddGameplayTag();
+    [UnknownSignature, VirtualFunction] public virtual void RemoveGameplayTag();
+}
+
+[Import("/Script/FGK")]
+public class InventoryItem {
+    public Object OnEquip;
+    public Object OnHolster;
+    public Object OnUnequip;
+}
+
+[Import("/Script/FGK")]
+public FGKAkComponent Default__FGKAkComponent;
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void AddComponent();
+    [UnknownSignature, FinalFunction] public sealed void GetAttachParentActor();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetRootComponent();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent : NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void IsActive();
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+    [UnknownSignature, VirtualFunction] public virtual void Deactivate();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+}
+
+[Import("/Script/Engine")]
+public class Character {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void BreakHitResult();
+    [UnknownSignature, MathFunction] public static sealed void GetObjectClass();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void BooleanOR();
+    [UnknownSignature, MathFunction] public static sealed void Conv_VectorToRotator();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ClassClass();
+    [UnknownSignature, MathFunction] public static sealed void Greater_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Lerp();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent : PointLightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+    [UnknownSignature, FinalFunction] public sealed void SetLightColor();
+    [UnknownSignature, FinalFunction] public sealed void SetSpecularScale();
+    [UnknownSignature, FinalFunction] public sealed void SetVolumetricScatteringIntensity();
+}
+
+[Import("/Script/Engine")]
+public class LightComponentBase {
+    [UnknownSignature, FinalFunction] public sealed void SetCastShadows();
+}
+
+[Import("/Script/Engine")]
+public class LocalLightComponent : LightComponentBase {
+    [UnknownSignature, FinalFunction] public sealed void SetAttenuationRadius();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent : LocalLightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetLightFalloffExponent();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_AttachToComponent();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class LinearColor {
+    public ObjectProperty R;
+    public ObjectProperty G;
+    public ObjectProperty B;
+    public ObjectProperty A;
+}
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class InterfaceProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetSwitch();
+}
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void SetRTPCValue();
+}
+
+[Import("/Script/AkAudio")]
+public class AkSwitchValue {}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkRtpc {}
+
+
+[Import("/Game/UI/Textures/CategoryIcons/Weapon_Icon")]
+public Texture2D Weapon_Icon;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Tech/Data/StringTables/Items")]
+public StringTable Items;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_WeaponTrail")]
+public NiagaraSystem NS_WeaponTrail;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_Thunder_Static")]
+public NiagaraSystem NS_DamageType_Thunder_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_Shadow_Static")]
+public NiagaraSystem NS_DamageType_Shadow_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_Poison_Static")]
+public NiagaraSystem NS_DamageType_Poison_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_Light_Static1")]
+public NiagaraSystem NS_DamageType_Light_Static1;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_Fire_Static")]
+public NiagaraSystem NS_DamageType_Fire_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_Cold_Static")]
+public NiagaraSystem NS_DamageType_Cold_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_AntiOrc_Static")]
+public NiagaraSystem NS_DamageType_AntiOrc_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_DamageType_AntiDragon_Static")]
+public NiagaraSystem NS_DamageType_AntiDragon_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_Damage_Type_Whisperwood_Static")]
+public NiagaraSystem NS_Damage_Type_Whisperwood_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_Damage_Type_TrophyHunter_Static")]
+public NiagaraSystem NS_Damage_Type_TrophyHunter_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_Damage_Type_AntiHeal_Static")]
+public NiagaraSystem NS_Damage_Type_AntiHeal_Static;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Niagara/NS_BloodTrail")]
+public NiagaraSystem NS_BloodTrail;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Materials/MI_WeaponTrailBase_Standard")]
+public MaterialInstanceConstant MI_WeaponTrailBase_Standard;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Materials/MI_WeaponTrailBase_Fire")]
+public MaterialInstanceConstant MI_WeaponTrailBase_Fire;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Materials/MI_WeaponTrailBase_Cold")]
+public MaterialInstanceConstant MI_WeaponTrailBase_Cold;
+
+
+[Import("/Game/FX/CombatFX/WeaponTrails/Materials/M_WeaponTrailBase_Masked_Thunder")]
+public MaterialInstanceConstant M_WeaponTrailBase_Masked_Thunder;
+
+
+[Import("/Game/FX/MasterMaterials/Weapons/M_Weapon")]
+public Material M_Weapon;
+
+
+[Import("/Game/Character/Shared/Cues/BPI_RunicInterface")]
+public class BPI_RunicInterface_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void DamageTag();
+}
+
+[Import("/Game/Character/Shared/Cues/BPI_RunicInterface")]
+public BPI_RunicInterface_C Default__BPI_RunicInterface_C;
+
+
+[Import("/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer")]
+public class BP_DwarfGameplayEffectSerializer_C {}
+
+
+[Import("/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf")]
+public class BP_CharacterFallComponent_Dwarf_C {}
+
+
+[Import("/Game/WwiseAudio/Switches/Jared_Testing/Elemental_Weapon_Swings/Elemental_Weapon_Swings-swg_element_thunder")]
+public AkSwitchValue `Elemental_Weapon_Swings-swg_element_thunder`;
+
+
+[Import("/Game/WwiseAudio/Switches/Jared_Testing/Elemental_Weapon_Swings/Elemental_Weapon_Swings-swg_element_light")]
+public AkSwitchValue `Elemental_Weapon_Swings-swg_element_light`;
+
+
+[Import("/Game/WwiseAudio/Switches/Jared_Testing/Elemental_Weapon_Swings/Elemental_Weapon_Swings-swg_element_ice")]
+public AkSwitchValue `Elemental_Weapon_Swings-swg_element_ice`;
+
+
+[Import("/Game/WwiseAudio/Switches/Jared_Testing/Elemental_Weapon_Swings/Elemental_Weapon_Swings-swg_element_hunter")]
+public AkSwitchValue `Elemental_Weapon_Swings-swg_element_hunter`;
+
+
+[Import("/Game/WwiseAudio/Switches/Jared_Testing/Elemental_Weapon_Swings/Elemental_Weapon_Swings-swg_element_fire")]
+public AkSwitchValue `Elemental_Weapon_Swings-swg_element_fire`;
+
+
+[Import("/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/weapon_glow")]
+public AkRtpc weapon_glow;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/vx_plr_calloutgeneric_01_play")]
+public AkAudioEvent vx_plr_calloutgeneric_01_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Swings/fx_plr_weapon_swing_elemental_play")]
+public AkAudioEvent fx_plr_weapon_swing_elemental_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/fx_wpn_magicresonance_lp_play")]
+public AkAudioEvent fx_wpn_magicresonance_lp_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Charge_Attack/fx_plr_wpn_chargeatk_start_play")]
+public AkAudioEvent fx_plr_wpn_chargeatk_start_play;
+
+
+[Import("/Game/Character/Dwarf/BP_FGKDwarf")]
+public class BP_FGKDwarf_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public AkComponent AkLeftFoot_GEN_VARIABLE;
+    public AkComponent AkRightHand_GEN_VARIABLE;
+    public BP_CharacterFallComponent_Dwarf_C BP_CharacterFallComponent_Dwarf_GEN_VARIABLE;
+    public BP_DwarfGameplayEffectSerializer_C BP_DwarfGameplayEffectSerializer_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public LastingInteractComponent LastingInteractComp_GEN_VARIABLE;
+    public MorAudioMeterComponent MorAudioMeter_GEN_VARIABLE;
+    public MorBuildingComponent MorBuilding_GEN_VARIABLE;
+    public MorCharacterLightReflectorComponent MorCharacterLightReflector_GEN_VARIABLE;
+    public MorChatComponent ChatComponent_GEN_VARIABLE;
+    public MorCraftingComponent MorCrafting_GEN_VARIABLE;
+    public MorCursorSlotComponent MorCursorSlotComponent_GEN_VARIABLE;
+    public MorDoorLoreTODSongJoinComponent MorDoorLoreTODSongJoin_GEN_VARIABLE;
+    public MorDwarfOnDeathScreenFXComponent MorDwarfOnDeathScreenFX_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler_GEN_VARIABLE;
+    public MorHeavyCarryHolderComponent MorHeavyCarryHolder_GEN_VARIABLE;
+    public MorHooverComponent MorHoover_GEN_VARIABLE;
+    public MorInteractComponent MorInteract_GEN_VARIABLE;
+    public MorKegSongComponent MorKegSongComponent_GEN_VARIABLE;
+    public MorMiningSongComponent MiningSongComponent_GEN_VARIABLE;
+    public MorMonumentSongComponent MorMonumentSong_GEN_VARIABLE;
+    public MorNoEpicPackBuffComponent MorNoEpicPackBuff_GEN_VARIABLE;
+    public MorOverheadIndicatorComponent MorOverheadIndicator_GEN_VARIABLE;
+    public MorSettlementSongComponent MorSettlementSongComponent_GEN_VARIABLE;
+    public MorSITAControllerComponent MorSITAController_GEN_VARIABLE;
+    public MorSITANiagaraComponent MorSITANiagara_GEN_VARIABLE;
+    public MorStaminaComponent MorStaminaRegen_GEN_VARIABLE;
+    public MorSurvivalEffectsComponent MorSurvivalEffects_GEN_VARIABLE;
+    public MorSyncedEquipmentComponent MorSyncedEquipment_GEN_VARIABLE;
+    public MorThresholdEffectComponent MorThresholdEffectComponent_GEN_VARIABLE;
+    public MorTutorialComponent TutorialComponent_GEN_VARIABLE;
+    public MorVenerationSongComponent MorVenerationSongComponent_GEN_VARIABLE;
+    public PointLightComponent LocalDwarfLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Backpack_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_BaseBody_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Beard_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Chest_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Extras_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Gloves_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hair_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hands_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hat_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Head_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Legs_GEN_VARIABLE;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public WaypointSpawnerComponent WaypointSpawner_GEN_VARIABLE;
+    public WidgetComponent `Stamina Widget Component_GEN_VARIABLE`;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public AkComponent AkLeftFoot;
+    public AkComponent AkRightHand;
+    public BP_CharacterFallComponent_Dwarf_C BP_CharacterFallComponent_Dwarf;
+    public BP_DwarfGameplayEffectSerializer_C BP_DwarfGameplayEffectSerializer;
+    public CustomizationManager CustomizationManager;
+    public LastingInteractComponent LastingInteractComp;
+    public MorAudioMeterComponent MorAudioMeter;
+    public MorBuildingComponent MorBuilding;
+    public MorCharacterLightReflectorComponent MorCharacterLightReflector;
+    public MorChatComponent ChatComponent;
+    public MorCraftingComponent MorCrafting;
+    public MorCursorSlotComponent MorCursorSlotComponent;
+    public MorDoorLoreTODSongJoinComponent MorDoorLoreTODSongJoin;
+    public MorDwarfOnDeathScreenFXComponent MorDwarfOnDeathScreenFX;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler;
+    public MorHeavyCarryHolderComponent MorHeavyCarryHolder;
+    public MorHooverComponent MorHoover;
+    public MorInteractComponent MorInteract;
+    public MorKegSongComponent MorKegSongComponent;
+    public MorMiningSongComponent MiningSongComponent;
+    public MorMonumentSongComponent MorMonumentSong;
+    public MorNoEpicPackBuffComponent MorNoEpicPackBuff;
+    public MorOverheadIndicatorComponent MorOverheadIndicator;
+    public MorSettlementSongComponent MorSettlementSongComponent;
+    public MorSITAControllerComponent MorSITAController;
+    public MorSITANiagaraComponent MorSITANiagara;
+    public MorStaminaComponent MorStaminaRegen;
+    public MorSurvivalEffectsComponent MorSurvivalEffects;
+    public MorSyncedEquipmentComponent MorSyncedEquipment;
+    public MorThresholdEffectComponent MorThresholdEffectComponent;
+    public MorTutorialComponent TutorialComponent;
+    public MorVenerationSongComponent MorVenerationSongComponent;
+    public PointLightComponent LocalDwarfLight;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent SK_Backpack;
+    public SkeletalMeshComponent SK_BaseBody;
+    public SkeletalMeshComponent SK_Beard;
+    public SkeletalMeshComponent SK_Chest;
+    public SkeletalMeshComponent SK_Extras;
+    public SkeletalMeshComponent SK_Gloves;
+    public SkeletalMeshComponent SK_Hair;
+    public SkeletalMeshComponent SK_Hands;
+    public SkeletalMeshComponent SK_Hat;
+    public SkeletalMeshComponent SK_Head;
+    public SkeletalMeshComponent SK_Legs;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public WaypointSpawnerComponent WaypointSpawner;
+    public WidgetComponent `Stamina Widget Component`;
+}
+
+[Import("/Game/Character/Dwarf/BP_FGKDwarf")]
+public class Default__BP_FGKDwarf_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference] abstract
+class BP_Category_Weapon_C : MorWeapon {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> WeaponVFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<FGKAkComponent> FGKAk;
+    float GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9;
+    float GlowFade_Growth_BB5E563541D9625C9E355AA0B1B547D9;
+    byte GlowFade__Direction_BB5E563541D9625C9E355AA0B1B547D9;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> GlowFade;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool GlowMatSoundPlayed;
+    [Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference] Object<NiagaraComponent> NS_TrailType;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> DefaultBaseColor;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> DefaultChargedColor;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<NiagaraSystem> BloodTrailSystem;
+    [Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference] Object<NiagaraComponent> BloodTrailCOmponent;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> BloodTrailColor;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> BaseColorToUse;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> ChargedColorToUse;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<GameplayTag>> InDamageTypeTags;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorWeaponTrailData> TrailColorConfiguration;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<AkAudioEvent> ChargingFullSound;
+    [Edit, BlueprintVisible] Struct<Vector> WeaponParticleEffectArea;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map RibbonMaterialObject;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map NiagaraSystemAsset;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<GameplayTag> DamageTag_0;
+    [Edit, BlueprintVisible] bool VFXDoubleMode;
+    [Edit, BlueprintVisible] Struct<Vector> WeaponParticleEffectDoubleOffset1;
+    [Edit, BlueprintVisible] Struct<Vector> WeaponParticleEffectDoubleOffset2;
+    [Edit, BlueprintVisible] float DoubleRotation1;
+    [Edit, BlueprintVisible] float DoubleRotation2;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<NiagaraSystem> AssignedNiagaraAsset;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map ElementalSwingAkSwitchValue;
+    [Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference] Object<MorPointLightComponent> MorPointLightComponent;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Category_Weapon([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_TargetGlow;
+        float K2Node_Event_CurrentGlow;
+        Struct<LinearColor> K2Node_MakeStruct_LinearColor;
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        Struct<GameplayTagContainer> K2Node_Event_TrailTags;
+        bool K2Node_Event_bIsChargeAttack;
+        float K2Node_Event_ChargeAmount;
+        Enum K2Node_Event_Action;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<Actor> K2Node_Event_Attacker;
+        Object<Actor> K2Node_Event_Victim;
+        [ContainsInstancedReference] const Struct<HitResult> K2Node_Event_Hit;
+        Object<Actor> K2Node_Event_Player;
+        bool CallFunc_BreakHitResult_bBlockingHit;
+        bool CallFunc_BreakHitResult_bInitialOverlap;
+        float CallFunc_BreakHitResult_Time;
+        float CallFunc_BreakHitResult_Distance;
+        Struct<Vector> CallFunc_BreakHitResult_Location;
+        Struct<Vector> CallFunc_BreakHitResult_ImpactPoint;
+        Struct<Vector> CallFunc_BreakHitResult_Normal;
+        Struct<Vector> CallFunc_BreakHitResult_ImpactNormal;
+        Object<PhysicalMaterial> CallFunc_BreakHitResult_PhysMat;
+        Object<Actor> CallFunc_BreakHitResult_HitActor;
+        [InstancedReference] Object<PrimitiveComponent> CallFunc_BreakHitResult_HitComponent;
+        Name CallFunc_BreakHitResult_HitBoneName;
+        int CallFunc_BreakHitResult_HitItem;
+        int CallFunc_BreakHitResult_ElementIndex;
+        int CallFunc_BreakHitResult_FaceIndex;
+        Struct<Vector> CallFunc_BreakHitResult_TraceStart;
+        Struct<Vector> CallFunc_BreakHitResult_TraceEnd;
+        Class CallFunc_GetObjectClass_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue_1;
+        bool CallFunc_EqualEqual_ClassClass_ReturnValue;
+        Enum CallFunc_GetSurfaceType_ReturnValue;
+        Enum CallFunc_GetSurfaceCategory_ReturnValue;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue_1;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        bool CallFunc_BooleanOR_ReturnValue;
+        Struct<Rotator> CallFunc_Conv_VectorToRotator_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        Struct<GameplayTag> K2Node_Event_DamageTagIn;
+        bool CallFunc_IsValid_ReturnValue_2;
+        const Delegate Temp_delegate_Variable;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        Struct<LinearColor> K2Node_Event_BaseColorIn;
+        Struct<LinearColor> K2Node_Event_EmissiveColorIn;
+        const Object<MorRuneEffect> K2Node_Event_RuneEffect;
+        Enum CallFunc_GetRuneDefinition_OutResult;
+        Struct<MorRuneDefinition> CallFunc_GetRuneDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess_1;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue;
+        Object<NiagaraSystem> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        Struct<MorWeaponTrailColors> CallFunc_Map_Find_Value_1;
+        bool CallFunc_Map_Find_ReturnValue_1;
+        Object<MaterialInterface> CallFunc_Map_Find_Value_2;
+        bool CallFunc_Map_Find_ReturnValue_2;
+        const Struct<Transform> Temp_struct_Variable_1;
+        bool GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess;
+        [InstancedReference] Object<MorPointLightComponent> CallFunc_AddComponent_ReturnValue;
+        bool CallFunc_K2_AttachToComponent_ReturnValue;
+        bool GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1;
+        Object<Actor> K2Node_Event_CueActor;
+        Interface<BPI_RunicInterface_C> K2Node_DynamicCast_AsBPI_Runic_Interface;
+        bool K2Node_DynamicCast_bSuccess;
+        bool GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2;
+        float CallFunc_GetTargetGlowOnNearby_ReturnValue;
+        Object<Character> K2Node_Event_Character;
+        bool GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3;
+        Object<Actor> CallFunc_GetAttachParentActor_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess_1;
+        Object<Actor> CallFunc_GetAttachParentActor_ReturnValue_1;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character_1;
+        bool K2Node_DynamicCast_bSuccess_2;
+        [InstancedReference] Object<MorEquipComponent> K2Node_DynamicCast_AsMor_Equip_Component;
+        bool K2Node_DynamicCast_bSuccess_3;
+        [InstancedReference] Object<MorEquipComponent> K2Node_DynamicCast_AsMor_Equip_Component_1;
+        bool K2Node_DynamicCast_bSuccess_4;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue_1;
+        Interface<GameplayTagAssetInterface> CallFunc_HasMatchingGameplayTag_self_CastInput;
+        bool CallFunc_HasMatchingGameplayTag_ReturnValue;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue_2;
+        bool GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_4;
+        Object<AkSwitchValue> CallFunc_Map_Find_Value_3;
+        bool CallFunc_Map_Find_ReturnValue_3;
+        int CallFunc_PostAkEvent_ReturnValue;
+        float CallFunc_GetNearbyGlowMinLerp_LerpValue;
+        const Delegate Temp_delegate_Variable_1;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_2;
+        [InstancedReference] Object<SceneComponent> CallFunc_K2_GetRootComponent_ReturnValue;
+        int CallFunc_PostAkEvent_ReturnValue_1;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAttached_ReturnValue;
+        const Delegate Temp_delegate_Variable_2;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_3;
+        bool CallFunc_IsActive_ReturnValue;
+        int CallFunc_PostAkEvent_ReturnValue_2;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        float CallFunc_Add_FloatFloat_ReturnValue;
+        bool CallFunc_Greater_FloatFloat_ReturnValue;
+        float CallFunc_Lerp_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        float CallFunc_Subtract_FloatFloat_ReturnValue_1;
+        Struct<LinearColor> K2Node_MakeStruct_LinearColor_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_4 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Light"));
+
+            if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_4) {
+                // Block 3
+                break;
+
+            }
+
+
+            // Block 4
+            ExecuteUbergraph_BP_Category_Weapon_73: EX_LetObj(CallFunc_GetAttachParentActor_ReturnValue,this.GetAttachParentActor());
+            K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", CallFunc_GetAttachParentActor_ReturnValue);
+            K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_1);
+
+            // Block 5
+            CallFunc_MakeLiteralGameplayTag_ReturnValue_1 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Item.ShadowRepel.Major")));
+            CallFunc_HasMatchingGameplayTag_ReturnValue = (bool)(K2Node_DynamicCast_AsMor_Character.HasMatchingGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue_1));
+
+            if (CallFunc_HasMatchingGameplayTag_ReturnValue) {
+                // Block 6
+                break;
+
+            }
+
+
+            // Block 7
+            ExecuteUbergraph_BP_Category_Weapon_294: K2Node_DynamicCast_AsMor_Equip_Component = EX_DynamicCast("MorEquipComponent", K2Node_DynamicCast_AsMor_Character.EquipComp);
+            K2Node_DynamicCast_bSuccess_3 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Equip_Component);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_3);
+
+            // Block 8
+            K2Node_DynamicCast_AsMor_Equip_Component.AddShadowDispel(4);
+            CallFunc_MakeLiteralGameplayTag_ReturnValue_1 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Item.ShadowRepel.Major")));
+            K2Node_DynamicCast_AsMor_Character.AddGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue_1);
+            EX_PopExecutionFlow();
+
+            // Block 9
+            ExecuteUbergraph_BP_Category_Weapon_529_UpdateGlowMat: EX_PushExecutionFlow(ExecuteUbergraph_BP_Category_Weapon_549);
+
+            // Block 10
+
+            if (this.GlowMatSoundPlayed) {
+                // Block 11
+                break;
+
+                // Block 12
+                ExecuteUbergraph_BP_Category_Weapon_549: this.GlowFade.PlayFromStart();
+                break;
+
+            }
+
+
+            // Block 13
+            ExecuteUbergraph_BP_Category_Weapon_582: CallFunc_PostAkEvent_ReturnValue_2 = this.FGKAk.PostAkEvent(fx_wpn_magicresonance_lp_play, 0, Temp_delegate_Variable_2, Temp_struct_Variable_3, "");
+            this.GlowMatSoundPlayed = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 14
+            ExecuteUbergraph_BP_Category_Weapon_682_OnTrailBegin: this.RibbonTrails.SetVariableBool(EX_NameConst("ChargedUp"), K2Node_Event_bIsChargeAttack);
+            this.RibbonTrails.Activate(true);
+            CallFunc_PostAkEvent_ReturnValue = this.FGKAk.PostAkEvent(fx_plr_weapon_swing_elemental_play, 0, Temp_delegate_Variable, Temp_struct_Variable, "");
+            EX_PopExecutionFlow();
+
+            // Block 15
+            ExecuteUbergraph_BP_Category_Weapon_862_OnTrailEnd: CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.RibbonTrails));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 16
+            this.RibbonTrails.Deactivate();
+            EX_PopExecutionFlow();
+
+            // Block 17
+            ExecuteUbergraph_BP_Category_Weapon_938_OnHit: EX_LetObj(CallFunc_GetObjectClass_ReturnValue,GameplayStatics.GetObjectClass(K2Node_Event_Attacker));
+            CallFunc_EqualEqual_ClassClass_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ClassClass(CallFunc_GetObjectClass_ReturnValue, BP_FGKDwarf_C));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ClassClass_ReturnValue);
+
+            // Block 18
+            GameplayStatics.BreakHitResult(K2Node_Event_Hit, CallFunc_BreakHitResult_bBlockingHit, CallFunc_BreakHitResult_bInitialOverlap, CallFunc_BreakHitResult_Time, CallFunc_BreakHitResult_Distance, CallFunc_BreakHitResult_Location, CallFunc_BreakHitResult_ImpactPoint, CallFunc_BreakHitResult_Normal, CallFunc_BreakHitResult_ImpactNormal, CallFunc_BreakHitResult_PhysMat, CallFunc_BreakHitResult_HitActor, CallFunc_BreakHitResult_HitComponent, CallFunc_BreakHitResult_HitBoneName, CallFunc_BreakHitResult_HitItem, CallFunc_BreakHitResult_ElementIndex, CallFunc_BreakHitResult_FaceIndex, CallFunc_BreakHitResult_TraceStart, CallFunc_BreakHitResult_TraceEnd);
+            CallFunc_GetSurfaceCategory_ReturnValue = this.GetSurfaceCategory(CallFunc_BreakHitResult_PhysMat.SurfaceType);
+            GameplayStatics.BreakHitResult(K2Node_Event_Hit, CallFunc_BreakHitResult_bBlockingHit, CallFunc_BreakHitResult_bInitialOverlap, CallFunc_BreakHitResult_Time, CallFunc_BreakHitResult_Distance, CallFunc_BreakHitResult_Location, CallFunc_BreakHitResult_ImpactPoint, CallFunc_BreakHitResult_Normal, CallFunc_BreakHitResult_ImpactNormal, CallFunc_BreakHitResult_PhysMat, CallFunc_BreakHitResult_HitActor, CallFunc_BreakHitResult_HitComponent, CallFunc_BreakHitResult_HitBoneName, CallFunc_BreakHitResult_HitItem, CallFunc_BreakHitResult_ElementIndex, CallFunc_BreakHitResult_FaceIndex, CallFunc_BreakHitResult_TraceStart, CallFunc_BreakHitResult_TraceEnd);
+            CallFunc_GetSurfaceType_ReturnValue = this.GetSurfaceType(CallFunc_BreakHitResult_PhysMat.SurfaceType);
+            GameplayStatics.BreakHitResult(K2Node_Event_Hit, CallFunc_BreakHitResult_bBlockingHit, CallFunc_BreakHitResult_bInitialOverlap, CallFunc_BreakHitResult_Time, CallFunc_BreakHitResult_Distance, CallFunc_BreakHitResult_Location, CallFunc_BreakHitResult_ImpactPoint, CallFunc_BreakHitResult_Normal, CallFunc_BreakHitResult_ImpactNormal, CallFunc_BreakHitResult_PhysMat, CallFunc_BreakHitResult_HitActor, CallFunc_BreakHitResult_HitComponent, CallFunc_BreakHitResult_HitBoneName, CallFunc_BreakHitResult_HitItem, CallFunc_BreakHitResult_ElementIndex, CallFunc_BreakHitResult_FaceIndex, CallFunc_BreakHitResult_TraceStart, CallFunc_BreakHitResult_TraceEnd);
+            CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_BreakHitResult_PhysMat));
+            CallFunc_EqualEqual_ByteByte_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(25)));
+            CallFunc_EqualEqual_ByteByte_ReturnValue_1 = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetSurfaceCategory_ReturnValue, (byte)(4)));
+            CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_EqualEqual_ByteByte_ReturnValue_1, CallFunc_EqualEqual_ByteByte_ReturnValue));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_BooleanOR_ReturnValue, CallFunc_IsValid_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+            // Block 19
+            CallFunc_IsValid_ReturnValue_2 = (bool)(KismetSystemLibrary.IsValid(this.BloodTrailSystem));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_2);
+
+            // Block 20
+            GameplayStatics.BreakHitResult(K2Node_Event_Hit, CallFunc_BreakHitResult_bBlockingHit, CallFunc_BreakHitResult_bInitialOverlap, CallFunc_BreakHitResult_Time, CallFunc_BreakHitResult_Distance, CallFunc_BreakHitResult_Location, CallFunc_BreakHitResult_ImpactPoint, CallFunc_BreakHitResult_Normal, CallFunc_BreakHitResult_ImpactNormal, CallFunc_BreakHitResult_PhysMat, CallFunc_BreakHitResult_HitActor, CallFunc_BreakHitResult_HitComponent, CallFunc_BreakHitResult_HitBoneName, CallFunc_BreakHitResult_HitItem, CallFunc_BreakHitResult_ElementIndex, CallFunc_BreakHitResult_FaceIndex, CallFunc_BreakHitResult_TraceStart, CallFunc_BreakHitResult_TraceEnd);
+            CallFunc_Conv_VectorToRotator_ReturnValue = KismetMathLibrary.Conv_VectorToRotator(CallFunc_BreakHitResult_ImpactNormal);
+            EX_LetObj(CallFunc_K2_GetRootComponent_ReturnValue,this.K2_GetRootComponent());
+            EX_LetObj(CallFunc_SpawnSystemAttached_ReturnValue,NiagaraFunctionLibrary.SpawnSystemAttached(this.BloodTrailSystem, CallFunc_K2_GetRootComponent_ReturnValue, EX_NameConst("None"), EX_VectorConst(0, 0, 0), CallFunc_Conv_VectorToRotator_ReturnValue, (byte)(0), true, true, (byte)(1), true));
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(19)));
+
+            if (K2Node_SwitchEnum_CmpSuccess) {
+                // Block 21
+                K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(20)));
+
+                if (K2Node_SwitchEnum_CmpSuccess) {
+                    // Block 22
+                    K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(21)));
+                    if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_2654;
+
+                    // Block 23
+                    K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(22)));
+                    if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_2490;
+
+                    // Block 24
+                    K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(23)));
+                    if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_2490;
+
+                    // Block 25
+                    K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(25)));
+                    if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_2711;
+
+                    // Block 26
+                    K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetSurfaceType_ReturnValue, (byte)(31)));
+                    if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_2597;
+
+                    // Block 27
+                    break;
+
+                }
+
+
+                // Block 28
+                ExecuteUbergraph_BP_Category_Weapon_2490: this.BloodTrailColor = EX_StructConst(LinearColor, 16, 0.043137f, 0.023529f, 0.082353f, 1f);
+
+                // Block 29
+                ExecuteUbergraph_BP_Category_Weapon_2542: CallFunc_SpawnSystemAttached_ReturnValue.SetVariableLinearColor(EX_NameConst("BloodColor"), this.BloodTrailColor);
+                break;
+
+            }
+
+
+            // Block 30
+            ExecuteUbergraph_BP_Category_Weapon_2597: this.BloodTrailColor = EX_StructConst(LinearColor, 16, 0.121569f, 0f, 0f, 1f);
+            goto ExecuteUbergraph_BP_Category_Weapon_2542;
+
+            // Block 31
+            ExecuteUbergraph_BP_Category_Weapon_2654: this.BloodTrailColor = EX_StructConst(LinearColor, 16, 0.023529f, 0.082353f, 0f, 1f);
+            goto ExecuteUbergraph_BP_Category_Weapon_2542;
+
+            // Block 32
+            ExecuteUbergraph_BP_Category_Weapon_2711: this.BloodTrailColor = EX_StructConst(LinearColor, 16, 0.529412f, 0.207843f, 0.505882f, 1f);
+            goto ExecuteUbergraph_BP_Category_Weapon_2542;
+
+            // Block 33
+            ExecuteUbergraph_BP_Category_Weapon_2768_PlayerLocationGrab: EX_PopExecutionFlow();
+
+            // Block 34
+            ExecuteUbergraph_BP_Category_Weapon_2769_DamageTag: EX_PopExecutionFlow();
+
+            // Block 35
+            ExecuteUbergraph_BP_Category_Weapon_2770_ShadowFogBrush: EX_PopExecutionFlow();
+
+            // Block 36
+            ExecuteUbergraph_BP_Category_Weapon_2771: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 1f, 0.169616f, 0.089927f, 1f), true);
+
+            // Block 37
+            ExecuteUbergraph_BP_Category_Weapon_2860: this.MorPointLightComponent.PointLight.SetIntensity(0f);
+            EX_PopExecutionFlow();
+
+            // Block 38
+            ExecuteUbergraph_BP_Category_Weapon_2920: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 0.15061f, 0.20009f, 1f, 1f), true);
+
+            // Block 39
+            ExecuteUbergraph_BP_Category_Weapon_3009: this.MorPointLightComponent.PointLight.SetIntensity(1f);
+            this.MorPointLightComponent.PointLight.SetAttenuationRadius(300f);
+            this.MorPointLightComponent.PointLight.SetLightFalloffExponent(6f);
+            EX_PopExecutionFlow();
+
+            // Block 40
+            ExecuteUbergraph_BP_Category_Weapon_3187: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 0.260197f, 0.601154f, 1f, 1f), true);
+            goto ExecuteUbergraph_BP_Category_Weapon_3009;
+
+            // Block 41
+            ExecuteUbergraph_BP_Category_Weapon_3281: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 1f, 0.317354f, 0f, 1f), true);
+            goto ExecuteUbergraph_BP_Category_Weapon_3009;
+
+            // Block 42
+            ExecuteUbergraph_BP_Category_Weapon_3375: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 1f, 0.880648f, 0.410008f, 1f), true);
+
+            // Block 43
+            ExecuteUbergraph_BP_Category_Weapon_3464: this.MorPointLightComponent.PointLight.SetIntensity(1f);
+            EX_PopExecutionFlow();
+
+            // Block 44
+            ExecuteUbergraph_BP_Category_Weapon_3524: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 0.252028f, 0.839497f, 1f, 1f), true);
+            goto ExecuteUbergraph_BP_Category_Weapon_2860;
+
+            // Block 45
+            ExecuteUbergraph_BP_Category_Weapon_3618: this.MorPointLightComponent.PointLight.SetLightColor(EX_StructConst(LinearColor, 16, 1f, 0.894118f, 0.690196f, 1f), true);
+            goto ExecuteUbergraph_BP_Category_Weapon_3464;
+
+            // Block 46
+            ExecuteUbergraph_BP_Category_Weapon_3712: this.MorPointLightComponent.PointLight.SetVolumetricScatteringIntensity(0f);
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Light"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_3618;
+
+            // Block 47
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiDragon"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_3375;
+
+            // Block 48
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Fire"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_3281;
+
+            // Block 49
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Cold"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_3187;
+
+            // Block 50
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Thunder"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_2920;
+
+            // Block 51
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiOrc"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_3524;
+
+            // Block 52
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.TrophyHunter"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_1)) goto ExecuteUbergraph_BP_Category_Weapon_2771;
+
+            // Block 53
+            EX_PopExecutionFlow();
+
+            // Block 54
+            ExecuteUbergraph_BP_Category_Weapon_4185: this.MorPointLightComponent.PointLight.SetSpecularScale(0f);
+            goto ExecuteUbergraph_BP_Category_Weapon_3712;
+
+            // Block 55
+            ExecuteUbergraph_BP_Category_Weapon_4249: this.MorPointLightComponent.PointLight.SetCastShadows(false);
+            this.MorPointLightComponent.PointLight.SetIntensity(0f);
+            goto ExecuteUbergraph_BP_Category_Weapon_4185;
+
+            // Block 56
+            ExecuteUbergraph_BP_Category_Weapon_4368_GlowFade__UpdateFunc: CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+            this.GetNearbyGlowMinLerp(CallFunc_GetNearbyGlowMinLerp_LerpValue);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+            CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+            CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(CallFunc_GetNearbyGlowMinLerp_LerpValue, 5f, CallFunc_Add_FloatFloat_ReturnValue);
+            this.InscribedRuneComponent.SetGlowOnNearbyParam(CallFunc_Lerp_ReturnValue);
+            CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+            this.GetNearbyGlowMinLerp(CallFunc_GetNearbyGlowMinLerp_LerpValue);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+            CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+            CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(CallFunc_GetNearbyGlowMinLerp_LerpValue, 5f, CallFunc_Add_FloatFloat_ReturnValue);
+            CallFunc_Subtract_FloatFloat_ReturnValue_1 = KismetMathLibrary.Subtract_FloatFloat(CallFunc_Lerp_ReturnValue, 1f);
+            Default__AkGameplayStatics.SetRTPCValue(weapon_glow, CallFunc_Subtract_FloatFloat_ReturnValue_1, 100, this, EX_NameConst("None"));
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Light"));
+
+            if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2) {
+                // Block 57
+                GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiOrc"));
+
+                if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2) {
+                    // Block 58
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.TrophyHunter"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2)) goto ExecuteUbergraph_BP_Category_Weapon_5463;
+
+                    // Block 59
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiDragon"));
+
+                    if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_2) {
+                        // Block 60
+                        break;
+
+                    }
+
+
+                    // Block 61
+                    ExecuteUbergraph_BP_Category_Weapon_5187: CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+                    this.GetNearbyGlowMinLerp(CallFunc_GetNearbyGlowMinLerp_LerpValue);
+                    CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+                    CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+                    CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(CallFunc_GetNearbyGlowMinLerp_LerpValue, 5f, CallFunc_Add_FloatFloat_ReturnValue);
+                    this.MorPointLightComponent.PointLight.SetIntensity(CallFunc_Lerp_ReturnValue);
+                    break;
+
+                }
+
+
+                // Block 62
+                ExecuteUbergraph_BP_Category_Weapon_5463: CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+                this.GetNearbyGlowMinLerp(CallFunc_GetNearbyGlowMinLerp_LerpValue);
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+                CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+                CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(CallFunc_GetNearbyGlowMinLerp_LerpValue, 5f, CallFunc_Add_FloatFloat_ReturnValue);
+                this.MorPointLightComponent.PointLight.SetIntensity(CallFunc_Lerp_ReturnValue);
+                CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+                CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+                this.InscribedRuneComponent.SetGlowOnNearbyParam(CallFunc_Add_FloatFloat_ReturnValue);
+                CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+                CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+                CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+                CallFunc_Greater_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Greater_FloatFloat(CallFunc_Add_FloatFloat_ReturnValue, 0f));
+
+                if (CallFunc_Greater_FloatFloat_ReturnValue) {
+                    // Block 63
+                    this.WeaponVFX.Activate(false);
+
+                    // Block 64
+                    ExecuteUbergraph_BP_Category_Weapon_6140: CallFunc_IsActive_ReturnValue = (bool)(this.RibbonTrails.IsActive());
+                    if (!CallFunc_IsActive_ReturnValue) break;
+
+                    // Block 65
+                    K2Node_MakeStruct_LinearColor_1.R = this.BaseColorToUse.R;
+                    K2Node_MakeStruct_LinearColor_1.G = this.BaseColorToUse.G;
+                    K2Node_MakeStruct_LinearColor_1.B = this.BaseColorToUse.B;
+                    K2Node_MakeStruct_LinearColor_1.A = this.BaseColorToUse.A;
+                    this.RibbonTrails.SetVariableLinearColor(EX_NameConst("BaseColor"), K2Node_MakeStruct_LinearColor_1);
+                    K2Node_MakeStruct_LinearColor.R = this.ChargedColorToUse.R;
+                    K2Node_MakeStruct_LinearColor.G = this.ChargedColorToUse.G;
+                    K2Node_MakeStruct_LinearColor.B = this.ChargedColorToUse.B;
+                    K2Node_MakeStruct_LinearColor.A = this.ChargedColorToUse.A;
+                    this.RibbonTrails.SetVariableLinearColor(EX_NameConst("ChargedColor"), K2Node_MakeStruct_LinearColor);
+                    break;
+
+                }
+
+
+                // Block 66
+                ExecuteUbergraph_BP_Category_Weapon_6661: this.WeaponVFX.Deactivate();
+                goto ExecuteUbergraph_BP_Category_Weapon_6140;
+
+            }
+
+
+            // Block 67
+            ExecuteUbergraph_BP_Category_Weapon_6702: CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+            this.GetNearbyGlowMinLerp(CallFunc_GetNearbyGlowMinLerp_LerpValue);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+            CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+            CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(CallFunc_GetNearbyGlowMinLerp_LerpValue, 5f, CallFunc_Add_FloatFloat_ReturnValue);
+            this.MorPointLightComponent.PointLight.SetIntensity(CallFunc_Lerp_ReturnValue);
+            CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(K2Node_Event_TargetGlow, K2Node_Event_CurrentGlow);
+            this.GetNearbyGlowMinLerp(CallFunc_GetNearbyGlowMinLerp_LerpValue);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.GlowFade_NewTrack_0_BB5E563541D9625C9E355AA0B1B547D9, CallFunc_Subtract_FloatFloat_ReturnValue);
+            CallFunc_Add_FloatFloat_ReturnValue = KismetMathLibrary.Add_FloatFloat(K2Node_Event_CurrentGlow, CallFunc_Multiply_FloatFloat_ReturnValue);
+            CallFunc_Lerp_ReturnValue = KismetMathLibrary.Lerp(CallFunc_GetNearbyGlowMinLerp_LerpValue, 5f, CallFunc_Add_FloatFloat_ReturnValue);
+            CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(500f, CallFunc_Lerp_ReturnValue);
+            this.MorPointLightComponent.PointLight.SetAttenuationRadius(CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            EX_PopExecutionFlow();
+
+            // Block 68
+            ExecuteUbergraph_BP_Category_Weapon_7295_ReceiveBeginPlay: EX_PopExecutionFlow();
+
+            // Block 69
+            ExecuteUbergraph_BP_Category_Weapon_7296_PlayerLocationCall: EX_PopExecutionFlow();
+
+            // Block 70
+            ExecuteUbergraph_BP_Category_Weapon_7297_ColorGrab_Data: EX_PopExecutionFlow();
+
+            // Block 71
+            ExecuteUbergraph_BP_Category_Weapon_7298_OnChargingFull: CallFunc_PostAkEvent_ReturnValue_1 = this.FGKAk.PostAkEvent(this.ChargingFullSound, 0, Temp_delegate_Variable_1, Temp_struct_Variable_2, "");
+            EX_PopExecutionFlow();
+
+            // Block 72
+            ExecuteUbergraph_BP_Category_Weapon_7387_OnRuneVisualsApplied: CallFunc_GetRuneDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetRuneDefinition(K2Node_Event_RuneEffect.RowHandle, CallFunc_GetRuneDefinition_OutResult);
+            K2Node_SwitchEnum_CmpSuccess_1 = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetRuneDefinition_OutResult, (byte)(0)));
+
+            if (K2Node_SwitchEnum_CmpSuccess_1) {
+                // Block 73
+                break;
+
+            }
+
+
+            // Block 74
+            ExecuteUbergraph_BP_Category_Weapon_7501: CallFunc_MakeLiteralGameplayTag_ReturnValue = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(CallFunc_GetRuneDefinition_ReturnValue.DamageType);
+            this.DamageTag_0 = CallFunc_MakeLiteralGameplayTag_ReturnValue;
+            CallFunc_Map_Find_ReturnValue_3 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.ElementalSwingAkSwitchValue, this.DamageTag_0, CallFunc_Map_Find_Value_3));
+            this.FGKAk.SetSwitch(CallFunc_Map_Find_Value_3, "", "");
+            this.AdjustGlowAmount();
+            CallFunc_Map_Find_ReturnValue_2 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.RibbonMaterialObject, this.DamageTag_0, CallFunc_Map_Find_Value_2));
+            this.RibbonTrails.SetVariableMaterial(EX_NameConst("RibbonMaterialInterface"), CallFunc_Map_Find_Value_2);
+            this.RuneVisualsAppliedInitRibbonTrailsLifetime();
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.NiagaraSystemAsset, this.DamageTag_0, CallFunc_Map_Find_Value));
+            EX_LetObj(this.AssignedNiagaraAsset,CallFunc_Map_Find_Value);
+            CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.TrailColorConfiguration.WeaponTrailColorConfig, this.DamageTag_0, CallFunc_Map_Find_Value_1));
+            this.BaseColorToUse = CallFunc_Map_Find_Value_1.BaseColor;
+            CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.TrailColorConfiguration.WeaponTrailColorConfig, this.DamageTag_0, CallFunc_Map_Find_Value_1));
+            this.ChargedColorToUse = CallFunc_Map_Find_Value_1.ChargedColor;
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.NiagaraSystemAsset, this.DamageTag_0, CallFunc_Map_Find_Value));
+            this.WeaponVFX.SetAsset(CallFunc_Map_Find_Value, false);
+            CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.TrailColorConfiguration.WeaponTrailColorConfig, this.DamageTag_0, CallFunc_Map_Find_Value_1));
+            this.RibbonTrails.SetVariableLinearColor(EX_NameConst("BaseColor"), CallFunc_Map_Find_Value_1.BaseColor);
+            CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.TrailColorConfiguration.WeaponTrailColorConfig, this.DamageTag_0, CallFunc_Map_Find_Value_1));
+            this.RibbonTrails.SetVariableLinearColor(EX_NameConst("ChargedColor"), CallFunc_Map_Find_Value_1.ChargedColor);
+
+            if (this.VFXDoubleMode) {
+                // Block 75
+                this.WeaponVFX.SetVariableBool(EX_NameConst("DoubleMode"), true);
+                this.WeaponVFX.SetVariableVec3(EX_NameConst("WeaponParticleEffectDoubleOffset1"), this.WeaponParticleEffectDoubleOffset1);
+                this.WeaponVFX.SetVariableVec3(EX_NameConst("WeaponParticleEffectDoubleOffset2"), this.WeaponParticleEffectDoubleOffset2);
+                this.WeaponVFX.SetVectorParameter(EX_NameConst("WeaponParticleEffectArea"), this.WeaponParticleEffectArea);
+                this.WeaponVFX.SetFloatParameter(EX_NameConst("DoubleRotation1"), this.DoubleRotation1);
+                this.WeaponVFX.SetFloatParameter(EX_NameConst("DoubleRotation2"), this.DoubleRotation2);
+
+                // Block 76
+                ExecuteUbergraph_BP_Category_Weapon_8890: GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Light"));
+
+                if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess) {
+                    // Block 77
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiDragon"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9442;
+
+                    // Block 78
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Fire"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9442;
+
+                    // Block 79
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Cold"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9442;
+
+                    // Block 80
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Thunder"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9442;
+
+                    // Block 81
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiOrc"));
+
+                    if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess) {
+                        // Block 82
+                        GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.TrophyHunter"));
+                        if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9427;
+
+                        // Block 83
+                        GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Whisperwood"));
+                        if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9442;
+
+                        // Block 84
+                        GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiHeal"));
+                        if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto ExecuteUbergraph_BP_Category_Weapon_9442;
+
+                        // Block 85
+                        break;
+
+                    }
+
+
+                    // Block 86
+                    ExecuteUbergraph_BP_Category_Weapon_9427: this.AddLight();
+                    break;
+
+                }
+
+
+                // Block 87
+                ExecuteUbergraph_BP_Category_Weapon_9442: this.WeaponVFX.Activate(true);
+                goto ExecuteUbergraph_BP_Category_Weapon_9427;
+
+            }
+
+
+            // Block 88
+            ExecuteUbergraph_BP_Category_Weapon_9484: this.WeaponVFX.SetVectorParameter(EX_NameConst("WeaponParticleEffectArea"), this.WeaponParticleEffectArea);
+            goto ExecuteUbergraph_BP_Category_Weapon_8890;
+
+            // Block 89
+            ExecuteUbergraph_BP_Category_Weapon_9547: Temp_struct_Variable_1 = EX_TransformConst(0, -0, 0, 1, 0, 0, 0, 1, 1, 1);
+            EX_LetObj(CallFunc_AddComponent_ReturnValue,this.AddComponent(EX_NameConst("NODE_AddMorPointLightComponent-0"), true, Temp_struct_Variable_1, this, false));
+            EX_LetObj(this.MorPointLightComponent,CallFunc_AddComponent_ReturnValue);
+            CallFunc_K2_AttachToComponent_ReturnValue = (bool)(this.MorPointLightComponent.K2_AttachToComponent(this.WeaponVFX, EX_NameConst("None"), (byte)(0), (byte)(0), (byte)(0), true));
+            goto ExecuteUbergraph_BP_Category_Weapon_4249;
+
+            // Block 90
+            ExecuteUbergraph_BP_Category_Weapon_9746_AddLight: goto ExecuteUbergraph_BP_Category_Weapon_9547;
+
+            // Block 91
+            ExecuteUbergraph_BP_Category_Weapon_9751_DamageTagGrab: K2Node_DynamicCast_AsBPI_Runic_Interface = EX_ObjToInterfaceCast("BPI_RunicInterface_C", K2Node_Event_CueActor);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("InterfaceToBool", K2Node_DynamicCast_AsBPI_Runic_Interface);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 92
+            K2Node_DynamicCast_AsBPI_Runic_Interface.DamageTag(this.DamageTag_0);
+            EX_PopExecutionFlow();
+
+            // Block 93
+            ExecuteUbergraph_BP_Category_Weapon_9873_GlowFade__FinishedFunc: EX_PopExecutionFlow();
+
+            // Block 94
+            ExecuteUbergraph_BP_Category_Weapon_9874_AdjustGlowAmount: GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Fire"));
+
+            if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3) {
+                // Block 95
+                GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Cold"));
+
+                if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3) {
+                    // Block 96
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Hunters"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10653;
+
+                    // Block 97
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Shadow"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10653;
+
+                    // Block 98
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Poison"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10653;
+
+                    // Block 99
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Thunder"));
+                    if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10653;
+
+                    // Block 100
+                    GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Light"));
+
+                    if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3) {
+                        // Block 101
+                        GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiOrc"));
+
+                        if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3) {
+                            // Block 102
+                            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiDragon"));
+                            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10615;
+
+                            // Block 103
+                            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.TrophyHunter"));
+                            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10523;
+
+                            // Block 104
+                            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3 = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiHeal"));
+                            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess_3)) goto ExecuteUbergraph_BP_Category_Weapon_10653;
+
+                            // Block 105
+                            break;
+
+                        }
+
+
+                        // Block 106
+                        ExecuteUbergraph_BP_Category_Weapon_10523: CallFunc_GetTargetGlowOnNearby_ReturnValue = this.InscribedRuneComponent.GetTargetGlowOnNearby();
+                        this.InscribedRuneComponent.SetGlowOnNearbyParam(CallFunc_GetTargetGlowOnNearby_ReturnValue);
+                        break;
+
+                    }
+
+
+                    // Block 107
+                    ExecuteUbergraph_BP_Category_Weapon_10615: this.InscribedRuneComponent.SetGlowOnNearbyParam(1f);
+                    break;
+
+                }
+
+
+                // Block 108
+                ExecuteUbergraph_BP_Category_Weapon_10653: this.InscribedRuneComponent.SetGlowOnNearbyParam(0.35f);
+                break;
+
+            }
+
+
+            // Block 109
+            ExecuteUbergraph_BP_Category_Weapon_10691: this.InscribedRuneComponent.SetGlowOnNearbyParam(5f);
+            EX_PopExecutionFlow();
+
+            // Block 110
+            ExecuteUbergraph_BP_Category_Weapon_10729_OnEquip: KismetSystemLibrary.Delay(this, 0.25f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), 1421061896, EX_NameConst("ExecuteUbergraph_BP_Category_Weapon"), this));
+            EX_PopExecutionFlow();
+
+            // Block 111
+            ExecuteUbergraph_BP_Category_Weapon_10784_OnUnequip: EX_LetObj(CallFunc_GetAttachParentActor_ReturnValue_1,this.GetAttachParentActor());
+            K2Node_DynamicCast_AsMor_Character_1 = EX_DynamicCast("MorCharacter", CallFunc_GetAttachParentActor_ReturnValue_1);
+            K2Node_DynamicCast_bSuccess_2 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character_1);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_2);
+
+            // Block 112
+            K2Node_DynamicCast_AsMor_Equip_Component_1 = EX_DynamicCast("MorEquipComponent", K2Node_DynamicCast_AsMor_Character_1.EquipComp);
+            K2Node_DynamicCast_bSuccess_4 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Equip_Component_1);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_4);
+
+            // Block 113
+            K2Node_DynamicCast_AsMor_Equip_Component_1.RemoveShadowDispel(4);
+            CallFunc_MakeLiteralGameplayTag_ReturnValue_2 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Item.ShadowRepel.Major")));
+            K2Node_DynamicCast_AsMor_Character_1.RemoveGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue_2);
+            EX_PopExecutionFlow();
+
+            // Block 114
+            ExecuteUbergraph_BP_Category_Weapon_11114_OnHolster: goto ExecuteUbergraph_BP_Category_Weapon_10729;
+
+        }
+
+
+        // Block 115
+        ExecuteUbergraph_BP_Category_Weapon_11119:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnHolster() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_11114_OnHolster);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnUnequip() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_10784_OnUnequip);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnEquip([BlueprintVisible, BlueprintReadOnly] Object<Character> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Character", Character);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_10729_OnEquip);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AdjustGlowAmount() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_9874_AdjustGlowAmount);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void DamageTagGrab([BlueprintVisible, BlueprintReadOnly] Object<Actor> CueActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_CueActor", CueActor);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_9751_DamageTagGrab);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void AddLight() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_9746_AddLight);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnRuneVisualsApplied([BlueprintVisible, BlueprintReadOnly] const Object<MorRuneEffect> RuneEffect) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_RuneEffect", RuneEffect);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_7387_OnRuneVisualsApplied);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnChargingFull() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_7298_OnChargingFull);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void ColorGrab_Data([BlueprintVisible, BlueprintReadOnly] Struct<LinearColor> BaseColorIn, [BlueprintVisible, BlueprintReadOnly] Struct<LinearColor> EmissiveColorIn) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_BaseColorIn", BaseColorIn);
+        EX_LetValueOnPersistentFrame("K2Node_Event_EmissiveColorIn", EmissiveColorIn);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_7297_ColorGrab_Data);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void PlayerLocationCall() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_7296_PlayerLocationCall);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_7295_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void ShadowFogBrush() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_2770_ShadowFogBrush);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void DamageTag([BlueprintVisible, BlueprintReadOnly] Struct<GameplayTag> DamageTagIn) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DamageTagIn", DamageTagIn);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_2769_DamageTag);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void PlayerLocationGrab([BlueprintVisible, BlueprintReadOnly] Object<Actor> Player) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Player", Player);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_2768_PlayerLocationGrab);
+
+    }
+
+    [Event, HasOutParms, BlueprintEvent]
+    public override void OnHit([BlueprintVisible, BlueprintReadOnly] Object<Actor> Attacker, [BlueprintVisible, BlueprintReadOnly] Object<Actor> Victim, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<HitResult> Hit) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Attacker", Attacker);
+        EX_LetValueOnPersistentFrame("K2Node_Event_Victim", Victim);
+        EX_LetValueOnPersistentFrame("K2Node_Event_Hit", Hit);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_938_OnHit);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnTrailEnd() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_862_OnTrailEnd);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void OnTrailBegin([BlueprintVisible, BlueprintReadOnly] Struct<GameplayTagContainer> TrailTags, [BlueprintVisible, BlueprintReadOnly] bool bIsChargeAttack, [BlueprintVisible, BlueprintReadOnly] float ChargeAmount, [BlueprintVisible, BlueprintReadOnly] Enum Action) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_TrailTags", TrailTags);
+        EX_LetValueOnPersistentFrame("K2Node_Event_bIsChargeAttack", bIsChargeAttack);
+        EX_LetValueOnPersistentFrame("K2Node_Event_ChargeAmount", ChargeAmount);
+        EX_LetValueOnPersistentFrame("K2Node_Event_Action", Action);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_682_OnTrailBegin);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void UpdateGlowMat([BlueprintVisible, BlueprintReadOnly] float TargetGlow, [BlueprintVisible, BlueprintReadOnly] float CurrentGlow) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_TargetGlow", TargetGlow);
+        EX_LetValueOnPersistentFrame("K2Node_Event_CurrentGlow", CurrentGlow);
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_529_UpdateGlowMat);
+
+    }
+
+    [BlueprintEvent]
+    void GlowFade__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_4368_GlowFade__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void GlowFade__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Category_Weapon(ExecuteUbergraph_BP_Category_Weapon_9873_GlowFade__FinishedFunc);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    private void GetNearbyGlowMinLerp(out float LerpValue) {
+        // Locals
+        bool CallFunc_IsGlowOnEnemyNearby_ReturnValue;
+
+        // Block 1
+        CallFunc_IsGlowOnEnemyNearby_ReturnValue = (bool)(this.InscribedRuneComponent.IsGlowOnEnemyNearby());
+
+        if (CallFunc_IsGlowOnEnemyNearby_ReturnValue) {
+            // Block 2
+            LerpValue = 0f;
+            return;
+
+        }
+
+
+        // Block 3
+        GetNearbyGlowMinLerp_84: LerpValue = 1f;
+
+        // Block 4
+        GetNearbyGlowMinLerp_107:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void RuneVisualsAppliedInitRibbonTrailsLifetime() {
+        // Locals
+        bool GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess;
+
+        // Block 1
+        GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.Thunder"));
+
+        if (GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess) {
+            // Block 2
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.AntiOrc"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto RuneVisualsAppliedInitRibbonTrailsLifetime_292;
+
+            // Block 3
+            GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess = (bool)(BlueprintGameplayTagLibrary.NotEqual_TagTag(this.DamageTag_0, "Damage.TrophyHunter"));
+            if (!(GameplayTagsK2Node_SwitchGameplayTag_CmpSuccess)) goto RuneVisualsAppliedInitRibbonTrailsLifetime_292;
+
+            // Block 4
+            this.RibbonTrails.SetVariableFloat(EX_NameConst("Lifetime"), 0.2f);
+            return;
+
+        }
+
+
+        // Block 5
+        RuneVisualsAppliedInitRibbonTrailsLifetime_237: this.RibbonTrails.SetVariableFloat(EX_NameConst("Lifetime"), 0.1f);
+        return;
+
+        // Block 6
+        RuneVisualsAppliedInitRibbonTrailsLifetime_292: this.RibbonTrails.SetVariableFloat(EX_NameConst("Lifetime"), 0.175f);
+
+        // Block 7
+        RuneVisualsAppliedInitRibbonTrailsLifetime_342:
+
+    }
+
+}

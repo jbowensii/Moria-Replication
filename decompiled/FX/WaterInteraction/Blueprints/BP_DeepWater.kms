@@ -1,0 +1,240 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Null {}
+
+[Import("/Script/NavigationSystem")]
+public class NavModifierVolume {}
+
+
+[Import("/Script/Moria")]
+public class MorAINavModifierComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetTransformAndExtent();
+}
+
+[Import("/Script/Moria")]
+public class MorPostActivateActorInitializer {}
+
+[Import("/Script/Moria")]
+public MorAINavModifierComponent Default__MorAINavModifierComponent;
+
+[Import("/Script/Moria")]
+public class MorShallowWaterDebugComponent {}
+
+[Import("/Script/Moria")]
+public class MorWaterColliderTriggerBoxComp {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public ChildActorComponent Default__ChildActorComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, LocalFinalFunction] public sealed void UserConstructionScript();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent : SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetScaledBoxExtent();
+}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BreakTransform();
+    [UnknownSignature, MathFunction] public static sealed void MakeTransform();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_VectorVector();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentToWorld();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/FX/WaterInteraction/Materials/MI_WaterDeep")]
+public MaterialInstanceConstant MI_WaterDeep;
+
+
+[Import("/Game/LevelDesign/Placeables/BP_Water_BreatherSubmerged")]
+public class BP_Water_BreatherSubmerged_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/BP_Water_BreatherSubmerged")]
+public class Default__BP_Water_BreatherSubmerged_C {
+    public BoxComponent CollisionComp;
+}
+
+
+[Import("/Game/FX/WaterInteraction/Blueprints/BP_ShallowWater")]
+public class BP_ShallowWater_C : Actor {
+    public BoxComponent CharacterEnterTrigger_GEN_VARIABLE;
+    public BoxComponent WaterFXBox_GEN_VARIABLE;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public MorShallowWaterDebugComponent MorShallowWaterDebug_GEN_VARIABLE;
+    public MorWaterColliderTriggerBoxComp MorWaterColliderTriggerBoxComp_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Scene_GEN_VARIABLE;
+    public StaticMeshComponent WaterPlane_GEN_VARIABLE;
+    public BoxComponent CharacterEnterTrigger;
+    public BoxComponent WaterFXBox;
+    public MorShallowWaterDebugComponent MorShallowWaterDebug;
+    public MorWaterColliderTriggerBoxComp MorWaterColliderTriggerBoxComp;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Scene;
+    public StaticMeshComponent WaterPlane;
+}
+
+[Import("/Game/FX/WaterInteraction/Blueprints/BP_ShallowWater")]
+public BP_ShallowWater_C Default__BP_ShallowWater_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DeepWater_C : BP_ShallowWater_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAINavModifierComponent> MorAINavModifier;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> BP_Water_BreatherSubmerged;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<NavModifierVolume> NavModVolume;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_DeepWater([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<Vector> CallFunc_GetScaledBoxExtent_ReturnValue;
+        Struct<Transform> CallFunc_K2_GetComponentToWorld_ReturnValue;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_BreakTransform_Location;
+        Struct<Rotator> CallFunc_BreakTransform_Rotation;
+        Struct<Vector> CallFunc_BreakTransform_Scale;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue_1;
+        Struct<Transform> CallFunc_MakeTransform_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_DeepWater_10_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        CallFunc_GetScaledBoxExtent_ReturnValue = this.WaterFXBox.GetScaledBoxExtent();
+        CallFunc_K2_GetComponentToWorld_ReturnValue = this.WaterFXBox.K2_GetComponentToWorld();
+        CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(CallFunc_GetScaledBoxExtent_ReturnValue, EX_VectorConst(0, 0, 40));
+        KismetMathLibrary.BreakTransform(CallFunc_K2_GetComponentToWorld_ReturnValue, CallFunc_BreakTransform_Location, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+        CallFunc_Subtract_VectorVector_ReturnValue_1 = KismetMathLibrary.Subtract_VectorVector(CallFunc_BreakTransform_Location, EX_VectorConst(0, 0, 40));
+        CallFunc_MakeTransform_ReturnValue = KismetMathLibrary.MakeTransform(CallFunc_Subtract_VectorVector_ReturnValue_1, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+        this.MorAINavModifier.SetTransformAndExtent(CallFunc_MakeTransform_ReturnValue, CallFunc_Subtract_VectorVector_ReturnValue);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_DeepWater_376_PostActivateInitialize:
+
+    }
+
+    [Event, BlueprintEvent]
+    public void PostActivateInitialize() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DeepWater(ExecuteUbergraph_BP_DeepWater_376_PostActivateInitialize);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_DeepWater(ExecuteUbergraph_BP_DeepWater_10_ReceiveBeginPlay);
+
+    }
+
+    [Event, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        Struct<Vector> CallFunc_GetScaledBoxExtent_ReturnValue;
+        Struct<Transform> CallFunc_K2_GetComponentToWorld_ReturnValue;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_BreakTransform_Location;
+        Struct<Rotator> CallFunc_BreakTransform_Rotation;
+        Struct<Vector> CallFunc_BreakTransform_Scale;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue_1;
+        Struct<Transform> CallFunc_MakeTransform_ReturnValue;
+
+        // Block 1
+        base.UserConstructionScript();
+        CallFunc_GetScaledBoxExtent_ReturnValue = this.WaterFXBox.GetScaledBoxExtent();
+        CallFunc_K2_GetComponentToWorld_ReturnValue = this.WaterFXBox.K2_GetComponentToWorld();
+        CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(CallFunc_GetScaledBoxExtent_ReturnValue, EX_VectorConst(0, 0, 40));
+        KismetMathLibrary.BreakTransform(CallFunc_K2_GetComponentToWorld_ReturnValue, CallFunc_BreakTransform_Location, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+        CallFunc_Subtract_VectorVector_ReturnValue_1 = KismetMathLibrary.Subtract_VectorVector(CallFunc_BreakTransform_Location, EX_VectorConst(0, 0, 40));
+        CallFunc_MakeTransform_ReturnValue = KismetMathLibrary.MakeTransform(CallFunc_Subtract_VectorVector_ReturnValue_1, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+        this.MorAINavModifier.SetTransformAndExtent(CallFunc_MakeTransform_ReturnValue, CallFunc_Subtract_VectorVector_ReturnValue);
+
+    }
+
+}

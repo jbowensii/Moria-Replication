@@ -1,0 +1,479 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class MorCueSpotInteractable {
+    public Object BP_MarkCueSpotAsRead;
+}
+
+[Import("/Script/Moria")]
+public class MorInteractable : Actor {
+    public ObjectProperty InteractTime;
+}
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter : Actor {}
+
+[Import("/Script/FGK")]
+public static class FGKBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLocallyControlledPlayerCharacter();
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public CapsuleComponent Default__CapsuleComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorLocation();
+    public Object ReceiveBeginPlay;
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetCollisionEnabled();
+}
+
+[Import("/Script/Engine")]
+public class CurveFloat {
+    [UnknownSignature, FinalFunction] public sealed void GetFloatValue();
+}
+
+[Import("/Script/Engine")]
+public class GameInstance {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameInstance();
+}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void VSize();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+    [UnknownSignature, FinalFunction] public sealed void SetLightColor();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetVectorParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class ParticleSystemComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetFloatParameter();
+    [UnknownSignature, VirtualFunction] public virtual void SetColorParameter();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent : LightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {
+    [UnknownSignature, VirtualFunction] public virtual void GetMaterial();
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public ParticleSystemComponent Default__ParticleSystemComponent;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class ParticleSystem {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class LinearColor {
+    public ObjectProperty R;
+    public ObjectProperty G;
+    public ObjectProperty B;
+    public ObjectProperty A;
+}
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEventAtLocation();
+}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/Environments/Models/Challenge_Models/Meshes/SM_Voiceover_001")]
+public StaticMesh SM_Voiceover_001;
+
+
+[Import("/Engine/BasicShapes/Sphere")]
+public StaticMesh Sphere;
+
+
+[Import("/Game/Unshippable/ThirdParty/Effects/P_SmallMist")]
+public ParticleSystem P_SmallMist;
+
+
+[Import("/Game/Unshippable/ThirdParty/Effects/P_LightCorona")]
+public ParticleSystem P_LightCorona;
+
+
+[Import("/Game/Environments/Models/Challenge_Models/Materials/MI_Voiceover_001")]
+public MaterialInstanceConstant MI_Voiceover_001;
+
+
+[Import("/Game/LevelDesign/Challenges/Animation/CF_VoiceoverPoint_AlphaPerDist_Default")]
+public CurveFloat CF_VoiceoverPoint_AlphaPerDist_Default;
+
+
+[Import("/Game/Character/Dialogue/BP_SandboxRemoverComponent")]
+public class BP_SandboxRemoverComponent_C {}
+
+[Import("/Game/Character/Dialogue/BP_SandboxRemoverComponent")]
+public BP_SandboxRemoverComponent_C Default__BP_SandboxRemoverComponent_C;
+
+
+[Import("/Game/Character/Dialogue/BP_CueSpotInteractable")]
+public class BP_CueSpotInteractable_C : MorInteractable {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, VirtualFunction] public virtual void SetActorHiddenInGame();
+}
+
+[Import("/Game/Character/Dialogue/BP_CueSpotInteractable")]
+public class Default__BP_CueSpotInteractable_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/MX/MX_Test_Assets/mx_temp_task_complete_play")]
+public AkAudioEvent mx_temp_task_complete_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CueSpot_C : BP_CueSpotInteractable_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BP_SandboxRemoverComponent_C> BP_SandboxRemoverComponent;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ParticleSystemComponent> ParticleSystemLight_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ParticleSystemComponent> ParticleSystem_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> SymbolRotation_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> Scene_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLight_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<CapsuleComponent> Capsule_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> FXLocator_0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> MeshRoot_0;
+    [Edit, BlueprintVisible] Text VoiceoverText;
+    [Edit, BlueprintVisible] Text Title;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> AfterActivationColor;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> PreActivationColor;
+    [Edit, BlueprintVisible] float MessageDuration;
+    [Edit, BlueprintVisible] bool DeactivatedOnStartup;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<LinearColor> ActiveColor;
+    [Edit, BlueprintVisible] bool BasicBobing;
+    [Edit, BlueprintVisible] float Rotation_StepTime;
+    [Edit, BlueprintVisible] float Rotation_Step;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> SphereMat;
+    [Edit, BlueprintVisible] Object<CurveFloat> AlphaByDist;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float ActiveAlpha;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float BaseIntensity;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool WasActivated;
+    [Edit, BlueprintVisible] Struct<MorLoreRowHandle> LoreRow;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_CueSpot([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        int CallFunc_PostEventAtLocation_ReturnValue;
+        float K2Node_Event_DeltaSeconds;
+        Object<MaterialInterface> CallFunc_GetMaterial_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+        Object<GameInstance> CallFunc_GetGameInstance_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+        Object<FGKBaseCharacter> CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue_1;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        float CallFunc_VSize_ReturnValue;
+        float CallFunc_GetFloatValue_ReturnValue;
+        Struct<LinearColor> K2Node_MakeStruct_LinearColor;
+        Struct<LinearColor> K2Node_MakeStruct_LinearColor_1;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        Object<FGKBaseCharacter> CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1;
+        bool CallFunc_IsValid_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            this.ActiveColor = this.AfterActivationColor;
+            break;
+
+            // Block 3
+            ExecuteUbergraph_BP_CueSpot_43: KismetSystemLibrary.Delay(this, this.InteractTime, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), 1946661066, EX_NameConst("ExecuteUbergraph_BP_CueSpot"), this));
+            break;
+
+            ExecuteUbergraph_BP_CueSpot_102_ReceiveBeginPlay:
+            while (true) {
+                while (true) {
+                    // Block 4
+                    this.ActiveColor = this.PreActivationColor;
+                    break;
+
+                }
+
+
+                // Block 5
+                ExecuteUbergraph_BP_CueSpot_140: if (!this.DeactivatedOnStartup) break;
+
+                // Block 6
+                this.SetActorHiddenInGame(true);
+                this.Capsule_0.SetCollisionEnabled((byte)(0));
+                break;
+
+            }
+
+
+            // Block 7
+            ExecuteUbergraph_BP_CueSpot_204: EX_LetObj(CallFunc_GetMaterial_ReturnValue,this.Sphere_0.GetMaterial(0));
+            EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,this.Sphere_0.CreateDynamicMaterialInstance(0, CallFunc_GetMaterial_ReturnValue, EX_NameConst("None")));
+            EX_LetObj(this.SphereMat,CallFunc_CreateDynamicMaterialInstance_ReturnValue);
+            this.Sphere_0.SetMaterial(0, this.SphereMat);
+            CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetVectorParameterValue(EX_NameConst("Color"), this.PreActivationColor);
+            this.SphereMat.SetVectorParameterValue(EX_NameConst("Color"), this.PreActivationColor);
+            break;
+
+            // Block 8
+            ExecuteUbergraph_BP_CueSpot_506: CallFunc_K2_GetComponentLocation_ReturnValue = this.FXLocator_0.K2_GetComponentLocation();
+            CallFunc_PostEventAtLocation_ReturnValue = Default__AkGameplayStatics.PostEventAtLocation(mx_temp_task_complete_play, CallFunc_K2_GetComponentLocation_ReturnValue, EX_RotationConst(0, 0, 0), "", this);
+            break;
+
+            // Block 9
+            ExecuteUbergraph_BP_CueSpot_641_ReceiveTick: EX_LetObj(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1,FGKBlueprintLibrary.GetLocallyControlledPlayerCharacter(this));
+            CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue_1));
+            if (!CallFunc_IsValid_ReturnValue_1) break;
+
+            while (true) {
+                while (true) {
+                    // Block 10
+                    EX_PushExecutionFlow(ExecuteUbergraph_BP_CueSpot_1247);
+
+                    // Block 11
+                    EX_LetObj(CallFunc_GetGameInstance_ReturnValue,GameplayStatics.GetGameInstance(this));
+                    CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+                    EX_LetObj(CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue,FGKBlueprintLibrary.GetLocallyControlledPlayerCharacter(CallFunc_GetGameInstance_ReturnValue));
+                    CallFunc_K2_GetActorLocation_ReturnValue_1 = CallFunc_GetLocallyControlledPlayerCharacter_ReturnValue.K2_GetActorLocation();
+                    CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(CallFunc_K2_GetActorLocation_ReturnValue_1, CallFunc_K2_GetActorLocation_ReturnValue);
+                    CallFunc_VSize_ReturnValue = KismetMathLibrary.VSize(CallFunc_Subtract_VectorVector_ReturnValue);
+                    CallFunc_GetFloatValue_ReturnValue = this.AlphaByDist.GetFloatValue(CallFunc_VSize_ReturnValue);
+                    this.ActiveAlpha = CallFunc_GetFloatValue_ReturnValue;
+                    EX_PopExecutionFlow();
+
+                }
+
+
+                // Block 12
+                ExecuteUbergraph_BP_CueSpot_1014: this.ParticleSystemLight_0.SetFloatParameter(EX_NameConst("InstanceAlphaScaleOverLife"), this.ActiveAlpha);
+                this.ParticleSystem_0.SetFloatParameter(EX_NameConst("InstanceAlphaScaleOverLife"), this.ActiveAlpha);
+                this.ParticleSystem_0.SetColorParameter(EX_NameConst("InstanceColorScaleOverLife"), this.ActiveColor);
+                this.ParticleSystemLight_0.SetColorParameter(EX_NameConst("InstanceColorScaleOverLife"), this.ActiveColor);
+                break;
+
+                // Block 13
+                ExecuteUbergraph_BP_CueSpot_1247: CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.SphereMat));
+                if (!CallFunc_IsValid_ReturnValue) break;
+
+                // Block 14
+                K2Node_MakeStruct_LinearColor_1.R = this.ActiveColor.R;
+                K2Node_MakeStruct_LinearColor_1.G = this.ActiveColor.G;
+                K2Node_MakeStruct_LinearColor_1.B = this.ActiveColor.B;
+                K2Node_MakeStruct_LinearColor_1.A = this.ActiveAlpha;
+                this.SphereMat.SetVectorParameterValue(EX_NameConst("Color"), K2Node_MakeStruct_LinearColor_1);
+                break;
+
+            }
+
+
+            // Block 15
+            ExecuteUbergraph_BP_CueSpot_1512: K2Node_MakeStruct_LinearColor.R = this.ActiveColor.R;
+            K2Node_MakeStruct_LinearColor.G = this.ActiveColor.G;
+            K2Node_MakeStruct_LinearColor.B = this.ActiveColor.B;
+            K2Node_MakeStruct_LinearColor.A = 1f;
+            this.PointLight_0.SetLightColor(K2Node_MakeStruct_LinearColor, true);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.ActiveAlpha, this.BaseIntensity);
+            this.PointLight_0.SetIntensity(CallFunc_Multiply_FloatFloat_ReturnValue);
+            break;
+
+            // Block 16
+            ExecuteUbergraph_BP_CueSpot_1809_MulticastActivationEffects_1: goto ExecuteUbergraph_BP_CueSpot_506;
+
+            // Block 17
+            ExecuteUbergraph_BP_CueSpot_1814_BP_MarkCueSpotAsRead: goto ExecuteUbergraph_BP_CueSpot_43;
+
+        }
+
+
+        // Block 18
+        ExecuteUbergraph_BP_CueSpot_1819:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void BP_MarkCueSpotAsRead() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CueSpot(ExecuteUbergraph_BP_CueSpot_1814_BP_MarkCueSpotAsRead);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void MulticastActivationEffects_1() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CueSpot(ExecuteUbergraph_BP_CueSpot_1809_MulticastActivationEffects_1);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_CueSpot(ExecuteUbergraph_BP_CueSpot_641_ReceiveTick);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CueSpot(ExecuteUbergraph_BP_CueSpot_102_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void ActivatePoint() {
+        // Block 1
+        this.SetActorHiddenInGame(false);
+        this.Capsule_0.SetCollisionEnabled((byte)(3));
+
+    }
+
+}

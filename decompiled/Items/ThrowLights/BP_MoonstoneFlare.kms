@@ -1,0 +1,221 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {
+    [UnknownSignature, VirtualFunction] public virtual void Deactivate();
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {
+    public LightComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public class MorThrowLight {
+    public Object StateChanged;
+}
+
+[Import("/Script/Moria")]
+public Object EMorThrowLightState;
+
+[Import("/Script/Moria")]
+public MorGameplayLightProducerComponent Default__MorGameplayLightProducerComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+}
+
+[Import("/Script/Engine")]
+public class LightComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetIntensity();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_CrystalFlare")]
+public Texture2D T_UI_Icon_CrystalFlare;
+
+
+[Import("/Game/Art/Assets/GPI/GPI_ThrowableMoonstone")]
+public StaticMesh GPI_ThrowableMoonstone;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/Curve_GameplayLight_Producer_MostlyLinear")]
+public CurveFloat Curve_GameplayLight_Producer_MostlyLinear;
+
+
+[Import("/Game/Items/BP_Category_ThrowLight")]
+public class BP_Category_ThrowLight_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_ThrowLight")]
+public class Default__BP_Category_ThrowLight_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_MoonstoneFlare_C : BP_Category_ThrowLight_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_MoonstoneFlare([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Enum K2Node_Event_NewState;
+        Enum K2Node_Event_OldState;
+        bool K2Node_SwitchEnum_CmpSuccess;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_MoonstoneFlare_10_StateChanged: K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_Event_NewState, (byte)(1)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 3
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_Event_NewState, (byte)(2)));
+            if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_MoonstoneFlare_309;
+
+            // Block 4
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_Event_NewState, (byte)(3)));
+            if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_MoonstoneFlare_468;
+
+            // Block 5
+            return;
+
+        }
+
+
+        // Block 6
+        ExecuteUbergraph_BP_MoonstoneFlare_150: this.MorGameplayLightProducer.Deactivate();
+        this.MorPointLight.PointLight.SetIntensity(1f);
+        this.MorPointLight1.PointLight.SetIntensity(3f);
+        return;
+
+        // Block 7
+        ExecuteUbergraph_BP_MoonstoneFlare_309: this.MorGameplayLightProducer.Deactivate();
+        this.MorPointLight.PointLight.SetIntensity(0f);
+        this.MorPointLight1.PointLight.SetIntensity(0f);
+        return;
+
+        // Block 8
+        ExecuteUbergraph_BP_MoonstoneFlare_468: this.MorGameplayLightProducer.Activate(false);
+        this.MorPointLight.PointLight.SetIntensity(3f);
+        this.MorPointLight1.PointLight.SetIntensity(9f);
+
+        // Block 9
+        ExecuteUbergraph_BP_MoonstoneFlare_623:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void StateChanged([BlueprintVisible, BlueprintReadOnly] Enum NewState, [BlueprintVisible, BlueprintReadOnly] Enum OldState) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_NewState", NewState);
+        EX_LetValueOnPersistentFrame("K2Node_Event_OldState", OldState);
+        this.ExecuteUbergraph_BP_MoonstoneFlare(ExecuteUbergraph_BP_MoonstoneFlare_10_StateChanged);
+
+    }
+
+}

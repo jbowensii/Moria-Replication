@@ -1,0 +1,171 @@
+
+[Import("/Script/Moria")]
+public class MorWaterColliderTriggerBoxComp : SceneComponent {}
+
+[Import("/Script/Moria")]
+public MorWaterColliderTriggerBoxComp Default__MorWaterColliderTriggerBoxComp;
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetBoxExtent();
+}
+
+[Import("/Script/Engine")]
+public class DecalComponent : SceneComponent {
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void BreakVector();
+    [UnknownSignature, MathFunction] public static sealed void Conv_BoolToFloat();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_VectorVector();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+    [UnknownSignature, FinalFunction] public sealed void SetVectorParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent : BoxComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_AddLocalOffset();
+    [UnknownSignature, FinalFunction] public sealed void SetWorldScale3D();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public DecalComponent Default__DecalComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class Material {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Game/FX/ScriptedSceneFX/Materials/M_Decal_DripPuddle")]
+public Material M_Decal_DripPuddle;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_PuddleDecal_C : Actor {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorWaterColliderTriggerBoxComp> MorWaterColliderTriggerBoxComp;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecalComponent> Decal;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible] bool Droplets;
+    [Edit, BlueprintVisible] float `Puddle Mask Scale`;
+    [Edit, BlueprintVisible] Struct<Vector> `Decal/Collider Scale`;
+    [Edit, BlueprintVisible] Struct<Vector> `Splash Box Extent`;
+    [Edit, BlueprintVisible] Struct<Vector> SplashBoxOffset;
+    [Edit, BlueprintVisible] Struct<LinearColor> WaterColor;
+    [Event, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        float CallFunc_BreakVector_X;
+        float CallFunc_BreakVector_Y;
+        float CallFunc_BreakVector_Z;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        float CallFunc_BreakVector_X_1;
+        float CallFunc_BreakVector_Y_1;
+        float CallFunc_BreakVector_Z_1;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_1;
+        float CallFunc_BreakVector_X_2;
+        float CallFunc_BreakVector_Y_2;
+        float CallFunc_BreakVector_Z_2;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_2;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_AddLocalOffset_SweepHitResult;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue_3;
+        Struct<Vector> CallFunc_Multiply_VectorVector_ReturnValue;
+        float CallFunc_Conv_BoolToFloat_ReturnValue;
+        Struct<Vector> CallFunc_Add_VectorVector_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+
+        // Block 1
+        KismetMathLibrary.BreakVector(this.`Decal/Collider Scale`, CallFunc_BreakVector_X_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_Z_1);
+        CallFunc_MakeVector_ReturnValue_1 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_Z_1, CallFunc_BreakVector_Y_1, CallFunc_BreakVector_X_1);
+        this.Decal.SetWorldScale3D(CallFunc_MakeVector_ReturnValue_1);
+        EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,this.Decal.CreateDynamicMaterialInstance());
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetVectorParameterValue(EX_NameConst("WaterColor"), this.WaterColor);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Puddle Mask Scale"), this.`Puddle Mask Scale`);
+        CallFunc_Conv_BoolToFloat_ReturnValue = KismetMathLibrary.Conv_BoolToFloat(this.Droplets);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Droplets"), CallFunc_Conv_BoolToFloat_ReturnValue);
+        KismetMathLibrary.BreakVector(this.`Decal/Collider Scale`, CallFunc_BreakVector_X, CallFunc_BreakVector_Y, CallFunc_BreakVector_Z);
+        CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X, CallFunc_BreakVector_Y, 0f);
+        KismetMathLibrary.BreakVector(this.`Splash Box Extent`, CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, CallFunc_BreakVector_Z_2);
+        CallFunc_MakeVector_ReturnValue_2 = KismetMathLibrary.MakeVector(0f, 0f, CallFunc_BreakVector_Z_2);
+        CallFunc_MakeVector_ReturnValue_3 = KismetMathLibrary.MakeVector(CallFunc_BreakVector_X_2, CallFunc_BreakVector_Y_2, 0f);
+        CallFunc_Multiply_VectorVector_ReturnValue = KismetMathLibrary.Multiply_VectorVector(CallFunc_MakeVector_ReturnValue, CallFunc_MakeVector_ReturnValue_3);
+        CallFunc_Add_VectorVector_ReturnValue = KismetMathLibrary.Add_VectorVector(CallFunc_Multiply_VectorVector_ReturnValue, CallFunc_MakeVector_ReturnValue_2);
+        this.MorWaterColliderTriggerBoxComp.SetBoxExtent(CallFunc_Add_VectorVector_ReturnValue, true);
+        this.MorWaterColliderTriggerBoxComp.K2_AddLocalOffset(this.SplashBoxOffset, false, CallFunc_K2_AddLocalOffset_SweepHitResult, false);
+
+    }
+
+}

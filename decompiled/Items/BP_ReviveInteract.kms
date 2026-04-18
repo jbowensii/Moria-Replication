@@ -1,0 +1,122 @@
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorReviveInteract {}
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+[Import("/Script/Moria")]
+public MorBehaviorState_Interact Default__MorBehaviorState_Interact;
+
+[Import("/Script/Moria")]
+public class Default__MorReviveInteract {
+    public Object InteractCollider;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class MorAnimNotifyState_EquipOverride {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Engine/BasicShapes/Sphere")]
+public StaticMesh Sphere;
+
+
+[Import("/Engine/BasicShapes/BasicShapeMaterial")]
+public Material BasicShapeMaterial;
+
+
+[Import("/Game/Unshippable/DwarfPrepro/FGK_Animations/Dwa_FGK_UA_Stand_Crouch_Revive_Gesture_Montage")]
+public class Dwa_FGK_UA_Stand_Crouch_Revive_Gesture_Montage {
+    public MorAnimNotifyState_EquipOverride MorAnimNotifyState_EquipOverride_0;
+}
+
+
+[Import("/Game/Animations/Orc/Orc_UA_Combat_Taunt_Montage")]
+public class Orc_UA_Combat_Taunt_Montage {
+    public AnimNotifyState_Vulnerable_C AnimNotifyState_Vulnerable_C_0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ReviveInteract_C : MorReviveInteract {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> Orc_Taunt;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Sphere;
+}

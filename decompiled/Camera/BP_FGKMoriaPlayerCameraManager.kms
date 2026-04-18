@@ -1,0 +1,156 @@
+
+[Import("/Script/Moria")]
+public class MorPlayerCameraManager {}
+
+[Import("/Script/Moria")]
+public class Default__MorPlayerCameraManager {
+    public Object CameraFSMComp;
+    public Object TransformComponent0;
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCameraState {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_CameraDebugRequested {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTargetLock {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDesiredGait {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_No_HaveTagsForSeconds {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/Camera/ViewStates/VSt_Root")]
+public class VSt_Root_C {}
+
+[Import("/Game/Camera/ViewStates/VSt_Root")]
+public class Default__VSt_Root_C {
+    public FGKCameraState FGKCameraState_0;
+    public FGKCameraState FGKCameraState_1;
+    public FGKCameraState FGKCameraState_10;
+    public FGKCameraState FGKCameraState_12;
+    public FGKCameraState FGKCameraState_14;
+    public FGKCameraState FGKCameraState_19;
+    public FGKCameraState FGKCameraState_4;
+    public FGKCameraState FGKCameraState_6;
+    public FGKCondition_CameraDebugRequested FGKCondition_CameraDebugRequested_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_10;
+    public FGKCondition_HasTags FGKCondition_HasTags_3;
+    public FGKCondition_HasTags FGKCondition_HasTags_4;
+    public FGKCondition_HasTags FGKCondition_HasTags_5;
+    public FGKCondition_HasTags FGKCondition_HasTags_7;
+    public FGKCondition_HasTags FGKCondition_HasTags_8;
+    public FGKCondition_HasTags FGKCondition_HasTags_9;
+    public FGKCondition_HasTargetLock FGKCondition_HasTargetLock_0;
+    public FGKCondition_IsDesiredGait FGKCondition_IsDesiredGait_0;
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public FGKConditionGroup FGKConditionGroup_4;
+    public VSt_Default_C VSt_Default_C_2;
+}
+
+
+[Import("/Game/Camera/ViewStates/VSt_Default")]
+public class VSt_Default_C {}
+
+
+[Config, Transient, Parsed, NotPlaceable, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_FGKMoriaPlayerCameraManager_C : MorPlayerCameraManager {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_FGKMoriaPlayerCameraManager([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaSeconds;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_FGKMoriaPlayerCameraManager_10_ReceiveTick:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_FGKMoriaPlayerCameraManager(ExecuteUbergraph_BP_FGKMoriaPlayerCameraManager_10_ReceiveTick);
+
+    }
+
+}

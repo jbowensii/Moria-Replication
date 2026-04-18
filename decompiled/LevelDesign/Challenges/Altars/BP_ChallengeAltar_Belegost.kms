@@ -1,0 +1,129 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceColorCurve {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/Tech/Data/StringTables/Challenges")]
+public StringTable Challenges;
+
+
+[Import("/Game/LevelDesign/Challenges/Altars/BP_ChallengeAltar")]
+public class BP_ChallengeAltar_C {
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public MorInteractionPoint MorInteractionPoint_GEN_VARIABLE;
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public PointLightComponent PointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent FiguresPlacementBotRight_GEN_VARIABLE;
+    public SceneComponent FiguresPlacementTopLeft_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public TimelineTemplate Light_Template;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public MorInteractionPoint MorInteractionPoint;
+    public NiagaraComponent Niagara;
+    public PointLightComponent PointLight;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent FiguresPlacementBotRight;
+    public SceneComponent FiguresPlacementTopLeft;
+    public StaticMeshComponent StaticMesh;
+}
+
+[Import("/Game/LevelDesign/Challenges/Altars/BP_ChallengeAltar")]
+public class Default__BP_ChallengeAltar_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent LootLocator;
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ChallengeAltar_Belegost_C : BP_ChallengeAltar_C {
+}

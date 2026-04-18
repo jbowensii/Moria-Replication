@@ -1,0 +1,100 @@
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void IsSandbox();
+}
+
+
+[Import("/Script/Engine")]
+public ActorComponent Default__ActorComponent;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+}
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class BP_SandboxRemoverComponent_C : ActorComponent {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible] bool Enabled;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_SandboxRemoverComponent([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool CallFunc_IsSandbox_ReturnValue;
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_SandboxRemoverComponent_10_ReceiveBeginPlay: CallFunc_IsSandbox_ReturnValue = (bool)(MoriaUtils.IsSandbox(this));
+        CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_IsSandbox_ReturnValue, this.Enabled));
+        if (!CallFunc_BooleanAND_ReturnValue) return;
+
+        // Block 3
+        EX_LetObj(CallFunc_GetOwner_ReturnValue,this.GetOwner());
+        CallFunc_GetOwner_ReturnValue.K2_DestroyActor();
+
+        // Block 4
+        ExecuteUbergraph_BP_SandboxRemoverComponent_139:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_SandboxRemoverComponent(ExecuteUbergraph_BP_SandboxRemoverComponent_10_ReceiveBeginPlay);
+
+    }
+
+}

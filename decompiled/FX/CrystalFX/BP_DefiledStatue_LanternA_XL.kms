@@ -1,0 +1,114 @@
+
+[Import("/Script/Moria")]
+public class MoonstoneBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public MoonstoneBreakableComponent Default__MoonstoneBreakableComponent;
+
+[Import("/Script/Moria")]
+public MorGameplayLightProducerComponent Default__MorGameplayLightProducerComponent;
+
+[Import("/Script/Moria")]
+public MorGameplayLightSamplerComponent Default__MorGameplayLightSamplerComponent;
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Art/Assets/Landmarks/CrystalDescent/Cavern_Crystal_B")]
+public StaticMesh Cavern_Crystal_B;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Defiled/Defiled_Statues_A_XL")]
+public StaticMesh Defiled_Statues_A_XL;
+
+
+[Import("/Game/FX/CrystalFX/MI_Moonstone_ClusterLarge")]
+public MaterialInstanceConstant MI_Moonstone_ClusterLarge;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DefiledStatue_LanternA_XL_C : Actor {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Statue;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MoonstoneBreakableComponent> MoonstoneBreakable1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLight1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightSamplerComponent> MorGameplayLightSampler1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLightInterior1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+}

@@ -1,0 +1,113 @@
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class DecalComponent : SceneComponent {
+    [UnknownSignature, VirtualFunction] public virtual void CreateDynamicMaterialInstance();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValue();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetWorldScale3D();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public DecalComponent Default__DecalComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+
+[Import("/Game/FX/ScriptedSceneFX/Materials/MI_Decal_DrippingStairs_Y")]
+public MaterialInstanceConstant MI_Decal_DrippingStairs_Y;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_DrippyStairsDecal_C : Actor {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecalComponent> Decal;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible] Struct<Vector> `Decal Scale`;
+    [Edit, BlueprintVisible] float `Panner Y 1`;
+    [Edit, BlueprintVisible] float `Panner Y 2`;
+    [Edit, BlueprintVisible] float `Panner X 1`;
+    [Edit, BlueprintVisible] float `Panner X 2`;
+    [Edit, BlueprintVisible] float `DirectionalFade_Axis_Negative/Positive`;
+    [Edit, BlueprintVisible] float `Fade Direction X/Y`;
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Locals
+        Object<MaterialInstanceDynamic> CallFunc_CreateDynamicMaterialInstance_ReturnValue;
+
+        // Block 1
+        this.Decal.SetWorldScale3D(this.`Decal Scale`);
+        EX_LetObj(CallFunc_CreateDynamicMaterialInstance_ReturnValue,this.Decal.CreateDynamicMaterialInstance());
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("DirectionFade_Axis_Negative/Positive"), this.`DirectionalFade_Axis_Negative/Positive`);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Fade Direction X/Y"), this.`Fade Direction X/Y`);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Panner Y 1"), this.`Panner Y 1`);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Panner Y 2"), this.`Panner Y 2`);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Panner X 1"), this.`Panner X 1`);
+        CallFunc_CreateDynamicMaterialInstance_ReturnValue.SetScalarParameterValue(EX_NameConst("Panner X 2"), this.`Panner X 2`);
+
+    }
+
+}

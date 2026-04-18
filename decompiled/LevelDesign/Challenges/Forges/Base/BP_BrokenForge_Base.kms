@@ -1,0 +1,465 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraBool;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void EncounterConstruction();
+    [UnknownSignature, FinalFunction] public sealed void SetProgress();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+    [UnknownSignature, MathFunction] public static sealed void SpawnActorInBubble();
+}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public Object EInteractState;
+
+[Import("/Script/Moria")]
+public MorInteractionPoint Default__MorInteractionPoint;
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractableCondition_PartsCompleted {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractableCondition_WasActivated {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public class MorSetupChallengeComponent {}
+
+[Import("/Script/Moria")]
+public class UMorChallengeInteractableCondition_IsStateLoaded {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetTransform();
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetObjectClass();
+}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVectorParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : MeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/Tech/Data/StringTables/Challenges")]
+public StringTable Challenges;
+
+
+[Import("/Game/Unshippable/ThirdParty/AncientTreasures/Meshes/SM_Coal_01a")]
+public StaticMesh SM_Coal_01a;
+
+
+[Import("/Game/Environments/Models/ForgeComplex/Meshes/SM_AnvilStation")]
+public StaticMesh SM_AnvilStation;
+
+
+[Import("/Game/FX/fire/particles/NS_CamsFireSystem")]
+public NiagaraSystem NS_CamsFireSystem;
+
+
+[Import("/Game/Tech/Managers/BP_DiscoveryManager")]
+public class BP_DiscoveryManager_C : MorDiscoveryManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_DiscoveryManager")]
+public BP_DiscoveryManager_C Default__BP_DiscoveryManager_C;
+
+
+[Import("/Game/Maps/BP_POIMarker_Component_Crafting")]
+public class BP_POIMarker_Component_Crafting_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_WaitForSetup")]
+public class InSt_WaitForSetup_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_InteractChallenge_Activate")]
+public class InSt_InteractChallenge_Activate_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_ComplexInteractChallenge_Root")]
+public class InSt_ComplexInteractChallenge_Root_C {}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_ComplexInteractChallenge_Root")]
+public class Default__InSt_ComplexInteractChallenge_Root_C {
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public FGKConditionGroup FGKConditionGroup_5;
+    public FGKConditionGroup FGKConditionGroup_6;
+    public FGKConditionGroup FGKConditionGroup_7;
+    public FGKConditionGroup FGKConditionGroup_8;
+    public FGKConditionGroup FGKConditionGroup_9;
+    public InSt_InteractChallenge_Activate_C InSt_InteractChallenge_Activate_C_0;
+    public InSt_WaitForSetup_C InSt_WaitForSetup_C_0;
+    public MorChallengeInteractableCondition_PartsCompleted MorChallengeInteractableCondition_PartsCompleted_1;
+}
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_LegendaryElvishForge")]
+public class BP_LegendaryElvishForge_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public BoxComponent NavArea_InteractableArchitecture_GEN_VARIABLE;
+    public BP_POIMarker_Component_Crafting_C BP_POIMarker_Component_Crafting_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Blacksmith_01_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Blacksmith_01_Loiter_GEN_VARIABLE;
+    public MorInteractionPoint MorInteractionPoint_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_Forge_GEN_VARIABLE;
+    public NiagaraComponent `Collect VFX_GEN_VARIABLE`;
+    public NiagaraComponent `Crafting Started VFX_GEN_VARIABLE`;
+    public NiagaraComponent Crafting_InProgressVFX_GEN_VARIABLE;
+    public NiagaraComponent CraftingCompleteVFX_GEN_VARIABLE;
+    public NiagaraComponent NS_ElvenForge_FlameStatic_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Floating_InfoText_AndProgressBar_GEN_VARIABLE;
+    public StaticMeshComponent SM_Coal_01a_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_0_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public BoxComponent NavArea_InteractableArchitecture;
+    public BP_POIMarker_Component_Crafting_C BP_POIMarker_Component_Crafting;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Blacksmith_01;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Blacksmith_01_Loiter;
+    public MorInteractionPoint MorInteractionPoint;
+    public MorPointLightComponent MorPointLight_Forge;
+    public NiagaraComponent `Collect VFX`;
+    public NiagaraComponent `Crafting Started VFX`;
+    public NiagaraComponent Crafting_InProgressVFX;
+    public NiagaraComponent CraftingCompleteVFX;
+    public NiagaraComponent NS_ElvenForge_FlameStatic;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Floating_InfoText_AndProgressBar;
+    public StaticMeshComponent SM_Coal_01a;
+    public StaticMeshComponent StaticMesh_0;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_LegendaryElvishForge")]
+public class Default__BP_LegendaryElvishForge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public MorCraftingComponent CraftingComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C : Actor {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    [UnknownSignature] public  void GetEnabledState();
+    [UnknownSignature, LocalFinalFunction] public sealed void GetInteractText();
+    [UnknownSignature] public  void OutsideChallengeActivated();
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent LootLocator;
+    [UnknownSignature, VirtualFunction] public virtual void AreAllPartsCompleted();
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Unshippable/DwarfPrepro/FGK_Animations/Dwa_FGK_UA_Object_Use_Interact_General_Montage")]
+public class Dwa_FGK_UA_Object_Use_Interact_General_Montage {
+    public AnimNotifyState_EquipOverride_C AnimNotifyState_EquipOverride_C_0;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BrokenForge_Base_C : CBP_InteractChallenge_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> NavArea_InteractableArchitecture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight_Forge;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_ElvenForge_FlameStatic;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_Coal_01a;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorInteractionPoint> MorInteractionPoint;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_AnvilStation;
+    [Edit, BlueprintVisible] Text UnlitFurnaceMessage;
+    [Edit, BlueprintVisible] Class ForgeClass;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> DiscoveryProgressRow;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_BrokenForge_Base([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<CBP_InteractChallenge_C> K2Node_Event_OutsideChallenge;
+        bool CallFunc_AreAllPartsCompleted_ReturnValue;
+        const Struct<Transform> CallFunc_GetTransform_ReturnValue;
+        Object<Actor> CallFunc_GetManager_ReturnValue;
+        Object<Actor> CallFunc_SpawnActorInBubble_ReturnValue;
+        Object<BP_DiscoveryManager_C> K2Node_DynamicCast_AsBP_Discovery_Manager;
+        bool K2Node_DynamicCast_bSuccess;
+        Class CallFunc_GetObjectClass_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_BrokenForge_Base_10_OutsideChallengeActivated: CallFunc_AreAllPartsCompleted_ReturnValue = (bool)(this.AreAllPartsCompleted());
+        if (!CallFunc_AreAllPartsCompleted_ReturnValue) return;
+
+        // Block 3
+        EX_LetObj(CallFunc_GetManager_ReturnValue,MoriaUtils.GetManager(this, BP_DiscoveryManager_C));
+        K2Node_DynamicCast_AsBP_Discovery_Manager = EX_DynamicCast("BP_DiscoveryManager_C", CallFunc_GetManager_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Discovery_Manager);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 4
+        K2Node_DynamicCast_AsBP_Discovery_Manager.SetProgress(this.DiscoveryProgressRow);
+        CallFunc_GetTransform_ReturnValue = this.GetTransform();
+        EX_LetObj(CallFunc_SpawnActorInBubble_ReturnValue,MoriaUtils.SpawnActorInBubble(this, this.ForgeClass, CallFunc_GetTransform_ReturnValue, (byte)(1), EX_NoObject(), EX_NoObject()));
+        EX_LetObj(CallFunc_GetObjectClass_ReturnValue,GameplayStatics.GetObjectClass(CallFunc_SpawnActorInBubble_ReturnValue));
+        K2Node_DynamicCast_AsBP_Discovery_Manager.EncounterConstruction(CallFunc_GetObjectClass_ReturnValue);
+        this.K2_DestroyActor();
+
+        // Block 5
+        ExecuteUbergraph_BP_BrokenForge_Base_353:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void OutsideChallengeActivated([BlueprintVisible, BlueprintReadOnly] Object<CBP_InteractChallenge_C> OutsideChallenge) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OutsideChallenge", OutsideChallenge);
+        this.ExecuteUbergraph_BP_BrokenForge_Base(ExecuteUbergraph_BP_BrokenForge_Base_10_OutsideChallengeActivated);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Block 1
+        this.SM_Coal_01a.SetVectorParameterValueOnMaterials(EX_NameConst("Emissive Color Multi"), EX_VectorConst(0, 0, 0));
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public override void GetEnabledState(out Enum InteractState) {
+        // Locals
+        bool Temp_bool_Variable;
+        Enum Temp_byte_Variable;
+        Enum Temp_byte_Variable_1;
+        bool CallFunc_AreAllPartsCompleted_ReturnValue;
+        Enum K2Node_Select_Default;
+
+        // Block 1
+        CallFunc_AreAllPartsCompleted_ReturnValue = (bool)(this.AreAllPartsCompleted());
+        Temp_byte_Variable = (byte)(0);
+        Temp_byte_Variable_1 = (byte)(0);
+        Temp_bool_Variable = (bool)(CallFunc_AreAllPartsCompleted_ReturnValue);
+        InteractState = EX_SwitchValue(154, Temp_bool_Variable, K2Node_Select_Default, false, 131, Temp_byte_Variable_1, true, 145, Temp_byte_Variable);
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public override void GetInteractText([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Interactor, out Text InteractText) {
+        // Locals
+        bool Temp_bool_Variable;
+        Text CallFunc_GetInteractText_InteractText;
+        Text Temp_text_Variable;
+        bool CallFunc_AreAllPartsCompleted_ReturnValue;
+        Text K2Node_Select_Default;
+
+        // Block 1
+        CallFunc_AreAllPartsCompleted_ReturnValue = (bool)(this.AreAllPartsCompleted());
+        base.GetInteractText(Interactor, CallFunc_GetInteractText_InteractText);
+        Temp_text_Variable = EX_TextConst("StringTableEntry", Challenges, "/Game/Tech/Data/StringTables/Challenges.Challenges", "Legendary.Elven.Forge.Unlit.Interaction");
+        Temp_bool_Variable = (bool)(CallFunc_AreAllPartsCompleted_ReturnValue);
+        InteractText = EX_SwitchValue(263, Temp_bool_Variable, K2Node_Select_Default, false, 240, Temp_text_Variable, true, 254, CallFunc_GetInteractText_InteractText);
+
+    }
+
+}

@@ -1,0 +1,470 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void RotateActorAroundPivot();
+}
+
+[Import("/Script/Moria")]
+public class MorSaveSystemWorldState {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorAISpawnerComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorConstructionPermitComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAkComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeRotator();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+}
+
+[Import("/Script/Engine")]
+public static class KismetStringLibrary {
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_StrStr();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BreakSoftObjectPath();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object SoftClassPath;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_NYP_Furniture_02_Star_01")]
+public StaticMesh SM_NYP_Furniture_02_Star_01;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_NYP_Fireplace_Staff_Base")]
+public StaticMesh SM_NYP_Fireplace_Staff_Base;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_NYP_Fireplace_Staff_01")]
+public StaticMesh SM_NYP_Fireplace_Staff_01;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_HolidayPack_Shoes_Coal")]
+public StaticMesh SM_HolidayPack_Shoes_Coal;
+
+
+[Import("/Game/DLC/HolidayPack/Constructions/Meshes/SM_HolidayPack_PineGarland")]
+public StaticMesh SM_HolidayPack_PineGarland;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Workshop/SM_Hook_Metal01")]
+public StaticMesh SM_Hook_Metal01;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Dwelling/Dwelling_Scatter_Clothing_Shoes_C")]
+public StaticMesh Dwelling_Scatter_Clothing_Shoes_C;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Dwelling/Dwelling_Scatter_Clothing_Shoes_B")]
+public StaticMesh Dwelling_Scatter_Clothing_Shoes_B;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Dwelling/Dwelling_Scatter_Clothing_Shoes_A")]
+public StaticMesh Dwelling_Scatter_Clothing_Shoes_A;
+
+
+[Import("/Game/Maps/BP_POIMarker_Component_Crafting")]
+public class BP_POIMarker_Component_Crafting_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation_ToOtherDestination")]
+public class BP_CraftingStation_ToOtherDestination_C {
+    public FGKAkComponent AkCookingLoop_GEN_VARIABLE;
+    public NiagaraComponent `Collect VFX_GEN_VARIABLE`;
+    public NiagaraComponent `Crafting Started VFX_GEN_VARIABLE`;
+    public NiagaraComponent Crafting_InProgressVFX_GEN_VARIABLE;
+    public NiagaraComponent CraftingCompleteVFX_GEN_VARIABLE;
+    public NiagaraComponent NS_MealTable_CookingSmoke_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent DummyProp_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public FGKAkComponent AkCookingLoop;
+    public NiagaraComponent `Collect VFX`;
+    public NiagaraComponent `Crafting Started VFX`;
+    public NiagaraComponent Crafting_InProgressVFX;
+    public NiagaraComponent CraftingCompleteVFX;
+    public NiagaraComponent NS_MealTable_CookingSmoke;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent DummyProp;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation_ToOtherDestination")]
+public class Default__BP_CraftingStation_ToOtherDestination_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public MorCraftingComponent CraftingComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation")]
+public class BP_CraftingStation_C {
+    public BP_POIMarker_Component_Crafting_C BP_POIMarker_Component_Crafting_GEN_VARIABLE;
+    public CalloutDataComponent CalloutData_GEN_VARIABLE;
+    public NiagaraComponent `Collect VFX_GEN_VARIABLE`;
+    public NiagaraComponent `Crafting Started VFX_GEN_VARIABLE`;
+    public NiagaraComponent Crafting_InProgressVFX_GEN_VARIABLE;
+    public NiagaraComponent CraftingCompleteVFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Floating_InfoText_AndProgressBar_GEN_VARIABLE;
+    public StaticMeshComponent DummyProp_GEN_VARIABLE;
+    public WidgetComponent NPCCraftTimerWidget_GEN_VARIABLE;
+    public WidgetComponent Widget_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public BP_POIMarker_Component_Crafting_C BP_POIMarker_Component_Crafting;
+    public CalloutDataComponent CalloutData;
+    public NiagaraComponent `Collect VFX`;
+    public NiagaraComponent `Crafting Started VFX`;
+    public NiagaraComponent Crafting_InProgressVFX;
+    public NiagaraComponent CraftingCompleteVFX;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Floating_InfoText_AndProgressBar;
+    public StaticMeshComponent DummyProp;
+    public WidgetComponent NPCCraftTimerWidget;
+    public WidgetComponent Widget;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation")]
+public class Default__BP_CraftingStation_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public MorCraftingComponent CraftingComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Constructions/BP_BaseBoundingRegion")]
+public class BP_BaseBoundingRegion_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_Hearth_Medium")]
+public class BP_Hearth_Medium_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public ArrowComponent Arrow1_GEN_VARIABLE;
+    public ArrowComponent Arrow2_GEN_VARIABLE;
+    public BoxComponent Box_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent CookBehaviorPoint_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent CookBehaviorPoint_Loiter_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent HearthBehaviorPoint1_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_1_1_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_1_2_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece Coals_breakable1_GEN_VARIABLE;
+    public MorBreakableMeshPiece Firewood_2_breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece firewood_3_breakable1_GEN_VARIABLE;
+    public MorBreakableMeshPiece firewood_3_breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece firewood_4_breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece GPI_Hearth_Base_Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece GPI_Hearth_Medium_Breakable_GEN_VARIABLE;
+    public MorConstructionPermitComponent MorConstructionPermit_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight1_GEN_VARIABLE;
+    public NiagaraComponent `Collect VFX_GEN_VARIABLE`;
+    public NiagaraComponent `Crafting Started VFX_GEN_VARIABLE`;
+    public NiagaraComponent Crafting_InProgressVFX_GEN_VARIABLE;
+    public NiagaraComponent CraftingCompleteVFX_GEN_VARIABLE;
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public NiagaraComponent NS_CamsSmokeSystem1_GEN_VARIABLE;
+    public NiagaraComponent NS_CamsSmokeSystem_GEN_VARIABLE;
+    public NiagaraComponent NS_MealTable_CookingSmoke_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public ArrowComponent Arrow1;
+    public ArrowComponent Arrow2;
+    public BoxComponent Box;
+    public MorAIBehaviorPointComponent CookBehaviorPoint;
+    public MorAIBehaviorPointComponent CookBehaviorPoint_Loiter;
+    public MorAIBehaviorPointComponent HearthBehaviorPoint1;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_1_1;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_1_2;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableMeshPiece Coals_breakable1;
+    public MorBreakableMeshPiece Firewood_2_breakable;
+    public MorBreakableMeshPiece firewood_3_breakable1;
+    public MorBreakableMeshPiece firewood_3_breakable;
+    public MorBreakableMeshPiece firewood_4_breakable;
+    public MorBreakableMeshPiece GPI_Hearth_Base_Breakable;
+    public MorBreakableMeshPiece GPI_Hearth_Medium_Breakable;
+    public MorConstructionPermitComponent MorConstructionPermit;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public MorPointLightComponent MorPointLight1;
+    public NiagaraComponent `Collect VFX`;
+    public NiagaraComponent `Crafting Started VFX`;
+    public NiagaraComponent Crafting_InProgressVFX;
+    public NiagaraComponent CraftingCompleteVFX;
+    public NiagaraComponent Niagara;
+    public NiagaraComponent NS_CamsSmokeSystem1;
+    public NiagaraComponent NS_CamsSmokeSystem;
+    public NiagaraComponent NS_MealTable_CookingSmoke;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_Hearth_Medium")]
+public class Default__BP_Hearth_Medium_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public MorCraftingComponent CraftingComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_Hearth_Base")]
+public class BP_Hearth_Base_C {
+    public AkComponent AkAudio_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    public ArrowComponent Arrow_GEN_VARIABLE;
+    public BP_POIMarker_Component_Crafting_C BP_POIMarker_Component_Crafting_GEN_VARIABLE;
+    public ChildActorComponent BaseBoundingRegion_GEN_VARIABLE;
+    [UnknownSignature] public  void SaveGameObjectUpgradeClass();
+    public MorAISpawnerComponent MorAISpawner_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorConstructionPermitComponent MorConstructionPermit_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public NiagaraComponent `Collect VFX_GEN_VARIABLE`;
+    public NiagaraComponent `Crafting Started VFX_GEN_VARIABLE`;
+    public NiagaraComponent Crafting_InProgressVFX_GEN_VARIABLE;
+    public NiagaraComponent CraftingCompleteVFX_GEN_VARIABLE;
+    public NiagaraComponent Niagara_GEN_VARIABLE;
+    public NiagaraComponent NS_MealTable_CookingSmoke_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Floating_InfoText_AndProgressBar_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public AkComponent AkAudio;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public ArrowComponent Arrow;
+    public BP_POIMarker_Component_Crafting_C BP_POIMarker_Component_Crafting;
+    public ChildActorComponent BaseBoundingRegion;
+    public MorAISpawnerComponent MorAISpawner;
+    public MorBreakableComponent MorBreakable;
+    public MorConstructionPermitComponent MorConstructionPermit;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public NiagaraComponent `Collect VFX`;
+    public NiagaraComponent `Crafting Started VFX`;
+    public NiagaraComponent Crafting_InProgressVFX;
+    public NiagaraComponent CraftingCompleteVFX;
+    public NiagaraComponent Niagara;
+    public NiagaraComponent NS_MealTable_CookingSmoke;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Floating_InfoText_AndProgressBar;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_Hearth_Base")]
+public class Default__BP_Hearth_Base_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public MorCraftingComponent CraftingComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Hearth_Holiday_Medium_C : BP_Hearth_Medium_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> FireplaceTool2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> FireplaceTool1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Coal4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Coal3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Coal2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Coal1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Hook4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Hook3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Hook2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Hook1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Boot4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Boot3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Boot2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Boot1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Star;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> PineGarland;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<SoftClassPath> UpgradeClass1;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_Hearth_Holiday_Medium([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        Struct<Rotator> CallFunc_MakeRotator_ReturnValue;
+        Object<MorSaveSystemWorldState> K2Node_Event_WorldState;
+        const Struct<SoftClassPath> K2Node_Event_OldClassPath;
+        bool CallFunc_RotateActorAroundPivot_ReturnValue;
+        string CallFunc_BreakSoftObjectPath_PathString;
+        string CallFunc_BreakSoftObjectPath_PathString_1;
+        bool CallFunc_EqualEqual_StrStr_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Hearth_Holiday_Medium_10_SaveGameObjectUpgradeClass: KismetSystemLibrary.BreakSoftObjectPath(K2Node_Event_OldClassPath, CallFunc_BreakSoftObjectPath_PathString);
+        KismetSystemLibrary.BreakSoftObjectPath(this.UpgradeClass1, CallFunc_BreakSoftObjectPath_PathString_1);
+        CallFunc_EqualEqual_StrStr_ReturnValue = (bool)(KismetStringLibrary.EqualEqual_StrStr(CallFunc_BreakSoftObjectPath_PathString, CallFunc_BreakSoftObjectPath_PathString_1));
+        if (!CallFunc_EqualEqual_StrStr_ReturnValue) return;
+
+        // Block 3
+        CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(0f, 0f, 0f);
+        CallFunc_MakeRotator_ReturnValue = KismetMathLibrary.MakeRotator(0f, 0f, 180f);
+        CallFunc_RotateActorAroundPivot_ReturnValue = (bool)(MoriaUtils.RotateActorAroundPivot(this, CallFunc_MakeVector_ReturnValue, CallFunc_MakeRotator_ReturnValue, true, true));
+
+        // Block 4
+        ExecuteUbergraph_BP_Hearth_Holiday_Medium_245:
+
+    }
+
+    [Event, HasOutParms, BlueprintEvent]
+    public override void SaveGameObjectUpgradeClass([BlueprintVisible, BlueprintReadOnly] Object<MorSaveSystemWorldState> WorldState, [BlueprintVisible, BlueprintReadOnly] const out ref Struct<SoftClassPath> OldClassPath) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_WorldState", WorldState);
+        EX_LetValueOnPersistentFrame("K2Node_Event_OldClassPath", OldClassPath);
+        this.ExecuteUbergraph_BP_Hearth_Holiday_Medium(ExecuteUbergraph_BP_Hearth_Holiday_Medium_10_SaveGameObjectUpgradeClass);
+
+    }
+
+}

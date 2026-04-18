@@ -1,0 +1,424 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVariableFloat();
+    [UnknownSignature, VirtualFunction] public virtual void SetActive();
+    [UnknownSignature, VirtualFunction] public virtual void SetAutoActivate();
+}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/GameplayAbilities")]
+public class GameplayCueNotify_Actor : Actor {
+    public Object OnActive;
+}
+
+[Import("/Script/GameplayAbilities")]
+public GameplayCueNotify_Actor Default__GameplayCueNotify_Actor;
+
+[Import("/Script/GameplayAbilities")]
+public Object GameplayCueParameters;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetOwner();
+    public Object ReceiveBeginPlay;
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class CurveVector {}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+    [UnknownSignature, FinalFunction] public sealed void SetPlayRate();
+    [UnknownSignature, FinalFunction] public sealed void Stop();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public CurveVector Default__CurveVector;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Charge_Attack/fx_plr_wpn_chargeatk_start_play")]
+public AkAudioEvent fx_plr_wpn_chargeatk_start_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_powerUp_C : GameplayCueNotify_Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_PowerLoop;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_abtToPower;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> poweringUp;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    float Timeline_2_rampDown_A974FCCD4086DD24DA70BBA063702F62;
+    byte Timeline_2__Direction_A974FCCD4086DD24DA70BBA063702F62;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_2;
+    float Timeline_1_NewTrack_0_CD311B24407A530524516BB086EC4BE2;
+    byte Timeline_1__Direction_CD311B24407A530524516BB086EC4BE2;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_1;
+    float rampDownTL_rampDown_6BA579AD42695D3BE6B70DAC64BDE342;
+    byte rampDownTL__Direction_6BA579AD42695D3BE6B70DAC64BDE342;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> rampDownTL;
+    float abtToPowerTimeline_NewTrack_0_48BFFAD74017424D475F9CA9533C864C;
+    byte abtToPowerTimeline__Direction_48BFFAD74017424D475F9CA9533C864C;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> abtToPowerTimeline;
+    Struct<Vector> Timeline_0_NewTrack_0_838BCF83437220D9FD0D409CCC7AFFFA;
+    float Timeline_0_pointAttraction_838BCF83437220D9FD0D409CCC7AFFFA;
+    float Timeline_0_rampUp_838BCF83437220D9FD0D409CCC7AFFFA;
+    byte Timeline_0__Direction_838BCF83437220D9FD0D409CCC7AFFFA;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible] float powerUpSpd;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_powerUp([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        Object<Actor> CallFunc_GetOwner_ReturnValue;
+        int CallFunc_PostEvent_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_powerUp_15_Timeline_0__FinishedFunc: break;
+
+            // Block 3
+            this.poweringUp.SetActive(true, true);
+            EX_LetObj(CallFunc_GetOwner_ReturnValue,this.GetOwner());
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetOwner_ReturnValue));
+
+            if (CallFunc_IsValid_ReturnValue) {
+                // Block 4
+                EX_LetObj(CallFunc_GetOwner_ReturnValue,this.GetOwner());
+                CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_plr_wpn_chargeatk_start_play, CallFunc_GetOwner_ReturnValue, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+
+            }
+
+
+            // Block 5
+            ExecuteUbergraph_BP_powerUp_231: this.Timeline_0.Play();
+            break;
+
+            while (true) {
+                // Block 6
+                this.rampDownTL.Play();
+                break;
+
+            }
+
+
+            // Block 7
+            ExecuteUbergraph_BP_powerUp_302: this.NS_abtToPower.SetActive(true, false);
+            this.Timeline_0.Stop();
+            this.abtToPowerTimeline.SetPlayRate(0f);
+            this.abtToPowerTimeline.Play();
+            break;
+
+            while (true) {
+                // Block 8
+                this.Timeline_2.Play();
+                break;
+
+            }
+
+
+            // Block 9
+            ExecuteUbergraph_BP_powerUp_480: this.NS_PowerLoop.SetActive(true, false);
+            this.abtToPowerTimeline.Stop();
+            this.Timeline_1.SetPlayRate(0f);
+            this.Timeline_1.Play();
+            break;
+
+            // Block 10
+            ExecuteUbergraph_BP_powerUp_620_Timeline_0__UpdateFunc: this.poweringUp.SetVariableFloat(EX_NameConst("user.opScale"), this.Timeline_0_rampUp_838BCF83437220D9FD0D409CCC7AFFFA);
+            break;
+
+            // Block 11
+            ExecuteUbergraph_BP_powerUp_675_abtToPowerTimeline__FinishedFunc: this.NS_abtToPower.SetActive(false, false);
+            break;
+
+            // Block 12
+            ExecuteUbergraph_BP_powerUp_714_abtToPowerTimeline__UpdateFunc: this.NS_abtToPower.SetVariableFloat(EX_NameConst("None"), 0f);
+            break;
+
+            // Block 13
+            ExecuteUbergraph_BP_powerUp_765_rampDownTL__FinishedFunc: this.poweringUp.SetActive(false, false);
+            break;
+
+            // Block 14
+            ExecuteUbergraph_BP_powerUp_804_rampDownTL__UpdateFunc: this.poweringUp.SetVariableFloat(EX_NameConst("user.opScale"), this.rampDownTL_rampDown_6BA579AD42695D3BE6B70DAC64BDE342);
+            break;
+
+            // Block 15
+            ExecuteUbergraph_BP_powerUp_859_Timeline_1__FinishedFunc: this.NS_PowerLoop.SetActive(false, false);
+            break;
+
+            // Block 16
+            ExecuteUbergraph_BP_powerUp_898_Timeline_1__UpdateFunc: this.NS_PowerLoop.SetVariableFloat(EX_NameConst("None"), 0f);
+            break;
+
+            // Block 17
+            ExecuteUbergraph_BP_powerUp_949_Timeline_2__FinishedFunc: this.NS_abtToPower.SetActive(false, false);
+            break;
+
+            // Block 18
+            ExecuteUbergraph_BP_powerUp_988_Timeline_2__UpdateFunc: this.NS_abtToPower.SetVariableFloat(EX_NameConst("user.opScale"), this.Timeline_2_rampDown_A974FCCD4086DD24DA70BBA063702F62);
+            break;
+
+            ExecuteUbergraph_BP_powerUp_1043_ReceiveBeginPlay:
+            while (true) {
+                while (true) {
+                    // Block 19
+                    KismetSystemLibrary.Delay(this, 0f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(16), 1391889702, EX_NameConst("ExecuteUbergraph_BP_powerUp"), this));
+                    break;
+
+                }
+
+
+                // Block 20
+                ExecuteUbergraph_BP_powerUp_1108: KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(264), -1249049843, EX_NameConst("ExecuteUbergraph_BP_powerUp"), this));
+                break;
+
+            }
+
+
+            // Block 21
+            ExecuteUbergraph_BP_powerUp_1163: KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(442), 1675392272, EX_NameConst("ExecuteUbergraph_BP_powerUp"), this));
+            break;
+
+            // Block 22
+            ExecuteUbergraph_BP_powerUp_1218_ResetVisuals: goto ExecuteUbergraph_BP_powerUp_1043;
+
+        }
+
+
+        // Block 23
+        ExecuteUbergraph_BP_powerUp_1223:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ResetVisuals() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_1218_ResetVisuals);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_1043_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_2__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_988_Timeline_2__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_2__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_949_Timeline_2__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_898_Timeline_1__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_859_Timeline_1__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void rampDownTL__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_804_rampDownTL__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void rampDownTL__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_765_rampDownTL__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void abtToPowerTimeline__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_714_abtToPowerTimeline__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void abtToPowerTimeline__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_675_abtToPowerTimeline__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_620_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_powerUp(ExecuteUbergraph_BP_powerUp_15_Timeline_0__FinishedFunc);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Block 1
+        this.poweringUp.SetAutoActivate(false);
+        this.NS_abtToPower.SetAutoActivate(false);
+        this.NS_PowerLoop.SetAutoActivate(false);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    public override void OnActive([BlueprintVisible, BlueprintReadOnly] Object<Actor> MyTarget, [BlueprintVisible, BlueprintReadOnly, ContainsInstancedReference] const out ref Struct<GameplayCueParameters> Parameters, [Return] out bool ReturnValue) {
+        // Block 1
+        this.ResetVisuals();
+        ReturnValue = (bool)(true);
+        return ReturnValue;
+
+    }
+
+}

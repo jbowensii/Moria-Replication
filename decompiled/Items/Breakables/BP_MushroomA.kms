@@ -1,0 +1,169 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {
+    public ObjectProperty OnBreak;
+}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public Object OnBreak__DelegateSignature;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MulticastInlineDelegateProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Flora/Fungal_Foliage_BB")]
+public StaticMesh Fungal_Foliage_BB;
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C : Actor {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_MushroomA_C : BP_BaseBreakable_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> StaticMesh;
+    [Edit, BlueprintVisible, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable] MulticastInlineDelegate OnMushroomFracture;
+    [Delegate, BlueprintCallable, BlueprintEvent]
+    public void OnMushroomFracture__DelegateSignature() {
+        // Block 1
+
+    }
+
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_MushroomA([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        bool K2Node_CustomEvent_bPreRuined;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_MushroomA_10_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        EX_BindDelegate("OnBreak_Event_0", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(this.Breakable.OnBreak, K2Node_CreateDelegate_OutputDelegate);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_MushroomA_89_OnBreak_Event_0: EX_CallMulticastDelegate(this.OnMushroomFracture__DelegateSignature, this.OnMushroomFracture);
+
+        // Block 4
+        ExecuteUbergraph_BP_MushroomA_108:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnBreak_Event_0([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_MushroomA(ExecuteUbergraph_BP_MushroomA_89_OnBreak_Event_0);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_MushroomA(ExecuteUbergraph_BP_MushroomA_10_ReceiveBeginPlay);
+
+    }
+
+}

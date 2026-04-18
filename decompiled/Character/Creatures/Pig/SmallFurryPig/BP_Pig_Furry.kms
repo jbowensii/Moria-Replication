@@ -1,0 +1,251 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/Character/Creatures/Pig/BP_Fauna_Pig")]
+public class BP_Fauna_Pig_C {
+    public MorViewTrigger MorViewTrigger_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Foot_Back_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Foot_Back_R Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Foot_Front_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Foot_Front_R Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_M Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_M Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Back_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_Front_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_01 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_02 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine_03 Capsule_GEN_VARIABLE`;
+    public TextRenderComponent TextRender_GEN_VARIABLE;
+    public MorViewTrigger MorViewTrigger;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Foot_Back_L Capsule`;
+    public StaticMeshComponent `Foot_Back_R Capsule`;
+    public StaticMeshComponent `Foot_Front_L Capsule`;
+    public StaticMeshComponent `Foot_Front_R Capsule`;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_Back_L_L Capsule`;
+    public StaticMeshComponent `Leg_Back_L_M Capsule`;
+    public StaticMeshComponent `Leg_Back_L_U Capsule`;
+    public StaticMeshComponent `Leg_Back_R_L Capsule`;
+    public StaticMeshComponent `Leg_Back_R_M Capsule`;
+    public StaticMeshComponent `Leg_Back_R_U Capsule`;
+    public StaticMeshComponent `Leg_Front_L_L Capsule`;
+    public StaticMeshComponent `Leg_Front_L_U Capsule`;
+    public StaticMeshComponent `Leg_Front_R_L Capsule`;
+    public StaticMeshComponent `Leg_Front_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent `Spine_01 Capsule`;
+    public StaticMeshComponent `Spine_02 Capsule`;
+    public StaticMeshComponent `Spine_03 Capsule`;
+    public TextRenderComponent TextRender;
+}
+
+[Import("/Game/Character/Creatures/Pig/BP_Fauna_Pig")]
+public class Default__BP_Fauna_Pig_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/Creatures/Pig/SmallFurryPig/BP_LittlePig_AIController")]
+public class BP_LittlePig_AIController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Creatures/Pig/SmallFurryPig/BP_LittlePig_AIController")]
+public class Default__BP_LittlePig_AIController_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class BP_Fauna_Base_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+}
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class Default__BP_Fauna_Base_C {
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Pig_Furry_C : BP_Fauna_Pig_C {
+}

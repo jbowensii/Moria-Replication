@@ -1,0 +1,355 @@
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece : SceneComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BreakRotator();
+    [UnknownSignature, MathFunction] public static sealed void BreakTransform();
+    [UnknownSignature, MathFunction] public static sealed void MakeRotator();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetRelativeTransform();
+    [UnknownSignature, FinalFunction] public sealed void K2_SetRelativeRotation();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+    [UnknownSignature, FinalFunction] public sealed void Reverse();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Elven/Elven_Chest_Top")]
+public StaticMesh Elven_Chest_Top;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Elven/Elven_Chest_Body")]
+public StaticMesh Elven_Chest_Body;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_OpenInventoryHud")]
+public class InSt_OpenInventoryHud_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_Interactable_OpenEditScreen")]
+public class InSt_Interactable_OpenEditScreen_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/States/InSt_RenamableReceptacle_Root")]
+public class InSt_RenamableReceptacle_Root_C {}
+
+[Import("/Game/LevelDesign/Placeables/Containers/States/InSt_RenamableReceptacle_Root")]
+public class Default__InSt_RenamableReceptacle_Root_C {
+    public InSt_Interactable_OpenEditScreen_C InSt_Interactable_OpenEditScreen_C_0;
+    public InSt_OpenInventoryHud_C InSt_OpenInventoryHud_C_1;
+}
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/BP_ProcReceptacle")]
+public class BP_ProcReceptacle_C {
+    public FGKActorFSMComponent FSM_GEN_VARIABLE;
+    [UnknownSignature] public  void CloseChest();
+    [UnknownSignature] public  void OpenChest();
+    public MorAIBehaviorPointComponent DepositBehaviorPoint_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public MorBreakableFXComponent BreakableFX_GEN_VARIABLE;
+    public MorBreakableMeshPiece BreakableMesh_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public FGKActorFSMComponent FSM;
+    public MorAIBehaviorPointComponent DepositBehaviorPoint;
+    public MorBreakableComponent MorBreakable;
+    public MorBreakableFXComponent BreakableFX;
+    public MorBreakableMeshPiece BreakableMesh;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Containers/BP_ProcReceptacle")]
+public class Default__BP_ProcReceptacle_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Dwarf/sfx_obj_cabinet_open_play")]
+public AkAudioEvent sfx_obj_cabinet_open_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Dwarf/sfx_obj_cabinet_close_play")]
+public AkAudioEvent sfx_obj_cabinet_close_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Elven_Chest_A_Player_C : BP_ProcReceptacle_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> Box_NavAreaFurniture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> MorBreakableMeshPiece;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking;
+    float Timeline_0_ChestTopRotate_864588DD4B0F3C579EF6FEAF112E9B22;
+    byte Timeline_0__Direction_864588DD4B0F3C579EF6FEAF112E9B22;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Elven_Chest_A_Player([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        const Delegate Temp_delegate_Variable;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable_1;
+        int CallFunc_PostEvent_ReturnValue;
+        const Delegate Temp_delegate_Variable_1;
+        int CallFunc_PostEvent_ReturnValue_1;
+        Struct<Transform> CallFunc_GetRelativeTransform_ReturnValue;
+        Struct<Vector> CallFunc_BreakTransform_Location;
+        Struct<Rotator> CallFunc_BreakTransform_Rotation;
+        Struct<Vector> CallFunc_BreakTransform_Scale;
+        float CallFunc_BreakRotator_Roll;
+        float CallFunc_BreakRotator_Pitch;
+        float CallFunc_BreakRotator_Yaw;
+        Struct<Rotator> CallFunc_MakeRotator_ReturnValue;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeRotation_SweepHitResult;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_10_Timeline_0__FinishedFunc: return;
+
+        // Block 3
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_15_Timeline_0__UpdateFunc: CallFunc_GetRelativeTransform_ReturnValue = this.MorBreakableMeshPiece.GetRelativeTransform();
+        KismetMathLibrary.BreakTransform(CallFunc_GetRelativeTransform_ReturnValue, CallFunc_BreakTransform_Location, CallFunc_BreakTransform_Rotation, CallFunc_BreakTransform_Scale);
+        KismetMathLibrary.BreakRotator(CallFunc_BreakTransform_Rotation, CallFunc_BreakRotator_Roll, CallFunc_BreakRotator_Pitch, CallFunc_BreakRotator_Yaw);
+        CallFunc_MakeRotator_ReturnValue = KismetMathLibrary.MakeRotator(this.Timeline_0_ChestTopRotate_864588DD4B0F3C579EF6FEAF112E9B22, CallFunc_BreakRotator_Pitch, CallFunc_BreakRotator_Yaw);
+        this.MorBreakableMeshPiece.K2_SetRelativeRotation(CallFunc_MakeRotator_ReturnValue, false, CallFunc_K2_SetRelativeRotation_SweepHitResult, false);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_269: this.Timeline_0.Reverse();
+        return;
+
+        // Block 5
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_306: this.Timeline_0.PlayFromStart();
+        return;
+
+        // Block 6
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_343: CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(sfx_obj_cabinet_open_play, this, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+        goto ExecuteUbergraph_BP_Elven_Chest_A_Player_306;
+
+        // Block 7
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_434: CallFunc_PostEvent_ReturnValue_1 = Default__AkGameplayStatics.PostEvent(sfx_obj_cabinet_close_play, this, 0, Temp_delegate_Variable_1, Temp_struct_Variable_1, false, "");
+        goto ExecuteUbergraph_BP_Elven_Chest_A_Player_269;
+
+        // Block 8
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_525_ReceiveBeginPlay: return;
+
+        // Block 9
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_530_CloseChest: goto ExecuteUbergraph_BP_Elven_Chest_A_Player_434;
+
+        // Block 10
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_535_OpenChest: goto ExecuteUbergraph_BP_Elven_Chest_A_Player_343;
+
+        // Block 11
+        ExecuteUbergraph_BP_Elven_Chest_A_Player_540:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public override void OpenChest() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Elven_Chest_A_Player(ExecuteUbergraph_BP_Elven_Chest_A_Player_535_OpenChest);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public override void CloseChest() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Elven_Chest_A_Player(ExecuteUbergraph_BP_Elven_Chest_A_Player_530_CloseChest);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Elven_Chest_A_Player(ExecuteUbergraph_BP_Elven_Chest_A_Player_525_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Elven_Chest_A_Player(ExecuteUbergraph_BP_Elven_Chest_A_Player_15_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Elven_Chest_A_Player(ExecuteUbergraph_BP_Elven_Chest_A_Player_10_Timeline_0__FinishedFunc);
+
+    }
+
+}

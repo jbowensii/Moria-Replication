@@ -1,0 +1,310 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class MorShallowWaterDebugComponent {}
+
+[Import("/Script/Moria")]
+public class MorShallowWaterProxy {
+    public Object GetPlayerTriggerBox;
+    public Object GetWaterFXBox;
+    public Object GetWaterMeshComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorWaterColliderTriggerBoxComp {}
+
+[Import("/Script/Moria")]
+public MorShallowWaterDebugComponent Default__MorShallowWaterDebugComponent;
+
+[Import("/Script/Moria")]
+public MorShallowWaterProxy Default__MorShallowWaterProxy;
+
+[Import("/Script/Moria")]
+public MorWaterColliderTriggerBoxComp Default__MorWaterColliderTriggerBoxComp;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetActorOfClass();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ObjectObject();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+    [UnknownSignature, VirtualFunction] public virtual void GetMaterial();
+}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialBillboardComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/FX/WaterInteraction/Meshes/WaterPlane_Large")]
+public StaticMesh WaterPlane_Large;
+
+
+[Import("/Game/FX/WaterInteraction/Materials/MI_WaterShallow")]
+public MaterialInstanceConstant MI_WaterShallow;
+
+
+[Import("/Game/FX/WaterInteraction/Materials/MI_ShallowWater_HeightDebug_Pixel")]
+public MaterialInstanceConstant MI_ShallowWater_HeightDebug_Pixel;
+
+
+[Import("/Game/FX/WaterInteraction/Materials/MI_ShallowWater_HeightDebug_Center")]
+public MaterialInstanceConstant MI_ShallowWater_HeightDebug_Center;
+
+
+[Import("/Game/FX/WaterInteraction/Blueprints/NinjaLive_ShallowWater")]
+public class NinjaLive_ShallowWater_C : NinjaLive_C {
+    public BoxComponent ActivationVolume_GEN_VARIABLE;
+    public BoxComponent InteractionVolume_GEN_VARIABLE;
+    public MaterialBillboardComponent EditorIcon_GEN_VARIABLE;
+    public NinjaLiveComponent_C NinjaLiveComponent_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Root_GEN_VARIABLE;
+    public StaticMeshComponent TraceMesh_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public BoxComponent ActivationVolume;
+    public BoxComponent InteractionVolume;
+    public MaterialBillboardComponent EditorIcon;
+    public NinjaLiveComponent_C NinjaLiveComponent;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Root;
+    public StaticMeshComponent TraceMesh;
+}
+
+[Import("/Game/FX/WaterInteraction/Blueprints/NinjaLive_ShallowWater")]
+public NinjaLive_ShallowWater_C Default__NinjaLive_ShallowWater_C;
+
+
+[Import("/Game/FluidNinjaLive/NinjaLiveComponent")]
+public class NinjaLiveComponent_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetSecondaryOutputDynamicMaterial();
+}
+
+
+[Import("/Game/FluidNinjaLive/NinjaLive")]
+public class NinjaLive_C {
+    public BoxComponent ActivationVolume_GEN_VARIABLE;
+    public BoxComponent InteractionVolume_GEN_VARIABLE;
+    public MaterialBillboardComponent EditorIcon_GEN_VARIABLE;
+    public NinjaLiveComponent_C NinjaLiveComponent_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Root_GEN_VARIABLE;
+    public StaticMeshComponent TraceMesh_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public BoxComponent ActivationVolume;
+    public BoxComponent InteractionVolume;
+    public MaterialBillboardComponent EditorIcon;
+    public NinjaLiveComponent_C NinjaLiveComponent;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Root;
+    public StaticMeshComponent TraceMesh;
+}
+
+[Import("/Game/FluidNinjaLive/NinjaLive")]
+public NinjaLive_C Default__NinjaLive_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShallowWater_C : MorShallowWaterProxy {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorWaterColliderTriggerBoxComp> MorWaterColliderTriggerBoxComp;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> WaterFXBox;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> Scene;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorShallowWaterDebugComponent> MorShallowWaterDebug;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> CharacterEnterTrigger;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> WaterPlane;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible] Object<MaterialInterface> WaterMaterial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInterface> HeightDebugMatCenter;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInterface> HeightDebugMatPixel;
+    [Edit, BlueprintVisible] bool HeightDebugUsesCenter;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_ShallowWater([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<NinjaLive_ShallowWater_C> CallFunc_GetActorOfClass_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_GetSecondaryOutputDynamicMaterial_Material;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_ShallowWater_10_ReceiveBeginPlay: this.WaterPlane.SetMaterial(0, this.WaterMaterial);
+        EX_LetObj(CallFunc_GetActorOfClass_ReturnValue,GameplayStatics.GetActorOfClass(this, NinjaLive_ShallowWater_C));
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetActorOfClass_ReturnValue));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 3
+        CallFunc_GetActorOfClass_ReturnValue.NinjaLiveComponent.GetSecondaryOutputDynamicMaterial(CallFunc_GetSecondaryOutputDynamicMaterial_Material);
+        this.WaterPlane.SetMaterial(0, CallFunc_GetSecondaryOutputDynamicMaterial_Material);
+
+        // Block 4
+        ExecuteUbergraph_BP_ShallowWater_250:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShallowWater(ExecuteUbergraph_BP_ShallowWater_10_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SwapDebugMaterial() {
+        // Locals
+        Object<MaterialInterface> CallFunc_GetMaterial_ReturnValue;
+        bool CallFunc_NotEqual_ObjectObject_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetMaterial_ReturnValue,this.WaterPlane.GetMaterial(0));
+        CallFunc_NotEqual_ObjectObject_ReturnValue = (bool)(KismetMathLibrary.NotEqual_ObjectObject(this.WaterMaterial, CallFunc_GetMaterial_ReturnValue));
+
+        if (CallFunc_NotEqual_ObjectObject_ReturnValue) {
+            // Block 2
+            this.WaterPlane.SetMaterial(0, this.WaterMaterial);
+            return;
+
+        }
+
+
+        // Block 3
+
+        SwapDebugMaterial_158:
+        if (this.HeightDebugUsesCenter) {
+            // Block 4
+            this.WaterPlane.SetMaterial(0, this.HeightDebugMatCenter);
+            return;
+
+        }
+
+
+        // Block 5
+        SwapDebugMaterial_227: this.WaterPlane.SetMaterial(0, this.HeightDebugMatPixel);
+
+        // Block 6
+        SwapDebugMaterial_277:
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetWaterMeshComponent([Return, InstancedReference] out Object<StaticMeshComponent> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.WaterPlane);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetPlayerTriggerBox([Return, InstancedReference] out Object<BoxComponent> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.CharacterEnterTrigger);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetWaterFXBox([Return, InstancedReference] out Object<BoxComponent> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.WaterFXBox);
+        return ReturnValue;
+
+    }
+
+}

@@ -1,0 +1,83 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorArmor {}
+
+[Import("/Script/Moria")]
+public class Default__MorArmor {
+    public Object `Callout Data`;
+    public Object RibbonTrails;
+    public Object Root;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/UI/Textures/CategoryIcons/Clothes_Icon")]
+public Texture2D Clothes_Icon;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/Art/PhysMats/PM_leather_basic")]
+public PhysicalMaterial PM_leather_basic;
+
+
+[Import("/Game/WwiseAudio/Switches/Foley/Player/swg_armor_upper/swg_armor_upper-sw_leather")]
+public AkSwitchValue `swg_armor_upper-sw_leather`;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Equipment/fx_plr_eqp_armor_play")]
+public AkAudioEvent fx_plr_eqp_armor_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference] abstract
+class BP_Category_Clothing_C : MorArmor {
+}

@@ -1,0 +1,402 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent : SceneComponent {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTable();
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetLocalPlayerGuid();
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorLocation();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorRotation();
+    public Object ReceiveBeginPlay;
+    [UnknownSignature, VirtualFunction] public virtual void K2_DestroyActor();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetActorOfClass();
+    [UnknownSignature, MathFunction] public static sealed void GetPlayerPawn();
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void RandomPointInBoundingBox();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_VectorVector();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsServer();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_AddLocalOffset();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class Material {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Guid;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public Object Vector2D;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEventAtLocation();
+}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Engine/BasicShapes/Cube")]
+public StaticMesh Cube;
+
+
+[Import("/Game/FX/Challenges/Niagara/NS_UnstableCavern_AmbientDust")]
+public NiagaraSystem NS_UnstableCavern_AmbientDust;
+
+
+[Import("/Game/FX/Aftermath/Niagara/NS_Aftermath_RollingDust")]
+public NiagaraSystem NS_Aftermath_RollingDust;
+
+
+[Import("/Engine/BasicShapes/BasicShapeMaterial")]
+public Material BasicShapeMaterial;
+
+
+[Import("/Game/Character/Dialogue/EventBased/Dwarf_Gameplay/Barks/Dwarf_VO_Tables_-__BARK__Earthquake")]
+public DataTable `Dwarf_VO_Tables_-__BARK__Earthquake`;
+
+
+[Import("/Game/Cinematics/BP_GameStartScriptedEventManager")]
+public class BP_GameStartScriptedEventManager_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate PlaySequences_Template;
+    public SceneComponent DefaultSceneRoot;
+    [UnknownSignature, LocalVirtualFunction] public virtual void HasPlayerSeenSequence();
+}
+
+[Import("/Game/Cinematics/BP_GameStartScriptedEventManager")]
+public BP_GameStartScriptedEventManager_C Default__BP_GameStartScriptedEventManager_C;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Oneshots/fx_env_earthquake_rumble_os_play")]
+public AkAudioEvent fx_env_earthquake_rumble_os_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Oneshots/fx_env_earthquake_dust_cloud_os_play")]
+public AkAudioEvent fx_env_earthquake_dust_cloud_os_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_EarthquakeEffects_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara_Beam_4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara_Beam_3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara_Beam_2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara_Beam_1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara_Cloud;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> TextRender;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Cube;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_EarthquakeEffects([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<Guid> CallFunc_GetLocalPlayerGuid_ReturnValue;
+        Object<Pawn> CallFunc_GetPlayerPawn_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<Actor> CallFunc_GetManager_ReturnValue;
+        Object<MorDialogueManager> K2Node_DynamicCast_AsMor_Dialogue_Manager;
+        bool K2Node_DynamicCast_bSuccess_1;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        bool CallFunc_RequestDialogueEventFromTable_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+        Struct<Rotator> CallFunc_K2_GetActorRotation_ReturnValue;
+        int CallFunc_PostEventAtLocation_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue_1;
+        Struct<Rotator> CallFunc_K2_GetActorRotation_ReturnValue_1;
+        int CallFunc_PostEventAtLocation_ReturnValue_1;
+        Struct<Vector> CallFunc_RandomPointInBoundingBox_ReturnValue;
+        [ContainsInstancedReference] ref Array<Object<NiagaraComponent>> K2Node_MakeArray_Array;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        Object<BP_GameStartScriptedEventManager_C> CallFunc_GetActorOfClass_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_Array_Get_Item;
+        bool CallFunc_IsValid_ReturnValue;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_AddLocalOffset_SweepHitResult;
+        bool CallFunc_HasPlayerSeenSequence_bPlayed;
+        int Temp_int_Loop_Counter_Variable;
+        bool CallFunc_IsServer_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            EX_LetObj(CallFunc_GetManager_ReturnValue,MoriaUtils.GetManager(this, MorDialogueManager));
+            K2Node_DynamicCast_AsMor_Dialogue_Manager = EX_DynamicCast("MorDialogueManager", CallFunc_GetManager_ReturnValue);
+            K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Dialogue_Manager);
+            if (!K2Node_DynamicCast_bSuccess_1) break;
+
+            // Block 3
+            EX_LetObj(CallFunc_GetPlayerPawn_ReturnValue,GameplayStatics.GetPlayerPawn(this, 0));
+            K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", CallFunc_GetPlayerPawn_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            // Block 4
+            CallFunc_RequestDialogueEventFromTable_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTable(`Dwarf_VO_Tables_-__BARK__Earthquake`, K2Node_DynamicCast_AsMor_Character, (byte)(0), K2Node_MakeStruct_DialogueRateLimit, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            break;
+
+            // Block 5
+            this.K2_DestroyActor();
+            break;
+
+            // Block 6
+            ExecuteUbergraph_BP_EarthquakeEffects_315_ReceiveBeginPlay: EX_LetObj(CallFunc_GetActorOfClass_ReturnValue,GameplayStatics.GetActorOfClass(this, BP_GameStartScriptedEventManager_C));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetActorOfClass_ReturnValue));
+
+            if (CallFunc_IsValid_ReturnValue) {
+                // Block 7
+                CallFunc_GetLocalPlayerGuid_ReturnValue = MoriaUtils.GetLocalPlayerGuid(this);
+                CallFunc_GetActorOfClass_ReturnValue.HasPlayerSeenSequence(CallFunc_GetLocalPlayerGuid_ReturnValue, CallFunc_HasPlayerSeenSequence_bPlayed);
+                if (!(CallFunc_HasPlayerSeenSequence_bPlayed)) goto ExecuteUbergraph_BP_EarthquakeEffects_773;
+
+            }
+
+
+            ExecuteUbergraph_BP_EarthquakeEffects_485:
+            while (true) {
+                while (true) {
+                    while (true) {
+                        // Block 8
+                        CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+                        CallFunc_K2_GetActorRotation_ReturnValue = this.K2_GetActorRotation();
+                        CallFunc_PostEventAtLocation_ReturnValue = Default__AkGameplayStatics.PostEventAtLocation(fx_env_earthquake_rumble_os_play, CallFunc_K2_GetActorLocation_ReturnValue, CallFunc_K2_GetActorRotation_ReturnValue, "", this);
+                        CallFunc_K2_GetActorLocation_ReturnValue_1 = this.K2_GetActorLocation();
+                        CallFunc_K2_GetActorRotation_ReturnValue_1 = this.K2_GetActorRotation();
+                        CallFunc_PostEventAtLocation_ReturnValue_1 = Default__AkGameplayStatics.PostEventAtLocation(fx_env_earthquake_dust_cloud_os_play, CallFunc_K2_GetActorLocation_ReturnValue_1, CallFunc_K2_GetActorRotation_ReturnValue_1, "", this);
+                        break;
+
+                        // Block 9
+                        ExecuteUbergraph_BP_EarthquakeEffects_773: this.K2_DestroyActor();
+                        break;
+
+                    }
+
+
+                    // Block 10
+                    ExecuteUbergraph_BP_EarthquakeEffects_788: Temp_int_Loop_Counter_Variable = 0;
+                    Temp_int_Array_Index_Variable = 0;
+
+                    // Block 11
+                    ExecuteUbergraph_BP_EarthquakeEffects_834: K2Node_MakeArray_Array = new[] {this.Niagara_Beam_1, this.Niagara_Beam_2, this.Niagara_Beam_3, this.Niagara_Beam_4};
+                    CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(K2Node_MakeArray_Array);
+                    CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+                    EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+                    // Block 12
+                    Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                    EX_PushExecutionFlow(ExecuteUbergraph_BP_EarthquakeEffects_1283);
+
+                    // Block 13
+                    CallFunc_RandomPointInBoundingBox_ReturnValue = KismetMathLibrary.RandomPointInBoundingBox(EX_VectorConst(0, 0, 0), EX_VectorConst(1000, 1000, 0));
+                    K2Node_MakeArray_Array = new[] {this.Niagara_Beam_1, this.Niagara_Beam_2, this.Niagara_Beam_3, this.Niagara_Beam_4};
+                    CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(CallFunc_RandomPointInBoundingBox_ReturnValue, EX_VectorConst(500, 500, 0));
+                    Default__KismetArrayLibrary.Array_Get(K2Node_MakeArray_Array, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                    CallFunc_Array_Get_Item.K2_AddLocalOffset(CallFunc_Subtract_VectorVector_ReturnValue, false, CallFunc_K2_AddLocalOffset_SweepHitResult, false);
+                    EX_PopExecutionFlow();
+
+                    // Block 14
+                    ExecuteUbergraph_BP_EarthquakeEffects_1283: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+                    Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+                    goto ExecuteUbergraph_BP_EarthquakeEffects_834;
+
+                }
+
+
+                // Block 15
+                ExecuteUbergraph_BP_EarthquakeEffects_1357: CallFunc_IsServer_ReturnValue = (bool)(KismetSystemLibrary.IsServer(this));
+                if (!CallFunc_IsServer_ReturnValue) break;
+
+                // Block 16
+                KismetSystemLibrary.Delay(this, 3f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), -270187144, EX_NameConst("ExecuteUbergraph_BP_EarthquakeEffects"), this));
+                break;
+
+            }
+
+
+            // Block 17
+            ExecuteUbergraph_BP_EarthquakeEffects_1443: KismetSystemLibrary.Delay(this, 15f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(300), -632640994, EX_NameConst("ExecuteUbergraph_BP_EarthquakeEffects"), this));
+            break;
+
+        }
+
+
+        // Block 18
+        ExecuteUbergraph_BP_EarthquakeEffects_1498:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_EarthquakeEffects(ExecuteUbergraph_BP_EarthquakeEffects_315_ReceiveBeginPlay);
+
+    }
+
+}

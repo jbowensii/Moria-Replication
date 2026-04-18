@@ -1,0 +1,208 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+
+[Import("/Game/DLC/OrcHunterPack/Constructions/Meshes/SM_OrcHunter_OrcTrophy_C")]
+public StaticMesh SM_OrcHunter_OrcTrophy_C;
+
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable")]
+public class BP_DM_Scrap_Medium_Parent_Breakable_C {
+    public StaticMeshComponent `Basic Mesh_GEN_VARIABLE`;
+    public StaticMeshComponent `Basic Mesh`;
+}
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable")]
+public class Default__BP_DM_Scrap_Medium_Parent_Breakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public MorBreakableFXComponent `Breakable Effects`;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/DLC/OrcHunterPack/Constructions/BP_OrcHunter_OrcTrophy_A")]
+public class BP_OrcHunter_OrcTrophy_A_C {
+    [UnknownSignature] public  void BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/DLC/OrcHunterPack/Constructions/BP_OrcHunter_OrcTrophy_A")]
+public class Default__BP_OrcHunter_OrcTrophy_A_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_OrcHunter_OrcTrophy_C_C : BP_OrcHunter_OrcTrophy_A_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible] bool CentralFlames_0;
+    [Edit, BlueprintVisible] float Temperature_0;
+    [Edit, BlueprintVisible] Struct<Vector> NonUniformArea_All_0;
+    [Edit, BlueprintVisible] float InnerCircleSize_0;
+    [Edit, BlueprintVisible] float FlameCenterlineAttraction_0;
+    [Edit, BlueprintVisible] float OuterTorusHandleRadius_0;
+    [Edit, BlueprintVisible] float OuterTorusLargeRadius_0;
+    [Edit, BlueprintVisible] float OuterTorusOffset_0;
+    [Edit, BlueprintVisible] float FlameSpriteSize_0;
+    [Edit, BlueprintVisible] float FlameSpawnRate_0;
+    [Edit, BlueprintVisible] float FlameDepthFade_0;
+    [Edit, BlueprintVisible] float FlameVelocity_0;
+    [Edit, BlueprintVisible] float OuterSpawnRate_0;
+    [Edit, BlueprintVisible] bool Smoke_0;
+    [Edit, BlueprintVisible] float SmokeCircleSize_0;
+    [Edit, BlueprintVisible] float SmokeSpawnRate_0;
+    [Edit, BlueprintVisible] float SmokeVerticalOffset_0;
+    [Edit, BlueprintVisible] float SmokeVelocity_0;
+    [Edit, BlueprintVisible] float SmokeLifetime_0;
+    [Edit, BlueprintVisible] float SmokeColorChangeDistance_0;
+    [Edit, BlueprintVisible] float SmokeSize_0;
+    [Edit, BlueprintVisible] float SmokeWindSpeed_0;
+    [Edit, BlueprintVisible] float SparkConeAngle_0;
+    [Edit, BlueprintVisible] float SparkLocationSize_0;
+    [Edit, BlueprintVisible] float SparkVortex_0;
+    [Edit, BlueprintVisible] float SpawnCountFountain_0;
+    [Edit, BlueprintVisible] float SparkVelocity_0;
+    [Edit, BlueprintVisible] float SparkSize_0;
+    [Edit, BlueprintVisible] float SparkCurlNoiseStrength_0;
+    [Edit, BlueprintVisible] float SparkCurlNoiseFrequency_0;
+    [Edit, BlueprintVisible] float RefractionIntensity_0;
+    [Edit, BlueprintVisible] float SparkLifetime_0;
+    [Edit, BlueprintVisible] float SparkVerticalOffset_0;
+    [Edit, BlueprintVisible] Struct<Vector> SparkConeAxis_0;
+    [Edit, BlueprintVisible] float WindSpeed_0;
+    [Edit, BlueprintVisible] Struct<Vector> WindDirection_0;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C_10_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C_25_BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature:
+
+    }
+
+    [BlueprintEvent]
+    override void BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C(ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C_25_BndEvt__BP_DM_Warren_Lighting_Torch_Breakable_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C(ExecuteUbergraph_BP_OrcHunter_OrcTrophy_C_10_ReceiveBeginPlay);
+
+    }
+
+}

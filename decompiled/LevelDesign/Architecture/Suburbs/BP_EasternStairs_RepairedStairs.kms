@@ -1,0 +1,606 @@
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void FlushNetDormancy();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentsByClass();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_VectorFloat();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+}
+
+[Import("/Script/Engine")]
+public class MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+    [UnknownSignature, FinalFunction] public sealed void SetVectorParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public static class NetPushModelHelpers {
+    [UnknownSignature, MathFunction] public static sealed void MarkPropertyDirtyFromRepIndex();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent : MeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetCollisionProfileName();
+}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public class CollisionProfileName {
+    public ObjectProperty Name;
+}
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+
+[Import("/Game/Environments/Models/Architecture/Meshes/SM_EasternStairsRepaired")]
+public StaticMesh SM_EasternStairsRepaired;
+
+
+[Import("/Game/Environments/Models/Architecture/Meshes/SM_EasternStairsArch_B")]
+public StaticMesh SM_EasternStairsArch_B;
+
+
+[Import("/Game/Environments/Models/Architecture/Meshes/SM_EasternStairsArch")]
+public StaticMesh SM_EasternStairsArch;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_3x3m_A")]
+public StaticMesh Suburbs_Wall_Thin_3x3m_A;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Stairs_Small_C_NonDest")]
+public StaticMesh Suburbs_Stairs_Small_C_NonDest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Stairs_Medium_C_NonDest")]
+public StaticMesh Suburbs_Stairs_Medium_C_NonDest;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/City/City_Gate_Capitol_Top_Ext")]
+public StaticMesh City_Gate_Capitol_Top_Ext;
+
+
+[Import("/Engine/BasicShapes/Cube")]
+public StaticMesh Cube;
+
+
+[Import("/Game/Unshippable/WhiteboxMaterials/MI_WB_Grid_Magenta")]
+public MaterialInstanceConstant MI_WB_Grid_Magenta;
+
+
+[Import("/Game/Art/Assets/Kits/Architecture/Suburbs/Materials/City_Gate/MI_City_Gate_Capitol_Top_Ext")]
+public MaterialInstanceConstant MI_City_Gate_Capitol_Top_Ext;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_EasternStairs_RepairedStairs_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_C_NonDest_StaticMeshComponent1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Cube;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> CollisionCube5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> CollisionCube4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> CollisionCube3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> CollisionCube2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> CollisionCube1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A20;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A19;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A18;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A17;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A16;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A15;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A14;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A13;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A12;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext65;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext64;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext63;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext62;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext61;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext60;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext59;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext58;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext57;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext56;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext28;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext27;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext55;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext24;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext54;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext53;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext52;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext50;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext49;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext47;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext21;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A10;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A9;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A8;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext40;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext38;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext37;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext35;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext34;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext33;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext31;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext19;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext18;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext17;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext16;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext15;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext14;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext12;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext9;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext30;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_EasternStairsArch2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_EasternStairsArch_B1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A7;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext51;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext48;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext46;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext45;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext44;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A5;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext43;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext42;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext41;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext39;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext36;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext32;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext29;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_EasternStairsArch1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext26;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext25;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext23;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext22;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext20;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Wall_Thin_3x3m_A2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> SharedRoot;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext13;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext11;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext10;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext8;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext7;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext6;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext4;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext3;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> City_Gate_Capitol_Top_Ext;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_EasternStairsArch_B;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> SM_EasternStairsRepaired;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Medium_C_NonDest9_StaticMeshComponent0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Medium_C_NonDest10_StaticMeshComponent0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Medium_C_NonDest11_StaticMeshComponent0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Medium_C_NonDest12_StaticMeshComponent0;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Suburbs_Stairs_Small_C_NonDest_StaticMeshComponent0;
+    float Timeline_0_DissolveTrack_3E44A94B42FBA69A838B10AA8D73E4FA;
+    byte Timeline_0__Direction_3E44A94B42FBA69A838B10AA8D73E4FA;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<CollisionProfileName> CollisionOnProfile;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<CollisionProfileName> CollisionOffProfile;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> StairRepairProgressRow;
+    [Edit, BlueprintVisible, Net, DisableEditOnInstance, RepNotify] bool StairsEnabled;
+    [Edit, BlueprintVisible, DisableEditOnInstance, ContainsInstancedReference] Array<Object<StaticMeshComponent>> MeshComponents;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_EasternStairs_RepairedStairs([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Variable_1;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        int Temp_int_Variable_2;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue_1;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue_2;
+        int Temp_int_Variable_3;
+        int Temp_int_Variable_4;
+        int CallFunc_Add_IntInt_ReturnValue_3;
+        int CallFunc_Add_IntInt_ReturnValue_4;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item_1;
+        bool CallFunc_Less_IntInt_ReturnValue_1;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item_2;
+        bool CallFunc_Less_IntInt_ReturnValue_2;
+        bool Temp_bool_Has_Been_Initd_Variable;
+        bool Temp_bool_IsClosed_Variable;
+        [ContainsInstancedReference] ref Array<Object<StaticMeshComponent>> CallFunc_K2_GetComponentsByClass_ReturnValue;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        Struct<Vector> CallFunc_Multiply_VectorFloat_ReturnValue;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item_3;
+        int CallFunc_Array_Length_ReturnValue_3;
+        [InstancedReference] Object<StaticMeshComponent> CallFunc_Array_Get_Item_4;
+        bool CallFunc_Less_IntInt_ReturnValue_3;
+        int CallFunc_Array_Length_ReturnValue_4;
+        bool CallFunc_Less_IntInt_ReturnValue_4;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_15_Timeline_0__FinishedFunc: KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(70), 125559947, EX_NameConst("ExecuteUbergraph_BP_EasternStairs_RepairedStairs"), this));
+            EX_PopExecutionFlow();
+
+            // Block 3
+            Temp_int_Variable_1 = 0;
+
+            // Block 4
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_93: CallFunc_Array_Length_ReturnValue_4 = Default__KismetArrayLibrary.Array_Length(this.MeshComponents);
+            CallFunc_Less_IntInt_ReturnValue_4 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable_1, CallFunc_Array_Length_ReturnValue_4));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_4);
+
+            // Block 5
+            Default__KismetArrayLibrary.Array_Get(this.MeshComponents, Temp_int_Variable_1, CallFunc_Array_Get_Item_4);
+            CallFunc_Array_Get_Item_4.SetScalarParameterValueOnMaterials(EX_NameConst("Pixel Depth Value"), 0f);
+            CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_1, 1);
+            Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+            goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_93;
+
+            // Block 6
+            this.Timeline_0.PlayFromStart();
+            EX_PopExecutionFlow();
+
+            // Block 7
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_416_Timeline_0__UpdateFunc: Temp_int_Variable = 0;
+
+            // Block 8
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_439: CallFunc_Array_Length_ReturnValue_3 = Default__KismetArrayLibrary.Array_Length(this.MeshComponents);
+            CallFunc_Less_IntInt_ReturnValue_3 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable, CallFunc_Array_Length_ReturnValue_3));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_3);
+
+            // Block 9
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.Timeline_0_DissolveTrack_3E44A94B42FBA69A838B10AA8D73E4FA, -2000f);
+            Default__KismetArrayLibrary.Array_Get(this.MeshComponents, Temp_int_Variable, CallFunc_Array_Get_Item_3);
+            CallFunc_Array_Get_Item_3.SetScalarParameterValueOnMaterials(EX_NameConst("Mask Position Offset"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+            Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_439;
+
+            // Block 10
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_775: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_2, 1);
+            Temp_int_Variable_2 = CallFunc_Add_IntInt_ReturnValue_2;
+
+            // Block 11
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_844: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.MeshComponents);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable_2, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 12
+                Default__KismetArrayLibrary.Array_Get(this.MeshComponents, Temp_int_Variable_2, CallFunc_Array_Get_Item);
+                CallFunc_K2_GetComponentLocation_ReturnValue = this.Cube.K2_GetComponentLocation();
+                CallFunc_Multiply_VectorFloat_ReturnValue = KismetMathLibrary.Multiply_VectorFloat(CallFunc_K2_GetComponentLocation_ReturnValue, -1f);
+                CallFunc_Array_Get_Item.SetVectorParameterValueOnMaterials(EX_NameConst("WS Initial Offset"), CallFunc_Multiply_VectorFloat_ReturnValue);
+                goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_775;
+
+            }
+
+
+            // Block 13
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1165: Temp_int_Variable_3 = 0;
+
+            // Block 14
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1188: CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(this.MeshComponents);
+            CallFunc_Less_IntInt_ReturnValue_2 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable_3, CallFunc_Array_Length_ReturnValue_1));
+
+            if (CallFunc_Less_IntInt_ReturnValue_2) {
+                // Block 15
+                Default__KismetArrayLibrary.Array_Get(this.MeshComponents, Temp_int_Variable_3, CallFunc_Array_Get_Item_2);
+                CallFunc_Array_Get_Item_2.SetScalarParameterValueOnMaterials(EX_NameConst("Pixel Depth Value"), 100000000f);
+                CallFunc_Add_IntInt_ReturnValue_3 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_3, 1);
+                Temp_int_Variable_3 = CallFunc_Add_IntInt_ReturnValue_3;
+                goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1188;
+
+            }
+
+
+            // Block 16
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1482: Temp_int_Variable_4 = 0;
+
+            // Block 17
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1505: CallFunc_Array_Length_ReturnValue_2 = Default__KismetArrayLibrary.Array_Length(this.MeshComponents);
+            CallFunc_Less_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Variable_4, CallFunc_Array_Length_ReturnValue_2));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_1);
+
+            // Block 18
+            Default__KismetArrayLibrary.Array_Get(this.MeshComponents, Temp_int_Variable_4, CallFunc_Array_Get_Item_1);
+            CallFunc_Array_Get_Item_1.SetScalarParameterValueOnMaterials(EX_NameConst("Mask Position Offset"), -2000f);
+            CallFunc_Add_IntInt_ReturnValue_4 = KismetMathLibrary.Add_IntInt(Temp_int_Variable_4, 1);
+            Temp_int_Variable_4 = CallFunc_Add_IntInt_ReturnValue_4;
+            goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1505;
+
+            // Block 19
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1795: Temp_int_Variable_2 = 0;
+            goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_844;
+
+            // Block 20
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1823: EX_PushExecutionFlow(ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1843);
+
+            // Block 21
+
+            if (Temp_bool_Has_Been_Initd_Variable) {
+                // Block 22
+                break;
+
+                // Block 23
+
+                ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1843:
+                if (Temp_bool_IsClosed_Variable) {
+                    // Block 24
+                    break;
+
+                }
+
+
+                // Block 25
+                ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1858: Temp_bool_IsClosed_Variable = (bool)(true);
+                KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(383), 1290934699, EX_NameConst("ExecuteUbergraph_BP_EasternStairs_RepairedStairs"), this));
+                break;
+
+            }
+
+
+            // Block 26
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1924: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            EX_PopExecutionFlowIfNot(false);
+
+            // Block 27
+            Temp_bool_IsClosed_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 28
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1949_ReceiveBeginPlay: CallFunc_K2_GetComponentsByClass_ReturnValue = this.K2_GetComponentsByClass(StaticMeshComponent);
+            this.MeshComponents = CallFunc_K2_GetComponentsByClass_ReturnValue;
+            goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1795;
+
+            // Block 29
+            ExecuteUbergraph_BP_EasternStairs_RepairedStairs_2018: EX_PopExecutionFlowIfNot(this.StairsEnabled);
+
+            // Block 30
+            goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1823;
+
+            // Block 31
+            `ExecuteUbergraph_BP_EasternStairs_RepairedStairs_2033_Stairs Rebuilt`: goto ExecuteUbergraph_BP_EasternStairs_RepairedStairs_2018;
+
+        }
+
+
+        // Block 32
+        ExecuteUbergraph_BP_EasternStairs_RepairedStairs_2038:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `Stairs Rebuilt`() {
+        // Block 1
+        this.ExecuteUbergraph_BP_EasternStairs_RepairedStairs(`ExecuteUbergraph_BP_EasternStairs_RepairedStairs_2033_Stairs Rebuilt`);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_EasternStairs_RepairedStairs(ExecuteUbergraph_BP_EasternStairs_RepairedStairs_1949_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_EasternStairs_RepairedStairs(ExecuteUbergraph_BP_EasternStairs_RepairedStairs_416_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_EasternStairs_RepairedStairs(ExecuteUbergraph_BP_EasternStairs_RepairedStairs_15_Timeline_0__FinishedFunc);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void EnableStairs() {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+
+        // Block 1
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 2
+        this.FlushNetDormancy();
+        this.StairsEnabled = (bool)(true);
+        NetPushModelHelpers.MarkPropertyDirtyFromRepIndex(this, 10, EX_NameConst("StairsEnabled"));
+        this.OnRep_StairsEnabled();
+
+        // Block 3
+        EnableStairs_98:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void DisableStairs() {
+        // Locals
+        bool CallFunc_HasAuthority_ReturnValue;
+
+        // Block 1
+        CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+        if (!CallFunc_HasAuthority_ReturnValue) return;
+
+        // Block 2
+        this.FlushNetDormancy();
+        this.StairsEnabled = (bool)(false);
+        NetPushModelHelpers.MarkPropertyDirtyFromRepIndex(this, 10, EX_NameConst("StairsEnabled"));
+        this.OnRep_StairsEnabled();
+
+        // Block 3
+        DisableStairs_98:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnRep_StairsEnabled() {
+        // Block 1
+        this.`Stairs Rebuilt`();
+        this.SharedRoot.SetVisibility(this.StairsEnabled, true);
+
+        if (this.StairsEnabled) {
+            // Block 2
+            this.CollisionCube5.SetCollisionProfileName(this.CollisionOnProfile.Name, true);
+            this.CollisionCube4.SetCollisionProfileName(this.CollisionOnProfile.Name, true);
+            this.CollisionCube3.SetCollisionProfileName(this.CollisionOnProfile.Name, true);
+            this.CollisionCube2.SetCollisionProfileName(this.CollisionOnProfile.Name, true);
+            this.CollisionCube1.SetCollisionProfileName(this.CollisionOnProfile.Name, true);
+            return;
+
+        }
+
+
+        // Block 3
+        OnRep_StairsEnabled_350: this.CollisionCube1.SetCollisionProfileName(this.CollisionOffProfile.Name, true);
+        this.CollisionCube2.SetCollisionProfileName(this.CollisionOffProfile.Name, true);
+        this.CollisionCube3.SetCollisionProfileName(this.CollisionOffProfile.Name, true);
+        this.CollisionCube4.SetCollisionProfileName(this.CollisionOffProfile.Name, true);
+        this.CollisionCube5.SetCollisionProfileName(this.CollisionOffProfile.Name, true);
+
+        // Block 4
+        OnRep_StairsEnabled_625:
+
+    }
+
+}

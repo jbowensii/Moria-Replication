@@ -1,0 +1,267 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVariableFloat();
+    [UnknownSignature, VirtualFunction] public virtual void Activate();
+}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveTick;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetWorldDeltaSeconds();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Divide_VectorFloat();
+    [UnknownSignature, MathFunction] public static sealed void FClamp();
+    [UnknownSignature, MathFunction] public static sealed void FMax();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_VectorVector();
+    [UnknownSignature, MathFunction] public static sealed void VSize();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/Food/Anti_Carrot_Icon")]
+public Texture2D Anti_Carrot_Icon;
+
+
+[Import("/Game/Unshippable/ThirdParty/MedievalVOL6/Meshes/SM_Tankard_01a")]
+public StaticMesh SM_Tankard_01a;
+
+
+[Import("/Game/FX/BrewFX/SM_MugSurfaceDisk")]
+public StaticMesh SM_MugSurfaceDisk;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_MugSurface")]
+public NiagaraSystem NS_MugSurface;
+
+
+[Import("/Game/FX/BrewFX/Niagara/NS_beerFoam")]
+public NiagaraSystem NS_beerFoam;
+
+
+[Import("/Game/Items/BP_Category_Food")]
+public class BP_Category_Food_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Food")]
+public class Default__BP_Category_Food_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Items/BP_AleMug_Empty_Legacy")]
+public class BP_AleMug_Empty_LEGACY_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Mug_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Mug;
+}
+
+[Import("/Game/Items/BP_AleMug_Empty_Legacy")]
+public class Default__BP_AleMug_Empty_LEGACY_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_DrinkAleSinging")]
+public class GA_DrinkAleSinging_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_DrinkAleSinging")]
+public GA_DrinkAleSinging_C Default__GA_DrinkAleSinging_C;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Foley/fx_plr_itempickup_01_play")]
+public AkAudioEvent fx_plr_itempickup_01_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_AleMug_LEGACY_C : BP_Category_Food_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_MugSurface;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara_Splash;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> Niagara;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Cylinder;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Mug;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> prevVel;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> prevPos;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<Vector> killFloorOffset;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_AleMug_LEGACY([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_GetWorldDeltaSeconds_ReturnValue;
+        float K2Node_Event_DeltaSeconds;
+        float CallFunc_GetWorldDeltaSeconds_ReturnValue_1;
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue;
+        Struct<Vector> CallFunc_Divide_VectorFloat_ReturnValue;
+        Struct<Vector> CallFunc_Subtract_VectorVector_ReturnValue_1;
+        Struct<Vector> CallFunc_Divide_VectorFloat_ReturnValue_1;
+        Struct<Vector> CallFunc_Multiply_VectorVector_ReturnValue;
+        float CallFunc_VSize_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        float CallFunc_FMax_ReturnValue;
+        float CallFunc_FClamp_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            ExecuteUbergraph_BP_AleMug_LEGACY_15:
+            while (true) {
+                // Block 2
+                this.Niagara_Splash.Activate(false);
+                break;
+
+            }
+
+
+            // Block 3
+            ExecuteUbergraph_BP_AleMug_LEGACY_58: CallFunc_GetWorldDeltaSeconds_ReturnValue = GameplayStatics.GetWorldDeltaSeconds(this);
+            CallFunc_GetWorldDeltaSeconds_ReturnValue_1 = GameplayStatics.GetWorldDeltaSeconds(this);
+            CallFunc_K2_GetComponentLocation_ReturnValue = this.Mug.K2_GetComponentLocation();
+            CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(CallFunc_K2_GetComponentLocation_ReturnValue, this.prevPos);
+            CallFunc_Divide_VectorFloat_ReturnValue = KismetMathLibrary.Divide_VectorFloat(CallFunc_Subtract_VectorVector_ReturnValue, CallFunc_GetWorldDeltaSeconds_ReturnValue);
+            CallFunc_Subtract_VectorVector_ReturnValue_1 = KismetMathLibrary.Subtract_VectorVector(CallFunc_Divide_VectorFloat_ReturnValue, this.prevVel);
+            CallFunc_Divide_VectorFloat_ReturnValue_1 = KismetMathLibrary.Divide_VectorFloat(CallFunc_Subtract_VectorVector_ReturnValue_1, CallFunc_GetWorldDeltaSeconds_ReturnValue_1);
+            CallFunc_Multiply_VectorVector_ReturnValue = KismetMathLibrary.Multiply_VectorVector(CallFunc_Divide_VectorFloat_ReturnValue_1, EX_VectorConst(1, 1, 0));
+            CallFunc_VSize_ReturnValue = KismetMathLibrary.VSize(CallFunc_Multiply_VectorVector_ReturnValue);
+            CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(CallFunc_VSize_ReturnValue, 0.05f);
+            CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(CallFunc_Multiply_FloatFloat_ReturnValue, 60f);
+            CallFunc_FMax_ReturnValue = KismetMathLibrary.FMax(CallFunc_Subtract_FloatFloat_ReturnValue, 0f);
+            CallFunc_FClamp_ReturnValue = KismetMathLibrary.FClamp(CallFunc_FMax_ReturnValue, 0f, 5000f);
+            this.Niagara.SetVariableFloat(EX_NameConst("mugAccel"), CallFunc_FClamp_ReturnValue);
+            CallFunc_GetWorldDeltaSeconds_ReturnValue = GameplayStatics.GetWorldDeltaSeconds(this);
+            CallFunc_K2_GetComponentLocation_ReturnValue = this.Mug.K2_GetComponentLocation();
+            CallFunc_Subtract_VectorVector_ReturnValue = KismetMathLibrary.Subtract_VectorVector(CallFunc_K2_GetComponentLocation_ReturnValue, this.prevPos);
+            CallFunc_Divide_VectorFloat_ReturnValue = KismetMathLibrary.Divide_VectorFloat(CallFunc_Subtract_VectorVector_ReturnValue, CallFunc_GetWorldDeltaSeconds_ReturnValue);
+            this.prevVel = CallFunc_Divide_VectorFloat_ReturnValue;
+            CallFunc_K2_GetComponentLocation_ReturnValue = this.Mug.K2_GetComponentLocation();
+            this.prevPos = CallFunc_K2_GetComponentLocation_ReturnValue;
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_AleMug_LEGACY_940_ReceiveTick: goto ExecuteUbergraph_BP_AleMug_LEGACY_15;
+
+        }
+
+
+        // Block 5
+        ExecuteUbergraph_BP_AleMug_LEGACY_945:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveTick([BlueprintVisible, BlueprintReadOnly] float DeltaSeconds) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaSeconds", DeltaSeconds);
+        this.ExecuteUbergraph_BP_AleMug_LEGACY(ExecuteUbergraph_BP_AleMug_LEGACY_940_ReceiveTick);
+
+    }
+
+}

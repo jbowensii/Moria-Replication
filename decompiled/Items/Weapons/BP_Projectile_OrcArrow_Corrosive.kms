@@ -1,0 +1,96 @@
+
+[Import("/Script/Moria")]
+public class MorProjectileMovementComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+
+[Import("/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_BlueMountains_Arrow")]
+public StaticMesh D_Weapon_BlueMountains_Arrow;
+
+
+[Import("/Game/FX/EnemyFX/Niagara/NS_CorrosiveProjectile")]
+public NiagaraSystem NS_CorrosiveProjectile;
+
+
+[Import("/Game/Items/Weapons/GE_RingHunters_Damage_Arrow_ConditionalCorrosive")]
+public class GE_RingHunters_Damage_Arrow_ConditionalCorrosive_C {}
+
+[Import("/Game/Items/Weapons/GE_RingHunters_Damage_Arrow_ConditionalCorrosive")]
+public GE_RingHunters_Damage_Arrow_ConditionalCorrosive_C Default__GE_RingHunters_Damage_Arrow_ConditionalCorrosive_C;
+
+
+[Import("/Game/Items/Weapons/BP_Projectile_Base")]
+public class BP_Projectile_Base_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Weapons/BP_Projectile_Base")]
+public class Default__BP_Projectile_Base_C {
+    public AkComponent AkComponent;
+    public MorProjectileMovementComponent ProjectileMovement;
+    public SphereComponent RootComponent;
+    public StaticMeshComponent Mesh;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Projectile_OrcArrow_Corrosive_C : BP_Projectile_Base_C {
+}

@@ -1,0 +1,92 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class Default__Brewskin {
+    public Object `Callout Data`;
+    public Object RibbonTrails;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class Brewskin {}
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_Items_Brewskin")]
+public Texture2D T_UI_Icon_Items_Brewskin;
+
+
+[Import("/Game/Art/Assets/GPI/FoodStoreroom/Meshes/SM_Brewskin")]
+public StaticMesh SM_Brewskin;
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink")]
+public class GA_UseFoodItem_Drink_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink")]
+public GA_UseFoodItem_Drink_C Default__GA_UseFoodItem_Drink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Brewskin_C : Brewskin {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> StaticMesh;
+}

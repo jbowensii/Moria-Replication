@@ -1,0 +1,107 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/Environments/Models/Furnishings/Meshes/SM_Deco_BearSculpt_A")]
+public StaticMesh SM_Deco_BearSculpt_A;
+
+
+[Import("/Game/DLC/BeornPack/Construction/Meshes/Beorn_Doors")]
+public StaticMesh Beorn_Doors;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door__Base")]
+public class BP_Door__Base_C {
+    public BoxComponent BlockCollision_GEN_VARIABLE;
+    public BoxComponent DoorNavArea_GEN_VARIABLE;
+    public BoxComponent InteractCollision_GEN_VARIABLE;
+    public FGKActorFSMComponent FGKActorFSM_GEN_VARIABLE;
+    public FGKAkComponent AkSoundSource_GEN_VARIABLE;
+    public MorBreakableComponent MorBreakable_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Hinge_L_GEN_VARIABLE;
+    public SceneComponent Hinge_R_GEN_VARIABLE;
+    public TimelineTemplate `open Out_Template`;
+    public BoxComponent BlockCollision;
+    public BoxComponent DoorNavArea;
+    public BoxComponent InteractCollision;
+    public FGKActorFSMComponent FGKActorFSM;
+    public FGKAkComponent AkSoundSource;
+    public MorBreakableComponent MorBreakable;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Hinge_L;
+    public SceneComponent Hinge_R;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door__Base")]
+public class Default__BP_Door__Base_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Beorn_Door_A_C : BP_Door__Base_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Crude_Doors2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Crude_Doors1;
+}

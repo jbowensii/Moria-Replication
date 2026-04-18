@@ -1,0 +1,682 @@
+
+[Import("/Script/UMG")]
+public Button Default__Button;
+
+[Import("/Script/UMG")]
+public ButtonSlot Default__ButtonSlot;
+
+[Import("/Script/UMG")]
+public CanvasPanel Default__CanvasPanel;
+
+[Import("/Script/UMG")]
+public CanvasPanelSlot Default__CanvasPanelSlot;
+
+[Import("/Script/UMG")]
+public class Button {}
+
+[Import("/Script/UMG")]
+public class ButtonSlot {}
+
+[Import("/Script/UMG")]
+public class CanvasPanel {}
+
+[Import("/Script/UMG")]
+public class CanvasPanelSlot {}
+
+[Import("/Script/UMG")]
+public class GridPanel {}
+
+[Import("/Script/UMG")]
+public class GridSlot {}
+
+[Import("/Script/UMG")]
+public class Slider {}
+
+[Import("/Script/UMG")]
+public class TextBlock {
+    [UnknownSignature, VirtualFunction] public virtual void SetText();
+}
+
+[Import("/Script/UMG")]
+public class UMGSequencePlayer {}
+
+[Import("/Script/UMG")]
+public class UserWidget {
+    public Object Construct;
+    public Object OnAddedToFocusPath;
+    public Object OnFocusReceived;
+    public Object OnKeyUp;
+    public Object OnMouseEnter;
+    public Object OnMouseLeave;
+    public Object OnPreviewKeyDown;
+    public Object OnRemovedFromFocusPath;
+    [UnknownSignature, FinalFunction] public sealed void PlayAnimation();
+    [UnknownSignature, FinalFunction] public sealed void PlayAnimationForward();
+    [UnknownSignature, FinalFunction] public sealed void PlayAnimationReverse();
+    public Object PreConstruct;
+}
+
+[Import("/Script/UMG")]
+public class WidgetAnimation {}
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass : UserWidget {}
+
+[Import("/Script/UMG")]
+public static class WidgetBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Handled();
+    [UnknownSignature, MathFunction] public static sealed void Unhandled();
+}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+[Import("/Script/UMG")]
+public GridPanel Default__GridPanel;
+
+[Import("/Script/UMG")]
+public GridSlot Default__GridSlot;
+
+[Import("/Script/UMG")]
+public Object EventReply;
+
+[Import("/Script/UMG")]
+public Slider Default__Slider;
+
+[Import("/Script/UMG")]
+public TextBlock Default__TextBlock;
+
+[Import("/Script/UMG")]
+public WidgetAnimation Default__WidgetAnimation;
+
+[Import("/Script/UMG")]
+public WidgetBlueprintGeneratedClass Default__WidgetBlueprintGeneratedClass;
+
+[Import("/Script/UMG")]
+public WidgetTree Default__WidgetTree;
+
+
+[Import("/Script/SlateCore")]
+public Object FocusEvent;
+
+[Import("/Script/SlateCore")]
+public Object Geometry;
+
+[Import("/Script/SlateCore")]
+public Object KeyEvent;
+
+[Import("/Script/SlateCore")]
+public Object PointerEvent;
+
+[Import("/Script/SlateCore")]
+public Object SliderStyle;
+
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneColorSection {}
+
+[Import("/Script/MovieSceneTracks")]
+public class MovieSceneColorTrack {}
+
+[Import("/Script/MovieSceneTracks")]
+public class Default__MovieSceneColorSection {
+    public Object EaseInFunction;
+    public Object EaseOutFunction;
+}
+
+[Import("/Script/MovieSceneTracks")]
+public MovieSceneColorTrack Default__MovieSceneColorTrack;
+
+
+[Import("/Script/MovieScene")]
+public class MovieScene {}
+
+[Import("/Script/MovieScene")]
+public class MovieSceneBuiltInEasingFunction {}
+
+[Import("/Script/MovieScene")]
+public class MovieSceneCompiledData {}
+
+[Import("/Script/MovieScene")]
+public MovieScene Default__MovieScene;
+
+[Import("/Script/MovieScene")]
+public MovieSceneCompiledData Default__MovieSceneCompiledData;
+
+
+[Import("/Script/Moria")]
+public class MorPhysiqueValueWidget {
+    public AnonymousClass_9106eee432f94bf7b5afde41be9722da ValueSlider;
+    [UnknownSignature, VirtualFunction] public virtual void GetOwningPlayer();
+}
+
+[Import("/Script/Moria")]
+public static class MorUIFocusFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SetCustomFocus();
+}
+
+[Import("/Script/Moria")]
+public MorPhysiqueValueWidget Default__MorPhysiqueValueWidget;
+
+[Import("/Script/Moria")]
+public class AnonymousClass_9106eee432f94bf7b5afde41be9722da {
+    [UnknownSignature, FinalFunction] public sealed void GetValue();
+    public ObjectProperty WidgetStyle;
+    [UnknownSignature, FinalFunction] public sealed void SetStepSize();
+}
+
+
+[Import("/Script/InputCore")]
+public Object Key;
+
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public static class KismetInputLibrary {
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_KeyKey();
+    [UnknownSignature, MathFunction] public static sealed void GetKey();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void BooleanOR();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void K2_ClearAndInvalidateTimerHandle();
+    [UnknownSignature, MathFunction] public static sealed void K2_SetTimerDelegate();
+}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void TextIsEmpty();
+}
+
+[Import("/Script/Engine")]
+public class PlayerController {}
+
+[Import("/Script/Engine")]
+public static class SubsystemBlueprintLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLocalPlayerSubsystem();
+}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public Object TimerDynamicDelegate__DelegateSignature;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object TimerHandle;
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Font {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Script/CommonInput")]
+public class CommonInputSubsystem {
+    [UnknownSignature, FinalFunction] public sealed void GetCurrentInputType();
+}
+
+[Import("/Script/CommonInput")]
+public Object ECommonInputType;
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEvent();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/UI/Textures/_Shared/T_UI_Slider_Track")]
+public Texture2D T_UI_Slider_Track;
+
+
+[Import("/Game/UI/Textures/_Shared/T_UI_Slider_Thumb")]
+public Texture2D T_UI_Slider_Thumb;
+
+
+[Import("/Game/UI/Font/Tisa_Sans")]
+public Font Tisa_Sans;
+
+
+[Import("/Game/UI/Font/Leksa")]
+public Font Leksa;
+
+
+[Import("/Game/UI/WBP_UI_FunctionLibrary")]
+public class WBP_UI_FunctionLibrary_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void PlayGamepadOnlyAudio();
+}
+
+[Import("/Game/UI/WBP_UI_FunctionLibrary")]
+public WBP_UI_FunctionLibrary_C Default__WBP_UI_FunctionLibrary_C;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/UI/General/fx_ui_gen_hover_play")]
+public AkAudioEvent fx_ui_gen_hover_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/UI/General/fx_ui_gen_confirm_play")]
+public AkAudioEvent fx_ui_gen_confirm_play;
+
+
+[Parsed, ReplicationDataIsSetUp, EditInlineNew, CompiledFromBlueprint, DefaultToInstanced, HasInstancedReference]
+class WBP_PhysiqueValueWidget_C : MorPhysiqueValueWidget {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> Normal;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> Active;
+    [BlueprintVisible, BlueprintReadOnly, Transient, RepSkip] Object<WidgetAnimation> Hover;
+    [BlueprintVisible, ExportObject, InstancedReference, RepSkip, PersistentInstance] Object<TextBlock> PropertyNameLabel;
+    [Edit, BlueprintVisible] Text PropertyNameText;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float InitialValue;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<SliderStyle> NormalSliderStyle;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<TimerHandle> HoldingScroll;
+    [Edit, BlueprintVisible, DisableEditOnInstance] float SliderStep;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_WBP_PhysiqueValueWidget([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<CommonInputSubsystem> CallFunc_GetLocalPlayerSubsystem_ReturnValue;
+        Enum CallFunc_GetCurrentInputType_ReturnValue;
+        bool CallFunc_EqualEqual_ByteByte_ReturnValue;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        bool K2Node_Event_IsDesignTime;
+        float CallFunc_GetValue_ReturnValue;
+        Struct<FocusEvent> K2Node_Event_InFocusEvent_1;
+        Struct<FocusEvent> K2Node_Event_InFocusEvent;
+        bool Temp_bool_Has_Been_Initd_Variable;
+        Struct<Geometry> K2Node_Event_MyGeometry;
+        const Struct<PointerEvent> K2Node_Event_MouseEvent_1;
+        const Struct<PointerEvent> K2Node_Event_MouseEvent;
+        Object<UMGSequencePlayer> CallFunc_PlayAnimation_ReturnValue;
+        Object<UMGSequencePlayer> CallFunc_PlayAnimationReverse_ReturnValue;
+        Object<UMGSequencePlayer> CallFunc_PlayAnimationForward_ReturnValue;
+        Object<UMGSequencePlayer> CallFunc_PlayAnimation_ReturnValue_1;
+        Object<UMGSequencePlayer> CallFunc_PlayAnimation_ReturnValue_2;
+        float K2Node_ComponentBoundEvent_Value;
+        Object<PlayerController> CallFunc_GetOwningPlayer_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Struct<TimerHandle> CallFunc_K2_SetTimerDelegate_ReturnValue;
+        const Delegate Temp_delegate_Variable;
+        int CallFunc_PostEvent_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        Object<PlayerController> CallFunc_GetOwningPlayer_ReturnValue_1;
+        bool Temp_bool_IsClosed_Variable;
+        bool CallFunc_TextIsEmpty_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_15: EX_PushExecutionFlow(ExecuteUbergraph_WBP_PhysiqueValueWidget_35);
+
+            // Block 3
+
+            if (Temp_bool_Has_Been_Initd_Variable) {
+                // Block 4
+                break;
+
+                // Block 5
+
+                ExecuteUbergraph_WBP_PhysiqueValueWidget_35:
+                if (Temp_bool_IsClosed_Variable) {
+                    // Block 6
+                    break;
+
+                }
+
+
+                // Block 7
+                ExecuteUbergraph_WBP_PhysiqueValueWidget_50: Temp_bool_IsClosed_Variable = (bool)(true);
+                EX_BindDelegate("SpeedScrollUp", K2Node_CreateDelegate_OutputDelegate, this);
+                CallFunc_K2_SetTimerDelegate_ReturnValue = KismetSystemLibrary.K2_SetTimerDelegate(K2Node_CreateDelegate_OutputDelegate, 0.5f, false, 0f, 0f);
+                this.HoldingScroll = CallFunc_K2_SetTimerDelegate_ReturnValue;
+                break;
+
+            }
+
+
+            // Block 8
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_165: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            EX_PopExecutionFlowIfNot(false);
+
+            // Block 9
+            Temp_bool_IsClosed_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 10
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_190: EX_LetObj(CallFunc_GetLocalPlayerSubsystem_ReturnValue,SubsystemBlueprintLibrary.GetLocalPlayerSubsystem(this, CommonInputSubsystem));
+            CallFunc_GetCurrentInputType_ReturnValue = CallFunc_GetLocalPlayerSubsystem_ReturnValue.GetCurrentInputType();
+            CallFunc_EqualEqual_ByteByte_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ByteByte(CallFunc_GetCurrentInputType_ReturnValue, (byte)(1)));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ByteByte_ReturnValue);
+
+            // Block 11
+            EX_LetObj(CallFunc_GetOwningPlayer_ReturnValue,this.GetOwningPlayer());
+            CallFunc_PostEvent_ReturnValue = Default__AkGameplayStatics.PostEvent(fx_ui_gen_confirm_play, CallFunc_GetOwningPlayer_ReturnValue, 0, Temp_delegate_Variable, Temp_struct_Variable, false, "");
+            EX_PopExecutionFlow();
+
+            // Block 12
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_430_PreConstruct: CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.PropertyNameLabel));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 13
+            CallFunc_TextIsEmpty_ReturnValue = (bool)(KismetTextLibrary.TextIsEmpty(this.PropertyNameText));
+
+            if (CallFunc_TextIsEmpty_ReturnValue) {
+                // Block 14
+                break;
+
+            }
+
+
+            // Block 15
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_513: this.PropertyNameLabel.SetText(this.PropertyNameText);
+            EX_PopExecutionFlow();
+
+            // Block 16
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_559_Construct: CallFunc_GetValue_ReturnValue = this.ValueSlider.GetValue();
+            this.InitialValue = CallFunc_GetValue_ReturnValue;
+            this.ValueSlider.WidgetStyle = this.NormalSliderStyle;
+            EX_LetObj(CallFunc_PlayAnimation_ReturnValue,this.PlayAnimation(this.Normal, 0f, 1, (byte)(0), 1f, false));
+            EX_PopExecutionFlow();
+
+            // Block 17
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_733_OnAddedToFocusPath: EX_LetObj(CallFunc_PlayAnimation_ReturnValue_1,this.PlayAnimation(this.Active, 0f, 1, (byte)(0), 1f, false));
+            EX_LetObj(CallFunc_GetOwningPlayer_ReturnValue_1,this.GetOwningPlayer());
+            Default__WBP_UI_FunctionLibrary_C.PlayGamepadOnlyAudio(fx_ui_gen_hover_play, CallFunc_GetOwningPlayer_ReturnValue_1, this);
+            EX_PopExecutionFlow();
+
+            // Block 18
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_860_OnRemovedFromFocusPath: EX_LetObj(CallFunc_PlayAnimation_ReturnValue_2,this.PlayAnimation(this.Normal, 0f, 1, (byte)(0), 1f, false));
+            EX_PopExecutionFlow();
+
+            // Block 19
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_908_OnMouseEnter: EX_LetObj(CallFunc_PlayAnimationForward_ReturnValue,this.PlayAnimationForward(this.Hover, 1f, false));
+            EX_PopExecutionFlow();
+
+            // Block 20
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_944: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 21
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_956_OnMouseLeave: EX_LetObj(CallFunc_PlayAnimationReverse_ReturnValue,this.PlayAnimationReverse(this.Hover, 1f, false));
+            EX_PopExecutionFlow();
+
+            // Block 22
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_992_BndEvt__WBP_PhysiqueValueWidget_ValueSlider_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature: goto ExecuteUbergraph_WBP_PhysiqueValueWidget_190;
+
+            // Block 23
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_997_ScrollReleased: KismetSystemLibrary.K2_ClearAndInvalidateTimerHandle(this, this.HoldingScroll);
+            this.ValueSlider.SetStepSize(this.SliderStep);
+            Temp_bool_IsClosed_Variable = (bool)(false);
+            goto ExecuteUbergraph_WBP_PhysiqueValueWidget_944;
+
+            // Block 24
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_1074_SpeedScrollUp: CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.SliderStep, 2.5f);
+            this.ValueSlider.SetStepSize(CallFunc_Multiply_FloatFloat_ReturnValue);
+            EX_PopExecutionFlow();
+
+            // Block 25
+            ExecuteUbergraph_WBP_PhysiqueValueWidget_1158_ScrollHeld: goto ExecuteUbergraph_WBP_PhysiqueValueWidget_15;
+
+        }
+
+
+        // Block 26
+        ExecuteUbergraph_WBP_PhysiqueValueWidget_1163:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ScrollHeld() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_1158_ScrollHeld);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void SpeedScrollUp() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_1074_SpeedScrollUp);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ScrollReleased() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_997_ScrollReleased);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__WBP_PhysiqueValueWidget_ValueSlider_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature([BlueprintVisible, BlueprintReadOnly] float Value) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Value", Value);
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_992_BndEvt__WBP_PhysiqueValueWidget_ValueSlider_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature);
+
+    }
+
+    [BlueprintCosmetic, Event, HasOutParms, BlueprintEvent]
+    public override void OnMouseLeave([BlueprintVisible, BlueprintReadOnly] const out ref Struct<PointerEvent> MouseEvent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_MouseEvent", MouseEvent);
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_956_OnMouseLeave);
+
+    }
+
+    [BlueprintCosmetic, Event, HasOutParms, BlueprintEvent]
+    public override void OnMouseEnter([BlueprintVisible, BlueprintReadOnly] Struct<Geometry> MyGeometry, [BlueprintVisible, BlueprintReadOnly] const out ref Struct<PointerEvent> MouseEvent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_MyGeometry", MyGeometry);
+        EX_LetValueOnPersistentFrame("K2Node_Event_MouseEvent_1", MouseEvent);
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_908_OnMouseEnter);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void OnRemovedFromFocusPath([BlueprintVisible, BlueprintReadOnly] Struct<FocusEvent> InFocusEvent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_InFocusEvent", InFocusEvent);
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_860_OnRemovedFromFocusPath);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void OnAddedToFocusPath([BlueprintVisible, BlueprintReadOnly] Struct<FocusEvent> InFocusEvent) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_InFocusEvent_1", InFocusEvent);
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_733_OnAddedToFocusPath);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void Construct() {
+        // Block 1
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_559_Construct);
+
+    }
+
+    [BlueprintCosmetic, Event, BlueprintEvent]
+    public override void PreConstruct([BlueprintVisible, BlueprintReadOnly] bool IsDesignTime) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_IsDesignTime", IsDesignTime);
+        this.ExecuteUbergraph_WBP_PhysiqueValueWidget(ExecuteUbergraph_WBP_PhysiqueValueWidget_430_PreConstruct);
+
+    }
+
+    [BlueprintCosmetic, Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void OnFocusReceived([BlueprintVisible, BlueprintReadOnly] Struct<Geometry> MyGeometry, [BlueprintVisible, BlueprintReadOnly] Struct<FocusEvent> InFocusEvent, [Return] out Struct<EventReply> ReturnValue) {
+        // Locals
+        Struct<EventReply> CallFunc_Unhandled_ReturnValue;
+        Struct<EventReply> CallFunc_Handled_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        // Block 1
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(this.ValueSlider));
+
+        if (CallFunc_IsValid_ReturnValue) {
+            // Block 2
+            MorUIFocusFunctionLibrary.SetCustomFocus(this.ValueSlider, this, false);
+            CallFunc_Handled_ReturnValue = WidgetBlueprintLibrary.Handled();
+            ReturnValue = CallFunc_Handled_ReturnValue;
+            goto OnFocusReceived_179;
+
+        }
+
+
+        // Block 3
+        OnFocusReceived_124: CallFunc_Unhandled_ReturnValue = WidgetBlueprintLibrary.Unhandled();
+        ReturnValue = CallFunc_Unhandled_ReturnValue;
+
+        // Block 4
+        OnFocusReceived_179: return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void OnPreviewKeyDown([BlueprintVisible, BlueprintReadOnly] Struct<Geometry> MyGeometry, [BlueprintVisible, BlueprintReadOnly] Struct<KeyEvent> InKeyEvent, [Return] out Struct<EventReply> ReturnValue) {
+        // Locals
+        Struct<Key> CallFunc_GetKey_ReturnValue;
+        Struct<EventReply> CallFunc_Unhandled_ReturnValue;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue_1;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue_2;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue_3;
+        bool CallFunc_BooleanOR_ReturnValue;
+        bool CallFunc_BooleanOR_ReturnValue_1;
+        bool CallFunc_BooleanOR_ReturnValue_2;
+
+        // Block 1
+        CallFunc_GetKey_ReturnValue = KismetInputLibrary.GetKey(InKeyEvent);
+        CallFunc_EqualEqual_KeyKey_ReturnValue = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_LeftStick_Right"))));
+        CallFunc_EqualEqual_KeyKey_ReturnValue_1 = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_LeftStick_Left"))));
+        CallFunc_EqualEqual_KeyKey_ReturnValue_2 = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_DPad_Left"))));
+        CallFunc_EqualEqual_KeyKey_ReturnValue_3 = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_DPad_Right"))));
+        CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_EqualEqual_KeyKey_ReturnValue_2, CallFunc_EqualEqual_KeyKey_ReturnValue_3));
+        CallFunc_BooleanOR_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanOR(CallFunc_BooleanOR_ReturnValue, CallFunc_EqualEqual_KeyKey_ReturnValue_1));
+        CallFunc_BooleanOR_ReturnValue_2 = (bool)(KismetMathLibrary.BooleanOR(CallFunc_BooleanOR_ReturnValue_1, CallFunc_EqualEqual_KeyKey_ReturnValue));
+
+        if (CallFunc_BooleanOR_ReturnValue_2) {
+            // Block 2
+            this.ScrollHeld();
+
+        }
+
+
+        // Block 3
+        OnPreviewKeyDown_403: CallFunc_Unhandled_ReturnValue = WidgetBlueprintLibrary.Unhandled();
+        ReturnValue = CallFunc_Unhandled_ReturnValue;
+        return ReturnValue;
+
+    }
+
+    [BlueprintCosmetic, Event, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public override void OnKeyUp([BlueprintVisible, BlueprintReadOnly] Struct<Geometry> MyGeometry, [BlueprintVisible, BlueprintReadOnly] Struct<KeyEvent> InKeyEvent, [Return] out Struct<EventReply> ReturnValue) {
+        // Locals
+        Struct<Key> CallFunc_GetKey_ReturnValue;
+        Struct<EventReply> CallFunc_Unhandled_ReturnValue;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue_1;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue_2;
+        bool CallFunc_EqualEqual_KeyKey_ReturnValue_3;
+        bool CallFunc_BooleanOR_ReturnValue;
+        bool CallFunc_BooleanOR_ReturnValue_1;
+        bool CallFunc_BooleanOR_ReturnValue_2;
+
+        // Block 1
+        CallFunc_GetKey_ReturnValue = KismetInputLibrary.GetKey(InKeyEvent);
+        CallFunc_EqualEqual_KeyKey_ReturnValue = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_LeftStick_Right"))));
+        CallFunc_EqualEqual_KeyKey_ReturnValue_1 = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_LeftStick_Left"))));
+        CallFunc_EqualEqual_KeyKey_ReturnValue_2 = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_DPad_Left"))));
+        CallFunc_EqualEqual_KeyKey_ReturnValue_3 = (bool)(KismetInputLibrary.EqualEqual_KeyKey(CallFunc_GetKey_ReturnValue, EX_StructConst(Key, 32, EX_NameConst("Gamepad_DPad_Right"))));
+        CallFunc_BooleanOR_ReturnValue = (bool)(KismetMathLibrary.BooleanOR(CallFunc_EqualEqual_KeyKey_ReturnValue_2, CallFunc_EqualEqual_KeyKey_ReturnValue_3));
+        CallFunc_BooleanOR_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanOR(CallFunc_BooleanOR_ReturnValue, CallFunc_EqualEqual_KeyKey_ReturnValue_1));
+        CallFunc_BooleanOR_ReturnValue_2 = (bool)(KismetMathLibrary.BooleanOR(CallFunc_BooleanOR_ReturnValue_1, CallFunc_EqualEqual_KeyKey_ReturnValue));
+
+        if (CallFunc_BooleanOR_ReturnValue_2) {
+            // Block 2
+            this.ScrollReleased();
+
+        }
+
+
+        // Block 3
+        OnKeyUp_403: CallFunc_Unhandled_ReturnValue = WidgetBlueprintLibrary.Unhandled();
+        ReturnValue = CallFunc_Unhandled_ReturnValue;
+        return ReturnValue;
+
+    }
+
+}

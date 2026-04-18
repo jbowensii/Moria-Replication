@@ -114,6 +114,18 @@
 		{
 			"Name": "SignificanceManager",
 			"Enabled": true
+		},
+		{
+			"Name": "JsonAsAsset",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	]
 }

@@ -1,0 +1,1387 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetAutoActivate();
+    [UnknownSignature, VirtualFunction] public virtual void Deactivate();
+}
+
+[Import("/Script/Niagara")]
+public static class NiagaraFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void SpawnSystemAtLocation();
+}
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter : Character {
+    public Object GetCharacterName;
+    public Object GetModularMesh;
+    [UnknownSignature, FinalFunction] public sealed void SetShadowCapsulesEnabled();
+    [UnknownSignature, VirtualFunction] public virtual void AddGameplayTags();
+    [UnknownSignature, VirtualFunction] public virtual void RemoveGameplayTags();
+}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public CustomizationManager Default__CustomizationManager;
+
+[Import("/Script/Moria")]
+public class Default__MorCharacter {
+    public Object AkComponent_Voice;
+    public Object SoundComp;
+    public Object CollisionCylinder;
+    public Object AttributeSet;
+    public Object BodyFSMComp;
+    public Object ParkourComp;
+    public Object DefaultTargetableComp;
+    public Object TargetingComp;
+    public Object ModularCharacterComponent;
+    public Object ComponentReplicator;
+    public Object `Character Despawn FX`;
+    public Object CharMoveComp;
+    public Object EquipComp;
+    public Object EquipOverrideComponent;
+    public Object AbilitySystem;
+    public Object InventoryComp;
+    public Object PersonalityComponent;
+    public Object CharacterMesh0;
+    public Object VoiceComponent;
+}
+
+[Import("/Script/Moria")]
+public MorDwarfWaterFXComponent Default__MorDwarfWaterFXComponent;
+
+[Import("/Script/Moria")]
+public MorViewTrigger Default__MorViewTrigger;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public class MorAISenseConfig_Torch {}
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorCharacterState_Hide {}
+
+[Import("/Script/Moria")]
+public class MorCondition_IsAbilityActive {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public static class BlueprintGameplayTagLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralGameplayTagContainer();
+}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKBaseCharacter {
+    [UnknownSignature, FinalFunction] public sealed void AttachToSocket();
+}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public Object EModularCharacterSlot;
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Shout {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_HasTags {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsDead {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetAttachedActors();
+    [UnknownSignature, FinalFunction] public sealed void GetComponentByClass();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    public Object UserConstructionScript;
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class Character : Actor {
+    public MeshComponent Mesh;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void BeginDeferredActorSpawnFromClass();
+    [UnknownSignature, MathFunction] public static sealed void FinishSpawningActor();
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BreakRotator();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MakeRotator();
+    [UnknownSignature, MathFunction] public static sealed void MakeTransform();
+    [UnknownSignature, MathFunction] public static sealed void Multiply_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public static class KismetTextLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_TextToString();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {}
+
+[Import("/Script/Engine")]
+public class MeshComponent : SkinnedMeshComponent {
+    [UnknownSignature, VirtualFunction] public virtual void GetSocketLocation();
+    [UnknownSignature, VirtualFunction] public virtual void GetSocketRotation();
+}
+
+[Import("/Script/Engine")]
+public class PrimitiveComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetCastShadow();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent : SkinnedMeshComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetScalarParameterValueOnMaterials();
+}
+
+[Import("/Script/Engine")]
+public class SkinnedMeshComponent : PrimitiveComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetSocketBoneName();
+    [UnknownSignature, FinalFunction] public sealed void SetMasterPoseComponent();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class DecalComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Rotator;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class TextProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Script/AIModule")]
+public AIPerceptionStimuliSourceComponent Default__AIPerceptionStimuliSourceComponent;
+
+[Import("/Script/AIModule")]
+public class AIPerceptionStimuliSourceComponent {}
+
+[Import("/Script/AIModule")]
+public class AISense_Sight {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Damage {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Hearing {}
+
+[Import("/Script/AIModule")]
+public class AISenseConfig_Sight {}
+
+[Import("/Script/AIModule")]
+public class PawnActionsComponent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Game/FX/GeneralTesting/Geometry/ArcadeEditorSphere")]
+public StaticMesh ArcadeEditorSphere;
+
+
+[Import("/Engine/EditorMeshes/ArcadeEditorSphere")]
+public StaticMesh ArcadeEditorSphere;
+
+
+[Import("/Game/Unshippable/GoblinPrepro/GoblinRetarget/Goblin_Blockmesh")]
+public SkeletalMesh Goblin_Blockmesh;
+
+
+[Import("/Game/Art/PhysMats/PM_flesh_orc")]
+public PhysicalMaterial PM_flesh_orc;
+
+
+[Import("/Game/Tech/Data/DataAssets/PI_Goblin_Patrol")]
+public PersonalityInfo PI_Goblin_Patrol;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Splash1")]
+public NiagaraSystem NS_CamsWater_Splash1;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_PuddleSplash")]
+public NiagaraSystem NS_CamsWater_PuddleSplash;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Plunge1")]
+public NiagaraSystem NS_CamsWater_Plunge1;
+
+
+[Import("/Game/FX/WaterInteraction/Niagara/NS_CamsWater_Breach1")]
+public NiagaraSystem NS_CamsWater_Breach1;
+
+
+[Import("/Game/FX/OrcDigDespawn/NS_OrcDespawnDirtBursts")]
+public NiagaraSystem NS_OrcDespawnDirtBursts;
+
+
+[Import("/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX")]
+public NiagaraSystem NS_EnemyDespawnFX;
+
+
+[Import("/Game/Character/Orcs/Goblins/DA_Goblin_AISettings")]
+public MorAISettings DA_Goblin_AISettings;
+
+
+[Import("/Game/Unshippable/GoblinPrepro/MI_Goblin")]
+public MaterialInstanceConstant MI_Goblin;
+
+
+[Import("/Game/Character/Orcs/Goblins/DA_Goblin_CharacterData")]
+public FGKCharacterData DA_Goblin_CharacterData;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Voices")]
+public DataTable DT_CC_Voices;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooTextures")]
+public DataTable DT_CC_TattooTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_TattooColors")]
+public DataTable DT_CC_TattooColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_SkinColors")]
+public DataTable DT_CC_SkinColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_ScarTextures")]
+public DataTable DT_CC_ScarTextures;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_PresetCharacters")]
+public DataTable DT_CC_PresetCharacters;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Personalities")]
+public DataTable DT_CC_Personalities;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Origins")]
+public DataTable DT_CC_Origins;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Heads")]
+public DataTable DT_CC_Heads;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_HairColors")]
+public DataTable DT_CC_HairColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Hair")]
+public DataTable DT_CC_Hair;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_EyeColors")]
+public DataTable DT_CC_EyeColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftTorsos")]
+public DataTable DT_CC_CraftTorsos;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Crafts")]
+public DataTable DT_CC_Crafts;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftHelmets")]
+public DataTable DT_CC_CraftHelmets;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftGloves")]
+public DataTable DT_CC_CraftGloves;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftBoots")]
+public DataTable DT_CC_CraftBoots;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Bodies")]
+public DataTable DT_CC_Bodies;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Beards")]
+public DataTable DT_CC_Beards;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BeardDecorationColors")]
+public DataTable DT_CC_BeardDecorationColors;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_Backpacks")]
+public DataTable DT_CC_Backpacks;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_BackpackColors")]
+public DataTable DT_CC_BackpackColors;
+
+
+[Import("/Game/FX/CharacterDespawn/LinearCurve")]
+public CurveFloat LinearCurve;
+
+
+[Import("/Game/Character/Shared/Curve_PhysicsHitReactWeightOverTime")]
+public CurveFloat Curve_PhysicsHitReactWeightOverTime;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/FX/OrcDigDespawn/BP_Decal_DiggingHole")]
+public class BP_Decal_DiggingHole_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TimelineTemplate Timeline_0_Template;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/FX/OrcDigDespawn/BP_Decal_DiggingHole")]
+public class Default__BP_Decal_DiggingHole_C {
+    public DecalComponent NewDecalComponent;
+}
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Orc")]
+public class GE_Starting_Orc_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Orc")]
+public GE_Starting_Orc_C Default__GE_Starting_Orc_C;
+
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body_Humanoid")]
+public class CSt_Body_Humanoid_C {}
+
+[Import("/Game/Character/Shared/CharacterStates/CSt_Body_Humanoid")]
+public class Default__CSt_Body_Humanoid_C {
+    public FGKCondition_HasTags FGKCondition_HasTags_0;
+    public FGKCondition_HasTags FGKCondition_HasTags_1;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_0;
+    public FGKCondition_IsChildDone FGKCondition_IsChildDone_1;
+    public FGKCondition_IsDead FGKCondition_IsDead_0;
+    public FGKCondition_IsDead FGKCondition_IsDead_1;
+    public MorCharacterState_Hide MorCharacterState_Hide_0;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_1;
+    public MorCondition_IsAbilityActive MorCondition_IsAbilityActive_2;
+}
+
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public class BP_SphereHitDetector_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SphereComponent Sphere_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public SphereComponent Sphere;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Character/Shared/BP_SphereHitDetector")]
+public BP_SphereHitDetector_C Default__BP_SphereHitDetector_C;
+
+
+[Import("/Game/Character/Shared/BP_CharacterFallComponent_Enemy")]
+public class BP_CharacterFallComponent_Enemy_C {}
+
+[Import("/Game/Character/Shared/BP_CharacterFallComponent_Enemy")]
+public BP_CharacterFallComponent_Enemy_C Default__BP_CharacterFallComponent_Enemy_C;
+
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/GA_Orc_Despawn")]
+public class GA_Orc_Despawn_C {}
+
+[Import("/Game/Character/Orcs/Orcs/Abilities/GA_Orc_Despawn")]
+public GA_Orc_Despawn_C Default__GA_Orc_Despawn_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_R")]
+public class GA_Reaction_Goblin_Stagger_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_R")]
+public GA_Reaction_Goblin_Stagger_R_C Default__GA_Reaction_Goblin_Stagger_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_L")]
+public class GA_Reaction_Goblin_Stagger_L_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_L")]
+public GA_Reaction_Goblin_Stagger_L_C Default__GA_Reaction_Goblin_Stagger_L_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_F")]
+public class GA_Reaction_Goblin_Stagger_F_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_F")]
+public GA_Reaction_Goblin_Stagger_F_C Default__GA_Reaction_Goblin_Stagger_F_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_B")]
+public class GA_Reaction_Goblin_Stagger_B_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Stagger_B")]
+public GA_Reaction_Goblin_Stagger_B_C Default__GA_Reaction_Goblin_Stagger_B_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_R")]
+public class GA_Reaction_Goblin_Light_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_R")]
+public GA_Reaction_Goblin_Light_R_C Default__GA_Reaction_Goblin_Light_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_L")]
+public class GA_Reaction_Goblin_Light_L_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_L")]
+public GA_Reaction_Goblin_Light_L_C Default__GA_Reaction_Goblin_Light_L_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_F_VarB")]
+public class GA_Reaction_Goblin_Light_F_VarB_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_F_VarB")]
+public GA_Reaction_Goblin_Light_F_VarB_C Default__GA_Reaction_Goblin_Light_F_VarB_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_F_VarA")]
+public class GA_Reaction_Goblin_Light_F_VarA_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_F_VarA")]
+public GA_Reaction_Goblin_Light_F_VarA_C Default__GA_Reaction_Goblin_Light_F_VarA_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_B")]
+public class GA_Reaction_Goblin_Light_B_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Light_B")]
+public GA_Reaction_Goblin_Light_B_C Default__GA_Reaction_Goblin_Light_B_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_R")]
+public class GA_Reaction_Goblin_KOHeavy_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_R")]
+public GA_Reaction_Goblin_KOHeavy_R_C Default__GA_Reaction_Goblin_KOHeavy_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_L")]
+public class GA_Reaction_Goblin_KOHeavy_L_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_L")]
+public GA_Reaction_Goblin_KOHeavy_L_C Default__GA_Reaction_Goblin_KOHeavy_L_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_F")]
+public class GA_Reaction_Goblin_KOHeavy_F_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_F")]
+public GA_Reaction_Goblin_KOHeavy_F_C Default__GA_Reaction_Goblin_KOHeavy_F_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_B")]
+public class GA_Reaction_Goblin_KOHeavy_B_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KOHeavy_B")]
+public GA_Reaction_Goblin_KOHeavy_B_C Default__GA_Reaction_Goblin_KOHeavy_B_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_R")]
+public class GA_Reaction_Goblin_KO_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_R")]
+public GA_Reaction_Goblin_KO_R_C Default__GA_Reaction_Goblin_KO_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_L")]
+public class GA_Reaction_Goblin_KO_L_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_L")]
+public GA_Reaction_Goblin_KO_L_C Default__GA_Reaction_Goblin_KO_L_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_F")]
+public class GA_Reaction_Goblin_KO_F_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_F")]
+public GA_Reaction_Goblin_KO_F_C Default__GA_Reaction_Goblin_KO_F_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_B")]
+public class GA_Reaction_Goblin_KO_B_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_KO_B")]
+public GA_Reaction_Goblin_KO_B_C Default__GA_Reaction_Goblin_KO_B_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_R")]
+public class GA_Reaction_Goblin_Kill_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_R")]
+public GA_Reaction_Goblin_Kill_R_C Default__GA_Reaction_Goblin_Kill_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_L")]
+public class GA_Reaction_Goblin_Kill_L_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_L")]
+public GA_Reaction_Goblin_Kill_L_C Default__GA_Reaction_Goblin_Kill_L_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_F")]
+public class GA_Reaction_Goblin_Kill_F_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_F")]
+public GA_Reaction_Goblin_Kill_F_C Default__GA_Reaction_Goblin_Kill_F_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_B")]
+public class GA_Reaction_Goblin_Kill_B_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Kill_B")]
+public GA_Reaction_Goblin_Kill_B_C Default__GA_Reaction_Goblin_Kill_B_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_HeavyKnockback_F_VarB")]
+public class GA_Reaction_Goblin_HeavyKnockback_F_VarB_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_HeavyKnockback_F_VarB")]
+public GA_Reaction_Goblin_HeavyKnockback_F_VarB_C Default__GA_Reaction_Goblin_HeavyKnockback_F_VarB_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_R")]
+public class GA_Reaction_Goblin_Heavy_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_R")]
+public GA_Reaction_Goblin_Heavy_R_C Default__GA_Reaction_Goblin_Heavy_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_L")]
+public class GA_Reaction_Goblin_Heavy_L_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_L")]
+public GA_Reaction_Goblin_Heavy_L_C Default__GA_Reaction_Goblin_Heavy_L_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_F_VarA")]
+public class GA_Reaction_Goblin_Heavy_F_VarA_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_F_VarA")]
+public GA_Reaction_Goblin_Heavy_F_VarA_C Default__GA_Reaction_Goblin_Heavy_F_VarA_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_B")]
+public class GA_Reaction_Goblin_Heavy_B_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Reactions/GA_Reaction_Goblin_Heavy_B")]
+public GA_Reaction_Goblin_Heavy_B_C Default__GA_Reaction_Goblin_Heavy_B_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/GA_Summon_Bat")]
+public class GA_Summon_Bat_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/GA_Summon_Bat")]
+public GA_Summon_Bat_C Default__GA_Summon_Bat_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Attacks/GA_Goblin_Attack_UA_Claw_R")]
+public class GA_Goblin_Attack_UA_Claw_R_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Attacks/GA_Goblin_Attack_UA_Claw_R")]
+public GA_Goblin_Attack_UA_Claw_R_C Default__GA_Goblin_Attack_UA_Claw_R_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Attacks/GA_Goblin_Attack_UA_Claw_Frenzy")]
+public class GA_Goblin_Attack_UA_Claw_Frenzy_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Attacks/GA_Goblin_Attack_UA_Claw_Frenzy")]
+public GA_Goblin_Attack_UA_Claw_Frenzy_C Default__GA_Goblin_Attack_UA_Claw_Frenzy_C;
+
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Attacks/GA_Goblin_Attack_Throw_Rock")]
+public class GA_Goblin_Attack_Throw_Rock_C {}
+
+[Import("/Game/Character/Orcs/Goblins/Abilities/Attacks/GA_Goblin_Attack_Throw_Rock")]
+public GA_Goblin_Attack_Throw_Rock_C Default__GA_Goblin_Attack_Throw_Rock_C;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_TurnIP_R90_Montage")]
+public AnimMontage Gob_UA_N_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_TurnIP_R180_Montage")]
+public AnimMontage Gob_UA_N_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_TurnIP_L90_Montage")]
+public AnimMontage Gob_UA_N_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/Goblin/FGKBase/Locomotion/Gob_UA_N_TurnIP_L180_Montage")]
+public AnimMontage Gob_UA_N_TurnIP_L180_Montage;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Foley/fx_plr_itempickup_01_play")]
+public AkAudioEvent fx_plr_itempickup_01_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Equipment/fx_plr_eqp_itembreak_01_play")]
+public AkAudioEvent fx_plr_eqp_itembreak_01_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Universal/Body_Dissolve/fx_npc_uni_body_dissolve_os_play")]
+public AkAudioEvent fx_npc_uni_body_dissolve_os_play;
+
+
+[Import("/Game/Character/Orcs/Goblins/BP_AIController_Goblin")]
+public class BP_AIController_Goblin_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Orcs/Goblins/BP_AIController_Goblin")]
+public class Default__BP_AIController_Goblin_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Orcs/ABP_Orc_Goblin_NoLink")]
+public ABP_Orc_Goblin_NoLink_C Default__ABP_Orc_Goblin_NoLink_C;
+
+[Import("/Game/Character/Orcs/ABP_Orc_Goblin_NoLink")]
+public AnimBlueprintGeneratedClass ABP_Orc_Goblin_NoLink_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Goblin_Base_C : MorCharacter {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorViewTrigger> MorViewTrigger;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Shoulder_L_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Shoulder_R_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Neck Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine3 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine2 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine1 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Foot_L_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> Foot_R_Capsule;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Head Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_R_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_L_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Spine0 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_R_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_R_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Arm_L_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_L_U Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BP_CharacterFallComponent_Enemy_C> BP_CharacterFallComponent_Enemy;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorDwarfWaterFXComponent> MorDwarfWaterFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<CustomizationManager> CustomizationManager;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> `Slot::Chest`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> `Slot::Feet`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> `Slot::Hands`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> `Slot::Head`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> `Slot::Legs`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> GoblinDebug;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AIPerceptionStimuliSourceComponent> AIPerceptionStimuliSource;
+    float Timeline_1_Despawn_1F9C087345C78D59E7E4528816E72D4A;
+    byte Timeline_1__Direction_1F9C087345C78D59E7E4528816E72D4A;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_1;
+    float Timeline_0_Despawn_8366A1134C9EBC94119D80867E7D315B;
+    byte Timeline_0__Direction_8366A1134C9EBC94119D80867E7D315B;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> Timeline_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Head;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> UpperLegs;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Shoulder_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Shoulder_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> UpperArm_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> LowerLegs;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Torso;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> UpperArm_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> LowerArm_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> LowerArm_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Feet;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Pelvis;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Hand_L;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInstanceDynamic> Hand_R;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Text Name;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<Actor> Owner_0;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> LoreRowHandles;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Goblin_Base([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float CallFunc_Multiply_FloatFloat_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        float CallFunc_Multiply_FloatFloat_ReturnValue_1;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        Struct<Vector> CallFunc_GetSocketLocation_ReturnValue;
+        Struct<Rotator> CallFunc_GetSocketRotation_ReturnValue;
+        Struct<Transform> CallFunc_MakeTransform_ReturnValue;
+        float CallFunc_BreakRotator_Roll;
+        float CallFunc_BreakRotator_Pitch;
+        float CallFunc_BreakRotator_Yaw;
+        float CallFunc_Subtract_FloatFloat_ReturnValue;
+        Struct<Rotator> CallFunc_MakeRotator_ReturnValue;
+        Object<Actor> CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_SpawnSystemAtLocation_ReturnValue;
+        Object<BP_Decal_DiggingHole_C> CallFunc_FinishSpawningActor_ReturnValue;
+        Object<MorCharacter> K2Node_ComponentBoundEvent_Character;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Struct<GameplayTagContainer> CallFunc_MakeLiteralGameplayTagContainer_ReturnValue;
+        Struct<GameplayTagContainer> CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_Goblin_Base_15: this.`Toggle Child Actor VFX`(true);
+            EX_PopExecutionFlow();
+
+            // Block 3
+            ExecuteUbergraph_BP_Goblin_Base_31: this.Timeline_1.PlayFromStart();
+            EX_PopExecutionFlow();
+
+            // Block 4
+            ExecuteUbergraph_BP_Goblin_Base_64: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 5
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 6
+            ExecuteUbergraph_BP_Goblin_Base_140: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.LoreRowHandles);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 7
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_Goblin_Base_525);
+
+            // Block 8
+            EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+            K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 9
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+            Default__KismetArrayLibrary.Array_Get(this.LoreRowHandles, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), K2Node_ComponentBoundEvent_Character);
+            EX_PopExecutionFlow();
+
+            // Block 10
+            ExecuteUbergraph_BP_Goblin_Base_525: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto ExecuteUbergraph_BP_Goblin_Base_140;
+
+            // Block 11
+            ExecuteUbergraph_BP_Goblin_Base_599_GoblinWanderDespawn: CallFunc_GetSocketLocation_ReturnValue = this.Mesh.GetSocketLocation(EX_NameConst("Root"));
+            CallFunc_GetSocketRotation_ReturnValue = this.Mesh.GetSocketRotation(EX_NameConst("Root"));
+            KismetMathLibrary.BreakRotator(CallFunc_GetSocketRotation_ReturnValue, CallFunc_BreakRotator_Roll, CallFunc_BreakRotator_Pitch, CallFunc_BreakRotator_Yaw);
+            CallFunc_Subtract_FloatFloat_ReturnValue = KismetMathLibrary.Subtract_FloatFloat(CallFunc_BreakRotator_Yaw, 90f);
+            CallFunc_MakeRotator_ReturnValue = KismetMathLibrary.MakeRotator(0f, 0f, CallFunc_Subtract_FloatFloat_ReturnValue);
+            EX_LetObj(CallFunc_SpawnSystemAtLocation_ReturnValue,NiagaraFunctionLibrary.SpawnSystemAtLocation(this, NS_OrcDespawnDirtBursts, CallFunc_GetSocketLocation_ReturnValue, CallFunc_MakeRotator_ReturnValue, EX_VectorConst(1, 1, 1), false, true, (byte)(0), true));
+            CallFunc_GetSocketLocation_ReturnValue = this.Mesh.GetSocketLocation(EX_NameConst("Root"));
+            CallFunc_MakeTransform_ReturnValue = KismetMathLibrary.MakeTransform(CallFunc_GetSocketLocation_ReturnValue, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1));
+            EX_LetObj(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue,GameplayStatics.BeginDeferredActorSpawnFromClass(this, BP_Decal_DiggingHole_C, CallFunc_MakeTransform_ReturnValue, (byte)(0), this.Owner_0));
+            CallFunc_GetSocketLocation_ReturnValue = this.Mesh.GetSocketLocation(EX_NameConst("Root"));
+            CallFunc_MakeTransform_ReturnValue = KismetMathLibrary.MakeTransform(CallFunc_GetSocketLocation_ReturnValue, EX_RotationConst(0, 0, 0), EX_VectorConst(1, 1, 1));
+            EX_LetObj(CallFunc_FinishSpawningActor_ReturnValue,GameplayStatics.FinishSpawningActor(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, CallFunc_MakeTransform_ReturnValue));
+            EX_LetObj(this.Owner_0,CallFunc_FinishSpawningActor_ReturnValue);
+            this.Timeline_0.PlayFromStart();
+            EX_PopExecutionFlow();
+
+            // Block 12
+            ExecuteUbergraph_BP_Goblin_Base_1334: CallFunc_Multiply_FloatFloat_ReturnValue = KismetMathLibrary.Multiply_FloatFloat(this.Timeline_0_Despawn_8366A1134C9EBC94119D80867E7D315B, 12500f);
+            this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.`Slot::Legs`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.`Slot::Chest`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.`Slot::Head`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.`Slot::Hands`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            this.`Slot::Feet`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue);
+            EX_PopExecutionFlow();
+
+            // Block 13
+            ExecuteUbergraph_BP_Goblin_Base_1701_Timeline_0__UpdateFunc: goto ExecuteUbergraph_BP_Goblin_Base_1334;
+
+            // Block 14
+            ExecuteUbergraph_BP_Goblin_Base_1706_BndEvt__BP_Goblin_Base_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature: goto ExecuteUbergraph_BP_Goblin_Base_64;
+
+            // Block 15
+            ExecuteUbergraph_BP_Goblin_Base_1711_Timeline_0__FinishedFunc: EX_PopExecutionFlow();
+
+            // Block 16
+            ExecuteUbergraph_BP_Goblin_Base_1712_Timeline_1__UpdateFunc: CallFunc_Multiply_FloatFloat_ReturnValue_1 = KismetMathLibrary.Multiply_FloatFloat(this.Timeline_1_Despawn_1F9C087345C78D59E7E4528816E72D4A, 25000f);
+            this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            this.`Slot::Legs`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            this.`Slot::Chest`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            this.`Slot::Head`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            this.`Slot::Hands`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            this.`Slot::Feet`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), CallFunc_Multiply_FloatFloat_ReturnValue_1);
+            EX_PopExecutionFlow();
+
+            // Block 17
+            ExecuteUbergraph_BP_Goblin_Base_2079_Timeline_1__FinishedFunc: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 1E+11f);
+            this.SetShadowCapsulesEnabled(false);
+            this.Mesh.SetCastShadow(false);
+            CallFunc_MakeLiteralGameplayTagContainer_ReturnValue = BlueprintGameplayTagLibrary.MakeLiteralGameplayTagContainer(EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags, EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Condition.Dodging")))));
+            this.AddGameplayTags(CallFunc_MakeLiteralGameplayTagContainer_ReturnValue);
+            this.`Toggle Child Actor VFX`(false);
+            EX_PopExecutionFlow();
+
+            // Block 18
+            ExecuteUbergraph_BP_Goblin_Base_2295_Grendel_GreatLeapDisappear: goto ExecuteUbergraph_BP_Goblin_Base_31;
+
+            // Block 19
+            ExecuteUbergraph_BP_Goblin_Base_2300_Grendel_GreatLeapAppear: this.Mesh.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 0f);
+            this.`Slot::Legs`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 0f);
+            this.`Slot::Chest`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 0f);
+            this.`Slot::Head`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 0f);
+            this.`Slot::Hands`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 0f);
+            this.`Slot::Feet`.SetScalarParameterValueOnMaterials(EX_NameConst("DigDespawnScalar"), 0f);
+            this.SetShadowCapsulesEnabled(true);
+            this.Mesh.SetCastShadow(true);
+            CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_1 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTagContainer(EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags, EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Condition.Dodging")))));
+            this.RemoveGameplayTags(CallFunc_MakeLiteralGameplayTagContainer_ReturnValue_1);
+            goto ExecuteUbergraph_BP_Goblin_Base_15;
+
+        }
+
+
+        // Block 20
+        ExecuteUbergraph_BP_Goblin_Base_2755:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void Grendel_GreatLeapAppear() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_2300_Grendel_GreatLeapAppear);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void Grendel_GreatLeapDisappear() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_2295_Grendel_GreatLeapDisappear);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Goblin_Base_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Character", Character);
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_1706_BndEvt__BP_Goblin_Base_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void GoblinWanderDespawn() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_599_GoblinWanderDespawn);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_1712_Timeline_1__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_1__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_2079_Timeline_1__FinishedFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_1701_Timeline_0__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void Timeline_0__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_Goblin_Base(ExecuteUbergraph_BP_Goblin_Base_1711_Timeline_0__FinishedFunc);
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent]
+    public override void UserConstructionScript() {
+        // Block 1
+        this.SetMasterPoseComponentForParts();
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    protected override void GetModularMesh([BlueprintVisible, BlueprintReadOnly] Enum Slot, [Return, InstancedReference] out Object<SkeletalMeshComponent> ReturnValue) {
+        // Locals
+        Enum Temp_byte_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_1;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_2;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_3;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_4;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_5;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_6;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_7;
+        [InstancedReference] Object<SkeletalMeshComponent> Temp_object_Variable_8;
+        [InstancedReference] Object<SkeletalMeshComponent> K2Node_Select_Default;
+
+        // Block 1
+        Temp_byte_Variable = Slot;
+        EX_LetObj(Temp_object_Variable,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_1,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_2,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_3,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_4,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_5,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_6,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_7,EX_NoObject());
+        EX_LetObj(Temp_object_Variable_8,EX_NoObject());
+        EX_LetObj(ReturnValue,EX_SwitchValue(386, Temp_byte_Variable, K2Node_Select_Default, (byte)(0), 167, Temp_object_Variable_8, (byte)(1), 182, Temp_object_Variable_7, (byte)(2), 197, this.`Slot::Head`, (byte)(3), 212, this.`Slot::Chest`, (byte)(4), 227, Temp_object_Variable_6, (byte)(5), 242, this.`Slot::Legs`, (byte)(6), 257, Temp_object_Variable_5, (byte)(7), 272, Temp_object_Variable_4, (byte)(8), 287, Temp_object_Variable_3, (byte)(9), 302, this.`Slot::Hands`, (byte)(10), 317, Temp_object_Variable_2, (byte)(11), 332, Temp_object_Variable_1, (byte)(12), 347, this.`Slot::Feet`, (byte)(13), 362, Temp_object_Variable, (byte)(14), 377, this.Mesh));
+        return ReturnValue;
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void SetMasterPoseComponentForParts() {
+        // Block 1
+        this.`Slot::Head`.SetMasterPoseComponent(this.Mesh, false);
+        this.`Slot::Chest`.SetMasterPoseComponent(this.Mesh, false);
+        this.`Slot::Legs`.SetMasterPoseComponent(this.Mesh, false);
+        this.`Slot::Hands`.SetMasterPoseComponent(this.Mesh, false);
+        this.`Slot::Feet`.SetMasterPoseComponent(this.Mesh, false);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetCharacterName([BlueprintVisible, BlueprintReadOnly] bool bUseUGC, [Return] out string ReturnValue) {
+        // Locals
+        string CallFunc_Conv_TextToString_ReturnValue;
+
+        // Block 1
+        CallFunc_Conv_TextToString_ReturnValue = KismetTextLibrary.Conv_TextToString(this.Name);
+        ReturnValue = CallFunc_Conv_TextToString_ReturnValue;
+        return ReturnValue;
+
+    }
+
+    [Event, BlueprintCallable, BlueprintEvent, Const]
+    public override void AttachToSocket([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<SceneComponent> ChildComponent, [BlueprintVisible, BlueprintReadOnly] Name SocketName) {
+        // Locals
+        Name CallFunc_GetSocketBoneName_ReturnValue;
+
+        // Block 1
+        CallFunc_GetSocketBoneName_ReturnValue = this.Mesh.GetSocketBoneName(SocketName);
+        this.AttachToSocket(ChildComponent, CallFunc_GetSocketBoneName_ReturnValue);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void `Toggle Child Actor VFX`([BlueprintVisible, BlueprintReadOnly] bool IsON) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        ref Array<Object<Actor>> CallFunc_GetAttachedActors_OutActors;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<Actor> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        [InstancedReference] Object<NiagaraComponent> CallFunc_GetComponentByClass_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+
+        while (true) {
+            // Block 1
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            `Toggle Child Actor VFX_51`: CallFunc_GetAttachedActors_OutActors = new[] {};
+            this.GetAttachedActors(CallFunc_GetAttachedActors_OutActors, true);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAttachedActors_OutActors);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 3
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(`Toggle Child Actor VFX_594`);
+
+            // Block 4
+            CallFunc_GetAttachedActors_OutActors = new[] {};
+            this.GetAttachedActors(CallFunc_GetAttachedActors_OutActors, true);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAttachedActors_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,CallFunc_Array_Get_Item.GetComponentByClass(NiagaraComponent));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetComponentByClass_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 5
+
+            if (IsON) {
+                // Block 6
+                CallFunc_GetAttachedActors_OutActors = new[] {};
+                this.GetAttachedActors(CallFunc_GetAttachedActors_OutActors, true);
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAttachedActors_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,CallFunc_Array_Get_Item.GetComponentByClass(NiagaraComponent));
+                CallFunc_GetComponentByClass_ReturnValue.SetAutoActivate(true);
+                break;
+
+                // Block 7
+                `Toggle Child Actor VFX_594`: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+                Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+                goto `Toggle Child Actor VFX_51`;
+
+            }
+
+
+            // Block 8
+            `Toggle Child Actor VFX_668`: CallFunc_GetAttachedActors_OutActors = new[] {};
+            this.GetAttachedActors(CallFunc_GetAttachedActors_OutActors, true);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAttachedActors_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,CallFunc_Array_Get_Item.GetComponentByClass(NiagaraComponent));
+            CallFunc_GetComponentByClass_ReturnValue.Deactivate();
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 9
+        `Toggle Child Actor VFX_846`:
+
+    }
+
+}

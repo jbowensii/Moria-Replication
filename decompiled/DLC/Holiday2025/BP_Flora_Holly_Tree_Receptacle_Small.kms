@@ -1,0 +1,140 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public class NiagaraDataInterfaceColorCurve {}
+
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/DLC/Holiday2025/Flora/Flora_Holly_Tree_Young")]
+public StaticMesh Flora_Holly_Tree_Young;
+
+
+[Import("/Game/DLC/Holiday2025/Flora/Flora_Holly_Tree_Sapling")]
+public StaticMesh Flora_Holly_Tree_Sapling;
+
+
+[Import("/Game/DLC/Holiday2025/Flora/Flora_Holly_Tree_Middle")]
+public StaticMesh Flora_Holly_Tree_Middle;
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Tree_ReceptacleBase")]
+public class BP_Flora_Tree_ReceptacleBase_C {
+    public FGKActorFSMComponent FSM_GEN_VARIABLE;
+    public FGKAkComponent FGKAk_GEN_VARIABLE;
+    public FGKTargetableComponent FGKTargetable_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Goblin_Camp_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Goblin_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Laze_Warg_Camp_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Orc_Camp_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public MorBreakableMeshPiece Growing_GEN_VARIABLE;
+    public MorBreakableMeshPiece Ready_GEN_VARIABLE;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler_GEN_VARIABLE;
+    public NiagaraComponent `Growth Stage Changed VFX_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent EmptyMesh_GEN_VARIABLE;
+    public StaticMeshComponent Mesh_GEN_VARIABLE;
+    public StaticMeshComponent Sprout_GEN_VARIABLE;
+    public FGKActorFSMComponent FSM;
+    public FGKAkComponent FGKAk;
+    public FGKTargetableComponent FGKTargetable;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Goblin_Camp;
+    public MorAIBehaviorPointComponent BehaviorPoint_Gather_Goblin;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Laze_Warg_Camp;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Orc_Camp;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public MorBreakableMeshPiece Growing;
+    public MorBreakableMeshPiece Ready;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler;
+    public NiagaraComponent `Growth Stage Changed VFX`;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent EmptyMesh;
+    public StaticMeshComponent Mesh;
+    public StaticMeshComponent Sprout;
+}
+
+[Import("/Game/LevelDesign/Placeables/Containers/Flora/Trees/BP_Flora_Tree_ReceptacleBase")]
+public class Default__BP_Flora_Tree_ReceptacleBase_C {
+    public BoxComponent InteractCollider;
+    public MorBreakableComponent Breakable;
+    public MorInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Flora_Holly_Tree_Receptacle_Small_C : BP_Flora_Tree_ReceptacleBase_C {
+}

@@ -8,6 +8,24 @@
 #include "HAL/FileManager.h"
 #include "Misc/Paths.h"
 
+/* SEH wrapper — must be in a separate function because MSVC forbids __try in
+   functions that have C++ objects with destructors (TArray, FString, etc.) */
+static bool SafeImportJson(TArray<TSharedPtr<FJsonValue>>& DataObjects, const FString& FilePath, DWORD& OutExceptionCode)
+{
+	OutExceptionCode = 0;
+	__try
+	{
+		IImporter* Importer = nullptr;
+		bool bResult = IImportReader::ReadExportsAndImport(DataObjects, FilePath, Importer, true);
+		return bResult && Importer != nullptr;
+	}
+	__except(EXCEPTION_EXECUTE_HANDLER)
+	{
+		OutExceptionCode = GetExceptionCode();
+		return false;
+	}
+}
+
 UBatchImportCommandlet::UBatchImportCommandlet()
 {
 	IsClient = false;
@@ -57,11 +75,14 @@ int32 UBatchImportCommandlet::Main(const FString& Params)
 	/* -save switch */
 	bool bSaveAssets = Switches.Contains(TEXT("save"));
 
+	/* -cloud switch — enable Cloud Server for resolving textures/meshes */
+	bool bUseCloud = Switches.Contains(TEXT("cloud"));
+
 	/* Configure JsonAsAsset settings */
 	UJsonAsAssetSettings* Settings = GetSettings();
 	Settings->AssetSettings.ProjectName = ProjectName;
 	Settings->AssetSettings.SaveAssets = bSaveAssets;
-	Settings->EnableCloudServer = false; /* Don't use Cloud for local file import */
+	Settings->EnableCloudServer = bUseCloud;
 	SavePluginSettings(Settings);
 
 	/* Set the export directory for path resolution */
@@ -101,7 +122,7 @@ int32 UBatchImportCommandlet::Main(const FString& Params)
 
 		UE_LOG(LogJsonAsAsset, Display, TEXT("BatchImport: [%d/%d] Importing: %s"), i + 1, JsonFiles.Num(), *RelativePath);
 
-		/* Deserialize and import */
+		/* Deserialize and import — wrapped in SEH to survive ensure/check failures */
 		TArray<TSharedPtr<FJsonValue>> DataObjects;
 		if (!DeserializeJSON(FilePath, DataObjects))
 		{
@@ -110,10 +131,15 @@ int32 UBatchImportCommandlet::Main(const FString& Params)
 			continue;
 		}
 
-		IImporter* Importer = nullptr;
-		bool bResult = IImportReader::ReadExportsAndImport(DataObjects, FilePath, Importer, true /* HideNotifications */);
+		DWORD ExceptionCode = 0;
+		bool bImportOk = SafeImportJson(DataObjects, FilePath, ExceptionCode);
 
-		if (bResult && Importer != nullptr)
+		if (ExceptionCode != 0)
+		{
+			UE_LOG(LogJsonAsAsset, Error, TEXT("BatchImport: SEH exception importing: %s (code 0x%08X) — skipping"), *RelativePath, ExceptionCode);
+		}
+
+		if (bImportOk)
 		{
 			SuccessCount++;
 		}

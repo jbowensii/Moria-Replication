@@ -1,0 +1,73 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class InscribedRuneComponent {}
+
+[Import("/Script/Moria")]
+public class MorAmmo {}
+
+[Import("/Script/Moria")]
+public class Default__MorAmmo {
+    public Object `Callout Data`;
+    public Object InscribedRune;
+    public Object RibbonTrails;
+    public Object Root;
+}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Crossbow/fx_plr_wpn_crossbow_fire_arrow_impact_os_play")]
+public AkAudioEvent fx_plr_wpn_crossbow_fire_arrow_impact_os_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Arrow/fx_plr_wpn_arrow_fly_lp_stop")]
+public AkAudioEvent fx_plr_wpn_arrow_fly_lp_stop;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Player/Weapons/Arrow/fx_plr_wpn_arrow_fly_lp_play")]
+public AkAudioEvent fx_plr_wpn_arrow_fly_lp_play;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference] abstract
+class BP_Category_Ammo_C : MorAmmo {
+}

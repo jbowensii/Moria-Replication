@@ -1,0 +1,246 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/Moria")]
+public class DecorationBlockingComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent : SceneComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorContainerInstanceSetupComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorTreasureComponent {}
+
+[Import("/Script/Moria")]
+public MorBreakableComponent Default__MorBreakableComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableFXComponent Default__MorBreakableFXComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetComponentLocation();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkGameplayStatics Default__AkGameplayStatics;
+
+[Import("/Script/AkAudio")]
+public class AkGameplayStatics {
+    [UnknownSignature, FinalFunction] public sealed void PostEventAtLocation();
+}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/Interactables")]
+public StringTable Interactables;
+
+
+[Import("/Game/DLC/Holiday2025/Deco/SM_SnowMoundPresent_A")]
+public StaticMesh SM_SnowMoundPresent_A;
+
+
+[Import("/Engine/BasicShapes/Cone")]
+public StaticMesh Cone;
+
+
+[Import("/Game/FX/TreasurePileDestructionFX/NS_TreasurePileDestruction_Large")]
+public NiagaraSystem NS_TreasurePileDestruction_Large;
+
+
+[Import("/Game/FX/Construction/Niagara/NS_CraftingStationPuff_RoundMedium")]
+public NiagaraSystem NS_CraftingStationPuff_RoundMedium;
+
+
+[Import("/Game/Character/Shared/Effects/TreasurePileBuffs/Curve_StacksToTreasureScore_LgPIle")]
+public CurveFloat Curve_StacksToTreasureScore_LgPIle;
+
+
+[Import("/Game/LevelDesign/Placeables/Containers/TreasurePile_Base")]
+public class TreasurePile_Base_C {
+    public ArrowComponent FirstItemVector1_GEN_VARIABLE;
+    public ArrowComponent FirstItemVector2_GEN_VARIABLE;
+    public ArrowComponent FirstItemVector3_GEN_VARIABLE;
+    public ArrowComponent FirstItemVector4_GEN_VARIABLE;
+    public ArrowComponent FirstItemVector_GEN_VARIABLE;
+    public FGKActorFSMComponent FSM_GEN_VARIABLE;
+    public MorContainerInstanceSetupComponent MorContainerInstanceSetup_GEN_VARIABLE;
+    public NiagaraComponent NS_PlaceableObjectPuff_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent TreasurePileMeshes_GEN_VARIABLE;
+    public SceneComponent UniqueItemsRoot_GEN_VARIABLE;
+    public StaticMeshComponent FootprintBounds_GEN_VARIABLE;
+    public StaticMeshComponent SM_Coin_Pile_02g_GEN_VARIABLE;
+    public TimelineTemplate ScaleIncrease_Template;
+    public ArrowComponent FirstItemVector1;
+    public ArrowComponent FirstItemVector2;
+    public ArrowComponent FirstItemVector3;
+    public ArrowComponent FirstItemVector4;
+    public ArrowComponent FirstItemVector;
+    public FGKActorFSMComponent FSM;
+    public MorContainerInstanceSetupComponent MorContainerInstanceSetup;
+    public NiagaraComponent NS_PlaceableObjectPuff;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent TreasurePileMeshes;
+    public SceneComponent UniqueItemsRoot;
+    public StaticMeshComponent FootprintBounds;
+    public StaticMeshComponent SM_Coin_Pile_02g;
+}
+
+[Import("/Game/LevelDesign/Placeables/Containers/TreasurePile_Base")]
+public class Default__TreasurePile_Base_C {
+    public BoxComponent InteractCollider;
+    public MorInventoryComponent InventoryComponent;
+    public MorTreasureComponent TreasureComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/Object_Destruction/Treasure_Pile/fx_env_obj_destruction_treasure_pile_plsy")]
+public AkAudioEvent fx_env_obj_destruction_treasure_pile_plsy;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_SnowPresentPile_A_C : TreasurePile_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> CustomCollision;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> SM_TreasurePile_Large_A8_Breakable;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableFXComponent> MorBreakableFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableComponent> MorBreakable;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<DecorationBlockingComponent> DecorationBlocking1;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_SnowPresentPile_A([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Struct<Vector> CallFunc_K2_GetComponentLocation_ReturnValue;
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+        int CallFunc_PostEventAtLocation_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_SnowPresentPile_A_10_BndEvt__TreasurePile_Coin_Large_MorBreakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature: CallFunc_K2_GetComponentLocation_ReturnValue = this.MorBreakableFX.K2_GetComponentLocation();
+        CallFunc_PostEventAtLocation_ReturnValue = Default__AkGameplayStatics.PostEventAtLocation(fx_env_obj_destruction_treasure_pile_plsy, CallFunc_K2_GetComponentLocation_ReturnValue, EX_RotationConst(0, 0, 0), "", this);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__TreasurePile_Coin_Large_MorBreakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_SnowPresentPile_A(ExecuteUbergraph_BP_SnowPresentPile_A_10_BndEvt__TreasurePile_Coin_Large_MorBreakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+}

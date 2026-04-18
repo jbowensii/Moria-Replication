@@ -1,0 +1,600 @@
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public MorViewTrigger Default__MorViewTrigger;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public class MorAISettings {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorPathFollowingComponent {}
+
+[Import("/Script/Moria")]
+public class MorRecipeCostComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityInfo {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public class FGKAIPatrolComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAIPerceptionComponent {}
+
+[Import("/Script/FGK")]
+public class FGKAISenseConfig_Ping {}
+
+[Import("/Script/FGK")]
+public class FGKAITargetingComponent {}
+
+[Import("/Script/FGK")]
+public class FGKCharacterData {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public TextRenderComponent Default__TextRenderComponent;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+
+[Import("/Game/Tech/Data/StringTables/ST_AiCharacters")]
+public StringTable ST_AiCharacters;
+
+
+[Import("/Engine/EditorMeshes/ArcadeEditorSphere")]
+public StaticMesh ArcadeEditorSphere;
+
+
+[Import("/Game/Character/Creatures/Spider/Spider_Parent")]
+public SkeletalMesh Spider_Parent;
+
+
+[Import("/Game/Art/PhysMats/PM_bone_exoskeleton")]
+public PhysicalMaterial PM_bone_exoskeleton;
+
+
+[Import("/Game/Character/Creatures/Spider/PI_Monster_Spider")]
+public PersonalityInfo PI_Monster_Spider;
+
+
+[Import("/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX")]
+public NiagaraSystem NS_EnemyDespawnFX;
+
+
+[Import("/Game/Character/Creatures/Spider/DA_AISettings_Spider")]
+public MorAISettings DA_AISettings_Spider;
+
+
+[Import("/Game/CharacterArt/Creatures/CaveSpider/MI_LargeSpider")]
+public MaterialInstanceConstant MI_LargeSpider;
+
+
+[Import("/Game/Character/Creatures/Spider/DA_Spider_CharacterData")]
+public FGKCharacterData DA_Spider_CharacterData;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Monster_Spider")]
+public class GE_Starting_Monster_Spider_C {}
+
+[Import("/Game/Character/Shared/Effects/Stats/GE_Starting_Monster_Spider")]
+public GE_Starting_Monster_Spider_C Default__GE_Starting_Monster_Spider_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_Spider_Attack_Ranged")]
+public class GA_Spider_Attack_Ranged_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_Spider_Attack_Ranged")]
+public GA_Spider_Attack_Ranged_C Default__GA_Spider_Attack_Ranged_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_React_Death3")]
+public class GA_CaveSpider_React_Death3_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_React_Death3")]
+public GA_CaveSpider_React_Death3_C Default__GA_CaveSpider_React_Death3_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_R")]
+public class GA_CaveSpider_HitReact_R_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_R")]
+public GA_CaveSpider_HitReact_R_C Default__GA_CaveSpider_HitReact_R_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_L")]
+public class GA_CaveSpider_HitReact_L_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_L")]
+public GA_CaveSpider_HitReact_L_C Default__GA_CaveSpider_HitReact_L_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_F")]
+public class GA_CaveSpider_HitReact_F_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_F")]
+public GA_CaveSpider_HitReact_F_C Default__GA_CaveSpider_HitReact_F_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_B")]
+public class GA_CaveSpider_HitReact_B_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_HitReact_B")]
+public GA_CaveSpider_HitReact_B_C Default__GA_CaveSpider_HitReact_B_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Swipe_R")]
+public class GA_CaveSpider_Attack_Swipe_R_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Swipe_R")]
+public GA_CaveSpider_Attack_Swipe_R_C Default__GA_CaveSpider_Attack_Swipe_R_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Swipe_L")]
+public class GA_CaveSpider_Attack_Swipe_L_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Swipe_L")]
+public GA_CaveSpider_Attack_Swipe_L_C Default__GA_CaveSpider_Attack_Swipe_L_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Lunge_F")]
+public class GA_CaveSpider_Attack_Lunge_F_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Lunge_F")]
+public GA_CaveSpider_Attack_Lunge_F_C Default__GA_CaveSpider_Attack_Lunge_F_C;
+
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Heavy_F")]
+public class GA_CaveSpider_Attack_Heavy_F_C {}
+
+[Import("/Game/Character/Creatures/Spider/Abilities/GA_CaveSpider_Attack_Heavy_F")]
+public GA_CaveSpider_Attack_Heavy_F_C Default__GA_CaveSpider_Attack_Heavy_F_C;
+
+
+[Import("/Game/Animations/Spider/Spd_G_TurnIP_R90_Montage")]
+public AnimMontage Spd_G_TurnIP_R90_Montage;
+
+
+[Import("/Game/Animations/Spider/Spd_G_TurnIP_R180_Montage")]
+public AnimMontage Spd_G_TurnIP_R180_Montage;
+
+
+[Import("/Game/Animations/Spider/Spd_G_TurnIP_L90_Montage")]
+public AnimMontage Spd_G_TurnIP_L90_Montage;
+
+
+[Import("/Game/Animations/Spider/Spd_G_TurnIP_L180_Montage")]
+public AnimMontage Spd_G_TurnIP_L180_Montage;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Universal/Body_Dissolve/fx_npc_uni_body_dissolve_os_play")]
+public AkAudioEvent fx_npc_uni_body_dissolve_os_play;
+
+
+[Import("/Game/Character/Creatures/Spider/BP_Spider_AIController")]
+public class BP_Spider_AIController_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Creatures/Spider/BP_Spider_AIController")]
+public class Default__BP_Spider_AIController_C {
+    public FGKActorFSMComponent BehaviorFSMComp;
+    public FGKAIPatrolComponent PatrolComponent;
+    public FGKAIPerceptionComponent PerceptionComponent;
+    public FGKAITargetingComponent TargetingComponent;
+    public MorPathFollowingComponent PathFollowingComponent;
+    public MorRecipeCostComponent MorRecipeCostComponent;
+    public PawnActionsComponent ActionsComp;
+    public SceneComponent TransformComponent0;
+}
+
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class BP_Fauna_Base_C : Actor {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Creatures/BP_Fauna_Base")]
+public class Default__BP_Fauna_Base_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Import("/Game/Character/Creatures/Spider/ABP_Spider")]
+public ABP_Spider_C Default__ABP_Spider_C;
+
+[Import("/Game/Character/Creatures/Spider/ABP_Spider")]
+public AnimBlueprintGeneratedClass ABP_Spider_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Monster_Spider_C : BP_Fauna_Base_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_L_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_L_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_L_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_R_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_R_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_R_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Back_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_L_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_L_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_L_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_R_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_R_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_R_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M2_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_L_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_L_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_L_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_R_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_R_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_R_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_M1_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_L_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_L_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_L_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_R_05 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_R_04 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_R_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Leg_Front_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Mouth_L Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Mouth_R Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Pedipalp_L_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Pedipalp_L_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Pedipalp_L_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Pedipalp_R_03 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Pedipalp_R_02 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Pedipalp_R_01 Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Cephalothorax Top Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Cephalothorax Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> `Abdomen Capsule`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorViewTrigger> MorViewTrigger;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<TextRenderComponent> TextRender;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row`;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_Monster_Spider([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        int Temp_int_Array_Index_Variable;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MorCharacter> K2Node_ComponentBoundEvent_Character;
+        int Temp_int_Loop_Counter_Variable;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            ExecuteUbergraph_BP_Monster_Spider_15:
+            while (true) {
+                // Block 2
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+                if (!K2Node_DynamicCast_bSuccess) break;
+
+                // Block 3
+                EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+                Default__KismetArrayLibrary.Array_Get(this.`Lore Row`, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), K2Node_ComponentBoundEvent_Character);
+                break;
+
+            }
+
+
+            // Block 4
+            ExecuteUbergraph_BP_Monster_Spider_266: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 5
+            ExecuteUbergraph_BP_Monster_Spider_335: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Lore Row`);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            if (!CallFunc_Less_IntInt_ReturnValue) break;
+
+            // Block 6
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_Monster_Spider_15;
+
+            // Block 7
+            ExecuteUbergraph_BP_Monster_Spider_474: Temp_int_Array_Index_Variable = 0;
+            goto ExecuteUbergraph_BP_Monster_Spider_335;
+
+            // Block 8
+            ExecuteUbergraph_BP_Monster_Spider_502: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 9
+            Temp_int_Loop_Counter_Variable = 0;
+            goto ExecuteUbergraph_BP_Monster_Spider_474;
+
+            // Block 10
+            ExecuteUbergraph_BP_Monster_Spider_560_BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature: goto ExecuteUbergraph_BP_Monster_Spider_502;
+
+        }
+
+
+        // Block 11
+        ExecuteUbergraph_BP_Monster_Spider_565:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Character) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_Character", Character);
+        this.ExecuteUbergraph_BP_Monster_Spider(ExecuteUbergraph_BP_Monster_Spider_560_BndEvt__BP_Fauna_Bear_MorViewTrigger_K2Node_ComponentBoundEvent_0_OnViewed__DelegateSignature);
+
+    }
+
+}

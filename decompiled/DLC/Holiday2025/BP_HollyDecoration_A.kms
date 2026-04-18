@@ -1,0 +1,126 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/DLC/Holiday2025/Deco/SM_Holly_Deco_A")]
+public StaticMesh SM_Holly_Deco_A;
+
+
+[Import("/Game/LevelDesign/Deco/LightFixtures/BP_LightingLamp_A_Player")]
+public class BP_LightingLamp_A_Player_C {
+    public MorBreakableMeshPiece MorBreakableMeshPiece1_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece1;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public MorPointLightComponent MorPointLight;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Deco/LightFixtures/BP_LightingLamp_A_Player")]
+public class Default__BP_LightingLamp_A_Player_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Small_Parent_Breakable")]
+public class BP_DM_Scrap_Small_Parent_Breakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Basic Mesh_GEN_VARIABLE`;
+    public MorBreakableComponent Breakable;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Basic Mesh`;
+}
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Small_Parent_Breakable")]
+public class Default__BP_DM_Scrap_Small_Parent_Breakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_HollyDecoration_A_C : BP_LightingLamp_A_Player_C {
+}

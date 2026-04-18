@@ -1,0 +1,1067 @@
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintLibrary {
+    [UnknownSignature, FinalFunction] public sealed void GetAllWidgetsOfClass();
+}
+
+[Import("/Script/UMG")]
+public WidgetBlueprintLibrary Default__WidgetBlueprintLibrary;
+
+[Import("/Script/UMG")]
+public class WidgetBlueprintGeneratedClass {}
+
+[Import("/Script/UMG")]
+public class WidgetTree {}
+
+
+[Import("/Script/MovieScene")]
+public class MovieSceneSequencePlayer {
+    [UnknownSignature, FinalFunction] public sealed void Play();
+    [UnknownSignature, FinalFunction] public sealed void Stop();
+}
+
+
+[Import("/Script/Moria")]
+public class MorCharacter : Actor {
+    [UnknownSignature, VirtualFunction] public virtual void RemoveGameplayTag();
+    [UnknownSignature, VirtualFunction] public virtual void AddGameplayTag();
+}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public class MoriaHUDWidget : FGKHUD {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public class MorLevelSequenceActor : LevelSequenceActor {}
+
+[Import("/Script/Moria")]
+public class MorOverheadIndicatorComponent : SceneComponent {}
+
+[Import("/Script/Moria")]
+public class MorPlayerController : Controller {
+    public ObjectProperty OnLoadingScreenStateChanged;
+    public ObjectProperty PlayerGuid;
+}
+
+[Import("/Script/Moria")]
+public class MorPostActivateActorInitializer {}
+
+[Import("/Script/Moria")]
+public class MorSaveGameObject {}
+
+[Import("/Script/Moria")]
+public Object LoadingScreenStateChangedSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object ELoadingScreenState;
+
+[Import("/Script/Moria")]
+public Object EMorSaveGameObjectDormancyState;
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorSaveGameObjectFlags;
+
+[Import("/Script/Moria")]
+public Object MorSaveGameObjectId;
+
+[Import("/Script/Moria")]
+public class MorViewTrigger {}
+
+
+[Import("/Script/LevelSequence")]
+public class LevelSequenceActor {
+    [UnknownSignature, FinalFunction] public sealed void GetSequencePlayer();
+}
+
+[Import("/Script/LevelSequence")]
+public class LevelSequencePlayer : MovieSceneSequencePlayer {}
+
+
+[Import("/Script/GameplayTags")]
+public static class BlueprintGameplayTagLibrary {
+    [UnknownSignature, MathFunction] public static sealed void MakeLiteralGameplayTag();
+}
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKHUD {
+    [UnknownSignature, FinalFunction] public sealed void Hide();
+    [UnknownSignature, FinalFunction] public sealed void Show();
+}
+
+
+[Import("/Script/Engine")]
+public Actor Default__Actor;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintSetLibrary Default__BlueprintSetLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetComponentByClass();
+    [UnknownSignature, FinalFunction] public sealed void GetTransform();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetRootComponent();
+    public Object ReceiveBeginPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintSetLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Set_Add();
+    [UnknownSignature, FinalFunction] public sealed void Set_Contains();
+}
+
+[Import("/Script/Engine")]
+public class Controller {
+    [UnknownSignature, FinalFunction] public sealed void K2_GetPawn();
+}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class GameModeBase {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void BeginDeferredActorSpawnFromClass();
+    [UnknownSignature, MathFunction] public static sealed void FinishSpawningActor();
+    [UnknownSignature, MathFunction] public static sealed void GetAllActorsOfClass();
+    [UnknownSignature, MathFunction] public static sealed void GetGameMode();
+    [UnknownSignature, MathFunction] public static sealed void GetObjectClass();
+    [UnknownSignature, MathFunction] public static sealed void GetPlayerController();
+    [UnknownSignature, MathFunction] public static sealed void GetPlayerPawn();
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ObjectObject();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void MakeVector();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ClassClass();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void SetFloatPropertyByName();
+    [UnknownSignature, MathFunction] public static sealed void SetObjectPropertyByName();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {}
+
+[Import("/Script/Engine")]
+public class PlayerController {
+    [UnknownSignature, VirtualFunction] public virtual void DisableInput();
+    [UnknownSignature, VirtualFunction] public virtual void EnableInput();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_SetRelativeLocation();
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class TimelineComponent {
+    [UnknownSignature, FinalFunction] public sealed void PlayFromStart();
+}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+[Import("/Script/Engine")]
+public CurveFloat Default__CurveFloat;
+
+[Import("/Script/Engine")]
+public Object ETimelineDirection;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public TimelineTemplate Default__TimelineTemplate;
+
+[Import("/Script/Engine")]
+public class BillboardComponent {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class TextRenderComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object Guid;
+
+[Import("/Script/CoreUObject")]
+public Object Transform;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class SetProperty {}
+
+
+[Import("/Game/UI/HUD/WBP_MoriaHUD")]
+public WBP_MoriaHUD_C Default__WBP_MoriaHUD_C;
+
+[Import("/Game/UI/HUD/WBP_MoriaHUD")]
+public class WBP_MoriaHUD_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/HUD/Overlays/UI_WBP_SubtitleOverlay")]
+public UI_WBP_SubtitleOverlay_C Default__UI_WBP_SubtitleOverlay_C;
+
+[Import("/Game/UI/HUD/Overlays/UI_WBP_SubtitleOverlay")]
+public class UI_WBP_SubtitleOverlay_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Tech/GameModes/BP_MoriaGameMode")]
+public class BP_MoriaGameMode_C {
+    [UnknownSignature] public  void PlayerJoined__DelegateSignature();
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+    public ObjectProperty PlayerJoined;
+}
+
+[Import("/Game/Tech/GameModes/BP_MoriaGameMode")]
+public BP_MoriaGameMode_C Default__BP_MoriaGameMode_C;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetProgressPure();
+    [UnknownSignature, LocalVirtualFunction] public virtual void ActorIsPlayer();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/Cinematics/BP_GameStartScriptedEventHelper")]
+public class BP_GameStartScriptedEventHelper_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Cinematics/BP_GameStartScriptedEventHelper")]
+public BP_GameStartScriptedEventHelper_C Default__BP_GameStartScriptedEventHelper_C;
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueCueSpotSpawner")]
+public class BP_DialogueCueSpotSpawner_C {
+    public BillboardComponent CueSpotVisual_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public TextRenderComponent TextRender_GEN_VARIABLE;
+    public BillboardComponent CueSpotVisual;
+    public SceneComponent DefaultSceneRoot;
+    public TextRenderComponent TextRender;
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueCueSpotSpawner")]
+public class Default__BP_DialogueCueSpotSpawner_C {
+    public BoxComponent CollisionComp;
+    public MorViewTrigger ViewTrigger;
+    public SceneComponent CueTargetLocation;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_GameStartScriptedEventManager_C : Actor {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    float PlaySequences_UpdateSpeechBubbleZLocation_9A1AE5A74DD073E37929CE8B0C8BF294;
+    byte PlaySequences__Direction_9A1AE5A74DD073E37929CE8B0C8BF294;
+    [BlueprintVisible, InstancedReference] Object<TimelineComponent> PlaySequences;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<MorDiscoveryManager> ProgressManagerRef;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool QuakesActive;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorLevelSequenceActor> RockFallSequenceActorRef;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorLevelSequenceActor> FadeSequenceActorRef;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorLevelSequenceActor> QuakeSequenceActorRef;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<BP_DialogueCueSpotSpawner_C> VORef;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<MorCharacter> Dwarf;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<GameplayTag> WakeupGameplayTag;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool LocallyHasRun;
+    [Edit, BlueprintVisible, DisableEditOnInstance, SaveGame] Set Server_DwarvesThatHavePlayedSequence;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorSaveGameObjectId> SaveGameObjectId;
+    [Edit, BlueprintVisible, DisableEditOnInstance, InstancedReference] Object<WBP_MoriaHUD_C> HUDReference;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> `Lore Row`;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Array<Object<Actor>> BreakableDebris;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> HaveRocksFallen;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_GameStartScriptedEventManager([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        Struct<Vector> CallFunc_MakeVector_ReturnValue;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Array_Index_Variable_1;
+        bool CallFunc_HasAuthority_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int Temp_int_Loop_Counter_Variable_1;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        int Temp_int_Array_Index_Variable_2;
+        Object<MorCharacter> K2Node_CustomEvent_Dwarf_1;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_ActorIsPlayer_IsPlayer;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue_1;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue_1;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue_2;
+        Object<GameModeBase> CallFunc_GetGameMode_ReturnValue;
+        Object<BP_MoriaGameMode_C> K2Node_DynamicCast_AsBP_Moria_Game_Mode;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<PlayerController> K2Node_CustomEvent_PlayerController_1;
+        ref Array<Object<MorPlayerController>> CallFunc_GetAllActorsOfClass_OutActors;
+        Object<MorPlayerController> K2Node_DynamicCast_AsMor_Player_Controller;
+        bool K2Node_DynamicCast_bSuccess_1;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<MorPlayerController> K2Node_CustomEvent_PlayerController;
+        Enum K2Node_CustomEvent_LoadingScreenState;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        Object<Pawn> CallFunc_K2_GetPawn_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess_2;
+        bool CallFunc_Set_Contains_ReturnValue;
+        Object<Pawn> CallFunc_GetPlayerPawn_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        bool CallFunc_EqualEqual_ObjectObject_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue_1;
+        bool CallFunc_IsValid_ReturnValue_1;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue;
+        const Struct<MorSaveGameObjectId> K2Node_Event_NewId;
+        [ContainsInstancedReference] ref Array<Object<MoriaHUDWidget>> CallFunc_GetAllWidgetsOfClass_FoundWidgets;
+        Object<PlayerController> CallFunc_GetPlayerController_ReturnValue;
+        [InstancedReference] Object<MoriaHUDWidget> CallFunc_Array_Get_Item;
+        Class CallFunc_GetObjectClass_ReturnValue;
+        bool CallFunc_NotEqual_ClassClass_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue_1;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue_1;
+        [ContainsInstancedReference] ref Array<Object<MoriaHUDWidget>> CallFunc_GetAllWidgetsOfClass_FoundWidgets_1;
+        Object<PlayerController> CallFunc_GetPlayerController_ReturnValue_1;
+        int CallFunc_Array_Length_ReturnValue_2;
+        int Temp_int_Loop_Counter_Variable_2;
+        bool CallFunc_IsValid_ReturnValue_2;
+        int CallFunc_Add_IntInt_ReturnValue_2;
+        [InstancedReference] Object<MorOverheadIndicatorComponent> CallFunc_GetComponentByClass_ReturnValue;
+        [ContainsInstancedReference] ref Array<Object<MoriaHUDWidget>> CallFunc_GetAllWidgetsOfClass_FoundWidgets_2;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetRelativeLocation_SweepHitResult;
+        [InstancedReference] Object<MoriaHUDWidget> CallFunc_Array_Get_Item_1;
+        int CallFunc_Array_Length_ReturnValue_3;
+        bool CallFunc_Less_IntInt_ReturnValue_1;
+        int Temp_int_Array_Index_Variable_3;
+        Object<MorPlayerController> CallFunc_Array_Get_Item_2;
+        bool CallFunc_IsValid_ReturnValue_3;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue_2;
+        bool CallFunc_IsValid_ReturnValue_4;
+        Struct<GameplayTag> CallFunc_MakeLiteralGameplayTag_ReturnValue_3;
+        Object<MorCharacter> K2Node_CustomEvent_Dwarf;
+        Delegate K2Node_CreateDelegate_OutputDelegate_1;
+        int Temp_int_Array_Index_Variable_4;
+        [InstancedReference] Object<MoriaHUDWidget> CallFunc_Array_Get_Item_3;
+        Object<LevelSequencePlayer> CallFunc_GetSequencePlayer_ReturnValue_3;
+        Object<Actor> CallFunc_Array_Get_Item_4;
+        int CallFunc_Array_Length_ReturnValue_4;
+        [InstancedReference] Object<SceneComponent> CallFunc_K2_GetRootComponent_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue_2;
+        bool CallFunc_IsValid_ReturnValue_5;
+        int Temp_int_Loop_Counter_Variable_3;
+        bool CallFunc_Less_IntInt_ReturnValue_3;
+        int CallFunc_Add_IntInt_ReturnValue_3;
+        bool CallFunc_GetProgressPure_ReturnValue;
+        bool CallFunc_GetProgressPure_ReturnValue_1;
+        const Struct<Transform> CallFunc_GetTransform_ReturnValue;
+        Object<Actor> CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue;
+        int Temp_int_Loop_Counter_Variable_4;
+        bool CallFunc_Less_IntInt_ReturnValue_4;
+        int CallFunc_Add_IntInt_ReturnValue_4;
+        Object<BP_GameStartScriptedEventHelper_C> CallFunc_FinishSpawningActor_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_2;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_15_PlaySequences__FinishedFunc: EX_PopExecutionFlow();
+
+            // Block 3
+            EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue_2,this.QuakeSequenceActorRef.GetSequencePlayer());
+            CallFunc_GetSequencePlayer_ReturnValue_2.Stop();
+            this.QuakesActive = (bool)(false);
+            EX_PopExecutionFlow();
+
+            // Block 4
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_102: Temp_int_Array_Index_Variable = 0;
+
+            // Block 5
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_125: CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllWidgetsOfClass_FoundWidgets);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_1, CallFunc_Array_Length_ReturnValue_1));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 6
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable_1;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_GameStartScriptedEventManager_492);
+
+            // Block 7
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllWidgetsOfClass_FoundWidgets, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            EX_LetObj(CallFunc_GetObjectClass_ReturnValue,GameplayStatics.GetObjectClass(CallFunc_Array_Get_Item));
+            CallFunc_NotEqual_ClassClass_ReturnValue = (bool)(KismetMathLibrary.NotEqual_ClassClass(CallFunc_GetObjectClass_ReturnValue, UI_WBP_SubtitleOverlay_C));
+            EX_PopExecutionFlowIfNot(CallFunc_NotEqual_ClassClass_ReturnValue);
+
+            // Block 8
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllWidgetsOfClass_FoundWidgets, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            CallFunc_Array_Get_Item.Hide();
+            EX_PopExecutionFlow();
+
+            // Block 9
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_492: CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_1, 1);
+            Temp_int_Loop_Counter_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_125;
+
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_566:
+            while (true) {
+                // Block 10
+                Default__KismetArrayLibrary.Array_Get(this.BreakableDebris, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_4);
+                CallFunc_IsValid_ReturnValue_5 = (bool)(KismetSystemLibrary.IsValid(CallFunc_Array_Get_Item_4));
+                if (!CallFunc_IsValid_ReturnValue_5) break;
+
+                // Block 11
+                Default__KismetArrayLibrary.Array_Get(this.BreakableDebris, Temp_int_Array_Index_Variable_1, CallFunc_Array_Get_Item_4);
+                EX_LetObj(CallFunc_K2_GetRootComponent_ReturnValue,CallFunc_Array_Get_Item_4.K2_GetRootComponent());
+                CallFunc_K2_GetRootComponent_ReturnValue.SetVisibility(true, true);
+                break;
+
+            }
+
+
+            // Block 12
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_805: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+
+            // Block 13
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_874: CallFunc_Array_Length_ReturnValue_4 = Default__KismetArrayLibrary.Array_Length(this.BreakableDebris);
+            CallFunc_Less_IntInt_ReturnValue_2 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue_4));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_2);
+
+            // Block 14
+            Temp_int_Array_Index_Variable_1 = Temp_int_Loop_Counter_Variable;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_566;
+
+            // Block 15
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1013: Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable_1 = 0;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_874;
+
+            // Block 16
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1064: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 17
+            CallFunc_GetProgressPure_ReturnValue = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.HaveRocksFallen, this));
+
+            if (CallFunc_GetProgressPure_ReturnValue) {
+                // Block 18
+                break;
+
+            }
+
+
+            // Block 19
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1166: EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue,this.RockFallSequenceActorRef.GetSequencePlayer());
+            CallFunc_GetSequencePlayer_ReturnValue.Play();
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+            CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(this.HaveRocksFallen, 1);
+            EX_PopExecutionFlow();
+
+            // Block 20
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1308: this.PlaySequences.PlayFromStart();
+            EX_PopExecutionFlow();
+
+            // Block 21
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1341: Temp_int_Loop_Counter_Variable_1 = 0;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_102;
+
+            // Block 22
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1369_PlaySequences__StartFadeIn__EventFunc: EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue_1,this.FadeSequenceActorRef.GetSequencePlayer());
+            CallFunc_GetSequencePlayer_ReturnValue_1.Play();
+            EX_PopExecutionFlow();
+
+            // Block 23
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1444: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_1);
+
+            // Block 24
+            CallFunc_GetTransform_ReturnValue = this.GetTransform();
+            EX_LetObj(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue,GameplayStatics.BeginDeferredActorSpawnFromClass(this, BP_GameStartScriptedEventHelper_C, CallFunc_GetTransform_ReturnValue, (byte)(1), EX_NoObject()));
+            KismetSystemLibrary.SetObjectPropertyByName(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, EX_NameConst("Dwarf"), K2Node_CustomEvent_Dwarf);
+            KismetSystemLibrary.SetFloatPropertyByName(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, EX_NameConst("DelayTillVO"), 6f);
+            KismetSystemLibrary.SetFloatPropertyByName(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, EX_NameConst("DelayTillTutorial"), 19.5f);
+            KismetSystemLibrary.SetObjectPropertyByName(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, EX_NameConst("VORef"), this.VORef);
+            CallFunc_GetTransform_ReturnValue = this.GetTransform();
+            EX_LetObj(CallFunc_FinishSpawningActor_ReturnValue,GameplayStatics.FinishSpawningActor(CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue, CallFunc_GetTransform_ReturnValue));
+            EX_PopExecutionFlow();
+
+            // Block 25
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1767_PlaySequences__StartRockfall__EventFunc: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1064;
+
+            // Block 26
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1772: Temp_int_Array_Index_Variable_2 = 0;
+
+            // Block 27
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_1795: CallFunc_Array_Length_ReturnValue_3 = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllWidgetsOfClass_FoundWidgets_2);
+            CallFunc_Less_IntInt_ReturnValue_1 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_2, CallFunc_Array_Length_ReturnValue_3));
+
+            if (CallFunc_Less_IntInt_ReturnValue_1) {
+                // Block 28
+                Temp_int_Array_Index_Variable_2 = Temp_int_Loop_Counter_Variable_2;
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_GameStartScriptedEventManager_2170);
+
+                // Block 29
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllWidgetsOfClass_FoundWidgets_2, Temp_int_Array_Index_Variable_2, CallFunc_Array_Get_Item_1);
+                CallFunc_Array_Get_Item_1.Show();
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 30
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2030: CallFunc_IsValid_ReturnValue_3 = (bool)(KismetSystemLibrary.IsValid(this.Dwarf));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_3);
+
+            // Block 31
+            CallFunc_MakeLiteralGameplayTag_ReturnValue_2 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("ScriptedEvent.WakeUpAlone")));
+            this.Dwarf.RemoveGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue_2);
+            EX_PopExecutionFlow();
+
+            // Block 32
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2170: CallFunc_Add_IntInt_ReturnValue_2 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_2, 1);
+            Temp_int_Loop_Counter_Variable_2 = CallFunc_Add_IntInt_ReturnValue_2;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1795;
+
+            // Block 33
+
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2244_PlaySequences__StartQuaking__EventFunc:
+            if (this.QuakesActive) {
+                // Block 34
+                break;
+
+            }
+
+
+            // Block 35
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2259: this.QuakesActive = (bool)(true);
+            EX_LetObj(CallFunc_GetSequencePlayer_ReturnValue_3,this.QuakeSequenceActorRef.GetSequencePlayer());
+            CallFunc_GetSequencePlayer_ReturnValue_3.Play();
+            KismetSystemLibrary.Delay(this, 5f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(16), -142601108, EX_NameConst("ExecuteUbergraph_BP_GameStartScriptedEventManager"), this));
+            EX_PopExecutionFlow();
+
+            // Block 36
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2399_ReceiveBeginPlay: EX_LetObj(CallFunc_GetGameMode_ReturnValue,GameplayStatics.GetGameMode(this));
+            K2Node_DynamicCast_AsBP_Moria_Game_Mode = EX_DynamicCast("BP_MoriaGameMode_C", CallFunc_GetGameMode_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Moria_Game_Mode);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 37
+            EX_BindDelegate("OnPlayerJoined", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_AddMulticastDelegate(K2Node_DynamicCast_AsBP_Moria_Game_Mode.PlayerJoined, K2Node_CreateDelegate_OutputDelegate_1);
+            CallFunc_GetAllActorsOfClass_OutActors = new[] {};
+            GameplayStatics.GetAllActorsOfClass(this, MorPlayerController, CallFunc_GetAllActorsOfClass_OutActors);
+            Temp_int_Loop_Counter_Variable_3 = 0;
+            Temp_int_Array_Index_Variable_3 = 0;
+
+            // Block 38
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2645: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllActorsOfClass_OutActors);
+            CallFunc_Less_IntInt_ReturnValue_3 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_3, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue_3);
+
+            // Block 39
+            Temp_int_Array_Index_Variable_3 = Temp_int_Loop_Counter_Variable_3;
+            EX_PushExecutionFlow(ExecuteUbergraph_BP_GameStartScriptedEventManager_2867);
+
+            // Block 40
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllActorsOfClass_OutActors, Temp_int_Array_Index_Variable_3, CallFunc_Array_Get_Item_2);
+            this.OnPlayerJoined(CallFunc_Array_Get_Item_2);
+            EX_PopExecutionFlow();
+
+            // Block 41
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2867: CallFunc_Add_IntInt_ReturnValue_3 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_3, 1);
+            Temp_int_Loop_Counter_Variable_3 = CallFunc_Add_IntInt_ReturnValue_3;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_2645;
+
+            // Block 42
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_2941_StartSequences: CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(K2Node_CustomEvent_Dwarf_1));
+            Default__BPFL_LevelDesign_C.ActorIsPlayer(K2Node_CustomEvent_Dwarf_1, this, CallFunc_ActorIsPlayer_IsPlayer);
+            EX_LetObj(CallFunc_GetPlayerPawn_ReturnValue,GameplayStatics.GetPlayerPawn(this, 0));
+            CallFunc_EqualEqual_ObjectObject_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ObjectObject(K2Node_CustomEvent_Dwarf_1, CallFunc_GetPlayerPawn_ReturnValue));
+            CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_IsValid_ReturnValue, CallFunc_EqualEqual_ObjectObject_ReturnValue));
+            CallFunc_BooleanAND_ReturnValue_1 = (bool)(KismetMathLibrary.BooleanAND(CallFunc_BooleanAND_ReturnValue, CallFunc_ActorIsPlayer_IsPlayer));
+            EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue_1);
+
+            // Block 43
+
+            if (this.LocallyHasRun) {
+                // Block 44
+                break;
+
+            }
+
+
+            // Block 45
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_3190: this.LocallyHasRun = (bool)(true);
+            EX_LetObj(this.Dwarf,K2Node_CustomEvent_Dwarf_1);
+            EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue_1,MoriaUtils.GetDiscoveryManager(this));
+            EX_LetObj(this.ProgressManagerRef,CallFunc_GetDiscoveryManager_ReturnValue_1);
+            CallFunc_MakeLiteralGameplayTag_ReturnValue = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("Character.Request.Persistent.WaitingToWakeup")));
+            this.Dwarf.AddGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue);
+            CallFunc_MakeLiteralGameplayTag_ReturnValue_1 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("ScriptedEvent.WakeUpAlone")));
+            this.Dwarf.AddGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue_1);
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1308;
+
+            // Block 46
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_3465_OnPlayerJoined: K2Node_DynamicCast_AsMor_Player_Controller = EX_DynamicCast("MorPlayerController", K2Node_CustomEvent_PlayerController_1);
+            K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Player_Controller);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_1);
+
+            // Block 47
+            EX_BindDelegate("OnLoadingScreenChanged", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(K2Node_DynamicCast_AsMor_Player_Controller.OnLoadingScreenStateChanged, K2Node_CreateDelegate_OutputDelegate);
+            EX_PopExecutionFlow();
+
+            // Block 48
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_3605_OnLoadingScreenChanged: CallFunc_HasAuthority_ReturnValue_2 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_2);
+
+            // Block 49
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(K2Node_CustomEvent_LoadingScreenState, (byte)(5)));
+
+            if (K2Node_SwitchEnum_CmpSuccess) {
+                // Block 50
+                break;
+
+            }
+
+
+            // Block 51
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_3681: EX_LetObj(CallFunc_K2_GetPawn_ReturnValue,K2Node_CustomEvent_PlayerController.K2_GetPawn());
+            K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", CallFunc_K2_GetPawn_ReturnValue);
+            K2Node_DynamicCast_bSuccess_2 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_2);
+
+            // Block 52
+            CallFunc_Set_Contains_ReturnValue = (bool)(Default__BlueprintSetLibrary.Set_Contains(this.Server_DwarvesThatHavePlayedSequence, K2Node_CustomEvent_PlayerController.PlayerGuid));
+
+            if (CallFunc_Set_Contains_ReturnValue) {
+                // Block 53
+                break;
+
+            }
+
+
+            // Block 54
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_3895: Default__BlueprintSetLibrary.Set_Add(this.Server_DwarvesThatHavePlayedSequence, K2Node_CustomEvent_PlayerController.PlayerGuid);
+            this.StartSequences(K2Node_DynamicCast_AsMor_Character);
+            this.`Start VO and Tutorial`(K2Node_DynamicCast_AsMor_Character);
+            EX_PopExecutionFlow();
+
+            // Block 55
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4014_PlaySequences__Wakeup__EventFunc: CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(this.Dwarf));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_1);
+
+            // Block 56
+            this.Dwarf.AddGameplayTag(this.WakeupGameplayTag);
+            EX_PopExecutionFlow();
+
+            // Block 57
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4099_SaveGameObjectSetId: this.SaveGameObjectId = K2Node_Event_NewId;
+            EX_PopExecutionFlow();
+
+            // Block 58
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4127: CallFunc_GetAllWidgetsOfClass_FoundWidgets = new[] {};
+            Default__WidgetBlueprintLibrary.GetAllWidgetsOfClass(this, CallFunc_GetAllWidgetsOfClass_FoundWidgets, MoriaHUDWidget, true);
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1341;
+
+            // Block 59
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4195: EX_LetObj(CallFunc_GetPlayerController_ReturnValue,GameplayStatics.GetPlayerController(this, 0));
+            CallFunc_GetPlayerController_ReturnValue.DisableInput(CallFunc_GetPlayerController_ReturnValue);
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_4127;
+
+            // Block 60
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4271: CallFunc_GetAllWidgetsOfClass_FoundWidgets_1 = new[] {};
+            Default__WidgetBlueprintLibrary.GetAllWidgetsOfClass(this, CallFunc_GetAllWidgetsOfClass_FoundWidgets_1, MoriaHUDWidget, true);
+            Temp_int_Loop_Counter_Variable_4 = 0;
+            Temp_int_Array_Index_Variable_4 = 0;
+
+            // Block 61
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4380: CallFunc_Array_Length_ReturnValue_2 = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllWidgetsOfClass_FoundWidgets_1);
+            CallFunc_Less_IntInt_ReturnValue_4 = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable_4, CallFunc_Array_Length_ReturnValue_2));
+
+            if (CallFunc_Less_IntInt_ReturnValue_4) {
+                // Block 62
+                Temp_int_Array_Index_Variable_4 = Temp_int_Loop_Counter_Variable_4;
+                EX_PushExecutionFlow(ExecuteUbergraph_BP_GameStartScriptedEventManager_4615);
+
+                // Block 63
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllWidgetsOfClass_FoundWidgets_1, Temp_int_Array_Index_Variable_4, CallFunc_Array_Get_Item_3);
+                CallFunc_Array_Get_Item_3.Show();
+                EX_PopExecutionFlow();
+
+                // Block 64
+                ExecuteUbergraph_BP_GameStartScriptedEventManager_4615: CallFunc_Add_IntInt_ReturnValue_4 = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable_4, 1);
+                Temp_int_Loop_Counter_Variable_4 = CallFunc_Add_IntInt_ReturnValue_4;
+                goto ExecuteUbergraph_BP_GameStartScriptedEventManager_4380;
+
+            }
+
+
+            // Block 65
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4689: CallFunc_IsValid_ReturnValue_4 = (bool)(KismetSystemLibrary.IsValid(this.Dwarf));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_4);
+
+            // Block 66
+            CallFunc_MakeLiteralGameplayTag_ReturnValue_3 = BlueprintGameplayTagLibrary.MakeLiteralGameplayTag(EX_StructConst(GameplayTag, 12, EX_NameConst("ScriptedEvent.WakeUpAlone")));
+            this.Dwarf.RemoveGameplayTag(CallFunc_MakeLiteralGameplayTag_ReturnValue_3);
+            EX_PopExecutionFlow();
+
+            // Block 67
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4829: EX_LetObj(CallFunc_GetPlayerController_ReturnValue_1,GameplayStatics.GetPlayerController(this, 0));
+            CallFunc_GetPlayerController_ReturnValue_1.EnableInput(CallFunc_GetPlayerController_ReturnValue_1);
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_4271;
+
+            // Block 68
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_4905: CallFunc_IsValid_ReturnValue_2 = (bool)(KismetSystemLibrary.IsValid(this.Dwarf));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue_2);
+
+            // Block 69
+            CallFunc_MakeVector_ReturnValue = KismetMathLibrary.MakeVector(0f, 0f, this.PlaySequences_UpdateSpeechBubbleZLocation_9A1AE5A74DD073E37929CE8B0C8BF294);
+            EX_LetObj(CallFunc_GetComponentByClass_ReturnValue,this.Dwarf.GetComponentByClass(MorOverheadIndicatorComponent));
+            CallFunc_GetComponentByClass_ReturnValue.K2_SetRelativeLocation(CallFunc_MakeVector_ReturnValue, false, CallFunc_K2_SetRelativeLocation_SweepHitResult, false);
+            EX_PopExecutionFlow();
+
+            // Block 70
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_5095: Temp_int_Loop_Counter_Variable_2 = 0;
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1772;
+
+            // Block 71
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_5123: CallFunc_GetAllWidgetsOfClass_FoundWidgets_2 = new[] {};
+            Default__WidgetBlueprintLibrary.GetAllWidgetsOfClass(this, CallFunc_GetAllWidgetsOfClass_FoundWidgets_2, MoriaHUDWidget, true);
+            goto ExecuteUbergraph_BP_GameStartScriptedEventManager_5095;
+
+            // Block 72
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_5191_CustomEvent_0: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_5123;
+
+            // Block 73
+            `ExecuteUbergraph_BP_GameStartScriptedEventManager_5196_PlaySequences__Disable UI And Input__EventFunc`: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_4195;
+
+            // Block 74
+            `ExecuteUbergraph_BP_GameStartScriptedEventManager_5201_Start VO and Tutorial`: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1444;
+
+            // Block 75
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_5206_ShowBreakableDebris: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_1013;
+
+            // Block 76
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_5211_PostActivateInitialize: CallFunc_GetProgressPure_ReturnValue_1 = (bool)(Default__BPFL_LevelDesign_C.GetProgressPure(this, this.HaveRocksFallen, this));
+            EX_PopExecutionFlowIfNot(CallFunc_GetProgressPure_ReturnValue_1);
+
+            // Block 77
+            this.ShowBreakableDebris();
+            EX_PopExecutionFlow();
+
+            // Block 78
+            `ExecuteUbergraph_BP_GameStartScriptedEventManager_5293_PlaySequences__Enable UI And Input__EventFunc`: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_4829;
+
+            // Block 79
+            ExecuteUbergraph_BP_GameStartScriptedEventManager_5298_PlaySequences__UpdateFunc: goto ExecuteUbergraph_BP_GameStartScriptedEventManager_4905;
+
+        }
+
+
+        // Block 80
+        ExecuteUbergraph_BP_GameStartScriptedEventManager_5303:
+
+    }
+
+    [Event, BlueprintEvent]
+    public void PostActivateInitialize() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_5211_PostActivateInitialize);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void ShowBreakableDebris() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_5206_ShowBreakableDebris);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void `Start VO and Tutorial`([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Dwarf) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Dwarf", Dwarf);
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(`ExecuteUbergraph_BP_GameStartScriptedEventManager_5201_Start VO and Tutorial`);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void CustomEvent_0() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_5191_CustomEvent_0);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void SaveGameObjectSetId([BlueprintVisible, BlueprintReadOnly] const out ref Struct<MorSaveGameObjectId> NewId) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_NewId", NewId);
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_4099_SaveGameObjectSetId);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnLoadingScreenChanged([BlueprintVisible, BlueprintReadOnly] Object<MorPlayerController> PlayerController, [BlueprintVisible, BlueprintReadOnly] Enum LoadingScreenState) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_PlayerController", PlayerController);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_LoadingScreenState", LoadingScreenState);
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_3605_OnLoadingScreenChanged);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnPlayerJoined([BlueprintVisible, BlueprintReadOnly] Object<PlayerController> PlayerController) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_PlayerController_1", PlayerController);
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_3465_OnPlayerJoined);
+
+    }
+
+    [Net, NetReliable, NetMulticast, BlueprintCallable, BlueprintEvent]
+    void StartSequences([BlueprintVisible, BlueprintReadOnly] Object<MorCharacter> Dwarf) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Dwarf_1", Dwarf);
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_2941_StartSequences);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_2399_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintEvent]
+    void PlaySequences__StartFadeIn__EventFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_1369_PlaySequences__StartFadeIn__EventFunc);
+
+    }
+
+    [BlueprintEvent]
+    void PlaySequences__StartRockfall__EventFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_1767_PlaySequences__StartRockfall__EventFunc);
+
+    }
+
+    [BlueprintEvent]
+    void PlaySequences__StartQuaking__EventFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_2244_PlaySequences__StartQuaking__EventFunc);
+
+    }
+
+    [BlueprintEvent]
+    void PlaySequences__Wakeup__EventFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_4014_PlaySequences__Wakeup__EventFunc);
+
+    }
+
+    [BlueprintEvent]
+    void `PlaySequences__Disable UI And Input__EventFunc`() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(`ExecuteUbergraph_BP_GameStartScriptedEventManager_5196_PlaySequences__Disable UI And Input__EventFunc`);
+
+    }
+
+    [BlueprintEvent]
+    void `PlaySequences__Enable UI And Input__EventFunc`() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(`ExecuteUbergraph_BP_GameStartScriptedEventManager_5293_PlaySequences__Enable UI And Input__EventFunc`);
+
+    }
+
+    [BlueprintEvent]
+    void PlaySequences__UpdateFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_5298_PlaySequences__UpdateFunc);
+
+    }
+
+    [BlueprintEvent]
+    void PlaySequences__FinishedFunc() {
+        // Block 1
+        this.ExecuteUbergraph_BP_GameStartScriptedEventManager(ExecuteUbergraph_BP_GameStartScriptedEventManager_15_PlaySequences__FinishedFunc);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void HasPlayerSeenSequence([BlueprintVisible, BlueprintReadOnly] const out ref Struct<Guid> PlayerGUID, out bool bPlayed) {
+        // Locals
+        bool CallFunc_Set_Contains_ReturnValue;
+
+        // Block 1
+        CallFunc_Set_Contains_ReturnValue = (bool)(Default__BlueprintSetLibrary.Set_Contains(this.Server_DwarvesThatHavePlayedSequence, PlayerGUID));
+        bPlayed = (bool)(CallFunc_Set_Contains_ReturnValue);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const]
+    public void SetCustomSaveGameObjectOptionalFlags(out Struct<MorSaveGameObjectFlags> OutFlags, [Return] out bool ReturnValue) {
+        // Block 1
+        OutFlags = EX_StructConst(MorSaveGameObjectFlags, 12);
+        ReturnValue = (bool)(false);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const]
+    public void SaveGameObjectIgnore([Return] out bool ReturnValue) {
+        // Block 1
+        ReturnValue = (bool)(false);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const]
+    public void SaveGameObjectGetId([Return] out Struct<MorSaveGameObjectId> ReturnValue) {
+        // Block 1
+        ReturnValue = this.SaveGameObjectId;
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const]
+    public void SaveGameObjectGetDormancy([Return] out Enum ReturnValue) {
+        // Block 1
+        ReturnValue = (byte)(0);
+        return ReturnValue;
+
+    }
+
+}

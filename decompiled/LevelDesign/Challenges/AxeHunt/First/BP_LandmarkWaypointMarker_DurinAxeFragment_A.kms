@@ -1,0 +1,118 @@
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/LevelDesign/Proxies/BP_LandmarkWaypointMarker")]
+public class BP_LandmarkWaypointMarker_C {
+    public BoxComponent DiscoveryBox_GEN_VARIABLE;
+    public BoxComponent TriggerBox_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public BoxComponent DiscoveryBox;
+    public BoxComponent TriggerBox;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Proxies/BP_LandmarkWaypointMarker")]
+public BP_LandmarkWaypointMarker_C Default__BP_LandmarkWaypointMarker_C;
+
+
+[Import("/Game/LevelDesign/Challenges/AxeHunt/BP_LandmarkWaypointMarker_DurinAxeFragment_BASE")]
+public class BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_C {
+    public BoxComponent TriggerBox_GEN_VARIABLE;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveActorBeginOverlap();
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public BoxComponent TriggerBox;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Challenges/AxeHunt/BP_LandmarkWaypointMarker_DurinAxeFragment_BASE")]
+public BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_C Default__BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_LandmarkWaypointMarker_DurinAxeFragment_A_C : BP_LandmarkWaypointMarker_DurinAxeFragment_BASE_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_A([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<Actor> K2Node_Event_OtherActor;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_A_10_ReceiveActorBeginOverlap: base.ReceiveActorBeginOverlap(K2Node_Event_OtherActor);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveActorBeginOverlap([BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherActor", OtherActor);
+        this.ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_A(ExecuteUbergraph_BP_LandmarkWaypointMarker_DurinAxeFragment_A_10_ReceiveActorBeginOverlap);
+
+    }
+
+}

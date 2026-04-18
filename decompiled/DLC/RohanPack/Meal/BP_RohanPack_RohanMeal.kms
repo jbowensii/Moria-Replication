@@ -1,0 +1,111 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayEffectUIData {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Game/DLC/RohanPack/Meal/RohanMeal")]
+public Texture2D RohanMeal;
+
+
+[Import("/Game/DLC/RohanPack/Meal/SM_RohanMeal")]
+public StaticMesh SM_RohanMeal;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Tavern/Materials/Tavern_Scatter_Bowl/MI_Tavern_Scatter_Bowl")]
+public MaterialInstanceConstant MI_Tavern_Scatter_Bowl;
+
+
+[Import("/Game/Items/GE_MixedMushroom_Effect")]
+public class GE_MixedMushroom_Effect_C {}
+
+[Import("/Game/Items/GE_MixedMushroom_Effect")]
+public class Default__GE_MixedMushroom_Effect_C {
+    public MorGameplayEffectUIData MoriaGameplayEffectUIData_0;
+}
+
+
+[Import("/Game/Items/BP_Category_Food")]
+public class BP_Category_Food_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Food")]
+public class Default__BP_Category_Food_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem")]
+public class GA_UseFoodItem_C {}
+
+[Import("/Game/Character/Dwarf/Abilities/GA_UseFoodItem")]
+public GA_UseFoodItem_C Default__GA_UseFoodItem_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_RohanPack_RohanMeal_C : BP_Category_Food_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> MealMesh5;
+}

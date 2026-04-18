@@ -1,0 +1,351 @@
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class MorShadowFluid : Actor {
+    public Object GetPlayerTriggerBox;
+    public Object GetShadowFXBox;
+    public Object GetShadowMeshComponent;
+}
+
+[Import("/Script/Moria")]
+public class MorWaterColliderTriggerBoxComp {}
+
+[Import("/Script/Moria")]
+public MorShadowFluid Default__MorShadowFluid;
+
+[Import("/Script/Moria")]
+public MorWaterColliderTriggerBoxComp Default__MorWaterColliderTriggerBoxComp;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    [UnknownSignature, FinalFunction] public sealed void SetActorScale3D();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetActorOfClass();
+    [UnknownSignature, MathFunction] public static sealed void GetPlatformName();
+}
+
+[Import("/Script/Engine")]
+public static class KismetStringLibrary {
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_StriStri();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void PrintString();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceDynamic {}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {
+    [UnknownSignature, VirtualFunction] public virtual void SetMaterial();
+}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialBillboardComponent {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/FluidNinjaLive/Tutorial/Meshes/SM_plane_100x100")]
+public StaticMesh SM_plane_100x100;
+
+
+[Import("/Game/FX/WaterInteraction/Materials/MI_ShallowWater_HeightDebug_Pixel")]
+public MaterialInstanceConstant MI_ShallowWater_HeightDebug_Pixel;
+
+
+[Import("/Game/FX/WaterInteraction/Materials/MI_ShallowWater_HeightDebug_Center")]
+public MaterialInstanceConstant MI_ShallowWater_HeightDebug_Center;
+
+
+[Import("/Game/FX/ShadowCurse/Materials/M_ShadowFog_FN_1_Inst_Xbox")]
+public MaterialInstanceConstant M_ShadowFog_FN_1_Inst_Xbox;
+
+
+[Import("/Game/FX/ShadowCurse/Materials/M_ShadowFog_FN_1_Inst")]
+public MaterialInstanceConstant M_ShadowFog_FN_1_Inst;
+
+
+[Import("/Game/FluidNinjaLive/NinjaLiveComponent")]
+public class NinjaLiveComponent_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetSecondaryOutputDynamicMaterial();
+}
+
+
+[Import("/Game/FluidNinjaLive/NinjaLive_ShadowFog")]
+public class NinjaLive_ShadowFog_C : NinjaLive_C {
+    public BoxComponent ActivationVolume_GEN_VARIABLE;
+    public BoxComponent InteractionVolume_GEN_VARIABLE;
+    public NinjaLiveComponent_C NinjaLiveComponent_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public BoxComponent ActivationVolume;
+    public BoxComponent InteractionVolume;
+    public NinjaLiveComponent_C NinjaLiveComponent;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/FluidNinjaLive/NinjaLive_ShadowFog")]
+public NinjaLive_ShadowFog_C Default__NinjaLive_ShadowFog_C;
+
+
+[Import("/Game/FluidNinjaLive/NinjaLive")]
+public class NinjaLive_C {
+    public BoxComponent ActivationVolume_GEN_VARIABLE;
+    public BoxComponent InteractionVolume_GEN_VARIABLE;
+    public MaterialBillboardComponent EditorIcon_GEN_VARIABLE;
+    public NinjaLiveComponent_C NinjaLiveComponent_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent Root_GEN_VARIABLE;
+    public StaticMeshComponent TraceMesh_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public BoxComponent ActivationVolume;
+    public BoxComponent InteractionVolume;
+    public MaterialBillboardComponent EditorIcon;
+    public NinjaLiveComponent_C NinjaLiveComponent;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent Root;
+    public StaticMeshComponent TraceMesh;
+}
+
+[Import("/Game/FluidNinjaLive/NinjaLive")]
+public NinjaLive_C Default__NinjaLive_C;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_ShadowFluid_C : MorShadowFluid {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> CharacterEnterTrigger;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorWaterColliderTriggerBoxComp> MorShadowColliderTriggerBoxComp;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> ShadowPlane;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> ShadowFXBox;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> Scene;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [Edit, BlueprintVisible] Object<MaterialInterface> WaterMaterial;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInterface> HeightDebugMatCenter;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Object<MaterialInterface> HeightDebugMatPixel;
+    [Edit, BlueprintVisible] bool HeightDebugUsesCenter;
+    [Edit, BlueprintVisible] Object<MaterialInterface> WaterMaterial_Xbox;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_ShadowFluid([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<NinjaLive_ShadowFog_C> CallFunc_GetActorOfClass_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<MaterialInstanceDynamic> CallFunc_GetSecondaryOutputDynamicMaterial_Material;
+        bool CallFunc_IsValid_ReturnValue_1;
+        string CallFunc_GetPlatformName_ReturnValue;
+        const Struct<Vector> K2Node_Event_ScaleIn;
+        bool K2Node_SwitchString_CmpSuccess;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_ShadowFluid_15: EX_LetObj(CallFunc_GetActorOfClass_ReturnValue,GameplayStatics.GetActorOfClass(this, NinjaLive_ShadowFog_C));
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetActorOfClass_ReturnValue));
+
+            if (CallFunc_IsValid_ReturnValue) {
+                // Block 3
+                KismetSystemLibrary.PrintString(this, "Found Fluid Ninja Actor", false, true, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 2f);
+                CallFunc_GetActorOfClass_ReturnValue.NinjaLiveComponent.GetSecondaryOutputDynamicMaterial(CallFunc_GetSecondaryOutputDynamicMaterial_Material);
+                CallFunc_IsValid_ReturnValue_1 = (bool)(KismetSystemLibrary.IsValid(CallFunc_GetSecondaryOutputDynamicMaterial_Material));
+                if (!(CallFunc_IsValid_ReturnValue_1)) goto ExecuteUbergraph_BP_ShadowFluid_465;
+
+                // Block 4
+                this.ShadowPlane.SetMaterial(0, CallFunc_GetSecondaryOutputDynamicMaterial_Material);
+                break;
+
+            }
+
+
+            // Block 5
+            ExecuteUbergraph_BP_ShadowFluid_326: KismetSystemLibrary.PrintString(this, "Did not find Fluid Ninja Actor", true, true, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 2f);
+
+            // Block 6
+            ExecuteUbergraph_BP_ShadowFluid_410: KismetSystemLibrary.Delay(this, 1f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), -1620918369, EX_NameConst("ExecuteUbergraph_BP_ShadowFluid"), this));
+            break;
+
+            // Block 7
+            ExecuteUbergraph_BP_ShadowFluid_465: KismetSystemLibrary.PrintString(this, "Fluid Ninja Actor without material", true, true, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 2f);
+            goto ExecuteUbergraph_BP_ShadowFluid_410;
+
+            // Block 8
+            ExecuteUbergraph_BP_ShadowFluid_558_ReceiveBeginPlay: CallFunc_GetPlatformName_ReturnValue = GameplayStatics.GetPlatformName();
+            K2Node_SwitchString_CmpSuccess = (bool)(KismetStringLibrary.NotEqual_StriStri(CallFunc_GetPlatformName_ReturnValue, "Windows"));
+
+            if (K2Node_SwitchString_CmpSuccess) {
+                // Block 9
+                K2Node_SwitchString_CmpSuccess = (bool)(KismetStringLibrary.NotEqual_StriStri(CallFunc_GetPlatformName_ReturnValue, "Mac"));
+                if (!(K2Node_SwitchString_CmpSuccess)) goto ExecuteUbergraph_BP_ShadowFluid_887;
+
+                // Block 10
+                K2Node_SwitchString_CmpSuccess = (bool)(KismetStringLibrary.NotEqual_StriStri(CallFunc_GetPlatformName_ReturnValue, "Linux"));
+                if (!(K2Node_SwitchString_CmpSuccess)) goto ExecuteUbergraph_BP_ShadowFluid_887;
+
+                // Block 11
+                K2Node_SwitchString_CmpSuccess = (bool)(KismetStringLibrary.NotEqual_StriStri(CallFunc_GetPlatformName_ReturnValue, "PS5"));
+                if (!(K2Node_SwitchString_CmpSuccess)) goto ExecuteUbergraph_BP_ShadowFluid_887;
+
+                // Block 12
+                K2Node_SwitchString_CmpSuccess = (bool)(KismetStringLibrary.NotEqual_StriStri(CallFunc_GetPlatformName_ReturnValue, "XSX"));
+                if (!(K2Node_SwitchString_CmpSuccess)) goto ExecuteUbergraph_BP_ShadowFluid_832;
+
+                // Block 13
+                ExecuteUbergraph_BP_ShadowFluid_832: this.ShadowPlane.SetMaterial(0, this.WaterMaterial_Xbox);
+                goto ExecuteUbergraph_BP_ShadowFluid_15;
+
+            }
+
+
+            // Block 14
+            ExecuteUbergraph_BP_ShadowFluid_887: this.ShadowPlane.SetMaterial(0, this.WaterMaterial);
+            goto ExecuteUbergraph_BP_ShadowFluid_15;
+
+            // Block 15
+            ExecuteUbergraph_BP_ShadowFluid_942_SetTraceMeshScale: this.SetActorScale3D(K2Node_Event_ScaleIn);
+            break;
+
+        }
+
+
+        // Block 16
+        ExecuteUbergraph_BP_ShadowFluid_962:
+
+    }
+
+    [HasOutParms, BlueprintEvent]
+    void SetTraceMeshScale([BlueprintVisible, BlueprintReadOnly] const out ref Struct<Vector> ScaleIn) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_ScaleIn", ScaleIn);
+        this.ExecuteUbergraph_BP_ShadowFluid(ExecuteUbergraph_BP_ShadowFluid_942_SetTraceMeshScale);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_ShadowFluid(ExecuteUbergraph_BP_ShadowFluid_558_ReceiveBeginPlay);
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetPlayerTriggerBox([Return, InstancedReference] out Object<BoxComponent> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.CharacterEnterTrigger);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetShadowFXBox([Return, InstancedReference] out Object<BoxComponent> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.ShadowFXBox);
+        return ReturnValue;
+
+    }
+
+    [Event, HasOutParms, BlueprintCallable, BlueprintEvent, Const]
+    public override void GetShadowMeshComponent([Return, InstancedReference] out Object<StaticMeshComponent> ReturnValue) {
+        // Block 1
+        EX_LetObj(ReturnValue,this.ShadowPlane);
+        return ReturnValue;
+
+    }
+
+}

@@ -1,0 +1,173 @@
+
+[Import("/Script/Moria")]
+public static class MorAttributesFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetHealth();
+    [UnknownSignature, MathFunction] public static sealed void GetMaxHealth();
+}
+
+
+[Import("/Script/FGK")]
+public class FGKCharacterAnimInstance {
+    [UnknownSignature, VirtualFunction] public virtual void TryGetPawnOwner();
+}
+
+[Import("/Script/FGK")]
+public FGKCharacterAnimInstance Default__FGKCharacterAnimInstance;
+
+
+[Import("/Script/Engine")]
+public AnimBlueprintGeneratedClass Default__AnimBlueprintGeneratedClass;
+
+[Import("/Script/Engine")]
+public class AnimBlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class AnimInstance {
+    public Object BlueprintUpdateAnimation;
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Less_FloatFloat();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class Pawn {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public Object AnimNode_Root;
+
+[Import("/Script/Engine")]
+public Object AnimNode_SequencePlayer;
+
+[Import("/Script/Engine")]
+public Object AnimNode_StateMachine;
+
+[Import("/Script/Engine")]
+public Object AnimNode_TransitionResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public Object PoseLink;
+
+[Import("/Script/Engine")]
+public class AnimSequence {}
+
+[Import("/Script/Engine")]
+public class Skeleton {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_Slot;
+
+[Import("/Script/AnimGraphRuntime")]
+public Object AnimNode_StateResult;
+
+
+[Import("/Game/CharacterArt/Creatures/TheWatcher/TheWatcher_Skeleton")]
+public Skeleton TheWatcher_Skeleton;
+
+
+[Import("/Game/Animations/Watcher/Wch_UA_Combat_Idle_Loop")]
+public AnimSequence Wch_UA_Combat_Idle_Loop;
+
+
+[Transient, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class ABP_Watcher2_C : FGKCharacterAnimInstance {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    Struct<AnimNode_Root> AnimGraphNode_Root;
+    Struct<AnimNode_Slot> AnimGraphNode_Slot;
+    Struct<AnimNode_TransitionResult> AnimGraphNode_TransitionResult;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer_1;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult_1;
+    Struct<AnimNode_SequencePlayer> AnimGraphNode_SequencePlayer;
+    Struct<AnimNode_StateResult> AnimGraphNode_StateResult;
+    Struct<AnimNode_StateMachine> AnimGraphNode_StateMachine;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool Injured;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_ABP_Watcher2([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        float K2Node_Event_DeltaTimeX;
+        Object<Pawn> CallFunc_TryGetPawnOwner_ReturnValue;
+        float CallFunc_GetHealth_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        float CallFunc_GetMaxHealth_ReturnValue;
+        bool CallFunc_Less_FloatFloat_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_ABP_Watcher2_10_BlueprintUpdateAnimation: EX_LetObj(CallFunc_TryGetPawnOwner_ReturnValue,this.TryGetPawnOwner());
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_TryGetPawnOwner_ReturnValue));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 3
+        EX_LetObj(CallFunc_TryGetPawnOwner_ReturnValue,this.TryGetPawnOwner());
+        CallFunc_GetHealth_ReturnValue = MorAttributesFunctionLibrary.GetHealth(CallFunc_TryGetPawnOwner_ReturnValue);
+        CallFunc_GetMaxHealth_ReturnValue = MorAttributesFunctionLibrary.GetMaxHealth(CallFunc_TryGetPawnOwner_ReturnValue);
+        CallFunc_Less_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_GetHealth_ReturnValue, CallFunc_GetMaxHealth_ReturnValue));
+        this.Injured = (bool)(CallFunc_Less_FloatFloat_ReturnValue);
+
+        // Block 4
+        ExecuteUbergraph_ABP_Watcher2_232:
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void BlueprintUpdateAnimation([BlueprintVisible, BlueprintReadOnly] float DeltaTimeX) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_DeltaTimeX", DeltaTimeX);
+        this.ExecuteUbergraph_ABP_Watcher2(ExecuteUbergraph_ABP_Watcher2_10_BlueprintUpdateAnimation);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void AnimGraph(out Struct<PoseLink> AnimGraph) {
+        // Block 1
+        AnimGraph = EX_StructConst(PoseLink, 24, -1);
+
+    }
+
+}

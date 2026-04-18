@@ -1,0 +1,421 @@
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableContainer : Actor {
+    public InventoryComponent Inventory;
+}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetBrewDefinition();
+}
+
+[Import("/Script/Moria")]
+public MorBreakableFXComponent Default__MorBreakableFXComponent;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public Object MorBrewDefinition;
+
+[Import("/Script/Moria")]
+public Object MorBrewRowHandle;
+
+[Import("/Script/Moria")]
+public class MorItemDefinition {
+    public ObjectProperty Actor;
+}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public class InventoryComponent {
+    [UnknownSignature, FinalFunction] public sealed void AddItem();
+}
+
+[Import("/Script/FGK")]
+public class InventoryItem {}
+
+[Import("/Script/FGK")]
+public Object ItemHandle;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BoxComponent Default__BoxComponent;
+
+[Import("/Script/Engine")]
+public ChildActorComponent Default__ChildActorComponent;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_DestroyComponent();
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class ChildActorComponent : ActorComponent {
+    public AnonymousClass_d60191dda09b427bb1dc9b514ccc58f8 ChildActor;
+}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void RandomInteger();
+    [UnknownSignature, MathFunction] public static sealed void RandomIntegerInRange();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    public Object OnAssetClassLoaded__DelegateSignature;
+    [UnknownSignature, MathFunction] public static sealed void LoadAssetClass();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public class AnonymousClass_d60191dda09b427bb1dc9b514ccc58f8 {
+    [UnknownSignature, VirtualFunction] public virtual void SetOwner();
+}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty : BP_BreweryTap_C {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Urban/Tavern/Tavern_Kegs_B")]
+public StaticMesh Tavern_Kegs_B;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_BreweryTap_TavernKeg")]
+public class BP_BreweryTap_TavernKeg_C {
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Recreate_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Tap_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Recreate;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Tap;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_BreweryTap_TavernKeg")]
+public class Default__BP_BreweryTap_TavernKeg_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Items/Breakables/BreakableContainers/BP_BaseBreakableContainer")]
+public class BP_BaseBreakableContainer_C : MorBreakableContainer {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BreakableContainers/BP_BaseBreakableContainer")]
+public class Default__BP_BaseBreakableContainer_C {
+    public MorInventoryComponent Inventory;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public class NavArea_InteractableArchitecture_C {}
+
+[Import("/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture")]
+public NavArea_InteractableArchitecture_C Default__NavArea_InteractableArchitecture_C;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_BreweryTap")]
+public class BP_BreweryTap_C {
+    public ArrowComponent Arrow_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Recreate_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Tap_GEN_VARIABLE;
+    public MorBreakableMeshPiece MorBreakableMeshPiece_GEN_VARIABLE;
+    public MorInteractionPoint MorInteractionPoint_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent StaticMesh_GEN_VARIABLE;
+    public ArrowComponent Arrow;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Recreate;
+    public MorAIBehaviorPointComponent MorAIBehaviorPoint_Tap;
+    public MorBreakableMeshPiece MorBreakableMeshPiece;
+    public MorInteractionPoint MorInteractionPoint;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent StaticMesh;
+    [UnknownSignature, VirtualFunction] public virtual void SetOwner();
+    [UnknownSignature, VirtualFunction] public virtual void PlayDrainEffect();
+}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/Brewery/BP_BreweryTap")]
+public class Default__BP_BreweryTap_C {
+    public BoxComponent InteractCollider;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BrewContainer_C : BP_BaseBreakableContainer_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<BoxComponent> NavArea_InteractableArchitecture;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableFXComponent> MorBreakableFX;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ChildActorComponent> ChildActor;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> StaticMesh1;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<BP_BreweryTap_C> BreweryTapRef;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorBrewRowHandle>> BrewTypesKegCanHave;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int AmountOfBrewToSpawnMin;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int AmountOfBrewToSpawnMax;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_BrewContainer([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        [UObjectWrapper] Class K2Node_CustomEvent_Loaded;
+        Class Temp_class_Variable;
+        Class K2Node_ClassDynamicCast_AsInventory_Item;
+        bool K2Node_ClassDynamicCast_bSuccess;
+        bool CallFunc_HasAuthority_ReturnValue;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        int CallFunc_Array_Length_ReturnValue;
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+        int CallFunc_RandomInteger_ReturnValue;
+        Struct<MorBrewRowHandle> CallFunc_Array_Get_Item;
+        Enum CallFunc_GetBrewDefinition_OutResult;
+        Struct<MorBrewDefinition> CallFunc_GetBrewDefinition_ReturnValue;
+        Object<BP_BreweryTap_C> K2Node_DynamicCast_AsBP_Brewery_Tap;
+        bool K2Node_DynamicCast_bSuccess;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        [UObjectWrapper] Class K2Node_ComponentBoundEvent_ItemClass;
+        int K2Node_ComponentBoundEvent_AmountRemoved;
+        int K2Node_ComponentBoundEvent_NewTotalCount;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        int CallFunc_RandomIntegerInRange_ReturnValue;
+        [ContainsInstancedReference] Struct<ItemHandle> CallFunc_AddItem_ReturnValue;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            ExecuteUbergraph_BP_BrewContainer_15_OnLoaded_88CB2B1949BE450444EF4AADB3068880: EX_LetObj(Temp_class_Variable,K2Node_CustomEvent_Loaded);
+            K2Node_ClassDynamicCast_AsInventory_Item = EX_MetaCast("InventoryItem", Temp_class_Variable);
+            K2Node_ClassDynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_ClassDynamicCast_AsInventory_Item);
+            CallFunc_RandomIntegerInRange_ReturnValue = KismetMathLibrary.RandomIntegerInRange(this.AmountOfBrewToSpawnMin, this.AmountOfBrewToSpawnMax);
+            CallFunc_AddItem_ReturnValue = this.Inventory.AddItem(K2Node_ClassDynamicCast_AsInventory_Item, CallFunc_RandomIntegerInRange_ReturnValue, (byte)(2));
+            break;
+
+            // Block 3
+            ExecuteUbergraph_BP_BrewContainer_216: EX_BindDelegate("OnLoaded_88CB2B1949BE450444EF4AADB3068880", K2Node_CreateDelegate_OutputDelegate, this);
+            KismetSystemLibrary.LoadAssetClass(this, CallFunc_GetBrewDefinition_ReturnValue.Actor, K2Node_CreateDelegate_OutputDelegate, EX_StructConst(LatentActionInfo, 32, -1, 1947637569, EX_NameConst("ExecuteUbergraph_BP_BrewContainer"), this));
+            break;
+
+            // Block 4
+            ExecuteUbergraph_BP_BrewContainer_316: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue) break;
+
+            // Block 5
+            K2Node_DynamicCast_AsBP_Brewery_Tap = EX_DynamicCast("BP_BreweryTap_C", this.ChildActor.ChildActor);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Brewery_Tap);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            // Block 6
+            EX_LetObj(this.BreweryTapRef,K2Node_DynamicCast_AsBP_Brewery_Tap);
+            this.ChildActor.ChildActor.SetOwner(this);
+            this.BreweryTapRef.SetOwner(this);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.BrewTypesKegCanHave);
+            CallFunc_RandomInteger_ReturnValue = KismetMathLibrary.RandomInteger(CallFunc_Array_Length_ReturnValue);
+            Default__KismetArrayLibrary.Array_Get(this.BrewTypesKegCanHave, CallFunc_RandomInteger_ReturnValue, CallFunc_Array_Get_Item);
+            CallFunc_GetBrewDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetBrewDefinition(CallFunc_Array_Get_Item, CallFunc_GetBrewDefinition_OutResult);
+            K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetBrewDefinition_OutResult, (byte)(0)));
+            if (!(K2Node_SwitchEnum_CmpSuccess)) goto ExecuteUbergraph_BP_BrewContainer_216;
+
+            // Block 7
+            break;
+
+            // Block 8
+            ExecuteUbergraph_BP_BrewContainer_805: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            if (!CallFunc_HasAuthority_ReturnValue_1) break;
+
+            // Block 9
+            CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(K2Node_ComponentBoundEvent_AmountRemoved, 5));
+            this.BreweryTapRef.PlayDrainEffect(CallFunc_Greater_IntInt_ReturnValue);
+            break;
+
+            // Block 10
+            ExecuteUbergraph_BP_BrewContainer_915_ReceiveBeginPlay: base.ReceiveBeginPlay();
+            goto ExecuteUbergraph_BP_BrewContainer_316;
+
+            // Block 11
+            ExecuteUbergraph_BP_BrewContainer_930_BndEvt__BP_BrewContainer_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature: this.ChildActor.K2_DestroyComponent(this);
+            break;
+
+            // Block 12
+            ExecuteUbergraph_BP_BrewContainer_964_BndEvt__BP_BrewContainer_Inventory_K2Node_ComponentBoundEvent_1_ItemRemovedSignature__DelegateSignature: goto ExecuteUbergraph_BP_BrewContainer_805;
+
+        }
+
+
+        // Block 13
+        ExecuteUbergraph_BP_BrewContainer_969:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_BrewContainer_Inventory_K2Node_ComponentBoundEvent_1_ItemRemovedSignature__DelegateSignature([BlueprintVisible, BlueprintReadOnly, UObjectWrapper] Class ItemClass, [BlueprintVisible, BlueprintReadOnly] int AmountRemoved, [BlueprintVisible, BlueprintReadOnly] int NewTotalCount) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_ItemClass", ItemClass);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_AmountRemoved", AmountRemoved);
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NewTotalCount", NewTotalCount);
+        this.ExecuteUbergraph_BP_BrewContainer(ExecuteUbergraph_BP_BrewContainer_964_BndEvt__BP_BrewContainer_Inventory_K2Node_ComponentBoundEvent_1_ItemRemovedSignature__DelegateSignature);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_BrewContainer_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_BrewContainer(ExecuteUbergraph_BP_BrewContainer_930_BndEvt__BP_BrewContainer_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrewContainer(ExecuteUbergraph_BP_BrewContainer_915_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnLoaded_88CB2B1949BE450444EF4AADB3068880([BlueprintVisible, BlueprintReadOnly, UObjectWrapper] Class Loaded) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Loaded", Loaded);
+        this.ExecuteUbergraph_BP_BrewContainer(ExecuteUbergraph_BP_BrewContainer_15_OnLoaded_88CB2B1949BE450444EF4AADB3068880);
+
+    }
+
+}

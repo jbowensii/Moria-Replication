@@ -1,0 +1,141 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MorShadowFXAdapterComponent {}
+
+[Import("/Script/Moria")]
+public class MorTorchComponent {}
+
+[Import("/Script/Moria")]
+public class TransformLocatorComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public PointLightComponent Default__PointLightComponent;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public StaticMeshComponent Default__StaticMeshComponent;
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Engine/BasicShapes/Plane")]
+public StaticMesh Plane;
+
+
+[Import("/Game/FX/PointLights/MI_OrcMenaceScattering")]
+public MaterialInstanceConstant MI_OrcMenaceScattering;
+
+
+[Import("/Game/Items/Holdables/BP_Torch_Orc")]
+public class BP_Torch_Orc_C {
+    public AkComponent AkTorchAudio_GEN_VARIABLE;
+    public MorAIBehaviorPointComponent BehaviorPoint_Moth_GEN_VARIABLE;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer_GEN_VARIABLE;
+    public MorPointLightComponent MorPointLight_GEN_VARIABLE;
+    public MorShadowFXAdapterComponent MorShadowFXAdapter_GEN_VARIABLE;
+    public MorTorchComponent MorTorch_GEN_VARIABLE;
+    public NiagaraComponent Sparks_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent GripPoint_GEN_VARIABLE;
+    public StaticMeshComponent RaycastMesh_GEN_VARIABLE;
+    public StaticMeshComponent SM_Torch_GEN_VARIABLE;
+    public TransformLocatorComponent TransformLocator_GEN_VARIABLE;
+    public AkComponent AkTorchAudio;
+    public MorAIBehaviorPointComponent BehaviorPoint_Moth;
+    public MorGameplayLightProducerComponent MorGameplayLightProducer;
+    public MorPointLightComponent MorPointLight;
+    public MorShadowFXAdapterComponent MorShadowFXAdapter;
+    public MorTorchComponent MorTorch;
+    public NiagaraComponent Sparks;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent GripPoint;
+    public StaticMeshComponent RaycastMesh;
+    public StaticMeshComponent SM_Torch;
+    public TransformLocatorComponent TransformLocator;
+}
+
+[Import("/Game/Items/Holdables/BP_Torch_Orc")]
+public class Default__BP_Torch_Orc_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Torch_Orc_SE_Menace_C : BP_Torch_Orc_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<StaticMeshComponent> DistantScattering;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<PointLightComponent> PointLight;
+}

@@ -1,0 +1,332 @@
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+    public ObjectProperty OnProgressChanged;
+}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+}
+
+[Import("/Script/Moria")]
+public Object MorProgressChangedSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class ApplyEffectRadiusComponent {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractableCondition_PartsCompleted {}
+
+[Import("/Script/Moria")]
+public class MorChallengeInteractableCondition_WasActivated {}
+
+[Import("/Script/Moria")]
+public class MorCondition_ProgressRow {}
+
+[Import("/Script/Moria")]
+public class MorInteractionPoint {}
+
+[Import("/Script/Moria")]
+public class MorSetupChallengeComponent {}
+
+[Import("/Script/Moria")]
+public class UMorChallengeInteractableCondition_IsStateLoaded {}
+
+
+[Import("/Script/FGKStaticData")]
+public static class FGKStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_RowHandleRowHandle();
+}
+
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKFilteredInventoryComponent {}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public class FGKCondition_IsChildDone {}
+
+[Import("/Script/FGK")]
+public class FGKConditionGroup {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BoxComponent {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GreaterEqual_IntInt();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_SetWorldRotation();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object HitResult;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent : SceneComponent {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class TimelineTemplate {}
+
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+
+[Import("/Game/Tech/Data/StringTables/Challenges")]
+public StringTable Challenges;
+
+
+[Import("/Game/Tech/Managers/BP_DiscoveryManager")]
+public class BP_DiscoveryManager_C : MorDiscoveryManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_DiscoveryManager")]
+public BP_DiscoveryManager_C Default__BP_DiscoveryManager_C;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetProgressValuePure();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_InteractChallenge_Finished")]
+public class InSt_InteractChallenge_Finished_C {}
+
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_ComplexInteractionChallenge_Progress")]
+public class InSt_ComplexInteractionChallenge_Progress_C {}
+
+[Import("/Game/LevelDesign/Placeables/Interactables/States/InSt_ComplexInteractionChallenge_Progress")]
+public class Default__InSt_ComplexInteractionChallenge_Progress_C {
+    public FGKConditionGroup FGKConditionGroup_0;
+    public FGKConditionGroup FGKConditionGroup_1;
+    public FGKConditionGroup FGKConditionGroup_2;
+    public FGKConditionGroup FGKConditionGroup_3;
+    public FGKConditionGroup FGKConditionGroup_4;
+    public FGKConditionGroup FGKConditionGroup_5;
+    public FGKConditionGroup FGKConditionGroup_6;
+    public FGKConditionGroup FGKConditionGroup_7;
+    public FGKConditionGroup FGKConditionGroup_8;
+    public FGKConditionGroup FGKConditionGroup_9;
+    public InSt_InteractChallenge_Finished_C InSt_InteractChallenge_Finished_C_2;
+    public MorCondition_ProgressRow MorCondition_ProgressRow_0;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class CBP_InteractChallenge_C {
+    public ApplyEffectRadiusComponent ApplyEffectRadius_GEN_VARIABLE;
+    [UnknownSignature] public  void OnFinishedStateBegin();
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+    public MorSetupChallengeComponent MorSetupChallenge_GEN_VARIABLE;
+    public PostProcessComponent HighlightFXPostProcess_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent LootLocator_GEN_VARIABLE;
+    public ApplyEffectRadiusComponent ApplyEffectRadius;
+    public MorSetupChallengeComponent MorSetupChallenge;
+    public PostProcessComponent HighlightFXPostProcess;
+    public SceneComponent DefaultSceneRoot;
+    public SceneComponent LootLocator;
+}
+
+[Import("/Game/LevelDesign/Challenges/CBP_InteractChallenge")]
+public class Default__CBP_InteractChallenge_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/Forges/Drainworks/BP_BrokenDrainworks")]
+public class BP_BrokenDrainworks_C : CBP_InteractChallenge_C {
+    public AkComponent `Ak Audio_GEN_VARIABLE`;
+    public BoxComponent Box_GEN_VARIABLE;
+    public MorInteractionPoint MorInteractionPoint_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent Cube_GEN_VARIABLE;
+    public StaticMeshComponent Lever_GEN_VARIABLE;
+    public TimelineTemplate LeverTimeline_Template;
+    public AkComponent `Ak Audio`;
+    public BoxComponent Box;
+    public MorInteractionPoint MorInteractionPoint;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent Cube;
+    public StaticMeshComponent Lever;
+    [UnknownSignature, LocalVirtualFunction] public virtual void `Set Repaired Interact Text`();
+}
+
+[Import("/Game/LevelDesign/Challenges/Forges/Drainworks/BP_BrokenDrainworks")]
+public class Default__BP_BrokenDrainworks_C {
+    public BoxComponent InteractCollider;
+    public FGKActorFSMComponent InteractableFSMComp;
+    public FGKFilteredInventoryComponent InventoryComponent;
+    public SceneComponent ROOT;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_BrokenDrainworks_FloodedForgeLever_C : BP_BrokenDrainworks_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> ProgressToListenFor;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> WaterDrained;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Struct<MorProgressRowHandle> GateLeverUsed;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        const Struct<MorProgressRowHandle> K2Node_CustomEvent_ProgressKey;
+        int K2Node_CustomEvent_Value;
+        Object<BP_DiscoveryManager_C> CallFunc_GetManager_ReturnValue;
+        bool CallFunc_EqualEqual_RowHandleRowHandle_ReturnValue;
+        int CallFunc_GetProgressValuePure_Value;
+        bool CallFunc_GreaterEqual_IntInt_ReturnValue;
+        [ContainsInstancedReference] Struct<HitResult> CallFunc_K2_SetWorldRotation_SweepHitResult;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_10_OnFinishedStateBegin: this.Lever.K2_SetWorldRotation(EX_RotationConst(0, 0, 120), false, CallFunc_K2_SetWorldRotation_SweepHitResult, false);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_71: EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(this.GateLeverUsed, 1);
+        return;
+
+        // Block 4
+        ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_143_ReceiveBeginPlay: base.ReceiveBeginPlay();
+        EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(this, BP_DiscoveryManager_C));
+        EX_BindDelegate("ProgressChanged", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_AddMulticastDelegate(CallFunc_GetManager_ReturnValue.OnProgressChanged, K2Node_CreateDelegate_OutputDelegate);
+        Default__BPFL_LevelDesign_C.GetProgressValuePure(this, this.WaterDrained, this, CallFunc_GetProgressValuePure_Value);
+        CallFunc_GreaterEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_IntInt(CallFunc_GetProgressValuePure_Value, 1));
+        if (!CallFunc_GreaterEqual_IntInt_ReturnValue) return;
+
+        // Block 5
+        goto ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_71;
+
+        // Block 6
+        ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_356_ProgressChanged: CallFunc_EqualEqual_RowHandleRowHandle_ReturnValue = (bool)(FGKStaticDataFunctionLibrary.EqualEqual_RowHandleRowHandle(K2Node_CustomEvent_ProgressKey, this.ProgressToListenFor));
+        if (!CallFunc_EqualEqual_RowHandleRowHandle_ReturnValue) return;
+
+        // Block 7
+        this.`Set Repaired Interact Text`();
+
+        // Block 8
+        ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_422:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    override void OnFinishedStateBegin() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever(ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_10_OnFinishedStateBegin);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    void ProgressChanged([BlueprintVisible, BlueprintReadOnly] const out ref Struct<MorProgressRowHandle> ProgressKey, [BlueprintVisible, BlueprintReadOnly] int Value) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_ProgressKey", ProgressKey);
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_Value", Value);
+        this.ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever(ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_356_ProgressChanged);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever(ExecuteUbergraph_BP_BrokenDrainworks_FloodedForgeLever_143_ReceiveBeginPlay);
+
+    }
+
+}

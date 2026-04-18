@@ -1,0 +1,131 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent {}
+
+
+[Import("/Script/Moria")]
+public class CalloutDataComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SkeletalMeshComponent Default__SkeletalMeshComponent;
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class SkeletalMesh {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+
+[Import("/Script/ClothingSystemRuntimeNv")]
+public class ClothingSimulationFactoryNv {}
+
+
+[Import("/Game/UI/Textures/_Icons/ItemRenders/Armor/T_UI_Icon_Armor_Durin_Torso_White")]
+public Texture2D T_UI_Icon_Armor_Durin_Torso_White;
+
+
+[Import("/Game/Tech/Data/StringTables/Items")]
+public StringTable Items;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_Durin/Dwarf_Armor_Durin_Torso_WMorphs")]
+public SkeletalMesh Dwarf_Armor_Durin_Torso_WMorphs;
+
+
+[Import("/Game/Art/PhysMats/PM_metal_heavy")]
+public PhysicalMaterial PM_metal_heavy;
+
+
+[Import("/Game/CharacterArt/Dwarfs/Dwarf_Armor/ArmorSet_Durin/MI_Dwarf_Armor_Durin_Torso_White")]
+public MaterialInstanceConstant MI_Dwarf_Armor_Durin_Torso_White;
+
+
+[Import("/Game/Character/Shared/CharacterCreator/DataTables/Dwarf/DT_CC_CraftTorsos")]
+public DataTable DT_CC_CraftTorsos;
+
+
+[Import("/Game/Items/Clothing/GE_EreborSteel_TBDSet_ChestArmor")]
+public class GE_EreborSteel_TBDSet_ChestArmor_C {}
+
+[Import("/Game/Items/Clothing/GE_EreborSteel_TBDSet_ChestArmor")]
+public GE_EreborSteel_TBDSet_ChestArmor_C Default__GE_EreborSteel_TBDSet_ChestArmor_C;
+
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class BP_Category_Clothing_C {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/BP_Category_Clothing")]
+public class Default__BP_Category_Clothing_C {
+    public CalloutDataComponent `Callout Data`;
+    public NiagaraComponent RibbonTrails;
+    public SceneComponent Root;
+}
+
+
+[Import("/Game/WwiseAudio/Switches/Foley/Player/swg_armor_upper/swg_armor_upper-sw_plate")]
+public AkSwitchValue `swg_armor_upper-sw_plate`;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_Durin_Set_TorsoArmor_White_C : BP_Category_Clothing_C {
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SkeletalMeshComponent> SkeletalMesh;
+}

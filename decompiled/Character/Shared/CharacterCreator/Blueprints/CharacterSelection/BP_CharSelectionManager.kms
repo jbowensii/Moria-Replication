@@ -1,0 +1,471 @@
+
+[Import("/Script/Moria")]
+public static class MorCharSelectionManager {
+    [UnknownSignature, MathFunction] public static sealed void GetInstance();
+    [UnknownSignature, FinalFunction] public sealed void GetSelectedCustomizationMannequin();
+}
+
+[Import("/Script/Moria")]
+public class MorCustomizationMannequin {}
+
+[Import("/Script/Moria")]
+public static class MorUIManager : FGKUIManager {
+    [UnknownSignature, MathFunction] public static sealed void BPGetManager();
+}
+
+[Import("/Script/Moria")]
+public MorCharSelectionManager Default__MorCharSelectionManager;
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorMannequinInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIManager {
+    [UnknownSignature, FinalFunction] public sealed void BindToScreenShownEvent();
+    [UnknownSignature, FinalFunction] public sealed void UnbindFromScreenShownEvent();
+}
+
+[Import("/Script/FGKUIToolkit")]
+public class FGKUIScreen {}
+
+[Import("/Script/FGKUIToolkit")]
+public Object FGKUIManagerScreenEvent__DelegateSignature;
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class Actor {
+    public Object ReceiveBeginPlay;
+    public Object ReceiveEndPlay;
+}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetAllActorsOfClass();
+    [UnknownSignature, MathFunction] public static sealed void GetObjectClass();
+}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ClassClass();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Not_PreBool();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+}
+
+[Import("/Script/Engine")]
+public class SceneComponent {
+    [UnknownSignature, FinalFunction] public sealed void SetVisibility();
+}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public Object EEndPlayReason;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ByteProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_LoadWorldScreen")]
+public WBP_UI_LoadWorldScreen_C Default__WBP_UI_LoadWorldScreen_C;
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_LoadWorldScreen")]
+public class WBP_UI_LoadWorldScreen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_JoinWorldScreen")]
+public WBP_UI_JoinWorldScreen_C Default__WBP_UI_JoinWorldScreen_C;
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_JoinWorldScreen")]
+public class WBP_UI_JoinWorldScreen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_CreateWorldScreen")]
+public WBP_UI_CreateWorldScreen_C Default__WBP_UI_CreateWorldScreen_C;
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_CreateWorldScreen")]
+public class WBP_UI_CreateWorldScreen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_ChooseWorldScreen")]
+public WBP_UI_ChooseWorldScreen_C Default__WBP_UI_ChooseWorldScreen_C;
+
+[Import("/Game/UI/MainMenu/WorldSelect/WBP_UI_ChooseWorldScreen")]
+public class WBP_UI_ChooseWorldScreen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/MainMenu/WBP_UI_CharacterSelectScreen")]
+public WBP_UI_CharacterSelectScreen_C Default__WBP_UI_CharacterSelectScreen_C;
+
+[Import("/Game/UI/MainMenu/WBP_UI_CharacterSelectScreen")]
+public class WBP_UI_CharacterSelectScreen_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_CharacterCreatorRenameDialog")]
+public WBP_CharacterCreatorRenameDialog_C Default__WBP_CharacterCreatorRenameDialog_C;
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_CharacterCreatorRenameDialog")]
+public class WBP_CharacterCreatorRenameDialog_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_CharacterCreatorMain")]
+public WBP_CharacterCreatorMain_C Default__WBP_CharacterCreatorMain_C;
+
+[Import("/Game/Character/Shared/CharacterCreator/Widgets/WBP_CharacterCreatorMain")]
+public class WBP_CharacterCreatorMain_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/Character/Shared/CharacterCreator/BP_DwarfCustomizationCharacterMannequin")]
+public class BP_DwarfCustomizationCharacterMannequin_C {
+    public PersonalityComponent Personality_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public WidgetComponent NamePlateWidget_GEN_VARIABLE;
+    public PersonalityComponent Personality;
+    public SceneComponent DefaultSceneRoot;
+    public WidgetComponent NamePlateWidget;
+}
+
+[Import("/Game/Character/Shared/CharacterCreator/BP_DwarfCustomizationCharacterMannequin")]
+public class Default__BP_DwarfCustomizationCharacterMannequin_C {
+    public AkComponent AkComponent_Voice;
+    public CapsuleComponent CollisionCylinder;
+    public CustomizationManager CustomizationMan;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKCharacterMovementComponent CharMoveComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorEquipComponent EquipComp;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorMannequinInventoryComponent InventoryComp;
+    public SkeletalMeshComponent CharacterMesh0;
+    public SkeletalMeshComponent `Slot::Back`;
+    public SkeletalMeshComponent `Slot::Backpack`;
+    public SkeletalMeshComponent `Slot::Beard`;
+    public SkeletalMeshComponent `Slot::Chest`;
+    public SkeletalMeshComponent `Slot::Extras`;
+    public SkeletalMeshComponent `Slot::Feet`;
+    public SkeletalMeshComponent `Slot::Gloves`;
+    public SkeletalMeshComponent `Slot::Hair`;
+    public SkeletalMeshComponent `Slot::Hands`;
+    public SkeletalMeshComponent `Slot::Hat`;
+    public SkeletalMeshComponent `Slot::Head`;
+    public SkeletalMeshComponent `Slot::Legs`;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CharSelectionManager_C : MorCharSelectionManager {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SceneComponent> DefaultSceneRoot;
+    [UbergraphFunction]
+    sealed void ExecuteUbergraph_BP_CharSelectionManager([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        byte K2Node_Event_EndPlayReason;
+        [InstancedReference] Object<FGKUIScreen> K2Node_CustomEvent_ScreenInstance;
+        Class CallFunc_GetObjectClass_ReturnValue;
+        bool CallFunc_EqualEqual_ClassClass_ReturnValue;
+        bool CallFunc_Not_PreBool_ReturnValue;
+
+        // Block 1
+        goto EntryPoint;
+
+        // Block 2
+        ExecuteUbergraph_BP_CharSelectionManager_10: this.UpdateScreenShownBindings(false);
+        return;
+
+        // Block 3
+        ExecuteUbergraph_BP_CharSelectionManager_30_ReceiveEndPlay: goto ExecuteUbergraph_BP_CharSelectionManager_10;
+
+        // Block 4
+        ExecuteUbergraph_BP_CharSelectionManager_35_OnScreenShown: EX_LetObj(CallFunc_GetObjectClass_ReturnValue,GameplayStatics.GetObjectClass(K2Node_CustomEvent_ScreenInstance));
+        CallFunc_EqualEqual_ClassClass_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ClassClass(CallFunc_GetObjectClass_ReturnValue, WBP_CharacterCreatorMain_C));
+        CallFunc_Not_PreBool_ReturnValue = (bool)(KismetMathLibrary.Not_PreBool(CallFunc_EqualEqual_ClassClass_ReturnValue));
+        this.`Update Name Plate Visibilities`(CallFunc_Not_PreBool_ReturnValue);
+        return;
+
+        // Block 5
+        ExecuteUbergraph_BP_CharSelectionManager_159_ReceiveBeginPlay: this.UpdateScreenShownBindings(true);
+
+        // Block 6
+        ExecuteUbergraph_BP_CharSelectionManager_174:
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_CharSelectionManager(ExecuteUbergraph_BP_CharSelectionManager_159_ReceiveBeginPlay);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnScreenShown([BlueprintVisible, BlueprintReadOnly, InstancedReference] Object<FGKUIScreen> ScreenInstance) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_CustomEvent_ScreenInstance", ScreenInstance);
+        this.ExecuteUbergraph_BP_CharSelectionManager(ExecuteUbergraph_BP_CharSelectionManager_35_OnScreenShown);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveEndPlay([BlueprintVisible, BlueprintReadOnly] byte EndPlayReason) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_EndPlayReason", EndPlayReason);
+        this.ExecuteUbergraph_BP_CharSelectionManager(ExecuteUbergraph_BP_CharSelectionManager_30_ReceiveEndPlay);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void `Update Name Plate Visibilities`([BlueprintVisible, BlueprintReadOnly] bool showSelectedName) {
+        // Locals
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<MorCharSelectionManager> CallFunc_GetInstance_ReturnValue;
+        ref Array<Object<MorCustomizationMannequin>> CallFunc_GetAllActorsOfClass_OutActors;
+        Object<MorCustomizationMannequin> CallFunc_GetSelectedCustomizationMannequin_ReturnValue;
+        Object<MorCustomizationMannequin> CallFunc_Array_Get_Item;
+        Object<BP_DwarfCustomizationCharacterMannequin_C> K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_DwarfCustomizationCharacterMannequin_C> K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin_1;
+        bool K2Node_DynamicCast_bSuccess_1;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            CallFunc_GetAllActorsOfClass_OutActors = new[] {};
+            GameplayStatics.GetAllActorsOfClass(this, MorCustomizationMannequin, CallFunc_GetAllActorsOfClass_OutActors);
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            `Update Name Plate Visibilities_91`: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetAllActorsOfClass_OutActors);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(`Update Name Plate Visibilities_628`);
+
+                // Block 4
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetAllActorsOfClass_OutActors, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin_1 = EX_DynamicCast("BP_DwarfCustomizationCharacterMannequin_C", CallFunc_Array_Get_Item);
+                K2Node_DynamicCast_bSuccess_1 = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin_1);
+                EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess_1);
+
+                // Block 5
+                K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin_1.NamePlateWidget.SetVisibility(false, false);
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 6
+            `Update Name Plate Visibilities_425`: EX_LetObj(CallFunc_GetInstance_ReturnValue,MorCharSelectionManager.GetInstance(this));
+            EX_LetObj(CallFunc_GetSelectedCustomizationMannequin_ReturnValue,CallFunc_GetInstance_ReturnValue.GetSelectedCustomizationMannequin());
+            K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin = EX_DynamicCast("BP_DwarfCustomizationCharacterMannequin_C", CallFunc_GetSelectedCustomizationMannequin_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin);
+            if (!K2Node_DynamicCast_bSuccess) break;
+
+            // Block 7
+            K2Node_DynamicCast_AsBP_Dwarf_Customization_Character_Mannequin.NamePlateWidget.SetVisibility(showSelectedName, false);
+            break;
+
+            // Block 8
+            `Update Name Plate Visibilities_628`: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto `Update Name Plate Visibilities_91`;
+
+        }
+
+
+        // Block 9
+        `Update Name Plate Visibilities_702`:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void UpdateScreenShownBindings([BlueprintVisible, BlueprintReadOnly] bool Bind) {
+        // Locals
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        Delegate K2Node_CreateDelegate_OutputDelegate_1;
+        Object<MorUIManager> CallFunc_BPGetManager_ReturnValue_1;
+
+        // Block 1
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue,MorUIManager.BPGetManager(this));
+        CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_BPGetManager_ReturnValue));
+        if (!CallFunc_IsValid_ReturnValue) return;
+
+        // Block 2
+
+        if (Bind) {
+            // Block 3
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_UI_CharacterSelectScreen_C, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_CharacterCreatorMain_C, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_CharacterCreatorRenameDialog_C, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_UI_ChooseWorldScreen_C, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_UI_CreateWorldScreen_C, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_UI_LoadWorldScreen_C, K2Node_CreateDelegate_OutputDelegate_1);
+            EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate_1, this);
+            EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+            CallFunc_BPGetManager_ReturnValue_1.BindToScreenShownEvent(WBP_UI_JoinWorldScreen_C, K2Node_CreateDelegate_OutputDelegate_1);
+            return;
+
+        }
+
+
+        // Block 4
+        UpdateScreenShownBindings_741: EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_UI_CharacterSelectScreen_C, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_CharacterCreatorMain_C, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_CharacterCreatorRenameDialog_C, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_UI_ChooseWorldScreen_C, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_UI_CreateWorldScreen_C, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_UI_LoadWorldScreen_C, K2Node_CreateDelegate_OutputDelegate);
+        EX_BindDelegate("OnScreenShown", K2Node_CreateDelegate_OutputDelegate, this);
+        EX_LetObj(CallFunc_BPGetManager_ReturnValue_1,MorUIManager.BPGetManager(this));
+        CallFunc_BPGetManager_ReturnValue_1.UnbindFromScreenShownEvent(WBP_UI_JoinWorldScreen_C, K2Node_CreateDelegate_OutputDelegate);
+
+        // Block 5
+        UpdateScreenShownBindings_1399:
+
+    }
+
+}

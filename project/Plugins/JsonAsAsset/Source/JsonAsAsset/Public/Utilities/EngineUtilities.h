@@ -39,6 +39,7 @@ inline UJsonAsAssetSettings* GetSettings() {
 }
 
 inline void BrowseToAsset(UObject* Asset) {
+	if (IsRunningCommandlet()) return;
 	/* Browse to newly added Asset in the Content Browser */
 	const TArray<FAssetData>& Assets = { Asset };
 	const FContentBrowserModule& ContentBrowserModule = FModuleManager::Get().LoadModuleChecked<FContentBrowserModule>("ContentBrowser");
@@ -1041,6 +1042,7 @@ inline UClass* LoadClass(const TSharedPtr<FJsonObject>& SuperStruct) {
 }
 
 inline void RemoveNotification(TWeakPtr<SNotificationItem> Notification) {
+	if (IsRunningCommandlet()) return;
 	const TSharedPtr<SNotificationItem> Item = Notification.Pin();
 
 	if (Item.IsValid()) {

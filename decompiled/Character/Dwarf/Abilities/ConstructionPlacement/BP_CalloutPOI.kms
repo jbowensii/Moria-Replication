@@ -1,0 +1,82 @@
+
+[Import("/Script/Moria")]
+public class Default__CalloutPOI {
+    public Object POIMarkerComponent;
+    public Object Root;
+}
+
+[Import("/Script/Moria")]
+public class CalloutPOI {}
+
+[Import("/Script/Moria")]
+public class POIMarkerComponent {}
+
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class StringTable {}
+
+[Import("/Script/Engine")]
+public class Texture2D {}
+
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+
+[Import("/Game/UI/HUD/WBP_POIMarker")]
+public WBP_POIMarker_C Default__WBP_POIMarker_C;
+
+[Import("/Game/UI/HUD/WBP_POIMarker")]
+public class WBP_POIMarker_C {
+    public WidgetTree WidgetTree;
+}
+
+
+[Import("/Game/UI/Textures/_Icons/Waypoints/T_UI_Icon_Waypoint_Custom_02")]
+public Texture2D T_UI_Icon_Waypoint_Custom_02;
+
+
+[Import("/Game/Tech/Data/StringTables/UI")]
+public StringTable UI;
+
+
+[Import("/Game/UI/HUD/Curve_UI_DistanceScale_Float")]
+public CurveFloat Curve_UI_DistanceScale_Float;
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_CalloutPOI_C : CalloutPOI {
+}

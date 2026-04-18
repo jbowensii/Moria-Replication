@@ -1,0 +1,2112 @@
+
+[Import("/Script/Niagara")]
+public class NiagaraComponent : ActorComponent {}
+
+[Import("/Script/Niagara")]
+public NiagaraComponent Default__NiagaraComponent;
+
+[Import("/Script/Niagara")]
+public Object NiagaraBool;
+
+[Import("/Script/Niagara")]
+public Object NiagaraFloat;
+
+[Import("/Script/Niagara")]
+public class NiagaraSystem {}
+
+
+[Import("/Script/NavigationSystem")]
+public class NavArea_Obstacle {}
+
+
+[Import("/Script/Moria")]
+public class AILair {
+    [UnknownSignature, FinalFunction] public sealed void GetSpawnedCharacters();
+    public ObjectProperty FinalLairPopulationRow;
+}
+
+[Import("/Script/Moria")]
+public class MorAIBehaviorPointComponent {}
+
+[Import("/Script/Moria")]
+public class MorAIEncounterManager {
+    [UnknownSignature, FinalFunction] public sealed void ReportAwarenessEvent();
+}
+
+[Import("/Script/Moria")]
+public class MorBehaviorState_Interact {}
+
+[Import("/Script/Moria")]
+public class MorBreakableComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableMeshPiece {}
+
+[Import("/Script/Moria")]
+public class MorCharacter {}
+
+[Import("/Script/Moria")]
+public static class MorDialogueManager {
+    [UnknownSignature, MathFunction] public static sealed void RequestDialogueEventFromTableAndConversationTrack();
+    public ObjectProperty OnConversationComplete;
+    public ObjectProperty OnConversationCancelled;
+}
+
+[Import("/Script/Moria")]
+public class MorDiscoveryManager {
+    [UnknownSignature, FinalFunction] public sealed void GetProgressValue();
+    [UnknownSignature, FinalFunction] public sealed void SetProgressValue();
+}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightProducerComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaGameState {}
+
+[Import("/Script/Moria")]
+public static class MoriaUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetDiscoveryManager();
+    [UnknownSignature, MathFunction] public static sealed void GetWorldLayout();
+    [UnknownSignature, MathFunction] public static sealed void KillOrDestroyActor();
+}
+
+[Import("/Script/Moria")]
+public class MorPointLightComponent {
+    public ActorComponent PointLight;
+}
+
+[Import("/Script/Moria")]
+public static class MorStaticDataFunctionLibrary {
+    [UnknownSignature, MathFunction] public static sealed void GetLandmarkDefinition();
+}
+
+[Import("/Script/Moria")]
+public class MorStoryManager {
+    [UnknownSignature, FinalFunction] public sealed void DiscoverStoryFragment();
+}
+
+[Import("/Script/Moria")]
+public class WorldLayout {
+    [UnknownSignature, FinalFunction] public sealed void GetBubbleAt();
+}
+
+[Import("/Script/Moria")]
+public class WorldLayoutBubble {
+    public ObjectProperty LandmarkHandle;
+}
+
+[Import("/Script/Moria")]
+public Object MorConversationSignature__DelegateSignature;
+
+[Import("/Script/Moria")]
+public MorAIBehaviorPointComponent Default__MorAIBehaviorPointComponent;
+
+[Import("/Script/Moria")]
+public MorAIEncounterManager Default__MorAIEncounterManager;
+
+[Import("/Script/Moria")]
+public MorBehaviorState_Interact Default__MorBehaviorState_Interact;
+
+[Import("/Script/Moria")]
+public MorBreakableMeshPiece Default__MorBreakableMeshPiece;
+
+[Import("/Script/Moria")]
+public MorGameplayLightProducerComponent Default__MorGameplayLightProducerComponent;
+
+[Import("/Script/Moria")]
+public class Default__MorPointLightComponent {
+    public Object `Point Light`;
+    public Object `Secondary Light`;
+}
+
+[Import("/Script/Moria")]
+public Object DialogueRateLimit;
+
+[Import("/Script/Moria")]
+public class LandmarkDefinition {
+    public ObjectProperty BaseBubbleName;
+}
+
+[Import("/Script/Moria")]
+public Object MorAILairPopulationRowHandle;
+
+[Import("/Script/Moria")]
+public class MoriaDamageEvent {
+    public ObjectProperty Location;
+    public ObjectProperty Direction;
+    public ObjectProperty Force;
+    public ObjectProperty Damage;
+    public ObjectProperty DamageType;
+}
+
+[Import("/Script/Moria")]
+public Object MorLoreRowHandle;
+
+[Import("/Script/Moria")]
+public Object MorProgressRowHandle;
+
+[Import("/Script/Moria")]
+public class CharacterAttributeSet {}
+
+[Import("/Script/Moria")]
+public class CustomizationManager {}
+
+[Import("/Script/Moria")]
+public class LastingInteractComponent {}
+
+[Import("/Script/Moria")]
+public class ModularCharacterComponent {}
+
+[Import("/Script/Moria")]
+public class MorAISpawnerComponent {}
+
+[Import("/Script/Moria")]
+public class MorAudioMeterComponent {}
+
+[Import("/Script/Moria")]
+public class MorBreakableFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorBuildingComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterComponentReplicator {}
+
+[Import("/Script/Moria")]
+public class MorCharacterDespawnFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterLightReflectorComponent {}
+
+[Import("/Script/Moria")]
+public class MorCharacterMovementComponent {}
+
+[Import("/Script/Moria")]
+public class MorChatComponent {}
+
+[Import("/Script/Moria")]
+public class MorCraftingComponent {}
+
+[Import("/Script/Moria")]
+public class MorCursorSlotComponent {}
+
+[Import("/Script/Moria")]
+public class MorDoorLoreTODSongJoinComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfOnDeathScreenFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorDwarfWaterFXComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipComponent {}
+
+[Import("/Script/Moria")]
+public class MorEquipOverrideComponent {}
+
+[Import("/Script/Moria")]
+public class MorGameplayLightSamplerComponent {}
+
+[Import("/Script/Moria")]
+public class MorHeavyCarryHolderComponent {}
+
+[Import("/Script/Moria")]
+public class MorHooverComponent {}
+
+[Import("/Script/Moria")]
+public class MoriaAbilitySystemComponent {}
+
+[Import("/Script/Moria")]
+public class MorInteractComponent {}
+
+[Import("/Script/Moria")]
+public class MorInventoryComponent {}
+
+[Import("/Script/Moria")]
+public class MorKegSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorMiningSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorMonumentSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorNoEpicPackBuffComponent {}
+
+[Import("/Script/Moria")]
+public class MorOverheadIndicatorComponent {}
+
+[Import("/Script/Moria")]
+public class MorSettlementSongComponent {}
+
+[Import("/Script/Moria")]
+public class MorSITAControllerComponent {}
+
+[Import("/Script/Moria")]
+public class MorSITANiagaraComponent {}
+
+[Import("/Script/Moria")]
+public class MorStaminaComponent {}
+
+[Import("/Script/Moria")]
+public class MorStoryManagerHelperComponent {}
+
+[Import("/Script/Moria")]
+public class MorSurvivalEffectsComponent {}
+
+[Import("/Script/Moria")]
+public class MorSyncedEquipmentComponent {}
+
+[Import("/Script/Moria")]
+public class MorThresholdEffectComponent {}
+
+[Import("/Script/Moria")]
+public class MorTutorialComponent {}
+
+[Import("/Script/Moria")]
+public class MorVenerationSongComponent {}
+
+[Import("/Script/Moria")]
+public class PersonalityComponent {}
+
+[Import("/Script/Moria")]
+public class VoiceComponent {}
+
+[Import("/Script/Moria")]
+public class WaypointSpawnerComponent {}
+
+
+[Import("/Script/GameplayTags")]
+public Object GameplayTag;
+
+[Import("/Script/GameplayTags")]
+public class GameplayTagContainer {
+    public ObjectProperty GameplayTags;
+}
+
+
+[Import("/Script/FGKStaticData")]
+public Object EFGKGetDefinitionResult;
+
+
+[Import("/Script/FGK")]
+public static class FGKAISense_Ping {
+    [UnknownSignature, MathFunction] public static sealed void PingAwareness();
+}
+
+[Import("/Script/FGK")]
+public class FGKAkComponent : AkGameObject {
+    [UnknownSignature, VirtualFunction] public virtual void PostAkEvent();
+}
+
+[Import("/Script/FGK")]
+public static class FGKUtils {
+    [UnknownSignature, MathFunction] public static sealed void GetManager();
+}
+
+[Import("/Script/FGK")]
+public FGKAkComponent Default__FGKAkComponent;
+
+[Import("/Script/FGK")]
+public class FGKActorFSMComponent {}
+
+[Import("/Script/FGK")]
+public class FGKParkourComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetableComponent {}
+
+[Import("/Script/FGK")]
+public class FGKTargetingComponent {}
+
+
+[Import("/Script/Engine")]
+public ArrowComponent Default__ArrowComponent;
+
+[Import("/Script/Engine")]
+public class Default__BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public BlueprintMapLibrary Default__BlueprintMapLibrary;
+
+[Import("/Script/Engine")]
+public class Actor {
+    [UnknownSignature, FinalFunction] public sealed void GetDistanceTo();
+    [UnknownSignature, FinalFunction] public sealed void HasAuthority();
+    [UnknownSignature, FinalFunction] public sealed void K2_GetActorLocation();
+    public Object ReceiveActorBeginOverlap;
+    [UnknownSignature, LocalFinalFunction] public sealed void ReceiveBeginPlay();
+}
+
+[Import("/Script/Engine")]
+public class ActorComponent {
+    [UnknownSignature, FinalFunction] public sealed void K2_DestroyComponent();
+}
+
+[Import("/Script/Engine")]
+public class ArrowComponent {}
+
+[Import("/Script/Engine")]
+public class BlueprintGeneratedClass {}
+
+[Import("/Script/Engine")]
+public class BlueprintMapLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Map_Contains();
+    [UnknownSignature, FinalFunction] public sealed void Map_Find();
+    [UnknownSignature, FinalFunction] public sealed void Map_Keys();
+    [UnknownSignature, FinalFunction] public sealed void Map_Values();
+}
+
+[Import("/Script/Engine")]
+public class Character {}
+
+[Import("/Script/Engine")]
+public class ComponentDelegateBinding {}
+
+[Import("/Script/Engine")]
+public class DataTable {}
+
+[Import("/Script/Engine")]
+public static class GameplayStatics {
+    [UnknownSignature, MathFunction] public static sealed void GetGameState();
+    [UnknownSignature, MathFunction] public static sealed void GetObjectClass();
+}
+
+[Import("/Script/Engine")]
+public class GameStateBase {
+    public ObjectProperty PlayerArray;
+}
+
+[Import("/Script/Engine")]
+public class InheritableComponentHandler {}
+
+[Import("/Script/Engine")]
+public class KismetArrayLibrary {
+    [UnknownSignature, FinalFunction] public sealed void Array_AddUnique();
+    [UnknownSignature, FinalFunction] public sealed void Array_Contains();
+    [UnknownSignature, FinalFunction] public sealed void Array_Get();
+    [UnknownSignature, FinalFunction] public sealed void Array_Length();
+}
+
+[Import("/Script/Engine")]
+public static class KismetMathLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Add_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void BooleanAND();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_ClassClass();
+    [UnknownSignature, MathFunction] public static sealed void EqualEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Greater_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void GreaterEqual_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void Less_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void Less_IntInt();
+    [UnknownSignature, MathFunction] public static sealed void LessEqual_FloatFloat();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ByteByte();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_NameName();
+    [UnknownSignature, MathFunction] public static sealed void NotEqual_ObjectObject();
+    [UnknownSignature, MathFunction] public static sealed void RandomInteger();
+    [UnknownSignature, MathFunction] public static sealed void SelectFloat();
+    [UnknownSignature, MathFunction] public static sealed void Subtract_IntInt();
+}
+
+[Import("/Script/Engine")]
+public static class KismetStringLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Conv_NameToString();
+}
+
+[Import("/Script/Engine")]
+public static class KismetSystemLibrary {
+    [UnknownSignature, MathFunction] public static sealed void Delay();
+    [UnknownSignature, MathFunction] public static sealed void GetDisplayName();
+    [UnknownSignature, MathFunction] public static sealed void IsValid();
+    [UnknownSignature, MathFunction] public static sealed void PrintString();
+}
+
+[Import("/Script/Engine")]
+public class MaterialInterface {}
+
+[Import("/Script/Engine")]
+public class PlayerState {
+    public Actor PawnPrivate;
+}
+
+[Import("/Script/Engine")]
+public class PointLightComponent {}
+
+[Import("/Script/Engine")]
+public class SceneComponent {}
+
+[Import("/Script/Engine")]
+public class SCS_Node {}
+
+[Import("/Script/Engine")]
+public class SimpleConstructionScript {}
+
+[Import("/Script/Engine")]
+public class SphereComponent {
+    [UnknownSignature, FinalFunction] public sealed void GetScaledSphereRadius();
+}
+
+[Import("/Script/Engine")]
+public class StaticMeshComponent {}
+
+[Import("/Script/Engine")]
+public ComponentDelegateBinding Default__ComponentDelegateBinding;
+
+[Import("/Script/Engine")]
+public InheritableComponentHandler Default__InheritableComponentHandler;
+
+[Import("/Script/Engine")]
+public KismetArrayLibrary Default__KismetArrayLibrary;
+
+[Import("/Script/Engine")]
+public SceneComponent Default__SceneComponent;
+
+[Import("/Script/Engine")]
+public Object LatentActionInfo;
+
+[Import("/Script/Engine")]
+public Object PointerToUberGraphFrame;
+
+[Import("/Script/Engine")]
+public SCS_Node Default__SCS_Node;
+
+[Import("/Script/Engine")]
+public SimpleConstructionScript Default__SimpleConstructionScript;
+
+[Import("/Script/Engine")]
+public SphereComponent Default__SphereComponent;
+
+[Import("/Script/Engine")]
+public class AnimMontage {}
+
+[Import("/Script/Engine")]
+public class CapsuleComponent {}
+
+[Import("/Script/Engine")]
+public class CurveFloat {}
+
+[Import("/Script/Engine")]
+public class MaterialInstanceConstant {}
+
+[Import("/Script/Engine")]
+public class PostProcessComponent {}
+
+[Import("/Script/Engine")]
+public class SkeletalMeshComponent {}
+
+[Import("/Script/Engine")]
+public class StaticMesh {}
+
+
+[Import("/Script/CoreUObject")]
+public class Class {}
+
+[Import("/Script/CoreUObject")]
+public class Function {}
+
+[Import("/Script/CoreUObject")]
+public class Object {}
+
+[Import("/Script/CoreUObject")]
+Function Default__Function;
+
+[Import("/Script/CoreUObject")]
+public Object LinearColor;
+
+[Import("/Script/CoreUObject")]
+public Object Vector;
+
+[Import("/Script/CoreUObject")]
+public class Package {}
+
+[Import("/Script/CoreUObject")]
+public class IntProperty {}
+
+[Import("/Script/CoreUObject")]
+public class BoolProperty {}
+
+[Import("/Script/CoreUObject")]
+public class DelegateProperty {}
+
+[Import("/Script/CoreUObject")]
+public class FloatProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StructProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ObjectProperty {}
+
+[Import("/Script/CoreUObject")]
+public class StrProperty {}
+
+[Import("/Script/CoreUObject")]
+public class NameProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ClassProperty {}
+
+[Import("/Script/CoreUObject")]
+public class ArrayProperty {}
+
+[Import("/Script/CoreUObject")]
+public class EnumProperty {}
+
+[Import("/Script/CoreUObject")]
+public class MapProperty {}
+
+
+[Import("/Script/AkAudio")]
+public AkComponent Default__AkComponent;
+
+[Import("/Script/AkAudio")]
+public class AkAudioEvent {}
+
+[Import("/Script/AkAudio")]
+public class AkComponent {}
+
+[Import("/Script/AkAudio")]
+public class AkGameObject {
+    [UnknownSignature, FinalFunction] public sealed void SetRTPCValue();
+}
+
+[Import("/Script/AkAudio")]
+public Object OnAkPostEventCallback__DelegateSignature;
+
+[Import("/Script/AkAudio")]
+public Object AkExternalSourceInfo;
+
+[Import("/Script/AkAudio")]
+public class AkRtpc {}
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_Deco_G")]
+public StaticMesh Orc_Scaffolding_Post_Deco_G;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_Deco_F")]
+public StaticMesh Orc_Scaffolding_Post_Deco_F;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_Deco_D")]
+public StaticMesh Orc_Scaffolding_Post_Deco_D;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_5m_D")]
+public StaticMesh Orc_Scaffolding_Post_5m_D;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_3m_D")]
+public StaticMesh Orc_Scaffolding_Post_3m_D;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_3m_C")]
+public StaticMesh Orc_Scaffolding_Post_3m_C;
+
+
+[Import("/Game/Art/Assets/Kits/Deco_Architecture/Orc_Camp/Orc_Scaffolding_Post_2m_D")]
+public StaticMesh Orc_Scaffolding_Post_2m_D;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Orc/Warren_lighting_Fireplace_A_B")]
+public StaticMesh Warren_lighting_Fireplace_A_B;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Orc/OrcBanner_E")]
+public StaticMesh OrcBanner_E;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Defiled/Defiled_Statues_Skull")]
+public StaticMesh Defiled_Statues_Skull;
+
+
+[Import("/Game/FX/fire/particles/NS_CamsFireSystem")]
+public NiagaraSystem NS_CamsFireSystem;
+
+
+[Import("/Game/Art/Assets/Kits/Deco/Orc/Materials/Orc_Lighting/MI_Orc_Lighting")]
+public MaterialInstanceConstant MI_Orc_Lighting;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00158")]
+public DataTable DT_Dialog_c00158;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00157")]
+public DataTable DT_Dialog_c00157;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00156")]
+public DataTable DT_Dialog_c00156;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00155")]
+public DataTable DT_Dialog_c00155;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00154")]
+public DataTable DT_Dialog_c00154;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00153")]
+public DataTable DT_Dialog_c00153;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00152")]
+public DataTable DT_Dialog_c00152;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00151")]
+public DataTable DT_Dialog_c00151;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00150")]
+public DataTable DT_Dialog_c00150;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00148")]
+public DataTable DT_Dialog_c00148;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00147")]
+public DataTable DT_Dialog_c00147;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00146")]
+public DataTable DT_Dialog_c00146;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00145")]
+public DataTable DT_Dialog_c00145;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00143")]
+public DataTable DT_Dialog_c00143;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00142")]
+public DataTable DT_Dialog_c00142;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00141")]
+public DataTable DT_Dialog_c00141;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00140")]
+public DataTable DT_Dialog_c00140;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Orc/DT_Dialog_c00139")]
+public DataTable DT_Dialog_c00139;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/DT_Dialog_StubTemp")]
+public DataTable DT_Dialog_StubTemp;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00075")]
+public DataTable DT_Dialog_c00075;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00063")]
+public DataTable DT_Dialog_c00063;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00062")]
+public DataTable DT_Dialog_c00062;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00061")]
+public DataTable DT_Dialog_c00061;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00060")]
+public DataTable DT_Dialog_c00060;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00059")]
+public DataTable DT_Dialog_c00059;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00058")]
+public DataTable DT_Dialog_c00058;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00057")]
+public DataTable DT_Dialog_c00057;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00056")]
+public DataTable DT_Dialog_c00056;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00055")]
+public DataTable DT_Dialog_c00055;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00054")]
+public DataTable DT_Dialog_c00054;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00053")]
+public DataTable DT_Dialog_c00053;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00052")]
+public DataTable DT_Dialog_c00052;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00051")]
+public DataTable DT_Dialog_c00051;
+
+
+[Import("/Game/Character/Dialogue/ScriptedConversations/Chapter2/DT_Dialog_c00050")]
+public DataTable DT_Dialog_c00050;
+
+
+[Import("/Game/Character/Shared/Effects/Survival/Curve_GameplayLight_Producer_MostlyLinear")]
+public CurveFloat Curve_GameplayLight_Producer_MostlyLinear;
+
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public class BP_StoryManager_C : MorStoryManager {
+    public MorStoryManagerHelperComponent MorStoryManagerHelper_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public MorStoryManagerHelperComponent MorStoryManagerHelper;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Tech/Managers/BP_StoryManager")]
+public BP_StoryManager_C Default__BP_StoryManager_C;
+
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public class BPFL_LevelDesign_C {
+    [UnknownSignature, LocalVirtualFunction] public virtual void GetZoneForCharacter();
+}
+
+[Import("/Game/Tech/Editor/BPFL_LevelDesign")]
+public BPFL_LevelDesign_C Default__BPFL_LevelDesign_C;
+
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Wood_Medium_Parent_Breakable")]
+public class BP_DM_Wood_Medium_Parent_Breakable_C : Actor {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public StaticMeshComponent `Basic Mesh_GEN_VARIABLE`;
+    public MorBreakableComponent Breakable;
+    public SceneComponent DefaultSceneRoot;
+    public StaticMeshComponent `Basic Mesh`;
+}
+
+[Import("/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Wood_Medium_Parent_Breakable")]
+public class Default__BP_DM_Wood_Medium_Parent_Breakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/LevelDesign/Challenges/BP_OrcCamp_Spawner")]
+public class BP_OrcCamp_Spawner_C : AILair {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/LevelDesign/Challenges/BP_OrcCamp_Spawner")]
+public class Default__BP_OrcCamp_Spawner_C {
+    public MorAISpawnerComponent SpawnerComponent;
+    public SceneComponent SceneComponent;
+}
+
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class BP_BaseBreakable_C {
+    public MorBreakableComponent Breakable_GEN_VARIABLE;
+    public MorBreakableFXComponent `Breakable Effects_GEN_VARIABLE`;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public MorBreakableComponent Breakable;
+    public MorBreakableFXComponent `Breakable Effects`;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Items/Breakables/BP_BaseBreakable")]
+public class Default__BP_BaseBreakable_C {
+    public SceneComponent ROOT;
+}
+
+
+[Import("/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer")]
+public class BP_DwarfGameplayEffectSerializer_C {}
+
+
+[Import("/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf")]
+public class BP_CharacterFallComponent_Dwarf_C {}
+
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public class BP_DialogueManager_C : MorDialogueManager {
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot;
+}
+
+[Import("/Game/Character/Dialogue/BP_DialogueManager")]
+public BP_DialogueManager_C Default__BP_DialogueManager_C;
+
+
+[Import("/Game/Animations/Orc/Orc_UA_N_Stand_Idle_Examine_U_Montage")]
+public class Orc_UA_N_Stand_Idle_Examine_U_Montage {
+    public AnimNotify_AkEvent_C AnimNotify_AkEvent_C_1;
+}
+
+
+[Import("/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/Env/rt_orc_camp_population")]
+public AkRtpc rt_orc_camp_population;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Orc_Camps/fx_env_orc_camps_lp_play")]
+public AkAudioEvent fx_env_orc_camps_lp_play;
+
+
+[Import("/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/fx_env_obj_bonfire_lp_play")]
+public AkAudioEvent fx_env_obj_bonfire_lp_play;
+
+
+[Import("/Game/Character/Dwarf/BP_FGKDwarf")]
+public class BP_FGKDwarf_C {
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource_GEN_VARIABLE;
+    public AkComponent AkLeftFoot_GEN_VARIABLE;
+    public AkComponent AkRightHand_GEN_VARIABLE;
+    public BP_CharacterFallComponent_Dwarf_C BP_CharacterFallComponent_Dwarf_GEN_VARIABLE;
+    public BP_DwarfGameplayEffectSerializer_C BP_DwarfGameplayEffectSerializer_GEN_VARIABLE;
+    public CustomizationManager CustomizationManager_GEN_VARIABLE;
+    public LastingInteractComponent LastingInteractComp_GEN_VARIABLE;
+    public MorAudioMeterComponent MorAudioMeter_GEN_VARIABLE;
+    public MorBuildingComponent MorBuilding_GEN_VARIABLE;
+    public MorCharacterLightReflectorComponent MorCharacterLightReflector_GEN_VARIABLE;
+    public MorChatComponent ChatComponent_GEN_VARIABLE;
+    public MorCraftingComponent MorCrafting_GEN_VARIABLE;
+    public MorCursorSlotComponent MorCursorSlotComponent_GEN_VARIABLE;
+    public MorDoorLoreTODSongJoinComponent MorDoorLoreTODSongJoin_GEN_VARIABLE;
+    public MorDwarfOnDeathScreenFXComponent MorDwarfOnDeathScreenFX_GEN_VARIABLE;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX_GEN_VARIABLE;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler_GEN_VARIABLE;
+    public MorHeavyCarryHolderComponent MorHeavyCarryHolder_GEN_VARIABLE;
+    public MorHooverComponent MorHoover_GEN_VARIABLE;
+    public MorInteractComponent MorInteract_GEN_VARIABLE;
+    public MorKegSongComponent MorKegSongComponent_GEN_VARIABLE;
+    public MorMiningSongComponent MiningSongComponent_GEN_VARIABLE;
+    public MorMonumentSongComponent MorMonumentSong_GEN_VARIABLE;
+    public MorNoEpicPackBuffComponent MorNoEpicPackBuff_GEN_VARIABLE;
+    public MorOverheadIndicatorComponent MorOverheadIndicator_GEN_VARIABLE;
+    public MorSettlementSongComponent MorSettlementSongComponent_GEN_VARIABLE;
+    public MorSITAControllerComponent MorSITAController_GEN_VARIABLE;
+    public MorSITANiagaraComponent MorSITANiagara_GEN_VARIABLE;
+    public MorStaminaComponent MorStaminaRegen_GEN_VARIABLE;
+    public MorSurvivalEffectsComponent MorSurvivalEffects_GEN_VARIABLE;
+    public MorSyncedEquipmentComponent MorSyncedEquipment_GEN_VARIABLE;
+    public MorThresholdEffectComponent MorThresholdEffectComponent_GEN_VARIABLE;
+    public MorTutorialComponent TutorialComponent_GEN_VARIABLE;
+    public MorVenerationSongComponent MorVenerationSongComponent_GEN_VARIABLE;
+    public PointLightComponent LocalDwarfLight_GEN_VARIABLE;
+    public SceneComponent DefaultSceneRoot_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Backpack_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_BaseBody_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Beard_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Chest_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Extras_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Gloves_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hair_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hands_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Hat_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Head_GEN_VARIABLE;
+    public SkeletalMeshComponent SK_Legs_GEN_VARIABLE;
+    public StaticMeshComponent `Arm_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Arm_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent Foot_L_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent Foot_R_Capsule_GEN_VARIABLE;
+    public StaticMeshComponent `Head Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_L_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_L Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Leg_R_U Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Neck Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine0 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine1 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine2 Capsule_GEN_VARIABLE`;
+    public StaticMeshComponent `Spine3 Capsule_GEN_VARIABLE`;
+    public WaypointSpawnerComponent WaypointSpawner_GEN_VARIABLE;
+    public WidgetComponent `Stamina Widget Component_GEN_VARIABLE`;
+    public SimpleConstructionScript SimpleConstructionScript_0;
+    public AIPerceptionStimuliSourceComponent AIPerceptionStimuliSource;
+    public AkComponent AkLeftFoot;
+    public AkComponent AkRightHand;
+    public BP_CharacterFallComponent_Dwarf_C BP_CharacterFallComponent_Dwarf;
+    public BP_DwarfGameplayEffectSerializer_C BP_DwarfGameplayEffectSerializer;
+    public CustomizationManager CustomizationManager;
+    public LastingInteractComponent LastingInteractComp;
+    public MorAudioMeterComponent MorAudioMeter;
+    public MorBuildingComponent MorBuilding;
+    public MorCharacterLightReflectorComponent MorCharacterLightReflector;
+    public MorChatComponent ChatComponent;
+    public MorCraftingComponent MorCrafting;
+    public MorCursorSlotComponent MorCursorSlotComponent;
+    public MorDoorLoreTODSongJoinComponent MorDoorLoreTODSongJoin;
+    public MorDwarfOnDeathScreenFXComponent MorDwarfOnDeathScreenFX;
+    public MorDwarfWaterFXComponent MorDwarfWaterFX;
+    public MorGameplayLightSamplerComponent MorGameplayLightSampler;
+    public MorHeavyCarryHolderComponent MorHeavyCarryHolder;
+    public MorHooverComponent MorHoover;
+    public MorInteractComponent MorInteract;
+    public MorKegSongComponent MorKegSongComponent;
+    public MorMiningSongComponent MiningSongComponent;
+    public MorMonumentSongComponent MorMonumentSong;
+    public MorNoEpicPackBuffComponent MorNoEpicPackBuff;
+    public MorOverheadIndicatorComponent MorOverheadIndicator;
+    public MorSettlementSongComponent MorSettlementSongComponent;
+    public MorSITAControllerComponent MorSITAController;
+    public MorSITANiagaraComponent MorSITANiagara;
+    public MorStaminaComponent MorStaminaRegen;
+    public MorSurvivalEffectsComponent MorSurvivalEffects;
+    public MorSyncedEquipmentComponent MorSyncedEquipment;
+    public MorThresholdEffectComponent MorThresholdEffectComponent;
+    public MorTutorialComponent TutorialComponent;
+    public MorVenerationSongComponent MorVenerationSongComponent;
+    public PointLightComponent LocalDwarfLight;
+    public SceneComponent DefaultSceneRoot;
+    public SkeletalMeshComponent SK_Backpack;
+    public SkeletalMeshComponent SK_BaseBody;
+    public SkeletalMeshComponent SK_Beard;
+    public SkeletalMeshComponent SK_Chest;
+    public SkeletalMeshComponent SK_Extras;
+    public SkeletalMeshComponent SK_Gloves;
+    public SkeletalMeshComponent SK_Hair;
+    public SkeletalMeshComponent SK_Hands;
+    public SkeletalMeshComponent SK_Hat;
+    public SkeletalMeshComponent SK_Head;
+    public SkeletalMeshComponent SK_Legs;
+    public StaticMeshComponent `Arm_L_L Capsule`;
+    public StaticMeshComponent `Arm_L_U Capsule`;
+    public StaticMeshComponent `Arm_R_L Capsule`;
+    public StaticMeshComponent `Arm_R_U Capsule`;
+    public StaticMeshComponent Foot_L_Capsule;
+    public StaticMeshComponent Foot_R_Capsule;
+    public StaticMeshComponent `Head Capsule`;
+    public StaticMeshComponent `Leg_L_L Capsule`;
+    public StaticMeshComponent `Leg_L_U Capsule`;
+    public StaticMeshComponent `Leg_R_L Capsule`;
+    public StaticMeshComponent `Leg_R_U Capsule`;
+    public StaticMeshComponent `Neck Capsule`;
+    public StaticMeshComponent `Spine0 Capsule`;
+    public StaticMeshComponent `Spine1 Capsule`;
+    public StaticMeshComponent `Spine2 Capsule`;
+    public StaticMeshComponent `Spine3 Capsule`;
+    public WaypointSpawnerComponent WaypointSpawner;
+    public WidgetComponent `Stamina Widget Component`;
+}
+
+[Import("/Game/Character/Dwarf/BP_FGKDwarf")]
+public class Default__BP_FGKDwarf_C {
+    public AkComponent AkComponent_Voice;
+    public AkComponent SoundComp;
+    public CapsuleComponent CollisionCylinder;
+    public CharacterAttributeSet AttributeSet;
+    public FGKActorFSMComponent BodyFSMComp;
+    public FGKParkourComponent ParkourComp;
+    public FGKTargetableComponent DefaultTargetableComp;
+    public FGKTargetingComponent TargetingComp;
+    public ModularCharacterComponent ModularCharacterComponent;
+    public MorCharacterComponentReplicator ComponentReplicator;
+    public MorCharacterDespawnFXComponent `Character Despawn FX`;
+    public MorCharacterMovementComponent CharMoveComp;
+    public MorEquipComponent EquipComp;
+    public MorEquipOverrideComponent EquipOverrideComponent;
+    public MoriaAbilitySystemComponent AbilitySystem;
+    public MorInventoryComponent InventoryComp;
+    public PersonalityComponent PersonalityComponent;
+    public SkeletalMeshComponent CharacterMesh0;
+    public VoiceComponent VoiceComponent;
+}
+
+
+[Config, Parsed, ReplicationDataIsSetUp, CompiledFromBlueprint, HasInstancedReference]
+class BP_OrcCamp_Center_C : BP_DM_Wood_Medium_Parent_Breakable_C {
+    [Transient, DuplicateTransient] Struct<PointerToUberGraphFrame> UberGraphFrame;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorPointLightComponent> MorPointLight;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<FGKAkComponent> FGKAkAmbient;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_3m_C2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_3m_C1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_CamsFireSystem1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> Ak1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorGameplayLightProducerComponent> MorGameplayLightProducer;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<AkComponent> Ak;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Defiled_Statues_Skull2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Defiled_Statues_Skull1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_Deco_G1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_Deco_F1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<NiagaraComponent> NS_CamsFireSystem;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_Deco_D2;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> OrcBanner_E1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Warren_lighting_Fireplace_A_B1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_5m_D1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_2m_D1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorBreakableMeshPiece> Orc_Scaffolding_Post_3m_D1;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<SphereComponent> `Lore Trigger`;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<ArrowComponent> Arrow;
+    [BlueprintVisible, InstancedReference, NonTransactional] Object<MorAIBehaviorPointComponent> MorAIBehaviorPoint_Idler;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Array<Object<Actor>> DestroyTargets;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> ElvenQuarterProgressRow;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> ElvenQuarterProgressRowThreshold;
+    [Edit, BlueprintVisible] int ElvenQuarterProgressThreshold;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> MineProgressRow;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row Elven Quarter`;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row Mines`;
+    [Edit, BlueprintVisible] Array<string> CampsVisited;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<BP_OrcCamp_Spawner_C> CampSpawner;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Array<Object<MorCharacter>> OrcConversationalists;
+    [Edit, BlueprintVisible] Object<DataTable> OrcDialogue;
+    [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorCharacter> OrcSpeaker;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_ElvenQuarter;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> OrcSpokenStoryProgress_ElvenQuarter;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcGenBanterDialogueBucket;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> MineProgressRowThreshold;
+    [Edit, BlueprintVisible] int MineProgressThreshold;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_Mine;
+    [Edit, BlueprintVisible] Struct<MorProgressRowHandle> OrcSpokenStoryProgress_Mine;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Object<DataTable>> `Current Dialogue List`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int `Current Progress Index`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] bool OrcStoryProgressCheck;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int CurrentLoreIndex;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Array<Struct<MorLoreRowHandle>> CurrentLoreRowIndex;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map BubbletoVOOverride;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map OrcStoryVOProgress_Zone;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map OrcThreshholdProgress;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map OrcLoreEntryProgress;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map OrchThreshhold;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map BubbletoLoreEntryOverride;
+    [Edit, BlueprintVisible, DisableEditOnInstance] int `Conversation ID`;
+    [Edit, BlueprintVisible] Name `Zone Name`;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<MorCharacter> Dwarf;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_Grottos;
+    [Edit, BlueprintVisible, DisableEditOnTemplate, DisableEditOnInstance] Object<MorCharacter> Discoverer;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row Headwaters`;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_Tomb;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row Tomb`;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_EasternBastion;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row EasternBastion`;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_Desolation;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row Desolation`;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_AngryCavern;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row AngryCaverns`;
+    [Edit, BlueprintVisible] Array<Object<DataTable>> OrcStoryDialogue_GhashOrcTown;
+    [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> `Lore Row GhashOrcTown`;
+    [Edit, BlueprintVisible, DisableEditOnInstance] Map LairToAudioMap;
+    [UbergraphFunction, HasDefaults]
+    sealed void ExecuteUbergraph_BP_OrcCamp_Center([BlueprintVisible, BlueprintReadOnly] int EntryPoint) {
+        // Locals
+        bool Temp_bool_Variable;
+        bool Temp_bool_IsClosed_Variable;
+        bool Temp_bool_Has_Been_Initd_Variable;
+        bool CallFunc_HasAuthority_ReturnValue;
+        const Delegate Temp_delegate_Variable;
+        bool CallFunc_HasAuthority_ReturnValue_1;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        float CallFunc_GetScaledSphereRadius_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Struct<MoriaDamageEvent> K2Node_MakeStruct_MoriaDamageEvent;
+        Struct<MoriaDamageEvent> K2Node_MakeStruct_MoriaDamageEvent_1;
+        Object<Character> K2Node_Event_Interactor;
+        Object<Actor> K2Node_Event_OtherActor;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess;
+        string CallFunc_GetDisplayName_ReturnValue;
+        Name CallFunc_GetZoneForCharacter_ZoneName;
+        Class CallFunc_GetObjectClass_ReturnValue;
+        string CallFunc_Conv_NameToString_ReturnValue;
+        bool CallFunc_EqualEqual_ClassClass_ReturnValue;
+        bool CallFunc_Array_Contains_ReturnValue;
+        string CallFunc_GetDisplayName_ReturnValue_1;
+        int CallFunc_Array_AddUnique_ReturnValue;
+        ref Array<Object<MorCharacter>> CallFunc_GetSpawnedCharacters_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue_1;
+        int CallFunc_RandomInteger_ReturnValue;
+        bool CallFunc_GreaterEqual_IntInt_ReturnValue;
+        const ref Array<Struct<AkExternalSourceInfo>> Temp_struct_Variable;
+        bool K2Node_ComponentBoundEvent_bPreRuined;
+        Object<AkAudioEvent> Temp_object_Variable;
+        int Temp_int_Array_Index_Variable;
+        Object<Actor> CallFunc_Array_Get_Item;
+        bool CallFunc_NotEqual_ObjectObject_ReturnValue;
+        bool CallFunc_IsValid_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+        int K2Node_ComponentBoundEvent_NewCount;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        Object<AkAudioEvent> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        float CallFunc_SelectFloat_ReturnValue;
+        Object<AkAudioEvent> K2Node_Select_Default;
+        int CallFunc_PostAkEvent_ReturnValue;
+        Object<MorCharacter> CallFunc_Get_Nearby_Dwarf_Dwarf;
+        Object<MorCharacter> CallFunc_Array_Get_Item_1;
+
+        while (true) {
+            // Block 1
+            goto EntryPoint;
+
+            // Block 2
+            Temp_bool_IsClosed_Variable = (bool)(false);
+            Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 3
+
+            ExecuteUbergraph_BP_OrcCamp_Center_38:
+            if (Temp_bool_IsClosed_Variable) {
+                // Block 4
+                break;
+
+            }
+
+
+            // Block 5
+            ExecuteUbergraph_BP_OrcCamp_Center_53: Temp_bool_IsClosed_Variable = (bool)(true);
+            this.InformMinionsTheBaseIsUnderAttack();
+            KismetSystemLibrary.Delay(this, 10f, EX_StructConst(LatentActionInfo, 32, EX_SkipOffsetConst(15), -323750922, EX_NameConst("ExecuteUbergraph_BP_OrcCamp_Center"), this));
+            EX_PopExecutionFlow();
+
+            // Block 6
+            ExecuteUbergraph_BP_OrcCamp_Center_133: Temp_bool_Has_Been_Initd_Variable = (bool)(true);
+            EX_PopExecutionFlowIfNot(false);
+
+            // Block 7
+            Temp_bool_IsClosed_Variable = (bool)(true);
+            EX_PopExecutionFlow();
+
+            // Block 8
+            ExecuteUbergraph_BP_OrcCamp_Center_158: if (!(Temp_bool_Has_Been_Initd_Variable)) goto ExecuteUbergraph_BP_OrcCamp_Center_133;
+
+            // Block 9
+            EX_PopExecutionFlow();
+
+            // Block 10
+            ExecuteUbergraph_BP_OrcCamp_Center_173: EX_PushExecutionFlow(ExecuteUbergraph_BP_OrcCamp_Center_38);
+
+            // Block 11
+            goto ExecuteUbergraph_BP_OrcCamp_Center_158;
+
+            // Block 12
+            ExecuteUbergraph_BP_OrcCamp_Center_183: CallFunc_HasAuthority_ReturnValue = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue);
+
+            // Block 13
+            goto ExecuteUbergraph_BP_OrcCamp_Center_173;
+
+            // Block 14
+            ExecuteUbergraph_BP_OrcCamp_Center_218: CallFunc_HasAuthority_ReturnValue_1 = (bool)(this.HasAuthority());
+            EX_PopExecutionFlowIfNot(CallFunc_HasAuthority_ReturnValue_1);
+
+            // Block 15
+            EX_LetObj(CallFunc_GetObjectClass_ReturnValue,GameplayStatics.GetObjectClass(K2Node_Event_OtherActor));
+            CallFunc_EqualEqual_ClassClass_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_ClassClass(CallFunc_GetObjectClass_ReturnValue, BP_FGKDwarf_C));
+            EX_PopExecutionFlowIfNot(CallFunc_EqualEqual_ClassClass_ReturnValue);
+
+            // Block 16
+            K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", K2Node_Event_OtherActor);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+            EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+            // Block 17
+            Default__BPFL_LevelDesign_C.GetZoneForCharacter(K2Node_DynamicCast_AsMor_Character, this, CallFunc_GetZoneForCharacter_ZoneName);
+            this.`Zone Name` = CallFunc_GetZoneForCharacter_ZoneName;
+            Default__BPFL_LevelDesign_C.GetZoneForCharacter(K2Node_DynamicCast_AsMor_Character, this, CallFunc_GetZoneForCharacter_ZoneName);
+            CallFunc_Conv_NameToString_ReturnValue = KismetStringLibrary.Conv_NameToString(CallFunc_GetZoneForCharacter_ZoneName);
+            KismetSystemLibrary.PrintString(this, CallFunc_Conv_NameToString_ReturnValue, false, false, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 30f);
+            EX_LetObj(this.Dwarf,K2Node_DynamicCast_AsMor_Character);
+            CallFunc_GetScaledSphereRadius_ReturnValue = this.`Lore Trigger`.GetScaledSphereRadius();
+            CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(CallFunc_GetScaledSphereRadius_ReturnValue);
+            this.OrcConversationalists = CallFunc_GetSpawnedCharacters_ReturnValue;
+            CallFunc_GetScaledSphereRadius_ReturnValue = this.`Lore Trigger`.GetScaledSphereRadius();
+            CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(CallFunc_GetScaledSphereRadius_ReturnValue);
+            CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(CallFunc_GetSpawnedCharacters_ReturnValue);
+            CallFunc_GreaterEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_IntInt(CallFunc_Array_Length_ReturnValue_1, 2));
+            EX_PopExecutionFlowIfNot(CallFunc_GreaterEqual_IntInt_ReturnValue);
+
+            // Block 18
+            CallFunc_GetScaledSphereRadius_ReturnValue = this.`Lore Trigger`.GetScaledSphereRadius();
+            CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(CallFunc_GetScaledSphereRadius_ReturnValue);
+            CallFunc_Array_Length_ReturnValue_1 = Default__KismetArrayLibrary.Array_Length(CallFunc_GetSpawnedCharacters_ReturnValue);
+            CallFunc_RandomInteger_ReturnValue = KismetMathLibrary.RandomInteger(CallFunc_Array_Length_ReturnValue_1);
+            Default__KismetArrayLibrary.Array_Get(this.OrcConversationalists, CallFunc_RandomInteger_ReturnValue, CallFunc_Array_Get_Item_1);
+            EX_LetObj(this.OrcSpeaker,CallFunc_Array_Get_Item_1);
+            CallFunc_GetDisplayName_ReturnValue = KismetSystemLibrary.GetDisplayName(this);
+            CallFunc_Array_Contains_ReturnValue = (bool)(Default__KismetArrayLibrary.Array_Contains(this.CampsVisited, CallFunc_GetDisplayName_ReturnValue));
+
+            if (CallFunc_Array_Contains_ReturnValue) {
+                // Block 19
+                break;
+
+            }
+
+
+            // Block 20
+            ExecuteUbergraph_BP_OrcCamp_Center_1389: CallFunc_GetDisplayName_ReturnValue_1 = KismetSystemLibrary.GetDisplayName(this);
+            CallFunc_Array_AddUnique_ReturnValue = Default__KismetArrayLibrary.Array_AddUnique(this.CampsVisited, CallFunc_GetDisplayName_ReturnValue_1);
+            Default__BPFL_LevelDesign_C.GetZoneForCharacter(K2Node_DynamicCast_AsMor_Character, this, CallFunc_GetZoneForCharacter_ZoneName);
+            this.OrcSpokenProgress(CallFunc_GetZoneForCharacter_ZoneName);
+            Default__BPFL_LevelDesign_C.GetZoneForCharacter(K2Node_DynamicCast_AsMor_Character, this, CallFunc_GetZoneForCharacter_ZoneName);
+            this.FindOrcConversation(CallFunc_GetZoneForCharacter_ZoneName);
+            EX_PopExecutionFlow();
+
+            // Block 21
+            ExecuteUbergraph_BP_OrcCamp_Center_1643_ReceiveBeginPlay: base.ReceiveBeginPlay();
+            EX_LetObj(Temp_object_Variable,EX_NoObject());
+            CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.LairToAudioMap, this.CampSpawner.FinalLairPopulationRow, CallFunc_Map_Find_Value));
+            Temp_bool_Variable = (bool)(CallFunc_Map_Find_ReturnValue);
+            CallFunc_PostAkEvent_ReturnValue = this.FGKAkAmbient.PostAkEvent(EX_SwitchValue(1880, Temp_bool_Variable, K2Node_Select_Default, false, 1857, Temp_object_Variable, true, 1871, CallFunc_Map_Find_Value), 0, Temp_delegate_Variable, Temp_struct_Variable, "");
+            EX_PopExecutionFlow();
+
+            ExecuteUbergraph_BP_OrcCamp_Center_1907:
+            while (true) {
+                while (true) {
+                    // Block 22
+                    this.`Get Nearby Dwarf`(CallFunc_Get_Nearby_Dwarf_Dwarf);
+                    Default__MorAIEncounterManager.ReportAwarenessEvent((byte)(14), CallFunc_Get_Nearby_Dwarf_Dwarf);
+                    break;
+
+                }
+
+
+                // Block 23
+                ExecuteUbergraph_BP_OrcCamp_Center_1984: Temp_int_Loop_Counter_Variable = 0;
+                Temp_int_Array_Index_Variable = 0;
+
+                // Block 24
+                ExecuteUbergraph_BP_OrcCamp_Center_2030: CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.DestroyTargets);
+                CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+                if (CallFunc_Less_IntInt_ReturnValue) {
+                    // Block 25
+                    Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                    EX_PushExecutionFlow(ExecuteUbergraph_BP_OrcCamp_Center_3023);
+
+                    // Block 26
+                    Default__KismetArrayLibrary.Array_Get(this.DestroyTargets, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                    CallFunc_NotEqual_ObjectObject_ReturnValue = (bool)(KismetMathLibrary.NotEqual_ObjectObject(CallFunc_Array_Get_Item, this));
+                    CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_Array_Get_Item));
+                    CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_IsValid_ReturnValue, CallFunc_NotEqual_ObjectObject_ReturnValue));
+                    EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+                    // Block 27
+                    K2Node_MakeStruct_MoriaDamageEvent.Location = EX_VectorConst(0, 0, 0);
+                    K2Node_MakeStruct_MoriaDamageEvent.Direction = EX_VectorConst(0, 0, 1);
+                    K2Node_MakeStruct_MoriaDamageEvent.Force = 0f;
+                    K2Node_MakeStruct_MoriaDamageEvent.Damage = 0f;
+                    K2Node_MakeStruct_MoriaDamageEvent.DamageType = EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags));
+                    Default__KismetArrayLibrary.Array_Get(this.DestroyTargets, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                    MoriaUtils.KillOrDestroyActor(CallFunc_Array_Get_Item, K2Node_MakeStruct_MoriaDamageEvent);
+                    EX_PopExecutionFlow();
+
+                }
+
+
+                // Block 28
+                ExecuteUbergraph_BP_OrcCamp_Center_2626: K2Node_MakeStruct_MoriaDamageEvent_1.Location = EX_VectorConst(0, 0, 0);
+                K2Node_MakeStruct_MoriaDamageEvent_1.Direction = EX_VectorConst(0, 0, 1);
+                K2Node_MakeStruct_MoriaDamageEvent_1.Force = 0f;
+                K2Node_MakeStruct_MoriaDamageEvent_1.Damage = 0f;
+                K2Node_MakeStruct_MoriaDamageEvent_1.DamageType = EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags));
+                MoriaUtils.KillOrDestroyActor(this, K2Node_MakeStruct_MoriaDamageEvent_1);
+                break;
+
+            }
+
+
+            // Block 29
+            ExecuteUbergraph_BP_OrcCamp_Center_2846: this.NS_CamsFireSystem.K2_DestroyComponent(this);
+            this.NS_CamsFireSystem1.K2_DestroyComponent(this);
+            this.MorPointLight1.PointLight.K2_DestroyComponent(this);
+            this.MorPointLight.PointLight.K2_DestroyComponent(this);
+            EX_PopExecutionFlow();
+
+            // Block 30
+            ExecuteUbergraph_BP_OrcCamp_Center_3023: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto ExecuteUbergraph_BP_OrcCamp_Center_2030;
+
+            // Block 31
+            ExecuteUbergraph_BP_OrcCamp_Center_3097_OnInteract_1: EX_PopExecutionFlow();
+
+            // Block 32
+            ExecuteUbergraph_BP_OrcCamp_Center_3098_ReceiveActorBeginOverlap: goto ExecuteUbergraph_BP_OrcCamp_Center_218;
+
+            // Block 33
+            ExecuteUbergraph_BP_OrcCamp_Center_3103_BndEvt__BP_OrcCamp_Center_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature: goto ExecuteUbergraph_BP_OrcCamp_Center_1907;
+
+            // Block 34
+            ExecuteUbergraph_BP_OrcCamp_Center_3108_BndEvt__BP_OrcCamp_Center_Breakable_K2Node_ComponentBoundEvent_1_BPOnHealthStateChanged__DelegateSignature: goto ExecuteUbergraph_BP_OrcCamp_Center_183;
+
+            // Block 35
+            ExecuteUbergraph_BP_OrcCamp_Center_3113_BndEvt__BP_OrcCamp_Center_CampSpawner_K2Node_ComponentBoundEvent_2_OnEnemyCountChanged__DelegateSignature: CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(K2Node_ComponentBoundEvent_NewCount, 3));
+            CallFunc_SelectFloat_ReturnValue = KismetMathLibrary.SelectFloat(0f, 1f, CallFunc_Greater_IntInt_ReturnValue);
+            this.FGKAkAmbient.SetRTPCValue(rt_orc_camp_population, CallFunc_SelectFloat_ReturnValue, 3, "");
+            EX_PopExecutionFlow();
+
+        }
+
+
+        // Block 36
+        ExecuteUbergraph_BP_OrcCamp_Center_3252:
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_OrcCamp_Center_CampSpawner_K2Node_ComponentBoundEvent_2_OnEnemyCountChanged__DelegateSignature([BlueprintVisible, BlueprintReadOnly] int NewCount) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_NewCount", NewCount);
+        this.ExecuteUbergraph_BP_OrcCamp_Center(ExecuteUbergraph_BP_OrcCamp_Center_3113_BndEvt__BP_OrcCamp_Center_CampSpawner_K2Node_ComponentBoundEvent_2_OnEnemyCountChanged__DelegateSignature);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_OrcCamp_Center_Breakable_K2Node_ComponentBoundEvent_1_BPOnHealthStateChanged__DelegateSignature() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OrcCamp_Center(ExecuteUbergraph_BP_OrcCamp_Center_3108_BndEvt__BP_OrcCamp_Center_Breakable_K2Node_ComponentBoundEvent_1_BPOnHealthStateChanged__DelegateSignature);
+
+    }
+
+    [BlueprintEvent]
+    void BndEvt__BP_OrcCamp_Center_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature([BlueprintVisible, BlueprintReadOnly] bool bPreRuined) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_ComponentBoundEvent_bPreRuined", bPreRuined);
+        this.ExecuteUbergraph_BP_OrcCamp_Center(ExecuteUbergraph_BP_OrcCamp_Center_3103_BndEvt__BP_OrcCamp_Center_Breakable_K2Node_ComponentBoundEvent_0_OnBreak__DelegateSignature);
+
+    }
+
+    [Event, BlueprintEvent]
+    public override void ReceiveActorBeginOverlap([BlueprintVisible, BlueprintReadOnly] Object<Actor> OtherActor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_OtherActor", OtherActor);
+        this.ExecuteUbergraph_BP_OrcCamp_Center(ExecuteUbergraph_BP_OrcCamp_Center_3098_ReceiveActorBeginOverlap);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    void OnInteract_1([BlueprintVisible, BlueprintReadOnly] Object<Character> Interactor) {
+        // Block 1
+        EX_LetValueOnPersistentFrame("K2Node_Event_Interactor", Interactor);
+        this.ExecuteUbergraph_BP_OrcCamp_Center(ExecuteUbergraph_BP_OrcCamp_Center_3097_OnInteract_1);
+
+    }
+
+    [Event, BlueprintEvent]
+    protected override void ReceiveBeginPlay() {
+        // Block 1
+        this.ExecuteUbergraph_BP_OrcCamp_Center(ExecuteUbergraph_BP_OrcCamp_Center_1643_ReceiveBeginPlay);
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void `Unlock Lore`([BlueprintVisible, BlueprintReadOnly] out ref Object<MorCharacter> Discoverer, [BlueprintVisible, BlueprintReadOnly] Name ZoneName) {
+        // Locals
+        [Edit, BlueprintVisible] Struct<MorProgressRowHandle> CurrentLoreProgress;
+        [Edit, BlueprintVisible] int CurrentProgressIndex;
+        [Edit, BlueprintVisible] Array<Struct<MorLoreRowHandle>> CurrentLoreRowList;
+        bool K2Node_SwitchName_CmpSuccess;
+        bool CallFunc_GetOverrideLoreEntry_FoundVO;
+        ref Array<Struct<MorLoreRowHandle>> CallFunc_GetOverrideLoreEntry_LoreTable;
+        Struct<MorProgressRowHandle> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        int CallFunc_Subtract_IntInt_ReturnValue;
+        Struct<MorLoreRowHandle> CallFunc_Array_Get_Item;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_StoryManager_C> CallFunc_GetManager_ReturnValue;
+
+        // Block 1
+        EX_LetObj(this.Discoverer,Discoverer);
+        CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.OrcLoreEntryProgress, ZoneName, CallFunc_Map_Find_Value));
+        CurrentLoreProgress = CallFunc_Map_Find_Value;
+        K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("ElvenQuarter")));
+
+        if (K2Node_SwitchName_CmpSuccess) {
+            // Block 2
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("WesternMines")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_896`;
+
+            // Block 3
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("WesternMinesB")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_997`;
+
+            // Block 4
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("Headwaters")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_1034`;
+
+            // Block 5
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("Tomb")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_1071`;
+
+            // Block 6
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("EasternBastion")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_1108`;
+
+            // Block 7
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("Desolation")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_1145`;
+
+            // Block 8
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(ZoneName, EX_NameConst("AngryCaverns")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto `Unlock Lore_1182`;
+
+            // Block 9
+            return;
+
+        }
+
+
+        // Block 10
+        `Unlock Lore_568`: this.CheckProgressForLore(this.`Lore Row Elven Quarter`, CurrentLoreProgress);
+
+        // Block 11
+        `Unlock Lore_600`: EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+        K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+        K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+        if (!K2Node_DynamicCast_bSuccess) return;
+
+        // Block 12
+        EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_StoryManager_C));
+        CallFunc_Subtract_IntInt_ReturnValue = KismetMathLibrary.Subtract_IntInt(this.CurrentLoreIndex, 1);
+        Default__KismetArrayLibrary.Array_Get(this.CurrentLoreRowIndex, CallFunc_Subtract_IntInt_ReturnValue, CallFunc_Array_Get_Item);
+        CallFunc_GetManager_ReturnValue.DiscoverStoryFragment(CallFunc_Array_Get_Item, (byte)(0), this.Discoverer);
+        return;
+
+        // Block 13
+        `Unlock Lore_896`: this.GetOverrideLoreEntry(CallFunc_GetOverrideLoreEntry_FoundVO, CallFunc_GetOverrideLoreEntry_LoreTable);
+
+        if (CallFunc_GetOverrideLoreEntry_FoundVO) {
+            // Block 14
+            this.CurrentLoreRowIndex = CallFunc_GetOverrideLoreEntry_LoreTable;
+            this.CurrentLoreIndex = 1;
+            goto `Unlock Lore_600`;
+
+        }
+
+
+        // Block 15
+        `Unlock Lore_997`: this.CheckProgressForLore(this.`Lore Row Mines`, this.MineProgressRow);
+        goto `Unlock Lore_600`;
+
+        // Block 16
+        `Unlock Lore_1034`: this.CheckProgressForLore(this.`Lore Row Headwaters`, CurrentLoreProgress);
+        goto `Unlock Lore_600`;
+
+        // Block 17
+        `Unlock Lore_1071`: this.CheckProgressForLore(this.`Lore Row Tomb`, CurrentLoreProgress);
+        goto `Unlock Lore_600`;
+
+        // Block 18
+        `Unlock Lore_1108`: this.CheckProgressForLore(this.`Lore Row EasternBastion`, CurrentLoreProgress);
+        goto `Unlock Lore_600`;
+
+        // Block 19
+        `Unlock Lore_1145`: this.CheckProgressForLore(this.`Lore Row Desolation`, CurrentLoreProgress);
+        goto `Unlock Lore_600`;
+
+        // Block 20
+        `Unlock Lore_1182`: this.CheckProgressForLore(this.`Lore Row AngryCaverns`, CurrentLoreProgress);
+        goto `Unlock Lore_600`;
+
+        // Block 21
+        `Unlock Lore_1219`:
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void ProgressThreshold([BlueprintVisible, BlueprintReadOnly] Name ZoneName) {
+        // Locals
+        [Edit, BlueprintVisible] Struct<MorProgressRowHandle> CurrentLoreProgress;
+        [Edit, BlueprintVisible] Struct<MorProgressRowHandle> CurrentThresholdProgress;
+        [Edit, BlueprintVisible] int ThresholdValue;
+        Struct<MorProgressRowHandle> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        int CallFunc_Map_Find_Value_1;
+        bool CallFunc_Map_Find_ReturnValue_1;
+        Struct<MorProgressRowHandle> CallFunc_Map_Find_Value_2;
+        bool CallFunc_Map_Find_ReturnValue_2;
+
+        // Block 1
+        CallFunc_Map_Find_ReturnValue_1 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.OrchThreshhold, ZoneName, CallFunc_Map_Find_Value_1));
+        ThresholdValue = CallFunc_Map_Find_Value_1;
+        CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.OrcThreshholdProgress, ZoneName, CallFunc_Map_Find_Value));
+        CurrentThresholdProgress = CallFunc_Map_Find_Value;
+        CallFunc_Map_Find_ReturnValue_2 = (bool)(Default__BlueprintMapLibrary.Map_Find(this.OrcLoreEntryProgress, ZoneName, CallFunc_Map_Find_Value_2));
+        CurrentLoreProgress = CallFunc_Map_Find_Value_2;
+        this.`LoreProgress+Threshold`(CurrentThresholdProgress, ThresholdValue, CurrentLoreProgress);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void OrcSpokenProgress([BlueprintVisible, BlueprintReadOnly] Name `Zone Name`) {
+        // Locals
+        ref Array<Name> CallFunc_Map_Keys_Keys;
+        Struct<MorProgressRowHandle> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+
+        // Block 1
+        CallFunc_Map_Keys_Keys = new[] {};
+        Default__BlueprintMapLibrary.Map_Keys(this.OrcStoryVOProgress_Zone, CallFunc_Map_Keys_Keys);
+        CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.OrcStoryVOProgress_Zone, `Zone Name`, CallFunc_Map_Find_Value));
+        this.OrcStoryProgressUp(CallFunc_Map_Find_Value);
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void FindOrcToSpeak() {
+        // Locals
+        float CallFunc_GetScaledSphereRadius_ReturnValue;
+        ref Array<Object<MorCharacter>> CallFunc_GetSpawnedCharacters_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_GreaterEqual_IntInt_ReturnValue;
+        int CallFunc_RandomInteger_ReturnValue;
+        Object<MorCharacter> CallFunc_Array_Get_Item;
+
+        // Block 1
+        CallFunc_GetScaledSphereRadius_ReturnValue = this.`Lore Trigger`.GetScaledSphereRadius();
+        CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(CallFunc_GetScaledSphereRadius_ReturnValue);
+        this.OrcConversationalists = CallFunc_GetSpawnedCharacters_ReturnValue;
+        CallFunc_GetScaledSphereRadius_ReturnValue = this.`Lore Trigger`.GetScaledSphereRadius();
+        CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(CallFunc_GetScaledSphereRadius_ReturnValue);
+        CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetSpawnedCharacters_ReturnValue);
+        CallFunc_GreaterEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_IntInt(CallFunc_Array_Length_ReturnValue, 2));
+        if (!CallFunc_GreaterEqual_IntInt_ReturnValue) return;
+
+        // Block 2
+        CallFunc_GetScaledSphereRadius_ReturnValue = this.`Lore Trigger`.GetScaledSphereRadius();
+        CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(CallFunc_GetScaledSphereRadius_ReturnValue);
+        CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetSpawnedCharacters_ReturnValue);
+        CallFunc_RandomInteger_ReturnValue = KismetMathLibrary.RandomInteger(CallFunc_Array_Length_ReturnValue);
+        Default__KismetArrayLibrary.Array_Get(this.OrcConversationalists, CallFunc_RandomInteger_ReturnValue, CallFunc_Array_Get_Item);
+        EX_LetObj(this.OrcSpeaker,CallFunc_Array_Get_Item);
+
+        // Block 3
+        FindOrcToSpeak_635:
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void FindOrcConversation([BlueprintVisible, BlueprintReadOnly] Name `Zone Name`) {
+        // Locals
+        [Edit, BlueprintVisible] Struct<MorProgressRowHandle> CurrentStoryProgressRow;
+        [Edit, BlueprintVisible] bool OrcStoryProgressionCheck;
+        [Edit, BlueprintVisible] int CurrentProgressIndex;
+        [Edit, BlueprintVisible] Array<Object<DataTable>> CurrentDialogueList;
+        bool K2Node_SwitchName_CmpSuccess;
+        Delegate K2Node_CreateDelegate_OutputDelegate;
+        bool CallFunc_GetOverrideVO_FoundVO;
+        ref Array<Object<DataTable>> CallFunc_GetOverrideVO_VOTable;
+        Struct<DialogueRateLimit> K2Node_MakeStruct_DialogueRateLimit;
+        Struct<MorProgressRowHandle> CallFunc_Map_Find_Value;
+        bool CallFunc_Map_Find_ReturnValue;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        Object<MoriaGameState> K2Node_DynamicCast_AsMoria_Game_State;
+        bool K2Node_DynamicCast_bSuccess;
+        Object<BP_DialogueManager_C> CallFunc_GetManager_ReturnValue;
+        int CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID;
+        bool CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue;
+        int CallFunc_Subtract_IntInt_ReturnValue;
+        Object<DataTable> CallFunc_Array_Get_Item;
+        int CallFunc_Array_Length_ReturnValue;
+        int CallFunc_RandomInteger_ReturnValue;
+        Object<DataTable> CallFunc_Array_Get_Item_1;
+
+        // Block 1
+        CurrentStoryProgressRow = EX_StructConst(MorProgressRowHandle, 24, EX_NameConst("None"));
+        CallFunc_Map_Find_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Find(this.OrcStoryVOProgress_Zone, `Zone Name`, CallFunc_Map_Find_Value));
+        CurrentStoryProgressRow = CallFunc_Map_Find_Value;
+        K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("ElvenQuarter")));
+
+        if (K2Node_SwitchName_CmpSuccess) {
+            // Block 2
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("WesternMines")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1351;
+
+            // Block 3
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("WesternMinesB")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1457;
+
+            // Block 4
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("Headwaters")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1494;
+
+            // Block 5
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("Tomb")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1531;
+
+            // Block 6
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("EasternBastion")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1568;
+
+            // Block 7
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("Desolation")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1605;
+
+            // Block 8
+            K2Node_SwitchName_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_NameName(`Zone Name`, EX_NameConst("AngryCaverns")));
+            if (!(K2Node_SwitchName_CmpSuccess)) goto FindOrcConversation_1642;
+
+            // Block 9
+            return;
+
+        }
+
+
+        // Block 10
+        FindOrcConversation_594: this.`Find Conversation`(this.OrcStoryDialogue_ElvenQuarter, CurrentStoryProgressRow);
+
+        FindOrcConversation_626:
+        if (this.OrcStoryProgressCheck) {
+            // Block 11
+            this.`Current Dialogue List` = this.OrcGenBanterDialogueBucket;
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.OrcGenBanterDialogueBucket);
+            CallFunc_RandomInteger_ReturnValue = KismetMathLibrary.RandomInteger(CallFunc_Array_Length_ReturnValue);
+            Default__KismetArrayLibrary.Array_Get(this.`Current Dialogue List`, CallFunc_RandomInteger_ReturnValue, CallFunc_Array_Get_Item_1);
+            EX_LetObj(this.OrcDialogue,CallFunc_Array_Get_Item_1);
+
+            // Block 12
+            FindOrcConversation_841: EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+            K2Node_DynamicCast_AsMoria_Game_State = EX_DynamicCast("MoriaGameState", CallFunc_GetGameState_ReturnValue);
+            K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMoria_Game_State);
+            if (!K2Node_DynamicCast_bSuccess) return;
+
+            // Block 13
+            EX_LetObj(CallFunc_GetManager_ReturnValue,FGKUtils.GetManager(K2Node_DynamicCast_AsMoria_Game_State, BP_DialogueManager_C));
+            CallFunc_RequestDialogueEventFromTableAndConversationTrack_ReturnValue = (bool)(MorDialogueManager.RequestDialogueEventFromTableAndConversationTrack(this.OrcDialogue, this.OrcSpeaker, (byte)(1), K2Node_MakeStruct_DialogueRateLimit, CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID, EX_StructConst(GameplayTagContainer, 32, EX_ArrayConst(GameplayTags)), false));
+            this.`Conversation ID` = CallFunc_RequestDialogueEventFromTableAndConversationTrack_ConversationID;
+            EX_BindDelegate("ConversationComplete", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(CallFunc_GetManager_ReturnValue.OnConversationComplete, K2Node_CreateDelegate_OutputDelegate);
+            EX_BindDelegate("ConversationComplete", K2Node_CreateDelegate_OutputDelegate, this);
+            EX_AddMulticastDelegate(CallFunc_GetManager_ReturnValue.OnConversationCancelled, K2Node_CreateDelegate_OutputDelegate);
+            return;
+
+        }
+
+
+        // Block 14
+        FindOrcConversation_1226: CallFunc_Subtract_IntInt_ReturnValue = KismetMathLibrary.Subtract_IntInt(this.`Current Progress Index`, 1);
+        Default__KismetArrayLibrary.Array_Get(this.`Current Dialogue List`, CallFunc_Subtract_IntInt_ReturnValue, CallFunc_Array_Get_Item);
+        EX_LetObj(this.OrcDialogue,CallFunc_Array_Get_Item);
+        goto FindOrcConversation_841;
+
+        // Block 15
+        FindOrcConversation_1351: this.GetOverrideVO(CallFunc_GetOverrideVO_FoundVO, CallFunc_GetOverrideVO_VOTable);
+
+        if (CallFunc_GetOverrideVO_FoundVO) {
+            // Block 16
+            this.OrcStoryProgressUp(this.OrcSpokenStoryProgress_Mine);
+            this.`Find Conversation`(CallFunc_GetOverrideVO_VOTable, this.OrcSpokenStoryProgress_Mine);
+            goto FindOrcConversation_626;
+
+        }
+
+
+        // Block 17
+        FindOrcConversation_1457: this.`Find Conversation`(this.OrcStoryDialogue_Mine, CurrentStoryProgressRow);
+        goto FindOrcConversation_626;
+
+        // Block 18
+        FindOrcConversation_1494: this.`Find Conversation`(this.OrcStoryDialogue_Grottos, CurrentStoryProgressRow);
+        goto FindOrcConversation_626;
+
+        // Block 19
+        FindOrcConversation_1531: this.`Find Conversation`(this.OrcStoryDialogue_Tomb, CurrentStoryProgressRow);
+        goto FindOrcConversation_626;
+
+        // Block 20
+        FindOrcConversation_1568: this.`Find Conversation`(this.OrcStoryDialogue_EasternBastion, CurrentStoryProgressRow);
+        goto FindOrcConversation_626;
+
+        // Block 21
+        FindOrcConversation_1605: this.`Find Conversation`(this.OrcStoryDialogue_Desolation, CurrentStoryProgressRow);
+        goto FindOrcConversation_626;
+
+        // Block 22
+        FindOrcConversation_1642: this.`Find Conversation`(this.OrcStoryDialogue_AngryCavern, CurrentStoryProgressRow);
+        goto FindOrcConversation_626;
+
+        // Block 23
+        FindOrcConversation_1679:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void `Find Conversation`([BlueprintVisible, BlueprintReadOnly] out ref Array<Object<DataTable>> OrcConversation, [BlueprintVisible, BlueprintReadOnly] Struct<MorProgressRowHandle> OrcStoryProgress) {
+        // Locals
+        int CallFunc_Array_Length_ReturnValue;
+        bool CallFunc_Greater_IntInt_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+
+        // Block 1
+        this.`Current Dialogue List` = OrcConversation;
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(OrcStoryProgress);
+        this.`Current Progress Index` = CallFunc_GetProgressValue_ReturnValue;
+        CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(this.`Current Dialogue List`);
+        CallFunc_Greater_IntInt_ReturnValue = (bool)(KismetMathLibrary.Greater_IntInt(this.`Current Progress Index`, CallFunc_Array_Length_ReturnValue));
+        this.OrcStoryProgressCheck = (bool)(CallFunc_Greater_IntInt_ReturnValue);
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void OrcStoryProgressUp([BlueprintVisible, BlueprintReadOnly] out ref Struct<MorProgressRowHandle> `Story Progress`) {
+        // Locals
+        int Temp_int_Variable;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(`Story Progress`);
+        CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(CallFunc_GetProgressValue_ReturnValue, 1);
+        Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+        CallFunc_GetProgressValue_ReturnValue = Temp_int_Variable;
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(`Story Progress`, Temp_int_Variable);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void `LoreProgress+Threshold`([BlueprintVisible, BlueprintReadOnly] Struct<MorProgressRowHandle> `Prgress Thresh hold`, [BlueprintVisible, BlueprintReadOnly] int `Thresh hold Counter`, [BlueprintVisible, BlueprintReadOnly] Struct<MorProgressRowHandle> `Progress Row`) {
+        // Locals
+        int Temp_int_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Variable_1;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+        int CallFunc_GetProgressValue_ReturnValue_1;
+        bool CallFunc_GreaterEqual_IntInt_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue_1 = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(`Prgress Thresh hold`);
+        CallFunc_GreaterEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.GreaterEqual_IntInt(CallFunc_GetProgressValue_ReturnValue_1, `Thresh hold Counter`));
+
+        if (CallFunc_GreaterEqual_IntInt_ReturnValue) {
+            // Block 2
+            CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(`Progress Row`);
+            CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(CallFunc_GetProgressValue_ReturnValue, 1);
+            Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue_1;
+            CallFunc_GetProgressValue_ReturnValue = Temp_int_Variable_1;
+            CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(`Progress Row`, Temp_int_Variable_1);
+            return;
+
+        }
+
+
+        // Block 3
+        `LoreProgress+Threshold_342`: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(`Thresh hold Counter`, 1);
+        Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue;
+        `Thresh hold Counter` = Temp_int_Variable;
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(`Prgress Thresh hold`, Temp_int_Variable);
+
+        // Block 4
+        `LoreProgress+Threshold_488`:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent]
+    public void CheckProgressForLore([BlueprintVisible, BlueprintReadOnly] out ref Array<Struct<MorLoreRowHandle>> CurrentLore, [BlueprintVisible, BlueprintReadOnly] Struct<MorProgressRowHandle> LoreProgressRow) {
+        // Locals
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+
+        // Block 1
+        this.CurrentLoreRowIndex = CurrentLore;
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(LoreProgressRow);
+        this.CurrentLoreIndex = CallFunc_GetProgressValue_ReturnValue;
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void GetOverrideVO(out bool FoundVO, out Array<Object<DataTable>> VOTable) {
+        // Locals
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+        ref Array<Object<DataTable>> CallFunc_Map_Values_Values;
+        ref Array<Name> CallFunc_Map_Keys_Keys;
+        Object<WorldLayout> CallFunc_GetWorldLayout_ReturnValue;
+        Object<WorldLayoutBubble> CallFunc_GetBubbleAt_ReturnValue;
+        Enum CallFunc_GetLandmarkDefinition_OutResult;
+        Struct<LandmarkDefinition> CallFunc_GetLandmarkDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        string CallFunc_Conv_NameToString_ReturnValue;
+        bool CallFunc_Map_Contains_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetWorldLayout_ReturnValue,MoriaUtils.GetWorldLayout(this));
+        CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+        EX_LetObj(CallFunc_GetBubbleAt_ReturnValue,CallFunc_GetWorldLayout_ReturnValue.GetBubbleAt(CallFunc_K2_GetActorLocation_ReturnValue));
+        CallFunc_GetLandmarkDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetLandmarkDefinition(CallFunc_GetBubbleAt_ReturnValue.LandmarkHandle, CallFunc_GetLandmarkDefinition_OutResult);
+        K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetLandmarkDefinition_OutResult, (byte)(0)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 2
+            return;
+
+        }
+
+
+        // Block 3
+        GetOverrideVO_232: CallFunc_Conv_NameToString_ReturnValue = KismetStringLibrary.Conv_NameToString(CallFunc_GetLandmarkDefinition_ReturnValue.BaseBubbleName);
+        KismetSystemLibrary.PrintString(this, CallFunc_Conv_NameToString_ReturnValue, false, false, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 30f);
+        CallFunc_Map_Keys_Keys = new[] {};
+        Default__BlueprintMapLibrary.Map_Keys(this.BubbletoVOOverride, CallFunc_Map_Keys_Keys);
+        CallFunc_Map_Values_Values = new[] {};
+        Default__BlueprintMapLibrary.Map_Values(this.BubbletoVOOverride, CallFunc_Map_Values_Values);
+        CallFunc_Map_Contains_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Contains(this.BubbletoVOOverride, CallFunc_GetLandmarkDefinition_ReturnValue.BaseBubbleName));
+        FoundVO = (bool)(CallFunc_Map_Contains_ReturnValue);
+        VOTable = CallFunc_Map_Values_Values;
+
+        // Block 4
+        GetOverrideVO_576:
+
+    }
+
+    [HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void GetOverrideLoreEntry(out bool FoundVO, out Array<Struct<MorLoreRowHandle>> LoreTable) {
+        // Locals
+        ref Array<Struct<MorLoreRowHandle>> CallFunc_Map_Values_Values;
+        Struct<Vector> CallFunc_K2_GetActorLocation_ReturnValue;
+        ref Array<Name> CallFunc_Map_Keys_Keys;
+        Object<WorldLayout> CallFunc_GetWorldLayout_ReturnValue;
+        Object<WorldLayoutBubble> CallFunc_GetBubbleAt_ReturnValue;
+        Enum CallFunc_GetLandmarkDefinition_OutResult;
+        Struct<LandmarkDefinition> CallFunc_GetLandmarkDefinition_ReturnValue;
+        bool K2Node_SwitchEnum_CmpSuccess;
+        string CallFunc_Conv_NameToString_ReturnValue;
+        bool CallFunc_Map_Contains_ReturnValue;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetWorldLayout_ReturnValue,MoriaUtils.GetWorldLayout(this));
+        CallFunc_K2_GetActorLocation_ReturnValue = this.K2_GetActorLocation();
+        EX_LetObj(CallFunc_GetBubbleAt_ReturnValue,CallFunc_GetWorldLayout_ReturnValue.GetBubbleAt(CallFunc_K2_GetActorLocation_ReturnValue));
+        CallFunc_GetLandmarkDefinition_ReturnValue = MorStaticDataFunctionLibrary.GetLandmarkDefinition(CallFunc_GetBubbleAt_ReturnValue.LandmarkHandle, CallFunc_GetLandmarkDefinition_OutResult);
+        K2Node_SwitchEnum_CmpSuccess = (bool)(KismetMathLibrary.NotEqual_ByteByte(CallFunc_GetLandmarkDefinition_OutResult, (byte)(0)));
+
+        if (K2Node_SwitchEnum_CmpSuccess) {
+            // Block 2
+            return;
+
+        }
+
+
+        // Block 3
+        GetOverrideLoreEntry_232: CallFunc_Conv_NameToString_ReturnValue = KismetStringLibrary.Conv_NameToString(CallFunc_GetLandmarkDefinition_ReturnValue.BaseBubbleName);
+        KismetSystemLibrary.PrintString(this, CallFunc_Conv_NameToString_ReturnValue, false, false, EX_StructConst(LinearColor, 16, 0f, 0.66f, 1f, 1f), 30f);
+        CallFunc_Map_Keys_Keys = new[] {};
+        Default__BlueprintMapLibrary.Map_Keys(this.BubbletoLoreEntryOverride, CallFunc_Map_Keys_Keys);
+        CallFunc_Map_Values_Values = new[] {};
+        Default__BlueprintMapLibrary.Map_Values(this.BubbletoLoreEntryOverride, CallFunc_Map_Values_Values);
+        CallFunc_Map_Contains_ReturnValue = (bool)(Default__BlueprintMapLibrary.Map_Contains(this.BubbletoLoreEntryOverride, CallFunc_GetLandmarkDefinition_ReturnValue.BaseBubbleName));
+        FoundVO = (bool)(CallFunc_Map_Contains_ReturnValue);
+        LoreTable = CallFunc_Map_Values_Values;
+
+        // Block 4
+        GetOverrideLoreEntry_576:
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void DwarfReactDebug([BlueprintVisible, BlueprintReadOnly] Struct<MorProgressRowHandle> ReactProgress) {
+        // Locals
+        int Temp_int_Variable;
+        int Temp_int_Variable_1;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<MorDiscoveryManager> CallFunc_GetDiscoveryManager_ReturnValue;
+        int CallFunc_GetProgressValue_ReturnValue;
+        int CallFunc_Add_IntInt_ReturnValue_1;
+
+        // Block 1
+        EX_LetObj(CallFunc_GetDiscoveryManager_ReturnValue,MoriaUtils.GetDiscoveryManager(this));
+        CallFunc_GetProgressValue_ReturnValue = CallFunc_GetDiscoveryManager_ReturnValue.GetProgressValue(ReactProgress);
+        CallFunc_Add_IntInt_ReturnValue_1 = KismetMathLibrary.Add_IntInt(CallFunc_GetProgressValue_ReturnValue, 1);
+        Temp_int_Variable = CallFunc_Add_IntInt_ReturnValue_1;
+        CallFunc_GetProgressValue_ReturnValue = Temp_int_Variable;
+        CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Variable, 1);
+        Temp_int_Variable_1 = CallFunc_Add_IntInt_ReturnValue;
+        Temp_int_Variable = Temp_int_Variable_1;
+        CallFunc_GetDiscoveryManager_ReturnValue.SetProgressValue(ReactProgress, Temp_int_Variable_1);
+
+    }
+
+    [BlueprintCallable, BlueprintEvent]
+    public void ConversationComplete([BlueprintVisible, BlueprintReadOnly] int ConvsesationID) {
+        // Locals
+        bool CallFunc_EqualEqual_IntInt_ReturnValue;
+
+        // Block 1
+        CallFunc_EqualEqual_IntInt_ReturnValue = (bool)(KismetMathLibrary.EqualEqual_IntInt(ConvsesationID, this.`Conversation ID`));
+        if (!CallFunc_EqualEqual_IntInt_ReturnValue) return;
+
+        // Block 2
+        this.`Conversation ID` = 0;
+        this.ProgressThreshold(this.`Zone Name`);
+        this.`Unlock Lore`(this.Dwarf, this.`Zone Name`);
+
+        // Block 3
+        ConversationComplete_130:
+
+    }
+
+    [HasDefaults, BlueprintCallable, BlueprintEvent]
+    public void InformMinionsTheBaseIsUnderAttack() {
+        // Locals
+        [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorCharacter> TargetDwarf;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        int Temp_int_Array_Index_Variable;
+        bool CallFunc_IsValid_ReturnValue;
+        Object<MorCharacter> CallFunc_Get_Nearby_Dwarf_Dwarf;
+        ref Array<Object<MorCharacter>> CallFunc_GetSpawnedCharacters_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<MorCharacter> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+
+        while (true) {
+            // Block 1
+            this.`Get Nearby Dwarf`(CallFunc_Get_Nearby_Dwarf_Dwarf);
+            EX_LetObj(TargetDwarf,CallFunc_Get_Nearby_Dwarf_Dwarf);
+            CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(TargetDwarf));
+            EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+            // Block 2
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 3
+            InformMinionsTheBaseIsUnderAttack_132: CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(-1f);
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetSpawnedCharacters_ReturnValue);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+            EX_PopExecutionFlowIfNot(CallFunc_Less_IntInt_ReturnValue);
+
+            // Block 4
+            Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+            EX_PushExecutionFlow(InformMinionsTheBaseIsUnderAttack_472);
+
+            // Block 5
+            CallFunc_GetSpawnedCharacters_ReturnValue = this.CampSpawner.GetSpawnedCharacters(-1f);
+            Default__KismetArrayLibrary.Array_Get(CallFunc_GetSpawnedCharacters_ReturnValue, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+            FGKAISense_Ping.PingAwareness(this, CallFunc_Array_Get_Item, TargetDwarf, (byte)(2));
+            EX_PopExecutionFlow();
+
+            // Block 6
+            InformMinionsTheBaseIsUnderAttack_472: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto InformMinionsTheBaseIsUnderAttack_132;
+
+        }
+
+
+        // Block 7
+        InformMinionsTheBaseIsUnderAttack_546:
+
+    }
+
+    [HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure]
+    public void `Get Nearby Dwarf`(out Object<MorCharacter> Dwarf) {
+        // Locals
+        [Edit, BlueprintVisible] float MinDistToBeConsidered;
+        [Edit, BlueprintVisible] float ClosestDistance;
+        [Edit, BlueprintVisible, DisableEditOnTemplate] Object<MorCharacter> ClosestDwarf;
+        int Temp_int_Array_Index_Variable;
+        int Temp_int_Loop_Counter_Variable;
+        int CallFunc_Add_IntInt_ReturnValue;
+        Object<GameStateBase> CallFunc_GetGameState_ReturnValue;
+        int CallFunc_Array_Length_ReturnValue;
+        Object<PlayerState> CallFunc_Array_Get_Item;
+        bool CallFunc_Less_IntInt_ReturnValue;
+        Object<MorCharacter> K2Node_DynamicCast_AsMor_Character;
+        bool K2Node_DynamicCast_bSuccess;
+        bool CallFunc_IsValid_ReturnValue;
+        float CallFunc_GetDistanceTo_ReturnValue;
+        bool CallFunc_Less_FloatFloat_ReturnValue;
+        bool CallFunc_LessEqual_FloatFloat_ReturnValue;
+        bool CallFunc_BooleanAND_ReturnValue;
+
+        while (true) {
+            // Block 1
+            ClosestDistance = 9999f;
+            MinDistToBeConsidered = 2500f;
+            ClosestDistance = MinDistToBeConsidered;
+            Temp_int_Loop_Counter_Variable = 0;
+            Temp_int_Array_Index_Variable = 0;
+
+            // Block 2
+            `Get Nearby Dwarf_124`: EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+            CallFunc_Array_Length_ReturnValue = Default__KismetArrayLibrary.Array_Length(CallFunc_GetGameState_ReturnValue.PlayerArray);
+            CallFunc_Less_IntInt_ReturnValue = (bool)(KismetMathLibrary.Less_IntInt(Temp_int_Loop_Counter_Variable, CallFunc_Array_Length_ReturnValue));
+
+            if (CallFunc_Less_IntInt_ReturnValue) {
+                // Block 3
+                Temp_int_Array_Index_Variable = Temp_int_Loop_Counter_Variable;
+                EX_PushExecutionFlow(`Get Nearby Dwarf_1217`);
+
+                // Block 4
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetGameState_ReturnValue.PlayerArray, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_IsValid_ReturnValue = (bool)(KismetSystemLibrary.IsValid(CallFunc_Array_Get_Item.PawnPrivate));
+                EX_PopExecutionFlowIfNot(CallFunc_IsValid_ReturnValue);
+
+                // Block 5
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetGameState_ReturnValue.PlayerArray, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetDistanceTo_ReturnValue = CallFunc_Array_Get_Item.PawnPrivate.GetDistanceTo(this);
+                CallFunc_Less_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.Less_FloatFloat(CallFunc_GetDistanceTo_ReturnValue, ClosestDistance));
+                CallFunc_LessEqual_FloatFloat_ReturnValue = (bool)(KismetMathLibrary.LessEqual_FloatFloat(CallFunc_GetDistanceTo_ReturnValue, MinDistToBeConsidered));
+                CallFunc_BooleanAND_ReturnValue = (bool)(KismetMathLibrary.BooleanAND(CallFunc_LessEqual_FloatFloat_ReturnValue, CallFunc_Less_FloatFloat_ReturnValue));
+                EX_PopExecutionFlowIfNot(CallFunc_BooleanAND_ReturnValue);
+
+                // Block 6
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetGameState_ReturnValue.PlayerArray, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                K2Node_DynamicCast_AsMor_Character = EX_DynamicCast("MorCharacter", CallFunc_Array_Get_Item.PawnPrivate);
+                K2Node_DynamicCast_bSuccess = EX_PrimitiveCast("ObjectToBool", K2Node_DynamicCast_AsMor_Character);
+                EX_PopExecutionFlowIfNot(K2Node_DynamicCast_bSuccess);
+
+                // Block 7
+                EX_LetObj(ClosestDwarf,K2Node_DynamicCast_AsMor_Character);
+                EX_LetObj(CallFunc_GetGameState_ReturnValue,GameplayStatics.GetGameState(this));
+                Default__KismetArrayLibrary.Array_Get(CallFunc_GetGameState_ReturnValue.PlayerArray, Temp_int_Array_Index_Variable, CallFunc_Array_Get_Item);
+                CallFunc_GetDistanceTo_ReturnValue = CallFunc_Array_Get_Item.PawnPrivate.GetDistanceTo(this);
+                ClosestDistance = CallFunc_GetDistanceTo_ReturnValue;
+                EX_PopExecutionFlow();
+
+            }
+
+
+            // Block 8
+            `Get Nearby Dwarf_1193`: EX_LetObj(Dwarf,ClosestDwarf);
+            return;
+
+            // Block 9
+            `Get Nearby Dwarf_1217`: CallFunc_Add_IntInt_ReturnValue = KismetMathLibrary.Add_IntInt(Temp_int_Loop_Counter_Variable, 1);
+            Temp_int_Loop_Counter_Variable = CallFunc_Add_IntInt_ReturnValue;
+            goto `Get Nearby Dwarf_124`;
+
+        }
+
+
+        // Block 10
+        `Get Nearby Dwarf_1291`:
+
+    }
+
+}
