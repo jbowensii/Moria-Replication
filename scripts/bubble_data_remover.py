@@ -48,7 +48,7 @@ DOWNLOADS_DIR = Path(os.path.expanduser('~/Downloads'))
 
 UE_VERSION = 'VER_UE4_27'       # for UAssetGUI tojson/fromjson
 RETOC_VERSION = 'UE4_27'        # for retoc to-zen (no VER_ prefix)
-COORD_EPSILON = 0.5              # coordinate matching tolerance in UE units
+COORD_EPSILON = 50.0             # coordinate matching tolerance in UE units (~50cm)
 
 
 # ---------------------------------------------------------------------------
