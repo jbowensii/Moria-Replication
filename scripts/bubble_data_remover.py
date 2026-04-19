@@ -680,9 +680,19 @@ class BubbleDataRemoverApp:
         if path and os.path.isfile(path):
             self._load_bubble_names(path)
 
+    def _initial_dir(self, path_var):
+        """Get the directory from a path StringVar, or empty string."""
+        current = path_var.get()
+        if current:
+            d = os.path.dirname(current)
+            if os.path.isdir(d):
+                return d
+        return ''
+
     def _browse_bubble_data(self):
         path = filedialog.askopenfilename(
             title="Select BubbleData .uasset file (BD_*)",
+            initialdir=self._initial_dir(self.bubble_data_path),
             filetypes=[("UAsset files", "*.uasset"), ("All files", "*.*")])
         if path:
             self.bubble_data_path.set(path)
@@ -690,6 +700,7 @@ class BubbleDataRemoverApp:
     def _browse_removal_spec(self):
         path = filedialog.askopenfilename(
             title="Select Removal Spec file",
+            initialdir=self._initial_dir(self.removal_spec_path),
             filetypes=[("All files", "*.*"), ("Text files", "*.txt"),
                        ("JSON files", "*.json")])
         if path:
