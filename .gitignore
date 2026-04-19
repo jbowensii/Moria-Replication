@@ -17,5 +17,11 @@ project/*.vcxproj*
 project/Plugins/*/Binaries/
 project/Plugins/*/Intermediate/
 
+# Generated output (modified bubble data, mod paks)
+Modified_Bubbles/
+
+# Python cache
+scripts/__pycache__/
+
 # Misc
 notify.log
