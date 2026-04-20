@@ -6392,6 +6392,21 @@
         3725.98,
         707.6
       ]
+    },
+    {
+      "mesh": "Ruins_Stairs_Small_D-MI_Suburbs_Stairs_01-MI_Suburbs_Stairs_02-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        114650.0,
+        90050.0,
+        1600.0
+      ],
+      "local": [
+        15600.0,
+        4150.0,
+        6300.0
+      ]
     }
   ],
   "summary": {

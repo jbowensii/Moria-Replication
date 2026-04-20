@@ -1397,6 +1397,36 @@
         1775.0,
         1330.0
       ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152573.16,
+        78521.91,
+        6055.39
+      ],
+      "local": [
+        8723.16,
+        5421.91,
+        1155.39
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152557.52,
+        78493.09,
+        6157.22
+      ],
+      "local": [
+        8707.52,
+        5393.09,
+        1257.22
+      ]
     }
   ],
   "summary": {

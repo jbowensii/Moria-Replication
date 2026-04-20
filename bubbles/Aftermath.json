@@ -2565,6 +2565,141 @@
         2041.8,
         657.97
       ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6254.33,
+        66850.73,
+        7485.31
+      ],
+      "local": [
+        9604.33,
+        12950.73,
+        2585.31
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6565.34,
+        66659.28,
+        7470.93
+      ],
+      "local": [
+        9915.34,
+        12759.28,
+        2570.93
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6373.38,
+        66353.71,
+        7699.75
+      ],
+      "local": [
+        9723.38,
+        12453.71,
+        2799.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5661.09,
+        66556.0,
+        7701.67
+      ],
+      "local": [
+        9011.09,
+        12656.0,
+        2801.67
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7057.0,
+        66853.28,
+        7480.29
+      ],
+      "local": [
+        10407.0,
+        12953.28,
+        2580.29
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6659.3,
+        66455.88,
+        7476.59
+      ],
+      "local": [
+        10009.3,
+        12555.88,
+        2576.59
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6261.47,
+        66464.89,
+        7471.84
+      ],
+      "local": [
+        9611.47,
+        12564.89,
+        2571.84
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5554.9,
+        66457.47,
+        7669.37
+      ],
+      "local": [
+        8904.9,
+        12557.47,
+        2769.37
+      ]
+    },
+    {
+      "mesh": "SpiderWeb3_placeholder-SpiderWeb-Custom-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6591.7,
+        70985.25,
+        5592.18
+      ],
+      "local": [
+        9941.7,
+        17085.25,
+        692.18
+      ]
     }
   ],
   "summary": {
