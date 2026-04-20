@@ -235,6 +235,69 @@
     },
     {
       "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rug_End_3M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rug_Flat_3M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rug_Flat_6M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rug_Single-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rug_Stair_1x3M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_BannerPole-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_AA-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Warren_lighting_Banner-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dwelling_Tapestry-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SpiderWeb-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SpiderWeb3_placeholder-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SpiderWeb_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "D_Weapon_IronHills-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "D_Weapon_Khazad-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "D_Weapon_Steel-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "D_Weapon_Rohan-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
