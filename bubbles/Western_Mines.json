@@ -934,21 +934,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "Western_Mines",
-      "bubbleName": "Western Mines",
-      "world": [
-        37824.42,
-        114379.41,
-        3537.73
-      ],
-      "local": [
-        2774.42,
-        2879.41,
-        1837.73
-      ]
-    },
-    {
       "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Western_Mines",
       "bubbleName": "Western Mines",
@@ -1804,21 +1789,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "Western_Mines",
-      "bubbleName": "Western Mines",
-      "world": [
-        45784.37,
-        113974.8,
-        2474.37
-      ],
-      "local": [
-        10734.37,
-        2474.8,
-        774.37
-      ]
-    },
-    {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Western_Mines",
       "bubbleName": "Western Mines",
@@ -1906,21 +1876,6 @@
         10330.0,
         2430.0,
         890.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Western_Mines",
-      "bubbleName": "Western Mines",
-      "world": [
-        46150.0,
-        114100.0,
-        2500.0
-      ],
-      "local": [
-        11100.0,
-        2600.0,
-        800.0
       ]
     },
     {

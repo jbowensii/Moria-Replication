@@ -463,6 +463,27 @@
     },
     {
       "typeRule": "Aftermath | @Mine_tailings_Debris-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_A-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_B-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_C-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_D-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_E-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_F-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "BP_DM_Mine_tailings_Debris-test-BlockAll-dcl-L100"
     }
   ],
   "position_entries": [
@@ -479,36 +500,6 @@
         10109.15,
         9371.23,
         1333.95
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        4975.0,
-        61675.0,
-        6350.0
-      ],
-      "local": [
-        8325.0,
-        7775.0,
-        1450.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        5425.0,
-        61675.0,
-        6550.0
-      ],
-      "local": [
-        8775.0,
-        7775.0,
-        1650.0
       ]
     },
     {
@@ -707,21 +698,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        488.75,
-        55409.08,
-        5206.29
-      ],
-      "local": [
-        3838.75,
-        1509.08,
-        306.29
-      ]
-    },
-    {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Aftermath",
       "bubbleName": "Aftermath",
@@ -902,21 +878,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        423.11,
-        56869.33,
-        5200.0
-      ],
-      "local": [
-        3773.11,
-        2969.33,
-        300.0
-      ]
-    },
-    {
       "mesh": "Ruin_Column_Medium_A_3_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
       "bubble": "Aftermath",
       "bubbleName": "Aftermath",
@@ -929,21 +890,6 @@
         3600.0,
         3045.0,
         250.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        -285.19,
-        56835.0,
-        5200.0
-      ],
-      "local": [
-        3064.81,
-        2935.0,
-        300.0
       ]
     },
     {
@@ -1484,51 +1430,6 @@
         7646.84,
         7269.26,
         1278.76
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        4975.0,
-        61675.0,
-        6350.0
-      ],
-      "local": [
-        8325.0,
-        7775.0,
-        1450.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        5425.0,
-        61675.0,
-        6550.0
-      ],
-      "local": [
-        8775.0,
-        7775.0,
-        1650.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "Aftermath",
-      "bubbleName": "Aftermath",
-      "world": [
-        6325.0,
-        61675.0,
-        6150.0
-      ],
-      "local": [
-        9675.0,
-        7775.0,
-        1250.0
       ]
     },
     {

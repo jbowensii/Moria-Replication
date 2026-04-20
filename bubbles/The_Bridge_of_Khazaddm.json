@@ -963,36 +963,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-dûm",
-      "world": [
-        163850.0,
-        93050.0,
-        2911.0
-      ],
-      "local": [
-        800.0,
-        7150.0,
-        4411.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-dûm",
-      "world": [
-        163500.0,
-        93050.0,
-        3016.0
-      ],
-      "local": [
-        450.0,
-        7150.0,
-        4516.0
-      ]
-    },
-    {
       "mesh": "Ruins_Stairs_Small_B-MI_Suburbs_Stairs_02-MI_Suburbs_Stairs_01-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
       "bubbleName": "The Bridge of Khazad-dûm",
@@ -1080,36 +1050,6 @@
         570.0,
         5950.0,
         4995.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-dûm",
-      "world": [
-        163500.0,
-        92150.0,
-        3711.0
-      ],
-      "local": [
-        450.0,
-        6250.0,
-        5211.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-dûm",
-      "world": [
-        163850.0,
-        92150.0,
-        3616.0
-      ],
-      "local": [
-        800.0,
-        6250.0,
-        5116.0
       ]
     },
     {

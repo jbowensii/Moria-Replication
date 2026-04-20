@@ -1474,36 +1474,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "The_Desolation",
-      "bubbleName": "The Desolation",
-      "world": [
-        106223.56,
-        91922.17,
-        655.39
-      ],
-      "local": [
-        7173.56,
-        6022.17,
-        5355.39
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
-      "bubble": "The_Desolation",
-      "bubbleName": "The Desolation",
-      "world": [
-        106059.87,
-        91619.45,
-        727.47
-      ],
-      "local": [
-        7009.87,
-        5719.45,
-        5427.47
-      ]
-    },
-    {
       "mesh": "Ruin_Column_Medium_A_2_Capital-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
       "bubble": "The_Desolation",
       "bubbleName": "The Desolation",

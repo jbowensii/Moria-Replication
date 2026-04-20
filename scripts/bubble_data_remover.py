@@ -333,25 +333,36 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                 if defn_prop and 'Value' in defn_prop:
                     bc_prop = find_property_by_name(defn_prop['Value'], 'BreakableClass')
                     if bc_prop and 'Value' in bc_prop:
-                        # SoftObjectProperty — Value is a dict with AssetPath.AssetPathName
+                        # SoftObjectProperty — Value is a dict with AssetPath
+                        # UAssetAPI uses AssetPath.AssetName (not AssetPathName)
                         val = bc_prop['Value']
                         if isinstance(val, dict):
-                            asset_path = val.get('AssetPath', {}).get('AssetPathName', '')
-                            if not asset_path:
-                                asset_path = val.get('AssetPathName', '')
+                            asset_path_obj = val.get('AssetPath', {})
+                            asset_path = (asset_path_obj.get('AssetName', '') or
+                                         asset_path_obj.get('AssetPathName', '') or
+                                         val.get('AssetPathName', '') or
+                                         val.get('AssetName', ''))
                             class_name = asset_path.split('/')[-1].split('.')[0]
                         elif isinstance(val, list):
                             # May be wrapped differently
                             for item in val:
-                                if isinstance(item, dict) and 'AssetPathName' in item:
-                                    asset_path = item['AssetPathName']
-                                    class_name = asset_path.split('/')[-1].split('.')[0]
-                                    break
+                                if isinstance(item, dict):
+                                    asset_path = (item.get('AssetName', '') or
+                                                 item.get('AssetPathName', ''))
+                                    if asset_path:
+                                        class_name = asset_path.split('/')[-1].split('.')[0]
+                                        break
 
                 instances = instances_prop.get('Value', []) if instances_prop else []
 
-                # Check type rules
-                type_match = any(tr['mesh_name'] in class_name for tr in type_rules)
+                # Check type rules — breakable class names use BP_DM_ prefix
+                # and may differ in casing from PWM_ mesh names, so strip prefix
+                # and compare case-insensitively
+                class_lower = class_name.lower()
+                type_match = any(
+                    tr['mesh_name'].replace('PWM_', '').lower() in class_lower
+                    for tr in type_rules
+                )
                 if type_match:
                     count = len(instances)
                     stats.instanced_breakable += count
@@ -367,7 +378,7 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
 
                     removed = False
                     for pe in position_entries:
-                        if pe['mesh_name'] in class_name:
+                        if pe['mesh_name'].replace('PWM_', '').lower() in class_lower:
                             px, py, pz = pe['local']
                             if coords_match(ix, iy, iz, px, py, pz):
                                 stats.instanced_breakable += 1

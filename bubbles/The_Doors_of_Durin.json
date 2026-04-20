@@ -559,6 +559,27 @@
     },
     {
       "typeRule": "The_Doors_of_Durin | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_A-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_B-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_C-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_D-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_E-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_F-test-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "BP_DM_Mine_tailings_Debris-test-BlockAll-dcl-L100"
     }
   ],
   "position_entries": [
@@ -695,21 +716,6 @@
         13503.02,
         3032.9,
         4225.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "The_Doors_of_Durin",
-      "bubbleName": "The Doors of Durin",
-      "world": [
-        12150.0,
-        66900.0,
-        6350.0
-      ],
-      "local": [
-        9100.0,
-        200.0,
-        4650.0
       ]
     },
     {
@@ -968,21 +974,6 @@
       ]
     },
     {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "The_Doors_of_Durin",
-      "bubbleName": "The Doors of Durin",
-      "world": [
-        12150.0,
-        66900.0,
-        7350.0
-      ],
-      "local": [
-        9100.0,
-        200.0,
-        5650.0
-      ]
-    },
-    {
       "mesh": "SM_Banner_CB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100",
       "bubble": "The_Doors_of_Durin",
       "bubbleName": "The Doors of Durin",
@@ -1130,21 +1121,6 @@
         9793.39,
         2999.32,
         4255.05
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "The_Doors_of_Durin",
-      "bubbleName": "The Doors of Durin",
-      "world": [
-        15600.0,
-        70650.0,
-        6250.0
-      ],
-      "local": [
-        12550.0,
-        3950.0,
-        4550.0
       ]
     },
     {
@@ -2585,21 +2561,6 @@
         13503.02,
         3032.9,
         4225.0
-      ]
-    },
-    {
-      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
-      "bubble": "The_Doors_of_Durin",
-      "bubbleName": "The Doors of Durin",
-      "world": [
-        12150.0,
-        66900.0,
-        6350.0
-      ],
-      "local": [
-        9100.0,
-        200.0,
-        4650.0
       ]
     },
     {
