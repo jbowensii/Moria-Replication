@@ -1,0 +1,1165 @@
+{
+  "bubble_name": "The_Chamber_of_Mazarbul",
+  "bd_stem": "BD_BB_Chapter4_BalrogsWake",
+  "uasset_files": [
+    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Chapter4_BalrogsWake.uasset",
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter4_BalrogsWake.uasset"
+  ],
+  "global_type_rules": [
+    {
+      "typeRule": "Deep_MetalCage_Large-MI_Suburbs_Trim_Sheet_B-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_C-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope2-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope4-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_C-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_D-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_F-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_A-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_C-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_D-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_E-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_2m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_B-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_4m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_A-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_D-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Shanty_Tent_Medium_A_Custom_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    }
+  ],
+  "bubble_type_rules": [],
+  "position_entries": [
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149181.56,
+        83173.41,
+        5134.2
+      ],
+      "local": [
+        5331.56,
+        10073.41,
+        234.2
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149321.77,
+        83204.47,
+        5177.53
+      ],
+      "local": [
+        5471.77,
+        10104.47,
+        277.53
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149355.0,
+        83385.0,
+        5225.0
+      ],
+      "local": [
+        5505.0,
+        10285.0,
+        325.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151275.0,
+        83751.0,
+        5206.0
+      ],
+      "local": [
+        7425.0,
+        10651.0,
+        306.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151597.0,
+        83821.0,
+        5206.0
+      ],
+      "local": [
+        7747.0,
+        10721.0,
+        306.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        153940.0,
+        85222.17,
+        5676.94
+      ],
+      "local": [
+        10090.0,
+        12122.17,
+        776.94
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152106.69,
+        78768.12,
+        6040.0
+      ],
+      "local": [
+        8256.69,
+        5668.12,
+        1140.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152290.0,
+        78485.0,
+        6055.0
+      ],
+      "local": [
+        8440.0,
+        5385.0,
+        1155.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152255.0,
+        78735.0,
+        6010.0
+      ],
+      "local": [
+        8405.0,
+        5635.0,
+        1110.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152136.09,
+        78441.02,
+        6030.0
+      ],
+      "local": [
+        8286.09,
+        5341.02,
+        1130.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152039.8,
+        78358.16,
+        6027.22
+      ],
+      "local": [
+        8189.8,
+        5258.16,
+        1127.22
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152457.52,
+        78593.09,
+        6027.22
+      ],
+      "local": [
+        8607.52,
+        5493.09,
+        1127.22
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        152491.48,
+        78752.27,
+        6123.8
+      ],
+      "local": [
+        8641.48,
+        5652.27,
+        1223.8
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151629.75,
+        78070.06,
+        6085.04
+      ],
+      "local": [
+        7779.75,
+        4970.06,
+        1185.04
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151602.42,
+        78198.68,
+        6063.56
+      ],
+      "local": [
+        7752.42,
+        5098.68,
+        1163.56
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151511.83,
+        77978.1,
+        6027.22
+      ],
+      "local": [
+        7661.83,
+        4878.1,
+        1127.22
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151529.19,
+        77717.88,
+        6036.46
+      ],
+      "local": [
+        7679.19,
+        4617.88,
+        1136.46
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151708.8,
+        77874.26,
+        6079.23
+      ],
+      "local": [
+        7858.8,
+        4774.26,
+        1179.23
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151818.02,
+        78076.79,
+        6167.36
+      ],
+      "local": [
+        7968.02,
+        4976.79,
+        1267.36
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151899.69,
+        77791.22,
+        6092.23
+      ],
+      "local": [
+        8049.69,
+        4691.22,
+        1192.23
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151706.86,
+        77492.45,
+        6085.02
+      ],
+      "local": [
+        7856.86,
+        4392.45,
+        1185.02
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151859.12,
+        77513.82,
+        6197.36
+      ],
+      "local": [
+        8009.12,
+        4413.82,
+        1297.36
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151910.62,
+        78050.03,
+        6253.13
+      ],
+      "local": [
+        8060.62,
+        4950.03,
+        1353.13
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151922.86,
+        77747.68,
+        6295.68
+      ],
+      "local": [
+        8072.86,
+        4647.68,
+        1395.68
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151894.36,
+        77663.59,
+        6188.95
+      ],
+      "local": [
+        8044.36,
+        4563.59,
+        1288.95
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151926.91,
+        77561.69,
+        6297.64
+      ],
+      "local": [
+        8076.91,
+        4461.69,
+        1397.64
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151951.34,
+        77947.68,
+        6323.31
+      ],
+      "local": [
+        8101.34,
+        4847.68,
+        1423.31
+      ]
+    },
+    {
+      "mesh": "Suburb_Stairs_Trim_Pillar_C-MI_City_Stairs_Trim_Pillar_C-Destructible-3F-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151211.69,
+        77233.95,
+        5992.11
+      ],
+      "local": [
+        7361.69,
+        4133.95,
+        1092.11
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148690.0,
+        77655.0,
+        6235.0
+      ],
+      "local": [
+        4840.0,
+        4555.0,
+        1335.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148548.14,
+        77722.48,
+        6278.21
+      ],
+      "local": [
+        4698.14,
+        4622.48,
+        1378.21
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148729.17,
+        77773.46,
+        6219.56
+      ],
+      "local": [
+        4879.17,
+        4673.46,
+        1319.56
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148627.5,
+        77949.95,
+        6215.0
+      ],
+      "local": [
+        4777.5,
+        4849.95,
+        1315.0
+      ]
+    },
+    {
+      "mesh": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148439.02,
+        77835.0,
+        6198.08
+      ],
+      "local": [
+        4589.02,
+        4735.0,
+        1298.08
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148428.81,
+        77996.02,
+        6310.25
+      ],
+      "local": [
+        4578.81,
+        4896.02,
+        1410.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148693.38,
+        77975.59,
+        6380.0
+      ],
+      "local": [
+        4843.38,
+        4875.59,
+        1480.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_Pile_F_Optimized-MI_Rubble_Masonry_Pile_Atlas_Inst_B-MI_Rubble_Masonry_Pile_Atlas_Inst_A-Destructible-3F-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        154520.06,
+        77055.54,
+        6098.51
+      ],
+      "local": [
+        10670.06,
+        3955.54,
+        1198.51
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_B_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-Destructible-3F-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        154676.89,
+        76043.45,
+        6005.01
+      ],
+      "local": [
+        10826.89,
+        2943.45,
+        1105.01
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_B_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-Destructible-3F-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        154780.25,
+        76848.88,
+        6090.42
+      ],
+      "local": [
+        10930.25,
+        3748.88,
+        1190.42
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_B_Capitol_Ruined-MI_Suburbs_Column_Large_A_Capitol_Ruined-Destructible-3F-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        155027.34,
+        76852.77,
+        6147.02
+      ],
+      "local": [
+        11177.34,
+        3752.77,
+        1247.02
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151910.0,
+        74485.0,
+        6240.0
+      ],
+      "local": [
+        8060.0,
+        1385.0,
+        1340.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151840.0,
+        74370.0,
+        6230.0
+      ],
+      "local": [
+        7990.0,
+        1270.0,
+        1330.0
+      ]
+    },
+    {
+      "mesh": "Library_Chair-MI_Library_Chair-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        151185.0,
+        73410.0,
+        6275.0
+      ],
+      "local": [
+        7335.0,
+        310.0,
+        1375.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        150840.0,
+        73675.0,
+        6215.0
+      ],
+      "local": [
+        6990.0,
+        575.0,
+        1315.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149570.36,
+        74340.15,
+        6446.49
+      ],
+      "local": [
+        5720.36,
+        1240.15,
+        1546.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149461.66,
+        74396.55,
+        6424.0
+      ],
+      "local": [
+        5611.66,
+        1296.55,
+        1524.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149376.0,
+        74343.0,
+        6425.0
+      ],
+      "local": [
+        5526.0,
+        1243.0,
+        1525.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149356.7,
+        74226.17,
+        6454.75
+      ],
+      "local": [
+        5506.7,
+        1126.17,
+        1554.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        149580.0,
+        74120.0,
+        6410.0
+      ],
+      "local": [
+        5730.0,
+        1020.0,
+        1510.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148192.72,
+        76168.41,
+        6655.49
+      ],
+      "local": [
+        4342.72,
+        3068.41,
+        1755.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148100.31,
+        76200.05,
+        6605.49
+      ],
+      "local": [
+        4250.31,
+        3100.05,
+        1705.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148129.86,
+        76045.96,
+        6630.0
+      ],
+      "local": [
+        4279.86,
+        2945.96,
+        1730.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148305.0,
+        76130.0,
+        6645.0
+      ],
+      "local": [
+        4455.0,
+        3030.0,
+        1745.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148449.05,
+        76144.58,
+        6676.38
+      ],
+      "local": [
+        4599.05,
+        3044.58,
+        1776.38
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148403.28,
+        76084.48,
+        6597.29
+      ],
+      "local": [
+        4553.28,
+        2984.48,
+        1697.29
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148394.36,
+        76335.04,
+        6650.25
+      ],
+      "local": [
+        4544.36,
+        3235.04,
+        1750.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148121.12,
+        76504.02,
+        6631.07
+      ],
+      "local": [
+        4271.12,
+        3404.02,
+        1731.07
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        148449.05,
+        76361.27,
+        6846.2
+      ],
+      "local": [
+        4599.05,
+        3261.27,
+        1946.2
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        147734.7,
+        75180.0,
+        6465.0
+      ],
+      "local": [
+        3884.7,
+        2080.0,
+        1565.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        147615.81,
+        75028.15,
+        6547.8
+      ],
+      "local": [
+        3765.81,
+        1928.15,
+        1647.8
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        147607.64,
+        75494.9,
+        6353.62
+      ],
+      "local": [
+        3757.64,
+        2394.9,
+        1453.62
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Chamber_of_Mazarbul",
+      "bubbleName": "The Chamber of Mazarbul",
+      "world": [
+        147571.47,
+        75254.89,
+        6560.0
+      ],
+      "local": [
+        3721.47,
+        2154.89,
+        1660.0
+      ]
+    }
+  ],
+  "summary": {
+    "global_type_rule_count": 77,
+    "bubble_type_rule_count": 0,
+    "position_entry_count": 61,
+    "total_entries": 138
+  }
+}

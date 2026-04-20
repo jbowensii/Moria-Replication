@@ -1,0 +1,2861 @@
+{
+  "bubble_name": "Western_Mines",
+  "bd_stem": "BD_BB_Nexus_MineA",
+  "uasset_files": [
+    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Nexus_MineA.uasset",
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Nexus_MineA.uasset"
+  ],
+  "global_type_rules": [
+    {
+      "typeRule": "Deep_MetalCage_Large-MI_Suburbs_Trim_Sheet_B-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_C-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope2-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope4-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_C-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_D-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_F-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_A-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_C-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_D-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_E-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_2m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_B-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_4m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_A-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_D-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Shanty_Tent_Medium_A_Custom_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    }
+  ],
+  "bubble_type_rules": [],
+  "position_entries": [
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36111.4,
+        115121.38,
+        5621.27
+      ],
+      "local": [
+        1061.4,
+        3621.38,
+        3921.27
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36072.0,
+        115301.3,
+        5755.05
+      ],
+      "local": [
+        1022.0,
+        3801.3,
+        4055.05
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        35530.86,
+        115058.26,
+        5597.45
+      ],
+      "local": [
+        480.86,
+        3558.26,
+        3897.45
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        35866.1,
+        115101.59,
+        5755.24
+      ],
+      "local": [
+        816.1,
+        3601.59,
+        4055.24
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        35842.08,
+        114357.73,
+        5694.22
+      ],
+      "local": [
+        792.08,
+        2857.73,
+        3994.22
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        35568.65,
+        114356.78,
+        5495.26
+      ],
+      "local": [
+        518.65,
+        2856.78,
+        3795.26
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36008.79,
+        115656.36,
+        5686.15
+      ],
+      "local": [
+        958.79,
+        4156.36,
+        3986.15
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37050.0,
+        116150.0,
+        5600.0
+      ],
+      "local": [
+        2000.0,
+        4650.0,
+        3900.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36690.57,
+        117333.64,
+        5753.41
+      ],
+      "local": [
+        1640.57,
+        5833.64,
+        4053.41
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37195.86,
+        117708.27,
+        5711.11
+      ],
+      "local": [
+        2145.86,
+        6208.27,
+        4011.11
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37385.02,
+        117222.55,
+        5834.73
+      ],
+      "local": [
+        2335.02,
+        5722.55,
+        4134.73
+      ]
+    },
+    {
+      "mesh": "Suburbs_Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37452.45,
+        117247.19,
+        5868.94
+      ],
+      "local": [
+        2402.45,
+        5747.19,
+        4168.94
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37520.0,
+        117200.0,
+        5800.0
+      ],
+      "local": [
+        2470.0,
+        5700.0,
+        4100.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37310.87,
+        117134.67,
+        5816.46
+      ],
+      "local": [
+        2260.87,
+        5634.67,
+        4116.46
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37520.08,
+        117500.0,
+        5784.24
+      ],
+      "local": [
+        2470.08,
+        6000.0,
+        4084.24
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36860.02,
+        116655.29,
+        5729.13
+      ],
+      "local": [
+        1810.02,
+        5155.29,
+        4029.13
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36463.66,
+        116622.43,
+        5733.02
+      ],
+      "local": [
+        1413.66,
+        5122.43,
+        4033.02
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37347.75,
+        117882.27,
+        5978.81
+      ],
+      "local": [
+        2297.75,
+        6382.27,
+        4278.81
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39598.15,
+        116971.34,
+        6393.85
+      ],
+      "local": [
+        4548.15,
+        5471.34,
+        4693.85
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39538.68,
+        116848.91,
+        6373.55
+      ],
+      "local": [
+        4488.68,
+        5348.91,
+        4673.55
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39720.99,
+        116872.64,
+        6393.64
+      ],
+      "local": [
+        4670.99,
+        5372.64,
+        4693.64
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39728.83,
+        116731.91,
+        6494.9
+      ],
+      "local": [
+        4678.83,
+        5231.91,
+        4794.9
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39854.86,
+        116625.8,
+        6422.4
+      ],
+      "local": [
+        4804.86,
+        5125.8,
+        4722.4
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        41565.74,
+        116357.89,
+        6558.95
+      ],
+      "local": [
+        6515.74,
+        4857.89,
+        4858.95
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        41582.23,
+        116176.2,
+        5899.36
+      ],
+      "local": [
+        6532.23,
+        4676.2,
+        4199.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        41411.29,
+        115917.86,
+        5904.46
+      ],
+      "local": [
+        6361.29,
+        4417.86,
+        4204.46
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        41260.43,
+        115907.34,
+        5993.89
+      ],
+      "local": [
+        6210.43,
+        4407.34,
+        4293.89
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        41050.19,
+        115900.0,
+        5954.36
+      ],
+      "local": [
+        6000.19,
+        4400.0,
+        4254.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        41303.73,
+        115840.45,
+        5878.74
+      ],
+      "local": [
+        6253.73,
+        4340.45,
+        4178.74
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        40623.11,
+        116207.52,
+        6039.7
+      ],
+      "local": [
+        5573.11,
+        4707.52,
+        4339.7
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38303.98,
+        113250.19,
+        6604.55
+      ],
+      "local": [
+        3253.98,
+        1750.19,
+        4904.55
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38005.0,
+        114205.0,
+        3435.0
+      ],
+      "local": [
+        2955.0,
+        2705.0,
+        1735.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37824.42,
+        114379.41,
+        3537.73
+      ],
+      "local": [
+        2774.42,
+        2879.41,
+        1837.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37529.91,
+        114625.52,
+        3199.79
+      ],
+      "local": [
+        2479.91,
+        3125.52,
+        1499.79
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37421.03,
+        114577.77,
+        3232.56
+      ],
+      "local": [
+        2371.03,
+        3077.77,
+        1532.56
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37369.35,
+        114576.21,
+        3204.75
+      ],
+      "local": [
+        2319.35,
+        3076.21,
+        1504.75
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37625.04,
+        114447.88,
+        3246.75
+      ],
+      "local": [
+        2575.04,
+        2947.88,
+        1546.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37600.0,
+        114600.0,
+        3200.0
+      ],
+      "local": [
+        2550.0,
+        3100.0,
+        1500.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37550.0,
+        113850.0,
+        3400.0
+      ],
+      "local": [
+        2500.0,
+        2350.0,
+        1700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37250.0,
+        116150.0,
+        2900.0
+      ],
+      "local": [
+        2200.0,
+        4650.0,
+        1200.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37065.93,
+        116262.57,
+        2838.88
+      ],
+      "local": [
+        2015.93,
+        4762.57,
+        1138.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37250.0,
+        116253.02,
+        2917.1
+      ],
+      "local": [
+        2200.0,
+        4753.02,
+        1217.1
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37250.0,
+        116250.0,
+        2900.0
+      ],
+      "local": [
+        2200.0,
+        4750.0,
+        1200.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37231.46,
+        116051.6,
+        2857.32
+      ],
+      "local": [
+        2181.46,
+        4551.6,
+        1157.32
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37100.0,
+        116061.72,
+        2933.97
+      ],
+      "local": [
+        2050.0,
+        4561.72,
+        1233.97
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36220.31,
+        116287.77,
+        2342.74
+      ],
+      "local": [
+        1170.31,
+        4787.77,
+        642.74
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36867.94,
+        116308.35,
+        2901.64
+      ],
+      "local": [
+        1817.94,
+        4808.35,
+        1201.64
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36570.04,
+        116248.46,
+        2986.38
+      ],
+      "local": [
+        1520.04,
+        4748.46,
+        1286.38
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39953.81,
+        113568.64,
+        1814.35
+      ],
+      "local": [
+        4903.81,
+        2068.64,
+        114.35
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        40210.0,
+        113580.0,
+        1790.0
+      ],
+      "local": [
+        5160.0,
+        2080.0,
+        90.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        40150.0,
+        113410.0,
+        1790.0
+      ],
+      "local": [
+        5100.0,
+        1910.0,
+        90.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        40231.43,
+        113284.04,
+        1780.0
+      ],
+      "local": [
+        5181.43,
+        1784.04,
+        80.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39470.0,
+        113880.0,
+        1760.0
+      ],
+      "local": [
+        4420.0,
+        2380.0,
+        60.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39700.0,
+        113800.0,
+        1800.0
+      ],
+      "local": [
+        4650.0,
+        2300.0,
+        100.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39560.0,
+        113950.0,
+        1750.0
+      ],
+      "local": [
+        4510.0,
+        2450.0,
+        50.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39026.55,
+        113812.52,
+        1887.66
+      ],
+      "local": [
+        3976.55,
+        2312.52,
+        187.66
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38989.86,
+        114004.1,
+        1740.0
+      ],
+      "local": [
+        3939.86,
+        2504.1,
+        40.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        39053.14,
+        113644.92,
+        2252.95
+      ],
+      "local": [
+        4003.14,
+        2144.92,
+        552.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38870.0,
+        113980.0,
+        1720.0
+      ],
+      "local": [
+        3820.0,
+        2480.0,
+        20.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38780.0,
+        115050.0,
+        1750.0
+      ],
+      "local": [
+        3730.0,
+        3550.0,
+        50.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Capital-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38400.27,
+        115150.54,
+        1733.96
+      ],
+      "local": [
+        3350.27,
+        3650.54,
+        33.96
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38890.0,
+        115050.0,
+        1720.0
+      ],
+      "local": [
+        3840.0,
+        3550.0,
+        20.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38538.37,
+        115323.19,
+        1790.0
+      ],
+      "local": [
+        3488.37,
+        3823.19,
+        90.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38512.31,
+        115219.09,
+        1715.0
+      ],
+      "local": [
+        3462.31,
+        3719.09,
+        15.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37925.0,
+        116200.0,
+        1800.0
+      ],
+      "local": [
+        2875.0,
+        4700.0,
+        100.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38025.34,
+        115993.22,
+        1800.0
+      ],
+      "local": [
+        2975.34,
+        4493.22,
+        100.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37347.52,
+        114552.78,
+        1722.89
+      ],
+      "local": [
+        2297.52,
+        3052.78,
+        22.89
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37620.0,
+        113930.0,
+        1720.0
+      ],
+      "local": [
+        2570.0,
+        2430.0,
+        20.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37740.0,
+        113940.0,
+        1710.0
+      ],
+      "local": [
+        2690.0,
+        2440.0,
+        10.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38800.0,
+        114040.0,
+        1710.0
+      ],
+      "local": [
+        3750.0,
+        2540.0,
+        10.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38725.0,
+        113895.0,
+        1720.0
+      ],
+      "local": [
+        3675.0,
+        2395.0,
+        20.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        38325.0,
+        113915.0,
+        1705.0
+      ],
+      "local": [
+        3275.0,
+        2415.0,
+        5.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        37813.6,
+        114035.44,
+        1700.0
+      ],
+      "local": [
+        2763.6,
+        2535.44,
+        0.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        36150.0,
+        114220.0,
+        1960.0
+      ],
+      "local": [
+        1100.0,
+        2720.0,
+        260.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        43795.16,
+        113468.2,
+        2535.32
+      ],
+      "local": [
+        8745.16,
+        1968.2,
+        835.32
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        43633.76,
+        113794.37,
+        2533.42
+      ],
+      "local": [
+        8583.76,
+        2294.37,
+        833.42
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45550.0,
+        113850.0,
+        2550.0
+      ],
+      "local": [
+        10500.0,
+        2350.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45420.0,
+        113780.0,
+        2500.0
+      ],
+      "local": [
+        10370.0,
+        2280.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45220.94,
+        113912.16,
+        2612.45
+      ],
+      "local": [
+        10170.94,
+        2412.16,
+        912.45
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45238.59,
+        113813.53,
+        2476.09
+      ],
+      "local": [
+        10188.59,
+        2313.53,
+        776.09
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45006.29,
+        113815.78,
+        2576.38
+      ],
+      "local": [
+        9956.29,
+        2315.78,
+        876.38
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45032.1,
+        113953.77,
+        2772.17
+      ],
+      "local": [
+        9982.1,
+        2453.77,
+        1072.17
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44830.0,
+        113760.0,
+        2520.0
+      ],
+      "local": [
+        9780.0,
+        2260.0,
+        820.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44650.0,
+        113710.0,
+        2550.0
+      ],
+      "local": [
+        9600.0,
+        2210.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-Destructible-3F-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44492.9,
+        113615.31,
+        2540.24
+      ],
+      "local": [
+        9442.9,
+        2115.31,
+        840.24
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44450.0,
+        113750.0,
+        2500.0
+      ],
+      "local": [
+        9400.0,
+        2250.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44580.0,
+        113640.0,
+        2500.0
+      ],
+      "local": [
+        9530.0,
+        2140.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44186.38,
+        113809.94,
+        2501.12
+      ],
+      "local": [
+        9136.38,
+        2309.94,
+        801.12
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Capital-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45311.87,
+        113996.34,
+        2665.74
+      ],
+      "local": [
+        10261.87,
+        2496.34,
+        965.74
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_3_Capital-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45538.8,
+        113972.08,
+        2513.5
+      ],
+      "local": [
+        10488.8,
+        2472.08,
+        813.5
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45784.37,
+        113974.8,
+        2474.37
+      ],
+      "local": [
+        10734.37,
+        2474.8,
+        774.37
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45750.0,
+        114120.0,
+        2520.0
+      ],
+      "local": [
+        10700.0,
+        2620.0,
+        820.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45840.0,
+        114360.0,
+        2560.0
+      ],
+      "local": [
+        10790.0,
+        2860.0,
+        860.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45550.0,
+        114270.0,
+        2560.0
+      ],
+      "local": [
+        10500.0,
+        2770.0,
+        860.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45800.0,
+        114000.0,
+        2510.0
+      ],
+      "local": [
+        10750.0,
+        2500.0,
+        810.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        44917.37,
+        113951.52,
+        2400.0
+      ],
+      "local": [
+        9867.37,
+        2451.52,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45380.0,
+        113930.0,
+        2590.0
+      ],
+      "local": [
+        10330.0,
+        2430.0,
+        890.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46150.0,
+        114100.0,
+        2500.0
+      ],
+      "local": [
+        11100.0,
+        2600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45975.73,
+        114318.91,
+        3372.83
+      ],
+      "local": [
+        10925.73,
+        2818.91,
+        1672.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46097.32,
+        114523.94,
+        3170.9
+      ],
+      "local": [
+        11047.32,
+        3023.94,
+        1470.9
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46665.0,
+        112080.0,
+        2535.0
+      ],
+      "local": [
+        11615.0,
+        580.0,
+        835.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46250.71,
+        114565.64,
+        2510.0
+      ],
+      "local": [
+        11200.71,
+        3065.64,
+        810.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46328.12,
+        114655.66,
+        2527.28
+      ],
+      "local": [
+        11278.12,
+        3155.66,
+        827.28
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46430.0,
+        115080.0,
+        2570.0
+      ],
+      "local": [
+        11380.0,
+        3580.0,
+        870.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46582.77,
+        114988.12,
+        2540.0
+      ],
+      "local": [
+        11532.77,
+        3488.12,
+        840.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46595.0,
+        115220.0,
+        2565.0
+      ],
+      "local": [
+        11545.0,
+        3720.0,
+        865.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46685.0,
+        115055.0,
+        2515.0
+      ],
+      "local": [
+        11635.0,
+        3555.0,
+        815.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46730.0,
+        115345.0,
+        2540.0
+      ],
+      "local": [
+        11680.0,
+        3845.0,
+        840.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46762.86,
+        115508.3,
+        2545.0
+      ],
+      "local": [
+        11712.86,
+        4008.3,
+        845.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47390.0,
+        114660.0,
+        2580.0
+      ],
+      "local": [
+        12340.0,
+        3160.0,
+        880.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47235.07,
+        114598.55,
+        2535.0
+      ],
+      "local": [
+        12185.07,
+        3098.55,
+        835.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47195.0,
+        114485.0,
+        2525.0
+      ],
+      "local": [
+        12145.0,
+        2985.0,
+        825.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47502.42,
+        115105.69,
+        2713.19
+      ],
+      "local": [
+        12452.42,
+        3605.69,
+        1013.19
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47486.98,
+        115086.57,
+        3126.7
+      ],
+      "local": [
+        12436.98,
+        3586.57,
+        1426.7
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47602.46,
+        115185.88,
+        2619.89
+      ],
+      "local": [
+        12552.46,
+        3685.88,
+        919.89
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47479.56,
+        115113.33,
+        2519.59
+      ],
+      "local": [
+        12429.56,
+        3613.33,
+        819.59
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47505.0,
+        115295.0,
+        2530.0
+      ],
+      "local": [
+        12455.0,
+        3795.0,
+        830.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47533.73,
+        114949.61,
+        2710.16
+      ],
+      "local": [
+        12483.73,
+        3449.61,
+        1010.16
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47559.06,
+        114966.7,
+        3086.06
+      ],
+      "local": [
+        12509.06,
+        3466.7,
+        1386.06
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        47475.0,
+        115435.0,
+        2515.0
+      ],
+      "local": [
+        12425.0,
+        3935.0,
+        815.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46827.01,
+        115472.5,
+        2515.0
+      ],
+      "local": [
+        11777.01,
+        3972.5,
+        815.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46670.0,
+        115695.0,
+        2515.0
+      ],
+      "local": [
+        11620.0,
+        4195.0,
+        815.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46573.5,
+        115915.25,
+        2525.0
+      ],
+      "local": [
+        11523.5,
+        4415.25,
+        825.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        46460.0,
+        116015.0,
+        2510.0
+      ],
+      "local": [
+        11410.0,
+        4515.0,
+        810.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45327.0,
+        116621.0,
+        2520.0
+      ],
+      "local": [
+        10277.0,
+        5121.0,
+        820.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Western_Mines",
+      "bubbleName": "Western Mines",
+      "world": [
+        45400.0,
+        116325.0,
+        2500.0
+      ],
+      "local": [
+        10350.0,
+        4825.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        25316.15,
+        77786.53,
+        5106.73
+      ],
+      "local": [
+        -3333.85,
+        -1713.47,
+        206.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x8x8_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26734.17,
+        87551.56,
+        5384.83
+      ],
+      "local": [
+        -1915.83,
+        1651.56,
+        484.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26340.47,
+        87693.34,
+        5622.4
+      ],
+      "local": [
+        -2309.53,
+        1793.34,
+        722.4
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26249.82,
+        88011.13,
+        5488.88
+      ],
+      "local": [
+        -2400.18,
+        2111.13,
+        588.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26344.41,
+        88111.03,
+        5511.0
+      ],
+      "local": [
+        -2305.59,
+        2211.03,
+        611.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26413.04,
+        87941.8,
+        5557.97
+      ],
+      "local": [
+        -2236.96,
+        2041.8,
+        657.97
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        39753.43,
+        129016.57,
+        2820.0
+      ],
+      "local": [
+        -1696.57,
+        4716.57,
+        1120.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141741.88,
+        72849.09,
+        5531.87
+      ],
+      "local": [
+        4291.88,
+        -6650.91,
+        631.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141523.28,
+        72773.49,
+        5531.87
+      ],
+      "local": [
+        4073.28,
+        -6726.51,
+        631.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141800.0,
+        72550.0,
+        5450.0
+      ],
+      "local": [
+        4350.0,
+        -6950.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141250.0,
+        72700.0,
+        5550.0
+      ],
+      "local": [
+        3800.0,
+        -6800.0,
+        650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141450.0,
+        72850.0,
+        5550.0
+      ],
+      "local": [
+        4000.0,
+        -6650.0,
+        650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141689.98,
+        72895.88,
+        5632.87
+      ],
+      "local": [
+        4239.98,
+        -6604.12,
+        732.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141835.22,
+        72878.55,
+        5651.01
+      ],
+      "local": [
+        4385.22,
+        -6621.45,
+        751.01
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141983.88,
+        72976.7,
+        5465.0
+      ],
+      "local": [
+        4533.88,
+        -6523.3,
+        565.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141700.0,
+        72900.0,
+        5500.0
+      ],
+      "local": [
+        4250.0,
+        -6600.0,
+        600.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141950.0,
+        72900.0,
+        5600.0
+      ],
+      "local": [
+        4500.0,
+        -6600.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142044.0,
+        73057.28,
+        5529.42
+      ],
+      "local": [
+        4594.0,
+        -6442.72,
+        629.42
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141650.0,
+        72700.0,
+        5500.0
+      ],
+      "local": [
+        -2200.0,
+        6000.0,
+        600.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141900.0,
+        72700.0,
+        5450.0
+      ],
+      "local": [
+        -1950.0,
+        6000.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142150.0,
+        72950.0,
+        5450.0
+      ],
+      "local": [
+        -1700.0,
+        6250.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141804.36,
+        71950.19,
+        5350.0
+      ],
+      "local": [
+        -2045.64,
+        5250.19,
+        450.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142128.67,
+        72128.04,
+        5300.0
+      ],
+      "local": [
+        -1721.33,
+        5428.04,
+        400.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141749.88,
+        71541.32,
+        5399.25
+      ],
+      "local": [
+        -2100.12,
+        4841.32,
+        499.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        143589.69,
+        70400.66,
+        6108.8
+      ],
+      "local": [
+        -260.31,
+        3700.66,
+        1208.8
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        143450.94,
+        70169.94,
+        5989.86
+      ],
+      "local": [
+        -399.06,
+        3469.94,
+        1089.86
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140937.95,
+        71612.3,
+        6050.0
+      ],
+      "local": [
+        -2912.05,
+        4912.3,
+        1150.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139579.7,
+        70460.16,
+        5704.98
+      ],
+      "local": [
+        -4270.3,
+        3760.16,
+        804.98
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139850.0,
+        70500.0,
+        5750.0
+      ],
+      "local": [
+        -4000.0,
+        3800.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139850.0,
+        70350.0,
+        5650.0
+      ],
+      "local": [
+        -4000.0,
+        3650.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139913.94,
+        70480.47,
+        5661.5
+      ],
+      "local": [
+        -3936.06,
+        3780.47,
+        761.5
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140150.0,
+        70300.0,
+        5700.0
+      ],
+      "local": [
+        -3700.0,
+        3600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140350.0,
+        70400.0,
+        5850.0
+      ],
+      "local": [
+        -3500.0,
+        3700.0,
+        950.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140150.0,
+        70400.0,
+        5750.0
+      ],
+      "local": [
+        -3700.0,
+        3700.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70200.0,
+        5650.0
+      ],
+      "local": [
+        -3350.0,
+        3500.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70350.0,
+        5600.0
+      ],
+      "local": [
+        -3350.0,
+        3650.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140350.0,
+        70350.0,
+        5750.0
+      ],
+      "local": [
+        -3500.0,
+        3650.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70300.0,
+        5700.0
+      ],
+      "local": [
+        -3350.0,
+        3600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140550.0,
+        70250.0,
+        5750.0
+      ],
+      "local": [
+        -3300.0,
+        3550.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139975.62,
+        70425.98,
+        5607.6
+      ],
+      "local": [
+        -3874.38,
+        3725.98,
+        707.6
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139900.0,
+        70300.0,
+        5650.0
+      ],
+      "local": [
+        -3950.0,
+        3600.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        137585.58,
+        72173.84,
+        5960.68
+      ],
+      "local": [
+        -6264.42,
+        5473.84,
+        1060.68
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        25316.15,
+        77786.53,
+        5106.73
+      ],
+      "local": [
+        -3333.85,
+        -1713.47,
+        206.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x8x8_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26734.17,
+        87551.56,
+        5384.83
+      ],
+      "local": [
+        -1915.83,
+        1651.56,
+        484.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26340.47,
+        87693.34,
+        5622.4
+      ],
+      "local": [
+        -2309.53,
+        1793.34,
+        722.4
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26249.82,
+        88011.13,
+        5488.88
+      ],
+      "local": [
+        -2400.18,
+        2111.13,
+        588.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26344.41,
+        88111.03,
+        5511.0
+      ],
+      "local": [
+        -2305.59,
+        2211.03,
+        611.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26413.04,
+        87941.8,
+        5557.97
+      ],
+      "local": [
+        -2236.96,
+        2041.8,
+        657.97
+      ]
+    }
+  ],
+  "summary": {
+    "global_type_rule_count": 77,
+    "bubble_type_rule_count": 0,
+    "position_entry_count": 174,
+    "total_entries": 251
+  },
+  "resolved_unknown_count": 48
+}

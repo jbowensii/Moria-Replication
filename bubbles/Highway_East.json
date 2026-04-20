@@ -1,0 +1,686 @@
+{
+  "bubble_name": "Highway_East",
+  "bd_stem": "BD_BB_Chapter4_BlockedHighwayEast",
+  "uasset_files": [
+    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Chapter4_BlockedHighwayEast.uasset",
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter4_BlockedHighwayEast.uasset"
+  ],
+  "global_type_rules": [
+    {
+      "typeRule": "Deep_MetalCage_Large-MI_Suburbs_Trim_Sheet_B-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_C-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope2-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope4-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_C-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_D-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_F-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_A-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_C-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_D-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_E-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_2m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_B-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_4m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_A-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_D-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Shanty_Tent_Medium_A_Custom_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    }
+  ],
+  "bubble_type_rules": [],
+  "position_entries": [
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        25316.15,
+        77786.53,
+        5106.73
+      ],
+      "local": [
+        -3333.85,
+        -1713.47,
+        206.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26249.82,
+        88011.13,
+        5488.88
+      ],
+      "local": [
+        -2400.18,
+        2111.13,
+        588.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26344.41,
+        88111.03,
+        5511.0
+      ],
+      "local": [
+        -2305.59,
+        2211.03,
+        611.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26413.04,
+        87941.8,
+        5557.97
+      ],
+      "local": [
+        -2236.96,
+        2041.8,
+        657.97
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        39753.43,
+        129016.57,
+        2820.0
+      ],
+      "local": [
+        -1696.57,
+        4716.57,
+        1120.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141800.0,
+        72550.0,
+        5450.0
+      ],
+      "local": [
+        4350.0,
+        -6950.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141250.0,
+        72700.0,
+        5550.0
+      ],
+      "local": [
+        3800.0,
+        -6800.0,
+        650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141450.0,
+        72850.0,
+        5550.0
+      ],
+      "local": [
+        4000.0,
+        -6650.0,
+        650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141700.0,
+        72900.0,
+        5500.0
+      ],
+      "local": [
+        4250.0,
+        -6600.0,
+        600.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141950.0,
+        72900.0,
+        5600.0
+      ],
+      "local": [
+        4500.0,
+        -6600.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141804.36,
+        71950.19,
+        5350.0
+      ],
+      "local": [
+        -2045.64,
+        5250.19,
+        450.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142128.67,
+        72128.04,
+        5300.0
+      ],
+      "local": [
+        -1721.33,
+        5428.04,
+        400.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141749.88,
+        71541.32,
+        5399.25
+      ],
+      "local": [
+        -2100.12,
+        4841.32,
+        499.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139579.7,
+        70460.16,
+        5704.98
+      ],
+      "local": [
+        -4270.3,
+        3760.16,
+        804.98
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139850.0,
+        70350.0,
+        5650.0
+      ],
+      "local": [
+        -4000.0,
+        3650.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139913.94,
+        70480.47,
+        5661.5
+      ],
+      "local": [
+        -3936.06,
+        3780.47,
+        761.5
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140150.0,
+        70300.0,
+        5700.0
+      ],
+      "local": [
+        -3700.0,
+        3600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140350.0,
+        70400.0,
+        5850.0
+      ],
+      "local": [
+        -3500.0,
+        3700.0,
+        950.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140150.0,
+        70400.0,
+        5750.0
+      ],
+      "local": [
+        -3700.0,
+        3700.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70200.0,
+        5650.0
+      ],
+      "local": [
+        -3350.0,
+        3500.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70350.0,
+        5600.0
+      ],
+      "local": [
+        -3350.0,
+        3650.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140350.0,
+        70350.0,
+        5750.0
+      ],
+      "local": [
+        -3500.0,
+        3650.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70300.0,
+        5700.0
+      ],
+      "local": [
+        -3350.0,
+        3600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139975.62,
+        70425.98,
+        5607.6
+      ],
+      "local": [
+        -3874.38,
+        3725.98,
+        707.6
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139900.0,
+        70300.0,
+        5650.0
+      ],
+      "local": [
+        -3950.0,
+        3600.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        25316.15,
+        77786.53,
+        5106.73
+      ],
+      "local": [
+        -3333.85,
+        -1713.47,
+        206.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26249.82,
+        88011.13,
+        5488.88
+      ],
+      "local": [
+        -2400.18,
+        2111.13,
+        588.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26344.41,
+        88111.03,
+        5511.0
+      ],
+      "local": [
+        -2305.59,
+        2211.03,
+        611.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26413.04,
+        87941.8,
+        5557.97
+      ],
+      "local": [
+        -2236.96,
+        2041.8,
+        657.97
+      ]
+    }
+  ],
+  "summary": {
+    "global_type_rule_count": 77,
+    "bubble_type_rule_count": 0,
+    "position_entry_count": 29,
+    "total_entries": 106
+  },
+  "resolved_unknown_count": 29
+}

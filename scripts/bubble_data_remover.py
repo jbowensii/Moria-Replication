@@ -279,7 +279,7 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                 instances = instances_prop.get('Value', []) if instances_prop else []
 
                 # Check type rules — remove entire batch if mesh matches
-                type_match = any(tr['mesh_name'] == batch_mesh for tr in type_rules)
+                type_match = any(tr['mesh_name'] in batch_mesh for tr in type_rules)
                 if type_match:
                     count = len(instances)
                     stats.instanced_mesh += count
@@ -464,6 +464,57 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                 volumes_prop['Value'] = new_volumes
                 if removed_vols:
                     log_fn(f"  [Cleanup] Removed {removed_vols} DecoVolumes")
+
+    # --- Standalone DecoVolumes (not tied to ConstructionCatalog blocks) ---
+    # Spider webs and other standalone DecoVolumes have no matching CC block,
+    # so the CC-based pass above never checks them.  This pass catches them.
+    if dv_prop and 'Value' in dv_prop:
+        volumes_prop = find_property_by_name(dv_prop['Value'], 'Volumes')
+        if volumes_prop and 'Value' in volumes_prop:
+            volumes = volumes_prop['Value']
+            new_volumes = []
+            standalone_removed = 0
+            for vol in volumes:
+                vol_value = vol.get('Value', [])
+                name_prop = find_property_by_name(vol_value, 'Name')
+                vol_name = name_prop.get('Value', '') if name_prop else ''
+
+                # Skip volumes already removed by CC pass
+                if vol_name in blocks_to_remove:
+                    continue
+
+                # Check type rules against volume name
+                matched = False
+                for tr in type_rules:
+                    if tr['mesh_name'] in vol_name:
+                        log_fn(f"  [TypeRule] Removed standalone DecoVolume: {vol_name}")
+                        standalone_removed += 1
+                        matched = True
+                        break
+
+                # Check position entries against volume coordinates
+                if not matched:
+                    volume_struct = find_property_by_name(vol_value, 'Volume')
+                    if volume_struct and 'Value' in volume_struct:
+                        base_transform = find_property_by_name(
+                            volume_struct['Value'], 'BaseTransform')
+                        vx, vy, vz = get_uasset_translation(base_transform)
+                        for pe in position_entries:
+                            if pe['mesh_name'] in vol_name:
+                                px, py, pz = pe['local']
+                                if coords_match(vx, vy, vz, px, py, pz):
+                                    log_fn(f"  [Position] Removed standalone DecoVolume: "
+                                           f"{vol_name} at ({vx:.1f}, {vy:.1f}, {vz:.1f})")
+                                    standalone_removed += 1
+                                    matched = True
+                                    break
+
+                if not matched:
+                    new_volumes.append(vol)
+
+            if standalone_removed:
+                stats.deco_volume += standalone_removed
+                volumes_prop['Value'] = new_volumes
 
     # --- BreakableAttachmentDefinition ---
     if bad_prop and 'Value' in bad_prop and blocks_to_remove:

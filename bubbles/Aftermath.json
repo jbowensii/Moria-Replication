@@ -1,0 +1,2351 @@
+{
+  "bubble_name": "Aftermath",
+  "bd_stem": "BD_BB_Chapter2_GameStart",
+  "uasset_files": [
+    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Chapter2_GameStart.uasset",
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter2_GameStart.uasset"
+  ],
+  "global_type_rules": [
+    {
+      "typeRule": "Deep_MetalCage_Large-MI_Suburbs_Trim_Sheet_B-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_C-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope2-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope4-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_C-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_D-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_F-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_A-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_C-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_D-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_E-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_2m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_B-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_4m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_A-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_D-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Shanty_Tent_Medium_A_Custom_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    }
+  ],
+  "bubble_type_rules": [],
+  "position_entries": [
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6759.15,
+        63271.23,
+        6233.95
+      ],
+      "local": [
+        10109.15,
+        9371.23,
+        1333.95
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        4975.0,
+        61675.0,
+        6350.0
+      ],
+      "local": [
+        8325.0,
+        7775.0,
+        1450.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5425.0,
+        61675.0,
+        6550.0
+      ],
+      "local": [
+        8775.0,
+        7775.0,
+        1650.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_single_rock-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        268.76,
+        62678.97,
+        5776.65
+      ],
+      "local": [
+        3618.76,
+        8778.97,
+        876.65
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        736.29,
+        59005.86,
+        5783.29
+      ],
+      "local": [
+        4086.29,
+        5105.86,
+        883.29
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -290.38,
+        58177.25,
+        5430.58
+      ],
+      "local": [
+        3059.62,
+        4277.25,
+        530.58
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        1120.0,
+        54460.0,
+        5305.0
+      ],
+      "local": [
+        4470.0,
+        560.0,
+        405.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        995.0,
+        54540.0,
+        5285.0
+      ],
+      "local": [
+        4345.0,
+        640.0,
+        385.0
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6408.5,
+        69119.79,
+        6304.69
+      ],
+      "local": [
+        9758.5,
+        15219.79,
+        1404.69
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_Shaft-MI_Suburbs_Column_Large_A_Shaft-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6286.88,
+        69119.7,
+        5928.88
+      ],
+      "local": [
+        9636.88,
+        15219.7,
+        1028.88
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6169.16,
+        69310.8,
+        5644.56
+      ],
+      "local": [
+        9519.16,
+        15410.8,
+        744.56
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_C_Capitol_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Capitol_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6390.84,
+        69245.33,
+        5643.82
+      ],
+      "local": [
+        9740.84,
+        15345.33,
+        743.82
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_B_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6300.0,
+        69346.7,
+        5970.49
+      ],
+      "local": [
+        9650.0,
+        15446.7,
+        1070.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6152.84,
+        69059.52,
+        5689.51
+      ],
+      "local": [
+        9502.84,
+        15159.52,
+        789.51
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -550.0,
+        55100.0,
+        5100.0
+      ],
+      "local": [
+        2800.0,
+        1200.0,
+        200.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -644.67,
+        55071.88,
+        5062.92
+      ],
+      "local": [
+        2705.33,
+        1171.88,
+        162.92
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        488.75,
+        55409.08,
+        5206.29
+      ],
+      "local": [
+        3838.75,
+        1509.08,
+        306.29
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        710.43,
+        55717.12,
+        5489.04
+      ],
+      "local": [
+        4060.43,
+        1817.12,
+        589.04
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        589.71,
+        55596.79,
+        5301.18
+      ],
+      "local": [
+        3939.71,
+        1696.79,
+        401.18
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        778.75,
+        55714.43,
+        5651.56
+      ],
+      "local": [
+        4128.75,
+        1814.43,
+        751.56
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        1210.0,
+        55005.0,
+        5280.0
+      ],
+      "local": [
+        4560.0,
+        1105.0,
+        380.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        589.71,
+        55596.79,
+        5201.18
+      ],
+      "local": [
+        3939.71,
+        1696.79,
+        301.18
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        850.0,
+        55760.0,
+        5150.0
+      ],
+      "local": [
+        4200.0,
+        1860.0,
+        250.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        692.02,
+        56949.9,
+        5374.58
+      ],
+      "local": [
+        4042.02,
+        3049.9,
+        474.58
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        592.02,
+        56899.9,
+        5224.58
+      ],
+      "local": [
+        3942.02,
+        2999.9,
+        324.58
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        850.0,
+        56720.0,
+        5150.0
+      ],
+      "local": [
+        4200.0,
+        2820.0,
+        250.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        520.77,
+        57064.07,
+        5253.25
+      ],
+      "local": [
+        3870.77,
+        3164.07,
+        353.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        702.0,
+        57312.0,
+        5148.0
+      ],
+      "local": [
+        4052.0,
+        3412.0,
+        248.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        742.02,
+        57049.9,
+        5224.58
+      ],
+      "local": [
+        4092.02,
+        3149.9,
+        324.58
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        423.11,
+        56869.33,
+        5200.0
+      ],
+      "local": [
+        3773.11,
+        2969.33,
+        300.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_3_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        250.0,
+        56945.0,
+        5150.0
+      ],
+      "local": [
+        3600.0,
+        3045.0,
+        250.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -285.19,
+        56835.0,
+        5200.0
+      ],
+      "local": [
+        3064.81,
+        2935.0,
+        300.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Capital-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -345.0,
+        56840.81,
+        5195.64
+      ],
+      "local": [
+        3005.0,
+        2940.81,
+        295.64
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -362.32,
+        56404.02,
+        5190.0
+      ],
+      "local": [
+        2987.68,
+        2504.02,
+        290.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -500.0,
+        56600.0,
+        5150.0
+      ],
+      "local": [
+        2850.0,
+        2700.0,
+        250.0
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Base_Ruined-MI_Suburbs_Column_Large_A_Base_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        250.0,
+        58250.0,
+        5350.0
+      ],
+      "local": [
+        3600.0,
+        4350.0,
+        450.0
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -255.98,
+        58176.51,
+        5431.11
+      ],
+      "local": [
+        3094.02,
+        4276.51,
+        531.11
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_C_Capitol_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Capitol_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -586.85,
+        58279.65,
+        5539.94
+      ],
+      "local": [
+        2763.15,
+        4379.65,
+        639.94
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -546.35,
+        59879.5,
+        5850.02
+      ],
+      "local": [
+        2803.65,
+        5979.5,
+        950.02
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -369.81,
+        60223.61,
+        5807.4
+      ],
+      "local": [
+        2980.19,
+        6323.61,
+        907.4
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -628.52,
+        60350.25,
+        5738.95
+      ],
+      "local": [
+        2721.48,
+        6450.25,
+        838.95
+      ]
+    },
+    {
+      "mesh": "Suburbs_Stairs_Small_A_NonDest-MI_Suburbs_Wall_Non_Dest-MI_Stairs_Medium_C_NonDes-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        600.0,
+        60483.66,
+        5714.19
+      ],
+      "local": [
+        3950.0,
+        6583.66,
+        814.19
+      ]
+    },
+    {
+      "mesh": "Suburbs_Stairs_Small_A_NonDest-MI_Suburbs_Wall_Non_Dest-MI_Stairs_Medium_C_NonDes-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        600.0,
+        60851.03,
+        5744.75
+      ],
+      "local": [
+        3950.0,
+        6951.03,
+        844.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        450.0,
+        60950.0,
+        5850.0
+      ],
+      "local": [
+        3800.0,
+        7050.0,
+        950.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        200.0,
+        61050.0,
+        5800.0
+      ],
+      "local": [
+        3550.0,
+        7150.0,
+        900.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        315.0,
+        61130.0,
+        5785.0
+      ],
+      "local": [
+        3665.0,
+        7230.0,
+        885.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -425.0,
+        61375.0,
+        5815.0
+      ],
+      "local": [
+        2925.0,
+        7475.0,
+        915.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -170.0,
+        61535.0,
+        5780.0
+      ],
+      "local": [
+        3180.0,
+        7635.0,
+        880.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -72.05,
+        61604.01,
+        5800.0
+      ],
+      "local": [
+        3277.95,
+        7704.01,
+        900.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -80.0,
+        61515.0,
+        5775.0
+      ],
+      "local": [
+        3270.0,
+        7615.0,
+        875.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -16.57,
+        61871.6,
+        5781.7
+      ],
+      "local": [
+        3333.43,
+        7971.6,
+        881.7
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        69.7,
+        62031.65,
+        5800.0
+      ],
+      "local": [
+        3419.7,
+        8131.65,
+        900.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        1383.96,
+        61784.2,
+        5850.0
+      ],
+      "local": [
+        4733.96,
+        7884.2,
+        950.0
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_Base-MI_Suburbs_Column_Large_A_Base-Custom-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        428.72,
+        62849.05,
+        5743.16
+      ],
+      "local": [
+        3778.72,
+        8949.05,
+        843.16
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_B_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        400.88,
+        62850.0,
+        6142.2
+      ],
+      "local": [
+        3750.88,
+        8950.0,
+        1242.2
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        842.0,
+        63101.0,
+        5909.0
+      ],
+      "local": [
+        4192.0,
+        9201.0,
+        1009.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        1016.97,
+        63034.05,
+        5851.0
+      ],
+      "local": [
+        4366.97,
+        9134.05,
+        951.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        1403.41,
+        62573.73,
+        5850.0
+      ],
+      "local": [
+        4753.41,
+        8673.73,
+        950.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        1129.15,
+        62946.45,
+        5912.85
+      ],
+      "local": [
+        4479.15,
+        9046.45,
+        1012.85
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        647.16,
+        63053.63,
+        5912.85
+      ],
+      "local": [
+        3997.16,
+        9153.63,
+        1012.85
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        502.64,
+        63135.77,
+        5969.44
+      ],
+      "local": [
+        3852.64,
+        9235.77,
+        1069.44
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        484.43,
+        63171.04,
+        5868.8
+      ],
+      "local": [
+        3834.43,
+        9271.04,
+        968.8
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Capitol_Ruined-MI_Suburbs_Column_Large_A_Capitol_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -212.21,
+        62847.24,
+        5888.55
+      ],
+      "local": [
+        3137.79,
+        8947.24,
+        988.55
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -266.0,
+        62550.0,
+        5796.0
+      ],
+      "local": [
+        3084.0,
+        8650.0,
+        896.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        -98.0,
+        62503.0,
+        5773.0
+      ],
+      "local": [
+        3252.0,
+        8603.0,
+        873.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_single_rock-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        268.76,
+        62678.97,
+        5776.65
+      ],
+      "local": [
+        3618.76,
+        8778.97,
+        876.65
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        4260.35,
+        61252.73,
+        6157.41
+      ],
+      "local": [
+        7610.35,
+        7352.73,
+        1257.41
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        4296.84,
+        61169.26,
+        6178.76
+      ],
+      "local": [
+        7646.84,
+        7269.26,
+        1278.76
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        4975.0,
+        61675.0,
+        6350.0
+      ],
+      "local": [
+        8325.0,
+        7775.0,
+        1450.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5425.0,
+        61675.0,
+        6550.0
+      ],
+      "local": [
+        8775.0,
+        7775.0,
+        1650.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-Destructible-3F-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6325.0,
+        61675.0,
+        6150.0
+      ],
+      "local": [
+        9675.0,
+        7775.0,
+        1250.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x4x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7254.8,
+        62311.75,
+        6211.03
+      ],
+      "local": [
+        10604.8,
+        8411.75,
+        1311.03
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x4x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7272.07,
+        62513.04,
+        6192.11
+      ],
+      "local": [
+        10622.07,
+        8613.04,
+        1292.11
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7325.0,
+        62335.0,
+        6335.0
+      ],
+      "local": [
+        10675.0,
+        8435.0,
+        1435.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7270.0,
+        62615.0,
+        6245.0
+      ],
+      "local": [
+        10620.0,
+        8715.0,
+        1345.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7110.0,
+        62598.13,
+        6159.23
+      ],
+      "local": [
+        10460.0,
+        8698.13,
+        1259.23
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x4x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7270.0,
+        62211.61,
+        6126.8
+      ],
+      "local": [
+        10620.0,
+        8311.61,
+        1226.8
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5682.0,
+        63101.72,
+        6092.48
+      ],
+      "local": [
+        9032.0,
+        9201.72,
+        1192.48
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6855.0,
+        65260.0,
+        6175.0
+      ],
+      "local": [
+        10205.0,
+        11360.0,
+        1275.0
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_C_Capitol_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Capitol_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        6869.78,
+        65656.95,
+        6066.45
+      ],
+      "local": [
+        10219.78,
+        11756.95,
+        1166.45
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5585.57,
+        65955.04,
+        6064.18
+      ],
+      "local": [
+        8935.57,
+        12055.04,
+        1164.18
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5407.97,
+        65622.38,
+        5803.83
+      ],
+      "local": [
+        8757.97,
+        11722.38,
+        903.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7193.45,
+        66220.0,
+        5600.0
+      ],
+      "local": [
+        10543.45,
+        12320.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5750.0,
+        66500.0,
+        6150.0
+      ],
+      "local": [
+        9100.0,
+        12600.0,
+        1250.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5505.0,
+        66620.0,
+        6055.0
+      ],
+      "local": [
+        8855.0,
+        12720.0,
+        1155.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5372.84,
+        66747.72,
+        6469.98
+      ],
+      "local": [
+        8722.84,
+        12847.72,
+        1569.98
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5345.0,
+        65730.0,
+        6130.0
+      ],
+      "local": [
+        8695.0,
+        11830.0,
+        1230.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5210.16,
+        65952.58,
+        5863.59
+      ],
+      "local": [
+        8560.16,
+        12052.58,
+        963.59
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_X_Large_A_CapitalL_colum_E-MI_Suburbs_Trim_Sheet_A-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        5650.07,
+        68106.53,
+        6541.87
+      ],
+      "local": [
+        9000.07,
+        14206.53,
+        1641.87
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_X_Large_A_CapitalR_column_E-MI_Suburbs_Trim_Sheet_A-BlockAll-dcl-L100",
+      "bubble": "Aftermath",
+      "bubbleName": "Aftermath",
+      "world": [
+        7050.0,
+        68100.0,
+        6500.0
+      ],
+      "local": [
+        10400.0,
+        14200.0,
+        1600.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        25316.15,
+        77786.53,
+        5106.73
+      ],
+      "local": [
+        -3333.85,
+        -1713.47,
+        206.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x8x8_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26734.17,
+        87551.56,
+        5384.83
+      ],
+      "local": [
+        -1915.83,
+        1651.56,
+        484.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26340.47,
+        87693.34,
+        5622.4
+      ],
+      "local": [
+        -2309.53,
+        1793.34,
+        722.4
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26249.82,
+        88011.13,
+        5488.88
+      ],
+      "local": [
+        -2400.18,
+        2111.13,
+        588.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26344.41,
+        88111.03,
+        5511.0
+      ],
+      "local": [
+        -2305.59,
+        2211.03,
+        611.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26413.04,
+        87941.8,
+        5557.97
+      ],
+      "local": [
+        -2236.96,
+        2041.8,
+        657.97
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_C_Capitol_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Capitol_Ruined-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        39587.51,
+        128763.73,
+        2771.73
+      ],
+      "local": [
+        -1862.49,
+        -1936.27,
+        1071.73
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Shaft_Ruined-MI_Suburbs_Column_Large_A_Shaft_Ruined-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        39780.68,
+        128940.17,
+        3376.22
+      ],
+      "local": [
+        -1669.32,
+        -1759.83,
+        1676.22
+      ]
+    },
+    {
+      "mesh": "Suburbs_Column_Large_A_A_Base_Ruined-MI_Suburbs_Column_Large_A_Base_Ruined-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        39930.87,
+        128654.16,
+        2800.95
+      ],
+      "local": [
+        -1519.13,
+        4354.16,
+        1100.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        39753.43,
+        129016.57,
+        2820.0
+      ],
+      "local": [
+        -1696.57,
+        4716.57,
+        1120.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141741.88,
+        72849.09,
+        5531.87
+      ],
+      "local": [
+        4291.88,
+        -6650.91,
+        631.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141523.28,
+        72773.49,
+        5531.87
+      ],
+      "local": [
+        4073.28,
+        -6726.51,
+        631.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141800.0,
+        72550.0,
+        5450.0
+      ],
+      "local": [
+        4350.0,
+        -6950.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141250.0,
+        72700.0,
+        5550.0
+      ],
+      "local": [
+        3800.0,
+        -6800.0,
+        650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141450.0,
+        72850.0,
+        5550.0
+      ],
+      "local": [
+        4000.0,
+        -6650.0,
+        650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141689.98,
+        72895.88,
+        5632.87
+      ],
+      "local": [
+        4239.98,
+        -6604.12,
+        732.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141835.22,
+        72878.55,
+        5651.01
+      ],
+      "local": [
+        4385.22,
+        -6621.45,
+        751.01
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141983.88,
+        72976.7,
+        5465.0
+      ],
+      "local": [
+        4533.88,
+        -6523.3,
+        565.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141700.0,
+        72900.0,
+        5500.0
+      ],
+      "local": [
+        4250.0,
+        -6600.0,
+        600.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141950.0,
+        72900.0,
+        5600.0
+      ],
+      "local": [
+        4500.0,
+        -6600.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142044.0,
+        73057.28,
+        5529.42
+      ],
+      "local": [
+        4594.0,
+        -6442.72,
+        629.42
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141650.0,
+        72700.0,
+        5500.0
+      ],
+      "local": [
+        -2200.0,
+        6000.0,
+        600.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141900.0,
+        72700.0,
+        5450.0
+      ],
+      "local": [
+        -1950.0,
+        6000.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142150.0,
+        72950.0,
+        5450.0
+      ],
+      "local": [
+        -1700.0,
+        6250.0,
+        550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141804.36,
+        71950.19,
+        5350.0
+      ],
+      "local": [
+        -2045.64,
+        5250.19,
+        450.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        142128.67,
+        72128.04,
+        5300.0
+      ],
+      "local": [
+        -1721.33,
+        5428.04,
+        400.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        141749.88,
+        71541.32,
+        5399.25
+      ],
+      "local": [
+        -2100.12,
+        4841.32,
+        499.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        143589.69,
+        70400.66,
+        6108.8
+      ],
+      "local": [
+        -260.31,
+        3700.66,
+        1208.8
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        143450.94,
+        70169.94,
+        5989.86
+      ],
+      "local": [
+        -399.06,
+        3469.94,
+        1089.86
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140937.95,
+        71612.3,
+        6050.0
+      ],
+      "local": [
+        -2912.05,
+        4912.3,
+        1150.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139579.7,
+        70460.16,
+        5704.98
+      ],
+      "local": [
+        -4270.3,
+        3760.16,
+        804.98
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139850.0,
+        70500.0,
+        5750.0
+      ],
+      "local": [
+        -4000.0,
+        3800.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139850.0,
+        70350.0,
+        5650.0
+      ],
+      "local": [
+        -4000.0,
+        3650.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139913.94,
+        70480.47,
+        5661.5
+      ],
+      "local": [
+        -3936.06,
+        3780.47,
+        761.5
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140150.0,
+        70300.0,
+        5700.0
+      ],
+      "local": [
+        -3700.0,
+        3600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140350.0,
+        70400.0,
+        5850.0
+      ],
+      "local": [
+        -3500.0,
+        3700.0,
+        950.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140150.0,
+        70400.0,
+        5750.0
+      ],
+      "local": [
+        -3700.0,
+        3700.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70200.0,
+        5650.0
+      ],
+      "local": [
+        -3350.0,
+        3500.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70350.0,
+        5600.0
+      ],
+      "local": [
+        -3350.0,
+        3650.0,
+        700.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140350.0,
+        70350.0,
+        5750.0
+      ],
+      "local": [
+        -3500.0,
+        3650.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140500.0,
+        70300.0,
+        5700.0
+      ],
+      "local": [
+        -3350.0,
+        3600.0,
+        800.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        140550.0,
+        70250.0,
+        5750.0
+      ],
+      "local": [
+        -3300.0,
+        3550.0,
+        850.0
+      ]
+    },
+    {
+      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139975.62,
+        70425.98,
+        5607.6
+      ],
+      "local": [
+        -3874.38,
+        3725.98,
+        707.6
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139900.0,
+        70300.0,
+        5650.0
+      ],
+      "local": [
+        -3950.0,
+        3600.0,
+        750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        25316.15,
+        77786.53,
+        5106.73
+      ],
+      "local": [
+        -3333.85,
+        -1713.47,
+        206.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x8x8_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26734.17,
+        87551.56,
+        5384.83
+      ],
+      "local": [
+        -1915.83,
+        1651.56,
+        484.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26340.47,
+        87693.34,
+        5622.4
+      ],
+      "local": [
+        -2309.53,
+        1793.34,
+        722.4
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26249.82,
+        88011.13,
+        5488.88
+      ],
+      "local": [
+        -2400.18,
+        2111.13,
+        588.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26344.41,
+        88111.03,
+        5511.0
+      ],
+      "local": [
+        -2305.59,
+        2211.03,
+        611.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26413.04,
+        87941.8,
+        5557.97
+      ],
+      "local": [
+        -2236.96,
+        2041.8,
+        657.97
+      ]
+    }
+  ],
+  "summary": {
+    "global_type_rule_count": 77,
+    "bubble_type_rule_count": 0,
+    "position_entry_count": 140,
+    "total_entries": 217
+  },
+  "resolved_unknown_count": 50
+}

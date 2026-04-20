@@ -1,0 +1,296 @@
+{
+  "bubble_name": "Outdoor_DimrillDale",
+  "bd_stem": "BD_BB_Outdoor_DimrillDale",
+  "uasset_files": [
+    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Outdoor_DimrillDale.uasset",
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Outdoor_DimrillDale.uasset"
+  ],
+  "global_type_rules": [
+    {
+      "typeRule": "Deep_MetalCage_Large-MI_Suburbs_Trim_Sheet_B-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_C-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope2-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope4-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_C-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_D-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_F-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_A-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_C-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_D-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_E-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_2m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_B-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_4m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_A-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_D-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Shanty_Tent_Medium_A_Custom_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    }
+  ],
+  "bubble_type_rules": [],
+  "position_entries": [
+    {
+      "mesh": "PWM_Quarry_Floor_8x8x8_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26734.17,
+        87551.56,
+        5384.83
+      ],
+      "local": [
+        -1915.83,
+        1651.56,
+        484.83
+      ]
+    },
+    {
+      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        139975.62,
+        70425.98,
+        5607.6
+      ],
+      "local": [
+        -3874.38,
+        3725.98,
+        707.6
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_8x8x8_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "unknown",
+      "bubbleName": "",
+      "world": [
+        26734.17,
+        87551.56,
+        5384.83
+      ],
+      "local": [
+        -1915.83,
+        1651.56,
+        484.83
+      ]
+    }
+  ],
+  "summary": {
+    "global_type_rule_count": 77,
+    "bubble_type_rule_count": 0,
+    "position_entry_count": 3,
+    "total_entries": 80
+  },
+  "resolved_unknown_count": 3
+}

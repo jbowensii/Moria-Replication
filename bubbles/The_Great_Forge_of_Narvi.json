@@ -1,0 +1,1509 @@
+{
+  "bubble_name": "The_Great_Forge_of_Narvi",
+  "bd_stem": "BD_BB_The_Great_Forge_of_Narvi",
+  "uasset_files": [
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_The_Great_Forge_of_Narvi.uasset"
+  ],
+  "global_type_rules": [
+    {
+      "typeRule": "Deep_MetalCage_Large-MI_Suburbs_Trim_Sheet_B-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_C-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_A-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenPlank_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope2-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope4-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_D-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_F-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_G-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_H-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-City_Dirt_Inst_Darker-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_I-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_A-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Mining_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_C-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_D-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "OrcBanner_F-MI_OrcBanners-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_A-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_C-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_D-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_E-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_2m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_B-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_4m_C-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_A-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_Deco_D-MI_Orc_Lighting-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Shanty_Tent_Medium_A_Custom_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_BB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    }
+  ],
+  "bubble_type_rules": [],
+  "position_entries": [
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24230.0,
+        99745.0,
+        5910.0
+      ],
+      "local": [
+        8380.0,
+        1045.0,
+        4210.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24140.0,
+        99870.0,
+        5875.0
+      ],
+      "local": [
+        8290.0,
+        1170.0,
+        4175.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24285.0,
+        99880.0,
+        5855.0
+      ],
+      "local": [
+        8435.0,
+        1180.0,
+        4155.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24090.0,
+        99990.0,
+        5885.0
+      ],
+      "local": [
+        8240.0,
+        1290.0,
+        4185.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23725.0,
+        100080.0,
+        5935.0
+      ],
+      "local": [
+        7875.0,
+        1380.0,
+        4235.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23632.32,
+        100217.22,
+        5971.87
+      ],
+      "local": [
+        7782.32,
+        1517.22,
+        4271.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23305.0,
+        100430.0,
+        6015.0
+      ],
+      "local": [
+        7455.0,
+        1730.0,
+        4315.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23200.0,
+        100210.0,
+        6050.0
+      ],
+      "local": [
+        7350.0,
+        1510.0,
+        4350.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23127.76,
+        100468.49,
+        6045.0
+      ],
+      "local": [
+        7277.76,
+        1768.49,
+        4345.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23050.0,
+        100050.0,
+        5950.0
+      ],
+      "local": [
+        7200.0,
+        1350.0,
+        4250.0
+      ]
+    },
+    {
+      "mesh": "Dirt_Mound_C-MI_DirtMound_Elven_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23216.55,
+        100226.02,
+        5995.14
+      ],
+      "local": [
+        7366.55,
+        1526.02,
+        4295.14
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        22600.0,
+        100200.0,
+        6100.0
+      ],
+      "local": [
+        6750.0,
+        1500.0,
+        4400.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18000.0,
+        104225.0,
+        6130.0
+      ],
+      "local": [
+        2150.0,
+        5525.0,
+        4430.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18154.77,
+        104136.05,
+        6145.0
+      ],
+      "local": [
+        2304.77,
+        5436.05,
+        4445.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        17450.0,
+        104665.0,
+        6105.0
+      ],
+      "local": [
+        1600.0,
+        5965.0,
+        4405.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        17403.61,
+        104915.43,
+        6135.0
+      ],
+      "local": [
+        1553.61,
+        6215.43,
+        4435.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        17325.0,
+        104900.0,
+        6105.0
+      ],
+      "local": [
+        1475.0,
+        6200.0,
+        4405.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        17804.65,
+        104610.55,
+        6099.0
+      ],
+      "local": [
+        1954.65,
+        5910.55,
+        4399.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        17980.0,
+        103970.0,
+        6175.0
+      ],
+      "local": [
+        2130.0,
+        5270.0,
+        4475.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18061.11,
+        103772.37,
+        6135.0
+      ],
+      "local": [
+        2211.11,
+        5072.37,
+        4435.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18770.0,
+        102530.0,
+        6145.0
+      ],
+      "local": [
+        2920.0,
+        3830.0,
+        4445.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18865.0,
+        102735.0,
+        6135.0
+      ],
+      "local": [
+        3015.0,
+        4035.0,
+        4435.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18965.0,
+        102455.0,
+        6135.0
+      ],
+      "local": [
+        3115.0,
+        3755.0,
+        4435.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18625.0,
+        102640.0,
+        6295.0
+      ],
+      "local": [
+        2775.0,
+        3940.0,
+        4595.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18575.0,
+        102605.0,
+        6145.0
+      ],
+      "local": [
+        2725.0,
+        3905.0,
+        4445.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18615.61,
+        102814.39,
+        6150.0
+      ],
+      "local": [
+        2765.61,
+        4114.39,
+        4450.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18680.0,
+        102515.0,
+        6280.0
+      ],
+      "local": [
+        2830.0,
+        3815.0,
+        4580.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18611.21,
+        102456.84,
+        6350.0
+      ],
+      "local": [
+        2761.21,
+        3756.84,
+        4650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18360.0,
+        102525.0,
+        6405.0
+      ],
+      "local": [
+        2510.0,
+        3825.0,
+        4705.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        20367.5,
+        103003.45,
+        6135.0
+      ],
+      "local": [
+        4517.5,
+        4303.45,
+        4435.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        20303.39,
+        102885.07,
+        6120.0
+      ],
+      "local": [
+        4453.39,
+        4185.07,
+        4420.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        20240.0,
+        103055.0,
+        6115.0
+      ],
+      "local": [
+        4390.0,
+        4355.0,
+        4415.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        21759.88,
+        103000.0,
+        5912.87
+      ],
+      "local": [
+        5909.88,
+        4300.0,
+        4212.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        20821.55,
+        102801.88,
+        6125.0
+      ],
+      "local": [
+        4971.55,
+        4101.88,
+        4425.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        20685.85,
+        102848.53,
+        6140.0
+      ],
+      "local": [
+        4835.85,
+        4148.53,
+        4440.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        21435.0,
+        102705.0,
+        6180.0
+      ],
+      "local": [
+        5585.0,
+        4005.0,
+        4480.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        21957.0,
+        101176.0,
+        6133.0
+      ],
+      "local": [
+        6107.0,
+        2476.0,
+        4433.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        21830.0,
+        101124.0,
+        6130.0
+      ],
+      "local": [
+        5980.0,
+        2424.0,
+        4430.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18499.41,
+        106948.35,
+        5753.04
+      ],
+      "local": [
+        2649.41,
+        8248.35,
+        4053.04
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_E-MI_Defiled_Statues_A-MI_Defiled_Statues_B_Damaged-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        20410.0,
+        107661.22,
+        4366.88
+      ],
+      "local": [
+        4560.0,
+        8961.22,
+        2666.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18643.82,
+        107974.47,
+        4900.84
+      ],
+      "local": [
+        2793.82,
+        9274.47,
+        3200.84
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18493.3,
+        108105.78,
+        4901.54
+      ],
+      "local": [
+        2643.3,
+        9405.78,
+        3201.54
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18736.97,
+        108069.86,
+        4895.08
+      ],
+      "local": [
+        2886.97,
+        9369.86,
+        3195.08
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18476.48,
+        108003.12,
+        5089.87
+      ],
+      "local": [
+        2626.48,
+        9303.12,
+        3389.87
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18726.16,
+        108254.41,
+        4855.51
+      ],
+      "local": [
+        2876.16,
+        9554.41,
+        3155.51
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18597.04,
+        108192.02,
+        4886.12
+      ],
+      "local": [
+        2747.04,
+        9492.02,
+        3186.12
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18145.77,
+        108326.36,
+        5017.0
+      ],
+      "local": [
+        2295.77,
+        9626.36,
+        3317.0
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_C-MI_Defiled_Statues_A-MI_Defiled_Statues_B_Damaged-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        19035.36,
+        109485.36,
+        6150.0
+      ],
+      "local": [
+        3185.36,
+        10785.36,
+        4450.0
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_B-MI_Defiled_Statues_A-MI_Defiled_Statues_B_Damaged-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        19035.36,
+        109485.36,
+        6150.0
+      ],
+      "local": [
+        3185.36,
+        10785.36,
+        4450.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18383.12,
+        110594.55,
+        5985.0
+      ],
+      "local": [
+        2533.12,
+        11894.55,
+        4285.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18638.81,
+        110627.22,
+        6035.0
+      ],
+      "local": [
+        2788.81,
+        11927.22,
+        4335.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18520.0,
+        110810.0,
+        5955.0
+      ],
+      "local": [
+        2670.0,
+        12110.0,
+        4255.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        19402.85,
+        110350.17,
+        5938.42
+      ],
+      "local": [
+        3552.85,
+        11650.17,
+        4238.42
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        18849.74,
+        110264.29,
+        5866.14
+      ],
+      "local": [
+        2999.74,
+        11564.29,
+        4166.14
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        19746.96,
+        112066.52,
+        5985.0
+      ],
+      "local": [
+        3896.96,
+        13366.52,
+        4285.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        19609.0,
+        112143.96,
+        5970.0
+      ],
+      "local": [
+        3759.0,
+        13443.96,
+        4270.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24760.0,
+        111155.0,
+        4975.0
+      ],
+      "local": [
+        8910.0,
+        12455.0,
+        3275.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24834.43,
+        111008.3,
+        4975.0
+      ],
+      "local": [
+        8984.43,
+        12308.3,
+        3275.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24588.34,
+        111604.63,
+        4906.02
+      ],
+      "local": [
+        8738.34,
+        12904.63,
+        3206.02
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24607.07,
+        110350.0,
+        4924.29
+      ],
+      "local": [
+        8757.07,
+        11650.0,
+        3224.29
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24496.57,
+        110390.0,
+        4773.43
+      ],
+      "local": [
+        8646.57,
+        11690.0,
+        3073.43
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24627.29,
+        110263.62,
+        4917.48
+      ],
+      "local": [
+        8777.29,
+        11563.62,
+        3217.48
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24553.14,
+        110235.0,
+        4763.82
+      ],
+      "local": [
+        8703.14,
+        11535.0,
+        3063.82
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24348.95,
+        110562.94,
+        4885.58
+      ],
+      "local": [
+        8498.95,
+        11862.94,
+        3185.58
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24289.89,
+        110807.41,
+        4475.81
+      ],
+      "local": [
+        8439.89,
+        12107.41,
+        2775.81
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24705.0,
+        110235.0,
+        4885.0
+      ],
+      "local": [
+        8855.0,
+        11535.0,
+        3185.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30045.0,
+        104995.0,
+        5415.0
+      ],
+      "local": [
+        14195.0,
+        6295.0,
+        3715.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30185.18,
+        104936.17,
+        5375.0
+      ],
+      "local": [
+        14335.18,
+        6236.17,
+        3675.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30459.6,
+        105366.12,
+        5495.34
+      ],
+      "local": [
+        14609.6,
+        6666.12,
+        3795.34
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        29928.98,
+        104933.24,
+        5318.47
+      ],
+      "local": [
+        14078.98,
+        6233.24,
+        3618.47
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30215.0,
+        105645.0,
+        5280.0
+      ],
+      "local": [
+        14365.0,
+        6945.0,
+        3580.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30105.0,
+        105582.18,
+        5250.36
+      ],
+      "local": [
+        14255.0,
+        6882.18,
+        3550.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30168.3,
+        105483.86,
+        5265.0
+      ],
+      "local": [
+        14318.3,
+        6783.86,
+        3565.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        29630.0,
+        104840.0,
+        5470.0
+      ],
+      "local": [
+        13780.0,
+        6140.0,
+        3770.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30225.21,
+        110363.19,
+        5507.0
+      ],
+      "local": [
+        14375.21,
+        11663.19,
+        3807.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        30060.0,
+        110350.0,
+        5492.0
+      ],
+      "local": [
+        14210.0,
+        11650.0,
+        3792.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        26554.0,
+        113751.64,
+        5367.74
+      ],
+      "local": [
+        10704.0,
+        15051.64,
+        3667.74
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        26699.2,
+        114012.78,
+        5385.95
+      ],
+      "local": [
+        10849.2,
+        15312.78,
+        3685.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        22925.7,
+        117303.47,
+        6433.92
+      ],
+      "local": [
+        7075.7,
+        18603.47,
+        4733.92
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        22834.99,
+        117120.09,
+        6189.51
+      ],
+      "local": [
+        6984.99,
+        18420.09,
+        4489.51
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23059.19,
+        117327.95,
+        7213.81
+      ],
+      "local": [
+        7209.19,
+        18627.95,
+        5513.81
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        22803.67,
+        117354.17,
+        7693.13
+      ],
+      "local": [
+        6953.67,
+        18654.17,
+        5993.13
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        22645.0,
+        117220.0,
+        7235.0
+      ],
+      "local": [
+        6795.0,
+        18520.0,
+        5535.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        22550.0,
+        117250.0,
+        7250.0
+      ],
+      "local": [
+        6700.0,
+        18550.0,
+        5550.0
+      ]
+    }
+  ],
+  "summary": {
+    "global_type_rule_count": 77,
+    "bubble_type_rule_count": 0,
+    "position_entry_count": 84,
+    "total_entries": 161
+  }
+}
