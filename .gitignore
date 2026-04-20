@@ -19,6 +19,7 @@ project/Plugins/*/Intermediate/
 
 # Generated output (modified bubble data, mod paks)
 Modified_Bubbles/
+cleansweep/
 
 # Python cache
 scripts/__pycache__/

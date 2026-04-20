@@ -202,9 +202,6 @@
       "typeRule": "PWM_City_RockDebris_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100"
-    },
-    {
       "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100"
     },
     {
@@ -298,9 +295,6 @@
       "typeRule": "D_Weapon_Rohan-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
-    },
-    {
       "typeRule": "DetailRope5-RopeDetails_M-BlockAll-dcl-L100"
     },
     {
@@ -332,12 +326,6 @@
     },
     {
       "typeRule": "PWM_City_RockDebris_A_Tagged-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
-    },
-    {
-      "typeRule": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100"
-    },
-    {
-      "typeRule": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100"
     },
     {
       "typeRule": "Rubble_Masonry_single_rock-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
@@ -449,9 +437,34 @@
     },
     {
       "typeRule": "Dwelling_Scatter_Clothing_Shoes_C-MI_Dwelling_Scatter_Clothing_Shoes-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_A-MI_Suburbs_Floor_Stone_IND_MAT_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_B-MI_Suburbs_Floor_Stone_IND_MAT_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_C-MI_Suburbs_Floor_Stone_IND_MAT_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_D-MI_Suburbs_Floor_Stone_IND_MAT_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_E-MI_Suburbs_Floor_Stone_IND_MAT_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_Stone_IND_F-MI_Suburbs_Floor_Stone_IND_MAT_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "BP_DM_Mine_tailings_Debris-Breakable-BlockAll-dcl-L100"
     }
   ],
-  "bubble_type_rules": [],
+  "bubble_type_rules": [
+    {
+      "typeRule": "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
+    }
+  ],
   "position_entries": [
     {
       "mesh": "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100",
@@ -1216,6 +1229,15 @@
         -2236.96,
         2041.8,
         657.97
+      ]
+    },
+    {
+      "mesh": "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100",
+      "bubble": "Sandbox_FarmCavern",
+      "local": [
+        4424.97,
+        5157.86,
+        750.0
       ]
     }
   ],
