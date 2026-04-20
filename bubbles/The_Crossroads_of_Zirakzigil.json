@@ -299,6 +299,60 @@
     },
     {
       "typeRule": "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "DetailRope5-RopeDetails_M-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_M-City_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_L-MI_Orc_Fort_Metal_A-MI_Orc_Fort_Metal_E-Orc_Fort_A-Orc_Fort_B_Darker-Orc_Fort_C-BlockAllDynamic-3F-dcl-L100"
+    },
+    {
+      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_R-Orc_Fort_C-Orc_Fort_B_Darker-Orc_Fort_A-MI_Orc_Fort_Metal_E-MI_Orc_Fort_Metal_A-BlockAllDynamic-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Boards_2x3m-MI_Orc_Scaffolding_Platforms_Inst-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Gate_Medium_L-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Post_A_Medium-MI_Orc_Palissade_Mat_Inst-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Wall_3X3M_A-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Wall_3X3M_B2-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Platform_3x3M_A-MI_Orc_Scaffolding_Platforms-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_City_RockDebris_A_Tagged-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_AB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_CA-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_CB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Banner_DB-MI_Cloth_Banners_A_Red-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -1224,6 +1278,16 @@
       "rules": [
         "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
         "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Commented/Disabled Rules",
+      "status": "disabled",
+      "scope": "mixed",
+      "rules": [
+        "Aftermath | @Suburbs_Floor_3x3m_AA_Broken-BlockAll-dcl-L100",
+        "Aftermath | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100",
+        "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
       ]
     }
   ]
