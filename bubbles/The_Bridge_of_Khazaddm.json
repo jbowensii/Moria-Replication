@@ -146,7 +146,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166645.0,
         95495.0,
@@ -161,7 +161,7 @@
     {
       "mesh": "PWM_Quarry_5x4x10-ProcMaterial_City_8m_Floor-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166610.0,
         95400.0,
@@ -176,7 +176,7 @@
     {
       "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166614.86,
         95495.55,
@@ -191,7 +191,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166610.0,
         95360.0,
@@ -206,7 +206,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166690.0,
         95580.0,
@@ -221,7 +221,7 @@
     {
       "mesh": "PWM_Quarry_4x8x3-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166651.0,
         95611.0,
@@ -236,7 +236,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166633.0,
         95664.0,
@@ -251,7 +251,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166646.11,
         95659.95,
@@ -266,7 +266,7 @@
     {
       "mesh": "PWM_Quarry_4x5x10-ProcMaterial_City_8m_Floor-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166635.59,
         95660.59,
@@ -281,7 +281,7 @@
     {
       "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166590.0,
         95350.0,
@@ -296,7 +296,7 @@
     {
       "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166569.17,
         95452.37,
@@ -311,7 +311,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166591.89,
         95496.97,
@@ -326,7 +326,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166553.64,
         95573.41,
@@ -341,7 +341,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         166457.42,
         95337.77,
@@ -356,7 +356,7 @@
     {
       "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168490.72,
         95342.3,
@@ -371,7 +371,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168389.8,
         95553.0,
@@ -386,7 +386,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168423.27,
         95660.0,
@@ -401,7 +401,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168504.23,
         95520.72,
@@ -416,7 +416,7 @@
     {
       "mesh": "PWM_Quarry_4x8x3-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168531.61,
         95407.84,
@@ -431,7 +431,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168550.27,
         95362.31,
@@ -446,7 +446,7 @@
     {
       "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_City_RockDebris_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         168448.16,
         95661.59,
@@ -461,7 +461,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163720.0,
         89300.0,
@@ -476,7 +476,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163380.0,
         88745.0,
@@ -491,7 +491,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163405.34,
         88850.31,
@@ -506,7 +506,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163435.0,
         89040.0,
@@ -521,7 +521,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164940.0,
         89120.0,
@@ -536,7 +536,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164900.0,
         89300.0,
@@ -551,7 +551,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164955.0,
         88785.0,
@@ -566,7 +566,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164615.0,
         88575.0,
@@ -581,7 +581,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163621.0,
         91499.0,
@@ -596,7 +596,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163505.0,
         91590.0,
@@ -611,7 +611,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163676.0,
         91705.0,
@@ -626,7 +626,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163638.0,
         91817.0,
@@ -641,7 +641,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163445.0,
         91780.0,
@@ -656,7 +656,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163510.0,
         91770.0,
@@ -671,7 +671,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163425.0,
         91675.0,
@@ -686,7 +686,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163425.0,
         91430.0,
@@ -701,7 +701,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163505.0,
         91430.0,
@@ -716,7 +716,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163700.0,
         91361.0,
@@ -731,7 +731,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163875.0,
         92920.0,
@@ -746,7 +746,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163835.31,
         93072.86,
@@ -761,7 +761,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163895.0,
         92755.0,
@@ -776,7 +776,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163665.0,
         92680.0,
@@ -791,7 +791,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163495.34,
         92687.41,
@@ -806,7 +806,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163423.98,
         92736.22,
@@ -821,7 +821,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163722.42,
         92866.84,
@@ -836,7 +836,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163579.11,
         92856.31,
@@ -851,7 +851,7 @@
     {
       "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163850.0,
         93050.0,
@@ -866,7 +866,7 @@
     {
       "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163500.0,
         93050.0,
@@ -881,7 +881,7 @@
     {
       "mesh": "Ruins_Stairs_Small_B-MI_Suburbs_Stairs_02-MI_Suburbs_Stairs_01-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163800.0,
         92600.0,
@@ -896,7 +896,7 @@
     {
       "mesh": "Ruins_Stairs_Small_A-MI_Suburbs_Stairs_02-MI_Suburbs_Stairs_01-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163450.0,
         92600.0,
@@ -911,7 +911,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163645.0,
         91855.0,
@@ -926,7 +926,7 @@
     {
       "mesh": "Ruins_Stairs_Small_B-MI_Suburbs_Stairs_02-MI_Suburbs_Stairs_01-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163800.0,
         91850.0,
@@ -941,7 +941,7 @@
     {
       "mesh": "Ruins_Stairs_Small_A-MI_Suburbs_Stairs_02-MI_Suburbs_Stairs_01-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163450.0,
         91850.0,
@@ -956,7 +956,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163620.0,
         91850.0,
@@ -971,7 +971,7 @@
     {
       "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163500.0,
         92150.0,
@@ -986,7 +986,7 @@
     {
       "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_City_Ruin_Column_Mat_A-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163850.0,
         92150.0,
@@ -1001,7 +1001,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163934.94,
         87774.18,
@@ -1016,7 +1016,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163780.0,
         87805.0,
@@ -1031,7 +1031,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163660.0,
         87600.0,
@@ -1046,7 +1046,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163500.94,
         87658.8,
@@ -1061,7 +1061,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163635.0,
         87795.0,
@@ -1076,7 +1076,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163535.0,
         87800.0,
@@ -1091,7 +1091,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163760.0,
         87885.0,
@@ -1106,7 +1106,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163925.0,
         87745.0,
@@ -1121,7 +1121,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163875.0,
         87610.38,
@@ -1136,7 +1136,7 @@
     {
       "mesh": "Ruins_Stairs_Small_C-MI_Suburbs_Stairs_01-MI_Suburbs_Stairs_02-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163550.0,
         87550.0,
@@ -1151,7 +1151,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         163770.0,
         87500.0,
@@ -1166,7 +1166,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164980.0,
         85980.0,
@@ -1181,7 +1181,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165090.0,
         85899.64,
@@ -1196,7 +1196,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165108.22,
         86031.21,
@@ -1211,7 +1211,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165075.0,
         85890.0,
@@ -1226,7 +1226,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164920.0,
         85820.0,
@@ -1241,7 +1241,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164760.0,
         85935.0,
@@ -1256,7 +1256,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164694.33,
         85982.5,
@@ -1271,7 +1271,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164815.0,
         85870.0,
@@ -1286,7 +1286,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164765.0,
         85875.0,
@@ -1301,7 +1301,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164930.0,
         85870.0,
@@ -1316,7 +1316,7 @@
     {
       "mesh": "PWM_City_8x8x8_A-ProcMaterial_City_8m_Floor-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164715.0,
         85820.0,
@@ -1331,7 +1331,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165142.25,
         86396.3,
@@ -1346,7 +1346,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165124.64,
         86955.0,
@@ -1361,7 +1361,7 @@
     {
       "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164646.41,
         89329.26,
@@ -1376,7 +1376,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164840.8,
         89471.23,
@@ -1391,7 +1391,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         164802.31,
         89910.49,
@@ -1406,7 +1406,7 @@
     {
       "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165115.05,
         89679.64,
@@ -1421,7 +1421,7 @@
     {
       "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
       "bubble": "The_Bridge_of_Khazaddm",
-      "bubbleName": "The Bridge of Khazad-d\u00fbm",
+      "bubbleName": "The Bridge of Khazad-dûm",
       "world": [
         165035.48,
         89428.05,
@@ -1439,5 +1439,96 @@
     "bubble_type_rule_count": 0,
     "position_entry_count": 86,
     "total_entries": 131
-  }
+  },
+  "tracked_items": [
+    {
+      "category": "Rugs",
+      "status": "removing",
+      "scope": "global",
+      "rules": [
+        "Rug_End_3M-BlockAll-dcl-L100",
+        "Rug_Flat_3M-BlockAll-dcl-L100",
+        "Rug_Flat_6M-BlockAll-dcl-L100",
+        "Rug_Single-BlockAll-dcl-L100",
+        "Rug_Stair_1x3M-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Banners",
+      "status": "removing",
+      "scope": "global",
+      "rules": [
+        "SM_BannerPole-BlockAll-dcl-L100",
+        "SM_Banner_AA-BlockAll-dcl-L100",
+        "SM_Banner_BB-BlockAll-dcl-L100",
+        "OrcBanner-BlockAll-dcl-L100",
+        "Warren_lighting_Banner-BlockAll-dcl-L100",
+        "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100",
+        "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Tapestries",
+      "status": "removing",
+      "scope": "global",
+      "rules": [
+        "Dwelling_Tapestry-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Spider Webs",
+      "status": "removing",
+      "scope": "global",
+      "rules": [
+        "SpiderWeb-BlockAll-dcl-L100",
+        "SpiderWeb3_placeholder-BlockAll-dcl-L100",
+        "SpiderWeb_Mines-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Decorative Weapons",
+      "status": "removing",
+      "scope": "global",
+      "rules": [
+        "D_Weapon_IronHills-BlockAll-dcl-L100",
+        "D_Weapon_Khazad-BlockAll-dcl-L100",
+        "D_Weapon_Steel-BlockAll-dcl-L100",
+        "D_Weapon_Rohan-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Scaffolding (Open)",
+      "status": "removing",
+      "scope": "global",
+      "rules": [
+        "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Garden Ivy",
+      "status": "tracked",
+      "scope": "global",
+      "rules": [
+        "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Weapon/Armor Racks",
+      "status": "tracked",
+      "scope": "global",
+      "rules": [
+        "WeaponRack-BlockAll-dcl-L100",
+        "BP_ItemRack_Weapons-BlockAll-dcl-L100"
+      ]
+    },
+    {
+      "category": "Structural Walls (DO NOT REMOVE)",
+      "status": "tracked",
+      "scope": "global",
+      "rules": [
+        "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
+        "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
+      ]
+    }
+  ]
 }
