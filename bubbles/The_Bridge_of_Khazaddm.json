@@ -148,6 +148,111 @@
     },
     {
       "typeRule": "Suburbs_Column_Large_A_A_Base_Ruined-MI_Suburbs_Column_Large_A_Base_Ruined-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Sururbs_Dirt_Inst_StoneDark-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_01-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_02-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_03-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_04-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_05-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_06-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_Debris_Floor_07-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A-ProcMaterial_Quarry_Atlas_5-NoCollision-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A-ProcMaterial_Quarry_RockDebris_A-NoCollision-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A-ProcMaterial_City_RockDebris_A-NoCollision-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas_5-NoCollision-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Tagged-ProcMaterial_Quarry_Atlas_5-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_A_Optimized-ProcMaterial_Quarry_RockDebris_A-NoCollision-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "PWM_Quarry_RockDebris_C-ProcMaterial_Quarry_RockDebris_A-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_01-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_03-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_05-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_08-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_09-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_10-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_11-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_17-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_18-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_20-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_22-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_single_rock_24-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dwelling_Scatter_Clothing_Shoes_A-MI_Dwelling_Scatter_Clothing_Shoes-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dwelling_Scatter_Clothing_Shoes_C-MI_Dwelling_Scatter_Clothing_Shoes-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
