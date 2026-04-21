@@ -991,6 +991,36 @@
         2036.3,
         937.92
       ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71958.8,
+        58939.05,
+        -515.14
+      ],
+      "local": [
+        4908.8,
+        5039.05,
+        984.86
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71853.8,
+        58964.05,
+        -335.14
+      ],
+      "local": [
+        4803.8,
+        5064.05,
+        1164.86
+      ]
     }
   ],
   "tracked_items": []

@@ -7426,6 +7426,36 @@
         1132.18,
         5303.33
       ]
+    },
+    {
+      "mesh": "Deep_WoodenBeam_B-MI_Deep_WoodTrim-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        64788.23,
+        55770.73,
+        327.7
+      ],
+      "local": [
+        4138.23,
+        8270.73,
+        5027.7
+      ]
+    },
+    {
+      "mesh": "Deep_MetalBrace_A-MI_Deep_MetalBrace-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        64826.14,
+        55678.18,
+        361.02
+      ],
+      "local": [
+        4176.14,
+        8178.18,
+        5061.02
+      ]
     }
   ],
   "tracked_items": []
