@@ -1,6 +1,6 @@
 {
   "bubble_name": "The_Desolation",
-  "bd_stem": "BD_BB_DwarfHall_Small_Ch5_Desolation",
+  "bd_stem": "BD_BB_Chapter4_BalrogsWake",
   "uasset_files": [
     "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_DwarfHall_Small_Ch5_Desolation.uasset",
     "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_DwarfHall_Small_Ch5_Desolation.uasset"
@@ -467,6 +467,36 @@
     },
     {
       "typeRule": "Orc_Fort_9X9_Mound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "City_Floor_3x3m_Detail_A-MI_City_Floor-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "City_Floor_3x3m_Detail_B-MI_City_Floor-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_J-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Suburbs_Dirt_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -6367,21 +6397,6 @@
       ]
     },
     {
-      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
-      "bubble": "unknown",
-      "bubbleName": "",
-      "world": [
-        139975.62,
-        70425.98,
-        5607.6
-      ],
-      "local": [
-        -3874.38,
-        3725.98,
-        707.6
-      ]
-    },
-    {
       "mesh": "Ruins_Stairs_Small_D-MI_Suburbs_Stairs_01-MI_Suburbs_Stairs_02-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
       "bubble": "The_Desolation",
       "bubbleName": "The Desolation",
@@ -6395,13 +6410,1858 @@
         4150.0,
         6300.0
       ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103200.0,
+        95925.0,
+        1640.0
+      ],
+      "local": [
+        4150.0,
+        10025.0,
+        6340.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103205.0,
+        95980.0,
+        1725.0
+      ],
+      "local": [
+        4155.0,
+        10080.0,
+        6425.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103205.0,
+        96020.0,
+        1830.0
+      ],
+      "local": [
+        4155.0,
+        10120.0,
+        6530.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103085.0,
+        95990.0,
+        1730.0
+      ],
+      "local": [
+        4035.0,
+        10090.0,
+        6430.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103400.0,
+        96075.0,
+        1675.0
+      ],
+      "local": [
+        4350.0,
+        10175.0,
+        6375.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103340.0,
+        95925.0,
+        1655.0
+      ],
+      "local": [
+        4290.0,
+        10025.0,
+        6355.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103750.0,
+        96290.0,
+        1635.0
+      ],
+      "local": [
+        4700.0,
+        10390.0,
+        6335.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103690.0,
+        96160.0,
+        1615.0
+      ],
+      "local": [
+        4640.0,
+        10260.0,
+        6315.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103960.0,
+        96145.0,
+        1670.0
+      ],
+      "local": [
+        4910.0,
+        10245.0,
+        6370.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_8x8x8_A-ProcMaterial_City_8m_Floor-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104125.0,
+        96425.0,
+        1810.0
+      ],
+      "local": [
+        5075.0,
+        10525.0,
+        6510.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104125.0,
+        96430.0,
+        1825.0
+      ],
+      "local": [
+        5075.0,
+        10530.0,
+        6525.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103952.0,
+        99074.0,
+        1679.0
+      ],
+      "local": [
+        4902.0,
+        13174.0,
+        6379.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103659.0,
+        98911.0,
+        1672.0
+      ],
+      "local": [
+        4609.0,
+        13011.0,
+        6372.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103295.0,
+        98792.0,
+        1613.0
+      ],
+      "local": [
+        4245.0,
+        12892.0,
+        6313.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103477.0,
+        99026.0,
+        1662.0
+      ],
+      "local": [
+        4427.0,
+        13126.0,
+        6362.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103140.0,
+        98552.0,
+        1655.0
+      ],
+      "local": [
+        4090.0,
+        12652.0,
+        6355.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103102.0,
+        98480.0,
+        1821.0
+      ],
+      "local": [
+        4052.0,
+        12580.0,
+        6521.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_8x8x8_A-ProcMaterial_City_8m_Floor-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103018.0,
+        98454.0,
+        1830.0
+      ],
+      "local": [
+        3968.0,
+        12554.0,
+        6530.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111290.0,
+        98335.0,
+        -435.0
+      ],
+      "local": [
+        12240.0,
+        12435.0,
+        4265.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111089.13,
+        98299.54,
+        -463.35
+      ],
+      "local": [
+        12039.13,
+        12399.54,
+        4236.65
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111125.8,
+        98480.16,
+        -452.14
+      ],
+      "local": [
+        12075.8,
+        12580.16,
+        4247.86
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x8x3-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111218.94,
+        98389.91,
+        -406.96
+      ],
+      "local": [
+        12168.94,
+        12489.91,
+        4293.04
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111225.42,
+        98490.03,
+        -507.37
+      ],
+      "local": [
+        12175.42,
+        12590.03,
+        4192.63
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111115.0,
+        98420.0,
+        -390.0
+      ],
+      "local": [
+        12065.0,
+        12520.0,
+        4310.0
+      ]
+    },
+    {
+      "mesh": "Ruins_Stairs_Medium_C-MI_Suburbs_Stairs_02-MI_Suburbs_Stairs_01-ProcMaterial_Quarry_Floor_6x2x1-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111050.0,
+        98600.0,
+        -500.0
+      ],
+      "local": [
+        12000.0,
+        12700.0,
+        4200.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111158.46,
+        98710.39,
+        -488.41
+      ],
+      "local": [
+        12108.46,
+        12810.39,
+        4211.59
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110988.03,
+        98665.41,
+        -360.62
+      ],
+      "local": [
+        11938.03,
+        12765.41,
+        4339.38
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110835.58,
+        98374.92,
+        -248.06
+      ],
+      "local": [
+        11785.58,
+        12474.92,
+        4451.94
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110620.0,
+        98245.0,
+        -260.0
+      ],
+      "local": [
+        11570.0,
+        12345.0,
+        4440.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110900.36,
+        98252.48,
+        -226.45
+      ],
+      "local": [
+        11850.36,
+        12352.48,
+        4473.55
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110580.0,
+        98480.0,
+        -245.0
+      ],
+      "local": [
+        11530.0,
+        12580.0,
+        4455.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110715.0,
+        98775.0,
+        -225.0
+      ],
+      "local": [
+        11665.0,
+        12875.0,
+        4475.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110885.0,
+        98730.0,
+        -230.0
+      ],
+      "local": [
+        11835.0,
+        12830.0,
+        4470.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110670.0,
+        98780.0,
+        -85.0
+      ],
+      "local": [
+        11620.0,
+        12880.0,
+        4615.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110575.0,
+        98745.0,
+        -40.0
+      ],
+      "local": [
+        11525.0,
+        12845.0,
+        4660.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110660.0,
+        98675.0,
+        -150.0
+      ],
+      "local": [
+        11610.0,
+        12775.0,
+        4550.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110625.0,
+        98200.0,
+        -170.0
+      ],
+      "local": [
+        11575.0,
+        12300.0,
+        4530.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110545.0,
+        98200.0,
+        -90.0
+      ],
+      "local": [
+        11495.0,
+        12300.0,
+        4610.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110425.0,
+        98540.0,
+        -55.0
+      ],
+      "local": [
+        11375.0,
+        12640.0,
+        4645.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108265.8,
+        100393.97,
+        950.0
+      ],
+      "local": [
+        9215.8,
+        14493.97,
+        5650.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108306.78,
+        99400.8,
+        685.0
+      ],
+      "local": [
+        9256.78,
+        13500.8,
+        5385.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107878.14,
+        99261.28,
+        704.66
+      ],
+      "local": [
+        8828.14,
+        13361.28,
+        5404.66
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107830.0,
+        99420.0,
+        790.0
+      ],
+      "local": [
+        8780.0,
+        13520.0,
+        5490.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108140.0,
+        99400.0,
+        740.0
+      ],
+      "local": [
+        9090.0,
+        13500.0,
+        5440.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108130.0,
+        99422.82,
+        824.94
+      ],
+      "local": [
+        9080.0,
+        13522.82,
+        5524.94
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108300.0,
+        99435.0,
+        770.0
+      ],
+      "local": [
+        9250.0,
+        13535.0,
+        5470.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107347.58,
+        101586.19,
+        2424.68
+      ],
+      "local": [
+        8297.58,
+        15686.19,
+        7124.68
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108430.81,
+        102539.99,
+        2349.77
+      ],
+      "local": [
+        9380.81,
+        16639.99,
+        7049.77
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108215.36,
+        102608.27,
+        1945.0
+      ],
+      "local": [
+        9165.36,
+        16708.27,
+        6645.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108413.52,
+        101793.76,
+        2128.96
+      ],
+      "local": [
+        9363.52,
+        15893.76,
+        6828.96
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_6x2x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        109723.62,
+        103360.07,
+        2999.9
+      ],
+      "local": [
+        10673.62,
+        17460.07,
+        7699.9
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        108080.11,
+        103907.75,
+        5784.12
+      ],
+      "local": [
+        9030.11,
+        18007.75,
+        10484.12
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107693.53,
+        103750.41,
+        5874.06
+      ],
+      "local": [
+        8643.53,
+        17850.41,
+        10574.06
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107508.05,
+        101460.43,
+        4110.0
+      ],
+      "local": [
+        8458.05,
+        15560.43,
+        8810.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107828.83,
+        101928.73,
+        4842.24
+      ],
+      "local": [
+        8778.83,
+        16028.73,
+        9542.24
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        101882.73,
+        95877.38,
+        -31.08
+      ],
+      "local": [
+        2832.73,
+        9977.38,
+        4668.92
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103782.78,
+        96452.22,
+        -630.0
+      ],
+      "local": [
+        4732.78,
+        10552.22,
+        4070.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_8x8x8_A-ProcMaterial_Quarry_Atlas-Custom-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103770.0,
+        96090.0,
+        -580.0
+      ],
+      "local": [
+        4720.0,
+        10190.0,
+        4120.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103618.0,
+        96155.0,
+        -530.0
+      ],
+      "local": [
+        4568.0,
+        10255.0,
+        4170.0
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104769.32,
+        94051.96,
+        185.7
+      ],
+      "local": [
+        5719.32,
+        8151.96,
+        4885.7
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104730.0,
+        94105.0,
+        445.0
+      ],
+      "local": [
+        5680.0,
+        8205.0,
+        5145.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104735.0,
+        94276.95,
+        415.13
+      ],
+      "local": [
+        5685.0,
+        8376.95,
+        5115.13
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106084.18,
+        93827.02,
+        -87.95
+      ],
+      "local": [
+        7034.18,
+        7927.02,
+        4612.05
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        105378.78,
+        93775.8,
+        -34.75
+      ],
+      "local": [
+        6328.78,
+        7875.8,
+        4665.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106430.0,
+        94015.0,
+        350.0
+      ],
+      "local": [
+        7380.0,
+        8115.0,
+        5050.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106440.0,
+        94055.0,
+        205.0
+      ],
+      "local": [
+        7390.0,
+        8155.0,
+        4905.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106540.0,
+        93800.0,
+        375.0
+      ],
+      "local": [
+        7490.0,
+        7900.0,
+        5075.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106630.0,
+        93915.0,
+        210.0
+      ],
+      "local": [
+        7580.0,
+        8015.0,
+        4910.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Base-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106223.56,
+        91922.17,
+        655.39
+      ],
+      "local": [
+        7173.56,
+        6022.17,
+        5355.39
+      ]
+    },
+    {
+      "mesh": "Ruin_Column_Medium_A_2_Shaft-MI_Ruin_Column_Mat_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106059.87,
+        91619.45,
+        727.47
+      ],
+      "local": [
+        7009.87,
+        5719.45,
+        5427.47
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107365.25,
+        90272.72,
+        429.47
+      ],
+      "local": [
+        8315.25,
+        4372.72,
+        5129.47
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106815.0,
+        90635.0,
+        755.0
+      ],
+      "local": [
+        7765.0,
+        4735.0,
+        5455.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104630.0,
+        92855.0,
+        1050.0
+      ],
+      "local": [
+        5580.0,
+        6955.0,
+        5750.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104725.61,
+        92830.81,
+        958.36
+      ],
+      "local": [
+        5675.61,
+        6930.81,
+        5658.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104589.54,
+        92893.08,
+        1182.0
+      ],
+      "local": [
+        5539.54,
+        6993.08,
+        5882.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104546.59,
+        92755.08,
+        1195.42
+      ],
+      "local": [
+        5496.59,
+        6855.08,
+        5895.42
+      ]
+    },
+    {
+      "mesh": "Ruin_Wall_Trim_B_2m_R-MI_Ruin_Wall_Trim_B_Lighter_01-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104700.0,
+        93350.0,
+        1200.0
+      ],
+      "local": [
+        5650.0,
+        7450.0,
+        5900.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Wall_Trim_B_3m_L-MI_Ruin_Wall_Trim_B_Lighter_01-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104353.55,
+        92503.55,
+        1200.0
+      ],
+      "local": [
+        5303.55,
+        6603.55,
+        5900.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Wall_Trim_B_3m_R-MI_Ruin_Wall_Trim_B_Lighter_01-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104000.0,
+        91300.0,
+        1200.0
+      ],
+      "local": [
+        4950.0,
+        5400.0,
+        5900.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Wall_Trim_B_3m_L-MI_Ruin_Wall_Trim_B_Lighter_01-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        104000.0,
+        90250.0,
+        1200.0
+      ],
+      "local": [
+        4950.0,
+        4350.0,
+        5900.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103923.48,
+        91386.11,
+        1025.0
+      ],
+      "local": [
+        4873.48,
+        5486.11,
+        5725.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103964.02,
+        91271.47,
+        1065.0
+      ],
+      "local": [
+        4914.02,
+        5371.47,
+        5765.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103783.2,
+        90573.53,
+        717.42
+      ],
+      "local": [
+        4733.2,
+        4673.53,
+        5417.42
+      ]
+    },
+    {
+      "mesh": "SM_AR_Suburbs_WallThick_Ruined_100x300x300_CA-MI_Suburbs_Wall_Non_Dest-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103950.0,
+        90600.0,
+        650.0
+      ],
+      "local": [
+        4900.0,
+        4700.0,
+        5350.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103814.33,
+        90962.16,
+        1155.78
+      ],
+      "local": [
+        4764.33,
+        5062.16,
+        5855.78
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103910.12,
+        90637.61,
+        1150.0
+      ],
+      "local": [
+        4860.12,
+        4737.61,
+        5850.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103917.29,
+        90801.4,
+        1165.0
+      ],
+      "local": [
+        4867.29,
+        4901.4,
+        5865.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103878.37,
+        91134.48,
+        765.0
+      ],
+      "local": [
+        4828.37,
+        5234.48,
+        5465.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        100172.9,
+        91746.83,
+        2116.64
+      ],
+      "local": [
+        1122.9,
+        5846.83,
+        6816.64
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        99947.79,
+        91720.55,
+        1986.78
+      ],
+      "local": [
+        897.79,
+        5820.55,
+        6686.78
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        99913.61,
+        91776.1,
+        1875.29
+      ],
+      "local": [
+        863.61,
+        5876.1,
+        6575.29
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        100531.27,
+        91981.66,
+        1875.29
+      ],
+      "local": [
+        1481.27,
+        6081.66,
+        6575.29
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        100625.59,
+        92229.19,
+        1875.29
+      ],
+      "local": [
+        1575.59,
+        6329.19,
+        6575.29
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103997.5,
+        88512.09,
+        2343.64
+      ],
+      "local": [
+        4947.5,
+        2612.09,
+        7043.64
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        103723.86,
+        88512.09,
+        2343.64
+      ],
+      "local": [
+        4673.86,
+        2612.09,
+        7043.64
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106550.0,
+        87650.0,
+        1895.0
+      ],
+      "local": [
+        7500.0,
+        1750.0,
+        6595.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106505.0,
+        87675.0,
+        1875.0
+      ],
+      "local": [
+        7455.0,
+        1775.0,
+        6575.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106691.12,
+        87521.93,
+        1836.0
+      ],
+      "local": [
+        7641.12,
+        1621.93,
+        6536.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106721.0,
+        87453.0,
+        1903.0
+      ],
+      "local": [
+        7671.0,
+        1553.0,
+        6603.0
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111341.48,
+        90693.63,
+        1213.74
+      ],
+      "local": [
+        12291.48,
+        4793.63,
+        5913.74
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110996.7,
+        90860.62,
+        954.33
+      ],
+      "local": [
+        11946.7,
+        4960.62,
+        5654.33
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111217.57,
+        90651.49,
+        990.44
+      ],
+      "local": [
+        12167.57,
+        4751.49,
+        5690.44
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111135.6,
+        90477.1,
+        890.34
+      ],
+      "local": [
+        12085.6,
+        4577.1,
+        5590.34
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111023.6,
+        90516.38,
+        937.89
+      ],
+      "local": [
+        11973.6,
+        4616.38,
+        5637.89
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110997.04,
+        90476.82,
+        863.92
+      ],
+      "local": [
+        11947.04,
+        4576.82,
+        5563.92
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        111259.52,
+        90546.7,
+        1199.49
+      ],
+      "local": [
+        12209.52,
+        4646.7,
+        5899.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110906.57,
+        90365.02,
+        890.24
+      ],
+      "local": [
+        11856.57,
+        4465.02,
+        5590.24
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110769.99,
+        90349.25,
+        902.93
+      ],
+      "local": [
+        11719.99,
+        4449.25,
+        5602.93
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110608.85,
+        90391.85,
+        916.61
+      ],
+      "local": [
+        11558.85,
+        4491.85,
+        5616.61
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        110626.7,
+        90364.23,
+        904.3
+      ],
+      "local": [
+        11576.7,
+        4464.23,
+        5604.3
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        114869.53,
+        88341.08,
+        2392.38
+      ],
+      "local": [
+        15819.53,
+        2441.08,
+        7092.38
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        116180.57,
+        88697.77,
+        2285.0
+      ],
+      "local": [
+        17130.57,
+        2797.77,
+        6985.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        116055.75,
+        88675.09,
+        2655.0
+      ],
+      "local": [
+        17005.75,
+        2775.09,
+        7355.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        100840.0,
+        103900.0,
+        3230.0
+      ],
+      "local": [
+        1790.0,
+        18000.0,
+        7930.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        101060.0,
+        104315.0,
+        2915.0
+      ],
+      "local": [
+        2010.0,
+        18415.0,
+        7615.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106175.45,
+        103571.53,
+        2850.0
+      ],
+      "local": [
+        7125.45,
+        17671.53,
+        7550.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106795.0,
+        103890.0,
+        3420.0
+      ],
+      "local": [
+        7745.0,
+        17990.0,
+        8120.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106855.0,
+        104315.0,
+        3220.0
+      ],
+      "local": [
+        7805.0,
+        18415.0,
+        7920.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106785.0,
+        104375.0,
+        3525.0
+      ],
+      "local": [
+        7735.0,
+        18475.0,
+        8225.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106740.0,
+        104125.0,
+        3420.0
+      ],
+      "local": [
+        7690.0,
+        18225.0,
+        8120.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106920.0,
+        104125.0,
+        3330.0
+      ],
+      "local": [
+        7870.0,
+        18225.0,
+        8030.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        107040.0,
+        103900.0,
+        3670.0
+      ],
+      "local": [
+        7990.0,
+        18000.0,
+        8370.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "bubbleName": "The Desolation",
+      "world": [
+        106790.0,
+        103795.0,
+        3605.0
+      ],
+      "local": [
+        7740.0,
+        17895.0,
+        8305.0
+      ]
     }
   ],
   "summary": {
-    "global_type_rule_count": 77,
+    "global_type_rule_count": 164,
     "bubble_type_rule_count": 0,
-    "position_entry_count": 396,
-    "total_entries": 473
+    "position_entry_count": 517,
+    "total_entries": 681
   },
   "resolved_unknown_count": 1,
   "tracked_items": [

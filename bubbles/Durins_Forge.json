@@ -467,6 +467,36 @@
     },
     {
       "typeRule": "Orc_Fort_9X9_Mound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "City_Floor_3x3m_Detail_A-MI_City_Floor-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "City_Floor_3x3m_Detail_B-MI_City_Floor-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_J-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Suburbs_Dirt_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -500,13 +530,913 @@
         3725.98,
         707.6
       ]
+    },
+    {
+      "mesh": "Tomb_of_DurinI_Broken_C-MI_Tomb_of_DurinI-MI_ArchitectureBase_City_NonDestructible-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101450.0,
+        113350.0,
+        1300.0
+      ],
+      "local": [
+        2400.0,
+        8250.0,
+        2800.0
+      ]
+    },
+    {
+      "mesh": "Tomb_of_DurinI_Broken_B-MI_Tomb_of_DurinI-MI_ArchitectureBase_City_NonDestructible-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101050.0,
+        113400.0,
+        1300.0
+      ],
+      "local": [
+        2000.0,
+        8300.0,
+        2800.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99454.82,
+        111838.49,
+        1774.13
+      ],
+      "local": [
+        404.82,
+        6738.49,
+        3274.13
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99044.85,
+        112200.03,
+        1000.33
+      ],
+      "local": [
+        -5.15,
+        7100.03,
+        2500.33
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99423.78,
+        112693.72,
+        1175.72
+      ],
+      "local": [
+        373.78,
+        7593.72,
+        2675.72
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99493.54,
+        113717.58,
+        2021.46
+      ],
+      "local": [
+        443.54,
+        8617.58,
+        3521.46
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99501.52,
+        113547.08,
+        2070.61
+      ],
+      "local": [
+        451.52,
+        8447.08,
+        3570.61
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99486.97,
+        113397.08,
+        2070.61
+      ],
+      "local": [
+        436.97,
+        8297.08,
+        3570.61
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99496.99,
+        113531.17,
+        1315.47
+      ],
+      "local": [
+        446.99,
+        8431.17,
+        2815.47
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101856.27,
+        115475.0,
+        1255.0
+      ],
+      "local": [
+        2806.27,
+        10375.0,
+        2755.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101895.0,
+        115480.0,
+        1280.0
+      ],
+      "local": [
+        2845.0,
+        10380.0,
+        2780.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101940.0,
+        115665.0,
+        1430.0
+      ],
+      "local": [
+        2890.0,
+        10565.0,
+        2930.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101940.0,
+        115815.0,
+        1470.0
+      ],
+      "local": [
+        2890.0,
+        10715.0,
+        2970.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101970.0,
+        115640.0,
+        1470.0
+      ],
+      "local": [
+        2920.0,
+        10540.0,
+        2970.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101940.0,
+        115965.0,
+        1520.0
+      ],
+      "local": [
+        2890.0,
+        10865.0,
+        3020.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102520.0,
+        115570.0,
+        1355.0
+      ],
+      "local": [
+        3470.0,
+        10470.0,
+        2855.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102475.0,
+        115735.0,
+        1430.0
+      ],
+      "local": [
+        3425.0,
+        10635.0,
+        2930.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102560.0,
+        115840.0,
+        1350.0
+      ],
+      "local": [
+        3510.0,
+        10740.0,
+        2850.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102475.0,
+        115960.0,
+        1535.0
+      ],
+      "local": [
+        3425.0,
+        10860.0,
+        3035.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102560.0,
+        115365.0,
+        1275.0
+      ],
+      "local": [
+        3510.0,
+        10265.0,
+        2775.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        105190.9,
+        113671.43,
+        1198.68
+      ],
+      "local": [
+        6140.9,
+        8571.43,
+        2698.68
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        105086.48,
+        113540.83,
+        1905.62
+      ],
+      "local": [
+        6036.48,
+        8440.83,
+        3405.62
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        104837.91,
+        112507.9,
+        1319.64
+      ],
+      "local": [
+        5787.91,
+        7407.9,
+        2819.64
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        105145.45,
+        110658.05,
+        2024.85
+      ],
+      "local": [
+        6095.45,
+        5558.05,
+        3524.85
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        105068.13,
+        110343.83,
+        1572.04
+      ],
+      "local": [
+        6018.13,
+        5243.83,
+        3072.04
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103512.52,
+        111221.68,
+        1201.32
+      ],
+      "local": [
+        4462.52,
+        6121.68,
+        2701.32
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103355.27,
+        111221.02,
+        1362.51
+      ],
+      "local": [
+        4305.27,
+        6121.02,
+        2862.51
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103475.12,
+        111000.06,
+        1322.33
+      ],
+      "local": [
+        4425.12,
+        5900.06,
+        2822.33
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103179.88,
+        111028.12,
+        1314.16
+      ],
+      "local": [
+        4129.88,
+        5928.12,
+        2814.16
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103029.09,
+        111145.36,
+        1289.85
+      ],
+      "local": [
+        3979.09,
+        6045.36,
+        2789.85
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103185.33,
+        111128.05,
+        1351.85
+      ],
+      "local": [
+        4135.33,
+        6028.05,
+        2851.85
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103174.85,
+        111376.95,
+        1349.82
+      ],
+      "local": [
+        4124.85,
+        6276.95,
+        2849.82
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103790.25,
+        111145.36,
+        1289.85
+      ],
+      "local": [
+        4740.25,
+        6045.36,
+        2789.85
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103938.74,
+        111174.15,
+        1277.56
+      ],
+      "local": [
+        4888.74,
+        6074.15,
+        2777.56
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103889.05,
+        111258.23,
+        1316.28
+      ],
+      "local": [
+        4839.05,
+        6158.23,
+        2816.28
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103972.52,
+        111381.02,
+        1313.65
+      ],
+      "local": [
+        4922.52,
+        6281.02,
+        2813.65
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102952.7,
+        111436.48,
+        1294.28
+      ],
+      "local": [
+        3902.7,
+        6336.48,
+        2794.28
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        102996.91,
+        111702.58,
+        1311.19
+      ],
+      "local": [
+        3946.91,
+        6602.58,
+        2811.19
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103053.63,
+        111918.45,
+        1299.08
+      ],
+      "local": [
+        4003.63,
+        6818.45,
+        2799.08
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103189.36,
+        111859.27,
+        1290.41
+      ],
+      "local": [
+        4139.36,
+        6759.27,
+        2790.41
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103220.71,
+        111963.02,
+        1292.93
+      ],
+      "local": [
+        4170.71,
+        6863.02,
+        2792.93
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103691.29,
+        111705.35,
+        1333.83
+      ],
+      "local": [
+        4641.29,
+        6605.35,
+        2833.83
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103581.21,
+        112106.29,
+        1275.61
+      ],
+      "local": [
+        4531.21,
+        7006.29,
+        2775.61
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103716.59,
+        112075.09,
+        1316.28
+      ],
+      "local": [
+        4666.59,
+        6975.09,
+        2816.28
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103795.54,
+        112235.52,
+        1286.07
+      ],
+      "local": [
+        4745.54,
+        7135.52,
+        2786.07
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        103864.66,
+        112030.51,
+        1275.61
+      ],
+      "local": [
+        4814.66,
+        6930.51,
+        2775.61
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101581.26,
+        111911.16,
+        1313.65
+      ],
+      "local": [
+        2531.26,
+        6811.16,
+        2813.65
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        100926.82,
+        110976.71,
+        1289.85
+      ],
+      "local": [
+        1876.82,
+        5876.71,
+        2789.85
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101111.16,
+        110960.67,
+        1314.16
+      ],
+      "local": [
+        2061.16,
+        5860.67,
+        2814.16
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101487.73,
+        111050.3,
+        1322.33
+      ],
+      "local": [
+        2437.73,
+        5950.3,
+        2822.33
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101242.59,
+        111207.84,
+        1362.51
+      ],
+      "local": [
+        2192.59,
+        6107.84,
+        2862.51
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        100745.01,
+        111376.95,
+        1335.19
+      ],
+      "local": [
+        1695.01,
+        6276.95,
+        2835.19
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101634.48,
+        111173.59,
+        1289.72
+      ],
+      "local": [
+        2584.48,
+        6073.59,
+        2789.72
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101649.22,
+        111327.81,
+        1322.33
+      ],
+      "local": [
+        2599.22,
+        6227.81,
+        2822.33
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99453.43,
+        110545.76,
+        1604.32
+      ],
+      "local": [
+        403.43,
+        5445.76,
+        3104.32
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        99397.29,
+        110110.97,
+        1660.49
+      ],
+      "local": [
+        347.29,
+        5010.97,
+        3160.49
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        100537.39,
+        111753.75,
+        1330.92
+      ],
+      "local": [
+        1487.39,
+        6653.75,
+        2830.92
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101092.92,
+        112163.59,
+        1316.28
+      ],
+      "local": [
+        2042.92,
+        7063.59,
+        2816.28
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101247.06,
+        112183.04,
+        1316.28
+      ],
+      "local": [
+        2197.06,
+        7083.04,
+        2816.28
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C_Tagged-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_and_Seat_of_Durin_I",
+      "bubbleName": "The Great Forge and Seat of Durin I",
+      "world": [
+        101445.25,
+        112061.68,
+        1316.28
+      ],
+      "local": [
+        2395.25,
+        6961.68,
+        2816.28
+      ]
     }
   ],
   "summary": {
-    "global_type_rule_count": 77,
+    "global_type_rule_count": 164,
     "bubble_type_rule_count": 0,
-    "position_entry_count": 2,
-    "total_entries": 79
+    "position_entry_count": 62,
+    "total_entries": 226
   },
   "resolved_unknown_count": 2,
   "tracked_items": [

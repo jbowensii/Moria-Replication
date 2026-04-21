@@ -467,6 +467,36 @@
     },
     {
       "typeRule": "Orc_Fort_9X9_Mound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "City_Floor_3x3m_Detail_A-MI_City_Floor-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "City_Floor_3x3m_Detail_B-MI_City_Floor-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_E-MI_DirtMound_Suburbs_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_J-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_A-Suburbs_Dirt_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_C-Suburbs_Dirt_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -1163,10 +1193,10 @@
     }
   ],
   "summary": {
-    "global_type_rule_count": 77,
+    "global_type_rule_count": 164,
     "bubble_type_rule_count": 0,
     "position_entry_count": 46,
-    "total_entries": 123
+    "total_entries": 210
   },
   "resolved_unknown_count": 46,
   "tracked_items": [
