@@ -1190,6 +1190,146 @@
         2041.8,
         657.97
       ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_B-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-Custom-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        103050.0,
+        94150.0,
+        2520.0
+      ],
+      "local": [
+        4000.0,
+        8250.0,
+        7220.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_C-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        103050.0,
+        94150.0,
+        2130.0
+      ],
+      "local": [
+        4000.0,
+        8250.0,
+        6830.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_D-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        103050.0,
+        94150.0,
+        1550.0
+      ],
+      "local": [
+        4000.0,
+        8250.0,
+        6250.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_B-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-Custom-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        104150.0,
+        94150.0,
+        2520.0
+      ],
+      "local": [
+        5100.0,
+        8250.0,
+        7220.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_C-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        104150.0,
+        94150.0,
+        2130.0
+      ],
+      "local": [
+        5100.0,
+        8250.0,
+        6830.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_D-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        104150.0,
+        94150.0,
+        1555.0
+      ],
+      "local": [
+        5100.0,
+        8250.0,
+        6255.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_B-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-Custom-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        103049.99,
+        100000.0,
+        2880.0
+      ],
+      "local": [
+        3999.99,
+        14100.0,
+        7580.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_C-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        103049.99,
+        100000.0,
+        2470.0
+      ],
+      "local": [
+        3999.99,
+        14100.0,
+        7170.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_D-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        103049.99,
+        100000.0,
+        1900.0
+      ],
+      "local": [
+        3999.99,
+        14100.0,
+        6600.0
+      ]
+    },
+    {
+      "mesh": "City_Gate_X_Ruin_Column_D-MI_City_Trim_Sheet_A-MI_Simple_Stone_Damaged_B-MI_Suburbs_Trim_Sheet_B_Gold-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        104149.99,
+        100000.0,
+        1900.0
+      ],
+      "local": [
+        5099.99,
+        14100.0,
+        6600.0
+      ]
     }
   ],
   "summary": {

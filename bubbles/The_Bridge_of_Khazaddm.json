@@ -1,6 +1,6 @@
 {
   "bubble_name": "The_Bridge_of_Khazaddm",
-  "bd_stem": "BD_BB_Chapter4_BalrogsWake",
+  "bd_stem": "BD_BB_Chapter4_Bridge",
   "uasset_files": [
     "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_The_Bridge_of_Khazaddm.uasset"
   ],
@@ -1618,6 +1618,5 @@
         "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
       ]
     }
-  ],
-  "bd_stem_note": "Originally BD_BB_The_Bridge_of_Khazaddm (no matching file). Objects found in BD_BB_Chapter4_BalrogsWake (3rd bubble in this uasset)."
+  ]
 }
