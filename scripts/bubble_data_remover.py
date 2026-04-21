@@ -333,6 +333,15 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                 elif instances:
                     log_fn(f"  [Cleanup] Dropped empty batch for {batch_mesh}")
 
+            # UAssetGUI cannot serialize empty struct arrays — keep first batch
+            # with zeroed instances as a dummy if all batches would be removed
+            if not new_batches and batches:
+                dummy = batches[0]
+                dummy_inst = find_property_by_name(dummy.get('Value', []), 'Instances')
+                if dummy_inst:
+                    dummy_inst['Value'] = []
+                new_batches = [dummy]
+                log_fn(f"  [Safety] Kept 1 dummy batch to prevent empty Batches array (InstancedMesh)")
             batches_prop['Value'] = new_batches
 
     # --- InstancedBreakableCatalog ---
@@ -414,6 +423,14 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                 elif instances:
                     log_fn(f"  [Cleanup] Dropped empty batch for {class_name}")
 
+            # UAssetGUI cannot serialize empty struct arrays
+            if not new_batches and batches:
+                dummy = batches[0]
+                dummy_inst = find_property_by_name(dummy.get('Value', []), 'Instances')
+                if dummy_inst:
+                    dummy_inst['Value'] = []
+                new_batches = [dummy]
+                log_fn(f"  [Safety] Kept 1 dummy batch to prevent empty Batches array (Breakable)")
             batches_prop['Value'] = new_batches
 
     # --- ConstructionCatalog + DecoVolumes ---
@@ -478,6 +495,11 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                     new_blocks.append(block)
             removed_blocks = len(blocks) - len(new_blocks)
             stats.construction += removed_blocks
+            # UAssetGUI cannot serialize empty struct arrays
+            if not new_blocks and blocks:
+                new_blocks = [blocks[0]]  # keep first block as dummy
+                stats.construction -= 1   # didn't actually remove it
+                log_fn(f"  [Safety] Kept 1 dummy block to prevent empty Blocks array (Construction)")
             blocks_prop['Value'] = new_blocks
 
             # Remove matching DecoVolumes

@@ -1127,6 +1127,21 @@
         2041.8,
         657.97
       ]
+    },
+    {
+      "mesh": "Suburbs_Column_X_Large_A_CapitalR1-MI_Suburbs_Trim_Sheet_A-BlockAll-dcl-L100",
+      "bubble": "Orc_Town_Gate",
+      "bubbleName": "",
+      "world": [
+        62460.0,
+        26497.5,
+        -270.0
+      ],
+      "local": [
+        -4590.0,
+        -1802.5,
+        1230.0
+      ]
     }
   ],
   "summary": {
