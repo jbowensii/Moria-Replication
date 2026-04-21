@@ -1,9 +1,8 @@
 {
-  "bubble_name": "Misty_Mountain_Forge",
-  "bd_stem": "BD_BB_Misty_Mountain_Forge",
+  "bubble_name": "The_Great_Belegost_Forge",
+  "bd_stem": "BD_BB_Chapter3_FloodedForge",
   "uasset_files": [
-    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Misty_Mountain_Forge.uasset",
-    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Misty_Mountain_Forge.uasset"
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter3_FloodedForge.uasset"
   ],
   "global_type_rules": [
     {
@@ -589,127 +588,95 @@
   "bubble_type_rules": [],
   "position_entries": [
     {
-      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
-      "bubble": "unknown",
-      "bubbleName": "",
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Belegost_Forge",
+      "bubbleName": "The Great Belegost Forge",
       "world": [
-        139975.62,
-        70425.98,
-        5607.6
+        141915.0,
+        122240.0,
+        -13840.0
       ],
       "local": [
-        -3874.38,
-        3725.98,
-        707.6
+        10865.0,
+        4340.0,
+        460.0
+      ]
+    },
+    {
+      "mesh": "Ruins_Stairs_Medium_C-MI_Suburbs_Stairs_02_Dark-MI_Suburbs_Stairs_01_Dark-ProcMaterial_Quarry_2m_Floor-BlockAll-dcl-L100",
+      "bubble": "The_Great_Belegost_Forge",
+      "bubbleName": "The Great Belegost Forge",
+      "world": [
+        141925.0,
+        121940.0,
+        -13160.0
+      ],
+      "local": [
+        10875.0,
+        4040.0,
+        1140.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Belegost_Forge",
+      "bubbleName": "The Great Belegost Forge",
+      "world": [
+        141895.69,
+        122072.3,
+        -13191.43
+      ],
+      "local": [
+        10845.69,
+        4172.3,
+        1108.57
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Belegost_Forge",
+      "bubbleName": "The Great Belegost Forge",
+      "world": [
+        141842.95,
+        122102.52,
+        -13179.84
+      ],
+      "local": [
+        10792.95,
+        4202.52,
+        1120.16
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Belegost_Forge",
+      "bubbleName": "The Great Belegost Forge",
+      "world": [
+        141961.72,
+        121973.97,
+        -13220.01
+      ],
+      "local": [
+        10911.72,
+        4073.97,
+        1079.99
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Belegost_Forge",
+      "bubbleName": "The Great Belegost Forge",
+      "world": [
+        141911.55,
+        121970.24,
+        -13158.93
+      ],
+      "local": [
+        10861.55,
+        4070.24,
+        1141.07
       ]
     }
   ],
-  "summary": {
-    "global_type_rule_count": 164,
-    "bubble_type_rule_count": 0,
-    "position_entry_count": 1,
-    "total_entries": 165
-  },
-  "resolved_unknown_count": 1,
-  "tracked_items": [
-    {
-      "category": "Rugs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Rug_End_3M-BlockAll-dcl-L100",
-        "Rug_Flat_3M-BlockAll-dcl-L100",
-        "Rug_Flat_6M-BlockAll-dcl-L100",
-        "Rug_Single-BlockAll-dcl-L100",
-        "Rug_Stair_1x3M-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Banners",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SM_BannerPole-BlockAll-dcl-L100",
-        "SM_Banner_AA-BlockAll-dcl-L100",
-        "SM_Banner_BB-BlockAll-dcl-L100",
-        "OrcBanner-BlockAll-dcl-L100",
-        "Warren_lighting_Banner-BlockAll-dcl-L100",
-        "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100",
-        "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Tapestries",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Dwelling_Tapestry-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Spider Webs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SpiderWeb-BlockAll-dcl-L100",
-        "SpiderWeb3_placeholder-BlockAll-dcl-L100",
-        "SpiderWeb_Mines-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Decorative Weapons",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "D_Weapon_IronHills-BlockAll-dcl-L100",
-        "D_Weapon_Khazad-BlockAll-dcl-L100",
-        "D_Weapon_Steel-BlockAll-dcl-L100",
-        "D_Weapon_Rohan-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Scaffolding (Open)",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Garden Ivy",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Weapon/Armor Racks",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "WeaponRack-BlockAll-dcl-L100",
-        "BP_ItemRack_Weapons-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Structural Walls (DO NOT REMOVE)",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
-        "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Commented/Disabled Rules",
-      "status": "disabled",
-      "scope": "mixed",
-      "rules": [
-        "Aftermath | @Suburbs_Floor_3x3m_AA_Broken-BlockAll-dcl-L100",
-        "Aftermath | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100",
-        "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
-      ]
-    }
-  ]
+  "tracked_items": []
 }

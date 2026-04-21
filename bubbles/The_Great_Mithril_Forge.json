@@ -1,9 +1,8 @@
 {
-  "bubble_name": "Misty_Mountain_Forge",
-  "bd_stem": "BD_BB_Misty_Mountain_Forge",
+  "bubble_name": "The_Great_Mithril_Forge",
+  "bd_stem": "BD_BB_Chapter5_MithrilForge",
   "uasset_files": [
-    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Misty_Mountain_Forge.uasset",
-    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Misty_Mountain_Forge.uasset"
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter5_MithrilForge.uasset"
   ],
   "global_type_rules": [
     {
@@ -589,127 +588,365 @@
   "bubble_type_rules": [],
   "position_entries": [
     {
-      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
-      "bubble": "unknown",
-      "bubbleName": "",
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
       "world": [
-        139975.62,
-        70425.98,
-        5607.6
+        71748.73,
+        58979.52,
+        -688.77
       ],
       "local": [
-        -3874.38,
-        3725.98,
-        707.6
+        4698.73,
+        5079.52,
+        811.23
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71965.48,
+        59147.89,
+        -682.11
+      ],
+      "local": [
+        4915.48,
+        5247.89,
+        817.89
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71479.17,
+        58275.12,
+        -7.33
+      ],
+      "local": [
+        4429.17,
+        4375.12,
+        1492.67
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71488.88,
+        58123.32,
+        32.75
+      ],
+      "local": [
+        4438.88,
+        4223.32,
+        1532.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71389.44,
+        58170.56,
+        -11.59
+      ],
+      "local": [
+        4339.44,
+        4270.56,
+        1488.41
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71537.08,
+        58178.33,
+        -20.08
+      ],
+      "local": [
+        4487.08,
+        4278.33,
+        1479.92
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71386.64,
+        58223.46,
+        -46.21
+      ],
+      "local": [
+        4336.64,
+        4323.46,
+        1453.79
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71568.48,
+        58160.67,
+        -110.05
+      ],
+      "local": [
+        4518.48,
+        4260.67,
+        1389.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71629.5,
+        58142.56,
+        -188.31
+      ],
+      "local": [
+        4579.5,
+        4242.56,
+        1311.69
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71537.1,
+        58083.64,
+        -58.12
+      ],
+      "local": [
+        4487.1,
+        4183.64,
+        1441.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71467.1,
+        57993.64,
+        -78.12
+      ],
+      "local": [
+        4417.1,
+        4093.64,
+        1421.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71499.5,
+        57992.56,
+        -148.31
+      ],
+      "local": [
+        4449.5,
+        4092.56,
+        1351.69
+      ]
+    },
+    {
+      "mesh": "SM_AR_Suburbs_WallThick_Ruined_100x200x300_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_Suburbs_Wall_Non_Dest-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71380.08,
+        58001.38,
+        72.93
+      ],
+      "local": [
+        4330.08,
+        4101.38,
+        1572.93
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71983.48,
+        59040.67,
+        -290.05
+      ],
+      "local": [
+        4933.48,
+        5140.67,
+        1209.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71431.91,
+        55926.12,
+        -529.72
+      ],
+      "local": [
+        4381.91,
+        2026.12,
+        970.28
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71503.11,
+        55957.36,
+        -442.0
+      ],
+      "local": [
+        4453.11,
+        2057.36,
+        1058.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71510.72,
+        56117.34,
+        -488.34
+      ],
+      "local": [
+        4460.72,
+        2217.34,
+        1011.66
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71610.57,
+        55947.87,
+        -494.8
+      ],
+      "local": [
+        4560.57,
+        2047.87,
+        1005.2
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71499.69,
+        55931.08,
+        -635.79
+      ],
+      "local": [
+        4449.69,
+        2031.08,
+        864.21
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71403.04,
+        55935.54,
+        -511.35
+      ],
+      "local": [
+        4353.04,
+        2035.54,
+        988.65
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71835.0,
+        56313.86,
+        -690.33
+      ],
+      "local": [
+        4785.0,
+        2413.86,
+        809.67
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71595.22,
+        55924.77,
+        -723.63
+      ],
+      "local": [
+        4545.22,
+        2024.77,
+        776.37
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71941.23,
+        56197.17,
+        -579.34
+      ],
+      "local": [
+        4891.23,
+        2297.17,
+        920.66
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Mithril_Forge",
+      "bubbleName": "The Great Mithril Forge",
+      "world": [
+        71995.75,
+        56117.37,
+        -652.15
+      ],
+      "local": [
+        4945.75,
+        2217.37,
+        847.85
       ]
     }
   ],
-  "summary": {
-    "global_type_rule_count": 164,
-    "bubble_type_rule_count": 0,
-    "position_entry_count": 1,
-    "total_entries": 165
-  },
-  "resolved_unknown_count": 1,
-  "tracked_items": [
-    {
-      "category": "Rugs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Rug_End_3M-BlockAll-dcl-L100",
-        "Rug_Flat_3M-BlockAll-dcl-L100",
-        "Rug_Flat_6M-BlockAll-dcl-L100",
-        "Rug_Single-BlockAll-dcl-L100",
-        "Rug_Stair_1x3M-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Banners",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SM_BannerPole-BlockAll-dcl-L100",
-        "SM_Banner_AA-BlockAll-dcl-L100",
-        "SM_Banner_BB-BlockAll-dcl-L100",
-        "OrcBanner-BlockAll-dcl-L100",
-        "Warren_lighting_Banner-BlockAll-dcl-L100",
-        "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100",
-        "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Tapestries",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Dwelling_Tapestry-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Spider Webs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SpiderWeb-BlockAll-dcl-L100",
-        "SpiderWeb3_placeholder-BlockAll-dcl-L100",
-        "SpiderWeb_Mines-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Decorative Weapons",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "D_Weapon_IronHills-BlockAll-dcl-L100",
-        "D_Weapon_Khazad-BlockAll-dcl-L100",
-        "D_Weapon_Steel-BlockAll-dcl-L100",
-        "D_Weapon_Rohan-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Scaffolding (Open)",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Garden Ivy",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Weapon/Armor Racks",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "WeaponRack-BlockAll-dcl-L100",
-        "BP_ItemRack_Weapons-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Structural Walls (DO NOT REMOVE)",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
-        "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Commented/Disabled Rules",
-      "status": "disabled",
-      "scope": "mixed",
-      "rules": [
-        "Aftermath | @Suburbs_Floor_3x3m_AA_Broken-BlockAll-dcl-L100",
-        "Aftermath | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100",
-        "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
-      ]
-    }
-  ]
+  "tracked_items": []
 }

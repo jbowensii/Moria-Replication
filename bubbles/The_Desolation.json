@@ -497,6 +497,93 @@
     },
     {
       "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_A-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_B-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_C-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_L-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_R-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_Detail-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_F-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_G-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_H-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_I-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_J-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_B-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_E-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalCage-MI_Suburbs_Trim_Sheet_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_L-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_A-MI_Orc_Scaffolding_Poles-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Remains_Bones_Assemblage_C-MI_Orc_Shanty_Midden_Mat_Inst2-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_A-MI_Ruin_Wall_IndStone2-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone1-MI_Rubble_Masonry_Pile_06_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Drake_NestBase_DirtMound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_A-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_B-MI_ArchSimple_Stone_Floor_A_MAT-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_Broken-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_ArchSimple_Stone_Floor_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_A-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_B-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -8254,6 +8341,62 @@
         7740.0,
         17895.0,
         8305.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        105216.0,
+        91829.0,
+        614.0
+      ],
+      "local": [
+        6166.0,
+        5929.0,
+        5314.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        105141.38,
+        91806.45,
+        637.0
+      ],
+      "local": [
+        6091.38,
+        5906.45,
+        5337.0
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        106459.67,
+        91932.66,
+        175.49
+      ],
+      "local": [
+        7409.67,
+        6032.66,
+        4875.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Desolation",
+      "world": [
+        115466.15,
+        88466.7,
+        2350.36
+      ],
+      "local": [
+        16416.15,
+        2566.7,
+        7050.36
       ]
     }
   ],

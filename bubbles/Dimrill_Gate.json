@@ -497,6 +497,93 @@
     },
     {
       "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_A-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_B-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_C-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_L-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_R-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_Detail-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_F-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_G-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_H-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_I-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_J-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_B-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_E-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalCage-MI_Suburbs_Trim_Sheet_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_L-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_A-MI_Orc_Scaffolding_Poles-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Remains_Bones_Assemblage_C-MI_Orc_Shanty_Midden_Mat_Inst2-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_A-MI_Ruin_Wall_IndStone2-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone1-MI_Rubble_Masonry_Pile_06_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Drake_NestBase_DirtMound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_A-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_B-MI_ArchSimple_Stone_Floor_A_MAT-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_Broken-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_ArchSimple_Stone_Floor_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_A-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_B-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -574,6 +661,321 @@
         -423.98,
         -6.09,
         3210.32
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        169948.0,
+        92815.0,
+        2887.0
+      ],
+      "local": [
+        498.0,
+        515.0,
+        1187.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        169869.12,
+        92698.67,
+        2916.7
+      ],
+      "local": [
+        419.12,
+        398.67,
+        1216.7
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        175460.0,
+        92865.0,
+        3555.0
+      ],
+      "local": [
+        6010.0,
+        565.0,
+        1855.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        175490.0,
+        92825.0,
+        3585.0
+      ],
+      "local": [
+        6040.0,
+        525.0,
+        1885.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        175521.73,
+        93435.79,
+        3577.92
+      ],
+      "local": [
+        6071.73,
+        1135.79,
+        1877.92
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        175225.0,
+        93830.0,
+        3580.0
+      ],
+      "local": [
+        5775.0,
+        1530.0,
+        1880.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        175235.0,
+        92735.0,
+        3585.0
+      ],
+      "local": [
+        5785.0,
+        435.0,
+        1885.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        174031.0,
+        92850.0,
+        2882.0
+      ],
+      "local": [
+        4581.0,
+        550.0,
+        1182.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        173748.0,
+        92896.0,
+        2846.0
+      ],
+      "local": [
+        4298.0,
+        596.0,
+        1146.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        173778.0,
+        92768.0,
+        2903.0
+      ],
+      "local": [
+        4328.0,
+        468.0,
+        1203.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        173601.0,
+        92912.0,
+        2796.0
+      ],
+      "local": [
+        4151.0,
+        612.0,
+        1096.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        171211.0,
+        92874.0,
+        2752.0
+      ],
+      "local": [
+        1761.0,
+        574.0,
+        1052.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1X1x1_C-ProcMaterial_City_1m_C-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        171171.45,
+        93901.47,
+        2747.81
+      ],
+      "local": [
+        1721.45,
+        1601.47,
+        1047.81
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        171166.0,
+        93828.0,
+        2742.0
+      ],
+      "local": [
+        1716.0,
+        1528.0,
+        1042.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_2x2x2_A-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        169891.22,
+        93118.63,
+        2813.61
+      ],
+      "local": [
+        441.22,
+        818.63,
+        1113.61
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        169933.19,
+        93622.74,
+        2827.0
+      ],
+      "local": [
+        483.19,
+        1322.74,
+        1127.0
+      ]
+    },
+    {
+      "mesh": "PWM_City_1x1x1_A_-ProcMaterial_City_1m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        170795.0,
+        94799.92,
+        2874.76
+      ],
+      "local": [
+        1345.0,
+        2499.92,
+        1174.76
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        166702.95,
+        95587.0,
+        2113.41
+      ],
+      "local": [
+        -2747.05,
+        3287.0,
+        413.41
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        166705.5,
+        95645.0,
+        2227.02
+      ],
+      "local": [
+        -2744.5,
+        3345.0,
+        527.02
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_City_2m-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        166622.0,
+        95612.0,
+        2399.0
+      ],
+      "local": [
+        -2828.0,
+        3312.0,
+        699.0
+      ]
+    },
+    {
+      "mesh": "Suburb_Stairs_Trim_Angle_B-MI_City_Stairs_Trim_Angle_A-BlockAll-dcl-L100",
+      "bubble": "Dimrill_Gate",
+      "bubbleName": "Dimrill Gate",
+      "world": [
+        166050.0,
+        95300.0,
+        1750.0
+      ],
+      "local": [
+        -3400.0,
+        3000.0,
+        50.0
       ]
     }
   ],

@@ -67,6 +67,25 @@ def coords_match(x1, y1, z1, x2, y2, z2, epsilon=COORD_EPSILON):
             abs(z1 - z2) < epsilon)
 
 
+def coords_match_any_transform(ux, uy, uz, gx, gy, gz, epsilon=COORD_EPSILON):
+    """Check if game-reported coords match uasset coords under any rotation.
+
+    Rooms can be rotated 0/90/180/270 degrees when placed in the game world.
+    Game-reported local coords may also have X/Y sign-flipped vs uasset.
+    Since 180 rotation == sign flip, there are 4 unique transforms to try.
+
+    Transforms (game local -> uasset stored), Z unchanged:
+      0   (identity):  ux = gx,  uy = gy
+      90  CW:          ux = gy,  uy = -gx
+      180 (sign flip): ux = -gx, uy = -gy
+      270 CW:          ux = -gy, uy = gx
+    """
+    return (coords_match(ux, uy, uz, gx, gy, gz, epsilon) or
+            coords_match(ux, uy, uz, -gx, -gy, gz, epsilon) or
+            coords_match(ux, uy, uz, gy, -gx, gz, epsilon) or
+            coords_match(ux, uy, uz, -gy, gx, gz, epsilon))
+
+
 def parse_removal_file(filepath):
     """Parse the removal specification file.
 
@@ -299,7 +318,7 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                     for pe in position_entries:
                         if pe['mesh_name'] == batch_mesh:
                             px, py, pz = pe['local']
-                            if coords_match(ix, iy, iz, px, py, pz):
+                            if coords_match_any_transform(ix, iy, iz, px, py, pz):
                                 stats.instanced_mesh += 1
                                 log_fn(f"  [Position] Removed {inst_name} at "
                                        f"({ix:.1f}, {iy:.1f}, {iz:.1f}) (InstancedMesh)")
@@ -380,7 +399,7 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                     for pe in position_entries:
                         if pe['mesh_name'].replace('PWM_', '').lower() in class_lower:
                             px, py, pz = pe['local']
-                            if coords_match(ix, iy, iz, px, py, pz):
+                            if coords_match_any_transform(ix, iy, iz, px, py, pz):
                                 stats.instanced_breakable += 1
                                 log_fn(f"  [Position] Removed {class_name} at "
                                        f"({ix:.1f}, {iy:.1f}, {iz:.1f}) (Breakable)")
@@ -443,7 +462,7 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                         for pe in position_entries:
                             if pe['mesh_name'] in block_name:
                                 px, py, pz = pe['local']
-                                if coords_match(vx, vy, vz, px, py, pz):
+                                if coords_match_any_transform(vx, vy, vz, px, py, pz):
                                     blocks_to_remove.add(block_name)
                                     log_fn(f"  [Position] Marked {block_name} at "
                                            f"({vx:.1f}, {vy:.1f}, {vz:.1f}) (Construction)")
@@ -513,7 +532,7 @@ def apply_removals_uasset(uasset_data, type_rules, position_entries, log_fn=None
                         for pe in position_entries:
                             if pe['mesh_name'] in vol_name:
                                 px, py, pz = pe['local']
-                                if coords_match(vx, vy, vz, px, py, pz):
+                                if coords_match_any_transform(vx, vy, vz, px, py, pz):
                                     log_fn(f"  [Position] Removed standalone DecoVolume: "
                                            f"{vol_name} at ({vx:.1f}, {vy:.1f}, {vz:.1f})")
                                     standalone_removed += 1

@@ -1,9 +1,8 @@
 {
-  "bubble_name": "Misty_Mountain_Forge",
-  "bd_stem": "BD_BB_Misty_Mountain_Forge",
+  "bubble_name": "Grotto_Expanse",
+  "bd_stem": "BD_BB_Chapter3_HeadwaterNexus",
   "uasset_files": [
-    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Misty_Mountain_Forge.uasset",
-    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Misty_Mountain_Forge.uasset"
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter3_HeadwaterNexus.uasset"
   ],
   "global_type_rules": [
     {
@@ -589,127 +588,290 @@
   "bubble_type_rules": [],
   "position_entries": [
     {
-      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
-      "bubble": "unknown",
-      "bubbleName": "",
+      "mesh": "Deep_Pillar_A_Damaged_B-MI_Deep_Non_Destructible_Light-MI_Deep_TrimSheet_Damaged_Lighter-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
       "world": [
-        139975.62,
-        70425.98,
-        5607.6
+        75550.23,
+        125775.44,
+        -13491.3
       ],
       "local": [
-        -3874.38,
-        3725.98,
-        707.6
+        2100.23,
+        7875.44,
+        808.7
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_B-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75390.95,
+        126150.05,
+        -13636.42
+      ],
+      "local": [
+        1940.95,
+        8250.05,
+        663.58
+      ]
+    },
+    {
+      "mesh": "Deep_ArchPiece_B_Piece_B-MI_Deep_TrimSheet_Damaged_Lighter-MI_Deep_Non_Destructible_Light-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75462.94,
+        126178.53,
+        -13534.33
+      ],
+      "local": [
+        2012.94,
+        8278.53,
+        765.67
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75787.65,
+        125829.8,
+        -13600.19
+      ],
+      "local": [
+        2337.65,
+        7929.8,
+        699.81
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75536.22,
+        125722.55,
+        -13592.29
+      ],
+      "local": [
+        2086.22,
+        7822.55,
+        707.71
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75757.23,
+        125980.96,
+        -13614.9
+      ],
+      "local": [
+        2307.23,
+        8080.96,
+        685.1
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        76946.59,
+        125884.7,
+        -13625.54
+      ],
+      "local": [
+        3496.59,
+        7984.7,
+        674.46
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        76891.27,
+        126076.39,
+        -13627.77
+      ],
+      "local": [
+        3441.27,
+        8176.39,
+        672.23
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_2x2x2_A-PWM_Nordic_Atlas_B-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        77289.54,
+        125743.23,
+        -13829.65
+      ],
+      "local": [
+        3839.54,
+        7843.23,
+        470.35
+      ]
+    },
+    {
+      "mesh": "Cavern_Trim_D-Cavern_Trim_A_MAT-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        77845.49,
+        126164.51,
+        -13602.11
+      ],
+      "local": [
+        4395.49,
+        8264.51,
+        697.89
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_A-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        76644.66,
+        125984.23,
+        -13609.57
+      ],
+      "local": [
+        3194.66,
+        8084.23,
+        690.43
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_A-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        76264.69,
+        125903.33,
+        -13609.57
+      ],
+      "local": [
+        2814.69,
+        8003.33,
+        690.43
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_A-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75823.12,
+        125967.09,
+        -13609.57
+      ],
+      "local": [
+        2373.12,
+        8067.09,
+        690.43
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_A-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75470.3,
+        126338.91,
+        -13609.57
+      ],
+      "local": [
+        2020.3,
+        8438.91,
+        690.43
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_A-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        75588.34,
+        125674.22,
+        -13609.57
+      ],
+      "local": [
+        2138.34,
+        7774.22,
+        690.43
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        77109.69,
+        126596.88,
+        -13687.41
+      ],
+      "local": [
+        3659.69,
+        8696.88,
+        612.59
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_Blend_A-MI_DirtMound_Cavern-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        77197.92,
+        126567.39,
+        -13567.17
+      ],
+      "local": [
+        3747.92,
+        8667.39,
+        732.83
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        76921.14,
+        126927.77,
+        -13764.54
+      ],
+      "local": [
+        3471.14,
+        9027.77,
+        535.46
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-PWM_Nordic_Blend_Tileable-BlockAll-dcl-L100",
+      "bubble": "Grotto_Expanse",
+      "bubbleName": "Grotto Expanse",
+      "world": [
+        76752.27,
+        127113.58,
+        -13781.85
+      ],
+      "local": [
+        3302.27,
+        9213.58,
+        518.15
       ]
     }
   ],
-  "summary": {
-    "global_type_rule_count": 164,
-    "bubble_type_rule_count": 0,
-    "position_entry_count": 1,
-    "total_entries": 165
-  },
-  "resolved_unknown_count": 1,
-  "tracked_items": [
-    {
-      "category": "Rugs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Rug_End_3M-BlockAll-dcl-L100",
-        "Rug_Flat_3M-BlockAll-dcl-L100",
-        "Rug_Flat_6M-BlockAll-dcl-L100",
-        "Rug_Single-BlockAll-dcl-L100",
-        "Rug_Stair_1x3M-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Banners",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SM_BannerPole-BlockAll-dcl-L100",
-        "SM_Banner_AA-BlockAll-dcl-L100",
-        "SM_Banner_BB-BlockAll-dcl-L100",
-        "OrcBanner-BlockAll-dcl-L100",
-        "Warren_lighting_Banner-BlockAll-dcl-L100",
-        "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100",
-        "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Tapestries",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Dwelling_Tapestry-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Spider Webs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SpiderWeb-BlockAll-dcl-L100",
-        "SpiderWeb3_placeholder-BlockAll-dcl-L100",
-        "SpiderWeb_Mines-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Decorative Weapons",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "D_Weapon_IronHills-BlockAll-dcl-L100",
-        "D_Weapon_Khazad-BlockAll-dcl-L100",
-        "D_Weapon_Steel-BlockAll-dcl-L100",
-        "D_Weapon_Rohan-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Scaffolding (Open)",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Garden Ivy",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Weapon/Armor Racks",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "WeaponRack-BlockAll-dcl-L100",
-        "BP_ItemRack_Weapons-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Structural Walls (DO NOT REMOVE)",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
-        "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Commented/Disabled Rules",
-      "status": "disabled",
-      "scope": "mixed",
-      "rules": [
-        "Aftermath | @Suburbs_Floor_3x3m_AA_Broken-BlockAll-dcl-L100",
-        "Aftermath | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100",
-        "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
-      ]
-    }
-  ]
+  "tracked_items": []
 }

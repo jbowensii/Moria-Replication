@@ -497,6 +497,93 @@
     },
     {
       "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_A-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_B-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_C-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_L-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_R-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_Detail-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_F-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_G-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_H-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_I-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_J-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_B-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_E-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalCage-MI_Suburbs_Trim_Sheet_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_L-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_A-MI_Orc_Scaffolding_Poles-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Remains_Bones_Assemblage_C-MI_Orc_Shanty_Midden_Mat_Inst2-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_A-MI_Ruin_Wall_IndStone2-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone1-MI_Rubble_Masonry_Pile_06_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Drake_NestBase_DirtMound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_A-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_B-MI_ArchSimple_Stone_Floor_A_MAT-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_Broken-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_ArchSimple_Stone_Floor_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_A-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_B-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -1324,6 +1411,681 @@
         -2236.96,
         2041.8,
         657.97
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68067.03,
+        75031.0,
+        2785.49
+      ],
+      "local": [
+        7417.03,
+        1931.0,
+        1085.49
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68265.36,
+        75059.66,
+        2917.36
+      ],
+      "local": [
+        7615.36,
+        1959.66,
+        1217.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68228.32,
+        75082.14,
+        2722.54
+      ],
+      "local": [
+        7578.32,
+        1982.14,
+        1022.54
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68050.0,
+        75004.55,
+        2660.21
+      ],
+      "local": [
+        7400.0,
+        1904.55,
+        960.21
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67898.3,
+        75064.97,
+        2737.3
+      ],
+      "local": [
+        7248.3,
+        1964.97,
+        1037.3
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67752.59,
+        75054.28,
+        2607.54
+      ],
+      "local": [
+        7102.59,
+        1954.28,
+        907.54
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67795.0,
+        75025.18,
+        2742.2
+      ],
+      "local": [
+        7145.0,
+        1925.18,
+        1042.2
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68335.65,
+        73865.21,
+        2735.44
+      ],
+      "local": [
+        7685.65,
+        765.21,
+        1035.44
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68314.72,
+        73837.73,
+        2914.61
+      ],
+      "local": [
+        7664.72,
+        737.73,
+        1214.61
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68375.3,
+        73952.74,
+        2907.01
+      ],
+      "local": [
+        7725.3,
+        852.74,
+        1207.01
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68254.31,
+        73845.0,
+        2757.13
+      ],
+      "local": [
+        7604.31,
+        745.0,
+        1057.13
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68173.72,
+        73737.25,
+        2894.36
+      ],
+      "local": [
+        7523.72,
+        637.25,
+        1194.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68387.17,
+        73944.32,
+        3000.9
+      ],
+      "local": [
+        7737.17,
+        844.32,
+        1300.9
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68200.37,
+        73788.98,
+        3113.01
+      ],
+      "local": [
+        7550.37,
+        688.98,
+        1413.01
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68322.04,
+        73894.87,
+        3246.72
+      ],
+      "local": [
+        7672.04,
+        794.87,
+        1546.72
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68469.37,
+        74018.34,
+        3015.55
+      ],
+      "local": [
+        7819.37,
+        918.34,
+        1315.55
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68220.3,
+        73855.66,
+        3263.75
+      ],
+      "local": [
+        7570.3,
+        755.66,
+        1563.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66771.41,
+        74960.66,
+        2703.91
+      ],
+      "local": [
+        6121.41,
+        1860.66,
+        1003.91
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66911.53,
+        74991.59,
+        2711.37
+      ],
+      "local": [
+        6261.53,
+        1891.59,
+        1011.37
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66884.88,
+        75025.45,
+        2761.62
+      ],
+      "local": [
+        6234.88,
+        1925.45,
+        1061.62
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67072.5,
+        75000.0,
+        2727.73
+      ],
+      "local": [
+        6422.5,
+        1900.0,
+        1027.73
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66725.3,
+        74818.09,
+        2675.45
+      ],
+      "local": [
+        6075.3,
+        1718.09,
+        975.45
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66724.75,
+        74885.59,
+        2826.74
+      ],
+      "local": [
+        6074.75,
+        1785.59,
+        1126.74
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67015.0,
+        75000.0,
+        2660.0
+      ],
+      "local": [
+        6365.0,
+        1900.0,
+        960.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_5x4x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66719.86,
+        73967.19,
+        2688.75
+      ],
+      "local": [
+        6069.86,
+        867.19,
+        988.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66805.0,
+        73904.7,
+        2871.78
+      ],
+      "local": [
+        6155.0,
+        804.7,
+        1171.78
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66823.53,
+        73972.95,
+        3006.07
+      ],
+      "local": [
+        6173.53,
+        872.95,
+        1306.07
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66951.19,
+        73828.16,
+        2787.1
+      ],
+      "local": [
+        6301.19,
+        728.16,
+        1087.1
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66983.12,
+        73777.73,
+        2971.93
+      ],
+      "local": [
+        6333.12,
+        677.73,
+        1271.93
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66987.78,
+        73741.81,
+        3129.32
+      ],
+      "local": [
+        6337.78,
+        641.81,
+        1429.32
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66853.24,
+        73885.7,
+        3227.07
+      ],
+      "local": [
+        6203.24,
+        785.7,
+        1527.07
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66770.68,
+        74038.97,
+        3273.59
+      ],
+      "local": [
+        6120.68,
+        938.97,
+        1573.59
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67637.88,
+        74419.67,
+        4542.36
+      ],
+      "local": [
+        6987.88,
+        1319.67,
+        2842.36
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68342.4,
+        73894.68,
+        3974.31
+      ],
+      "local": [
+        7692.4,
+        794.68,
+        2274.31
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68408.88,
+        74217.24,
+        4070.04
+      ],
+      "local": [
+        7758.88,
+        1117.24,
+        2370.04
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68435.0,
+        74133.56,
+        3940.96
+      ],
+      "local": [
+        7785.0,
+        1033.56,
+        2240.96
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68467.62,
+        74668.61,
+        3896.09
+      ],
+      "local": [
+        7817.62,
+        1568.61,
+        2196.09
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68151.17,
+        74990.7,
+        3754.47
+      ],
+      "local": [
+        7501.17,
+        1890.7,
+        2054.47
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66761.53,
+        74994.88,
+        3650.78
+      ],
+      "local": [
+        6111.53,
+        1894.88,
+        1950.78
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        66925.98,
+        74870.69,
+        3874.08
+      ],
+      "local": [
+        6275.98,
+        1770.69,
+        2174.08
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67835.0,
+        75535.0,
+        2710.0
+      ],
+      "local": [
+        7185.0,
+        2435.0,
+        1010.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_3x3x2-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67824.08,
+        75479.12,
+        2666.75
+      ],
+      "local": [
+        7174.08,
+        2379.12,
+        966.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        67923.48,
+        76537.79,
+        2525.0
+      ],
+      "local": [
+        7273.48,
+        3437.79,
+        825.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        68606.8,
+        75531.77,
+        2662.51
+      ],
+      "local": [
+        7956.8,
+        2431.77,
+        962.51
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Crossroads_of_Zirakzigil",
+      "bubbleName": "The Crossroads of Zirakzigil",
+      "world": [
+        70872.42,
+        75604.38,
+        2066.18
+      ],
+      "local": [
+        10222.42,
+        2504.38,
+        366.18
       ]
     }
   ],

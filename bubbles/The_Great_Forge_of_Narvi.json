@@ -1,8 +1,8 @@
 {
   "bubble_name": "The_Great_Forge_of_Narvi",
-  "bd_stem": "BD_BB_The_Great_Forge_of_Narvi",
+  "bd_stem": "BD_BB_Chapter2_ElvenQuarterPromenade",
   "uasset_files": [
-    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_The_Great_Forge_of_Narvi.uasset"
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter2_ElvenQuarterPromenade.uasset"
   ],
   "global_type_rules": [
     {
@@ -496,10 +496,353 @@
     },
     {
       "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_A-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_B-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_C-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_L-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_R-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_Detail-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_F-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_G-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_H-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_I-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_J-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_B-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_E-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalCage-MI_Suburbs_Trim_Sheet_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_L-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_A-MI_Orc_Scaffolding_Poles-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Remains_Bones_Assemblage_C-MI_Orc_Shanty_Midden_Mat_Inst2-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_A-MI_Ruin_Wall_IndStone2-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone1-MI_Rubble_Masonry_Pile_06_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Drake_NestBase_DirtMound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_A-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_B-MI_ArchSimple_Stone_Floor_A_MAT-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_Broken-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_ArchSimple_Stone_Floor_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_A-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_B-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
-  "position_entries": [],
+  "position_entries": [
+    {
+      "mesh": "Rubble_Masonry_Pile_B-MI_Rubble_Masonry_Pile_Atlas_Inst_A-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24250.35,
+        122135.0,
+        6360.0
+      ],
+      "local": [
+        8400.35,
+        23435.0,
+        4660.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24276.97,
+        122201.61,
+        6305.0
+      ],
+      "local": [
+        8426.97,
+        23501.61,
+        4605.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24245.6,
+        122136.0,
+        6290.0
+      ],
+      "local": [
+        8395.6,
+        23436.0,
+        4590.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24274.72,
+        122017.65,
+        6292.04
+      ],
+      "local": [
+        8424.72,
+        23317.65,
+        4592.04
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_A-MI_Ruin_Wall_IndStone2-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone1-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24265.83,
+        122162.0,
+        6261.27
+      ],
+      "local": [
+        8415.83,
+        23462.0,
+        4561.27
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24306.45,
+        122232.3,
+        6455.81
+      ],
+      "local": [
+        8456.45,
+        23532.3,
+        4755.81
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_Pile_A-MI_Rubble_Masonry_Pile_Atlas_Inst_B-MI_Rubble_Masonry_Pile_Atlas_Inst_A-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24235.0,
+        122285.0,
+        6305.0
+      ],
+      "local": [
+        8385.0,
+        23585.0,
+        4605.0
+      ]
+    },
+    {
+      "mesh": "Ruins_Stairs_Small_D-MI_Suburbs_Stairs_01-MI_Suburbs_Stairs_02-MI_Rubble_Masonry_Pile_Base_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24296.51,
+        122150.0,
+        6448.53
+      ],
+      "local": [
+        8446.51,
+        23450.0,
+        4748.53
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23888.54,
+        122316.57,
+        6078.1
+      ],
+      "local": [
+        8038.54,
+        23616.57,
+        4378.1
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        24041.58,
+        122296.0,
+        6111.9
+      ],
+      "local": [
+        8191.58,
+        23596.0,
+        4411.9
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_Pile_B-MI_Rubble_Masonry_Pile_Atlas_Inst_A-MI_Rubble_Masonry_Pile_Atlas_Inst_B-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23526.39,
+        122309.92,
+        6305.0
+      ],
+      "local": [
+        7676.39,
+        23609.92,
+        4605.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23435.48,
+        122365.2,
+        6300.0
+      ],
+      "local": [
+        7585.48,
+        23665.2,
+        4600.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23414.8,
+        122489.12,
+        6300.0
+      ],
+      "local": [
+        7564.8,
+        23789.12,
+        4600.0
+      ]
+    },
+    {
+      "mesh": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23328.86,
+        122550.73,
+        6300.0
+      ],
+      "local": [
+        7478.86,
+        23850.73,
+        4600.0
+      ]
+    },
+    {
+      "mesh": "City_Stairs_Trim_3M-MI_Suburb_Stairs_Trim_3M_Dest-Destructible-3F-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23305.01,
+        122807.62,
+        6325.0
+      ],
+      "local": [
+        7455.01,
+        24107.62,
+        4625.0
+      ]
+    },
+    {
+      "mesh": "Ruin_Wall_Trim_B_2m_R-MI_Ruin_Wall_Trim_B_01_Inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23340.0,
+        122563.65,
+        6285.3
+      ],
+      "local": [
+        7490.0,
+        23863.65,
+        4585.3
+      ]
+    },
+    {
+      "mesh": "Suburbs_Floor_3x3m_AA_Broken-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Narvi",
+      "bubbleName": "The Great Forge of Narvi",
+      "world": [
+        23458.19,
+        122450.0,
+        6300.0
+      ],
+      "local": [
+        7608.19,
+        23750.0,
+        4600.0
+      ]
+    }
+  ],
   "summary": {
     "global_type_rule_count": 164,
     "bubble_type_rule_count": 0,
@@ -607,5 +950,5 @@
       ]
     }
   ],
-  "bd_stem_note": "Objects are in BD_BB_Chapter2_ElvenQuarterPromenade (The_Elven_Quarter). Entries moved there."
+  "bd_stem_note": "Was BD_BB_The_Great_Forge_of_Narvi, corrected to BD_BB_Chapter2_ElvenQuarterPromenade (verified 17/17 match)"
 }

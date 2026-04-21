@@ -497,6 +497,93 @@
     },
     {
       "typeRule": "Suburbs_Dirt_Mound_D-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_A-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_B-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_C-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_L-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_D_R-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_Detail-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_F-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_G-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_H-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_I-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalBrace_J-MI_Deep_MetalBrace-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_B-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_BoneHoard_E-BoneHoard_Bone_Mount_Inst1-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_MetalCage-MI_Suburbs_Trim_Sheet_B-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Deep_WoodenBeam_B-MI_Deep_WoodTrim-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_L-MI_Mines_Dirt-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_1m_A-MI_Orc_Scaffolding_Poles-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Remains_Bones_Assemblage_C-MI_Orc_Shanty_Midden_Mat_Inst2-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_A-MI_Ruin_Wall_IndStone2-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone1-MI_Rubble_Masonry_Pile_06_Inst-Destructible-3F-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_B-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Rubble_Masonry_large_F-MI_Ruin_Wall_IndStone1-MI_Ruin_Wall_IndStone3-MI_Ruin_Wall_IndStone2-MI_Rubble_Masonry_Pile_06_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Drake_NestBase_DirtMound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_A-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_B-MI_ArchSimple_Stone_Floor_A_MAT-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_Broken-MI_ArchSimple_Stone_Foundation_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "SM_AR_Floor_Stone_100x100x010_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_ArchSimple_Stone_Floor_A_MAT-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_A-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_B-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -504,7 +591,7 @@
     {
       "mesh": "Blockage_Edge_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         40687.54,
         76366.27,
@@ -519,7 +606,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81110.0,
         95737.01,
@@ -534,7 +621,7 @@
     {
       "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81145.0,
         95552.01,
@@ -549,7 +636,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81210.0,
         95657.01,
@@ -564,7 +651,7 @@
     {
       "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         80970.0,
         95852.01,
@@ -579,7 +666,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81185.0,
         96170.0,
@@ -594,7 +681,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81315.0,
         96130.0,
@@ -609,7 +696,7 @@
     {
       "mesh": "Dirt_Mound_H-MI_Mines_Dirt-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         80976.72,
         95769.98,
@@ -624,7 +711,7 @@
     {
       "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81130.0,
         95075.0,
@@ -639,7 +726,7 @@
     {
       "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81135.0,
         94925.0,
@@ -654,7 +741,7 @@
     {
       "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81280.0,
         94880.0,
@@ -669,7 +756,7 @@
     {
       "mesh": "Dirt_Mound_C-MI_Mines_Dirt-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         81095.0,
         94735.0,
@@ -684,7 +771,7 @@
     {
       "mesh": "Blockage_Edge_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
       "bubble": "Gate_to_Durins_Highway",
-      "bubbleName": "Gate to Durin\u2019s Highway",
+      "bubbleName": "Gate to Durin’s Highway",
       "world": [
         40687.54,
         76366.27,

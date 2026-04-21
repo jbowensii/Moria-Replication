@@ -1,9 +1,8 @@
 {
-  "bubble_name": "Misty_Mountain_Forge",
-  "bd_stem": "BD_BB_Misty_Mountain_Forge",
+  "bubble_name": "The_Well_of_Shadows",
+  "bd_stem": "BD_BB_Chapter5_BrokenSeal",
   "uasset_files": [
-    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Misty_Mountain_Forge.uasset",
-    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Misty_Mountain_Forge.uasset"
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter5_BrokenSeal.uasset"
   ],
   "global_type_rules": [
     {
@@ -589,127 +588,80 @@
   "bubble_type_rules": [],
   "position_entries": [
     {
-      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
-      "bubble": "unknown",
-      "bubbleName": "",
+      "mesh": "Defiled_Statues_A_Damaged_D-MI_ArchSimple_Stone_Damaged_A_MAT-MI_Defiled_Statues_A-BlockAll-dcl-L100",
+      "bubble": "The_Well_of_Shadows",
+      "bubbleName": "The Well of Shadows",
       "world": [
-        139975.62,
-        70425.98,
-        5607.6
+        70118.38,
+        13626.38,
+        -831.69
       ],
       "local": [
-        -3874.38,
-        3725.98,
-        707.6
+        3068.38,
+        4526.38,
+        668.31
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_C-MI_Defiled_Statues_A-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100",
+      "bubble": "The_Well_of_Shadows",
+      "bubbleName": "The Well of Shadows",
+      "world": [
+        69918.38,
+        13395.32,
+        -758.57
+      ],
+      "local": [
+        2868.38,
+        4295.32,
+        741.43
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_E-MI_Defiled_Statues_A-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100",
+      "bubble": "The_Well_of_Shadows",
+      "bubbleName": "The Well of Shadows",
+      "world": [
+        70025.42,
+        13505.24,
+        -921.4
+      ],
+      "local": [
+        2975.42,
+        4405.24,
+        578.6
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_B-MI_Defiled_Statues_A-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100",
+      "bubble": "The_Well_of_Shadows",
+      "bubbleName": "The Well of Shadows",
+      "world": [
+        70168.61,
+        13655.32,
+        -730.67
+      ],
+      "local": [
+        3118.61,
+        4555.32,
+        769.33
+      ]
+    },
+    {
+      "mesh": "Defiled_Statues_A_Damaged_A-MI_Defiled_Statues_A-MI_ArchSimple_Stone_Damaged_A_MAT-BlockAll-dcl-L100",
+      "bubble": "The_Well_of_Shadows",
+      "bubbleName": "The Well of Shadows",
+      "world": [
+        70310.28,
+        13707.45,
+        -516.18
+      ],
+      "local": [
+        3260.28,
+        4607.45,
+        983.82
       ]
     }
   ],
-  "summary": {
-    "global_type_rule_count": 164,
-    "bubble_type_rule_count": 0,
-    "position_entry_count": 1,
-    "total_entries": 165
-  },
-  "resolved_unknown_count": 1,
-  "tracked_items": [
-    {
-      "category": "Rugs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Rug_End_3M-BlockAll-dcl-L100",
-        "Rug_Flat_3M-BlockAll-dcl-L100",
-        "Rug_Flat_6M-BlockAll-dcl-L100",
-        "Rug_Single-BlockAll-dcl-L100",
-        "Rug_Stair_1x3M-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Banners",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SM_BannerPole-BlockAll-dcl-L100",
-        "SM_Banner_AA-BlockAll-dcl-L100",
-        "SM_Banner_BB-BlockAll-dcl-L100",
-        "OrcBanner-BlockAll-dcl-L100",
-        "Warren_lighting_Banner-BlockAll-dcl-L100",
-        "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100",
-        "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Tapestries",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Dwelling_Tapestry-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Spider Webs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SpiderWeb-BlockAll-dcl-L100",
-        "SpiderWeb3_placeholder-BlockAll-dcl-L100",
-        "SpiderWeb_Mines-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Decorative Weapons",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "D_Weapon_IronHills-BlockAll-dcl-L100",
-        "D_Weapon_Khazad-BlockAll-dcl-L100",
-        "D_Weapon_Steel-BlockAll-dcl-L100",
-        "D_Weapon_Rohan-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Scaffolding (Open)",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Garden Ivy",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Weapon/Armor Racks",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "WeaponRack-BlockAll-dcl-L100",
-        "BP_ItemRack_Weapons-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Structural Walls (DO NOT REMOVE)",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
-        "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Commented/Disabled Rules",
-      "status": "disabled",
-      "scope": "mixed",
-      "rules": [
-        "Aftermath | @Suburbs_Floor_3x3m_AA_Broken-BlockAll-dcl-L100",
-        "Aftermath | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100",
-        "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
-      ]
-    }
-  ]
+  "tracked_items": []
 }

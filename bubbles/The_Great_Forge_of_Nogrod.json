@@ -1,9 +1,8 @@
 {
-  "bubble_name": "Misty_Mountain_Forge",
-  "bd_stem": "BD_BB_Misty_Mountain_Forge",
+  "bubble_name": "The_Great_Forge_of_Nogrod",
+  "bd_stem": "BD_BB_Chapter4_NogrodForge",
   "uasset_files": [
-    "C:\\Users\\johnb\\OneDrive\\Documents\\Projects\\Moria-Replication\\tools\\legacy-assets\\Moria\\Content\\Tech\\Data\\Bubbles\\GameWorldCatalog\\BD_BB_Misty_Mountain_Forge.uasset",
-    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Misty_Mountain_Forge.uasset"
+    "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter4_NogrodForge.uasset"
   ],
   "global_type_rules": [
     {
@@ -589,127 +588,200 @@
   "bubble_type_rules": [],
   "position_entries": [
     {
-      "mesh": "Dirt_Mound_B-Suburbs_Dirt_Inst-BlockAll-dcl-L100",
-      "bubble": "unknown",
-      "bubbleName": "",
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
       "world": [
-        139975.62,
-        70425.98,
-        5607.6
+        100173.97,
+        84375.48,
+        -682.11
       ],
       "local": [
-        -3874.38,
-        3725.98,
-        707.6
+        1123.97,
+        4875.48,
+        817.89
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        100342.34,
+        84253.73,
+        -688.77
+      ],
+      "local": [
+        1292.34,
+        4753.73,
+        811.23
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        100271.68,
+        84462.88,
+        -172.25
+      ],
+      "local": [
+        1221.68,
+        4962.88,
+        1327.75
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        100309.33,
+        84447.48,
+        -290.05
+      ],
+      "local": [
+        1259.33,
+        4947.48,
+        1209.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        101189.33,
+        84026.55,
+        -110.05
+      ],
+      "local": [
+        2139.33,
+        4526.55,
+        1389.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        101189.51,
+        83906.55,
+        -54.07
+      ],
+      "local": [
+        2139.51,
+        4406.55,
+        1445.93
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        101356.36,
+        83931.11,
+        -78.12
+      ],
+      "local": [
+        2306.36,
+        4431.11,
+        1421.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x4x4_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        101171.66,
+        84001.08,
+        -20.08
+      ],
+      "local": [
+        2121.66,
+        4501.08,
+        1479.92
+      ]
+    },
+    {
+      "mesh": "SM_AR_Suburbs_WallThick_Ruined_100x200x300_C-MI_ArchSimple_Stone_Damaged_A_MAT-MI_Suburbs_Wall_Non_Dest-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        101348.62,
+        83844.08,
+        72.93
+      ],
+      "local": [
+        2298.62,
+        4344.08,
+        1572.93
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        103414.88,
+        83905.91,
+        -649.72
+      ],
+      "local": [
+        4364.88,
+        4405.91,
+        850.28
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        103419.7,
+        83991.72,
+        -562.08
+      ],
+      "local": [
+        4369.7,
+        4491.72,
+        937.92
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x5_B-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        103408.12,
+        84084.57,
+        -494.8
+      ],
+      "local": [
+        4358.12,
+        4584.57,
+        1005.2
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Great_Forge_of_Nogrod",
+      "bubbleName": "The Great Forge of Nogrod",
+      "world": [
+        103158.83,
+        84455.23,
+        -604.34
+      ],
+      "local": [
+        4108.83,
+        4955.23,
+        895.66
       ]
     }
   ],
-  "summary": {
-    "global_type_rule_count": 164,
-    "bubble_type_rule_count": 0,
-    "position_entry_count": 1,
-    "total_entries": 165
-  },
-  "resolved_unknown_count": 1,
-  "tracked_items": [
-    {
-      "category": "Rugs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Rug_End_3M-BlockAll-dcl-L100",
-        "Rug_Flat_3M-BlockAll-dcl-L100",
-        "Rug_Flat_6M-BlockAll-dcl-L100",
-        "Rug_Single-BlockAll-dcl-L100",
-        "Rug_Stair_1x3M-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Banners",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SM_BannerPole-BlockAll-dcl-L100",
-        "SM_Banner_AA-BlockAll-dcl-L100",
-        "SM_Banner_BB-BlockAll-dcl-L100",
-        "OrcBanner-BlockAll-dcl-L100",
-        "Warren_lighting_Banner-BlockAll-dcl-L100",
-        "BP_DM_Deco_Orc_Banner-BlockAll-dcl-L100",
-        "BP_DM_Warren_lighting_Banner-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Tapestries",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "Dwelling_Tapestry-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Spider Webs",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "SpiderWeb-BlockAll-dcl-L100",
-        "SpiderWeb3_placeholder-BlockAll-dcl-L100",
-        "SpiderWeb_Mines-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Decorative Weapons",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "D_Weapon_IronHills-BlockAll-dcl-L100",
-        "D_Weapon_Khazad-BlockAll-dcl-L100",
-        "D_Weapon_Steel-BlockAll-dcl-L100",
-        "D_Weapon_Rohan-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Scaffolding (Open)",
-      "status": "removing",
-      "scope": "global",
-      "rules": [
-        "AB_Mines_Scaffolding_Platform_3x3x3_Open-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Garden Ivy",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "Garden_Ivy_Fance-MI_Mines_Scaffolding_C_Mat-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Weapon/Armor Racks",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "WeaponRack-BlockAll-dcl-L100",
-        "BP_ItemRack_Weapons-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Structural Walls (DO NOT REMOVE)",
-      "status": "tracked",
-      "scope": "global",
-      "rules": [
-        "PWM_Quarry_4x4x4_A-ProcMaterial_City_4m_Floor-BlockAll-dcl-L100",
-        "PWM_Quarry_4x5x10-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100"
-      ]
-    },
-    {
-      "category": "Commented/Disabled Rules",
-      "status": "disabled",
-      "scope": "mixed",
-      "rules": [
-        "Aftermath | @Suburbs_Floor_3x3m_AA_Broken-BlockAll-dcl-L100",
-        "Aftermath | @Suburbs_Floor_3x3m_AB_Broken-BlockAll-dcl-L100",
-        "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
-      ]
-    }
-  ]
+  "tracked_items": []
 }
