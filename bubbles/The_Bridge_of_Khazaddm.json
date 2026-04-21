@@ -1,6 +1,6 @@
 {
   "bubble_name": "The_Bridge_of_Khazaddm",
-  "bd_stem": "BD_BB_The_Bridge_of_Khazaddm",
+  "bd_stem": "BD_BB_Chapter4_BalrogsWake",
   "uasset_files": [
     "Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_The_Bridge_of_Khazaddm.uasset"
   ],
@@ -268,6 +268,15 @@
     },
     {
       "typeRule": "Dirt_Mound_I-generic-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_K-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_Flat_D-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Fort_9X9_Mound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -1609,5 +1618,6 @@
         "Aftermath | @BP_BurningDebris-BlockAll-dcl-L100"
       ]
     }
-  ]
+  ],
+  "bd_stem_note": "Originally BD_BB_The_Bridge_of_Khazaddm (no matching file). Objects found in BD_BB_Chapter4_BalrogsWake (3rd bubble in this uasset)."
 }

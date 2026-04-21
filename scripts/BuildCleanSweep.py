@@ -47,7 +47,7 @@ UASSETGUI_EXE = PROJECT_ROOT / 'tools' / 'UAssetGUI' / 'UAssetGUI.exe'
 UE_VERSION = 'VER_UE4_27'       # for UAssetGUI tojson/fromjson
 RETOC_VERSION = 'UE4_27'        # for retoc to-zen (no VER_ prefix)
 
-CLEANSWEEP_VERSION = '2.6.2'    # Mod version — update on each release
+CLEANSWEEP_VERSION = '2.6.3'    # Mod version — update on each release
 
 # Import the removal engine from bubble_data_remover
 sys.path.insert(0, str(SCRIPT_DIR))

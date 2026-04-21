@@ -458,6 +458,15 @@
     },
     {
       "typeRule": "BP_DM_Mine_tailings_Debris-Breakable-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Dirt_Mound_K-Sururbs_Dirt_DarkELQ_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Suburbs_Dirt_Mound_Flat_D-MI_DirtMound_Mines-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Fort_9X9_Mound-Suburbs_Dirt_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
