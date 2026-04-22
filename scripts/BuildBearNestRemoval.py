@@ -3,14 +3,17 @@
 BuildBearNestRemoval.py — Build the BearNestRemoval mod pak.
 
 Two-pronged approach to removing bear nest visuals:
-  A) Replace 3 BearNest_Deco_PH mesh files with a tiny invisible mesh
+  A) Replace 18 deco mesh files with per-target Debris replacements
+     (each has correct internal package name + export ObjectName to
+     avoid IoStore FNameEntry crashes during async loading)
   B) Strip deco mesh batches from PD_CPF_BearNest prefab data so the
      rubble, bones, dirt, and midden surrounding the nest aren't spawned
 
 Bears still spawn — only the visual decoration is removed.
 
 Pipeline:
-  1. Copy cooked Debris .uasset/.uexp as replacements for deco meshes
+  1. Convert Debris template to JSON, create per-target replacement
+     meshes with correct internal names via tojson/fromjson
   2. UAssetGUI tojson on original PD_CPF_BearNest.uasset
   3. Strip unwanted InstancedMeshCatalog batches from the JSON
   4. UAssetGUI fromjson → modified PD_CPF_BearNest.uasset/.uexp
@@ -62,7 +65,7 @@ UASSETGUI_EXE = PROJECT_ROOT / 'tools' / 'UAssetGUI' / 'UAssetGUI.exe'
 UE_VERSION = 'VER_UE4_27'       # for UAssetGUI tojson/fromjson
 RETOC_VERSION = 'UE4_27'        # for retoc to-zen (no VER_ prefix)
 
-MOD_VERSION = '1.1.2'
+MOD_VERSION = '1.2.0'
 PAK_NAME_DECO = 'BearNestDeco_P'      # Deco mesh replacements (invisible Debris)
 PAK_NAME_PD = 'BearNestPrefab_P'      # Modified prefab data (stripped batches)
 
@@ -210,17 +213,55 @@ def should_strip_batch(mesh_name, strip_patterns):
     return False
 
 
-def move_instance_underground(instance):
-    """Move a mesh instance's Translation to Z=-999999 so it never renders."""
-    for prop in instance.get('Value', []):
-        if prop.get('Name') == 'Transform':
-            for tprop in prop.get('Value', []):
-                if tprop.get('Name') == 'Translation':
-                    for vprop in tprop.get('Value', []):
-                        if '$type' in vprop and 'VectorPropertyData' in vprop['$type']:
-                            vprop['Value']['Z'] = -999999.0
-                            return True
-    return False
+def create_replacement_mesh(debris_json_template, mesh_name, subpath, work_dir):
+    """Create a per-target Debris replacement with correct internal names.
+
+    The Debris mesh has internal name "/Game/Debris" + export "Debris".
+    IoStore requires the internal package name and export ObjectName to match
+    what other packages expect when they import this asset.  Mismatched names
+    cause ACCESS_VIOLATION in FNameEntry::AppendNameToString during loading.
+
+    Returns (uasset_path, uexp_path) or None on failure.
+    """
+    import copy
+    data = copy.deepcopy(debris_json_template)
+
+    # Build the /Game/... package path from the staging subpath
+    game_path = f'/Game/{subpath}/{mesh_name}'
+
+    # --- Fix NameMap ---
+    nm = data.get('NameMap', [])
+    for i, entry in enumerate(nm):
+        if entry == '/Game/Debris':
+            nm[i] = game_path
+        elif entry == 'Debris':
+            nm[i] = mesh_name
+
+    # --- Fix FolderName ---
+    data['FolderName'] = game_path
+
+    # --- Fix export ObjectName (export index 2 = the StaticMesh) ---
+    for exp in data.get('Exports', []):
+        if exp.get('ObjectName') == 'Debris':
+            exp['ObjectName'] = mesh_name
+
+    # --- Save modified JSON ---
+    json_path = work_dir / f'{mesh_name}_replacement.json'
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2)
+
+    # --- fromjson → .uasset/.uexp ---
+    out_uasset = work_dir / f'{mesh_name}.uasset'
+    if not run_uassetgui_fromjson(json_path, out_uasset):
+        log(f"    FAIL: Could not build replacement for {mesh_name}")
+        return None
+
+    out_uexp = out_uasset.with_suffix('.uexp')
+    if not out_uasset.exists() or not out_uexp.exists():
+        log(f"    FAIL: fromjson missing output for {mesh_name}")
+        return None
+
+    return out_uasset, out_uexp
 
 
 def strip_catalog_batches(properties, catalog_name, strip_patterns, imports):
@@ -398,15 +439,35 @@ def main():
     log("  Done.\n")
 
     # -----------------------------------------------------------------------
-    # Step 3: Stage deco mesh replacements (Debris → BearNest_Deco_PH etc.)
+    # Step 3: Build per-target Debris replacements with correct internal names
     # -----------------------------------------------------------------------
-    log("[3/8] Staging deco mesh replacements...")
+    log("[3/8] Building per-target Debris replacements...")
+
+    # Load the Debris template JSON once
+    debris_template_json = WORK_DIR / 'Debris_template.json'
+    log("  Converting Debris template to JSON...")
+    if not run_uassetgui_tojson(DEBRIS_UASSET, debris_template_json):
+        log("  ERROR: Could not convert Debris.uasset to JSON template")
+        sys.exit(1)
+    with open(debris_template_json, 'r', encoding='utf-8') as f:
+        debris_template = json.load(f)
+
+    # Create a customised replacement for each target mesh
+    replacement_work = WORK_DIR / 'replacements'
+    replacement_work.mkdir(exist_ok=True)
 
     for mesh_name, subpath in DECO_MESH_REPLACEMENTS:
+        result = create_replacement_mesh(debris_template, mesh_name, subpath, replacement_work)
+        if result is None:
+            log(f"  ERROR: Failed to create replacement for {mesh_name}")
+            sys.exit(1)
+        uasset_path, uexp_path = result
+
+        # Stage under correct content path
         dest_dir = STAGING_DECO / 'Moria' / 'Content' / subpath
         dest_dir.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(DEBRIS_UASSET, dest_dir / f'{mesh_name}.uasset')
-        shutil.copy2(DEBRIS_UEXP, dest_dir / f'{mesh_name}.uexp')
+        shutil.copy2(uasset_path, dest_dir / f'{mesh_name}.uasset')
+        shutil.copy2(uexp_path, dest_dir / f'{mesh_name}.uexp')
         log(f"  Staged: {subpath}/{mesh_name}")
 
     log()
@@ -497,7 +558,7 @@ def main():
             vdata = json.load(f)
         exports = vdata.get('Exports', [])
         if exports:
-            for prop in exports[0].get('Value', []):
+            for prop in exports[0].get('Data', []):
                 if prop.get('Name') == 'InstancedMeshCatalog':
                     for ce in prop.get('Value', []):
                         if ce.get('Name') == 'Batches':
