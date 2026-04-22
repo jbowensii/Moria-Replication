@@ -300,12 +300,6 @@
       "typeRule": "Dirt_Mound_M-City_Dirt_Inst-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_L-MI_Orc_Fort_Metal_A-MI_Orc_Fort_Metal_E-Orc_Fort_A-Orc_Fort_B_Darker-Orc_Fort_C-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_R-Orc_Fort_C-Orc_Fort_B_Darker-Orc_Fort_A-MI_Orc_Fort_Metal_E-MI_Orc_Fort_Metal_A-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
       "typeRule": "Orc_Boards_2x3m-MI_Orc_Scaffolding_Platforms_Inst-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
     },
     {
@@ -583,6 +577,18 @@
     },
     {
       "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Post_A_Medium-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_Large_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Barricade_Palisade-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -7455,6 +7461,171 @@
         4176.14,
         8178.18,
         5061.02
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        66186.04,
+        56918.68,
+        -710.05
+      ],
+      "local": [
+        5536.04,
+        9418.68,
+        3989.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        65931.88,
+        57121.92,
+        -703.97
+      ],
+      "local": [
+        5281.88,
+        9621.92,
+        3996.03
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        65889.94,
+        57286.28,
+        -726.12
+      ],
+      "local": [
+        5239.94,
+        9786.28,
+        3973.88
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        65651.55,
+        57274.82,
+        -694.23
+      ],
+      "local": [
+        5001.55,
+        9774.82,
+        4005.77
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        64992.16,
+        57143.88,
+        -691.69
+      ],
+      "local": [
+        4342.16,
+        9643.88,
+        4008.31
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        64906.3,
+        55974.47,
+        -710.05
+      ],
+      "local": [
+        4256.3,
+        8474.47,
+        3989.95
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        64919.39,
+        55827.83,
+        -687.17
+      ],
+      "local": [
+        4269.39,
+        8327.83,
+        4012.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        65097.85,
+        55747.21,
+        -680.2
+      ],
+      "local": [
+        4447.85,
+        8247.21,
+        4019.8
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-Destructible-3F-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        64504.07,
+        56114.66,
+        -554.23
+      ],
+      "local": [
+        3854.07,
+        8614.66,
+        4145.77
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-Destructible-3F-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        65474.14,
+        58657.3,
+        -380.02
+      ],
+      "local": [
+        4824.14,
+        11157.3,
+        4319.98
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Mithril_Lode",
+      "bubbleName": "The Mithril Lode",
+      "world": [
+        65468.96,
+        58871.11,
+        -398.61
+      ],
+      "local": [
+        4818.96,
+        11371.11,
+        4301.39
       ]
     }
   ],

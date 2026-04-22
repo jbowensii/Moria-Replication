@@ -301,12 +301,6 @@
       "typeRule": "Dirt_Mound_M-City_Dirt_Inst-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_L-MI_Orc_Fort_Metal_A-MI_Orc_Fort_Metal_E-Orc_Fort_A-Orc_Fort_B_Darker-Orc_Fort_C-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_R-Orc_Fort_C-Orc_Fort_B_Darker-Orc_Fort_A-MI_Orc_Fort_Metal_E-MI_Orc_Fort_Metal_A-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
       "typeRule": "Orc_Boards_2x3m-MI_Orc_Scaffolding_Platforms_Inst-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
     },
     {
@@ -584,6 +578,18 @@
     },
     {
       "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Post_A_Medium-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_Large_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Barricade_Palisade-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -1126,6 +1132,96 @@
         -2236.96,
         2041.8,
         657.97
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Upper_Armories_of_Third_Deep",
+      "bubbleName": "The Upper Armories of Third Deep",
+      "world": [
+        161114.64,
+        103433.66,
+        -1433.37
+      ],
+      "local": [
+        4464.64,
+        4733.66,
+        3266.63
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_4x3x10_A-ProcMaterial_Quarry_Atlas_A-BlockAll-dcl-L100",
+      "bubble": "The_Upper_Armories_of_Third_Deep",
+      "bubbleName": "The Upper Armories of Third Deep",
+      "world": [
+        160955.52,
+        103678.58,
+        -1440.0
+      ],
+      "local": [
+        4305.52,
+        4978.58,
+        3260.0
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Upper_Armories_of_Third_Deep",
+      "bubbleName": "The Upper Armories of Third Deep",
+      "world": [
+        160798.22,
+        103823.29,
+        -1317.57
+      ],
+      "local": [
+        4148.22,
+        5123.29,
+        3382.43
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Upper_Armories_of_Third_Deep",
+      "bubbleName": "The Upper Armories of Third Deep",
+      "world": [
+        161435.97,
+        103263.91,
+        -1443.9
+      ],
+      "local": [
+        4785.97,
+        4563.91,
+        3256.1
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Upper_Armories_of_Third_Deep",
+      "bubbleName": "The Upper Armories of Third Deep",
+      "world": [
+        161170.12,
+        103626.39,
+        -1620.15
+      ],
+      "local": [
+        4520.12,
+        4926.39,
+        3079.85
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Upper_Armories_of_Third_Deep",
+      "bubbleName": "The Upper Armories of Third Deep",
+      "world": [
+        161060.0,
+        103829.92,
+        -1644.57
+      ],
+      "local": [
+        4410.0,
+        5129.92,
+        3055.43
       ]
     }
   ],

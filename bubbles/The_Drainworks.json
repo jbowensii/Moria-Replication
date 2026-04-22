@@ -301,12 +301,6 @@
       "typeRule": "Dirt_Mound_M-City_Dirt_Inst-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_L-MI_Orc_Fort_Metal_A-MI_Orc_Fort_Metal_E-Orc_Fort_A-Orc_Fort_B_Darker-Orc_Fort_C-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_R-Orc_Fort_C-Orc_Fort_B_Darker-Orc_Fort_A-MI_Orc_Fort_Metal_E-MI_Orc_Fort_Metal_A-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
       "typeRule": "Orc_Boards_2x3m-MI_Orc_Scaffolding_Platforms_Inst-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
     },
     {
@@ -584,6 +578,18 @@
     },
     {
       "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Post_A_Medium-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_Large_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Barricade_Palisade-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -601,6 +607,66 @@
         -6264.42,
         5473.84,
         1060.68
+      ]
+    },
+    {
+      "mesh": "Mines_Machine_Whim_Main_Post_D-MI_Mines_Machine_Whim_Trim-MI_Mines_Machine_Whim_Uniq-BlockAll-dcl-L100",
+      "bubble": "The_Great_Drain_Pumps_of_the_Lower_Deeps",
+      "bubbleName": "The Great Drain Pumps of the Lower Deeps",
+      "world": [
+        100364.31,
+        139911.08,
+        -12292.7
+      ],
+      "local": [
+        7714.31,
+        15611.08,
+        2007.3
+      ]
+    },
+    {
+      "mesh": "Mines_Machine_Whim_Main_Post_D-MI_Mines_Machine_Whim_Trim-MI_Mines_Machine_Whim_Uniq-BlockAll-dcl-L100",
+      "bubble": "The_Great_Drain_Pumps_of_the_Lower_Deeps",
+      "bubbleName": "The Great Drain Pumps of the Lower Deeps",
+      "world": [
+        100535.88,
+        139290.16,
+        -12204.17
+      ],
+      "local": [
+        7885.88,
+        14990.16,
+        2095.83
+      ]
+    },
+    {
+      "mesh": "Mines_Machine_Whim_Main_Post_E-MI_Mines_Machine_Whim_Uniq-BlockAll-dcl-L100",
+      "bubble": "The_Great_Drain_Pumps_of_the_Lower_Deeps",
+      "bubbleName": "The Great Drain Pumps of the Lower Deeps",
+      "world": [
+        100380.0,
+        139990.0,
+        -12140.0
+      ],
+      "local": [
+        7730.0,
+        15690.0,
+        2160.0
+      ]
+    },
+    {
+      "mesh": "Mines_Machine_WaterWheel-MI_Mines_Machine_Whim_Trim-MI_Mines_Machine_Whim_Uniq-BlockAll-dcl-L100",
+      "bubble": "The_Great_Drain_Pumps_of_the_Lower_Deeps",
+      "bubbleName": "The Great Drain Pumps of the Lower Deeps",
+      "world": [
+        100200.0,
+        139990.0,
+        -12140.0
+      ],
+      "local": [
+        7550.0,
+        15690.0,
+        2160.0
       ]
     }
   ],

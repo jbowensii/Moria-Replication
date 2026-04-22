@@ -301,12 +301,6 @@
       "typeRule": "Dirt_Mound_M-City_Dirt_Inst-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_L-MI_Orc_Fort_Metal_A-MI_Orc_Fort_Metal_E-Orc_Fort_A-Orc_Fort_B_Darker-Orc_Fort_C-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_R-Orc_Fort_C-Orc_Fort_B_Darker-Orc_Fort_A-MI_Orc_Fort_Metal_E-MI_Orc_Fort_Metal_A-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
       "typeRule": "Orc_Boards_2x3m-MI_Orc_Scaffolding_Platforms_Inst-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
     },
     {
@@ -584,6 +578,18 @@
     },
     {
       "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Post_A_Medium-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_Large_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Barricade_Palisade-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],

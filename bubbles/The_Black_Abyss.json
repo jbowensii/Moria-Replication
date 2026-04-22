@@ -300,12 +300,6 @@
       "typeRule": "Dirt_Mound_M-City_Dirt_Inst-BlockAll-dcl-L100"
     },
     {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_L-MI_Orc_Fort_Metal_A-MI_Orc_Fort_Metal_E-Orc_Fort_A-Orc_Fort_B_Darker-Orc_Fort_C-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
-      "typeRule": "KhazadDum_Orc_Bridge_DoorFrame_R-Orc_Fort_C-Orc_Fort_B_Darker-Orc_Fort_A-MI_Orc_Fort_Metal_E-MI_Orc_Fort_Metal_A-BlockAllDynamic-3F-dcl-L100"
-    },
-    {
       "typeRule": "Orc_Boards_2x3m-MI_Orc_Scaffolding_Platforms_Inst-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
     },
     {
@@ -583,6 +577,18 @@
     },
     {
       "typeRule": "Suburbs_Floor_3x3m_Detail_C-MI_Suburbs_Floor_A_inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Palissade_Post_A_Medium-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Scaffolding_Post_3m_D-MI_Orc_Scaffolding_Poles-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Post_Large_B-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
+    },
+    {
+      "typeRule": "Orc_Barricade_Palisade-MI_Orc_Palissade_Mat_Inst-BlockAll-dcl-L100"
     }
   ],
   "bubble_type_rules": [],
@@ -1830,6 +1836,291 @@
         -2775.72,
         9515.96,
         4016.0
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        165825.95,
+        102103.94,
+        -10827.2
+      ],
+      "local": [
+        2775.95,
+        3403.94,
+        6672.8
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        165905.61,
+        102153.89,
+        -10839.34
+      ],
+      "local": [
+        2855.61,
+        3453.89,
+        6660.66
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164987.95,
+        101904.32,
+        -10620.83
+      ],
+      "local": [
+        1937.95,
+        3204.32,
+        6879.17
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        165038.89,
+        101808.77,
+        -10734.38
+      ],
+      "local": [
+        1988.89,
+        3108.77,
+        6765.62
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_Floor_2x2x2_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164878.59,
+        101823.38,
+        -10553.21
+      ],
+      "local": [
+        1828.59,
+        3123.38,
+        6946.79
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164916.61,
+        101999.03,
+        -10578.19
+      ],
+      "local": [
+        1866.61,
+        3299.03,
+        6921.81
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        165763.78,
+        99698.99,
+        -5468.52
+      ],
+      "local": [
+        2713.78,
+        998.99,
+        12031.48
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        165765.59,
+        99829.3,
+        -5541.01
+      ],
+      "local": [
+        2715.59,
+        1129.3,
+        11958.99
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164617.25,
+        100136.95,
+        -4574.21
+      ],
+      "local": [
+        1567.25,
+        1436.95,
+        12925.79
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164489.86,
+        99951.85,
+        -4666.41
+      ],
+      "local": [
+        1439.86,
+        1251.85,
+        12833.59
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164549.2,
+        100033.63,
+        -4643.44
+      ],
+      "local": [
+        1499.2,
+        1333.63,
+        12856.56
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164664.97,
+        99983.53,
+        -4666.17
+      ],
+      "local": [
+        1614.97,
+        1283.53,
+        12833.83
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164728.33,
+        100165.75,
+        -4592.01
+      ],
+      "local": [
+        1678.33,
+        1465.75,
+        12907.99
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164758.55,
+        100054.02,
+        -4604.75
+      ],
+      "local": [
+        1708.55,
+        1354.02,
+        12895.25
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164576.28,
+        100095.8,
+        -4518.45
+      ],
+      "local": [
+        1526.28,
+        1395.8,
+        12981.55
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1x1x1_A-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164718.72,
+        100280.02,
+        -4490.55
+      ],
+      "local": [
+        1668.72,
+        1580.02,
+        13009.45
+      ]
+    },
+    {
+      "mesh": "PWM_Nordic_8x8x8_A-ProcMaterial_Quarry_2mx5m_B2-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164545.41,
+        99728.68,
+        -4837.65
+      ],
+      "local": [
+        1495.41,
+        1028.68,
+        12662.35
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164493.12,
+        101757.96,
+        -4120.31
+      ],
+      "local": [
+        1443.12,
+        3057.96,
+        13379.69
+      ]
+    },
+    {
+      "mesh": "PWM_Quarry_1X1x1_C-ProcMaterial_Quarry_Atlas-BlockAll-dcl-L100",
+      "bubble": "The_Black_Abyss",
+      "bubbleName": "The Black Abyss",
+      "world": [
+        164356.83,
+        101811.47,
+        -4102.12
+      ],
+      "local": [
+        1306.83,
+        3111.47,
+        13397.88
       ]
     }
   ],
