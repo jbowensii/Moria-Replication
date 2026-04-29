@@ -1,0 +1,1946 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "/Game/Tech/Data/StringTables/World",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "Class",
+    "Context",
+    "Default__StringTable",
+    "None",
+    "Package",
+    "Status",
+    "StringTable",
+    "World"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.StringTableExport, UAssetAPI",
+      "Table": {
+        "TableNamespace": "World",
+        "Value": [
+          [
+            "Chapter.Sandbox.Deep1.Name",
+            "The First Deep"
+          ],
+          [
+            "Chapter.Sandbox.Deep2.Name",
+            "The Second Deep"
+          ],
+          [
+            "Chapter.Sandbox.Deep3.Name",
+            "The Third Deep"
+          ],
+          [
+            "Chapter.Sandbox.Deep4.Name",
+            "The Fourth Deep"
+          ],
+          [
+            "Chapter.Sandbox.Level1.Name",
+            "The First Level"
+          ],
+          [
+            "Chapter.Sandbox.Level2.Name",
+            "The Second Level"
+          ],
+          [
+            "Chapter.Sandbox.Level3.Name",
+            "The Third Level"
+          ],
+          [
+            "Chapter.Sandbox.Level4.Name",
+            "The Fourth Level"
+          ],
+          [
+            "Chapter2.Name",
+            "The Western Halls"
+          ],
+          [
+            "Chapter3.Name",
+            "The Lower Deeps"
+          ],
+          [
+            "Chapter4.Name",
+            "Dwarrowdelf"
+          ],
+          [
+            "Chapter5.Name",
+            "Barazinbar"
+          ],
+          [
+            "Landmarks.Ch2.BlockedHighwayWestMines",
+            "Gate to Durin\u2019s Highway"
+          ],
+          [
+            "Landmarks.Ch2.BlockedHighwayWestMines.Khuzdul",
+            "Hikhr\u00een Durinul"
+          ],
+          [
+            "Landmarks.Ch2.BlockedHighwayWestTown",
+            "Gate to Durin\u2019s Highway"
+          ],
+          [
+            "Landmarks.Ch2.BlockedHighwayWestTown.Khuzdul",
+            "Hikhr\u00een Durinul"
+          ],
+          [
+            "Landmarks.Ch2.BolgsonsThrone",
+            "Orctown"
+          ],
+          [
+            "Landmarks.Ch2.ElvenForge",
+            "The Great Forge of Narvi"
+          ],
+          [
+            "Landmarks.Ch2.ElvenForge.Icon",
+            "Narvi\u2019s Forge"
+          ],
+          [
+            "Landmarks.Ch2.ElvenForge.Khuzdul",
+            "Khahm\u00fbr Narvbu"
+          ],
+          [
+            "Landmarks.Ch2.EntranceHall",
+            "Doors of Durin"
+          ],
+          [
+            "Landmarks.Ch2.EntranceHall.Banner",
+            "The Doors of Durin"
+          ],
+          [
+            "Landmarks.Ch2.EntranceHall.Khuzdul",
+            "Kah\u00e2lir Durinul"
+          ],
+          [
+            "Landmarks.Ch2.Gamestart",
+            "Aftermath"
+          ],
+          [
+            "Landmarks.Ch2.MinesDirtPlug",
+            "To the Mines"
+          ],
+          [
+            "Landmarks.Ch2.MinesHeroShot",
+            "Western Mines"
+          ],
+          [
+            "landmarks.Ch2.MinesShortcut",
+            "Shortcut to the Mines"
+          ],
+          [
+            "Landmarks.Ch3.Abyss",
+            "The Black Abyss"
+          ],
+          [
+            "Landmarks.Ch3.Abyss.Khuzdul",
+            "Narag-basm\u00e2n"
+          ],
+          [
+            "Landmarks.Ch3.CrystalDescent",
+            "Crystal Descent"
+          ],
+          [
+            "Landmarks.Ch3.Drainworks",
+            "Drain Pumps"
+          ],
+          [
+            "Landmarks.Ch3.Drainworks.Banner",
+            "The Great Drain Pumps of the Lower Deeps"
+          ],
+          [
+            "Landmarks.Ch3.Drainworks.Banner.Khuzdul",
+            "Fathl\u00fbr Igmil"
+          ],
+          [
+            "Landmarks.Ch3.EasternStairs",
+            "Pilgrim Road"
+          ],
+          [
+            "Landmarks.Ch3.EasternStairs.FloodedForge",
+            "Pilgrim Road"
+          ],
+          [
+            "Landmarks.Ch3.EasternStairs.Icon",
+            "Eastern Stairs"
+          ],
+          [
+            "Landmarks.Ch3.FloodedForge",
+            "Belegost Forge "
+          ],
+          [
+            "Landmarks.Ch3.FloodedForge.Banner",
+            "The Great Belegost Forge"
+          ],
+          [
+            "Landmarks.Ch3.FloodedForge.Banner.Khuzdul",
+            "Khahm\u00fbr Gabilgath\u00f4lul"
+          ],
+          [
+            "Landmarks.Ch3.HeadwaterNexus",
+            "Grotto Expanse"
+          ],
+          [
+            "Landmarks.Ch3.Library",
+            "Pilgrim Library"
+          ],
+          [
+            "Landmarks.Ch3.Library.Banner",
+            "The Pilgrim Library"
+          ],
+          [
+            "Landmarks.Ch3.Library.Khuzdul",
+            "Tarn\u00e2n Hakh\u00e2rinul"
+          ],
+          [
+            "Landmarks.Ch3.ValleyOfDeadKings",
+            "Tomb of Kings"
+          ],
+          [
+            "Landmarks.Ch4.21stHall",
+            "Twenty-first Hall of the North-end"
+          ],
+          [
+            "Landmarks.Ch4.BalinsTomb.Icon",
+            "Balin\u2019s Tomb"
+          ],
+          [
+            "Landmarks.Ch4.BalrogsWake.Icon",
+            "The Desolation"
+          ],
+          [
+            "Landmarks.Ch4.BlockedHighwayEast",
+            "Gate to Durin\u2019s Highway"
+          ],
+          [
+            "Landmarks.Ch4.BlockedHighwayEast.Khuzdul",
+            "Hikhr\u00een Durinul"
+          ],
+          [
+            "Landmarks.Ch4.BridgeOfKhazadDum",
+            "Bridge of Khazad-d\u00fbm"
+          ],
+          [
+            "Landmarks.Ch4.BridgeOfKhazadDum.Banner",
+            "The Bridge of Khazad-d\u00fbm"
+          ],
+          [
+            "Landmarks.Ch4.BridgeOfKhazadDum.Banner.Khuzdul",
+            "Takhr\u00fbr Khazad-d\u00fbmul"
+          ],
+          [
+            "Landmarks.Ch4.Chamber.Icon",
+            "Chamber of Mazarbul"
+          ],
+          [
+            "Landmarks.Ch4.ChamberofMazarbul",
+            "The Chamber of Mazarbul"
+          ],
+          [
+            "Landmarks.Ch4.ChamberofMazarbul.Khuzdul",
+            "Shabr\u00fbn Mazarbul"
+          ],
+          [
+            "Landmarks.Ch4.DurinsCapitol",
+            "Durin\u2019s Forge"
+          ],
+          [
+            "Landmarks.Ch4.DurinsCapitol.Khuzdul",
+            "Lamn\u00fbr Durinul"
+          ],
+          [
+            "Landmarks.Ch4.DurinsForge",
+            "Durin\u2019s Forge"
+          ],
+          [
+            "Landmarks.Ch4.NogrodForge",
+            "Nogrod Forge"
+          ],
+          [
+            "Landmarks.Ch4.NogrodForge.Banner",
+            "The Great Forge of Nogrod"
+          ],
+          [
+            "Landmarks.Ch4.NogrodForge.Banner.Khuzdul",
+            "Khahm\u00fbr Tumunzahrul"
+          ],
+          [
+            "Landmarks.Ch4.PosterNexus",
+            "Dwarrowdelf"
+          ],
+          [
+            "Landmarks.Ch4.UpperArmory",
+            "The Upper Armories of Third Deep"
+          ],
+          [
+            "Landmarks.Ch4.UpperArmory.Icon",
+            "Upper Armouries"
+          ],
+          [
+            "Landmarks.Ch4.UpperArmory.Khuzdul",
+            "Harz\u00e2n Gadn\u00fbrul Sam\u00e2thul Is\u00e2ban"
+          ],
+          [
+            "Landmarks.Ch5.BalrogsNest",
+            "Balrog\u2019s Lair"
+          ],
+          [
+            "Landmarks.Ch5.BalrogsNest_DragonFight",
+            "Follow the Dragon"
+          ],
+          [
+            "Landmarks.Ch5.BoneHoard",
+            "The Bone Hoard"
+          ],
+          [
+            "Landmarks.Ch5.BoneHoard.AncientDoor",
+            "Ancient Door"
+          ],
+          [
+            "Landmarks.Ch5.BrokenSeal",
+            "Well of Shadows"
+          ],
+          [
+            "Landmarks.Ch5.BrokenSeal.Khuzdul",
+            "Gushum \u00c2zanul"
+          ],
+          [
+            "Landmarks.Ch5.Crossroads",
+            "Crossroads"
+          ],
+          [
+            "Landmarks.Ch5.Crossroads.Banner",
+            "The Crossroads of Zirakzigil"
+          ],
+          [
+            "Landmarks.Ch5.Crossroads.Banner.Khuzdul",
+            "Takh\u00fbr Zirakzigil"
+          ],
+          [
+            "Landmarks.Ch5.MineTown",
+            "Mithril Lode"
+          ],
+          [
+            "Landmarks.Ch5.MineTown.Banner",
+            "The Mithril Lode"
+          ],
+          [
+            "Landmarks.Ch5.MineTown.Banner.Khuzdul",
+            "Kimir-n\u00e2ud"
+          ],
+          [
+            "Landmarks.Ch5.MithrilForge",
+            "Mithril Forge"
+          ],
+          [
+            "Landmarks.Ch5.MithrilForge.Banner",
+            "The Great Mithril Forge"
+          ],
+          [
+            "Landmarks.Ch5.MithrilForge.Banner.Khuzdul",
+            "Khahm\u00fbr Kimrul "
+          ],
+          [
+            "Landmarks.Ch5.NainsGrave.Icon",
+            "Nain\u2019s Last Stand"
+          ],
+          [
+            "Landmarks.Ch6.DimrillGate",
+            "Dimrill Gate"
+          ],
+          [
+            "Waypoint.BalinCamp.21stHall",
+            "Balin\u2019s Outpost"
+          ],
+          [
+            "Waypoint.BalinCamp.Desolation",
+            "Fr\u00e1r\u2019s Outpost"
+          ],
+          [
+            "Waypoint.BalinCamp.UpperArmouries",
+            "\u00d3in\u2019s Outpost"
+          ],
+          [
+            "Waypoint.BalinCamp.Westgate",
+            "Ori\u2019s Outpost"
+          ],
+          [
+            "Waypoint.BalinCamp.WestMines",
+            "L\u00f3ni\u2019s Outpost "
+          ],
+          [
+            "Waypoint.Ch2.BlockedHighwayWestMines",
+            "To Durin\u2019s Highway"
+          ],
+          [
+            "Waypoint.Ch2.BlockedHighwayWestTown",
+            "To Durin\u2019s Highway"
+          ],
+          [
+            "Waypoint.Ch2.PlatformTutorial",
+            "Build to Here"
+          ],
+          [
+            "Waypoint.DefaultBaseFormat",
+            "Camp ({0})"
+          ],
+          [
+            "Waypoint.DefaultBaseFormatMultiple",
+            "Camp {1} ({0})"
+          ],
+          [
+            "Waypoint.DurinsAxe.GundabadOrcTown",
+            "Search Area"
+          ],
+          [
+            "Waypoint.DurinsAxe.Mines",
+            "Search Area"
+          ],
+          [
+            "Waypoint.DurinsAxe.PosterNexus",
+            "Search Area"
+          ],
+          [
+            "Waypoint.DurinsAxe.TrollCave",
+            "Search Area"
+          ],
+          [
+            "Waypoint.DurinsAxe.Westgate",
+            "Search Area"
+          ],
+          [
+            "Waypoint.IronOre.Westgate",
+            "Iron Vein"
+          ],
+          [
+            "Waypoint.PlayerCorpse",
+            "{PlayerName}"
+          ],
+          [
+            "Waypoint.POI",
+            "Point of Interest"
+          ],
+          [
+            "Waypoint.POI.PS5",
+            "{PSNName}'s mark"
+          ],
+          [
+            "Waypoint.Sandbox.Altar",
+            "Muznakan"
+          ],
+          [
+            "Waypoint.Sandbox.Dragon",
+            "Dragon's Lair"
+          ],
+          [
+            "Waypoint.Sandbox.Ranger",
+            "Ranger Camp"
+          ],
+          [
+            "Waypoint.Sandbox.Statue",
+            "Durin Monument"
+          ],
+          [
+            "Waypoint.Sandbox.Tomb",
+            "Ancient Secret"
+          ],
+          [
+            "Waypoints.MineHoist",
+            "Mine Hoist"
+          ],
+          [
+            "Zone.Names.EasternBastion.Banner",
+            "The Eastern Bastion"
+          ],
+          [
+            "Zones.Names.AngryCaverns",
+            "Redhorn Lode"
+          ],
+          [
+            "Zones.Names.AngryCaverns.Banner",
+            "The Redhorn Lode"
+          ],
+          [
+            "Zones.Names.AngryCaverns.Icon",
+            "Redhorn Lode"
+          ],
+          [
+            "Zones.Names.AngryCaverns.Khuzdul",
+            "Barazinbar-n\u00e2ud"
+          ],
+          [
+            "Zones.Names.BalrogsNest",
+            "Well of Shadows"
+          ],
+          [
+            "Zones.Names.BalrogsNest.Banner",
+            "The Well of Shadows"
+          ],
+          [
+            "Zones.Names.BalrogsNest.Khuzdul",
+            "Gushum \u00c2zanul"
+          ],
+          [
+            "Zones.Names.CrystalDescent",
+            "Crystal Descent"
+          ],
+          [
+            "Zones.Names.CrystalDescent.Banner",
+            "The Crystal Descent"
+          ],
+          [
+            "Zones.Names.CrystalDescent.Khuzdul",
+            "\u00cemut Khaldul"
+          ],
+          [
+            "Zones.Names.DarkestDeeps1",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps1.Banner",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps1.Khuzdul",
+            "Is\u00e2bun Ungim"
+          ],
+          [
+            "Zones.Names.DarkestDeeps2",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps2.Banner",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps2.Khuzdul",
+            "Is\u00e2bun Ungim"
+          ],
+          [
+            "Zones.Names.DarkestDeeps3",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps3.Banner",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps3.Khuzdul",
+            "Is\u00e2bun Ungim"
+          ],
+          [
+            "Zones.Names.DarkestDeeps4",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps4.Banner",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps4.Khuzdul",
+            "Is\u00e2bun Ungim"
+          ],
+          [
+            "Zones.Names.DarkestDeeps7",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps7.Banner",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps7.Khuzdul",
+            "Is\u00e2bun Ungim"
+          ],
+          [
+            "Zones.Names.DarkestDeeps8",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps8.Banner",
+            "Dark Mine Shaft"
+          ],
+          [
+            "Zones.Names.DarkestDeeps8.Khuzdul",
+            "Is\u00e2bun Ungim"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown1",
+            "Orc Warren"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown1.Banner",
+            "Warren of the Deep Orcs"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown1.Icon",
+            "Orc Warren"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown1.Khuzdul",
+            "Bism\u00een Ubsim-Rukhsul"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown3",
+            "Orc Warren"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown3.Banner",
+            "Warren of the Deep Orcs"
+          ],
+          [
+            "Zones.Names.DeepGoblinTown3.Khuzdul",
+            "Bism\u00een Ubsim-Rukhsul"
+          ],
+          [
+            "Zones.Names.DwarrowdelfCity",
+            "Upper City"
+          ],
+          [
+            "Zones.Names.DwarrowdelfCity.Banner",
+            "The Great City of Dwarrowdelf"
+          ],
+          [
+            "Zones.Names.DwarrowdelfCity.Khuzdul",
+            "Khazad-Gath\u00f4l"
+          ],
+          [
+            "Zones.Names.DwarrowdelfRampage",
+            "Desolation"
+          ],
+          [
+            "Zones.Names.DwarrowdelfRampage.Banner",
+            "The Desolation of Durin\u2019s Bane"
+          ],
+          [
+            "Zones.Names.DwarrowdelfRampage.Khuzdul",
+            "Yafl\u00e2n Mukhnamnu Durinu"
+          ],
+          [
+            "Zones.Names.EasternBastion",
+            "Eastern Bastion"
+          ],
+          [
+            "Zones.Names.EasternBastion.Banner",
+            "The Eastern Bastion"
+          ],
+          [
+            "Zones.Names.EasternBastion.Khuzdul",
+            "Gadan Si\u2019ar"
+          ],
+          [
+            "Zones.Names.EasternGate",
+            "First Hall"
+          ],
+          [
+            "Zones.Names.EasternGate.Banner",
+            "The Dimrill Gate"
+          ],
+          [
+            "Zones.Names.EasternGate.Icon",
+            "Dimrill Gate"
+          ],
+          [
+            "Zones.Names.EasternGate.Khuzdul",
+            "Kahlur-Azanul"
+          ],
+          [
+            "Zones.Names.ElvenQuarter",
+            "Elven Quarter"
+          ],
+          [
+            "Zones.Names.ElvenQuarter.Banner",
+            "The Elven Quarter"
+          ],
+          [
+            "Zones.Names.ElvenQuarter.Khuzdul",
+            "Dakb\u00e2n Lindul"
+          ],
+          [
+            "Zones.Names.GhashOrcTown1",
+            "Shadow Orc Domain"
+          ],
+          [
+            "Zones.Names.GhashOrcTown1.Banner",
+            "The Domain of the Shadow Orcs"
+          ],
+          [
+            "Zones.Names.GhashOrcTown1.Icon",
+            "Shadow Orc Domain"
+          ],
+          [
+            "Zones.Names.GhashOrcTown1.Khuzdul",
+            "Dakb\u00e2n \u00c2z\u00fbn-Rukhsul"
+          ],
+          [
+            "Zones.Names.GundabadOrcTown1",
+            "Gundabad Encampment"
+          ],
+          [
+            "Zones.Names.GundabadOrcTown1.Banner",
+            "Encampment of the Gundabad Orcs"
+          ],
+          [
+            "Zones.Names.GundabadOrcTown1.Icon",
+            "Gundabad Encampment"
+          ],
+          [
+            "Zones.Names.GundabadOrcTown1.Khuzdul",
+            "Bald\u00e2n Hakhr\u00fbn-Rukhsul"
+          ],
+          [
+            "Zones.Names.LowerDeeps",
+            "Lower Deeps"
+          ],
+          [
+            "Zones.Names.LowerDeeps.Banner",
+            "The Lower Deeps"
+          ],
+          [
+            "Zones.Names.LowerDeeps.Icon",
+            "Lower Deeps"
+          ],
+          [
+            "Zones.Names.LowerDeeps.Khuzdul",
+            "Bas\u00e2mun Is\u00e2ban"
+          ],
+          [
+            "Zones.Names.MithrilLode1",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode1.Banner",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode1.Khuzdul",
+            "Bas\u00e2mun Kimrul"
+          ],
+          [
+            "Zones.Names.MithrilLode2",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode2.Banner",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode2.Khuzdul",
+            "Bas\u00e2mun Kimrul"
+          ],
+          [
+            "Zones.Names.MithrilLode3",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode3.Banner",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode3.Khuzdul",
+            "Bas\u00e2mun Kimrul"
+          ],
+          [
+            "Zones.Names.MithrilLode4",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode4.Banner",
+            "Mithril Mine Shaft"
+          ],
+          [
+            "Zones.Names.MithrilLode4.Khuzdul",
+            "Bas\u00e2mun Kimrul"
+          ],
+          [
+            "Zones.Names.NativeOrcTown2",
+            "Orctown"
+          ],
+          [
+            "Zones.Names.NativeOrcTown2.Banner",
+            "Orctown"
+          ],
+          [
+            "Zones.Names.NativeOrcTown2.Khuzdul",
+            "Geth\u00eal Rukhsul"
+          ],
+          [
+            "Zones.Names.RedEyeOrcTown1",
+            "Red Eye Stronghold"
+          ],
+          [
+            "Zones.Names.RedEyeOrcTown1.Banner",
+            "Stronghold of the Red Eye Orcs"
+          ],
+          [
+            "Zones.Names.RedEyeOrcTown1.Icon",
+            "Red Eye Stronghold"
+          ],
+          [
+            "Zones.Names.RedEyeOrcTown1.Khuzdul",
+            "Tamd\u00e2n Narg\u00fbn-Rukhsul"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_A",
+            "Redhorn Lode"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_A.Banner",
+            "The Redhorn Lode"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_A.Khuzdul",
+            "Barazinbar-n\u00e2ud"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_B",
+            "Mithril Lode"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_B.Banner",
+            "The Mithril Lode"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_B.Khuzdul",
+            "Kimir-n\u00e2ud"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_C",
+            "Last Stand"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_C.Banner",
+            "The Last Stand"
+          ],
+          [
+            "Zones.Names.sb_AngryCaverns_C.Khuzdul",
+            "Thams\u00e2 Yakhil"
+          ],
+          [
+            "Zones.Names.sb_City_A_EasternBastion",
+            "Eastern Bastion"
+          ],
+          [
+            "Zones.Names.sb_City_A_EasternBastion.Banner",
+            "The Eastern Bastion"
+          ],
+          [
+            "Zones.Names.sb_City_A_EasternBastion.Khuzdul",
+            "Gadan Si\u2019ar"
+          ],
+          [
+            "Zones.Names.sb_City_B_Dwarrowdelf",
+            "Upper Halls"
+          ],
+          [
+            "Zones.Names.sb_City_B_Dwarrowdelf.Banner",
+            "The Upper Halls"
+          ],
+          [
+            "Zones.Names.sb_City_B_Dwarrowdelf.Khuzdul",
+            "Hariz Gan\u00e2d"
+          ],
+          [
+            "Zones.Names.sb_City_C",
+            "Mansion Halls"
+          ],
+          [
+            "Zones.Names.sb_City_C.Banner",
+            "The Mansion Halls"
+          ],
+          [
+            "Zones.Names.sb_City_C.Khuzdul",
+            "H\u00eeblud Gan\u00e2d"
+          ],
+          [
+            "Zones.Names.sb_City_D",
+            "Bright Halls"
+          ],
+          [
+            "Zones.Names.sb_City_D.Banner",
+            "The Bright Halls"
+          ],
+          [
+            "Zones.Names.sb_City_D.Khuzdul",
+            "Unmir Gan\u00e2d"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_A",
+            "Dark Shaft"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_A.Banner",
+            "Dark Mining Shaft"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_A.Khuzdul",
+            "Nagmi-agl\u00e2n"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_B",
+            "Dark Quarry"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_B.Banner",
+            "Dark Quarry"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_B.Khuzdul",
+            "Nagmi-nidl\u00een"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_C",
+            "Dark Chasm"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_C.Banner",
+            "Dark Mining Chasm"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_C.Khuzdul",
+            "Nagmi-n\u00e2d"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_D",
+            "Dark Crack"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_D.Banner",
+            "Dark Mining Crack"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_D.Khuzdul",
+            "Nagmi-nahar"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_E",
+            "Dark Fissure"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_E.Banner",
+            "Dark Mining Fissure"
+          ],
+          [
+            "Zones.Names.sb_DarkestDeeps_E.Khuzdul",
+            "Nagmi-n\u00e2ud"
+          ],
+          [
+            "Zones.Names.SB_Descent_A",
+            "Crystal Descent"
+          ],
+          [
+            "Zones.Names.SB_Descent_A.Banner",
+            "The Crystal Descent"
+          ],
+          [
+            "Zones.Names.SB_Descent_A.Khuzdul",
+            "\u00cemut Khaldul"
+          ],
+          [
+            "Zones.Names.SB_Descent_B",
+            "Forgotten Descent"
+          ],
+          [
+            "Zones.Names.SB_Descent_B.Banner",
+            "The Forgotten Descent"
+          ],
+          [
+            "Zones.Names.SB_Descent_B.Khuzdul",
+            "\u00cemut Usthag"
+          ],
+          [
+            "Zones.Names.SB_Descent_C",
+            "Nameless Descent"
+          ],
+          [
+            "Zones.Names.SB_Descent_C.Banner",
+            "The Nameless Descent"
+          ],
+          [
+            "Zones.Names.SB_Descent_C.Khuzdul",
+            "\u00cemut Z\u00e2ba-zakhar"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_A_Desolation",
+            "Chamber Hall Ruins"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_A_Desolation.Banner",
+            "Ruins of the Chamber Halls"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_A_Desolation.Khuzdul",
+            "Yafl\u00e2n Gan\u00e2dul Shab\u00e2run"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_B",
+            "High Mansion Ruins"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_B.Banner",
+            "Ruins of the High Mansions"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_B.Khuzdul",
+            "Yafl\u00e2n H\u00eebludul Mun\u00e2zam"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_C",
+            "Durin's Capital Ruins"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_C.Banner",
+            "Ruins of Durin's Capital"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_C.Khuzdul",
+            "Yafl\u00e2n Lamn\u00fbrul Durin"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_D",
+            "Inner Bastion Ruins"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_D.Banner",
+            "Ruins of the Inner Bastion"
+          ],
+          [
+            "Zones.Names.sb_DestroyedCity_D.Khuzdul",
+            "Yafl\u00e2n Gadn\u00fbrul \u00dbdish"
+          ],
+          [
+            "Zones.Names.sb_Dragon_A",
+            "Well of Shadows"
+          ],
+          [
+            "Zones.Names.sb_Dragon_A.Khuzdul",
+            "Gushum \u00c2zanul"
+          ],
+          [
+            "Zones.Names.SB_Elevator_A",
+            "Eastern Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_A.Banner",
+            "The Eastern Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_A.Khuzdul",
+            "Dab\u00e2lir Si'\u00fbr"
+          ],
+          [
+            "Zones.Names.SB_Elevator_B",
+            "First Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_B.Banner",
+            "The First Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_B.Khuzdul",
+            "Dab\u00e2lir Ugud"
+          ],
+          [
+            "Zones.Names.SB_Elevator_C",
+            "Second Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_C.Banner",
+            "The Second Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_C.Khuzdul",
+            "Dab\u00e2lir R\u00eeb\u00fb"
+          ],
+          [
+            "Zones.Names.SB_Elevator_D",
+            "Third Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_D.Banner",
+            "The Third Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_D.Khuzdul",
+            "Dab\u00e2lir Sam\u00e2th"
+          ],
+          [
+            "Zones.Names.SB_Elevator_E",
+            "Fourth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_E.Banner",
+            "The Fourth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_E.Khuzdul",
+            "Dab\u00e2lir Yal\u00e2z"
+          ],
+          [
+            "Zones.Names.SB_Elevator_F",
+            "Fifth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_F.Banner",
+            "The Fifth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_F.Khuzdul",
+            "Dab\u00e2lir Imbal"
+          ],
+          [
+            "Zones.Names.SB_Elevator_G",
+            "Sixth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_G.Banner",
+            "The Sixth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_G.Khuzdul",
+            "Dab\u00e2lir Ignim"
+          ],
+          [
+            "Zones.Names.SB_Elevator_H",
+            "Seventh Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_H.Banner",
+            "The Seventh Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_H.Khuzdul",
+            "Dab\u00e2lir Afsil"
+          ],
+          [
+            "Zones.Names.SB_Elevator_I",
+            "Eighth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_I.Banner",
+            "The Eighth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_I.Khuzdul",
+            "Dab\u00e2lir Dan\u00fbb"
+          ],
+          [
+            "Zones.Names.SB_Elevator_J",
+            "Ninth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_J.Banner",
+            "The Ninth Stair"
+          ],
+          [
+            "Zones.Names.SB_Elevator_J.Khuzdul",
+            "Dab\u00e2lir Iktar"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_A",
+            "Elven Workshops"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_A.Banner",
+            "Elven Workshops"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_A.Khuzdul",
+            "Khimhal Lindul"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_B",
+            "Elven Refuge"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_B.Banner",
+            "Elven Refuge"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_B.Khuzdul",
+            "Abtan Lindul"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_C",
+            "Elven Gardens"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_C.Banner",
+            "Elven Gardens"
+          ],
+          [
+            "Zones.Names.sb_ElvenQuarter_C.Khuzdul",
+            "Khiyer\u00eag Lindul"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_A_Drainworks",
+            "Flooded Deeps"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_A_Drainworks.Banner",
+            "The Flooded Deeps"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_A_Drainworks.Khuzdul",
+            "Bas\u00e2mun l\u00e2rib"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_B",
+            "Cavern Deeps"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_B.Banner",
+            "The Cavern Deeps"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_B.Khuzdul",
+            "Bas\u00e2mun Tumun"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_C",
+            "Pilgrim Deeps"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_C.Banner",
+            "The Pilgrim Deeps"
+          ],
+          [
+            "Zones.Names.sb_LowerDeeps_C.Khuzdul",
+            "Bas\u00e2mun Hakh\u00e2rinul"
+          ],
+          [
+            "Zones.Names.sb_Mines_A_WesternMines",
+            "Iron Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_A_WesternMines.Banner",
+            "The Old Iron Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_A_WesternMines.Khuzdul",
+            "D\u00fbm Luthnul"
+          ],
+          [
+            "Zones.Names.sb_Mines_B",
+            "First Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_B.Banner",
+            "The First Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_B.Khuzdul",
+            "D\u00fbm Ig\u00e2mal"
+          ],
+          [
+            "Zones.Names.sb_Mines_C",
+            "Spiral Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_C.Banner",
+            "The Spiral Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_C.Khuzdul",
+            "D\u00fbm Mathlum"
+          ],
+          [
+            "Zones.Names.sb_Mines_D",
+            "King's Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_D.Banner",
+            "The King's Mines"
+          ],
+          [
+            "Zones.Names.sb_Mines_D.Khuzdul",
+            "D\u00fbm Lakhrul"
+          ],
+          [
+            "Zones.Names.sb_Suburban_A_Westgate",
+            "Westgate"
+          ],
+          [
+            "Zones.Names.sb_Suburban_A_Westgate.Khuzdul",
+            "Balud-Kahl\u00fbr"
+          ],
+          [
+            "Zones.Names.sb_Suburban_B_Highway",
+            "Durin\u2019s Highway"
+          ],
+          [
+            "Zones.Names.sb_Suburban_B_Highway.Khuzdul",
+            "Gabil Hikhr\u00een Durinul"
+          ],
+          [
+            "Zones.Names.sb_Suburban_C",
+            "Marketgate"
+          ],
+          [
+            "Zones.Names.sb_Suburban_C.Banner",
+            "Marketgate"
+          ],
+          [
+            "Zones.Names.sb_Suburban_C.Khuzdul",
+            "Lafrithub-kahl\u00fbr"
+          ],
+          [
+            "Zones.Names.sb_Suburban_D",
+            "Stonegate"
+          ],
+          [
+            "Zones.Names.sb_Suburban_D.Banner",
+            "Stonegate"
+          ],
+          [
+            "Zones.Names.sb_Suburban_D.Khuzdul",
+            "Gurud-kahl\u00fbr"
+          ],
+          [
+            "Zones.Names.SecretTombOfKings",
+            "Tomb of Kings"
+          ],
+          [
+            "Zones.Names.SecretTombOfKings.Banner",
+            "The Secret Tomb of Kings"
+          ],
+          [
+            "Zones.Names.SecretTombOfKings.Khuzdul",
+            "Safd\u00e2n Akhfur Lakhrul"
+          ],
+          [
+            "Zones.Names.TheHighway",
+            "Durin\u2019s Highway"
+          ],
+          [
+            "Zones.Names.TheHighway.Banner",
+            "Durin\u2019s Highway"
+          ],
+          [
+            "Zones.Names.TheHighway.Khuzdul",
+            "Gabil Hikhr\u00een Durinul"
+          ],
+          [
+            "Zones.Names.WesternMines",
+            "Mines of Moria"
+          ],
+          [
+            "Zones.Names.WesternMines.Banner",
+            "The Mines of Moria"
+          ],
+          [
+            "Zones.Names.WesternMines.Khuzdul",
+            "D\u00fbm Khinaz"
+          ],
+          [
+            "Zones.Names.WesternTown",
+            "Westgate"
+          ],
+          [
+            "Zones.Names.WesternTown.Banner",
+            "Westgate"
+          ],
+          [
+            "Zones.Names.WesternTown.Khuzdul",
+            "Balud-Kahl\u00fbr"
+          ],
+          [
+            "Landmarks.CH4.DurinsCapitol.Banner",
+            "The Great Forge and Seat of Durin I"
+          ],
+          [
+            "Landmarks.Ch5.BrokenSeal.Banner",
+            "The Well of Shadows"
+          ],
+          [
+            "Waypoint.DefaultMapStoneFormat",
+            "Map Stone ({0})"
+          ],
+          [
+            "Waypoint.DefaultMapStoneFormatMultiple",
+            "Map Stone {1} ({0})"
+          ],
+          [
+            "Landmarks.CH4.DurinsCapitol.Banner.Khuzdul",
+            "Lamn\u00fbr Durinul"
+          ],
+          [
+            "Zones.Expedition.Start",
+            "The Misty Mountains"
+          ],
+          [
+            "Zones.Expedition.Start.Banner",
+            "Somewhere in the Misty Mountains"
+          ],
+          [
+            "Zones.Expedition.Start.Khuzdul",
+            "Man-ugud fa Hizakh"
+          ],
+          [
+            "Zones.Expedition.Mine",
+            "Dark Mine"
+          ],
+          [
+            "Zones.Expedition.Mine.Banner",
+            "Abandoned Mines"
+          ],
+          [
+            "Zones.Expedition.Mine.Khuzdul",
+            "Zab\u00e2d-balid"
+          ],
+          [
+            "Zones.Expedition.Suburban",
+            "Lost Ruin"
+          ],
+          [
+            "Zones.Expedition.Suburban.Banner",
+            "Forgotten Delving"
+          ],
+          [
+            "Zones.Expedition.Suburban.Khuzdul",
+            "Delv\u00e2n-asthig"
+          ],
+          [
+            "Zones.Expedition.LowerDeeps",
+            "Wild Deep"
+          ],
+          [
+            "Zones.Expedition.LowerDeeps.Banner",
+            "Sunken Caverns"
+          ],
+          [
+            "Zones.Expedition.LowerDeeps.Khuzdul",
+            "Khufur-amsuk"
+          ],
+          [
+            "Zones.Expedition.City",
+            "Lost Ruin"
+          ],
+          [
+            "Zones.Expedition.City.Banner",
+            "Ancient Mansions"
+          ],
+          [
+            "Zones.Expedition.City.Khuzdul",
+            "D\u00fbm Hanf\u00e2"
+          ],
+          [
+            "Zones.Expedition.AngryCaverns",
+            "Wild Deep"
+          ],
+          [
+            "Zones.Expedition.AngryCaverns.Banner",
+            "Unexplored Caves"
+          ],
+          [
+            "Zones.Expedition.AngryCaverns.Khuzdul",
+            "Tamn\u00e2n-naaskif"
+          ],
+          [
+            "Zones.Expedition.DarkestDeeps",
+            "Dark Mine"
+          ],
+          [
+            "Zones.Expedition.DarkestDeeps.Banner",
+            "Deep Mines"
+          ],
+          [
+            "Zones.Expedition.DarkestDeeps.Khuzdul",
+            "Zab\u00e2d-nagim"
+          ],
+          [
+            "Zones.Expedition.OrcTown",
+            "*Orc Stronghold Expedition"
+          ],
+          [
+            "Zones.Expedition.OrcTown.Banner",
+            "*An Orc Stronghold"
+          ],
+          [
+            "Zones.Expedition.OrcTown.Khuzdul",
+            null
+          ],
+          [
+            "Chapter.DurinTower",
+            "Durin's Tower"
+          ],
+          [
+            "Chapter.DimrillDale",
+            "The Dimrill Dale"
+          ],
+          [
+            "Chapter.TradingPost",
+            "Hollin"
+          ],
+          [
+            "Expedition.Modifiers.Threat.LowEnemies",
+            "Fewer enemies"
+          ],
+          [
+            "Expedition.Modifiers.Threat.HighEnemies",
+            "Increased enemies"
+          ],
+          [
+            "Expedition.Modifiers.Threat.VeryHighEnemies",
+            "Overwhelming enemies"
+          ],
+          [
+            "Expedition.Modifiers.Threat.LowNoise",
+            "Low Horde chance"
+          ],
+          [
+            "Expedition.Modifiers.Threat.HighNoise",
+            "Some Horde chance"
+          ],
+          [
+            "Expedition.Modifiers.Threat.ExtremeNoise",
+            "Extreme Horde chance"
+          ],
+          [
+            "Expedition.Modifiers.Resource.CoalAmber",
+            "Coal and Amber"
+          ],
+          [
+            "Expedition.Modifiers.Resource.IronCitrine",
+            "Iron and Citrine"
+          ],
+          [
+            "Expedition.Modifiers.Resource.IronRedBeryl",
+            "Iron and Red Beryl"
+          ],
+          [
+            "Expedition.Modifiers.Resource.IronJade",
+            "Iron and Jade"
+          ],
+          [
+            "Expedition.Modifiers.Resoruce.CopperZeleb",
+            "Copper and Zeleb"
+          ],
+          [
+            "Expedition.Modifiers.Resource.TinGarnet",
+            "Tin and Garnet"
+          ],
+          [
+            "Expedition.Modifiers.Resource.ResinOnyx",
+            "Resin"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Silver",
+            "Silver and Onyx"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Salt",
+            "Salt"
+          ],
+          [
+            "Expedition.Modifiers.Resource.BlackDiamond",
+            "Black Diamond"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Diamond",
+            "Diamond"
+          ],
+          [
+            "Expedition.Modifiers.Resource.SunstoneJade",
+            "Sunstone"
+          ],
+          [
+            "Expedition.Modifiers.Resource.GoldQuartz",
+            "Gold and Quartz"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Amethyst",
+            "Amethyst"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Topaz",
+            "Topaz"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Sapphire",
+            "Sapphire"
+          ],
+          [
+            "Expedition.Modifiers.Resource.StarMetalIolite",
+            "Star Metal and Iolite"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Mithril",
+            "Mithril"
+          ],
+          [
+            "Expedition.Modifiers.Resource.RedBeryl",
+            "Red Beryl"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Emerald",
+            "Emerald"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Ruby",
+            "Ruby"
+          ],
+          [
+            "Zones.Expedition.RingForge",
+            "Secret Forge"
+          ],
+          [
+            "Zones.Expedition.RingForge.Banner",
+            "Celebrimbor's Secret Forge"
+          ],
+          [
+            "Zones.Expedition.RingForge.Khuzdul",
+            "Khahm\u00fbr-akhfar Lindul"
+          ],
+          [
+            "Zones.Expedition.GrendelFight",
+            "The Beast's Lair"
+          ],
+          [
+            "Zones.Expedition.GrendelFight.Banner",
+            "Gulr\u00fbn's Lair"
+          ],
+          [
+            "Zones.Expedition.GrendelFight.Khuzdul",
+            "Dakb\u00e2n Gulr\u00fbn"
+          ],
+          [
+            "Zones.Expedition.Rescue",
+            "Rescue the Lost"
+          ],
+          [
+            "Zones.Expedition.Rescue.Banner",
+            "Gulr\u00fbn Caves"
+          ],
+          [
+            "Zones.Expedition.Rescue.Khuzdul",
+            "Tamn\u00e2n Gulr\u00fbn"
+          ],
+          [
+            "Expedition.Modifiers.Resource.Anorin",
+            "Anorin"
+          ],
+          [
+            "Waypoint.Ch4.SeekTheCrossroads",
+            "To the Crossroads"
+          ],
+          [
+            "Zones.Names.DimrillDale",
+            "The Dimrill Dale"
+          ],
+          [
+            "Zones.Names.DimrillDale.Banner",
+            "The Dimrill Dale"
+          ],
+          [
+            "Zones.Names.TradingPost",
+            "Hollin"
+          ],
+          [
+            "Zones.Names.TradingPost.Banner",
+            "Hollin Trading Post"
+          ],
+          [
+            "Zones.Names.DurinsTower",
+            "Durin's Tower"
+          ],
+          [
+            "Zones.Names.DurinsTower.Banner",
+            "Durin's Tower"
+          ],
+          [
+            "Zones.Names.DimrillDale.Khuzdul",
+            " Azanulbizar"
+          ],
+          [
+            "Zones.Names.DurinsTower.Khuzdul",
+            "Annad\u00fbn Durinul"
+          ],
+          [
+            "Zones.Names.TradingPost.Khuzdul",
+            "Dakb\u00e2n Makrugul Muluk-harnul"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.DeepOrcs",
+            "Deep Tribe Orcs"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.CaveTrollArmored",
+            "Red Eye Trolls"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.RedEyeOrcs",
+            "Red Eye Tribe Orcs"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.RedEyeUruks",
+            "Red Eye Tribe Uruks"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.MossTroll",
+            "Deep Trolls"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.RingOrc",
+            "Gundabad Searchers"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.RustyTroll",
+            "Armored Trolls"
+          ],
+          [
+            "Expedition.Modifiers.Enemy.ShadowOrc",
+            "Shadow Orcs"
+          ],
+          [
+            "Landmarks.Ch7.EndlessStairs",
+            "Endless Stair"
+          ],
+          [
+            "Landmarks.Ch7.Emissary",
+            "Emissary"
+          ],
+          [
+            "Landmarks.Ch7.KhazadstoneNiche",
+            "Khazadstone Niche"
+          ],
+          [
+            "Landmarks.Ch7.FirstHall",
+            "The First Hall"
+          ],
+          [
+            "Expedition.Modifiers.Resource.TrueQuartz",
+            "True-quartz"
+          ]
+        ]
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "World",
+      "OuterIndex": 0,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -3,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 60284,
+      "SerialOffset": 658,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -3
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": "pwEAABsAAABDaGFwdGVyLlNhbmRib3guRGVlcDEuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAAGwAAAENoYXB0ZXIuU2FuZGJveC5EZWVwMi5OYW1lAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADAAAABOYW1lIG9mIHRoZSBDaGFwdGVyIG9uIHRoZSB0b3Agb2YgdGhlIHdvcmxkIG1hcAAbAAAAQ2hhcHRlci5TYW5kYm94LkRlZXAzLk5hbWUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAMAAAAE5hbWUgb2YgdGhlIENoYXB0ZXIgb24gdGhlIHRvcCBvZiB0aGUgd29ybGQgbWFwABsAAABDaGFwdGVyLlNhbmRib3guRGVlcDQuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAAHAAAAENoYXB0ZXIuU2FuZGJveC5MZXZlbDEuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAAHAAAAENoYXB0ZXIuU2FuZGJveC5MZXZlbDIuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAAHAAAAENoYXB0ZXIuU2FuZGJveC5MZXZlbDMuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAAHAAAAENoYXB0ZXIuU2FuZGJveC5MZXZlbDQuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAADgAAAENoYXB0ZXIyLk5hbWUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAMAAAAE5hbWUgb2YgdGhlIENoYXB0ZXIgb24gdGhlIHRvcCBvZiB0aGUgd29ybGQgbWFwAA4AAABDaGFwdGVyMy5OYW1lAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADAAAABOYW1lIG9mIHRoZSBDaGFwdGVyIG9uIHRoZSB0b3Agb2YgdGhlIHdvcmxkIG1hcAAOAAAAQ2hhcHRlcjQuTmFtZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAwAAAATmFtZSBvZiB0aGUgQ2hhcHRlciBvbiB0aGUgdG9wIG9mIHRoZSB3b3JsZCBtYXAADgAAAENoYXB0ZXI1Lk5hbWUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAMAAAAE5hbWUgb2YgdGhlIENoYXB0ZXIgb24gdGhlIHRvcCBvZiB0aGUgd29ybGQgbWFwACYAAABMYW5kbWFya3MuQ2gyLkJsb2NrZWRIaWdod2F5V2VzdE1pbmVzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADYAAABuYW1lIG9mIGxvY2F0aW9uIHRoYXQgYXBwZWFycyBvbiBzY3JlZW4gd2hlbiBlbnRlcmluZwAuAAAATGFuZG1hcmtzLkNoMi5CbG9ja2VkSGlnaHdheVdlc3RNaW5lcy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsACUAAABMYW5kbWFya3MuQ2gyLkJsb2NrZWRIaWdod2F5V2VzdFRvd24AAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANgAAAG5hbWUgb2YgbG9jYXRpb24gdGhhdCBhcHBlYXJzIG9uIHNjcmVlbiB3aGVuIGVudGVyaW5nAC0AAABMYW5kbWFya3MuQ2gyLkJsb2NrZWRIaWdod2F5V2VzdFRvd24uS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAdAAAATGFuZG1hcmtzLkNoMi5Cb2xnc29uc1Rocm9uZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAArAAAAb2xkIC0gcHJvYmFibHkgbm90IGEgc3RyaW5nIHdlIHdhbnQgdG8gdXNlABkAAABMYW5kbWFya3MuQ2gyLkVsdmVuRm9yZ2UAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABMYW5kbWFya3MuQ2gyLkVsdmVuRm9yZ2UuSWNvbgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAExhbmRtYXJrcy5DaDIuRWx2ZW5Gb3JnZS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABsAAABMYW5kbWFya3MuQ2gyLkVudHJhbmNlSGFsbAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAA0AAAAbWFwIHdheXBvaW50IG1hcmtlciB0aGF0IGxhYmVscyBhIHNwZWNpZmljIGxvY2F0aW9uACIAAABMYW5kbWFya3MuQ2gyLkVudHJhbmNlSGFsbC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABMYW5kbWFya3MuQ2gyLkVudHJhbmNlSGFsbC5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABgAAABMYW5kbWFya3MuQ2gyLkdhbWVzdGFydAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHAAAAExhbmRtYXJrcy5DaDIuTWluZXNEaXJ0UGx1ZwACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAA0AAAAbWFwIHdheXBvaW50IG1hcmtlciB0aGF0IGxhYmVscyBhIHNwZWNpZmljIGxvY2F0aW9uABwAAABMYW5kbWFya3MuQ2gyLk1pbmVzSGVyb1Nob3QAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANAAAAG1hcCB3YXlwb2ludCBtYXJrZXIgdGhhdCBsYWJlbHMgYSBzcGVjaWZpYyBsb2NhdGlvbgAcAAAAbGFuZG1hcmtzLkNoMi5NaW5lc1Nob3J0Y3V0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AFAAAAExhbmRtYXJrcy5DaDMuQWJ5c3MAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABwAAABMYW5kbWFya3MuQ2gzLkFieXNzLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAHQAAAExhbmRtYXJrcy5DaDMuQ3J5c3RhbERlc2NlbnQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANAAAAG1hcCB3YXlwb2ludCBtYXJrZXIgdGhhdCBsYWJlbHMgYSBzcGVjaWZpYyBsb2NhdGlvbgAZAAAATGFuZG1hcmtzLkNoMy5EcmFpbndvcmtzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AIAAAAExhbmRtYXJrcy5DaDMuRHJhaW53b3Jrcy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACgAAABMYW5kbWFya3MuQ2gzLkRyYWlud29ya3MuQmFubmVyLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAHAAAAExhbmRtYXJrcy5DaDMuRWFzdGVyblN0YWlycwACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAxAAAAd2F5cG9pbnQgb24gc2NyZWVuIGFuZCBtYXAgbGVhZGluZyB0byBhIGxvY2F0aW9uACkAAABMYW5kbWFya3MuQ2gzLkVhc3Rlcm5TdGFpcnMuRmxvb2RlZEZvcmdlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADEAAAB3YXlwb2ludCBvbiBzY3JlZW4gYW5kIG1hcCBsZWFkaW5nIHRvIGEgbG9jYXRpb24AIQAAAExhbmRtYXJrcy5DaDMuRWFzdGVyblN0YWlycy5JY29uAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AGwAAAExhbmRtYXJrcy5DaDMuRmxvb2RlZEZvcmdlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AIgAAAExhbmRtYXJrcy5DaDMuRmxvb2RlZEZvcmdlLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAKgAAAExhbmRtYXJrcy5DaDMuRmxvb2RlZEZvcmdlLkJhbm5lci5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsAB0AAABMYW5kbWFya3MuQ2gzLkhlYWR3YXRlck5leHVzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABEAAABsb2NhdGlvbiBpbiBnYW1lABYAAABMYW5kbWFya3MuQ2gzLkxpYnJhcnkAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAhQAAAG1hcCB3YXlwb2ludCBtYXJrZXIgdGhhdCBsYWJlbHMgYSBzcGVjaWZpYyBsb2NhdGlvbjsgVGhlIGxpYnJhcnkgdGVtcGxlIHRoYXQgd2FzIGEgc2l0ZSBvZiBwaWxncmltYWdlIGFuZCBhbmNpZW50IER3YXJ2ZW4ga25vd2xlZGdlLgAdAAAATGFuZG1hcmtzLkNoMy5MaWJyYXJ5LkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAExhbmRtYXJrcy5DaDMuTGlicmFyeS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsACAAAABMYW5kbWFya3MuQ2gzLlZhbGxleU9mRGVhZEtpbmdzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AFwAAAExhbmRtYXJrcy5DaDQuMjFzdEhhbGwAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANAAAAG1hcCB3YXlwb2ludCBtYXJrZXIgdGhhdCBsYWJlbHMgYSBzcGVjaWZpYyBsb2NhdGlvbgAeAAAATGFuZG1hcmtzLkNoNC5CYWxpbnNUb21iLkljb24AAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANAAAAG1hcCB3YXlwb2ludCBtYXJrZXIgdGhhdCBsYWJlbHMgYSBzcGVjaWZpYyBsb2NhdGlvbgAfAAAATGFuZG1hcmtzLkNoNC5CYWxyb2dzV2FrZS5JY29uAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AIQAAAExhbmRtYXJrcy5DaDQuQmxvY2tlZEhpZ2h3YXlFYXN0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADYAAABuYW1lIG9mIGxvY2F0aW9uIHRoYXQgYXBwZWFycyBvbiBzY3JlZW4gd2hlbiBlbnRlcmluZwApAAAATGFuZG1hcmtzLkNoNC5CbG9ja2VkSGlnaHdheUVhc3QuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAgAAAATGFuZG1hcmtzLkNoNC5CcmlkZ2VPZktoYXphZER1bQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAA0AAAAbWFwIHdheXBvaW50IG1hcmtlciB0aGF0IGxhYmVscyBhIHNwZWNpZmljIGxvY2F0aW9uACcAAABMYW5kbWFya3MuQ2g0LkJyaWRnZU9mS2hhemFkRHVtLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQALwAAAExhbmRtYXJrcy5DaDQuQnJpZGdlT2ZLaGF6YWREdW0uQmFubmVyLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGwAAAExhbmRtYXJrcy5DaDQuQ2hhbWJlci5JY29uAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADQAAABtYXAgd2F5cG9pbnQgbWFya2VyIHRoYXQgbGFiZWxzIGEgc3BlY2lmaWMgbG9jYXRpb24AIAAAAExhbmRtYXJrcy5DaDQuQ2hhbWJlcm9mTWF6YXJidWwAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANgAAAG5hbWUgb2YgbG9jYXRpb24gdGhhdCBhcHBlYXJzIG9uIHNjcmVlbiB3aGVuIGVudGVyaW5nACgAAABMYW5kbWFya3MuQ2g0LkNoYW1iZXJvZk1hemFyYnVsLktodXpkdWwAAgAAAAgAAAAAAAAACAAAAEtodXpkdWwABAAAAAAAAAAvAAAATm90IHVzZWQgYnV0IHdlIG1heSB3YW50IDIxc3QgaGFsbCB0byBiZSB0aGlzPwAcAAAATGFuZG1hcmtzLkNoNC5EdXJpbnNDYXBpdG9sAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABIAAABVc2VkIGFzIFpvbmUgTmFtZQAkAAAATGFuZG1hcmtzLkNoNC5EdXJpbnNDYXBpdG9sLktodXpkdWwAAgAAAAgAAAAAAAAACAAAAEtodXpkdWwABAAAAAAAAAASAAAAVXNlZCBhcyBab25lIE5hbWUAGgAAAExhbmRtYXJrcy5DaDQuRHVyaW5zRm9yZ2UAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAFgAAAFVzZWQgYXMgTGFuZG1hcmsgbmFtZQAaAAAATGFuZG1hcmtzLkNoNC5Ob2dyb2RGb3JnZQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAExhbmRtYXJrcy5DaDQuTm9ncm9kRm9yZ2UuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAApAAAATGFuZG1hcmtzLkNoNC5Ob2dyb2RGb3JnZS5CYW5uZXIuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAaAAAATGFuZG1hcmtzLkNoNC5Qb3N0ZXJOZXh1cwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAGgAAAExhbmRtYXJrcy5DaDQuVXBwZXJBcm1vcnkAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABMYW5kbWFya3MuQ2g0LlVwcGVyQXJtb3J5Lkljb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABMYW5kbWFya3MuQ2g0LlVwcGVyQXJtb3J5LktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGgAAAExhbmRtYXJrcy5DaDUuQmFscm9nc05lc3QAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACYAAABMYW5kbWFya3MuQ2g1LkJhbHJvZ3NOZXN0X0RyYWdvbkZpZ2h0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADgAAABHb2xkZW4gV2F5cG9pbnQgcG9pbnRpbmcgdG8gZmluYWwgcGhhc2Ugb2YgRHJhZ29uIGZpZ2h0ABgAAABMYW5kbWFya3MuQ2g1LkJvbmVIb2FyZAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJAAAAExhbmRtYXJrcy5DaDUuQm9uZUhvYXJkLkFuY2llbnREb29yAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAZAAAATGFuZG1hcmtzLkNoNS5Ccm9rZW5TZWFsAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAATGFuZG1hcmtzLkNoNS5Ccm9rZW5TZWFsLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGQAAAExhbmRtYXJrcy5DaDUuQ3Jvc3Nyb2FkcwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIAAAAExhbmRtYXJrcy5DaDUuQ3Jvc3Nyb2Fkcy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACgAAABMYW5kbWFya3MuQ2g1LkNyb3Nzcm9hZHMuQmFubmVyLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAFwAAAExhbmRtYXJrcy5DaDUuTWluZVRvd24AAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAFRoaXMgaXMgZm9yIHRoZSBNaWh0cmlsIE1pbmUgTmV4dXMAHgAAAExhbmRtYXJrcy5DaDUuTWluZVRvd24uQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAmAAAATGFuZG1hcmtzLkNoNS5NaW5lVG93bi5CYW5uZXIuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAbAAAATGFuZG1hcmtzLkNoNS5NaXRocmlsRm9yZ2UAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABMYW5kbWFya3MuQ2g1Lk1pdGhyaWxGb3JnZS5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACoAAABMYW5kbWFya3MuQ2g1Lk1pdGhyaWxGb3JnZS5CYW5uZXIuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAeAAAATGFuZG1hcmtzLkNoNS5OYWluc0dyYXZlLkljb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABoAAABMYW5kbWFya3MuQ2g2LkRpbXJpbGxHYXRlAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAcAAAAV2F5cG9pbnQuQmFsaW5DYW1wLjIxc3RIYWxsAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADwAAABFYWNoIGR3YXJmIHdhcyBhIGxlYWRlciBvZiBhIHBhcnRpY3VsYXIgb3V0cG9zdCBpbiB0aGUgZ2FtZQAeAAAAV2F5cG9pbnQuQmFsaW5DYW1wLkRlc29sYXRpb24AAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAPAAAAEVhY2ggZHdhcmYgd2FzIGEgbGVhZGVyIG9mIGEgcGFydGljdWxhciBvdXRwb3N0IGluIHRoZSBnYW1lACIAAABXYXlwb2ludC5CYWxpbkNhbXAuVXBwZXJBcm1vdXJpZXMAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAPAAAAEVhY2ggZHdhcmYgd2FzIGEgbGVhZGVyIG9mIGEgcGFydGljdWxhciBvdXRwb3N0IGluIHRoZSBnYW1lABwAAABXYXlwb2ludC5CYWxpbkNhbXAuV2VzdGdhdGUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAPAAAAEVhY2ggZHdhcmYgd2FzIGEgbGVhZGVyIG9mIGEgcGFydGljdWxhciBvdXRwb3N0IGluIHRoZSBnYW1lAB0AAABXYXlwb2ludC5CYWxpbkNhbXAuV2VzdE1pbmVzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADwAAABFYWNoIGR3YXJmIHdhcyBhIGxlYWRlciBvZiBhIHBhcnRpY3VsYXIgb3V0cG9zdCBpbiB0aGUgZ2FtZQAlAAAAV2F5cG9pbnQuQ2gyLkJsb2NrZWRIaWdod2F5V2VzdE1pbmVzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADEAAAB3YXlwb2ludCBvbiBzY3JlZW4gYW5kIG1hcCBsZWFkaW5nIHRvIGEgbG9jYXRpb24AJAAAAFdheXBvaW50LkNoMi5CbG9ja2VkSGlnaHdheVdlc3RUb3duAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADEAAAB3YXlwb2ludCBvbiBzY3JlZW4gYW5kIG1hcCBsZWFkaW5nIHRvIGEgbG9jYXRpb24AHgAAAFdheXBvaW50LkNoMi5QbGF0Zm9ybVR1dG9yaWFsAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAbAAAAV2F5cG9pbnQuRGVmYXVsdEJhc2VGb3JtYXQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAATgAAAEZvcm1hdCB1c2VkIGZvciBiYXNlIHdheXBvaW50cywgd2hlcmUgezB9IHdpbGwgYmUgcmVwbGFjZWQgd2l0aCB0aGUgWm9uZSBuYW1lACMAAABXYXlwb2ludC5EZWZhdWx0QmFzZUZvcm1hdE11bHRpcGxlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAL8AAABGb3JtYXQgdXNlZCB3aGVuIG11bHRpcGxlIEJhc2Ugd2F5cG9pbnRzIHdvdWxkIGhhdmUgdGhlIHNhbWUgbmFtZS4gezB9IHdpbGwgYmUgcmVwbGFjZWQgd2l0aCBab25lIG5hbWUgYW5kIHsxfSB3aWxsIGJlIHJlcGxhY2VkIHdpdGggYSBudW1iZXIgKDIgb3IgbW9yZSkgdG8gdHJ5IHRvIG1ha2UgdGhlIG5hbWUgbW9yZSB1bmlxdWUuACMAAABXYXlwb2ludC5EdXJpbnNBeGUuR3VuZGFiYWRPcmNUb3duAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAANoAAABUaGUgbmFtZSBvZiB0aGUgd2F5cG9pbnQgZm9yIHRoZSBnZW5lcmFsIGxvY2F0aW9uIHdoZXJlIHRoZSBwbGF5ZXIgY2FuIGZpbmQgRHVyaW4ncyBBeGUgZnJhZ21lbnQgaW4gdGhlIE1pbmVzIG9mIE1vcmlhLiBPbmNlIHRoZXkgcmVhY2ggdGhpcyB3YXlwb2ludCwgdGhleSBuZWVkIHRvIHNlYXJjaCBjbG9zZWx5IGFyb3VuZCBpdCB0byBmaW5kIHRoZSBhY3R1YWwgYXhlIHBhcnQuABkAAABXYXlwb2ludC5EdXJpbnNBeGUuTWluZXMAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAA2gAAAFRoZSBuYW1lIG9mIHRoZSB3YXlwb2ludCBmb3IgdGhlIGdlbmVyYWwgbG9jYXRpb24gd2hlcmUgdGhlIHBsYXllciBjYW4gZmluZCBEdXJpbidzIEF4ZSBmcmFnbWVudCBpbiB0aGUgTWluZXMgb2YgTW9yaWEuIE9uY2UgdGhleSByZWFjaCB0aGlzIHdheXBvaW50LCB0aGV5IG5lZWQgdG8gc2VhcmNoIGNsb3NlbHkgYXJvdW5kIGl0IHRvIGZpbmQgdGhlIGFjdHVhbCBheGUgcGFydC4AHwAAAFdheXBvaW50LkR1cmluc0F4ZS5Qb3N0ZXJOZXh1cwACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAADaAAAAVGhlIG5hbWUgb2YgdGhlIHdheXBvaW50IGZvciB0aGUgZ2VuZXJhbCBsb2NhdGlvbiB3aGVyZSB0aGUgcGxheWVyIGNhbiBmaW5kIER1cmluJ3MgQXhlIGZyYWdtZW50IGluIHRoZSBNaW5lcyBvZiBNb3JpYS4gT25jZSB0aGV5IHJlYWNoIHRoaXMgd2F5cG9pbnQsIHRoZXkgbmVlZCB0byBzZWFyY2ggY2xvc2VseSBhcm91bmQgaXQgdG8gZmluZCB0aGUgYWN0dWFsIGF4ZSBwYXJ0LgAdAAAAV2F5cG9pbnQuRHVyaW5zQXhlLlRyb2xsQ2F2ZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAADaAAAAVGhlIG5hbWUgb2YgdGhlIHdheXBvaW50IGZvciB0aGUgZ2VuZXJhbCBsb2NhdGlvbiB3aGVyZSB0aGUgcGxheWVyIGNhbiBmaW5kIER1cmluJ3MgQXhlIGZyYWdtZW50IGluIHRoZSBNaW5lcyBvZiBNb3JpYS4gT25jZSB0aGV5IHJlYWNoIHRoaXMgd2F5cG9pbnQsIHRoZXkgbmVlZCB0byBzZWFyY2ggY2xvc2VseSBhcm91bmQgaXQgdG8gZmluZCB0aGUgYWN0dWFsIGF4ZSBwYXJ0LgAcAAAAV2F5cG9pbnQuRHVyaW5zQXhlLldlc3RnYXRlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAANoAAABUaGUgbmFtZSBvZiB0aGUgd2F5cG9pbnQgZm9yIHRoZSBnZW5lcmFsIGxvY2F0aW9uIHdoZXJlIHRoZSBwbGF5ZXIgY2FuIGZpbmQgRHVyaW4ncyBBeGUgZnJhZ21lbnQgaW4gdGhlIE1pbmVzIG9mIE1vcmlhLiBPbmNlIHRoZXkgcmVhY2ggdGhpcyB3YXlwb2ludCwgdGhleSBuZWVkIHRvIHNlYXJjaCBjbG9zZWx5IGFyb3VuZCBpdCB0byBmaW5kIHRoZSBhY3R1YWwgYXhlIHBhcnQuABoAAABXYXlwb2ludC5Jcm9uT3JlLldlc3RnYXRlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABhIHdheXBvaW50IHRvIGEgbG9jYXRpb24gdG8gbWluZSBpcm9uABYAAABXYXlwb2ludC5QbGF5ZXJDb3Jwc2UAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAA0AAABXYXlwb2ludC5QT0kAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAOQAAAGEgZ2VuZXJpYyB3YXlwb2ludCBmb3Igc29tZXRoaW5nIHlvdSBzZWUgaW4gdGhlIGRpc3RhbmNlABEAAABXYXlwb2ludC5QT0kuUFM1AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACoAAABEZWZhdWx0IGN1c3RvbSB3YXlwb2ludCBuYW1lIHVzZWQgZm9yIFBTNQAXAAAAV2F5cG9pbnQuU2FuZGJveC5BbHRhcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAvAAAAd2F5cG9pbnQgb24gbWFwIGluIHNhbmRib3ggdG8gYSBtdXpuYWthbiBhbHRlcgAYAAAAV2F5cG9pbnQuU2FuZGJveC5EcmFnb24AAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAANQAAAFdheXBvaW50IG9uIHRoZSBtYXAgdG8gd2hlcmUgdGhlIGRyYWdvbiBjYW4gYmUgZm91bmQAGAAAAFdheXBvaW50LlNhbmRib3guUmFuZ2VyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACUAAABXYXlwb2ludCBvbiB0aGUgTWFwIHRvIGEgUmFuZ2VyIENhbXAAGAAAAFdheXBvaW50LlNhbmRib3guU3RhdHVlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACwAAAB3YXlwb2ludCBvbiB0aGUgbWFwIGZvciBhIHN0YXR1ZSBvZiBhIER1cmluABYAAABXYXlwb2ludC5TYW5kYm94LlRvbWIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABQAAABXYXlwb2ludHMuTWluZUhvaXN0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACgAAABhIHdheXBvaW50IHRvIGEgbWFjaGluZSB5b3UgaGF2ZSB0byBmaXgAIQAAAFpvbmUuTmFtZXMuRWFzdGVybkJhc3Rpb24uQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAZAAAAWm9uZXMuTmFtZXMuQW5ncnlDYXZlcm5zAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADYAAABuYW1lIG9mIGxvY2F0aW9uIHRoYXQgYXBwZWFycyBvbiBzY3JlZW4gd2hlbiBlbnRlcmluZwAgAAAAWm9uZXMuTmFtZXMuQW5ncnlDYXZlcm5zLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAFpvbmVzLk5hbWVzLkFuZ3J5Q2F2ZXJucy5JY29uAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuQW5ncnlDYXZlcm5zLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGAAAAFpvbmVzLk5hbWVzLkJhbHJvZ3NOZXN0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABUAAABXZWxsIG9mIFNoYWRvd3MgWm9uZQAfAAAAWm9uZXMuTmFtZXMuQmFscm9nc05lc3QuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAgAAAAWm9uZXMuTmFtZXMuQmFscm9nc05lc3QuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAbAAAAWm9uZXMuTmFtZXMuQ3J5c3RhbERlc2NlbnQAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABab25lcy5OYW1lcy5DcnlzdGFsRGVzY2VudC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5DcnlzdGFsRGVzY2VudC5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5EYXJrZXN0RGVlcHMxAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABMAAABEZWVwIGluIExvd2VyRGVlcHMAIQAAAFpvbmVzLk5hbWVzLkRhcmtlc3REZWVwczEuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuRGFya2VzdERlZXBzMS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5EYXJrZXN0RGVlcHMyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABMAAABEZWVwIGluIExvd2VyRGVlcHMAIQAAAFpvbmVzLk5hbWVzLkRhcmtlc3REZWVwczIuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuRGFya2VzdERlZXBzMi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5EYXJrZXN0RGVlcHMzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABMAAABEZWVwIGluIExvd2VyRGVlcHMAIQAAAFpvbmVzLk5hbWVzLkRhcmtlc3REZWVwczMuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuRGFya2VzdERlZXBzMy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5EYXJrZXN0RGVlcHM0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABMAAABEZWVwIGluIExvd2VyRGVlcHMAIQAAAFpvbmVzLk5hbWVzLkRhcmtlc3REZWVwczQuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuRGFya2VzdERlZXBzNC5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5EYXJrZXN0RGVlcHM3AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABMAAABEZWVwIGluIERlc29sYXRpb24AIQAAAFpvbmVzLk5hbWVzLkRhcmtlc3REZWVwczcuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuRGFya2VzdERlZXBzNy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5EYXJrZXN0RGVlcHM4AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABMAAABEZWVwIGluIERlc29sYXRpb24AIQAAAFpvbmVzLk5hbWVzLkRhcmtlc3REZWVwczguQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuRGFya2VzdERlZXBzOC5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABwAAABab25lcy5OYW1lcy5EZWVwR29ibGluVG93bjEAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5EZWVwR29ibGluVG93bjEuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuRGVlcEdvYmxpblRvd24xLkljb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACQAAABab25lcy5OYW1lcy5EZWVwR29ibGluVG93bjEuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAcAAAAWm9uZXMuTmFtZXMuRGVlcEdvYmxpblRvd24zAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAjAAAAWm9uZXMuTmFtZXMuRGVlcEdvYmxpblRvd24zLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJAAAAFpvbmVzLk5hbWVzLkRlZXBHb2JsaW5Ub3duMy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABwAAABab25lcy5OYW1lcy5Ed2Fycm93ZGVsZkNpdHkAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5Ed2Fycm93ZGVsZkNpdHkuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAkAAAAWm9uZXMuTmFtZXMuRHdhcnJvd2RlbGZDaXR5LktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAHwAAAFpvbmVzLk5hbWVzLkR3YXJyb3dkZWxmUmFtcGFnZQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLkR3YXJyb3dkZWxmUmFtcGFnZS5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACcAAABab25lcy5OYW1lcy5Ed2Fycm93ZGVsZlJhbXBhZ2UuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAbAAAAWm9uZXMuTmFtZXMuRWFzdGVybkJhc3Rpb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABab25lcy5OYW1lcy5FYXN0ZXJuQmFzdGlvbi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5FYXN0ZXJuQmFzdGlvbi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABgAAABab25lcy5OYW1lcy5FYXN0ZXJuR2F0ZQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAFpvbmVzLk5hbWVzLkVhc3Rlcm5HYXRlLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHQAAAFpvbmVzLk5hbWVzLkVhc3Rlcm5HYXRlLkljb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACAAAABab25lcy5OYW1lcy5FYXN0ZXJuR2F0ZS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABkAAABab25lcy5OYW1lcy5FbHZlblF1YXJ0ZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACAAAABab25lcy5OYW1lcy5FbHZlblF1YXJ0ZXIuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuRWx2ZW5RdWFydGVyLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGgAAAFpvbmVzLk5hbWVzLkdoYXNoT3JjVG93bjEAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5HaGFzaE9yY1Rvd24xLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAFpvbmVzLk5hbWVzLkdoYXNoT3JjVG93bjEuSWNvbgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIgAAAFpvbmVzLk5hbWVzLkdoYXNoT3JjVG93bjEuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAdAAAAWm9uZXMuTmFtZXMuR3VuZGFiYWRPcmNUb3duMQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJAAAAFpvbmVzLk5hbWVzLkd1bmRhYmFkT3JjVG93bjEuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuR3VuZGFiYWRPcmNUb3duMS5JY29uAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAlAAAAWm9uZXMuTmFtZXMuR3VuZGFiYWRPcmNUb3duMS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABcAAABab25lcy5OYW1lcy5Mb3dlckRlZXBzAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAeAAAAWm9uZXMuTmFtZXMuTG93ZXJEZWVwcy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABwAAABab25lcy5OYW1lcy5Mb3dlckRlZXBzLkljb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABab25lcy5OYW1lcy5Mb3dlckRlZXBzLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGQAAAFpvbmVzLk5hbWVzLk1pdGhyaWxMb2RlMQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIAAAAFpvbmVzLk5hbWVzLk1pdGhyaWxMb2RlMS5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5NaXRocmlsTG9kZTEuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAZAAAAWm9uZXMuTmFtZXMuTWl0aHJpbExvZGUyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAgAAAAWm9uZXMuTmFtZXMuTWl0aHJpbExvZGUyLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLk1pdGhyaWxMb2RlMi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABkAAABab25lcy5OYW1lcy5NaXRocmlsTG9kZTMAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACAAAABab25lcy5OYW1lcy5NaXRocmlsTG9kZTMuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuTWl0aHJpbExvZGUzLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGQAAAFpvbmVzLk5hbWVzLk1pdGhyaWxMb2RlNAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIAAAAFpvbmVzLk5hbWVzLk1pdGhyaWxMb2RlNC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5NaXRocmlsTG9kZTQuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAbAAAAWm9uZXMuTmFtZXMuTmF0aXZlT3JjVG93bjIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABab25lcy5OYW1lcy5OYXRpdmVPcmNUb3duMi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5OYXRpdmVPcmNUb3duMi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABsAAABab25lcy5OYW1lcy5SZWRFeWVPcmNUb3duMQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIgAAAFpvbmVzLk5hbWVzLlJlZEV5ZU9yY1Rvd24xLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIAAAAFpvbmVzLk5hbWVzLlJlZEV5ZU9yY1Rvd24xLkljb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5SZWRFeWVPcmNUb3duMS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsAB4AAABab25lcy5OYW1lcy5zYl9BbmdyeUNhdmVybnNfQQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJQAAAFpvbmVzLk5hbWVzLnNiX0FuZ3J5Q2F2ZXJuc19BLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0FuZ3J5Q2F2ZXJuc19BLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABab25lcy5OYW1lcy5zYl9BbmdyeUNhdmVybnNfQgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJQAAAFpvbmVzLk5hbWVzLnNiX0FuZ3J5Q2F2ZXJuc19CLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0FuZ3J5Q2F2ZXJuc19CLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABab25lcy5OYW1lcy5zYl9BbmdyeUNhdmVybnNfQwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJQAAAFpvbmVzLk5hbWVzLnNiX0FuZ3J5Q2F2ZXJuc19DLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0FuZ3J5Q2F2ZXJuc19DLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACUAAABab25lcy5OYW1lcy5zYl9DaXR5X0FfRWFzdGVybkJhc3Rpb24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACwAAABab25lcy5OYW1lcy5zYl9DaXR5X0FfRWFzdGVybkJhc3Rpb24uQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAtAAAAWm9uZXMuTmFtZXMuc2JfQ2l0eV9BX0Vhc3Rlcm5CYXN0aW9uLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAIgAAAFpvbmVzLk5hbWVzLnNiX0NpdHlfQl9Ed2Fycm93ZGVsZgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAKQAAAFpvbmVzLk5hbWVzLnNiX0NpdHlfQl9Ed2Fycm93ZGVsZi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACoAAABab25lcy5OYW1lcy5zYl9DaXR5X0JfRHdhcnJvd2RlbGYuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAFgAAAFpvbmVzLk5hbWVzLnNiX0NpdHlfQwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHQAAAFpvbmVzLk5hbWVzLnNiX0NpdHlfQy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABab25lcy5OYW1lcy5zYl9DaXR5X0MuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAFgAAAFpvbmVzLk5hbWVzLnNiX0NpdHlfRAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHQAAAFpvbmVzLk5hbWVzLnNiX0NpdHlfRC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABab25lcy5OYW1lcy5zYl9DaXR5X0QuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAFpvbmVzLk5hbWVzLnNiX0Rhcmtlc3REZWVwc19BAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAlAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0EuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAmAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0EuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAFpvbmVzLk5hbWVzLnNiX0Rhcmtlc3REZWVwc19CAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAlAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0IuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAmAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0IuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAFpvbmVzLk5hbWVzLnNiX0Rhcmtlc3REZWVwc19DAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAlAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0MuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAmAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0MuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAFpvbmVzLk5hbWVzLnNiX0Rhcmtlc3REZWVwc19EAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAlAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0QuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAmAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0QuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHgAAAFpvbmVzLk5hbWVzLnNiX0Rhcmtlc3REZWVwc19FAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAlAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0UuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAmAAAAWm9uZXMuTmFtZXMuc2JfRGFya2VzdERlZXBzX0UuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAGQAAAFpvbmVzLk5hbWVzLlNCX0Rlc2NlbnRfQQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIAAAAFpvbmVzLk5hbWVzLlNCX0Rlc2NlbnRfQS5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5TQl9EZXNjZW50X0EuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAZAAAAWm9uZXMuTmFtZXMuU0JfRGVzY2VudF9CAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAgAAAAWm9uZXMuTmFtZXMuU0JfRGVzY2VudF9CLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLlNCX0Rlc2NlbnRfQi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABkAAABab25lcy5OYW1lcy5TQl9EZXNjZW50X0MAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACAAAABab25lcy5OYW1lcy5TQl9EZXNjZW50X0MuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuU0JfRGVzY2VudF9DLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAKgAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfQV9EZXNvbGF0aW9uAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAxAAAAWm9uZXMuTmFtZXMuc2JfRGVzdHJveWVkQ2l0eV9BX0Rlc29sYXRpb24uQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAyAAAAWm9uZXMuTmFtZXMuc2JfRGVzdHJveWVkQ2l0eV9BX0Rlc29sYXRpb24uS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfQgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfQi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACcAAABab25lcy5OYW1lcy5zYl9EZXN0cm95ZWRDaXR5X0IuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfQwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfQy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACcAAABab25lcy5OYW1lcy5zYl9EZXN0cm95ZWRDaXR5X0MuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfRAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0Rlc3Ryb3llZENpdHlfRC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACcAAABab25lcy5OYW1lcy5zYl9EZXN0cm95ZWRDaXR5X0QuS2h1emR1bAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAGAAAAFpvbmVzLk5hbWVzLnNiX0RyYWdvbl9BAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAgAAAAWm9uZXMuTmFtZXMuc2JfRHJhZ29uX0EuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAaAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfQQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0EuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfQS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9CAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfQi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9CLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGgAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0MAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9DLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIgAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0MuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAaAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfRAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0QuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfRC5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9FAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfRS5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9FLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGgAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0YAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9GLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIgAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0YuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAaAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfRwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0cuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfRy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABoAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9IAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAhAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfSC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACIAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9ILktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGgAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0kAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5TQl9FbGV2YXRvcl9JLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIgAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0kuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAaAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfSgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLlNCX0VsZXZhdG9yX0ouQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuU0JfRWxldmF0b3JfSi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsAB4AAABab25lcy5OYW1lcy5zYl9FbHZlblF1YXJ0ZXJfQQABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJQAAAFpvbmVzLk5hbWVzLnNiX0VsdmVuUXVhcnRlcl9BLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0VsdmVuUXVhcnRlcl9BLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABab25lcy5OYW1lcy5zYl9FbHZlblF1YXJ0ZXJfQgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJQAAAFpvbmVzLk5hbWVzLnNiX0VsdmVuUXVhcnRlcl9CLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0VsdmVuUXVhcnRlcl9CLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB4AAABab25lcy5OYW1lcy5zYl9FbHZlblF1YXJ0ZXJfQwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJQAAAFpvbmVzLk5hbWVzLnNiX0VsdmVuUXVhcnRlcl9DLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAJgAAAFpvbmVzLk5hbWVzLnNiX0VsdmVuUXVhcnRlcl9DLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACcAAABab25lcy5OYW1lcy5zYl9Mb3dlckRlZXBzX0FfRHJhaW53b3JrcwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQALgAAAFpvbmVzLk5hbWVzLnNiX0xvd2VyRGVlcHNfQV9EcmFpbndvcmtzLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQALwAAAFpvbmVzLk5hbWVzLnNiX0xvd2VyRGVlcHNfQV9EcmFpbndvcmtzLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABwAAABab25lcy5OYW1lcy5zYl9Mb3dlckRlZXBzX0IAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5zYl9Mb3dlckRlZXBzX0IuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAkAAAAWm9uZXMuTmFtZXMuc2JfTG93ZXJEZWVwc19CLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABwAAABab25lcy5OYW1lcy5zYl9Mb3dlckRlZXBzX0MAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5zYl9Mb3dlckRlZXBzX0MuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAkAAAAWm9uZXMuTmFtZXMuc2JfTG93ZXJEZWVwc19DLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACQAAABab25lcy5OYW1lcy5zYl9NaW5lc19BX1dlc3Rlcm5NaW5lcwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAKwAAAFpvbmVzLk5hbWVzLnNiX01pbmVzX0FfV2VzdGVybk1pbmVzLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQALAAAAFpvbmVzLk5hbWVzLnNiX01pbmVzX0FfV2VzdGVybk1pbmVzLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABcAAABab25lcy5OYW1lcy5zYl9NaW5lc19CAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAeAAAAWm9uZXMuTmFtZXMuc2JfTWluZXNfQi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABab25lcy5OYW1lcy5zYl9NaW5lc19CLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABcAAABab25lcy5OYW1lcy5zYl9NaW5lc19DAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAeAAAAWm9uZXMuTmFtZXMuc2JfTWluZXNfQy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABab25lcy5OYW1lcy5zYl9NaW5lc19DLktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkABcAAABab25lcy5OYW1lcy5zYl9NaW5lc19EAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAeAAAAWm9uZXMuTmFtZXMuc2JfTWluZXNfRC5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABab25lcy5OYW1lcy5zYl9NaW5lc19ELktodXpkdWwAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACMAAABab25lcy5OYW1lcy5zYl9TdWJ1cmJhbl9BX1dlc3RnYXRlAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAArAAAAWm9uZXMuTmFtZXMuc2JfU3VidXJiYW5fQV9XZXN0Z2F0ZS5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsACIAAABab25lcy5OYW1lcy5zYl9TdWJ1cmJhbl9CX0hpZ2h3YXkAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACoAAABab25lcy5OYW1lcy5zYl9TdWJ1cmJhbl9CX0hpZ2h3YXkuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAaAAAAWm9uZXMuTmFtZXMuc2JfU3VidXJiYW5fQwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLnNiX1N1YnVyYmFuX0MuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuc2JfU3VidXJiYW5fQy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAaAAAAWm9uZXMuTmFtZXMuc2JfU3VidXJiYW5fRAABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIQAAAFpvbmVzLk5hbWVzLnNiX1N1YnVyYmFuX0QuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAiAAAAWm9uZXMuTmFtZXMuc2JfU3VidXJiYW5fRC5LaHV6ZHVsAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAeAAAAWm9uZXMuTmFtZXMuU2VjcmV0VG9tYk9mS2luZ3MAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACUAAABab25lcy5OYW1lcy5TZWNyZXRUb21iT2ZLaW5ncy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACYAAABab25lcy5OYW1lcy5TZWNyZXRUb21iT2ZLaW5ncy5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABcAAABab25lcy5OYW1lcy5UaGVIaWdod2F5AAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAeAAAAWm9uZXMuTmFtZXMuVGhlSGlnaHdheS5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABab25lcy5OYW1lcy5UaGVIaWdod2F5LktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGQAAAFpvbmVzLk5hbWVzLldlc3Rlcm5NaW5lcwABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAIAAAAFpvbmVzLk5hbWVzLldlc3Rlcm5NaW5lcy5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACEAAABab25lcy5OYW1lcy5XZXN0ZXJuTWluZXMuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAYAAAAWm9uZXMuTmFtZXMuV2VzdGVyblRvd24AAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAB8AAABab25lcy5OYW1lcy5XZXN0ZXJuVG93bi5CYW5uZXIAAQAAAAgAAAAAAAAACQAAAEFwcHJvdmVkACAAAABab25lcy5OYW1lcy5XZXN0ZXJuVG93bi5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsACMAAABMYW5kbWFya3MuQ0g0LkR1cmluc0NhcGl0b2wuQmFubmVyAAEAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAgAAAATGFuZG1hcmtzLkNoNS5Ccm9rZW5TZWFsLkJhbm5lcgABAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAFdheXBvaW50LkRlZmF1bHRNYXBTdG9uZUZvcm1hdAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAACYAAAARm9ybWF0IHVzZWQgZm9yIGEgc3RhdHVlIHRoYXQgZGVwaWN0cyBhIG1hcCB3aGVyZSB7MH0gd2lsbCBiZSByZXBsYWNlZCB3aXRoIHRoZSBab25lIG5hbWUuIFRlcm0gc2hvdWxkIGJlIGNvbnNpc3RlbnQgd2l0aCBrZXkgQ0JQLk1hcFN0b25lLkRpc3BsYXlOYW1lLgAnAAAAV2F5cG9pbnQuRGVmYXVsdE1hcFN0b25lRm9ybWF0TXVsdGlwbGUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAA7gAAAEZvcm1hdCB1c2VkIGZvciBhIHN0YXR1ZSB0aGF0IGRlcGljdHMgYSBtYXAgd2hlcmUgezB9IHdpbGwgYmUgcmVwbGFjZWQgd2l0aCB0aGUgWm9uZSBuYW1lIGFuZCB7MX0gd2lsbCBiZSByZWxhY2VkIHdpdGggYSBudW1iZXIgKDIgb3IgbW9yZSkgdG8gdHJ5IHRvIG1ha2UgdGhlIG5hbWUgbW9yZSB1bmlxdWUuIFRlcm0gc2hvdWxkIGJlIGNvbnNpc3RlbnQgd2l0aCBrZXkgQ0JQLk1hcFN0b25lLkRpc3BsYXlOYW1lLgArAAAATGFuZG1hcmtzLkNINC5EdXJpbnNDYXBpdG9sLkJhbm5lci5LaHV6ZHVsAAEAAAAIAAAAAAAAAAgAAABLaHV6ZHVsABcAAABab25lcy5FeHBlZGl0aW9uLlN0YXJ0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABcAAABOb3QgdXNlZCBvbiB0aGUgTWFwIFVJAB4AAABab25lcy5FeHBlZGl0aW9uLlN0YXJ0LkJhbm5lcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAASAAAAWm9uZSBiYW5uZXIgcG9wdXAAHwAAAFpvbmVzLkV4cGVkaXRpb24uU3RhcnQuS2h1emR1bAABAAAACAAAAAAAAAAIAAAAS2h1emR1bAAWAAAAWm9uZXMuRXhwZWRpdGlvbi5NaW5lAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAB0AAABFeHBlZGl0aW9uIG1pbmUgbmFtZSwgTWFwIFVJAB0AAABab25lcy5FeHBlZGl0aW9uLk1pbmUuQmFubmVyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACoAAABFeHBlZGl0aW9uIG1pbmUgYmFubmVyLCBab25lIGJhbm5lciBwb3B1cAAeAAAAWm9uZXMuRXhwZWRpdGlvbi5NaW5lLktodXpkdWwAAgAAAAgAAAAAAAAACAAAAEtodXpkdWwABAAAAAAAAAAkAAAAUm91Z2hseSB0cmFuc2xhdGVkICJhYmFuZG9uZWQgbWluZSIAGgAAAFpvbmVzLkV4cGVkaXRpb24uU3VidXJiYW4AAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAABwAAAE1hcCBVSQAhAAAAWm9uZXMuRXhwZWRpdGlvbi5TdWJ1cmJhbi5CYW5uZXIAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAEgAAAFpvbmUgYmFubmVyIHBvcHVwACIAAABab25lcy5FeHBlZGl0aW9uLlN1YnVyYmFuLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAHAAAAFpvbmVzLkV4cGVkaXRpb24uTG93ZXJEZWVwcwACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAHAAAATWFwIFVJACMAAABab25lcy5FeHBlZGl0aW9uLkxvd2VyRGVlcHMuQmFubmVyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABIAAABab25lIGJhbm5lciBwb3B1cAAkAAAAWm9uZXMuRXhwZWRpdGlvbi5Mb3dlckRlZXBzLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAFgAAAFpvbmVzLkV4cGVkaXRpb24uQ2l0eQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAHAAAATWFwIFVJAB0AAABab25lcy5FeHBlZGl0aW9uLkNpdHkuQmFubmVyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAABIAAABab25lIGJhbm5lciBwb3B1cAAeAAAAWm9uZXMuRXhwZWRpdGlvbi5DaXR5LktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAHgAAAFpvbmVzLkV4cGVkaXRpb24uQW5ncnlDYXZlcm5zAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAAcAAABNYXAgVUkAJQAAAFpvbmVzLkV4cGVkaXRpb24uQW5ncnlDYXZlcm5zLkJhbm5lcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAASAAAAWm9uZSBiYW5uZXIgcG9wdXAAJgAAAFpvbmVzLkV4cGVkaXRpb24uQW5ncnlDYXZlcm5zLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAHgAAAFpvbmVzLkV4cGVkaXRpb24uRGFya2VzdERlZXBzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAAcAAABNYXAgVUkAJQAAAFpvbmVzLkV4cGVkaXRpb24uRGFya2VzdERlZXBzLkJhbm5lcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAASAAAAWm9uZSBiYW5uZXIgcG9wdXAAJgAAAFpvbmVzLkV4cGVkaXRpb24uRGFya2VzdERlZXBzLktodXpkdWwAAQAAAAgAAAAAAAAACAAAAEtodXpkdWwAGQAAAFpvbmVzLkV4cGVkaXRpb24uT3JjVG93bgACAAAACAAAAAAAAAAEAAAAQ3V0AAQAAAAAAAAAWQAAAFdvbid0IG5lY2Vzc2FyaWx5IGhhdmUgYW4gb3JjIHRvd24gaW4sIGJ1dCB3YW50IHRvIGNhcHR1cmUgdGhlIG5lZWQgZm9yIGEgc3RyaW5nLCBNYXAgVUkAIAAAAFpvbmVzLkV4cGVkaXRpb24uT3JjVG93bi5CYW5uZXIAAgAAAAgAAAAAAAAABAAAAEN1dAAEAAAAAAAAABIAAABab25lIGJhbm5lciBwb3B1cAAhAAAAWm9uZXMuRXhwZWRpdGlvbi5PcmNUb3duLktodXpkdWwAAgAAAAgAAAAAAAAABAAAAEN1dAAEAAAAAAAAAAAAAAATAAAAQ2hhcHRlci5EdXJpblRvd2VyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAADsAAABOYW1lIHVzZWQgZm9yIER1cmluIFRvd2VyIGNoYXB0ZXIgZmlsdGVyIGluIHRoZSBtYXAgc2NyZWVuABQAAABDaGFwdGVyLkRpbXJpbGxEYWxlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACwAAABDaGFwdGVyIG5hbWUgZm9yIERpbXJpbGwgRGFsZSBpbiBtYXAgc2NyZWVuABQAAABDaGFwdGVyLlRyYWRpbmdQb3N0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACwAAABDaGFwdGVyIG5hbWUgZm9yIFRyYWRpbmcgUG9zdCBpbiBtYXAgc2NyZWVuACcAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5UaHJlYXQuTG93RW5lbWllcwACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAARW5lbXkgcG9wdWxhdGlvbiBpcyBsb3dlciB0aGFuIG5vcm1hbAAoAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuVGhyZWF0LkhpZ2hFbmVtaWVzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACcAAABFbmVteSBwb3B1bGF0aW9uIGlzIGhpZ2hlciB0aGFuIG5vcm1hbAAsAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuVGhyZWF0LlZlcnlIaWdoRW5lbWllcwACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAsAAAARW5lbXkgcG9wdWxhdGlvbiBpcyBtdWNoIGhpZ2hlciB0aGFuIG5vcm1hbAAlAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuVGhyZWF0Lkxvd05vaXNlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACQAAABBd2FyZW5lc3MgbWV0ZXIgYWNjcnVlcyBtb3JlIHNsb3dseQAmAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuVGhyZWF0LkhpZ2hOb2lzZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAfAAAAQXdhcmVuZXNzIG1ldGVyIGFjY3J1ZXMgZmFzdGVyACkAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5UaHJlYXQuRXh0cmVtZU5vaXNlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACIAAABBd2FyZW5lc3MgbWV0ZXIgYWNjcnVlcyB2ZXJ5IGZhc3QAKAAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc291cmNlLkNvYWxBbWJlcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAqAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuSXJvbkNpdHJpbmUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJgAAAFJlc291cmNlIGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAKwAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc291cmNlLklyb25SZWRCZXJ5bAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAnAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuSXJvbkphZGUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJgAAAFJlc291cmNlIGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAKgAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc29ydWNlLkNvcHBlclplbGViAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACgAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5SZXNvdXJjZS5UaW5HYXJuZXQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJgAAAFJlc291cmNlIGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAKAAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc291cmNlLlJlc2luT255eAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAlAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuU2lsdmVyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACMAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5SZXNvdXJjZS5TYWx0AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACsAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5SZXNvdXJjZS5CbGFja0RpYW1vbmQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJgAAAFJlc291cmNlIGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAJgAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc291cmNlLkRpYW1vbmQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJgAAAFJlc291cmNlIGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAKwAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc291cmNlLlN1bnN0b25lSmFkZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQApAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuR29sZFF1YXJ0egACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAnAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuQW1ldGh5c3QAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJgAAAFJlc291cmNlIGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAJAAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLlJlc291cmNlLlRvcGF6AAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACcAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5SZXNvdXJjZS5TYXBwaGlyZQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAuAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuU3Rhck1ldGFsSW9saXRlAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACYAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5SZXNvdXJjZS5NaXRocmlsAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACcAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5SZXNvdXJjZS5SZWRCZXJ5bAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAmAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuRW1lcmFsZAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAjAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuUnVieQACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAmAAAAUmVzb3VyY2UgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAbAAAAWm9uZXMuRXhwZWRpdGlvbi5SaW5nRm9yZ2UAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIQAAAEZvcmdlIHpvbmUgbG9jYXRpb24gbmFtZSwgTWFwIFVJACIAAABab25lcy5FeHBlZGl0aW9uLlJpbmdGb3JnZS5CYW5uZXIAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAGwAAAEZvcmdlIHpvbmUgbG9jYXRpb24gYmFubmVyACMAAABab25lcy5FeHBlZGl0aW9uLlJpbmdGb3JnZS5LaHV6ZHVsAAIAAAAIAAAAAAAAAAgAAABLaHV6ZHVsAAQAAAAAAAAAHAAAAEZvcmdlIHpvbmUgbG9jYXRpb24gS2h1emR1bAAeAAAAWm9uZXMuRXhwZWRpdGlvbi5HcmVuZGVsRmlnaHQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAKQAAAEdyZW5kZWwgZmlnaHQgem9uZSBsb2NhdGlvbiBuYW1lLCBNYXAgVUkAJQAAAFpvbmVzLkV4cGVkaXRpb24uR3JlbmRlbEZpZ2h0LkJhbm5lcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAjAAAAR3JlbmRlbCBmaWdodCB6b25lIGxvY2F0aW9uIGJhbm5lcgAmAAAAWm9uZXMuRXhwZWRpdGlvbi5HcmVuZGVsRmlnaHQuS2h1emR1bAACAAAACAAAAAAAAAAIAAAAS2h1emR1bAAEAAAAAAAAACQAAABHcmVuZGVsIGZpZ2h0IHpvbmUgbG9jYXRpb24gS2h1emR1bAAYAAAAWm9uZXMuRXhwZWRpdGlvbi5SZXNjdWUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAALQAAAFJlc2N1ZSBleHBlZGl0aW9uIHpvbmUgbG9jYXRpb24gbmFtZSwgTWFwIFVJAB8AAABab25lcy5FeHBlZGl0aW9uLlJlc2N1ZS5CYW5uZXIAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAJwAAAFJlc2N1ZSBleHBlZGl0aW9uIHpvbmUgbG9jYXRpb24gYmFubmVyACAAAABab25lcy5FeHBlZGl0aW9uLlJlc2N1ZS5LaHV6ZHVsAAIAAAAIAAAAAAAAAAgAAABLaHV6ZHVsAAQAAAAAAAAAKAAAAFJlc2N1ZSBleHBlZGl0aW9uIHpvbmUgbG9jYXRpb24gS2h1emR1bAAlAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuQW5vcmluAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACYAAABSZXNvdXJjZSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJAB8AAABXYXlwb2ludC5DaDQuU2Vla1RoZUNyb3Nzcm9hZHMAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAYQAAAFdheXBvaW50IHBvaW50aW5nIHlvdSB0byBCbG9ja2VkSGlnaHdheUVhc3QgYnViYmxlIHdoaWxlIGluIENoYXB0ZXIgNCBiZWZvcmUgdW5sb2NraW5nIGNoYXB0ZXIgNQAYAAAAWm9uZXMuTmFtZXMuRGltcmlsbERhbGUAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAAAAAAB8AAABab25lcy5OYW1lcy5EaW1yaWxsRGFsZS5CYW5uZXIAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAAAAAABgAAABab25lcy5OYW1lcy5UcmFkaW5nUG9zdAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAAAAAAHwAAAFpvbmVzLk5hbWVzLlRyYWRpbmdQb3N0LkJhbm5lcgACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAAAAAAGAAAAFpvbmVzLk5hbWVzLkR1cmluc1Rvd2VyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAAAAAAAfAAAAWm9uZXMuTmFtZXMuRHVyaW5zVG93ZXIuQmFubmVyAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAAAAAAAgAAAAWm9uZXMuTmFtZXMuRGltcmlsbERhbGUuS2h1emR1bAACAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQABAAAAAAAAAAAAAAAIAAAAFpvbmVzLk5hbWVzLkR1cmluc1Rvd2VyLktodXpkdWwAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAAAAAACAAAABab25lcy5OYW1lcy5UcmFkaW5nUG9zdC5LaHV6ZHVsAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAAAAAAAAkAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuRW5lbXkuRGVlcE9yY3MAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAEVuZW15IGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkALAAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLkVuZW15LkNhdmVUcm9sbEFybW9yZWQAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAEVuZW15IGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAJgAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLkVuZW15LlJlZEV5ZU9yY3MAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAEVuZW15IGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAJwAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLkVuZW15LlJlZEV5ZVVydWtzAAIAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAEAAAAAAAAACMAAABFbmVteSBkaXNwbGF5IG9uIGV4cGVkaXRpb24gbWFwIFVJACUAAABFeHBlZGl0aW9uLk1vZGlmaWVycy5FbmVteS5Nb3NzVHJvbGwAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAEVuZW15IGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAIwAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLkVuZW15LlJpbmdPcmMAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAEVuZW15IGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAJgAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLkVuZW15LlJ1c3R5VHJvbGwAAgAAAAgAAAAAAAAACQAAAEFwcHJvdmVkAAQAAAAAAAAAIwAAAEVuZW15IGRpc3BsYXkgb24gZXhwZWRpdGlvbiBtYXAgVUkAJQAAAEV4cGVkaXRpb24uTW9kaWZpZXJzLkVuZW15LlNoYWRvd09yYwACAAAABAAAAAAAAAAjAAAARW5lbXkgZGlzcGxheSBvbiBleHBlZGl0aW9uIG1hcCBVSQAIAAAAAAAAAAkAAABBcHByb3ZlZAAcAAAATGFuZG1hcmtzLkNoNy5FbmRsZXNzU3RhaXJzAAIAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAAXAAAATGFuZG1hcmtzLkNoNy5FbWlzc2FyeQACAAAABAAAAAAAAAAAAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAHwAAAExhbmRtYXJrcy5DaDcuS2hhemFkc3RvbmVOaWNoZQACAAAABAAAAAAAAAAAAAAACAAAAAAAAAAJAAAAQXBwcm92ZWQAGAAAAExhbmRtYXJrcy5DaDcuRmlyc3RIYWxsAAIAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAkAAABBcHByb3ZlZAApAAAARXhwZWRpdGlvbi5Nb2RpZmllcnMuUmVzb3VyY2UuVHJ1ZVF1YXJ0egACAAAABAAAAAAAAAAoAAAARm9yIHRydWUgcXVhcnR6IGV4cGVkaXRpb24gZmxhdm9yIHRleHQgAAgAAAAAAAAACQAAAEFwcHJvdmVkAA=="
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "StringTable",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__StringTable",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 11
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Tech/Data/StringTables/World",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 11,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}

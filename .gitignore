@@ -23,6 +23,19 @@ cleansweep/
 
 # Python cache
 scripts/__pycache__/
+experiments/worldgen_research/__pycache__/
+
+# Worldgen research: per-iteration .before_* snapshot files (large, transient)
+experiments/worldgen_research/*.before_*.json
+experiments/worldgen_research/*.before_*.uasset
+
+# Worldgen research: legacy backup directories (large, transient — milestone
+# backups under explicit named dirs may be committed individually if needed)
+experiments/worldgen_research/backups/before*/
+experiments/worldgen_research/backups/pristine*/
+experiments/worldgen_research/backups/slow*/
+experiments/worldgen_research/backups/14*/
+experiments/worldgen_research/backups/vanilla*/
 
 # Misc
 notify.log
