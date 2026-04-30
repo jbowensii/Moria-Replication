@@ -248,7 +248,34 @@
     "BelongsToOrigin",
     "South",
     "MithrilDeeps_4",
-    "Landmark"
+    "Landmark",
+    "Sandbox_Small_Chain_TopElToLv3Lv4",
+    "Sandbox_Small_TopElevator",
+    "Sandbox.TopElevator",
+    "Sandbox_Small_Lv3Lv4Connector",
+    "Sandbox.Lv3Lv4Connector",
+    "Sandbox_Small_Chain_Lv3Lv4ToUpperEl",
+    "Sandbox_Small_Elevator_B",
+    "Sandbox_Small_Chain_UpperElToD1Lv1",
+    "Sandbox_Small_D1Lv1Connector",
+    "Sandbox.D1Lv1Connector",
+    "Sandbox_Small_Chain_D1Lv1ToDeepUpper",
+    "Sandbox_Small_DeepUpperEl",
+    "Sandbox.DeepUpperEl",
+    "Sandbox_Small_Chain_DeepUpperToDeepMid",
+    "Sandbox_Small_DeepMidEl",
+    "Sandbox.DeepMidEl",
+    "Sandbox_Small_Chain_DeepMidToD4D3",
+    "Sandbox_Small_D4D3Connector",
+    "Sandbox.D4D3Connector",
+    "Sandbox_Small_Chain_D4D3ToDeepBottom",
+    "Sandbox_Small_DeepBottomEl",
+    "Sandbox.DeepBottomEl",
+    "Sandbox_Small_Chain_DeepBottomToCD",
+    "Sandbox_Small_CrystalDescent",
+    "Sandbox_Small_Chain_CDToD7D6",
+    "Sandbox_Small_D7D6Stair",
+    "Sandbox.D7D6Stair"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -28317,6 +28344,3453 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Disabled"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_TopElToLv3Lv4",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_TopElevator"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.TopElevator"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_Lv3Lv4Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.Lv3Lv4Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_Lv3Lv4ToUpperEl",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_Lv3Lv4Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.Lv3Lv4Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_Elevator_B"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.FirstStair"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_UpperElToD1Lv1",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_Elevator_B"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.FirstStair"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_D1Lv1Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.D1Lv1Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_D1Lv1ToDeepUpper",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_D1Lv1Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.D1Lv1Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_DeepUpperEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.DeepUpperEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_DeepUpperToDeepMid",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_DeepUpperEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.DeepUpperEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_DeepMidEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.DeepMidEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_DeepMidToD4D3",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_DeepMidEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.DeepMidEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_D4D3Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.D4D3Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_D4D3ToDeepBottom",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_D4D3Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.D4D3Connector"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_DeepBottomEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.DeepBottomEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_DeepBottomToCD",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_DeepBottomEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.DeepBottomEl"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_CrystalDescent"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Chapter3.CrystalDescent"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLayoutConnection",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Sandbox_Small_Chain_CDToD7D6",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bExclusive",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": true
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                "Name": "bLeafZoneRoute",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": false
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "OriginKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_CrystalDescent"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Chapter3.CrystalDescent"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 0,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::East"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "OriginFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "OriginCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "OriginCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionEndpointKind",
+                "InnerType": null,
+                "Name": "DestinationKind",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionEndpointKind::Zone"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorZoneRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationZone",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox_Small_D7D6Stair"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorLandmarkRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationLandmark",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Sandbox.D7D6Stair"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "BubbleInterfaceLocator",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationInterface",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "IntVector",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Subcell",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                        "Name": "Subcell",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                          "X": 0,
+                          "Y": 1,
+                          "Z": 0
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                    "EnumType": "ECellDirection",
+                    "InnerType": null,
+                    "Name": "Direction",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "ECellDirection::West"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionFavorSide",
+                "InnerType": null,
+                "Name": "DestinationFavor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionFavorSide::Any"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "IntVector",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DestinationCoord",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.IntVectorPropertyData, UAssetAPI",
+                    "Name": "DestinationCoord",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
+                      "X": 0,
+                      "Y": 0,
+                      "Z": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EConnectionZoneRule",
+                "InnerType": null,
+                "Name": "ZoneRule",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
                 "Value": "ERowEnabledState::Live"
               }
             ]
@@ -28435,7 +31909,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 1,
-      "NameCount": 247
+      "NameCount": 274
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -28466,7 +31940,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 247,
+  "NamesReferencedFromExportDataCount": 274,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,

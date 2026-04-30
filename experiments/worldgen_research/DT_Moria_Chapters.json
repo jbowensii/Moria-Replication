@@ -75,7 +75,8 @@
     "Chapter.Sandbox.Level7.Name",
     "Chapter.Sandbox.Deep5.Name",
     "Chapter.Sandbox.Deep6.Name",
-    "Chapter.Sandbox.Deep7.Name"
+    "Chapter.Sandbox.Deep7.Name",
+    "ERowEnabledState::Disabled"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -220,7 +221,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 2
+                "Value": 102
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -332,7 +333,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 103
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -444,7 +445,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 104
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -556,7 +557,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 5
+                "Value": 105
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -668,7 +669,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 6
+                "Value": 106
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -780,7 +781,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 7
+                "Value": 107
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -892,7 +893,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 108
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1116,7 +1117,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 2
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1164,7 +1165,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 20
+                "Value": 19
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1228,7 +1229,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 5
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1340,7 +1341,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 7
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1452,7 +1453,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1500,7 +1501,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 17
+                "Value": 14
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1564,7 +1565,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 7
+                "Value": 4
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1612,7 +1613,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 10
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1788,7 +1789,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 5
+                "Value": 8
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1836,7 +1837,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 5
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1977,7 +1978,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2089,7 +2090,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2201,7 +2202,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2313,7 +2314,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2425,7 +2426,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2537,7 +2538,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2649,7 +2650,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2761,7 +2762,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
+                "Value": "ERowEnabledState::Disabled"
               }
             ]
           },
@@ -2796,7 +2797,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 1
+                "Value": 101
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -3020,7 +3021,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 10
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -3132,7 +3133,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 11
+                "Value": 13
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -3244,7 +3245,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 12
+                "Value": 10
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -3292,7 +3293,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -3356,7 +3357,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 12
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -3682,7 +3683,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 1,
-      "NameCount": 74
+      "NameCount": 75
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -3713,7 +3714,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 74,
+  "NamesReferencedFromExportDataCount": 75,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,
