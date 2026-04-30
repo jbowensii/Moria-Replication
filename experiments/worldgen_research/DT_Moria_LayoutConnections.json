@@ -29,11 +29,9 @@
     "Chapter2.BlockedHighwayWest.Mines",
     "Chapter2.BlockedHighwayWest.Town",
     "Chapter2.DoorsOfDurin",
-    "Chapter2.ElvenQuarterEntrance",
     "Chapter2.ElvenQuarterPromenade",
     "Chapter2.GameStart",
     "Chapter2.MinesHeroShot",
-    "Chapter3.CrystalDescent",
     "Chapter3.Drainworks",
     "Chapter3.EasternStairs",
     "Chapter3.FloodedForge",
@@ -251,31 +249,33 @@
     "Landmark",
     "Sandbox_Small_Chain_TopElToLv3Lv4",
     "Sandbox_Small_TopElevator",
-    "Sandbox.TopElevator",
     "Sandbox_Small_Lv3Lv4Connector",
-    "Sandbox.Lv3Lv4Connector",
     "Sandbox_Small_Chain_Lv3Lv4ToUpperEl",
     "Sandbox_Small_Elevator_B",
     "Sandbox_Small_Chain_UpperElToD1Lv1",
     "Sandbox_Small_D1Lv1Connector",
-    "Sandbox.D1Lv1Connector",
     "Sandbox_Small_Chain_D1Lv1ToDeepUpper",
     "Sandbox_Small_DeepUpperEl",
-    "Sandbox.DeepUpperEl",
     "Sandbox_Small_Chain_DeepUpperToDeepMid",
     "Sandbox_Small_DeepMidEl",
-    "Sandbox.DeepMidEl",
     "Sandbox_Small_Chain_DeepMidToD4D3",
     "Sandbox_Small_D4D3Connector",
-    "Sandbox.D4D3Connector",
     "Sandbox_Small_Chain_D4D3ToDeepBottom",
     "Sandbox_Small_DeepBottomEl",
-    "Sandbox.DeepBottomEl",
     "Sandbox_Small_Chain_DeepBottomToCD",
     "Sandbox_Small_CrystalDescent",
     "Sandbox_Small_Chain_CDToD7D6",
     "Sandbox_Small_D7D6Stair",
-    "Sandbox.D7D6Stair"
+    "Sandbox._disabled_vanilla_FourthStair",
+    "Sandbox.FifthStair",
+    "Sandbox.SeventhStair",
+    "Sandbox.FourteenthStair",
+    "Sandbox.TwelfthStair",
+    "Sandbox.TenthStair",
+    "Sandbox.EighthStair",
+    "Sandbox.SixthStair",
+    "Sandbox.SecondStair",
+    "Chapter1.ElvenQuarterEntrance"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -1798,7 +1798,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Chapter2.ElvenQuarterEntrance"
+                    "Value": "Chapter1.ElvenQuarterEntrance"
                   }
                 ]
               },
@@ -2027,7 +2027,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Chapter2.ElvenQuarterEntrance"
+                    "Value": "Chapter1.ElvenQuarterEntrance"
                   }
                 ]
               },
@@ -3713,7 +3713,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Chapter3.CrystalDescent"
+                    "Value": "Sandbox.FourteenthStair"
                   }
                 ]
               },
@@ -3942,7 +3942,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Chapter3.CrystalDescent"
+                    "Value": "Sandbox.FourteenthStair"
                   }
                 ]
               },
@@ -25814,7 +25814,7 @@
                           "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                           "X": 1,
                           "Y": 0,
-                          "Z": 0
+                          "Z": 28
                         }
                       }
                     ]
@@ -25968,7 +25968,7 @@
                           "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                           "X": 0,
                           "Y": 0,
-                          "Z": 9
+                          "Z": 28
                         }
                       }
                     ]
@@ -27346,7 +27346,7 @@
                           "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                           "X": 0,
                           "Y": 0,
-                          "Z": 0
+                          "Z": 1
                         }
                       }
                     ]
@@ -27500,7 +27500,7 @@
                           "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                           "X": 0,
                           "Y": 1,
-                          "Z": 0
+                          "Z": 1
                         }
                       }
                     ]
@@ -28112,7 +28112,7 @@
                           "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                           "X": 0,
                           "Y": 0,
-                          "Z": 0
+                          "Z": 1
                         }
                       }
                     ]
@@ -28225,7 +28225,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.FourthStair"
+                    "Value": "Sandbox._disabled_vanilla_FourthStair"
                   }
                 ]
               },
@@ -28266,7 +28266,7 @@
                           "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                           "X": 0,
                           "Y": 1,
-                          "Z": 0
+                          "Z": 1
                         }
                       }
                     ]
@@ -28454,7 +28454,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.TopElevator"
+                    "Value": "Sandbox.SeventhStair"
                   }
                 ]
               },
@@ -28608,7 +28608,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.Lv3Lv4Connector"
+                    "Value": "Sandbox.FifthStair"
                   }
                 ]
               },
@@ -28837,7 +28837,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.Lv3Lv4Connector"
+                    "Value": "Sandbox.FifthStair"
                   }
                 ]
               },
@@ -29374,7 +29374,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.D1Lv1Connector"
+                    "Value": "Sandbox.SecondStair"
                   }
                 ]
               },
@@ -29603,7 +29603,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.D1Lv1Connector"
+                    "Value": "Sandbox.SecondStair"
                   }
                 ]
               },
@@ -29757,7 +29757,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.DeepUpperEl"
+                    "Value": "Sandbox.FourthStair"
                   }
                 ]
               },
@@ -29986,7 +29986,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.DeepUpperEl"
+                    "Value": "Sandbox.FourthStair"
                   }
                 ]
               },
@@ -30140,7 +30140,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.DeepMidEl"
+                    "Value": "Sandbox.SixthStair"
                   }
                 ]
               },
@@ -30369,7 +30369,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.DeepMidEl"
+                    "Value": "Sandbox.SixthStair"
                   }
                 ]
               },
@@ -30523,7 +30523,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.D4D3Connector"
+                    "Value": "Sandbox.EighthStair"
                   }
                 ]
               },
@@ -30752,7 +30752,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.D4D3Connector"
+                    "Value": "Sandbox.EighthStair"
                   }
                 ]
               },
@@ -30906,7 +30906,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.DeepBottomEl"
+                    "Value": "Sandbox.TenthStair"
                   }
                 ]
               },
@@ -31135,7 +31135,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.DeepBottomEl"
+                    "Value": "Sandbox.TenthStair"
                   }
                 ]
               },
@@ -31289,7 +31289,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Chapter3.CrystalDescent"
+                    "Value": "Sandbox.FourteenthStair"
                   }
                 ]
               },
@@ -31518,7 +31518,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Chapter3.CrystalDescent"
+                    "Value": "Sandbox.FourteenthStair"
                   }
                 ]
               },
@@ -31672,7 +31672,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Sandbox.D7D6Stair"
+                    "Value": "Sandbox.TwelfthStair"
                   }
                 ]
               },

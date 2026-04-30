@@ -65,11 +65,9 @@
     "Chapter2.BlockedHighwayWest.Mines",
     "Chapter2.BlockedHighwayWest.Town",
     "Chapter2.DoorsOfDurin",
-    "Chapter2.ElvenQuarterEntrance",
     "Chapter2.ElvenQuarterPromenade",
     "Chapter2.GameStart",
     "Chapter2.MinesHeroShot",
-    "Chapter3.CrystalDescent",
     "Chapter3.Drainworks",
     "Chapter3.EasternStairs",
     "Chapter3.FloodedForge",
@@ -180,7 +178,6 @@
     "Sandbox.MithrilMineNexus",
     "Sandbox.NogrodForge",
     "Sandbox.SecondStair",
-    "Sandbox.ThirdStair",
     "Sandbox.TradingPost",
     "Sandbox.UpperArmoury",
     "Sandbox.ValleyOfKings",
@@ -249,30 +246,9 @@
     "World.Landmark.Sandbox.SecondStair",
     "World.Landmark.Sandbox.ThirdStair",
     "Object",
-    "Sandbox.TopAscent",
-    "Sandbox.UpperAscent",
-    "Sandbox.HighAscent",
-    "Sandbox.MidAscent",
     "Sandbox.GroundStair",
-    "Sandbox.UpperDescent",
-    "Sandbox.MidDescent",
-    "Sandbox.LowerDescent",
-    "World.Landmark.Sandbox.TopAscent",
-    "World.Landmark.Sandbox.UpperAscent",
-    "World.Landmark.Sandbox.HighAscent",
-    "World.Landmark.Sandbox.MidAscent",
     "World.Landmark.Sandbox.GroundStair",
-    "World.Landmark.Sandbox.UpperDescent",
-    "World.Landmark.Sandbox.MidDescent",
-    "World.Landmark.Sandbox.LowerDescent",
-    "Landmarks.Sandbox.TopAscent",
-    "Landmarks.Sandbox.UpperAscent",
-    "Landmarks.Sandbox.HighAscent",
-    "Landmarks.Sandbox.MidAscent",
     "Landmarks.Sandbox.GroundStair",
-    "Landmarks.Sandbox.UpperDescent",
-    "Landmarks.Sandbox.MidDescent",
-    "Landmarks.Sandbox.LowerDescent",
     "RotateAndClamp",
     "Sandbox.BottomStair",
     "World.Landmark.Sandbox.UpperStair",
@@ -286,14 +262,6 @@
     "Live",
     "Fixed",
     "Disabled",
-    "Sandbox.TopElevator",
-    "Sandbox.Lv3Lv4Connector",
-    "Sandbox.D1Lv1Connector",
-    "Sandbox.DeepUpperEl",
-    "Sandbox.DeepMidEl",
-    "Sandbox.D4D3Connector",
-    "Sandbox.DeepBottomEl",
-    "Sandbox.D7D6Stair",
     "World.Landmark.Sandbox.TopElevator",
     "World.Landmark.Sandbox.Lv3Lv4Connector",
     "World.Landmark.Sandbox.D1Lv1Connector",
@@ -301,7 +269,18 @@
     "World.Landmark.Sandbox.DeepMidEl",
     "World.Landmark.Sandbox.D4D3Connector",
     "World.Landmark.Sandbox.DeepBottomEl",
-    "World.Landmark.Sandbox.D7D6Stair"
+    "World.Landmark.Sandbox.D7D6Stair",
+    "Sandbox._disabled_vanilla_SecondStair",
+    "Sandbox._disabled_vanilla_ThirdStair",
+    "Sandbox._disabled_vanilla_FourthStair",
+    "Sandbox._disabled_vanilla_FifthStair",
+    "Sandbox.SeventhStair",
+    "Sandbox.FourteenthStair",
+    "Sandbox.TwelfthStair",
+    "Sandbox.TenthStair",
+    "Sandbox.EighthStair",
+    "Sandbox.SixthStair",
+    "Chapter1.ElvenQuarterEntrance"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2717,7 +2696,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Chapter2.ElvenQuarterEntrance",
+            "Name": "Chapter1.ElvenQuarterEntrance",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -5793,7 +5772,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Chapter3.CrystalDescent",
+            "Name": "Sandbox.FourteenthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -29010,7 +28989,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 15,
                       "Y": 8,
-                      "Z": 18
+                      "Z": 28
                     }
                   }
                 ]
@@ -29755,7 +29734,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 11,
                       "Y": 5,
-                      "Z": 18
+                      "Z": 27
                     }
                   }
                 ]
@@ -32737,7 +32716,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 9,
                       "Y": 6,
-                      "Z": 9
+                      "Z": 1
                     }
                   }
                 ]
@@ -33482,7 +33461,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 11,
                       "Y": 7,
-                      "Z": 9
+                      "Z": 1
                     }
                   }
                 ]
@@ -34227,7 +34206,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 12,
                       "Y": 7,
-                      "Z": 9
+                      "Z": 1
                     }
                   }
                 ]
@@ -34972,7 +34951,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 8,
                       "Y": 7,
-                      "Z": 9
+                      "Z": 1
                     }
                   }
                 ]
@@ -41682,7 +41661,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 0,
                       "Y": 0,
-                      "Z": 0
+                      "Z": 4
                     }
                   }
                 ]
@@ -43877,7 +43856,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.SecondStair",
+            "Name": "Sandbox._disabled_vanilla_SecondStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -44623,7 +44602,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.ThirdStair",
+            "Name": "Sandbox._disabled_vanilla_ThirdStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -45369,7 +45348,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.FourthStair",
+            "Name": "Sandbox._disabled_vanilla_FourthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -46115,7 +46094,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.FifthStair",
+            "Name": "Sandbox._disabled_vanilla_FifthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55812,7 +55791,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.TopElevator",
+            "Name": "Sandbox.SeventhStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -55853,7 +55832,7 @@
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
                       "X": 4,
                       "Y": 4,
-                      "Z": 25
+                      "Z": 26
                     }
                   }
                 ]
@@ -56558,7 +56537,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.Lv3Lv4Connector",
+            "Name": "Sandbox.FifthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -57304,7 +57283,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.D1Lv1Connector",
+            "Name": "Sandbox.SecondStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -58050,7 +58029,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.DeepUpperEl",
+            "Name": "Sandbox.FourthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -58796,7 +58775,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.DeepMidEl",
+            "Name": "Sandbox.SixthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -59542,7 +59521,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.D4D3Connector",
+            "Name": "Sandbox.EighthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -60288,7 +60267,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.DeepBottomEl",
+            "Name": "Sandbox.TenthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -61034,7 +61013,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Sandbox.D7D6Stair",
+            "Name": "Sandbox.TwelfthStair",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -61943,7 +61922,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 1,
-      "NameCount": 300
+      "NameCount": 279
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -61974,7 +61953,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 300,
+  "NamesReferencedFromExportDataCount": 279,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,

@@ -269,7 +269,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -278,7 +278,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -287,7 +287,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -381,7 +381,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -390,7 +390,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -399,7 +399,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -493,7 +493,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -502,7 +502,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -511,7 +511,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -605,7 +605,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -614,7 +614,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -623,7 +623,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -717,7 +717,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -726,7 +726,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -735,7 +735,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -829,7 +829,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -838,7 +838,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -847,7 +847,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -941,7 +941,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -950,7 +950,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -959,7 +959,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1053,7 +1053,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 18
+                "Value": 20
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1062,7 +1062,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 18
+                "Value": 20
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1071,7 +1071,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 18
+                "Value": 20
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1117,7 +1117,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1165,7 +1165,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 19
+                "Value": 21
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1174,7 +1174,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 20
+                "Value": 22
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1183,7 +1183,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 20
+                "Value": 22
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1229,7 +1229,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 5
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1277,7 +1277,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 21
+                "Value": 23
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1286,7 +1286,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 21
+                "Value": 23
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1295,7 +1295,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 21
+                "Value": 23
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1341,7 +1341,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 7
+                "Value": 4
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1389,7 +1389,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 22
+                "Value": 24
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1398,7 +1398,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 25
+                "Value": 26
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1407,7 +1407,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 22
+                "Value": 24
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1429,7 +1429,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "SandboxSmall-chapter-5",
+            "Name": "SandboxSmall-chapter-14",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -1453,7 +1453,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 2
+                "Value": 14
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1501,7 +1501,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 14
+                "Value": 16
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1510,7 +1510,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 17
+                "Value": 19
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1519,7 +1519,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 17
+                "Value": 19
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1541,7 +1541,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "SandboxSmall-chapter-6",
+            "Name": "SandboxSmall-chapter-13",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -1565,7 +1565,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 13
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1613,7 +1613,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 10
+                "Value": 12
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1622,7 +1622,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 15
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1631,7 +1631,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 15
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1653,7 +1653,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "SandboxSmall-chapter-7",
+            "Name": "SandboxSmall-chapter-12",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -1677,7 +1677,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 6
+                "Value": 12
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1725,7 +1725,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 9
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1734,7 +1734,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 9
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1743,7 +1743,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 9
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1765,7 +1765,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "SandboxSmall-chapter-8",
+            "Name": "SandboxSmall-chapter-11",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -1789,7 +1789,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -1837,7 +1837,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 5
+                "Value": 7
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1846,7 +1846,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 10
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1855,7 +1855,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 10
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -1949,7 +1949,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 11
+                "Value": 13
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1958,7 +1958,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 12
+                "Value": 14
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -1967,7 +1967,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 11
+                "Value": 13
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2061,7 +2061,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 15
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2070,7 +2070,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 15
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2079,7 +2079,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 13
+                "Value": 15
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2173,7 +2173,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 14
+                "Value": 16
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2182,7 +2182,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 17
+                "Value": 19
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2191,7 +2191,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 15
+                "Value": 17
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2285,7 +2285,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 18
+                "Value": 20
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2294,7 +2294,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 20
+                "Value": 22
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2303,7 +2303,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 19
+                "Value": 21
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2397,7 +2397,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 9
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2406,7 +2406,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 10
+                "Value": 12
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2415,7 +2415,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 9
+                "Value": 11
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2509,7 +2509,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 7
+                "Value": 9
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2518,7 +2518,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 10
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2527,7 +2527,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 8
+                "Value": 10
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2621,7 +2621,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 4
+                "Value": 6
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2630,7 +2630,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 6
+                "Value": 8
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2639,7 +2639,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 5
+                "Value": 7
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2733,7 +2733,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 1
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2742,7 +2742,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 3
+                "Value": 5
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2751,7 +2751,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 2
+                "Value": 4
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2845,7 +2845,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2854,7 +2854,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -2863,7 +2863,455 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorChapterDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "SandboxSmall-chapter-5",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "ChapterID",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 5
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/World.World",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Chapter.Sandbox.Level5.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "Layer",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnemyScalingLevel",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 27
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 27
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "PrimeZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 27
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorChapterDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "SandboxSmall-chapter-6",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "ChapterID",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 6
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/World.World",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Chapter.Sandbox.Level6.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "Layer",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 5
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnemyScalingLevel",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 28
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 28
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "PrimeZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 28
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorChapterDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "SandboxSmall-chapter-7",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "ChapterID",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 7
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/World.World",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Chapter.Sandbox.Level7.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "Layer",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 6
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnemyScalingLevel",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 29
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 29
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "PrimeZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 29
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": null,
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorChapterDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "SandboxSmall-chapter-10",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EZoneSet",
+                "InnerType": null,
+                "Name": "ZoneSet",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EZoneSet::SandboxSmall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "ChapterID",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 10
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/World.World",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Chapter.Sandbox.Deep5.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "Layer",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -5
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnemyScalingLevel",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 6
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "PrimeZ",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 6
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -2930,454 +3378,6 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Chapter.Sandbox.Level5.Name"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "Layer",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 4
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "EnemyScalingLevel",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 4
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 26
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 26
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "PrimeZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 26
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": null,
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorChapterDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "SandboxSmall-chapter-10",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "EZoneSet",
-                "InnerType": null,
-                "Name": "ZoneSet",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "EZoneSet::SandboxSmall"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "ChapterID",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 11
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
-                "Flags": 0,
-                "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/World.World",
-                "Namespace": null,
-                "CultureInvariantString": null,
-                "SourceFmt": null,
-                "Arguments": null,
-                "ArgumentsData": null,
-                "TransformType": "ToLower",
-                "SourceValue": null,
-                "FormatOptions": null,
-                "TargetCulture": null,
-                "Name": "DisplayName",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "Chapter.Sandbox.Level6.Name"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "Layer",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 5
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "EnemyScalingLevel",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 5
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 27
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 27
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "PrimeZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 27
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": null,
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorChapterDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "SandboxSmall-chapter-11",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "EZoneSet",
-                "InnerType": null,
-                "Name": "ZoneSet",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "EZoneSet::SandboxSmall"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "ChapterID",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 13
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
-                "Flags": 0,
-                "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/World.World",
-                "Namespace": null,
-                "CultureInvariantString": null,
-                "SourceFmt": null,
-                "Arguments": null,
-                "ArgumentsData": null,
-                "TransformType": "ToLower",
-                "SourceValue": null,
-                "FormatOptions": null,
-                "TargetCulture": null,
-                "Name": "DisplayName",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "Chapter.Sandbox.Level7.Name"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "Layer",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 6
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "EnemyScalingLevel",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 6
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 28
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 28
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "PrimeZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 28
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": null,
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorChapterDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "SandboxSmall-chapter-12",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "EZoneSet",
-                "InnerType": null,
-                "Name": "ZoneSet",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "EZoneSet::SandboxSmall"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "ChapterID",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 10
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
-                "Flags": 0,
-                "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/World.World",
-                "Namespace": null,
-                "CultureInvariantString": null,
-                "SourceFmt": null,
-                "Arguments": null,
-                "ArgumentsData": null,
-                "TransformType": "ToLower",
-                "SourceValue": null,
-                "FormatOptions": null,
-                "TargetCulture": null,
-                "Name": "DisplayName",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "Chapter.Sandbox.Deep5.Name"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "Layer",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": -5
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "EnemyScalingLevel",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 5
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MinZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 2
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "MaxZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 4
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "PrimeZ",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 4
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "ERowEnabledState",
-                "InnerType": null,
-                "Name": "EnabledState",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Live"
-              }
-            ]
-          },
-          {
-            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-            "StructType": "MorChapterDefinition",
-            "SerializeNone": true,
-            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-            "SerializationControl": "NoExtension",
-            "Operation": "None",
-            "Name": "SandboxSmall-chapter-13",
-            "ArrayIndex": 0,
-            "IsZero": false,
-            "PropertyTagFlags": "None",
-            "PropertyTagExtensions": "NoExtension",
-            "Value": [
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-                "EnumType": "EZoneSet",
-                "InnerType": null,
-                "Name": "ZoneSet",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": "EZoneSet::SandboxSmall"
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
-                "Name": "ChapterID",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
-                "Value": 12
-              },
-              {
-                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
-                "Flags": 0,
-                "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/World.World",
-                "Namespace": null,
-                "CultureInvariantString": null,
-                "SourceFmt": null,
-                "Arguments": null,
-                "ArgumentsData": null,
-                "TransformType": "ToLower",
-                "SourceValue": null,
-                "FormatOptions": null,
-                "TargetCulture": null,
-                "Name": "DisplayName",
-                "ArrayIndex": 0,
-                "IsZero": false,
-                "PropertyTagFlags": "None",
-                "PropertyTagExtensions": "NoExtension",
                 "Value": "Chapter.Sandbox.Deep6.Name"
               },
               {
@@ -3396,7 +3396,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 6
+                "Value": 4
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -3414,7 +3414,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 1
+                "Value": 3
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -3445,7 +3445,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "SandboxSmall-chapter-14",
+            "Name": "SandboxSmall-chapter-8",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -3469,7 +3469,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 14
+                "Value": 8
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -3508,7 +3508,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 7
+                "Value": 4
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
