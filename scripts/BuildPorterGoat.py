@@ -60,7 +60,7 @@ UASSETGUI_EXE = PROJECT_ROOT / 'tools' / 'UAssetGUI' / 'UAssetGUI.exe'
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.0.5'
+MOD_VERSION = '1.1.0-alpha'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -113,12 +113,30 @@ DTS = [
     ('Character/NpcGoat/BP_NpcGoat',
      'Character/NpcGoat/BP_NpcGoat',
      'BP_NpcGoat'),
+    # v1.1.0 Phase 1 — register the goat as a proper NPC by mirroring dwarf NPC plumbing
+    ('Character/NpcDwarf/DT_NPCInventoryPresets',
+     'Character/NpcDwarf/DT_NPCInventoryPresets',
+     'DT_NPCInventoryPresets'),
+    ('Character/NpcDwarf/DT_NPCUniqueCharacters',
+     'Character/NpcDwarf/DT_NPCUniqueCharacters',
+     'DT_NPCUniqueCharacters'),
+    ('Tech/Data/Items/DT_Storage',
+     'Tech/Data/Items/DT_Storage',
+     'DT_Storage'),
+    ('Tech/Data/Items/DT_ContainerItems',
+     'Tech/Data/Items/DT_ContainerItems',
+     'DT_ContainerItems'),
 ]
 
 # Pack class for v1.0.5 DummyEquipment override
 PACK_CLASS_PATH    = '/Game/Items/EpicPacks/BP_EpicPack_AdventurersPack_Large.BP_EpicPack_AdventurersPack_Large_C'
 PACK_PACKAGE_PATH  = '/Game/Items/EpicPacks/BP_EpicPack_AdventurersPack_Large'
 PACK_CLASS_NAME    = 'BP_EpicPack_AdventurersPack_Large_C'
+
+# Goat BodyInventory wrapper BP — authored in Phase 2 (v1.2.0). DT_ContainerItems
+# carries a soft reference to this path; the actual BP ships in Phase 2.
+GOAT_BODY_INVENTORY_PACKAGE_PATH = '/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory'
+GOAT_BODY_INVENTORY_CLASS_PATH   = '/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory.BP_ContainerItem_Goat_BodyInventory_C'
 
 
 # ---------------------------------------------------------------------------
@@ -247,25 +265,210 @@ def _add_npcgoat_imports_to_asset(data, label='asset'):
 
 
 def edit_npcroles(data):
-    """Flip Porter row EnabledState Disabled -> Live.
+    """Two edits to the Porter row:
+       1. Flip EnabledState Disabled -> Live.
+       2. Clean up the FRG annotations on DisplayName and Description
+          (drop the leading "*" and "[Bug this]" marker so the role
+          shows up cleanly in the player's role-assignment UI).
 
     v1.0.4: removed the _PorterGoatLoader sentinel row. v1.0.3 confirmed DT
-    row hard imports don't fire eagerly regardless of EnabledState. The
-    force-load anchor moved to BP_MoriaGameMode_MainMenu.DefaultPawnClass.
+    row hard imports don't fire eagerly regardless of EnabledState.
     """
     rows = data['Exports'][0]['Table']['Data']
     porter = next((r for r in rows if r.get('Name') == 'Porter'), None)
     if porter is None:
         log("    ERROR: Porter row not found")
         return False
+
+    flipped = False
+    cleaned_display = False
+    cleaned_desc = False
     for prop in porter['Value']:
-        if prop.get('Name') == 'EnabledState':
+        pname = prop.get('Name')
+        if pname == 'EnabledState':
             old = prop.get('Value')
             prop['Value'] = 'ERowEnabledState::Live'
             log(f"    Porter.EnabledState: {old} -> {prop['Value']}")
-            return True
-    log("    ERROR: Porter row has no EnabledState property")
-    return False
+            flipped = True
+        elif pname == 'DisplayName':
+            # TextPropertyData carries SourceString and LocalizedString that
+            # render in the UI when the StringTable lookup fires. Strip
+            # the dev annotations from both.
+            for k in ('SourceString', 'LocalizedString'):
+                v = prop.get(k)
+                if isinstance(v, str) and v == '*Porter [Bug this]':
+                    prop[k] = 'Porter'
+                    cleaned_display = True
+            if cleaned_display:
+                log(f"    Porter.DisplayName: '*Porter [Bug this]' -> 'Porter'")
+        elif pname == 'Description':
+            for k in ('SourceString', 'LocalizedString'):
+                v = prop.get(k)
+                if isinstance(v, str) and v == '*Carries items for a player.':
+                    prop[k] = 'Carries items for a player.'
+                    cleaned_desc = True
+            if cleaned_desc:
+                log(f"    Porter.Description: '*Carries items...' -> 'Carries items...'")
+
+    if not flipped:
+        log("    ERROR: Porter row has no EnabledState property")
+        return False
+    return True
+
+
+def _clone_row(rows, template_name, new_name):
+    """Clone an existing row (deep copy) and rename it. Returns the new row.
+       Idempotent: if the row already exists, returns it unchanged.
+    """
+    if any(r.get('Name') == new_name for r in rows):
+        log(f"    NOTE: row '{new_name}' already exists (idempotent skip)")
+        return None
+    template = next((r for r in rows if r.get('Name') == template_name), None)
+    if template is None:
+        log(f"    ERROR: template row '{template_name}' not found")
+        return None
+    new_row = copy.deepcopy(template)
+    new_row['Name'] = new_name
+    return new_row
+
+
+def edit_npcinventorypresets(data):
+    """Add a 'Porter' row to DT_NPCInventoryPresets.
+
+    Cloned from 'EmptyLoadout' so the InventoryLoadout import index (hard
+    ObjectProperty pointing at DA_NpcDwarf_EmptyLoadout) stays valid. Porter
+    starts with no items in inventory; future passes can swap in a goat-specific
+    DA when one ships.
+    """
+    rows = data['Exports'][0]['Table']['Data']
+    new_row = _clone_row(rows, 'EmptyLoadout', 'Porter')
+    if new_row is None:
+        return True  # idempotent skip / template missing already logged
+    # No field changes — Porter inherits EmptyLoadout's hard import
+    rows.append(new_row)
+    ensure_namemap_entry(data, 'Porter')
+    log(f"    Added row 'Porter' (cloned from EmptyLoadout, hard ref to DA_NpcDwarf_EmptyLoadout)")
+    log(f"    DT_NPCInventoryPresets row count: {len(rows)}")
+    return True
+
+
+def edit_npcuniquecharacters(data):
+    """Add a 'PorterGoat' row to DT_NPCUniqueCharacters.
+
+    Cloned from 'Wanderer' (Vror) and retargeted:
+      - CharacterClass (soft) -> /Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C
+      - AppearancePreset.RowName -> "None" (no character customization for goat)
+      - CharacterName.Value -> "PorterGoat" (string table key fallback)
+    """
+    rows = data['Exports'][0]['Table']['Data']
+    new_row = _clone_row(rows, 'Wanderer', 'PorterGoat')
+    if new_row is None:
+        return True
+
+    for prop in new_row['Value']:
+        pname = prop.get('Name')
+        if pname == 'CharacterClass':
+            # SoftObjectPropertyData: change the AssetPath.AssetName
+            v = prop.get('Value', {})
+            ap = v.get('AssetPath', {})
+            ap['AssetName'] = NPCGOAT_CLASS_PATH
+            log(f"    PorterGoat.CharacterClass -> {NPCGOAT_CLASS_PATH}")
+        elif pname == 'AppearancePreset':
+            # struct DataTableRowHandle — set RowName to "None"
+            for sub in prop.get('Value', []):
+                if sub.get('Name') == 'RowName':
+                    sub['Value'] = 'None'
+                    log(f"    PorterGoat.AppearancePreset.RowName -> 'None'")
+        elif pname == 'CharacterName':
+            # TextProperty with string-table reference; just change the Value
+            # (the engine falls back to displaying the key when the string
+            # table doesn't have an entry, which is fine for a debug label).
+            prop['Value'] = 'PorterGoat'
+            log(f"    PorterGoat.CharacterName.Value -> 'PorterGoat'")
+
+    rows.append(new_row)
+    ensure_namemap_entry(data, 'PorterGoat')
+    # The new SoftObjectPath AssetName needs to be in NameMap (FName-serialized)
+    ensure_namemap_entry(data, NPCGOAT_PACKAGE_PATH)
+    ensure_namemap_entry(data, NPCGOAT_CLASS_PATH)
+    log(f"    DT_NPCUniqueCharacters row count: {len(rows)}")
+    return True
+
+
+def edit_dt_storage(data):
+    """Add a 'Goat.BodyInventory' row to DT_Storage.
+
+    Cloned from 'Dwarf.BodyInventory' and retargeted:
+      - InventoryWidth: 8 (unchanged from dwarf)
+      - InventoryHeight: 1 -> 8 (8x8 grid)
+      - AllowedEquip: drop weapon slots (no MainHand/OffHand/BothHands/Ammo)
+      - ExcludeItems: keep dwarf's exclusions (no EpicPack/EpicItem/Brew/HandsOnly)
+
+    User noted weapons/armor are not goat things; this excludes them from
+    the goat's inventory grid. Future pass may relax these constraints.
+    """
+    rows = data['Exports'][0]['Table']['Data']
+    new_row = _clone_row(rows, 'Dwarf.BodyInventory', 'Goat.BodyInventory')
+    if new_row is None:
+        return True
+
+    for prop in new_row['Value']:
+        pname = prop.get('Name')
+        if pname == 'InventoryHeight':
+            old = prop.get('Value')
+            prop['Value'] = 8
+            log(f"    Goat.BodyInventory.InventoryHeight: {old} -> 8 (8x8 grid)")
+        elif pname == 'AllowedEquip':
+            # SetPropertyData of EnumProperty — clear the equipment-slot list
+            # (goat has no weapon slots; nothing equippable belongs in its body grid).
+            old_count = len(prop.get('Value', []))
+            prop['Value'] = []
+            log(f"    Goat.BodyInventory.AllowedEquip: {old_count} entries -> []")
+
+    rows.append(new_row)
+    ensure_namemap_entry(data, 'Goat.BodyInventory')
+    log(f"    DT_Storage row count: {len(rows)}")
+    return True
+
+
+def edit_dt_containeritems(data):
+    """Add a 'Goat.BodyInventory' row to DT_ContainerItems.
+
+    Cloned from 'Dwarf.BodyInventory' and retargeted:
+      - StorageRowHandle.RowName -> "Goat.BodyInventory"
+      - Actor.AssetPath.AssetName -> /Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory.BP_ContainerItem_Goat_BodyInventory_C
+        (Phase 2 will ship that BP; the soft ref allows the row to load now and resolve later.)
+      - Tags retain "Item.ContainerItem" + "Inventory.BodyInventory"
+
+    DisplayName/Description TextProperty values are left pointing at the dwarf
+    string table keys; engine falls back to displaying the key string itself
+    if no localized entry matches our new keys. Cosmetic only.
+    """
+    rows = data['Exports'][0]['Table']['Data']
+    new_row = _clone_row(rows, 'Dwarf.BodyInventory', 'Goat.BodyInventory')
+    if new_row is None:
+        return True
+
+    for prop in new_row['Value']:
+        pname = prop.get('Name')
+        if pname == 'StorageRowHandle':
+            for sub in prop.get('Value', []):
+                if sub.get('Name') == 'RowName':
+                    sub['Value'] = 'Goat.BodyInventory'
+                    log(f"    Goat.BodyInventory.StorageRowHandle.RowName -> 'Goat.BodyInventory'")
+        elif pname == 'Actor':
+            # SoftObjectPropertyData
+            v = prop.get('Value', {})
+            ap = v.get('AssetPath', {})
+            ap['AssetName'] = GOAT_BODY_INVENTORY_CLASS_PATH
+            log(f"    Goat.BodyInventory.Actor -> {GOAT_BODY_INVENTORY_CLASS_PATH}")
+
+    rows.append(new_row)
+    ensure_namemap_entry(data, 'Goat.BodyInventory')
+    ensure_namemap_entry(data, GOAT_BODY_INVENTORY_PACKAGE_PATH)
+    ensure_namemap_entry(data, GOAT_BODY_INVENTORY_CLASS_PATH)
+    log(f"    DT_ContainerItems row count: {len(rows)}")
+    return True
 
 
 def edit_mainmenu_gamemode(data):
@@ -486,6 +689,11 @@ EDIT_FUNCS = {
     'DT_AICharacterSettings': edit_aicharsettings,
     'BP_MoriaGameMode_MainMenu': edit_mainmenu_gamemode,
     'BP_NpcGoat': edit_bp_npcgoat,
+    # v1.1.0 Phase 1
+    'DT_NPCInventoryPresets': edit_npcinventorypresets,
+    'DT_NPCUniqueCharacters': edit_npcuniquecharacters,
+    'DT_Storage': edit_dt_storage,
+    'DT_ContainerItems': edit_dt_containeritems,
 }
 
 
@@ -611,7 +819,8 @@ def main():
     if r.returncode == 0:
         lines = [l for l in r.stdout.strip().split('\n') if l.strip()]
         export_count = sum(1 for l in lines if 'ExportBundleData' in l)
-        log(f"  ExportBundleData entries: {export_count} (expected 5)")
+        # v1.0.5 had 5 entries; v1.1.0 adds 4 DT overrides = 9 total
+        log(f"  ExportBundleData entries: {export_count} (expected 9 for v1.1.0)")
     log()
 
     # ----------------------------------------------------------------- 7
@@ -627,16 +836,22 @@ def main():
     # ------------------------------------------------------------- summary
     log(f"\n{'='*60}")
     log(f"  PorterGoat v{MOD_VERSION} -- BUILD SUCCESSFUL")
-    log(f"  Assets modified: 4")
-    log(f"    - DT_NPCRoles: Porter Disabled -> Live")
+    log(f"  Carried-forward edits from v1.0.5:")
+    log(f"    - DT_NPCRoles: Porter Disabled -> Live  (+ label cleanup in v1.1.0)")
     log(f"    - DT_Moria_AI_Population: +1 row 'NpcGoat'")
     log(f"    - DT_AICharacterSettings: +1 row 'NpcGoat'")
-    log(f"    - BP_MoriaGameMode_MainMenu (override):")
-    log(f"        DefaultPawnClass: BP_CharSelectionPawn_C -> BP_NpcGoat_C")
-    log(f"        (eager-load anchor; visual: goat at character selection)")
-    log(f"    - BP_NpcGoat (override):")
-    log(f"        EquipComp.DummyEquipment = BP_EpicPack_AdventurersPack_Large_C")
-    log(f"        (visible pack on spawn, no runtime equip call needed)")
+    log(f"    - BP_MoriaGameMode_MainMenu: DefaultPawnClass -> BP_NpcGoat_C (load anchor)")
+    log(f"    - BP_NpcGoat: EquipComp.DummyEquipment = AdventurersPack_Large (dormant)")
+    log(f"  v1.1.0 Phase 1 — proper-NPC registration:")
+    log(f"    - DT_NPCRoles: Porter labels cleaned ('*[Bug this]' removed)")
+    log(f"    - DT_NPCInventoryPresets: +1 row 'Porter' (cloned from EmptyLoadout)")
+    log(f"    - DT_NPCUniqueCharacters: +1 row 'PorterGoat' -> BP_NpcGoat_C")
+    log(f"    - DT_Storage: +1 row 'Goat.BodyInventory' (8x8, no weapon slots)")
+    log(f"    - DT_ContainerItems: +1 row 'Goat.BodyInventory'")
+    log(f"  Phase 1 BLOCKER (deferred):")
+    log(f"    - BP_NPCManager.ValidNpcClasses NOT modified (CDO is RawExport;")
+    log(f"      requires usmap to parse). Runtime mod must test if RegisterNPC")
+    log(f"      works without the whitelist edit.")
     log(f"  Pak: {PAK_NAME}")
     log(f"  Zip: {zip_path}")
     log(f"  Install: extract zip to <game>/Moria/Content/Paks/~mods/")
