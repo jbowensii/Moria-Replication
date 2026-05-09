@@ -57,10 +57,19 @@ LEGACY_ROOT = PROJECT_ROOT / 'tools' / 'legacy-assets' / 'Moria' / 'Content'
 RETOC_EXE = PROJECT_ROOT / 'tools' / 'retoc' / 'bin' / 'retoc.exe'
 UASSETGUI_EXE = PROJECT_ROOT / 'tools' / 'UAssetGUI' / 'UAssetGUI.exe'
 
+# v1.1.1 — newer UAssetGUI for files requiring usmap parsing of UnversionedProperties.
+# v1.0.2 (the legacy binary) crashes when given a [mappings name] argument
+# because of a UI-thread invocation bug. v1.1.0 fixes this.
+UASSETGUI_EXE_V110 = PROJECT_ROOT / 'tools' / 'UAssetGUI-v1.1.0' / 'UAssetGUI.exe'
+
+# Mapping file basename (no extension) — UAssetGUI reads from
+# %LOCALAPPDATA%/UAssetGUI/Mappings/<name>.usmap
+USMAP_NAME = 'Moria'
+
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.1.0'
+MOD_VERSION = '1.1.1'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -126,6 +135,12 @@ DTS = [
     ('Tech/Data/Items/DT_ContainerItems',
      'Tech/Data/Items/DT_ContainerItems',
      'DT_ContainerItems'),
+    # v1.1.1 — requires Moria.usmap (CDO is UnversionedProperties RawExport
+    # without it). asset_needs_usmap('BP_NPCManager') routes this through
+    # UAssetGUI v1.1.0 + Moria mapping.
+    ('Tech/Managers/BP_NPCManager',
+     'Tech/Managers/BP_NPCManager',
+     'BP_NPCManager'),
 ]
 
 # Pack class for v1.0.5 DummyEquipment override
@@ -165,8 +180,14 @@ def rmtree_safe(d):
     log(f"  WARN: Could not fully remove {d}")
 
 
-def run_uassetgui_tojson(uasset_path, json_output):
-    cmd = [str(UASSETGUI_EXE), 'tojson', str(uasset_path), str(json_output), UE_VERSION]
+def run_uassetgui_tojson(uasset_path, json_output, use_usmap=False):
+    """Convert .uasset to JSON. If use_usmap=True, use UAssetGUI v1.1.0
+    with the Moria usmap (needed for assets that store UnversionedProperties
+    such as BP_NPCManager)."""
+    exe = UASSETGUI_EXE_V110 if use_usmap else UASSETGUI_EXE
+    cmd = [str(exe), 'tojson', str(uasset_path), str(json_output), UE_VERSION]
+    if use_usmap:
+        cmd.append(USMAP_NAME)
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
     if r.returncode != 0:
         log(f"    FAIL tojson exit={r.returncode}\n    {r.stderr[:500]}")
@@ -174,13 +195,25 @@ def run_uassetgui_tojson(uasset_path, json_output):
     return True
 
 
-def run_uassetgui_fromjson(json_path, uasset_output):
-    cmd = [str(UASSETGUI_EXE), 'fromjson', str(json_path), str(uasset_output), UE_VERSION]
+def run_uassetgui_fromjson(json_path, uasset_output, use_usmap=False):
+    """Convert JSON back to .uasset. Mirror of tojson — pass use_usmap=True
+    for assets parsed with the usmap so the inverse uses the same binary."""
+    exe = UASSETGUI_EXE_V110 if use_usmap else UASSETGUI_EXE
+    cmd = [str(exe), 'fromjson', str(json_path), str(uasset_output), UE_VERSION]
+    if use_usmap:
+        cmd.append(USMAP_NAME)
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
     if r.returncode != 0:
         log(f"    FAIL fromjson exit={r.returncode}\n    {r.stderr[:500]}")
         return False
     return True
+
+
+def asset_needs_usmap(name):
+    """Returns True for assets whose CDO uses UnversionedProperties (RawExport
+    without a mapping). v1.1.1 added BP_NPCManager.
+    """
+    return name in ('BP_NPCManager',)
 
 
 def run_retoc_tozen(staging_dir, output_dir, pak_name):
@@ -731,6 +764,75 @@ def edit_bp_npcgoat(data):
     return True
 
 
+def edit_bp_npcmanager(data):
+    """Append BP_NpcGoat_C to BP_NPCManager.ValidNpcClasses CDO array.
+
+    The 'Manager' class uses UnversionedProperties — without the Moria usmap,
+    the CDO is a RawExport blob and unmodifiable. With the usmap loaded,
+    ValidNpcClasses surfaces as `TArray<TSoftClassPath>` (12 dwarf entries).
+
+    Persistence requirement (per VS-Claude runtime testing of v1.1.0):
+    save iteration filters by ValidNpcClasses, dropping unregistered classes.
+    Adding BP_NpcGoat_C here lets the goat persist across save/reload like a
+    recruited dwarf NPC.
+    """
+    cdo = next((e for e in data.get('Exports', [])
+                if e.get('ObjectName', '').startswith('Default__BP_NPCManager')), None)
+    if cdo is None:
+        log("    ERROR: Default__BP_NPCManager_C CDO not found")
+        return False
+
+    target_prop = next((p for p in cdo.get('Data', [])
+                        if isinstance(p, dict) and p.get('Name') == 'ValidNpcClasses'), None)
+    if target_prop is None:
+        log("    ERROR: ValidNpcClasses property not found on CDO")
+        log("    (CDO is likely RawExport; verify usmap=Moria was applied)")
+        return False
+
+    entries = target_prop.get('Value', [])
+    # Idempotency: walk the array, look for our class path
+    for el in entries:
+        if not isinstance(el, dict):
+            continue
+        inner_list = el.get('Value', [])
+        if not isinstance(inner_list, list):
+            continue
+        for sub in inner_list:
+            if not isinstance(sub, dict):
+                continue
+            v = sub.get('Value', {})
+            if isinstance(v, dict):
+                ap = v.get('AssetPath', {})
+                if isinstance(ap, dict) and ap.get('AssetName') == NPCGOAT_CLASS_PATH:
+                    log(f"    NOTE: ValidNpcClasses already contains {NPCGOAT_CLASS_PATH} (idempotent skip)")
+                    return True
+
+    if not entries:
+        log("    ERROR: ValidNpcClasses array is empty; cannot use first entry as template")
+        return False
+
+    template = copy.deepcopy(entries[0])
+    # The struct is StructPropertyData{StructType:'SoftClassPath'} containing
+    # a list with one SoftClassPathPropertyData. Set its AssetName to BP_NpcGoat_C.
+    inner = template.get('Value', [])
+    if isinstance(inner, list) and inner and isinstance(inner[0], dict):
+        sub = inner[0]
+        sub_val = sub.get('Value', {})
+        if isinstance(sub_val, dict):
+            ap = sub_val.get('AssetPath', {})
+            if isinstance(ap, dict):
+                ap['AssetName'] = NPCGOAT_CLASS_PATH
+
+    entries.append(template)
+    log(f"    ValidNpcClasses += {NPCGOAT_CLASS_PATH}")
+    log(f"    ValidNpcClasses count: {len(entries)}")
+
+    # NameMap entries — soft path strings get FName-serialised
+    for n in [NPCGOAT_PACKAGE_PATH, NPCGOAT_CLASS_PATH]:
+        ensure_namemap_entry(data, n)
+    return True
+
+
 EDIT_FUNCS = {
     'DT_NPCRoles': edit_npcroles,
     'DT_Moria_AI_Population': edit_ai_population,
@@ -742,6 +844,8 @@ EDIT_FUNCS = {
     'DT_NPCUniqueCharacters': edit_npcuniquecharacters,
     'DT_Storage': edit_dt_storage,
     'DT_ContainerItems': edit_dt_containeritems,
+    # v1.1.1 — unblocked by usmap; appends BP_NpcGoat_C to NPCManager whitelist
+    'BP_NPCManager': edit_bp_npcmanager,
 }
 
 
@@ -785,6 +889,9 @@ def main():
 
     for src_rel, dst_rel, name in DTS:
         log(f"  --- {name} ---")
+        use_usmap = asset_needs_usmap(name)
+        if use_usmap:
+            log(f"    [usmap=Moria, UAssetGUI=v1.1.0]")
 
         src_uasset = LEGACY_ROOT / f'{src_rel}.uasset'
         src_uexp = LEGACY_ROOT / f'{src_rel}.uexp'
@@ -795,7 +902,7 @@ def main():
         shutil.copy2(src_uexp, work_uexp)
 
         work_json = WORK_DIR / f'{name}.json'
-        if not run_uassetgui_tojson(work_uasset, work_json):
+        if not run_uassetgui_tojson(work_uasset, work_json, use_usmap=use_usmap):
             log(f"  ERROR: tojson failed for {name}"); sys.exit(1)
 
         with open(work_json, 'r', encoding='utf-8') as f:
@@ -810,7 +917,7 @@ def main():
             json.dump(data, f, indent=2)
 
         out_uasset = WORK_DIR / f'{name}_out.uasset'
-        if not run_uassetgui_fromjson(modified_json, out_uasset):
+        if not run_uassetgui_fromjson(modified_json, out_uasset, use_usmap=use_usmap):
             log(f"  ERROR: fromjson failed for {name}"); sys.exit(1)
 
         out_uexp = out_uasset.with_suffix('.uexp')
@@ -826,7 +933,7 @@ def main():
     log("[4/7] Validating round-trip (tojson on the modified output)...")
     for out_uasset, _, _, name in edited_outputs:
         validate_json = WORK_DIR / f'{name}_validate.json'
-        if not run_uassetgui_tojson(out_uasset, validate_json):
+        if not run_uassetgui_tojson(out_uasset, validate_json, use_usmap=asset_needs_usmap(name)):
             log(f"  ERROR: round-trip validation failed for {name}"); sys.exit(1)
         log(f"  OK: {name}")
     log()
@@ -880,8 +987,8 @@ def main():
     if r.returncode == 0:
         lines = [l for l in r.stdout.strip().split('\n') if l.strip()]
         export_count = sum(1 for l in lines if 'ExportBundleData' in l)
-        # v1.0.5 had 5; v1.1.0 adds 4 DT overrides + 1 new wrapper BP = 10 total
-        log(f"  ExportBundleData entries: {export_count} (expected 10 for v1.1.0)")
+        # v1.1.0 had 10; v1.1.1 adds BP_NPCManager override = 11 total
+        log(f"  ExportBundleData entries: {export_count} (expected 11 for v1.1.1)")
     log()
 
     # ----------------------------------------------------------------- 7
@@ -912,10 +1019,10 @@ def main():
     log(f"  v1.1.0 Phase 2 — goat 8x8 inventory wrapper:")
     log(f"    - NEW: BP_ContainerItem_Goat_BodyInventory at /Game/Mods/PorterGoat/Items/")
     log(f"    - BP_NpcGoat: InventoryComp.DefaultContainers += [Goat.BodyInventory wrapper]")
-    log(f"  Phase 1 BLOCKER (deferred):")
-    log(f"    - BP_NPCManager.ValidNpcClasses NOT modified (CDO is RawExport;")
-    log(f"      requires usmap to parse). Runtime mod must test if RegisterNPC")
-    log(f"      works without the whitelist edit.")
+    log(f"  v1.1.1 — UNBLOCKED via Moria usmap:")
+    log(f"    - BP_NPCManager.ValidNpcClasses += BP_NpcGoat_C")
+    log(f"      (uses UAssetGUI v1.1.0 + Moria.usmap from UE4SS dumper)")
+    log(f"      Save persistence: goat now passes ValidNpcClasses filter on save loop.")
     log(f"  Pak: {PAK_NAME}")
     log(f"  Zip: {zip_path}")
     log(f"  Install: extract zip to <game>/Moria/Content/Paks/~mods/")
