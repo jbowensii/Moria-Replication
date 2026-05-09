@@ -490,7 +490,10 @@
     "WidgetTree",
     "DummyEquipment",
     "/Game/Items/EpicPacks/BP_EpicPack_AdventurersPack_Large",
-    "BP_EpicPack_AdventurersPack_Large_C"
+    "BP_EpicPack_AdventurersPack_Large_C",
+    "DefaultContainers",
+    "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory",
+    "BP_ContainerItem_Goat_BodyInventory_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8791,7 +8794,29 @@
     },
     {
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [],
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "DummyStruct": null,
+          "Name": "DefaultContainers",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -199
+            }
+          ]
+        }
+      ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
@@ -8817,7 +8842,9 @@
       "SerializationBeforeSerializationDependencies": [
         24
       ],
-      "CreateBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        -199
+      ],
       "SerializationBeforeCreateDependencies": [
         25,
         -67,
@@ -28800,6 +28827,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "BP_EpicPack_AdventurersPack_Large_C",
       "OuterIndex": -196,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Goat_BodyInventory_C",
+      "OuterIndex": -198,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
       "PackageName": null,

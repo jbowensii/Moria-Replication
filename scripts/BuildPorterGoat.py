@@ -60,7 +60,7 @@ UASSETGUI_EXE = PROJECT_ROOT / 'tools' / 'UAssetGUI' / 'UAssetGUI.exe'
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.1.0-alpha'
+MOD_VERSION = '1.1.0'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -584,101 +584,149 @@ def edit_aicharsettings(data):
     return True
 
 
-def edit_bp_npcgoat(data):
-    """Override BP_NpcGoat's EquipComp.DummyEquipment CDO field to point at
-    BP_EpicPack_AdventurersPack_Large_C.
-
-    EquipComp (a MorEquipComponent) currently has zero overridden defaults
-    on BP_NpcGoat — inherits all from C++. We add ONE property entry to
-    its export Data, naming the field 'DummyEquipment' as ObjectPropertyData
-    with value = import index of BP_EpicPack_AdventurersPack_Large_C.
-
-    Hypothesis (per runtime side schema dump): MorEquipComponent reads
-    DummyEquipment at component init and auto-attaches its visual mesh
-    to the appropriate epic-pack socket on the owning character. If true,
-    every spawned BP_NpcGoat shows the AdventurersPack visually with no
-    runtime intervention — bypasses the FWeakObjectPtr corruption that
-    hit when calling ServerEquipDummyItem mid-spawn-tick.
+def _add_bp_class_imports(data, pkg_path, class_name, label):
+    """Append package + BlueprintGeneratedClass imports for a BP class.
+       Returns the negative import index of the class (or existing one).
+       Idempotent.
     """
-    # Find the EquipComp export
-    equipcomp_export = None
-    for exp in data.get('Exports', []):
-        if exp.get('ObjectName') == 'EquipComp':
-            equipcomp_export = exp
-            break
+    imports = data['Imports']
+    for i, imp in enumerate(imports):
+        if (imp.get('ObjectName') == class_name
+                and imp.get('ClassPackage') == '/Script/Engine'
+                and imp.get('ClassName') == 'BlueprintGeneratedClass'):
+            existing = -(i + 1)
+            log(f"    NOTE: [{label}] class import {class_name} already at {existing}")
+            return existing
+    pkg_import = {
+        '$type': 'UAssetAPI.Import, UAssetAPI',
+        'ObjectName': pkg_path,
+        'OuterIndex': 0,
+        'ClassPackage': '/Script/CoreUObject',
+        'ClassName': 'Package',
+        'PackageName': None,
+        'bImportOptional': False,
+    }
+    imports.append(pkg_import)
+    pkg_idx = -len(imports)
+    log(f"    + [{label}] Package import at {pkg_idx}: {pkg_path}")
+    cls_import = {
+        '$type': 'UAssetAPI.Import, UAssetAPI',
+        'ObjectName': class_name,
+        'OuterIndex': pkg_idx,
+        'ClassPackage': '/Script/Engine',
+        'ClassName': 'BlueprintGeneratedClass',
+        'PackageName': None,
+        'bImportOptional': False,
+    }
+    imports.append(cls_import)
+    cls_idx = -len(imports)
+    log(f"    + [{label}] Class   import at {cls_idx}: {class_name} (outer={pkg_idx})")
+    return cls_idx
+
+
+def edit_bp_npcgoat(data):
+    """Two BP_NpcGoat CDO edits:
+
+    1. v1.0.5 carry-forward: EquipComp.DummyEquipment ->
+       BP_EpicPack_AdventurersPack_Large_C  (dormant; auto-attach didn't fire,
+       but harmless to leave in place).
+
+    2. v1.1.0 Phase 2: InventoryComp.DefaultContainers ->
+       [BP_ContainerItem_Goat_BodyInventory_C]  (gives the goat its 8x8
+       BodyInventory grid via the new wrapper BP we ship in this pak).
+    """
+    # ---------------------------------------------------------------- (1)
+    # EquipComp.DummyEquipment override (carry-forward from v1.0.5)
+    equipcomp_export = next((e for e in data.get('Exports', [])
+                             if e.get('ObjectName') == 'EquipComp'), None)
     if equipcomp_export is None:
         log("    ERROR: EquipComp export not found")
         return False
 
-    # Idempotency check
-    for prop in equipcomp_export.get('Data', []):
-        if prop.get('Name') == 'DummyEquipment':
-            log("    NOTE: DummyEquipment already set on EquipComp (idempotent skip)")
-            return True
+    has_dummy = any(p.get('Name') == 'DummyEquipment'
+                    for p in equipcomp_export.get('Data', []))
+    if has_dummy:
+        log("    NOTE: EquipComp.DummyEquipment already set (idempotent skip)")
+    else:
+        for n in ['DummyEquipment', PACK_PACKAGE_PATH, PACK_CLASS_NAME]:
+            ensure_namemap_entry(data, n)
+        pack_class_idx = _add_bp_class_imports(
+            data, PACK_PACKAGE_PATH, PACK_CLASS_NAME, 'AdventurersPack')
+        new_prop = {
+            '$type': 'UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI',
+            'Name': 'DummyEquipment',
+            'ArrayIndex': 0,
+            'IsZero': False,
+            'PropertyTagFlags': 'None',
+            'PropertyTagExtensions': 'NoExtension',
+            'Value': pack_class_idx,
+        }
+        equipcomp_export.setdefault('Data', []).append(new_prop)
+        log(f"    EquipComp.DummyEquipment = {pack_class_idx} ({PACK_CLASS_NAME})")
+        deps = equipcomp_export.get('CreateBeforeSerializationDependencies', [])
+        if pack_class_idx not in deps:
+            deps.append(pack_class_idx)
+        equipcomp_export['CreateBeforeSerializationDependencies'] = deps
+        log(f"    EquipComp.CreateBeforeSerializationDependencies updated: {deps}")
 
-    # Add NameMap entries for the new strings we'll reference
-    for n in ['DummyEquipment', PACK_PACKAGE_PATH, PACK_CLASS_NAME]:
+    # ---------------------------------------------------------------- (2)
+    # InventoryComp.DefaultContainers override (v1.1.0 Phase 2)
+    invcomp_export = next((e for e in data.get('Exports', [])
+                           if e.get('ObjectName') == 'InventoryComp'), None)
+    if invcomp_export is None:
+        log("    ERROR: InventoryComp export not found")
+        return False
+
+    has_dc = any(p.get('Name') == 'DefaultContainers'
+                 for p in invcomp_export.get('Data', []))
+    if has_dc:
+        log("    NOTE: InventoryComp.DefaultContainers already set (idempotent skip)")
+        return True
+
+    # NameMap entries needed for the new field + import
+    for n in ['DefaultContainers',
+              GOAT_BODY_INVENTORY_PACKAGE_PATH,
+              'BP_ContainerItem_Goat_BodyInventory_C']:
         ensure_namemap_entry(data, n)
 
-    # Add Imports for BP_EpicPack_AdventurersPack_Large package + class
-    imports = data['Imports']
+    # Hard import of the goat BodyInventory wrapper class
+    goat_bi_idx = _add_bp_class_imports(
+        data,
+        GOAT_BODY_INVENTORY_PACKAGE_PATH,
+        'BP_ContainerItem_Goat_BodyInventory_C',
+        'GoatBodyInventory')
 
-    # Check if pack class import already exists (defensive)
-    pack_class_idx = None
-    for i, imp in enumerate(imports):
-        if (imp.get('ObjectName') == PACK_CLASS_NAME
-                and imp.get('ClassPackage') == '/Script/Engine'
-                and imp.get('ClassName') == 'BlueprintGeneratedClass'):
-            pack_class_idx = -(i + 1)
-            log(f"    NOTE: Pack class import already at {pack_class_idx}")
-            break
-
-    if pack_class_idx is None:
-        pkg_import = {
-            '$type': 'UAssetAPI.Import, UAssetAPI',
-            'ObjectName': PACK_PACKAGE_PATH,
-            'OuterIndex': 0,
-            'ClassPackage': '/Script/CoreUObject',
-            'ClassName': 'Package',
-            'PackageName': None,
-            'bImportOptional': False,
-        }
-        imports.append(pkg_import)
-        pkg_idx = -len(imports)
-        log(f"    + Package import at {pkg_idx}: {PACK_PACKAGE_PATH}")
-
-        cls_import = {
-            '$type': 'UAssetAPI.Import, UAssetAPI',
-            'ObjectName': PACK_CLASS_NAME,
-            'OuterIndex': pkg_idx,
-            'ClassPackage': '/Script/Engine',
-            'ClassName': 'BlueprintGeneratedClass',
-            'PackageName': None,
-            'bImportOptional': False,
-        }
-        imports.append(cls_import)
-        pack_class_idx = -len(imports)
-        log(f"    + Class   import at {pack_class_idx}: {PACK_CLASS_NAME} (outer={pkg_idx})")
-
-    # Add the DummyEquipment property entry to EquipComp's Data list
-    new_prop = {
-        '$type': 'UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI',
-        'Name': 'DummyEquipment',
+    # Construct the DefaultContainers ArrayPropertyData (mirrors dwarf shape)
+    dc_prop = {
+        '$type': 'UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI',
+        'ArrayType': 'ObjectProperty',
+        'DummyStruct': None,
+        'Name': 'DefaultContainers',
         'ArrayIndex': 0,
         'IsZero': False,
         'PropertyTagFlags': 'None',
         'PropertyTagExtensions': 'NoExtension',
-        'Value': pack_class_idx,
+        'Value': [
+            {
+                '$type': 'UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI',
+                'Name': '0',
+                'ArrayIndex': 0,
+                'IsZero': False,
+                'PropertyTagFlags': 'None',
+                'PropertyTagExtensions': 'NoExtension',
+                'Value': goat_bi_idx,
+            },
+        ],
     }
-    equipcomp_export.setdefault('Data', []).append(new_prop)
-    log(f"    EquipComp.DummyEquipment = {pack_class_idx} ({PACK_CLASS_NAME})")
+    invcomp_export.setdefault('Data', []).append(dc_prop)
+    log(f"    InventoryComp.DefaultContainers = [{goat_bi_idx} (Goat.BodyInventory wrapper)]")
 
-    # Update CreateBeforeSerializationDependencies on EquipComp
-    deps = equipcomp_export.get('CreateBeforeSerializationDependencies', [])
-    if pack_class_idx not in deps:
-        deps.append(pack_class_idx)
-    equipcomp_export['CreateBeforeSerializationDependencies'] = deps
-    log(f"    EquipComp.CreateBeforeSerializationDependencies updated: {deps}")
+    # Update CreateBeforeSerializationDependencies on InventoryComp
+    inv_deps = invcomp_export.get('CreateBeforeSerializationDependencies', [])
+    if goat_bi_idx not in inv_deps:
+        inv_deps.append(goat_bi_idx)
+    invcomp_export['CreateBeforeSerializationDependencies'] = inv_deps
+    log(f"    InventoryComp.CreateBeforeSerializationDependencies updated: {inv_deps}")
 
     return True
 
@@ -793,9 +841,22 @@ def main():
         shutil.copy2(out_uasset, final_uasset)
         shutil.copy2(out_uexp, final_uexp)
         log(f"  Staged: Moria/Content/{dst_rel}")
-    # v1.0.2 ships only override paths — no brand-new assets.  The hard
-    # UClass* reference to BP_NpcGoat_C is now embedded inside DT_NPCRoles
-    # via the _PorterGoatLoader sentinel row.
+
+    # v1.1.0 Phase 2 — stage the brand-new BP_ContainerItem_Goat_BodyInventory.
+    # This BP is pre-cooked by scripts/CloneGoatBodyInventoryBP.py (one-time
+    # authoring) into experiments/portergoat/v110_build/. We just copy it into
+    # the pak's staging tree at /Game/Mods/PorterGoat/Items/.
+    goat_bi_src_uasset = PROJECT_ROOT / 'experiments' / 'portergoat' / 'v110_build' / 'BP_ContainerItem_Goat_BodyInventory.uasset'
+    goat_bi_src_uexp   = goat_bi_src_uasset.with_suffix('.uexp')
+    if not (goat_bi_src_uasset.exists() and goat_bi_src_uexp.exists()):
+        log(f"  ERROR: missing pre-cooked BP at {goat_bi_src_uasset}")
+        log(f"         run scripts/CloneGoatBodyInventoryBP.py first")
+        sys.exit(1)
+    goat_bi_dst_dir = STAGING_DIR / 'Moria' / 'Content' / 'Mods' / 'PorterGoat' / 'Items'
+    goat_bi_dst_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(goat_bi_src_uasset, goat_bi_dst_dir / 'BP_ContainerItem_Goat_BodyInventory.uasset')
+    shutil.copy2(goat_bi_src_uexp,   goat_bi_dst_dir / 'BP_ContainerItem_Goat_BodyInventory.uexp')
+    log(f"  Staged: Moria/Content/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory")
     log()
 
     # ----------------------------------------------------------------- 6
@@ -819,8 +880,8 @@ def main():
     if r.returncode == 0:
         lines = [l for l in r.stdout.strip().split('\n') if l.strip()]
         export_count = sum(1 for l in lines if 'ExportBundleData' in l)
-        # v1.0.5 had 5 entries; v1.1.0 adds 4 DT overrides = 9 total
-        log(f"  ExportBundleData entries: {export_count} (expected 9 for v1.1.0)")
+        # v1.0.5 had 5; v1.1.0 adds 4 DT overrides + 1 new wrapper BP = 10 total
+        log(f"  ExportBundleData entries: {export_count} (expected 10 for v1.1.0)")
     log()
 
     # ----------------------------------------------------------------- 7
@@ -848,6 +909,9 @@ def main():
     log(f"    - DT_NPCUniqueCharacters: +1 row 'PorterGoat' -> BP_NpcGoat_C")
     log(f"    - DT_Storage: +1 row 'Goat.BodyInventory' (8x8, no weapon slots)")
     log(f"    - DT_ContainerItems: +1 row 'Goat.BodyInventory'")
+    log(f"  v1.1.0 Phase 2 — goat 8x8 inventory wrapper:")
+    log(f"    - NEW: BP_ContainerItem_Goat_BodyInventory at /Game/Mods/PorterGoat/Items/")
+    log(f"    - BP_NpcGoat: InventoryComp.DefaultContainers += [Goat.BodyInventory wrapper]")
     log(f"  Phase 1 BLOCKER (deferred):")
     log(f"    - BP_NPCManager.ValidNpcClasses NOT modified (CDO is RawExport;")
     log(f"      requires usmap to parse). Runtime mod must test if RegisterNPC")
