@@ -1,0 +1,2103 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "/Game/Character/Shared/CharacterCreator/Blueprints/CharacterSelection/BP_CharSelectionPawn",
+    "/Game/Maps/Screens/CharSelection",
+    "/Game/Maps/Screens/CharSelection.CharSelection",
+    "/Game/Maps/Screens/HollinGate/HollinGate",
+    "/Game/Maps/Screens/HollinGate/HollinGate.HollinGate",
+    "/Game/Tech/Data/StringTables/UI",
+    "/Game/Tech/Data/StringTables/UI.UI",
+    "/Game/Tech/GameModes/BP_MoriaGameMode_MainMenu",
+    "/Game/Tech/GameModes/BP_MoriaGameState",
+    "/Game/UI/Frontend/BP_MorMainMenuPlayerController",
+    "/Game/UI/Frontend/CharSelection/BP_CharacterCreatorModeImpl",
+    "/Game/UI/SaveLoad/WBP_MorGameLoadingScreen",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/FGK",
+    "/Script/Moria",
+    "/Script/UMG",
+    "Actor",
+    "AllNodes",
+    "ArrayProperty",
+    "bFadeInLoadingScreen",
+    "bFadeOutLoadingScreen",
+    "BlueprintGeneratedClass",
+    "BoolProperty",
+    "BP_CharacterCreatorModeImpl_C",
+    "BP_CharSelectionPawn_C",
+    "BP_MoriaGameMode_MainMenu_C",
+    "BP_MoriaGameState_C",
+    "BP_MorMainMenuPlayerController_C",
+    "bShouldBlockOnLoad",
+    "bShouldBlockOnUnload",
+    "bShowLoadingScreen",
+    "Class",
+    "CollisionComponent0",
+    "ComponentClass",
+    "ComponentTemplate",
+    "Default__BlueprintGeneratedClass",
+    "Default__BP_CharacterCreatorModeImpl_C",
+    "Default__BP_CharSelectionPawn_C",
+    "Default__BP_MoriaGameMode_MainMenu_C",
+    "Default__BP_MoriaGameState_C",
+    "Default__BP_MorMainMenuPlayerController_C",
+    "Default__Function",
+    "Default__MorMainMenuGameMode",
+    "Default__SceneComponent",
+    "Default__SCS_Node",
+    "Default__SimpleConstructionScript",
+    "Default__WBP_MorGameLoadingScreen_C",
+    "DefaultPawnClass",
+    "DefaultSceneRoot",
+    "DefaultSceneRoot_GEN_VARIABLE",
+    "DefaultSceneRootNode",
+    "EMorMainMenuMode",
+    "EMorMainMenuMode::CharacterSelection",
+    "EMorMainMenuMode::HollinGate",
+    "EMorMainMenuMode::None",
+    "EntryPoint",
+    "EnumProperty",
+    "ErrorReadingWorldSaveGameText",
+    "ExecuteUbergraph_BP_MoriaGameMode_MainMenu",
+    "ExpressionContainer",
+    "FloatingPawnMovement",
+    "FromMode",
+    "Function",
+    "Game",
+    "GameModeBase",
+    "GameStateClass",
+    "Guid",
+    "HUDClass",
+    "InitializeHUDForPlayer",
+    "InternalVariableName",
+    "IntProperty",
+    "K2Node_Event_NewPlayer",
+    "LoadingScreenClass",
+    "MeshComponent0",
+    "Mode",
+    "Modes",
+    "MoriaPlayerState",
+    "MorMainMenuCharacterCreatorModeImpl",
+    "MorMainMenuCharacterSelectionTransition",
+    "MorMainMenuGameMode",
+    "MorMainMenuHollinGateTransition",
+    "MorMainMenuModeConfig",
+    "MorMainMenuModeTransitionConfig",
+    "MorMainMenuModeTransitionSettings",
+    "MovementComponent0",
+    "NameProperty",
+    "NewPlayer",
+    "None",
+    "Object",
+    "ObjectProperty",
+    "OkButtonText",
+    "OssConnectionErrorText",
+    "Package",
+    "PlayerControlerImplementationClass",
+    "PlayerController",
+    "PlayerControllerClass",
+    "PlayerStartTag",
+    "PlayerStateClass",
+    "PointerToUberGraphFrame",
+    "PragmaTamperedText",
+    "PS_CharSelection",
+    "ReceiveBeginPlay",
+    "RootNodes",
+    "SceneComponent",
+    "ScriptStruct",
+    "SCS_Node",
+    "Settings",
+    "SimpleConstructionScript",
+    "SoftObjectProperty",
+    "SphereComponent",
+    "StaticMeshComponent",
+    "StreamingLevel",
+    "StringTable",
+    "StructProperty",
+    "TextProperty",
+    "ToMode",
+    "TransformComponent0",
+    "TransitionClass",
+    "Transitions",
+    "UberGraphFrame",
+    "UberGraphFunction",
+    "UI",
+    "VariableGuid",
+    "WBP_MorGameLoadingScreen_C",
+    "WidgetBlueprintGeneratedClass",
+    "WidgetTree"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Final, FUNC_UbergraphFunction",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 4,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "IntProperty",
+          "Name": "EntryPoint",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -15,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "K2Node_Event_NewPlayer",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_ComputedJump, UAssetAPI",
+          "CodeOffsetExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "EntryPoint"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Jump, UAssetAPI",
+          "CodeOffset": 15
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 18,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ExecuteUbergraph_BP_MoriaGameMode_MainMenu",
+      "OuterIndex": 4,
+      "ClassIndex": -10,
+      "SuperIndex": 0,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 168,
+      "SerialOffset": 6515,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -10,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent",
+      "SuperStruct": -27,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -15,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "NewPlayer",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetValueOnPersistentFrame, UAssetAPI",
+          "DestinationProperty": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [
+                "K2Node_Event_NewPlayer"
+              ],
+              "ResolvedOwner": 1
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "NewPlayer"
+                ],
+                "ResolvedOwner": 2
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 10
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 36,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "InitializeHUDForPlayer",
+      "OuterIndex": 4,
+      "ClassIndex": -10,
+      "SuperIndex": -27,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 143,
+      "SerialOffset": 6683,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -27
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        1,
+        -10,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent",
+      "SuperStruct": -26,
+      "Children": [],
+      "LoadedProperties": [],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 15
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 18,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ReceiveBeginPlay",
+      "OuterIndex": 4,
+      "ClassIndex": -10,
+      "SuperIndex": -26,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 58,
+      "SerialOffset": 6826,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -26
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        2,
+        -10,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
+      "FuncMap": [
+        [
+          "ExecuteUbergraph_BP_MoriaGameMode_MainMenu",
+          1
+        ],
+        [
+          "InitializeHUDForPlayer",
+          2
+        ],
+        [
+          "ReceiveBeginPlay",
+          3
+        ]
+      ],
+      "ClassFlags": "CLASS_Config, CLASS_Transient, CLASS_Parsed, CLASS_NotPlaceable, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
+      "ClassWithin": -11,
+      "ClassConfigName": "Game",
+      "Interfaces": [],
+      "ClassGeneratedBy": 0,
+      "bDeprecatedForceScriptOrder": false,
+      "bCooked": true,
+      "ClassDefaultObject": 5,
+      "SuperStruct": -21,
+      "Children": [
+        3,
+        2,
+        1
+      ],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FStructProperty, UAssetAPI",
+          "Struct": -44,
+          "ArrayDim": "TArray",
+          "ElementSize": 16,
+          "PropertyFlags": "CPF_Transient, CPF_DuplicateTransient",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "StructProperty",
+          "Name": "UberGraphFrame",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -16,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_InstancedReference, CPF_NonTransactional",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "DefaultSceneRoot",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [],
+      "ScriptBytecodeSize": 0,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "SimpleConstructionScript",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 8
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "UberGraphFunction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 1
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "BP_MoriaGameMode_MainMenu_C",
+      "OuterIndex": 0,
+      "ClassIndex": -13,
+      "SuperIndex": -21,
+      "TemplateIndex": -5,
+      "ObjectFlags": "RF_Public, RF_Transactional",
+      "SerialSize": 288,
+      "SerialOffset": 6884,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        8,
+        -21
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -13,
+        -5
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "PointerToUberGraphFrame",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "UberGraphFrame",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": []
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "StructProperty",
+          "Name": "Modes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "MorMainMenuModeConfig",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Modes",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "Mode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::HollinGate"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                  "Name": "StreamingLevel",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                    "AssetPath": {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                      "PackageName": null,
+                      "AssetName": "/Game/Maps/Screens/HollinGate/HollinGate.HollinGate"
+                    },
+                    "SubPathString": null
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "DefaultPawnClass",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "PlayerControlerImplementationClass",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "TransitionClass",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -22
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "PlayerStartTag",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "None"
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "MorMainMenuModeConfig",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Modes",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "Mode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::CharacterSelection"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                  "Name": "StreamingLevel",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                    "AssetPath": {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                      "PackageName": null,
+                      "AssetName": "/Game/Maps/Screens/CharSelection.CharSelection"
+                    },
+                    "SubPathString": null
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "DefaultPawnClass",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -1
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "PlayerControlerImplementationClass",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -4
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "TransitionClass",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -20
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "PlayerStartTag",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "PS_CharSelection"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "StructProperty",
+          "Name": "Transitions",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "MorMainMenuModeTransitionConfig",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "FromMode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::HollinGate"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "ToMode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::CharacterSelection"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "MorMainMenuModeTransitionSettings",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Settings",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShouldBlockOnLoad",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShouldBlockOnUnload",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShowLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bFadeInLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bFadeOutLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "MorMainMenuModeTransitionConfig",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "FromMode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::CharacterSelection"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "ToMode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::HollinGate"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "MorMainMenuModeTransitionSettings",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Settings",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShouldBlockOnLoad",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShouldBlockOnUnload",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShowLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bFadeInLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bFadeOutLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "MorMainMenuModeTransitionConfig",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "FromMode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::None"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EMorMainMenuMode",
+                  "InnerType": null,
+                  "Name": "ToMode",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EMorMainMenuMode::HollinGate"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "MorMainMenuModeTransitionSettings",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Settings",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShouldBlockOnLoad",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShouldBlockOnUnload",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bShowLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": false
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bFadeInLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                      "Name": "bFadeOutLoadingScreen",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "LoadingScreenClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -51
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "OkButtonText",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Button.OK"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "ErrorReadingWorldSaveGameText",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Popup.GoToMainMenuReason.ErrorReadingWorldSaveGameText"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "OssConnectionErrorText",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Popup.GoToMainMenuReason.OssConnectionErrorText"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "PragmaTamperedText",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Popup.GoToMainMenuReason.PragmaTamperedText"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "GameStateClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -2
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "PlayerControllerClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -3
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "PlayerStateClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -19
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "HUDClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 0
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "DefaultPawnClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -1
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Default__BP_MoriaGameMode_MainMenu_C",
+      "OuterIndex": 0,
+      "ClassIndex": 4,
+      "SuperIndex": 0,
+      "TemplateIndex": -29,
+      "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
+      "SerialSize": 1979,
+      "SerialOffset": 7172,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        6,
+        -6,
+        -23,
+        -48,
+        -42,
+        -52,
+        -49
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        4,
+        -29
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": 4,
+      "ClassIndex": -16,
+      "SuperIndex": 0,
+      "TemplateIndex": -43,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 9151,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        5
+      ],
+      "SerializationBeforeCreateDependencies": [
+        3,
+        -16,
+        -43
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -16
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 6
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Guid",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "VariableGuid",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
+              "Name": "VariableGuid",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "{714079C9-4179-0F4E-5788-62A400D25842}"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "InternalVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "DefaultSceneRoot"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SCS_Node_0",
+      "OuterIndex": 8,
+      "ClassIndex": -17,
+      "SuperIndex": 0,
+      "TemplateIndex": -45,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 168,
+      "SerialOffset": 9163,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -17,
+        -45
+      ],
+      "CreateBeforeCreateDependencies": [
+        8
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "RootNodes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 7
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "AllNodes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 7
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "DefaultSceneRootNode",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 7
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SimpleConstructionScript_0",
+      "OuterIndex": 4,
+      "ClassIndex": -18,
+      "SuperIndex": 0,
+      "TemplateIndex": -46,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 123,
+      "SerialOffset": 9331,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        7
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -18,
+        -46
+      ],
+      "CreateBeforeCreateDependencies": [
+        6,
+        4
+      ],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_CharSelectionPawn_C",
+      "OuterIndex": -30,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_MoriaGameState_C",
+      "OuterIndex": -31,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_MorMainMenuPlayerController_C",
+      "OuterIndex": -32,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_CharacterCreatorModeImpl_C",
+      "OuterIndex": -33,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BlueprintGeneratedClass",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_CharacterCreatorModeImpl_C",
+      "OuterIndex": -33,
+      "ClassPackage": "/Game/UI/Frontend/CharSelection/BP_CharacterCreatorModeImpl",
+      "ClassName": "BP_CharacterCreatorModeImpl_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_CharSelectionPawn_C",
+      "OuterIndex": -30,
+      "ClassPackage": "/Game/Character/Shared/CharacterCreator/Blueprints/CharacterSelection/BP_CharSelectionPawn",
+      "ClassName": "BP_CharSelectionPawn_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_MoriaGameState_C",
+      "OuterIndex": -31,
+      "ClassPackage": "/Game/Tech/GameModes/BP_MoriaGameState",
+      "ClassName": "BP_MoriaGameState_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_MorMainMenuPlayerController_C",
+      "OuterIndex": -32,
+      "ClassPackage": "/Game/UI/Frontend/BP_MorMainMenuPlayerController",
+      "ClassName": "BP_MorMainMenuPlayerController_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Function",
+      "OuterIndex": -36,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Object",
+      "OuterIndex": -36,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Actor",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlueprintGeneratedClass",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameModeBase",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PlayerController",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SceneComponent",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SCS_Node",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SimpleConstructionScript",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MoriaPlayerState",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorMainMenuCharacterSelectionTransition",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorMainMenuGameMode",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorMainMenuHollinGateTransition",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ExpressionContainer",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "ExpressionContainer",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MovementComponent0",
+      "OuterIndex": -7,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "FloatingPawnMovement",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__Function",
+      "OuterIndex": -36,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ReceiveBeginPlay",
+      "OuterIndex": -12,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "InitializeHUDForPlayer",
+      "OuterIndex": -14,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorMainMenuCharacterCreatorModeImpl_0",
+      "OuterIndex": -9,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorMainMenuCharacterCreatorModeImpl",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__MorMainMenuGameMode",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorMainMenuGameMode",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Shared/CharacterCreator/Blueprints/CharacterSelection/BP_CharSelectionPawn",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/GameModes/BP_MoriaGameState",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/UI/Frontend/BP_MorMainMenuPlayerController",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/UI/Frontend/CharSelection/BP_CharacterCreatorModeImpl",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/StringTables/UI",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/UI/SaveLoad/WBP_MorGameLoadingScreen",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/CoreUObject",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Moria",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -1,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -2,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TransformComponent0",
+      "OuterIndex": -9,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SceneComponent",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PointerToUberGraphFrame",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SCS_Node",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SCS_Node",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SimpleConstructionScript",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CollisionComponent0",
+      "OuterIndex": -7,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SphereComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MeshComponent0",
+      "OuterIndex": -7,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "UI",
+      "OuterIndex": -34,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__WBP_MorGameLoadingScreen_C",
+      "OuterIndex": -35,
+      "ClassPackage": "/Game/UI/SaveLoad/WBP_MorGameLoadingScreen",
+      "ClassName": "WBP_MorGameLoadingScreen_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WBP_MorGameLoadingScreen_C",
+      "OuterIndex": -35,
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WidgetTree",
+      "OuterIndex": -51,
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetTree",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 8,
+      "NameCount": 127
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Tech/GameModes/BP_MoriaGameMode_MainMenu",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 127,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}

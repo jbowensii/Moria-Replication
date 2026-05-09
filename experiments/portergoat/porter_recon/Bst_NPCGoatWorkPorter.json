@@ -1,0 +1,3355 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle",
+    "/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_PorterLeashPlayer",
+    "/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_TeleportBehind",
+    "/Game/Character/NpcGoat/Bst_NPCGoatWorkPorter",
+    "/Game/Character/Shared/Navigation/NQF_AI_NPC",
+    "/Script/AIModule",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/FGK",
+    "/Script/Moria",
+    "AcceptanceRadius",
+    "Activity",
+    "ActivityHandle",
+    "ArrayProperty",
+    "bDebugThisTransition",
+    "bDoneOnAbort",
+    "bDoneOnFinish",
+    "bInvert",
+    "BlackboardKeyName",
+    "BlueprintGeneratedClass",
+    "BoolProperty",
+    "bRandomize",
+    "bShouldTrackMovingDestination",
+    "BSt_Idle_C",
+    "Bst_NPCGoatWorkPorter_C",
+    "ChildStateRefs",
+    "Class",
+    "Condition",
+    "Context",
+    "CurrentTargetActor",
+    "Default__BlueprintGeneratedClass",
+    "Default__BSt_Idle_C",
+    "Default__Bst_NPCGoatWorkPorter_C",
+    "Default__FGKAICondition_DistanceToKey",
+    "Default__FGKAICondition_HasBlackboardObjectValue",
+    "Default__FGKAICondition_HasBlackboardVectorValue",
+    "Default__FGKBehaviorState",
+    "Default__FGKBehaviorState_MoveToBlackboardKey",
+    "Default__FGKBehaviorState_RunEQS",
+    "Default__FGKCondition_ChildTimeElapsed",
+    "Default__FGKCondition_IsChildDone",
+    "Default__FGKConditionGroup",
+    "Default__MorActionEffect_NpcActivity",
+    "Default__MorBehaviorState_Emote",
+    "Default__NQF_AI_NPC_C",
+    "Default__UMorActionEffect_Teleport",
+    "Destination",
+    "DistanceCheckType",
+    "DistanceToCheck",
+    "Effects",
+    "EFGKAIDistanceCheck",
+    "EFGKAIDistanceCheck::GreaterThan",
+    "EFGKTransitionFilter",
+    "EFGKTransitionFilter::Entry",
+    "EFGKTransitionFilter::Whitelist",
+    "EMAIEmoteType",
+    "EMAIEmoteType::Laze",
+    "EMorNpcActivity",
+    "EMorNpcActivity::Working",
+    "EmoteType",
+    "Engine",
+    "EnumProperty",
+    "EnvQuery",
+    "EQS_Npc_PorterLeashPlayer",
+    "EQS_Npc_TeleportBehind",
+    "FacingTargetBlackboardKeyName",
+    "FGKAICondition_DistanceToKey",
+    "FGKAICondition_HasBlackboardObjectValue",
+    "FGKAICondition_HasBlackboardVectorValue",
+    "FGKBehaviorState",
+    "FGKBehaviorState_MoveToBlackboardKey",
+    "FGKBehaviorState_RunEQS",
+    "FGKCondition_ChildTimeElapsed",
+    "FGKCondition_IsChildDone",
+    "FGKConditionContainer",
+    "FGKConditionGroup",
+    "FGKHashedString",
+    "FGKStateRef",
+    "FGKTransition",
+    "FindCatchupPoint",
+    "FloatProperty",
+    "FollowPlayer",
+    "FromStates",
+    "GenericLocationKey",
+    "GroupConditions",
+    "HamItUp",
+    "HashValue",
+    "LeashActor",
+    "MorActionEffect_NpcActivity",
+    "MorBehaviorState_Emote",
+    "MorNPCActivityRowHandle",
+    "Name",
+    "NameProperty",
+    "NavigationFilter",
+    "None",
+    "NQF_AI_NPC_C",
+    "Object",
+    "ObjectProperty",
+    "Package",
+    "PickPlayer",
+    "QueryTemplate",
+    "RandomizeMaxDuration",
+    "RandomizeMinDuration",
+    "RowName",
+    "StructProperty",
+    "Teleport",
+    "Template",
+    "TransitionFilter",
+    "Transitions",
+    "UInt32Property",
+    "UMorActionEffect_Teleport",
+    "Working",
+    "FGKEnvQueryTest_TeamAttitude",
+    "MorEnvQueryTest_IsOnCellFloorNav"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
+      "FuncMap": [],
+      "ClassFlags": "CLASS_Parsed, CLASS_ReplicationDataIsSetUp, CLASS_EditInlineNew, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
+      "ClassWithin": -5,
+      "ClassConfigName": "Engine",
+      "Interfaces": [],
+      "ClassGeneratedBy": 0,
+      "bDeprecatedForceScriptOrder": false,
+      "bCooked": true,
+      "ClassDefaultObject": 2,
+      "SuperStruct": -10,
+      "Children": [],
+      "LoadedProperties": [],
+      "ScriptBytecode": [],
+      "ScriptBytecodeSize": 0,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Bst_NPCGoatWorkPorter_C",
+      "OuterIndex": 0,
+      "ClassIndex": -6,
+      "SuperIndex": -10,
+      "TemplateIndex": -3,
+      "ObjectFlags": "RF_Public, RF_Transactional",
+      "SerialSize": 80,
+      "SerialOffset": 7612,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -10
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -42,
+        -43,
+        -32,
+        -4,
+        -6,
+        -3
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "StructProperty",
+          "Name": "Transitions",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "DummyStruct": null,
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": []
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Entry"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "Working"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Working"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 6
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "PickPlayer"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Working"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "FollowPlayer"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "PickPlayer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 18
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "FollowPlayer"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "FollowPlayer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 5
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "FindCatchupPoint"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "FollowPlayer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 13
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "HamItUp"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "HamItUp"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 12
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "Working"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "PickPlayer"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 14
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "Working"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "FindCatchupPoint"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 19
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "Teleport"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "Teleport"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 0
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "HamItUp"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKTransition",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Transitions",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "NameProperty",
+                  "Name": "FromStates",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                      "Name": "0",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": "FindCatchupPoint"
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                  "EnumType": "EFGKTransitionFilter",
+                  "InnerType": null,
+                  "Name": "TransitionFilter",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "EFGKTransitionFilter::Whitelist"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKConditionContainer",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Condition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                      "Name": "Condition",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 15
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                  "Name": "Destination",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": "HamItUp"
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+                  "Name": "bDebugThisTransition",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": false
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Context",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "StructProperty",
+          "Name": "ChildStateRefs",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKStateRef",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "ChildStateRefs",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Class",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -1
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKHashedString",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Name",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+                      "Name": "HashValue",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 2267483223
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Template",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 4
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKStateRef",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "ChildStateRefs",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Class",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -12
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKHashedString",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Name",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+                      "Name": "HashValue",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 634307501
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Template",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 10
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKStateRef",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "ChildStateRefs",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Class",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -11
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKHashedString",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Name",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+                      "Name": "HashValue",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1767865455
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Template",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 9
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKStateRef",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "ChildStateRefs",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Class",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -17
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKHashedString",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Name",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+                      "Name": "HashValue",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 2596437604
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Template",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 21
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKStateRef",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "ChildStateRefs",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Class",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -12
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKHashedString",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Name",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+                      "Name": "HashValue",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 3329957218
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Template",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 11
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "FGKStateRef",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "ChildStateRefs",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Class",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": -1
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                  "StructType": "FGKHashedString",
+                  "SerializeNone": true,
+                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                  "SerializationControl": "NoExtension",
+                  "Operation": "None",
+                  "Name": "Name",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.UInt32PropertyData, UAssetAPI",
+                      "Name": "HashValue",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 366014931
+                    }
+                  ]
+                },
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                  "Name": "Template",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Default__Bst_NPCGoatWorkPorter_C",
+      "OuterIndex": 0,
+      "ClassIndex": 1,
+      "SuperIndex": 0,
+      "TemplateIndex": -24,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ClassDefaultObject, RF_ArchetypeObject",
+      "SerialSize": 4032,
+      "SerialOffset": 7692,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        21
+      ],
+      "SerializationBeforeCreateDependencies": [
+        1,
+        -24
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "Effects",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 22
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "BSt_Idle_C_3",
+      "OuterIndex": 2,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -4,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 53,
+      "SerialOffset": 11724,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        22
+      ],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -4
+      ],
+      "CreateBeforeCreateDependencies": [
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "Effects",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 20
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "BSt_Idle_C_6",
+      "OuterIndex": 2,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -4,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 53,
+      "SerialOffset": 11777,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        2
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -4
+      ],
+      "CreateBeforeCreateDependencies": [
+        3,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "LeashActor"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 1400.0,
+          "Name": "DistanceToCheck",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EFGKAIDistanceCheck",
+          "InnerType": null,
+          "Name": "DistanceCheckType",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EFGKAIDistanceCheck::GreaterThan"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKAICondition_DistanceToKey_0",
+      "OuterIndex": 2,
+      "ClassIndex": -7,
+      "SuperIndex": 0,
+      "TemplateIndex": -21,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 115,
+      "SerialOffset": 11830,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        4
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -7,
+        -21
+      ],
+      "CreateBeforeCreateDependencies": [
+        4,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "LeashActor"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bInvert",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKAICondition_HasBlackboardObjectValue_0",
+      "OuterIndex": 2,
+      "ClassIndex": -8,
+      "SuperIndex": 0,
+      "TemplateIndex": -22,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 71,
+      "SerialOffset": 11945,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        5
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -8,
+        -22
+      ],
+      "CreateBeforeCreateDependencies": [
+        5,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "LeashActor"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKAICondition_HasBlackboardObjectValue_0",
+      "OuterIndex": 18,
+      "ClassIndex": -8,
+      "SuperIndex": 0,
+      "TemplateIndex": -22,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 45,
+      "SerialOffset": 12016,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        18
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -8,
+        -22
+      ],
+      "CreateBeforeCreateDependencies": [
+        18
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "GenericLocationKey"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKAICondition_HasBlackboardVectorValue_0",
+      "OuterIndex": 19,
+      "ClassIndex": -9,
+      "SuperIndex": 0,
+      "TemplateIndex": -23,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 45,
+      "SerialOffset": 12061,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        19
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -9,
+        -23
+      ],
+      "CreateBeforeCreateDependencies": [
+        19
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "LeashActor"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bShouldTrackMovingDestination",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 300.0,
+          "Name": "AcceptanceRadius",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "NavigationFilter",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -2
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKBehaviorState_MoveToBlackboardKey_0",
+      "OuterIndex": 2,
+      "ClassIndex": -11,
+      "SuperIndex": 0,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 129,
+      "SerialOffset": 12106,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        6
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -11,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        6,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "QueryTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -19
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "LeashActor"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKBehaviorState_RunEQS_0",
+      "OuterIndex": 2,
+      "ClassIndex": -12,
+      "SuperIndex": 0,
+      "TemplateIndex": -26,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 74,
+      "SerialOffset": 12235,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        9
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -12,
+        -26
+      ],
+      "CreateBeforeCreateDependencies": [
+        9,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "QueryTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -20
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "GenericLocationKey"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKBehaviorState_RunEQS_4",
+      "OuterIndex": 2,
+      "ClassIndex": -12,
+      "SuperIndex": 0,
+      "TemplateIndex": -26,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 74,
+      "SerialOffset": 12309,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        10
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -12,
+        -26
+      ],
+      "CreateBeforeCreateDependencies": [
+        10,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bRandomize",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 2.0,
+          "Name": "RandomizeMinDuration",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+          "Value": 3.0,
+          "Name": "RandomizeMaxDuration",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKCondition_ChildTimeElapsed_0",
+      "OuterIndex": 2,
+      "ClassIndex": -13,
+      "SuperIndex": 0,
+      "TemplateIndex": -27,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 96,
+      "SerialOffset": 12383,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        11
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -13,
+        -27
+      ],
+      "CreateBeforeCreateDependencies": [
+        11,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKCondition_IsChildDone_0",
+      "OuterIndex": 2,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -28,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 12479,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        12
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -28
+      ],
+      "CreateBeforeCreateDependencies": [
+        12,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKCondition_IsChildDone_1",
+      "OuterIndex": 2,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -28,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 12491,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        13
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -28
+      ],
+      "CreateBeforeCreateDependencies": [
+        13,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bDoneOnFinish",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": false
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKCondition_IsChildDone_2",
+      "OuterIndex": 2,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -28,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 38,
+      "SerialOffset": 12503,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        14
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -28
+      ],
+      "CreateBeforeCreateDependencies": [
+        14,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKCondition_IsChildDone_0",
+      "OuterIndex": 18,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -28,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 12541,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        7
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -28
+      ],
+      "CreateBeforeCreateDependencies": [
+        7,
+        18
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bDoneOnAbort",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": false
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKCondition_IsChildDone_0",
+      "OuterIndex": 19,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -28,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 38,
+      "SerialOffset": 12553,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        8
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -28
+      ],
+      "CreateBeforeCreateDependencies": [
+        8,
+        19
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "GroupConditions",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 16
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 7
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKConditionGroup_0",
+      "OuterIndex": 2,
+      "ClassIndex": -15,
+      "SuperIndex": 0,
+      "TemplateIndex": -29,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 57,
+      "SerialOffset": 12591,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        15
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -15,
+        -29
+      ],
+      "CreateBeforeCreateDependencies": [
+        15,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "GroupConditions",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 17
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 8
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "FGKConditionGroup_1",
+      "OuterIndex": 2,
+      "ClassIndex": -15,
+      "SuperIndex": 0,
+      "TemplateIndex": -29,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 57,
+      "SerialOffset": 12648,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        16
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -15,
+        -29
+      ],
+      "CreateBeforeCreateDependencies": [
+        16,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EMorNpcActivity",
+          "InnerType": null,
+          "Name": "Activity",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EMorNpcActivity::Working"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "MorNPCActivityRowHandle",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "ActivityHandle",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+              "Name": "RowName",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "Working"
+            }
+          ]
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "MorActionEffect_NpcActivity_0",
+      "OuterIndex": 4,
+      "ClassIndex": -16,
+      "SuperIndex": 0,
+      "TemplateIndex": -30,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 143,
+      "SerialOffset": 12705,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        17
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -16,
+        -30
+      ],
+      "CreateBeforeCreateDependencies": [
+        17,
+        4
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EMAIEmoteType",
+          "InnerType": null,
+          "Name": "EmoteType",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EMAIEmoteType::Laze"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "FacingTargetBlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "CurrentTargetActor"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "MorBehaviorState_Emote_0",
+      "OuterIndex": 2,
+      "ClassIndex": -17,
+      "SuperIndex": 0,
+      "TemplateIndex": -31,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 86,
+      "SerialOffset": 12848,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        20
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -17,
+        -31
+      ],
+      "CreateBeforeCreateDependencies": [
+        20,
+        2
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "BlackboardKeyName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "GenericLocationKey"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "UMorActionEffect_Teleport_0",
+      "OuterIndex": 3,
+      "ClassIndex": -18,
+      "SuperIndex": 0,
+      "TemplateIndex": -41,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 45,
+      "SerialOffset": 12934,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        3
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        21,
+        -18,
+        -41
+      ],
+      "CreateBeforeCreateDependencies": [
+        3
+      ],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BSt_Idle_C",
+      "OuterIndex": -33,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "NQF_AI_NPC_C",
+      "OuterIndex": -34,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BlueprintGeneratedClass",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BSt_Idle_C",
+      "OuterIndex": -33,
+      "ClassPackage": "/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle",
+      "ClassName": "BSt_Idle_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Object",
+      "OuterIndex": -37,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlueprintGeneratedClass",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKAICondition_DistanceToKey",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKAICondition_HasBlackboardObjectValue",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKAICondition_HasBlackboardVectorValue",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKBehaviorState",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKBehaviorState_MoveToBlackboardKey",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKBehaviorState_RunEQS",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKCondition_ChildTimeElapsed",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKCondition_IsChildDone",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKConditionGroup",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorActionEffect_NpcActivity",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorBehaviorState_Emote",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "UMorActionEffect_Teleport",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "EQS_Npc_PorterLeashPlayer",
+      "OuterIndex": -35,
+      "ClassPackage": "/Script/AIModule",
+      "ClassName": "EnvQuery",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "EQS_Npc_TeleportBehind",
+      "OuterIndex": -36,
+      "ClassPackage": "/Script/AIModule",
+      "ClassName": "EnvQuery",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKAICondition_DistanceToKey",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKAICondition_DistanceToKey",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKAICondition_HasBlackboardObjectValue",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKAICondition_HasBlackboardObjectValue",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKAICondition_HasBlackboardVectorValue",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKAICondition_HasBlackboardVectorValue",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKBehaviorState",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKBehaviorState",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKBehaviorState_MoveToBlackboardKey",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKBehaviorState_MoveToBlackboardKey",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKBehaviorState_RunEQS",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKBehaviorState_RunEQS",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKCondition_ChildTimeElapsed",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKCondition_ChildTimeElapsed",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKCondition_IsChildDone",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKCondition_IsChildDone",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__FGKConditionGroup",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKConditionGroup",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__MorActionEffect_NpcActivity",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorActionEffect_NpcActivity",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__MorBehaviorState_Emote",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorBehaviorState_Emote",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__NQF_AI_NPC_C",
+      "OuterIndex": -34,
+      "ClassPackage": "/Game/Character/Shared/Navigation/NQF_AI_NPC",
+      "ClassName": "NQF_AI_NPC_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/AI/Behaviors/BehaviorStates/BSt_Idle",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Shared/Navigation/NQF_AI_NPC",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_PorterLeashPlayer",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/AI/Behaviors/EQSQueries/Targeting/EQS_Npc_TeleportBehind",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/CoreUObject",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/FGK",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Moria",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__UMorActionEffect_Teleport",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "UMorActionEffect_Teleport",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKEnvQueryTest_TeamAttitude_0",
+      "OuterIndex": -19,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKEnvQueryTest_TeamAttitude",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorEnvQueryTest_IsOnCellFloorNav_0",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorEnvQueryTest_IsOnCellFloorNav",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 22,
+      "NameCount": 114
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Character/NpcGoat/Bst_NPCGoatWorkPorter",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 114,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}

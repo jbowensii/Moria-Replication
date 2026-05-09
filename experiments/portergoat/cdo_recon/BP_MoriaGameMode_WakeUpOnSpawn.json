@@ -1,0 +1,2848 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "/Game/Tech/Data/DataAssets/IL_Dwarf_Empty",
+    "/Game/Tech/Data/DataAssets/IL_Dwarf_Starter",
+    "/Game/Tech/Data/StringTables/UI",
+    "/Game/Tech/Data/StringTables/UI.UI",
+    "/Game/Tech/GameModes/BP_MoriaGameMode",
+    "/Game/Tech/GameModes/BP_MoriaGameMode_WakeUpOnSpawn",
+    "/Game/Tech/Managers/BP_GameSessionManager",
+    "/Game/UI/PopUp/WBP_UI_GenericPopup",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/FGK",
+    "/Script/FGKUIToolkit",
+    "/Script/Moria",
+    "/Script/UMG",
+    "Actor",
+    "BlueprintGeneratedClass",
+    "BoolProperty",
+    "BP_GameSessionManager_C",
+    "BP_MoriaGameMode_C",
+    "BP_MoriaGameMode_WakeUpOnSpawn_C",
+    "BPGetManager",
+    "CallFunc_BPGetManager_ReturnValue",
+    "CallFunc_GetGameInstance_ReturnValue",
+    "CallFunc_GetGlobalManagerInternal_ReturnValue",
+    "CallFunc_IsJoiningGameFromFriendsList_ReturnValue",
+    "CallFunc_ShowTwoButtonPopup_ReturnValue",
+    "Class",
+    "ClearJoiningGameFromFriendsList",
+    "ComponentClass",
+    "ComponentTemplate",
+    "Default__BlueprintGeneratedClass",
+    "Default__BP_GameSessionManager_C",
+    "Default__BP_MoriaGameMode_C",
+    "Default__BP_MoriaGameMode_WakeUpOnSpawn_C",
+    "Default__Function",
+    "Default__InheritableComponentHandler",
+    "Default__SceneComponent",
+    "Default__SCS_Node",
+    "Default__SimpleConstructionScript",
+    "Default__WBP_UI_GenericPopup_C",
+    "DefaultSceneRoot",
+    "DefaultSceneRoot_GEN_VARIABLE",
+    "DefaultSceneRootNode",
+    "DelegateFunction",
+    "DelegateProperty",
+    "EntryPoint",
+    "ExecuteUbergraph_BP_MoriaGameMode_WakeUpOnSpawn",
+    "FGKGameInstanceBase",
+    "FGKPopup",
+    "FGKPopupButtonUsed__DelegateSignature",
+    "FGKUIManager",
+    "FGKUIScreen",
+    "Function",
+    "Game",
+    "GameInstance",
+    "GameplayStatics",
+    "GameSessionManager",
+    "GetGameInstance",
+    "GetGlobalManagerInternal",
+    "Guid",
+    "HandleCancelJoinFriend",
+    "HandleConfirmJoinFriend",
+    "Hide",
+    "IL_Dwarf_Empty",
+    "IL_Dwarf_Starter",
+    "InheritableComponentHandler",
+    "InternalVariableName",
+    "IntProperty",
+    "InventoryLoadout",
+    "IsJoiningGameFromFriendsList",
+    "JoinFriendsGameAccept",
+    "JoinFriendsGameDecline",
+    "JoinFriendsGamePopupBodyText",
+    "JoinFriendsGamePopupHeaderText",
+    "K2Node_CreateDelegate_OutputDelegate",
+    "K2Node_CustomEvent_PopupInstance",
+    "K2Node_DynamicCast_AsMoria_Game_Instance",
+    "K2Node_DynamicCast_bSuccess",
+    "LeaveCurrentGameToGoToJoinFriendsGame",
+    "MorGameSessionManager",
+    "MoriaGameInstance",
+    "MorUIManager",
+    "NameProperty",
+    "None",
+    "Object",
+    "ObjectProperty",
+    "OnJoiningGameFromFriendsList",
+    "OnJoiningGameFromFriendsList__DelegateSignature",
+    "Package",
+    "PlayerRespawnLoadoutOverride",
+    "PlayerStartingLoadout",
+    "PointerToUberGraphFrame",
+    "PopupInstance",
+    "PromptToSwitchToJoinFriendsGame",
+    "ReceiveBeginPlay",
+    "SceneComponent",
+    "ScriptStruct",
+    "SCS_Node",
+    "ShowTwoButtonPopup",
+    "SimpleConstructionScript",
+    "StringTable",
+    "StructProperty",
+    "TextProperty",
+    "UberGraphFrame",
+    "UberGraphFunction",
+    "UI",
+    "VariableGuid",
+    "WBP_UI_GenericPopup_C",
+    "WidgetBlueprintGeneratedClass",
+    "WidgetTree"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Final, FUNC_UbergraphFunction",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 4,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "IntProperty",
+          "Name": "EntryPoint",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FBoolProperty, UAssetAPI",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "NativeBool": true,
+          "Value": true,
+          "ArrayDim": "TArray",
+          "ElementSize": 1,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "BoolProperty",
+          "Name": "CallFunc_IsJoiningGameFromFriendsList_ReturnValue",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -22,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "CallFunc_BPGetManager_ReturnValue",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_InstancedReference",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PopupInstance_1",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_InstancedReference",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PopupInstance",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FDelegateProperty, UAssetAPI",
+          "SignatureFunction": -23,
+          "ArrayDim": "TArray",
+          "ElementSize": 20,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FDelegateProperty, UAssetAPI",
+          "SignatureFunction": -23,
+          "ArrayDim": "TArray",
+          "ElementSize": 20,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -10,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "CallFunc_GetGameInstance_ReturnValue",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_InstancedReference",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "CallFunc_ShowTwoButtonPopup_ReturnValue",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -21,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "K2Node_DynamicCast_AsMoria_Game_Instance",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FBoolProperty, UAssetAPI",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "NativeBool": true,
+          "Value": true,
+          "ArrayDim": "TArray",
+          "ElementSize": 1,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "BoolProperty",
+          "Name": "K2Node_DynamicCast_bSuccess",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FDelegateProperty, UAssetAPI",
+          "SignatureFunction": -24,
+          "ArrayDim": "TArray",
+          "ElementSize": 20,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -2,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "CallFunc_GetGlobalManagerInternal_ReturnValue",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PushExecutionFlow, UAssetAPI",
+          "PushingAddress": 632
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_ComputedJump, UAssetAPI",
+          "CodeOffsetExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "EntryPoint"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PushExecutionFlow, UAssetAPI",
+          "PushingAddress": 188
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetObj, UAssetAPI",
+          "VariableExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_GetGameInstance_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_CallMath, UAssetAPI",
+            "StackNode": -27,
+            "Parameters": [
+              {
+                "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Self, UAssetAPI"
+              }
+            ]
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Let, UAssetAPI",
+          "Value": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [],
+              "ResolvedOwner": 0
+            }
+          },
+          "Variable": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_DynamicCast_AsMoria_Game_Instance"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "Expression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_DynamicCast, UAssetAPI",
+            "ClassPtr": -21,
+            "TargetExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "CallFunc_GetGameInstance_ReturnValue"
+                  ],
+                  "ResolvedOwner": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Let, UAssetAPI",
+          "Value": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [],
+              "ResolvedOwner": 0
+            }
+          },
+          "Variable": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_DynamicCast_bSuccess"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "Expression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PrimitiveCast, UAssetAPI",
+            "ConversionType": "ObjectToBool",
+            "Target": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "K2Node_DynamicCast_AsMoria_Game_Instance"
+                  ],
+                  "ResolvedOwner": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlowIfNot, UAssetAPI",
+          "BooleanExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_DynamicCast_bSuccess"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetObj, UAssetAPI",
+          "VariableExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_GetGlobalManagerInternal_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+            "ObjectExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "K2Node_DynamicCast_AsMoria_Game_Instance"
+                  ],
+                  "ResolvedOwner": 1
+                }
+              }
+            },
+            "Offset": 20,
+            "PropertyType": 0,
+            "RValuePointer": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_GetGlobalManagerInternal_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            },
+            "ContextExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+              "StackNode": -28,
+              "Parameters": [
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_ObjectConst, UAssetAPI",
+                  "Value": -2
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_True, UAssetAPI"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetObj, UAssetAPI",
+          "VariableExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "GameSessionManager"
+                ],
+                "ResolvedOwner": 6
+              }
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_GetGlobalManagerInternal_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlow, UAssetAPI"
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetBool, UAssetAPI",
+          "VariableExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_IsJoiningGameFromFriendsList_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+            "ObjectExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "GameSessionManager"
+                  ],
+                  "ResolvedOwner": 6
+                }
+              }
+            },
+            "Offset": 10,
+            "PropertyType": 0,
+            "RValuePointer": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_IsJoiningGameFromFriendsList_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            },
+            "ContextExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+              "StackNode": -32,
+              "Parameters": []
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_JumpIfNot, UAssetAPI",
+          "CodeOffset": 259,
+          "BooleanExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_IsJoiningGameFromFriendsList_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVirtualFunction, UAssetAPI",
+          "VirtualFunctionName": "PromptToSwitchToJoinFriendsGame",
+          "Parameters": []
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlow, UAssetAPI"
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_BindDelegate, UAssetAPI",
+          "FunctionName": "PromptToSwitchToJoinFriendsGame",
+          "Delegate": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_CreateDelegate_OutputDelegate_2"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "ObjectTerm": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Self, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_AddMulticastDelegate, UAssetAPI",
+          "Delegate": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+            "ObjectExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "GameSessionManager"
+                  ],
+                  "ResolvedOwner": 6
+                }
+              }
+            },
+            "Offset": 9,
+            "PropertyType": 0,
+            "RValuePointer": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "OnJoiningGameFromFriendsList"
+                ],
+                "ResolvedOwner": -20
+              }
+            },
+            "ContextExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "OnJoiningGameFromFriendsList"
+                  ],
+                  "ResolvedOwner": -20
+                }
+              }
+            }
+          },
+          "DelegateToAdd": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_CreateDelegate_OutputDelegate_2"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlow, UAssetAPI"
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetObj, UAssetAPI",
+          "VariableExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_BPGetManager_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_CallMath, UAssetAPI",
+            "StackNode": -34,
+            "Parameters": [
+              {
+                "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Self, UAssetAPI"
+              }
+            ]
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_BindDelegate, UAssetAPI",
+          "FunctionName": "HandleConfirmJoinFriend",
+          "Delegate": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_CreateDelegate_OutputDelegate"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "ObjectTerm": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Self, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_BindDelegate, UAssetAPI",
+          "FunctionName": "HandleCancelJoinFriend",
+          "Delegate": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_CreateDelegate_OutputDelegate_1"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "ObjectTerm": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Self, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetObj, UAssetAPI",
+          "VariableExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_ShowTwoButtonPopup_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+            "ObjectExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "CallFunc_BPGetManager_ReturnValue"
+                  ],
+                  "ResolvedOwner": 1
+                }
+              }
+            },
+            "Offset": 73,
+            "PropertyType": 0,
+            "RValuePointer": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "CallFunc_ShowTwoButtonPopup_ReturnValue"
+                ],
+                "ResolvedOwner": 1
+              }
+            },
+            "ContextExpression": {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+              "StackNode": -29,
+              "Parameters": [
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_ObjectConst, UAssetAPI",
+                  "Value": -56
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+                  "Variable": {
+                    "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                    "New": {
+                      "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                      "Path": [
+                        "JoinFriendsGamePopupHeaderText"
+                      ],
+                      "ResolvedOwner": 6
+                    }
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+                  "Variable": {
+                    "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                    "New": {
+                      "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                      "Path": [
+                        "JoinFriendsGamePopupBodyText"
+                      ],
+                      "ResolvedOwner": 6
+                    }
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+                  "Variable": {
+                    "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                    "New": {
+                      "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                      "Path": [
+                        "JoinFriendsGameAccept"
+                      ],
+                      "ResolvedOwner": 6
+                    }
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+                  "Variable": {
+                    "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                    "New": {
+                      "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                      "Path": [
+                        "JoinFriendsGameDecline"
+                      ],
+                      "ResolvedOwner": 6
+                    }
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+                  "Variable": {
+                    "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                    "New": {
+                      "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                      "Path": [
+                        "K2Node_CreateDelegate_OutputDelegate"
+                      ],
+                      "ResolvedOwner": 1
+                    }
+                  }
+                },
+                {
+                  "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+                  "Variable": {
+                    "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                    "New": {
+                      "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                      "Path": [
+                        "K2Node_CreateDelegate_OutputDelegate_1"
+                      ],
+                      "ResolvedOwner": 1
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlow, UAssetAPI"
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+          "ObjectExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_CustomEvent_PopupInstance_1"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "Offset": 10,
+          "PropertyType": 0,
+          "RValuePointer": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [],
+              "ResolvedOwner": 0
+            }
+          },
+          "ContextExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+            "StackNode": -30,
+            "Parameters": []
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+          "ObjectExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "GameSessionManager"
+                ],
+                "ResolvedOwner": 6
+              }
+            }
+          },
+          "Offset": 10,
+          "PropertyType": 0,
+          "RValuePointer": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [],
+              "ResolvedOwner": 0
+            }
+          },
+          "ContextExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+            "StackNode": -33,
+            "Parameters": []
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlow, UAssetAPI"
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+          "ObjectExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "K2Node_CustomEvent_PopupInstance"
+                ],
+                "ResolvedOwner": 1
+              }
+            }
+          },
+          "Offset": 10,
+          "PropertyType": 0,
+          "RValuePointer": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [],
+              "ResolvedOwner": 0
+            }
+          },
+          "ContextExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+            "StackNode": -30,
+            "Parameters": []
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Context, UAssetAPI",
+          "ObjectExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "GameSessionManager"
+                ],
+                "ResolvedOwner": 6
+              }
+            }
+          },
+          "Offset": 10,
+          "PropertyType": 0,
+          "RValuePointer": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [],
+              "ResolvedOwner": 0
+            }
+          },
+          "ContextExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_FinalFunction, UAssetAPI",
+            "StackNode": -31,
+            "Parameters": []
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_PopExecutionFlow, UAssetAPI"
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Jump, UAssetAPI",
+          "CodeOffset": 15
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 635,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ExecuteUbergraph_BP_MoriaGameMode_WakeUpOnSpawn",
+      "OuterIndex": 6,
+      "ClassIndex": -6,
+      "SuperIndex": 0,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 1574,
+      "SerialOffset": 6619,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -6,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent",
+      "SuperStruct": -26,
+      "Children": [],
+      "LoadedProperties": [],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 627
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 18,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ReceiveBeginPlay",
+      "OuterIndex": 6,
+      "ClassIndex": -6,
+      "SuperIndex": -26,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 58,
+      "SerialOffset": 8193,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -26
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        1,
+        -6,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_BlueprintCallable, FUNC_BlueprintEvent",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_InstancedReference",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "PopupInstance",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetValueOnPersistentFrame, UAssetAPI",
+          "DestinationProperty": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [
+                "K2Node_CustomEvent_PopupInstance"
+              ],
+              "ResolvedOwner": 1
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "PopupInstance"
+                ],
+                "ResolvedOwner": 3
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 562
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 36,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "HandleCancelJoinFriend",
+      "OuterIndex": 6,
+      "ClassIndex": -6,
+      "SuperIndex": 0,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 143,
+      "SerialOffset": 8251,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        2,
+        -6,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_BlueprintCallable, FUNC_BlueprintEvent",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -17,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_InstancedReference",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "PopupInstance",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetValueOnPersistentFrame, UAssetAPI",
+          "DestinationProperty": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [
+                "K2Node_CustomEvent_PopupInstance_1"
+              ],
+              "ResolvedOwner": 1
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "PopupInstance"
+                ],
+                "ResolvedOwner": 4
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 497
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 36,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "HandleConfirmJoinFriend",
+      "OuterIndex": 6,
+      "ClassIndex": -6,
+      "SuperIndex": 0,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 143,
+      "SerialOffset": 8394,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        3,
+        -6,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_BlueprintCallable, FUNC_BlueprintEvent",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 324
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 18,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "PromptToSwitchToJoinFriendsGame",
+      "OuterIndex": 6,
+      "ClassIndex": -6,
+      "SuperIndex": 0,
+      "TemplateIndex": -25,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 58,
+      "SerialOffset": 8537,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        4,
+        -6,
+        -25
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
+      "FuncMap": [
+        [
+          "ExecuteUbergraph_BP_MoriaGameMode_WakeUpOnSpawn",
+          1
+        ],
+        [
+          "ReceiveBeginPlay",
+          2
+        ],
+        [
+          "HandleCancelJoinFriend",
+          3
+        ],
+        [
+          "HandleConfirmJoinFriend",
+          4
+        ],
+        [
+          "PromptToSwitchToJoinFriendsGame",
+          5
+        ]
+      ],
+      "ClassFlags": "CLASS_Config, CLASS_Transient, CLASS_Parsed, CLASS_NotPlaceable, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
+      "ClassWithin": -7,
+      "ClassConfigName": "Game",
+      "Interfaces": [],
+      "ClassGeneratedBy": 0,
+      "bDeprecatedForceScriptOrder": false,
+      "bCooked": true,
+      "ClassDefaultObject": 7,
+      "SuperStruct": -1,
+      "Children": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FStructProperty, UAssetAPI",
+          "Struct": -51,
+          "ArrayDim": "TArray",
+          "ElementSize": 16,
+          "PropertyFlags": "CPF_Transient, CPF_DuplicateTransient",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "StructProperty",
+          "Name": "UberGraphFrame",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -2,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "GameSessionManager",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 24,
+          "PropertyFlags": "CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "TextProperty",
+          "Name": "JoinFriendsGamePopupHeaderText",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 24,
+          "PropertyFlags": "CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "TextProperty",
+          "Name": "JoinFriendsGamePopupBodyText",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 24,
+          "PropertyFlags": "CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "TextProperty",
+          "Name": "JoinFriendsGameAccept",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 24,
+          "PropertyFlags": "CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "TextProperty",
+          "Name": "JoinFriendsGameDecline",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [],
+      "ScriptBytecodeSize": 0,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "SimpleConstructionScript",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 11
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "InheritableComponentHandler",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 8
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "UberGraphFunction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 1
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "BP_MoriaGameMode_WakeUpOnSpawn_C",
+      "OuterIndex": 0,
+      "ClassIndex": -9,
+      "SuperIndex": -1,
+      "TemplateIndex": -3,
+      "ObjectFlags": "RF_Public, RF_Transactional",
+      "SerialSize": 537,
+      "SerialOffset": 8595,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        11,
+        -1
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -4,
+        -5,
+        -37,
+        -57,
+        -36,
+        -54,
+        -9,
+        -3
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "PointerToUberGraphFrame",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "UberGraphFrame",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": []
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "JoinFriendsGamePopupHeaderText",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Popup.JoinFriend.Header"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "JoinFriendsGamePopupBodyText",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Popup.JoinFriend.Description"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "JoinFriendsGameAccept",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Button.Confirm"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+          "Flags": 0,
+          "HistoryType": "StringTableEntry",
+          "TableId": "/Game/Tech/Data/StringTables/UI.UI",
+          "Namespace": null,
+          "CultureInvariantString": null,
+          "SourceFmt": null,
+          "Arguments": null,
+          "ArgumentsData": null,
+          "TransformType": "ToLower",
+          "SourceValue": null,
+          "FormatOptions": null,
+          "TargetCulture": null,
+          "Name": "JoinFriendsGameDecline",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "Button.Back"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "PlayerStartingLoadout",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -37
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "PlayerRespawnLoadoutOverride",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -36
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Default__BP_MoriaGameMode_WakeUpOnSpawn_C",
+      "OuterIndex": 0,
+      "ClassIndex": 6,
+      "SuperIndex": 0,
+      "TemplateIndex": -5,
+      "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
+      "SerialSize": 371,
+      "SerialOffset": 9132,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        6,
+        -5
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "InheritableComponentHandler",
+      "OuterIndex": 6,
+      "ClassIndex": -12,
+      "SuperIndex": 0,
+      "TemplateIndex": -35,
+      "ObjectFlags": "RF_NoFlags",
+      "SerialSize": 12,
+      "SerialOffset": 9503,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        5,
+        -12,
+        -35
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": 6,
+      "ClassIndex": -13,
+      "SuperIndex": 0,
+      "TemplateIndex": -50,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 9515,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        7
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        8,
+        -13,
+        -50
+      ],
+      "CreateBeforeCreateDependencies": [
+        6
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -13
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 9
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Guid",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "VariableGuid",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
+              "Name": "VariableGuid",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "{E5C30CD7-4EDA-A9AD-C5EC-A6966311FA43}"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "InternalVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "DefaultSceneRoot"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SCS_Node_0",
+      "OuterIndex": 11,
+      "ClassIndex": -14,
+      "SuperIndex": 0,
+      "TemplateIndex": -52,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 168,
+      "SerialOffset": 9527,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -14,
+        -52
+      ],
+      "CreateBeforeCreateDependencies": [
+        11
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "DefaultSceneRootNode",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 10
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SimpleConstructionScript_0",
+      "OuterIndex": 6,
+      "ClassIndex": -15,
+      "SuperIndex": 0,
+      "TemplateIndex": -53,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 41,
+      "SerialOffset": 9695,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        10
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -15,
+        -53
+      ],
+      "CreateBeforeCreateDependencies": [
+        9,
+        6
+      ],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 10,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_MoriaGameMode_C",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_GameSessionManager_C",
+      "OuterIndex": -39,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BlueprintGeneratedClass",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_GameSessionManager_C",
+      "OuterIndex": -39,
+      "ClassPackage": "/Game/Tech/Managers/BP_GameSessionManager",
+      "ClassName": "BP_GameSessionManager_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_MoriaGameMode_C",
+      "OuterIndex": -38,
+      "ClassPackage": "/Game/Tech/GameModes/BP_MoriaGameMode",
+      "ClassName": "BP_MoriaGameMode_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Function",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Object",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Actor",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlueprintGeneratedClass",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameInstance",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameplayStatics",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "InheritableComponentHandler",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SceneComponent",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SCS_Node",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SimpleConstructionScript",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKGameInstanceBase",
+      "OuterIndex": -46,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKPopup",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKUIManager",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKUIScreen",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorGameSessionManager",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MoriaGameInstance",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorUIManager",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKPopupButtonUsed__DelegateSignature",
+      "OuterIndex": -47,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "OnJoiningGameFromFriendsList__DelegateSignature",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__Function",
+      "OuterIndex": -44,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ReceiveBeginPlay",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GetGameInstance",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GetGlobalManagerInternal",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ShowTwoButtonPopup",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Hide",
+      "OuterIndex": -19,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ClearJoiningGameFromFriendsList",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "IsJoiningGameFromFriendsList",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "LeaveCurrentGameToGoToJoinFriendsGame",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BPGetManager",
+      "OuterIndex": -22,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__InheritableComponentHandler",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "InheritableComponentHandler",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "IL_Dwarf_Empty",
+      "OuterIndex": -40,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "InventoryLoadout",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "IL_Dwarf_Starter",
+      "OuterIndex": -41,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "InventoryLoadout",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/GameModes/BP_MoriaGameMode",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Managers/BP_GameSessionManager",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/DataAssets/IL_Dwarf_Empty",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/DataAssets/IL_Dwarf_Starter",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/Data/StringTables/UI",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/UI/PopUp/WBP_UI_GenericPopup",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/CoreUObject",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/FGK",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/FGKUIToolkit",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Moria",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -1,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SceneComponent",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PointerToUberGraphFrame",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SCS_Node",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SCS_Node",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SimpleConstructionScript",
+      "OuterIndex": -45,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "UI",
+      "OuterIndex": -42,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__WBP_UI_GenericPopup_C",
+      "OuterIndex": -43,
+      "ClassPackage": "/Game/UI/PopUp/WBP_UI_GenericPopup",
+      "ClassName": "WBP_UI_GenericPopup_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WBP_UI_GenericPopup_C",
+      "OuterIndex": -43,
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetBlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WidgetTree",
+      "OuterIndex": -56,
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetTree",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 11,
+      "NameCount": 110
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Tech/GameModes/BP_MoriaGameMode_WakeUpOnSpawn",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 110,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}

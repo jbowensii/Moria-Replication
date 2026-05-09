@@ -1,0 +1,2931 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf",
+    "/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer",
+    "/Game/Character/Dwarf/BP_FGKDwarf",
+    "/Game/Environments/Lighting/BP_WorldLightingMaster",
+    "/Game/Player/BP_FGKMoriaPlayerController",
+    "/Game/Tech/GameModes/BP_MoriaGameMode",
+    "/Game/Tech/GameModes/BP_MoriaGameState",
+    "/Script/AIModule",
+    "/Script/AkAudio",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/FGK",
+    "/Script/Moria",
+    "/Script/UMG",
+    "AbilitySystem",
+    "AIPerceptionStimuliSource_GEN_VARIABLE",
+    "AIPerceptionStimuliSourceComponent",
+    "AkComponent",
+    "AkComponent_Voice",
+    "AkLeftFoot_GEN_VARIABLE",
+    "AkRightHand_GEN_VARIABLE",
+    "AllNodes",
+    "Arm_L_L Capsule_GEN_VARIABLE",
+    "Arm_L_U Capsule_GEN_VARIABLE",
+    "Arm_R_L Capsule_GEN_VARIABLE",
+    "Arm_R_U Capsule_GEN_VARIABLE",
+    "ArrayProperty",
+    "AttributeSet",
+    "BlueprintGeneratedClass",
+    "BodyFSMComp",
+    "BP_CharacterFallComponent_Dwarf_C",
+    "BP_CharacterFallComponent_Dwarf_GEN_VARIABLE",
+    "BP_DwarfGameplayEffectSerializer_C",
+    "BP_DwarfGameplayEffectSerializer_GEN_VARIABLE",
+    "BP_FGKDwarf_C",
+    "BP_FGKMoriaPlayerController_C",
+    "BP_MoriaGameMode_C",
+    "BP_MoriaGameState_C",
+    "BP_WorldLightingMaster_C",
+    "BubbleActivation",
+    "CapsuleComponent",
+    "Character Despawn FX",
+    "CharacterAttributeSet",
+    "CharacterMesh0",
+    "CharacterSaveDataComponent",
+    "CharMoveComp",
+    "ChatComponent_GEN_VARIABLE",
+    "Class",
+    "Cold",
+    "CollisionCylinder",
+    "ComponentClass",
+    "ComponentReplicator",
+    "ComponentTemplate",
+    "CustomizationManager",
+    "CustomizationManager_GEN_VARIABLE",
+    "Default",
+    "Default__BlueprintGeneratedClass",
+    "Default__BP_FGKDwarf_C",
+    "Default__BP_FGKMoriaPlayerController_C",
+    "Default__BP_MoriaGameMode_C",
+    "Default__BP_MoriaGameState_C",
+    "Default__BP_WorldLightingMaster_C",
+    "Default__Function",
+    "Default__MoriaGameMode",
+    "Default__SceneComponent",
+    "Default__SCS_Node",
+    "Default__SimpleConstructionScript",
+    "DefaultPawnClass",
+    "DefaultSceneRoot",
+    "DefaultSceneRoot_GEN_VARIABLE",
+    "DefaultSceneRootNode",
+    "DefaultTargetableComp",
+    "Despair",
+    "DirectionalLightComponent",
+    "EntryPoint",
+    "EquipComp",
+    "EquipOverrideComponent",
+    "ExecuteUbergraph_BP_MoriaGameMode",
+    "ExponentialHeightFogComponent",
+    "ExpressionContainer",
+    "FGKActorFSMComponent",
+    "FGKCheatsComponent",
+    "FGKParkourComponent",
+    "FGKTargetableComponent",
+    "FGKTargetingComponent",
+    "Foot_L_Capsule_GEN_VARIABLE",
+    "Foot_R_Capsule_GEN_VARIABLE",
+    "Function",
+    "Game",
+    "GameModeBase",
+    "GameStateClass",
+    "Guid",
+    "Head Capsule_GEN_VARIABLE",
+    "Hunger",
+    "InputFSMComp",
+    "InternalVariableName",
+    "IntProperty",
+    "InventoryComp",
+    "K2_PostLogin",
+    "K2Node_Event_NewPlayer",
+    "LastingInteractComp_GEN_VARIABLE",
+    "LastingInteractComponent",
+    "Leg_L_L Capsule_GEN_VARIABLE",
+    "Leg_L_U Capsule_GEN_VARIABLE",
+    "Leg_R_L Capsule_GEN_VARIABLE",
+    "Leg_R_U Capsule_GEN_VARIABLE",
+    "LightingClass",
+    "LinearColor",
+    "LocalDwarfLight_GEN_VARIABLE",
+    "LowHP",
+    "MiningSongComponent_GEN_VARIABLE",
+    "ModularCharacterComponent",
+    "MorAchievementComponent",
+    "MorAudioMeter_GEN_VARIABLE",
+    "MorAudioMeterComponent",
+    "MorBubbleActivationPlayerController",
+    "MorBuilding_GEN_VARIABLE",
+    "MorBuildingComponent",
+    "MorCharacterComponentReplicator",
+    "MorCharacterDespawnFXComponent",
+    "MorCharacterLightReflector_GEN_VARIABLE",
+    "MorCharacterLightReflectorComponent",
+    "MorCharacterMovementComponent",
+    "MorChatComponent",
+    "MorCheatsComponent",
+    "MorCrafting_GEN_VARIABLE",
+    "MorCraftingComponent",
+    "MorCursorSlotComponent",
+    "MorCursorSlotComponent_GEN_VARIABLE",
+    "MorDiscoverySnapshotRowHandle",
+    "MorDoorLoreTODSongJoin_GEN_VARIABLE",
+    "MorDoorLoreTODSongJoinComponent",
+    "MorDwarfOnDeathScreenFX_GEN_VARIABLE",
+    "MorDwarfOnDeathScreenFXComponent",
+    "MorDwarfWaterFX_GEN_VARIABLE",
+    "MorDwarfWaterFXComponent",
+    "MorEquipComponent",
+    "MorEquipOverrideComponent",
+    "MorGameplayLightSampler_GEN_VARIABLE",
+    "MorGameplayLightSamplerComponent",
+    "MorHeavyCarryHolder_GEN_VARIABLE",
+    "MorHeavyCarryHolderComponent",
+    "MorHoover_GEN_VARIABLE",
+    "MorHooverComponent",
+    "MoriaAbilitySystemComponent",
+    "MoriaGameMode",
+    "MoriaPlayerState",
+    "MorInteract_GEN_VARIABLE",
+    "MorInteractComponent",
+    "MorInventoryComponent",
+    "MorKegSongComponent",
+    "MorKegSongComponent_GEN_VARIABLE",
+    "MorMiningSongComponent",
+    "MorMonumentSong_GEN_VARIABLE",
+    "MorMonumentSongComponent",
+    "MorNetBigDataPlayerComponent",
+    "MorNoEpicPackBuff_GEN_VARIABLE",
+    "MorNoEpicPackBuffComponent",
+    "MorOverheadIndicator_GEN_VARIABLE",
+    "MorOverheadIndicatorComponent",
+    "MorPlayerProfileDataComponent",
+    "MorProcWorldRPCComponent",
+    "MorRecipeCostComponent",
+    "MorSettlementSongComponent",
+    "MorSettlementSongComponent_GEN_VARIABLE",
+    "MorSITAController_GEN_VARIABLE",
+    "MorSITAControllerComponent",
+    "MorSITANiagara_GEN_VARIABLE",
+    "MorSITANiagaraComponent",
+    "MorStaminaComponent",
+    "MorStaminaRegen_GEN_VARIABLE",
+    "MorSurvivalEffects_GEN_VARIABLE",
+    "MorSurvivalEffectsComponent",
+    "MorSyncedEquipment_GEN_VARIABLE",
+    "MorSyncedEquipmentComponent",
+    "MorThresholdEffectComponent",
+    "MorThresholdEffectComponent_GEN_VARIABLE",
+    "MorTipComponent",
+    "MorTutorialComponent",
+    "MorVenerationSongComponent",
+    "MorVenerationSongComponent_GEN_VARIABLE",
+    "MulticastInlineDelegateProperty",
+    "NameProperty",
+    "Neck Capsule_GEN_VARIABLE",
+    "NetBigDataPlayerComponent",
+    "NewPlayer",
+    "None",
+    "Object",
+    "ObjectProperty",
+    "OrcHunter",
+    "Package",
+    "ParkourComp",
+    "PersonalityComponent",
+    "PlayerColors",
+    "PlayerController",
+    "PlayerControllerClass",
+    "PlayerJoined",
+    "PlayerJoined__DelegateSignature",
+    "PlayerStateClass",
+    "PointerToUberGraphFrame",
+    "PointLightComponent",
+    "Poison",
+    "PostProcessComponent",
+    "PostProcessMaterial_PPV_GEN_VARIABLE",
+    "ProcWorldRPCComponent",
+    "ReplaySpectatorPlayerControllerClass",
+    "Root Component",
+    "RootNodes",
+    "RowName",
+    "SceneComponent",
+    "ScriptStruct",
+    "SCS_Node",
+    "ShadowDebuff",
+    "SimpleConstructionScript",
+    "Singing",
+    "SK_Backpack_GEN_VARIABLE",
+    "SK_BaseBody_GEN_VARIABLE",
+    "SK_Beard_GEN_VARIABLE",
+    "SK_Chest_GEN_VARIABLE",
+    "SK_Extras_GEN_VARIABLE",
+    "SK_Gloves_GEN_VARIABLE",
+    "SK_Hair_GEN_VARIABLE",
+    "SK_Hands_GEN_VARIABLE",
+    "SK_Hat_GEN_VARIABLE",
+    "SK_Head_GEN_VARIABLE",
+    "SK_Legs_GEN_VARIABLE",
+    "SkeletalMeshComponent",
+    "SkyLightComponent",
+    "SoundComp",
+    "Spine0 Capsule_GEN_VARIABLE",
+    "Spine1 Capsule_GEN_VARIABLE",
+    "Spine2 Capsule_GEN_VARIABLE",
+    "Spine3 Capsule_GEN_VARIABLE",
+    "Stamina Widget Component_GEN_VARIABLE",
+    "StartingDiscoverySnapshot",
+    "StaticMeshComponent",
+    "StructProperty",
+    "TargetingComp",
+    "TransformComponent0",
+    "TutorialComponent_GEN_VARIABLE",
+    "UberGraphFrame",
+    "UberGraphFunction",
+    "VariableGuid",
+    "VoiceComponent",
+    "WaypointSpawner_GEN_VARIABLE",
+    "WaypointSpawnerComponent",
+    "WidgetComponent",
+    "World Directional Light",
+    "World Fog",
+    "World Skylight"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Public, FUNC_Delegate, FUNC_BlueprintCallable, FUNC_BlueprintEvent",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -25,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "PlayerController",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 3,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "PlayerJoined__DelegateSignature",
+      "OuterIndex": 4,
+      "ClassIndex": -21,
+      "SuperIndex": 0,
+      "TemplateIndex": -41,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 98,
+      "SerialOffset": 13315,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -21,
+        -41
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Final, FUNC_UbergraphFunction",
+      "SuperStruct": 0,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FGenericProperty, UAssetAPI",
+          "ArrayDim": "TArray",
+          "ElementSize": 4,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "IntProperty",
+          "Name": "EntryPoint",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -25,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_None",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "K2Node_Event_NewPlayer",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_ComputedJump, UAssetAPI",
+          "CodeOffsetExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "EntryPoint"
+                ],
+                "ResolvedOwner": 2
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": -42,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "K2Node_Event_NewPlayer"
+                  ],
+                  "ResolvedOwner": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_CallMulticastDelegate, UAssetAPI",
+          "Delegate": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_InstanceVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "PlayerJoined"
+                ],
+                "ResolvedOwner": 4
+              }
+            }
+          },
+          "StackNode": 1,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+              "Variable": {
+                "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+                "New": {
+                  "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                  "Path": [
+                    "K2Node_Event_NewPlayer"
+                  ],
+                  "ResolvedOwner": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 60,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "ExecuteUbergraph_BP_MoriaGameMode",
+      "OuterIndex": 4,
+      "ClassIndex": -21,
+      "SuperIndex": 0,
+      "TemplateIndex": -41,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 226,
+      "SerialOffset": 13413,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        1,
+        -21,
+        -41
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.FunctionExport, UAssetAPI",
+      "FunctionFlags": "FUNC_Event, FUNC_Public, FUNC_BlueprintEvent",
+      "SuperStruct": -42,
+      "Children": [],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -25,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "NewPlayer",
+          "Flags": "RF_Public",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LetValueOnPersistentFrame, UAssetAPI",
+          "DestinationProperty": {
+            "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+            "New": {
+              "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+              "Path": [
+                "K2Node_Event_NewPlayer"
+              ],
+              "ResolvedOwner": 2
+            }
+          },
+          "AssignmentExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalVariable, UAssetAPI",
+            "Variable": {
+              "$type": "UAssetAPI.Kismet.Bytecode.KismetPropertyPointer, UAssetAPI",
+              "New": {
+                "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
+                "Path": [
+                  "NewPlayer"
+                ],
+                "ResolvedOwner": 3
+              }
+            }
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_LocalFinalFunction, UAssetAPI",
+          "StackNode": 2,
+          "Parameters": [
+            {
+              "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_IntConst, UAssetAPI",
+              "Value": 10
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Return, UAssetAPI",
+          "ReturnExpression": {
+            "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_Nothing, UAssetAPI"
+          }
+        },
+        {
+          "$type": "UAssetAPI.Kismet.Bytecode.Expressions.EX_EndOfScript, UAssetAPI"
+        }
+      ],
+      "ScriptBytecodeSize": 36,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "K2_PostLogin",
+      "OuterIndex": 4,
+      "ClassIndex": -21,
+      "SuperIndex": -42,
+      "TemplateIndex": -41,
+      "ObjectFlags": "RF_Public",
+      "SerialSize": 143,
+      "SerialOffset": 13639,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        -42
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        2,
+        -21,
+        -41
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": "AAAAAAAAAAA="
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
+      "FuncMap": [
+        [
+          "PlayerJoined__DelegateSignature",
+          1
+        ],
+        [
+          "ExecuteUbergraph_BP_MoriaGameMode",
+          2
+        ],
+        [
+          "K2_PostLogin",
+          3
+        ]
+      ],
+      "ClassFlags": "CLASS_Config, CLASS_Transient, CLASS_Parsed, CLASS_NotPlaceable, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
+      "ClassWithin": -22,
+      "ClassConfigName": "Game",
+      "Interfaces": [],
+      "ClassGeneratedBy": 0,
+      "bDeprecatedForceScriptOrder": false,
+      "bCooked": true,
+      "ClassDefaultObject": 5,
+      "SuperStruct": -29,
+      "Children": [
+        3,
+        2,
+        1
+      ],
+      "LoadedProperties": [
+        {
+          "$type": "UAssetAPI.FieldTypes.FStructProperty, UAssetAPI",
+          "Struct": -116,
+          "ArrayDim": "TArray",
+          "ElementSize": 16,
+          "PropertyFlags": "CPF_Transient, CPF_DuplicateTransient",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "StructProperty",
+          "Name": "UberGraphFrame",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
+          "PropertyClass": -26,
+          "ArrayDim": "TArray",
+          "ElementSize": 8,
+          "PropertyFlags": "CPF_BlueprintVisible, CPF_InstancedReference, CPF_NonTransactional",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "ObjectProperty",
+          "Name": "DefaultSceneRoot",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        },
+        {
+          "$type": "UAssetAPI.FieldTypes.FMulticastInlineDelegateProperty, UAssetAPI",
+          "SignatureFunction": 1,
+          "ArrayDim": "TArray",
+          "ElementSize": 16,
+          "PropertyFlags": "CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable",
+          "RepIndex": 0,
+          "RepNotifyFunc": "None",
+          "BlueprintReplicationCondition": "COND_None",
+          "RawValue": null,
+          "UsmapPropertyTypeOverrides": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[UAssetAPI.Unversioned.EPropertyType, UAssetAPI]], System.Private.CoreLib",
+            "MulticastInlineDelegateProperty": "MulticastDelegateProperty",
+            "ClassProperty": "ObjectProperty",
+            "SoftClassProperty": "SoftObjectProperty"
+          },
+          "SerializedType": "MulticastInlineDelegateProperty",
+          "Name": "PlayerJoined",
+          "Flags": "RF_Public, RF_LoadCompleted",
+          "MetaDataMap": null
+        }
+      ],
+      "ScriptBytecode": [],
+      "ScriptBytecodeSize": 0,
+      "ScriptBytecodeRaw": null,
+      "Field": {
+        "$type": "UAssetAPI.FieldTypes.UField, UAssetAPI",
+        "Next": null
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "SimpleConstructionScript",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 8
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "UberGraphFunction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 2
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "BP_MoriaGameMode_C",
+      "OuterIndex": 0,
+      "ClassIndex": -23,
+      "SuperIndex": -29,
+      "TemplateIndex": -12,
+      "ObjectFlags": "RF_Public, RF_Transactional",
+      "SerialSize": 339,
+      "SerialOffset": 13782,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        8,
+        -29
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -152,
+        -153,
+        -34,
+        -131,
+        -23,
+        -12
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "PointerToUberGraphFrame",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "UberGraphFrame",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": []
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "MorDiscoverySnapshotRowHandle",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "StartingDiscoverySnapshot",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+              "Name": "RowName",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "Default"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "LightingClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -9
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "StructProperty",
+          "Name": "PlayerColors",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.328125,
+                    "G": 0.10583200305700302,
+                    "B": 0.002770999912172556,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.035888999700546265,
+                    "G": 0.14135900139808655,
+                    "B": 0.328125,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.46875,
+                    "G": 0.4094429910182953,
+                    "B": 0.07297100126743317,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.029784999787807465,
+                    "G": 0.09375,
+                    "B": 0.050939999520778656,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.18744699656963348,
+                    "G": 0.056269001215696335,
+                    "B": 0.265625,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.125,
+                    "G": 0.07972600311040878,
+                    "B": 0.05859399959445,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.02973400056362152,
+                    "G": 0.10875000059604645,
+                    "B": 0.125,
+                    "A": 1.0
+                  }
+                }
+              ]
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "LinearColor",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "PlayerColors",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                  "Name": "PlayerColors",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": {
+                    "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                    "R": 0.11953800171613693,
+                    "G": 0.038203999400138855,
+                    "B": 0.038203999400138855,
+                    "A": 1.0
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "GameStateClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -11
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "PlayerControllerClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -10
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "PlayerStateClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -30
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "DefaultPawnClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -8
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ReplaySpectatorPlayerControllerClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 0
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "Default__BP_MoriaGameMode_C",
+      "OuterIndex": 0,
+      "ClassIndex": 4,
+      "SuperIndex": 0,
+      "TemplateIndex": -66,
+      "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
+      "SerialSize": 543,
+      "SerialOffset": 14121,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        6
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        4,
+        -66
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": 4,
+      "ClassIndex": -26,
+      "SuperIndex": 0,
+      "TemplateIndex": -115,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
+      "SerialSize": 12,
+      "SerialOffset": 14664,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [
+        5
+      ],
+      "SerializationBeforeCreateDependencies": [
+        3,
+        -26,
+        -115
+      ],
+      "CreateBeforeCreateDependencies": [
+        4
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentClass",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -26
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "ComponentTemplate",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 6
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Guid",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "VariableGuid",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI",
+              "Name": "VariableGuid",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "{E5C30CD7-4EDA-A9AD-C5EC-A6966311FA43}"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+          "Name": "InternalVariableName",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "DefaultSceneRoot"
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SCS_Node_0",
+      "OuterIndex": 8,
+      "ClassIndex": -27,
+      "SuperIndex": 0,
+      "TemplateIndex": -117,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 168,
+      "SerialOffset": 14676,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -27,
+        -117
+      ],
+      "CreateBeforeCreateDependencies": [
+        8
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "RootNodes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 7
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "AllNodes",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 7
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "DefaultSceneRootNode",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 7
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "SimpleConstructionScript_0",
+      "OuterIndex": 4,
+      "ClassIndex": -28,
+      "SuperIndex": 0,
+      "TemplateIndex": -118,
+      "ObjectFlags": "RF_Transactional",
+      "SerialSize": 123,
+      "SerialOffset": 14844,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        7
+      ],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -28,
+        -118
+      ],
+      "CreateBeforeCreateDependencies": [
+        6,
+        4
+      ],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "AIPerceptionStimuliSource_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/AIModule",
+      "ClassName": "AIPerceptionStimuliSourceComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "AkLeftFoot_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "AkRightHand_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "AkComponent_Voice",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SoundComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_CharacterFallComponent_Dwarf_C",
+      "OuterIndex": -89,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_DwarfGameplayEffectSerializer_C",
+      "OuterIndex": -90,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_FGKDwarf_C",
+      "OuterIndex": -88,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_WorldLightingMaster_C",
+      "OuterIndex": -91,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_FGKMoriaPlayerController_C",
+      "OuterIndex": -92,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_MoriaGameState_C",
+      "OuterIndex": -93,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BlueprintGeneratedClass",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_CharacterFallComponent_Dwarf_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf",
+      "ClassName": "BP_CharacterFallComponent_Dwarf_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_DwarfGameplayEffectSerializer_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer",
+      "ClassName": "BP_DwarfGameplayEffectSerializer_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_FGKDwarf_C",
+      "OuterIndex": -88,
+      "ClassPackage": "/Game/Character/Dwarf/BP_FGKDwarf",
+      "ClassName": "BP_FGKDwarf_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_FGKMoriaPlayerController_C",
+      "OuterIndex": -92,
+      "ClassPackage": "/Game/Player/BP_FGKMoriaPlayerController",
+      "ClassName": "BP_FGKMoriaPlayerController_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_MoriaGameState_C",
+      "OuterIndex": -93,
+      "ClassPackage": "/Game/Tech/GameModes/BP_MoriaGameState",
+      "ClassName": "BP_MoriaGameState_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_WorldLightingMaster_C",
+      "OuterIndex": -91,
+      "ClassPackage": "/Game/Environments/Lighting/BP_WorldLightingMaster",
+      "ClassName": "BP_WorldLightingMaster_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CollisionCylinder",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "CapsuleComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "AttributeSet",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "CharacterAttributeSet",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Function",
+      "OuterIndex": -94,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Object",
+      "OuterIndex": -94,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BlueprintGeneratedClass",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameModeBase",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PlayerController",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SceneComponent",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SCS_Node",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SimpleConstructionScript",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MoriaGameMode",
+      "OuterIndex": -96,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MoriaPlayerState",
+      "OuterIndex": -96,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CustomizationManager_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "CustomizationManager",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "World Directional Light",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DirectionalLightComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "World Fog",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "ExponentialHeightFogComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ExpressionContainer",
+      "OuterIndex": -17,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "ExpressionContainer",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BodyFSMComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKActorFSMComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "InputFSMComp",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKActorFSMComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "FGKCheatsComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKCheatsComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ParkourComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKParkourComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultTargetableComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKTargetableComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TargetingComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/FGK",
+      "ClassName": "FGKTargetingComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__Function",
+      "OuterIndex": -94,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Function",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "K2_PostLogin",
+      "OuterIndex": -24,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "LastingInteractComp_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "LastingInteractComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ModularCharacterComponent",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "ModularCharacterComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorAchievementComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorAchievementComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorAudioMeter_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorAudioMeterComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BubbleActivation",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorBubbleActivationPlayerController",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorBuilding_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorBuildingComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ComponentReplicator",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCharacterComponentReplicator",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Character Despawn FX",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCharacterDespawnFXComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorCharacterLightReflector_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCharacterLightReflectorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CharMoveComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCharacterMovementComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ChatComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorChatComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorCheatsComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCheatsComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorCrafting_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCraftingComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorCursorSlotComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorCursorSlotComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorDoorLoreTODSongJoin_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorDoorLoreTODSongJoinComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorDwarfOnDeathScreenFX_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorDwarfOnDeathScreenFXComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorDwarfWaterFX_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorDwarfWaterFXComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "EquipComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorEquipComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "EquipOverrideComponent",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorEquipOverrideComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorGameplayLightSampler_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorGameplayLightSamplerComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorHeavyCarryHolder_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorHeavyCarryHolderComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorHoover_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorHooverComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "AbilitySystem",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MoriaAbilitySystemComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__MoriaGameMode",
+      "OuterIndex": -96,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MoriaGameMode",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorInteract_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorInteractComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "InventoryComp",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorInventoryComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorKegSongComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorKegSongComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MiningSongComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorMiningSongComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorMonumentSong_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorMonumentSongComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "NetBigDataPlayerComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorNetBigDataPlayerComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorNoEpicPackBuff_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorNoEpicPackBuffComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorOverheadIndicator_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorOverheadIndicatorComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CharacterSaveDataComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorPlayerProfileDataComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ProcWorldRPCComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorProcWorldRPCComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorRecipeCostComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorRecipeCostComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorSettlementSongComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorSettlementSongComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorSITAController_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorSITAControllerComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorSITANiagara_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorSITANiagaraComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorStaminaRegen_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorStaminaComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorSurvivalEffects_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorSurvivalEffectsComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorSyncedEquipment_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorSyncedEquipmentComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorThresholdEffectComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorThresholdEffectComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorTipComponent",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorTipComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TutorialComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorTutorialComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MorVenerationSongComponent_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorVenerationSongComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Dwarf/BP_FGKDwarf",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Dwarf/BP_CharacterFallComponent_Dwarf",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Character/Dwarf/BP_DwarfGameplayEffectSerializer",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Environments/Lighting/BP_WorldLightingMaster",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Player/BP_FGKMoriaPlayerController",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Tech/GameModes/BP_MoriaGameState",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/CoreUObject",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Moria",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PersonalityComponent",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "PersonalityComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "LocalDwarfLight_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PointLightComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PostProcessComponent_0",
+      "OuterIndex": -58,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PostProcessMaterial_PPV_GEN_VARIABLE",
+      "OuterIndex": -9,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Cold",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Despair",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Hunger",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "LowHP",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "OrcHunter",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Poison",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ShadowDebuff",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Singing",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "PostProcessComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -9,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Root Component",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -10,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "TransformComponent0",
+      "OuterIndex": -16,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
+      "OuterIndex": -11,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SceneComponent",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "PointerToUberGraphFrame",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SCS_Node",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SCS_Node",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__SimpleConstructionScript",
+      "OuterIndex": -95,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Backpack_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_BaseBody_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Beard_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Chest_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Extras_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Gloves_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Hair_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Hands_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Hat_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Head_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SK_Legs_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "CharacterMesh0",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkeletalMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "World Skylight",
+      "OuterIndex": -18,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SkyLightComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Arm_L_L Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Arm_L_U Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Arm_R_L Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Arm_R_U Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Foot_L_Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Foot_R_Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Head Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Leg_L_L Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Leg_L_U Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Leg_R_L Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Leg_R_U Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Neck Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Spine0 Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Spine1 Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Spine2 Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Spine3 Capsule_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMeshComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "VoiceComponent",
+      "OuterIndex": -15,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "VoiceComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "WaypointSpawner_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "WaypointSpawnerComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Stamina Widget Component_GEN_VARIABLE",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/UMG",
+      "ClassName": "WidgetComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SimpleConstructionScript_0",
+      "OuterIndex": -8,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SCS_Node_38",
+      "OuterIndex": -151,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SCS_Node",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SimpleConstructionScript_0",
+      "OuterIndex": -10,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 8,
+      "NameCount": 250
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Tech/GameModes/BP_MoriaGameMode",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 250,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}
