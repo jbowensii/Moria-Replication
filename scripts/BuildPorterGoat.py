@@ -69,7 +69,7 @@ USMAP_NAME = 'Moria'
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.1.1'
+MOD_VERSION = '1.1.2'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -141,6 +141,11 @@ DTS = [
     ('Tech/Managers/BP_NPCManager',
      'Tech/Managers/BP_NPCManager',
      'BP_NPCManager'),
+    # v1.1.2 — co-locate goat with Survivor_2 in 3-2 LowerDeeps via
+    # SurvivorRescue2 challenge spawn group.
+    ('Tech/Data/GameWorld/DT_Moria_AIChallengeSpawns',
+     'Tech/Data/GameWorld/DT_Moria_AIChallengeSpawns',
+     'DT_Moria_AIChallengeSpawns'),
 ]
 
 # Pack class for v1.0.5 DummyEquipment override
@@ -833,6 +838,66 @@ def edit_bp_npcmanager(data):
     return True
 
 
+def edit_ai_challenge_spawns(data):
+    """Append BP_NpcGoat_C to SurvivorRescue2.CharactersToSpawn map.
+
+    SurvivorRescue2 already spawns BP_NpcDwarf_Survivor_2 + BP_Monster_Wolf
+    (wolf attacks survivor, player rescues). Adding the goat as a third
+    entry places it at the same world-gen-distributed location in
+    3-2 LowerDeeps (per DT_Moria_ZoneChallenges.3-2_LowerDeeps).
+
+    Schema: MapPropertyData with array-of-[Key,Value] pairs.
+      Key: SoftObjectPropertyData (TSoftClassPtr<>) carrying AssetName
+      Value: UInt32PropertyData (count)
+    """
+    rows = data['Exports'][0]['Table']['Data']
+    target_row = next((r for r in rows if r.get('Name') == 'SurvivorRescue2'), None)
+    if target_row is None:
+        log("    ERROR: SurvivorRescue2 row not found")
+        return False
+
+    map_prop = next((p for p in target_row['Value']
+                     if isinstance(p, dict) and p.get('Name') == 'CharactersToSpawn'), None)
+    if map_prop is None:
+        log("    ERROR: CharactersToSpawn map not found on SurvivorRescue2")
+        return False
+
+    entries = map_prop.get('Value', [])
+    # Idempotency: check if BP_NpcGoat_C is already in the map
+    for pair in entries:
+        if isinstance(pair, list) and len(pair) == 2:
+            k = pair[0]
+            kv = k.get('Value', {}) if isinstance(k, dict) else {}
+            ap = kv.get('AssetPath', {}) if isinstance(kv, dict) else {}
+            if isinstance(ap, dict) and ap.get('AssetName') == NPCGOAT_CLASS_PATH:
+                log("    NOTE: BP_NpcGoat_C already in SurvivorRescue2.CharactersToSpawn (idempotent skip)")
+                return True
+
+    if not entries:
+        log("    ERROR: CharactersToSpawn map empty; cannot use template")
+        return False
+
+    # Clone the first pair as a template and retarget the AssetName
+    template = copy.deepcopy(entries[0])
+    if isinstance(template, list) and len(template) == 2:
+        k = template[0]
+        kv = k.get('Value', {})
+        ap = kv.get('AssetPath', {})
+        ap['AssetName'] = NPCGOAT_CLASS_PATH
+        # Set count to 1
+        v = template[1]
+        v['Value'] = 1
+
+    entries.append(template)
+    log(f"    SurvivorRescue2.CharactersToSpawn += {NPCGOAT_CLASS_PATH} (count=1)")
+    log(f"    Entry count: {len(entries)} (was {len(entries)-1})")
+
+    # NameMap entries — soft path strings get FName-serialised
+    for n in [NPCGOAT_PACKAGE_PATH, NPCGOAT_CLASS_PATH]:
+        ensure_namemap_entry(data, n)
+    return True
+
+
 EDIT_FUNCS = {
     'DT_NPCRoles': edit_npcroles,
     'DT_Moria_AI_Population': edit_ai_population,
@@ -846,6 +911,8 @@ EDIT_FUNCS = {
     'DT_ContainerItems': edit_dt_containeritems,
     # v1.1.1 — unblocked by usmap; appends BP_NpcGoat_C to NPCManager whitelist
     'BP_NPCManager': edit_bp_npcmanager,
+    # v1.1.2 — co-locate goat with Survivor_2 in 3-2 LowerDeeps
+    'DT_Moria_AIChallengeSpawns': edit_ai_challenge_spawns,
 }
 
 
@@ -987,8 +1054,8 @@ def main():
     if r.returncode == 0:
         lines = [l for l in r.stdout.strip().split('\n') if l.strip()]
         export_count = sum(1 for l in lines if 'ExportBundleData' in l)
-        # v1.1.0 had 10; v1.1.1 adds BP_NPCManager override = 11 total
-        log(f"  ExportBundleData entries: {export_count} (expected 11 for v1.1.1)")
+        # v1.1.1 had 11; v1.1.2 adds DT_Moria_AIChallengeSpawns override = 12 total
+        log(f"  ExportBundleData entries: {export_count} (expected 12 for v1.1.2)")
     log()
 
     # ----------------------------------------------------------------- 7
@@ -1023,6 +1090,9 @@ def main():
     log(f"    - BP_NPCManager.ValidNpcClasses += BP_NpcGoat_C")
     log(f"      (uses UAssetGUI v1.1.0 + Moria.usmap from UE4SS dumper)")
     log(f"      Save persistence: goat now passes ValidNpcClasses filter on save loop.")
+    log(f"  v1.1.2 — world-placed goat in Lower Deeps:")
+    log(f"    - DT_Moria_AIChallengeSpawns.SurvivorRescue2.CharactersToSpawn")
+    log(f"      += BP_NpcGoat_C  (spawns alongside Survivor_2 + Wolf in 3-2 LowerDeeps)")
     log(f"  Pak: {PAK_NAME}")
     log(f"  Zip: {zip_path}")
     log(f"  Install: extract zip to <game>/Moria/Content/Paks/~mods/")
