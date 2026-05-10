@@ -69,7 +69,7 @@ USMAP_NAME = 'Moria'
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.2.0'
+MOD_VERSION = '1.2.1'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -733,6 +733,49 @@ def edit_bp_npcgoat(data):
         inv_deps.append(goat_bi_idx)
     invcomp_export['CreateBeforeSerializationDependencies'] = inv_deps
     log(f"    InventoryComp.CreateBeforeSerializationDependencies updated: {inv_deps}")
+
+    # ---------------------------------------------------------------- (3)
+    # v1.2.1: force pre-rescue state on the goat's MorNPC component.
+    # In v1.2.0 (no bool overrides), the goat in 3-2 LowerDeeps appears with
+    # a "Manage Goat" prompt — meaning bIsRescued evaluates to true by
+    # default (C++ default differs from what we assumed). To surface a
+    # Rescue prompt instead, explicitly override bIsRescued=false and
+    # bRescueInteractionEnabled=true on the BP CDO.
+    morpc_export = next((e for e in data.get('Exports', [])
+                         if e.get('ObjectName') == 'MorNPC_GEN_VARIABLE'), None)
+    if morpc_export is None:
+        morpc_export = next((e for e in data.get('Exports', [])
+                             if e.get('ObjectName') == 'MorNPC'), None)
+    if morpc_export is None:
+        log("    WARN: MorNPC component export not found — skipping pre-rescue state override")
+        return True
+
+    bool_flags = {
+        'bIsRescued': False,                  # force pre-rescue state
+        'bRescueInteractionEnabled': True,    # ensure Rescue prompt surfaces
+    }
+    morpc_data = morpc_export.setdefault('Data', [])
+    for fname, fval in bool_flags.items():
+        existing = next((p for p in morpc_data
+                         if isinstance(p, dict) and p.get('Name') == fname), None)
+        if existing:
+            log(f"    NOTE: MorNPC.{fname} already overridden (skip)")
+            continue
+        ensure_namemap_entry(data, fname)
+        new_prop = {
+            '$type': 'UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI',
+            'Name': fname,
+            'ArrayIndex': 0,
+            'PropertyGuid': None,
+            'IsZero': False,
+            'PropertyTagFlags': 'None',
+            'PropertyTypeName': None,
+            'PropertyTagExtensions': 'NoExtension',
+            'Value': fval,
+        }
+        morpc_data.append(new_prop)
+        log(f"    MorNPC.{fname} = {fval}")
+
     return True
 
 
@@ -1055,7 +1098,11 @@ def main():
     log(f"  DROPPED vs v1.1.3:")
     log(f"    - BP_MoriaGameMode_MainMenu load anchor (was for keybind only)")
     log(f"    - BP_NpcGoat.EquipComp.DummyEquipment (always dormant)")
-    log(f"    - BP_NpcGoat.MorNPC bool flags (didn't unlock rescue path)")
+    log(f"    - v1.1.3 full bool-set (bManageInteractionEnabled, bInteractionEnabled)")
+    log(f"  ")
+    log(f"  v1.2.1 surgical override (in-game observed: 'Manage Goat' instead of 'Rescue'):")
+    log(f"    - BP_NpcGoat.MorNPC.bIsRescued = false   (force pre-rescue state)")
+    log(f"    - BP_NpcGoat.MorNPC.bRescueInteractionEnabled = true   (defensive)")
     log(f"  ")
     log(f"  CANNOT do via mod pak (editor-required):")
     log(f"    - Add MorWandererComponent SCS to BP_NpcGoat (SCS surgery)")

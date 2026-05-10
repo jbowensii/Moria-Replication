@@ -490,7 +490,9 @@
     "WidgetTree",
     "DefaultContainers",
     "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory",
-    "BP_ContainerItem_Goat_BodyInventory_C"
+    "BP_ContainerItem_Goat_BodyInventory_C",
+    "bIsRescued",
+    "bRescueInteractionEnabled"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -9007,6 +9009,28 @@
               "Value": "3CDAED86429AA7A735983CBED36B9FB3"
             }
           ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bIsRescued",
+          "ArrayIndex": 0,
+          "PropertyGuid": null,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": false
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bRescueInteractionEnabled",
+          "ArrayIndex": 0,
+          "PropertyGuid": null,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
         }
       ],
       "ObjectGuid": null,
