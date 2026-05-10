@@ -69,7 +69,7 @@ USMAP_NAME = 'Moria'
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.1.3'
+MOD_VERSION = '1.2.0'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -116,9 +116,9 @@ DTS = [
     ('Character/AI/Spawning/DT_AICharacterSettings',
      'Character/AI/Spawning/DT_AICharacterSettings',
      'DT_AICharacterSettings'),
-    ('Tech/GameModes/BP_MoriaGameMode_MainMenu',
-     'Tech/GameModes/BP_MoriaGameMode_MainMenu',
-     'BP_MoriaGameMode_MainMenu'),
+    # v1.2.0: BP_MoriaGameMode_MainMenu DROPPED — was a load anchor for keybind
+    # path; VS-Claude's wanderer-spawn pivot doesn't need it. Restoring dwarf
+    # at character-selection screen.
     ('Character/NpcGoat/BP_NpcGoat',
      'Character/NpcGoat/BP_NpcGoat',
      'BP_NpcGoat'),
@@ -663,52 +663,20 @@ def _add_bp_class_imports(data, pkg_path, class_name, label):
 
 
 def edit_bp_npcgoat(data):
-    """Two BP_NpcGoat CDO edits:
+    """Single BP_NpcGoat CDO edit (v1.2.0):
 
-    1. v1.0.5 carry-forward: EquipComp.DummyEquipment ->
-       BP_EpicPack_AdventurersPack_Large_C  (dormant; auto-attach didn't fire,
-       but harmless to leave in place).
+    InventoryComp.DefaultContainers -> [BP_ContainerItem_Goat_BodyInventory_C]
+       (gives the goat its 8x8 BodyInventory grid via the wrapper BP)
 
-    2. v1.1.0 Phase 2: InventoryComp.DefaultContainers ->
-       [BP_ContainerItem_Goat_BodyInventory_C]  (gives the goat its 8x8
-       BodyInventory grid via the new wrapper BP we ship in this pak).
+    Dropped vs prior versions:
+      - v1.0.5 EquipComp.DummyEquipment override (always dormant; never fired
+        the auto-attach we hoped for)
+      - v1.1.3 MorNPC bool flags (bRescueInteractionEnabled etc.) — VS-Claude
+        runtime trace showed the bools alone don't surface a working rescue;
+        the per-instance Blueprint event handler OnNpcRescued_Event_2 is what
+        actually flips state, and bytecode injection is beyond UAssetGUI.
     """
-    # ---------------------------------------------------------------- (1)
-    # EquipComp.DummyEquipment override (carry-forward from v1.0.5)
-    equipcomp_export = next((e for e in data.get('Exports', [])
-                             if e.get('ObjectName') == 'EquipComp'), None)
-    if equipcomp_export is None:
-        log("    ERROR: EquipComp export not found")
-        return False
-
-    has_dummy = any(p.get('Name') == 'DummyEquipment'
-                    for p in equipcomp_export.get('Data', []))
-    if has_dummy:
-        log("    NOTE: EquipComp.DummyEquipment already set (idempotent skip)")
-    else:
-        for n in ['DummyEquipment', PACK_PACKAGE_PATH, PACK_CLASS_NAME]:
-            ensure_namemap_entry(data, n)
-        pack_class_idx = _add_bp_class_imports(
-            data, PACK_PACKAGE_PATH, PACK_CLASS_NAME, 'AdventurersPack')
-        new_prop = {
-            '$type': 'UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI',
-            'Name': 'DummyEquipment',
-            'ArrayIndex': 0,
-            'IsZero': False,
-            'PropertyTagFlags': 'None',
-            'PropertyTagExtensions': 'NoExtension',
-            'Value': pack_class_idx,
-        }
-        equipcomp_export.setdefault('Data', []).append(new_prop)
-        log(f"    EquipComp.DummyEquipment = {pack_class_idx} ({PACK_CLASS_NAME})")
-        deps = equipcomp_export.get('CreateBeforeSerializationDependencies', [])
-        if pack_class_idx not in deps:
-            deps.append(pack_class_idx)
-        equipcomp_export['CreateBeforeSerializationDependencies'] = deps
-        log(f"    EquipComp.CreateBeforeSerializationDependencies updated: {deps}")
-
-    # ---------------------------------------------------------------- (2)
-    # InventoryComp.DefaultContainers override (v1.1.0 Phase 2)
+    # InventoryComp.DefaultContainers override
     invcomp_export = next((e for e in data.get('Exports', [])
                            if e.get('ObjectName') == 'InventoryComp'), None)
     if invcomp_export is None:
@@ -765,54 +733,6 @@ def edit_bp_npcgoat(data):
         inv_deps.append(goat_bi_idx)
     invcomp_export['CreateBeforeSerializationDependencies'] = inv_deps
     log(f"    InventoryComp.CreateBeforeSerializationDependencies updated: {inv_deps}")
-
-    # ---------------------------------------------------------------- (3)
-    # MorNPC component bool overrides (v1.1.3) — make Rescue prompt surface
-    # on E-press AND Manage prompt show post-rescue.
-    #
-    # The 7 MorInteraction structs are configured (Rescue/Manage/Revive on
-    # the goat — minus Talk/Details/Recruit which are missing structs).
-    # The bRescueInteractionEnabled / bManageInteractionEnabled bools are
-    # NOT overridden by default on BP_NpcGoat — they inherit from C++.
-    # Per usmap dump, these bools exist on MorNPCComponent.
-    # Adding them as CDO overrides forces the prompts to surface.
-    morpc_export = next((e for e in data.get('Exports', [])
-                         if e.get('ObjectName') == 'MorNPC_GEN_VARIABLE'), None)
-    if morpc_export is None:
-        # Fall back: some BPs name it 'MorNPC' without the GEN_VARIABLE suffix
-        morpc_export = next((e for e in data.get('Exports', [])
-                             if e.get('ObjectName') == 'MorNPC'), None)
-    if morpc_export is None:
-        log("    WARN: MorNPC component export not found — skipping interaction-bool overrides")
-        return True
-
-    bool_flags = {
-        'bRescueInteractionEnabled': True,
-        'bManageInteractionEnabled': True,
-        'bInteractionEnabled': True,
-    }
-    morpc_data = morpc_export.setdefault('Data', [])
-    for fname, fval in bool_flags.items():
-        existing = next((p for p in morpc_data
-                         if isinstance(p, dict) and p.get('Name') == fname), None)
-        if existing:
-            log(f"    NOTE: MorNPC.{fname} already overridden (skip)")
-            continue
-        ensure_namemap_entry(data, fname)
-        new_prop = {
-            '$type': 'UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI',
-            'Name': fname,
-            'ArrayIndex': 0,
-            'PropertyGuid': None,
-            'IsZero': False,
-            'PropertyTagFlags': 'None',
-            'PropertyTypeName': None,
-            'PropertyTagExtensions': 'NoExtension',
-            'Value': fval,
-        }
-        morpc_data.append(new_prop)
-        log(f"    MorNPC.{fname} = {fval}")
-
     return True
 
 
@@ -949,16 +869,13 @@ EDIT_FUNCS = {
     'DT_NPCRoles': edit_npcroles,
     'DT_Moria_AI_Population': edit_ai_population,
     'DT_AICharacterSettings': edit_aicharsettings,
-    'BP_MoriaGameMode_MainMenu': edit_mainmenu_gamemode,
+    # v1.2.0: BP_MoriaGameMode_MainMenu DROPPED (was load anchor for keybind)
     'BP_NpcGoat': edit_bp_npcgoat,
-    # v1.1.0 Phase 1
     'DT_NPCInventoryPresets': edit_npcinventorypresets,
     'DT_NPCUniqueCharacters': edit_npcuniquecharacters,
     'DT_Storage': edit_dt_storage,
     'DT_ContainerItems': edit_dt_containeritems,
-    # v1.1.1 — unblocked by usmap; appends BP_NpcGoat_C to NPCManager whitelist
     'BP_NPCManager': edit_bp_npcmanager,
-    # v1.1.2 — co-locate goat with Survivor_2 in 3-2 LowerDeeps
     'DT_Moria_AIChallengeSpawns': edit_ai_challenge_spawns,
 }
 
@@ -1101,8 +1018,8 @@ def main():
     if r.returncode == 0:
         lines = [l for l in r.stdout.strip().split('\n') if l.strip()]
         export_count = sum(1 for l in lines if 'ExportBundleData' in l)
-        # v1.1.1 had 11; v1.1.2 adds DT_Moria_AIChallengeSpawns override = 12 total
-        log(f"  ExportBundleData entries: {export_count} (expected 12 for v1.1.2)")
+        # v1.2.0: dropped MainMenu (was 12) → 11 total
+        log(f"  ExportBundleData entries: {export_count} (expected 11 for v1.2.0)")
     log()
 
     # ----------------------------------------------------------------- 7
@@ -1118,34 +1035,34 @@ def main():
     # ------------------------------------------------------------- summary
     log(f"\n{'='*60}")
     log(f"  PorterGoat v{MOD_VERSION} -- BUILD SUCCESSFUL")
-    log(f"  Carried-forward edits from v1.0.5:")
-    log(f"    - DT_NPCRoles: Porter Disabled -> Live  (+ label cleanup in v1.1.0)")
+    log(f"  v1.2.0: scoped to wanderer-spawn pivot (per VS-Claude PE trace)")
+    log(f"  ")
+    log(f"  Editor-side edits:")
+    log(f"    DT edits:")
+    log(f"    - DT_NPCRoles: Porter Disabled -> Live  (+ label cleanup)")
+    log(f"    - DT_NPCInventoryPresets: +1 row 'Porter'")
+    log(f"    - DT_NPCUniqueCharacters: +1 row 'PorterGoat'")
+    log(f"    - DT_Storage: +1 row 'Goat.BodyInventory' (8x8)")
+    log(f"    - DT_ContainerItems: +1 row 'Goat.BodyInventory'")
     log(f"    - DT_Moria_AI_Population: +1 row 'NpcGoat'")
     log(f"    - DT_AICharacterSettings: +1 row 'NpcGoat'")
-    log(f"    - BP_MoriaGameMode_MainMenu: DefaultPawnClass -> BP_NpcGoat_C (load anchor)")
-    log(f"    - BP_NpcGoat: EquipComp.DummyEquipment = AdventurersPack_Large (dormant)")
-    log(f"  v1.1.0 Phase 1 — proper-NPC registration:")
-    log(f"    - DT_NPCRoles: Porter labels cleaned ('*[Bug this]' removed)")
-    log(f"    - DT_NPCInventoryPresets: +1 row 'Porter' (cloned from EmptyLoadout)")
-    log(f"    - DT_NPCUniqueCharacters: +1 row 'PorterGoat' -> BP_NpcGoat_C")
-    log(f"    - DT_Storage: +1 row 'Goat.BodyInventory' (8x8, no weapon slots)")
-    log(f"    - DT_ContainerItems: +1 row 'Goat.BodyInventory'")
-    log(f"  v1.1.0 Phase 2 — goat 8x8 inventory wrapper:")
+    log(f"    - DT_Moria_AIChallengeSpawns.SurvivorRescue2 += BP_NpcGoat_C")
+    log(f"    BP / Manager edits:")
+    log(f"    - BP_NPCManager.ValidNpcClasses += BP_NpcGoat_C  (via Moria.usmap)")
+    log(f"    - BP_NpcGoat.InventoryComp.DefaultContainers += Goat.BodyInventory wrapper")
     log(f"    - NEW: BP_ContainerItem_Goat_BodyInventory at /Game/Mods/PorterGoat/Items/")
-    log(f"    - BP_NpcGoat: InventoryComp.DefaultContainers += [Goat.BodyInventory wrapper]")
-    log(f"  v1.1.1 — UNBLOCKED via Moria usmap:")
-    log(f"    - BP_NPCManager.ValidNpcClasses += BP_NpcGoat_C")
-    log(f"      (uses UAssetGUI v1.1.0 + Moria.usmap from UE4SS dumper)")
-    log(f"      Save persistence: goat now passes ValidNpcClasses filter on save loop.")
-    log(f"  v1.1.2 — world-placed goat in Lower Deeps:")
-    log(f"    - DT_Moria_AIChallengeSpawns.SurvivorRescue2.CharactersToSpawn")
-    log(f"      += BP_NpcGoat_C  (spawns alongside Survivor_2 + Wolf in 3-2 LowerDeeps)")
-    log(f"  v1.1.3 — interaction prompts on goat:")
-    log(f"    - BP_NpcGoat.MorNPC.bRescueInteractionEnabled = true")
-    log(f"    - BP_NpcGoat.MorNPC.bManageInteractionEnabled = true")
-    log(f"    - BP_NpcGoat.MorNPC.bInteractionEnabled = true (master)")
-    log(f"      Pre-rescue: E shows 'Rescue' prompt")
-    log(f"      Post-rescue: E shows 'Manage Goat' prompt")
+    log(f"  ")
+    log(f"  DROPPED vs v1.1.3:")
+    log(f"    - BP_MoriaGameMode_MainMenu load anchor (was for keybind only)")
+    log(f"    - BP_NpcGoat.EquipComp.DummyEquipment (always dormant)")
+    log(f"    - BP_NpcGoat.MorNPC bool flags (didn't unlock rescue path)")
+    log(f"  ")
+    log(f"  CANNOT do via mod pak (editor-required):")
+    log(f"    - Add MorWandererComponent SCS to BP_NpcGoat (SCS surgery)")
+    log(f"    - Add OnNpcRescued_Event_2 BP event handler (bytecode injection)")
+    log(f"    - Add BndEvt MorNpcOnTalkInteraction handler")
+    log(f"    Without these, the rescue prompt may show but state-flip on")
+    log(f"    confirm won't fire. Per VS-Claude trace 2026-05-10.")
     log(f"  Pak: {PAK_NAME}")
     log(f"  Zip: {zip_path}")
     log(f"  Install: extract zip to <game>/Moria/Content/Paks/~mods/")
