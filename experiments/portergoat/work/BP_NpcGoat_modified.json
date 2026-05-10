@@ -493,7 +493,10 @@
     "BP_EpicPack_AdventurersPack_Large_C",
     "DefaultContainers",
     "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory",
-    "BP_ContainerItem_Goat_BodyInventory_C"
+    "BP_ContainerItem_Goat_BodyInventory_C",
+    "bRescueInteractionEnabled",
+    "bManageInteractionEnabled",
+    "bInteractionEnabled"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -9022,6 +9025,39 @@
               "Value": "3CDAED86429AA7A735983CBED36B9FB3"
             }
           ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bRescueInteractionEnabled",
+          "ArrayIndex": 0,
+          "PropertyGuid": null,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bManageInteractionEnabled",
+          "ArrayIndex": 0,
+          "PropertyGuid": null,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bInteractionEnabled",
+          "ArrayIndex": 0,
+          "PropertyGuid": null,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
         }
       ],
       "ObjectGuid": null,

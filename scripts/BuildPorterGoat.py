@@ -69,7 +69,7 @@ USMAP_NAME = 'Moria'
 UE_VERSION = 'VER_UE4_27'
 RETOC_VERSION = 'UE4_27'
 
-MOD_VERSION = '1.1.2'
+MOD_VERSION = '1.1.3'
 PAK_NAME = 'PorterGoat_P'
 NPCGOAT_CLASS_PATH = '/Game/Character/NpcGoat/BP_NpcGoat.BP_NpcGoat_C'
 NPCGOAT_PACKAGE_PATH = '/Game/Character/NpcGoat/BP_NpcGoat'
@@ -766,6 +766,53 @@ def edit_bp_npcgoat(data):
     invcomp_export['CreateBeforeSerializationDependencies'] = inv_deps
     log(f"    InventoryComp.CreateBeforeSerializationDependencies updated: {inv_deps}")
 
+    # ---------------------------------------------------------------- (3)
+    # MorNPC component bool overrides (v1.1.3) — make Rescue prompt surface
+    # on E-press AND Manage prompt show post-rescue.
+    #
+    # The 7 MorInteraction structs are configured (Rescue/Manage/Revive on
+    # the goat — minus Talk/Details/Recruit which are missing structs).
+    # The bRescueInteractionEnabled / bManageInteractionEnabled bools are
+    # NOT overridden by default on BP_NpcGoat — they inherit from C++.
+    # Per usmap dump, these bools exist on MorNPCComponent.
+    # Adding them as CDO overrides forces the prompts to surface.
+    morpc_export = next((e for e in data.get('Exports', [])
+                         if e.get('ObjectName') == 'MorNPC_GEN_VARIABLE'), None)
+    if morpc_export is None:
+        # Fall back: some BPs name it 'MorNPC' without the GEN_VARIABLE suffix
+        morpc_export = next((e for e in data.get('Exports', [])
+                             if e.get('ObjectName') == 'MorNPC'), None)
+    if morpc_export is None:
+        log("    WARN: MorNPC component export not found — skipping interaction-bool overrides")
+        return True
+
+    bool_flags = {
+        'bRescueInteractionEnabled': True,
+        'bManageInteractionEnabled': True,
+        'bInteractionEnabled': True,
+    }
+    morpc_data = morpc_export.setdefault('Data', [])
+    for fname, fval in bool_flags.items():
+        existing = next((p for p in morpc_data
+                         if isinstance(p, dict) and p.get('Name') == fname), None)
+        if existing:
+            log(f"    NOTE: MorNPC.{fname} already overridden (skip)")
+            continue
+        ensure_namemap_entry(data, fname)
+        new_prop = {
+            '$type': 'UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI',
+            'Name': fname,
+            'ArrayIndex': 0,
+            'PropertyGuid': None,
+            'IsZero': False,
+            'PropertyTagFlags': 'None',
+            'PropertyTypeName': None,
+            'PropertyTagExtensions': 'NoExtension',
+            'Value': fval,
+        }
+        morpc_data.append(new_prop)
+        log(f"    MorNPC.{fname} = {fval}")
+
     return True
 
 
@@ -1093,6 +1140,12 @@ def main():
     log(f"  v1.1.2 — world-placed goat in Lower Deeps:")
     log(f"    - DT_Moria_AIChallengeSpawns.SurvivorRescue2.CharactersToSpawn")
     log(f"      += BP_NpcGoat_C  (spawns alongside Survivor_2 + Wolf in 3-2 LowerDeeps)")
+    log(f"  v1.1.3 — interaction prompts on goat:")
+    log(f"    - BP_NpcGoat.MorNPC.bRescueInteractionEnabled = true")
+    log(f"    - BP_NpcGoat.MorNPC.bManageInteractionEnabled = true")
+    log(f"    - BP_NpcGoat.MorNPC.bInteractionEnabled = true (master)")
+    log(f"      Pre-rescue: E shows 'Rescue' prompt")
+    log(f"      Post-rescue: E shows 'Manage Goat' prompt")
     log(f"  Pak: {PAK_NAME}")
     log(f"  Zip: {zip_path}")
     log(f"  Install: extract zip to <game>/Moria/Content/Paks/~mods/")
